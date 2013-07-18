@@ -1,0 +1,97 @@
+.flat-blue-button {
+font-family: 'ProximaNova-Bold';
+background-image: none;
+border: none;
+background-color: #33a5c8;
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+border-radius: 2px;
+display: inline-block;
+line-height: 20px;
+color: #ffffff;
+font-size: 14px;
+padding: 6px 15px 6px 15px;
+text-shadow: none;
+text-align: center;
+box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.2);
+-moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.2);
+-webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.2);
+transition: 0.1s linear;
+-moz-transition: 0.1s linear;
+-webkit-transition: 0.1s linear;
+}
+
+.button {
+text-decoration: none !important;
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+border-radius: 2px;
+}
+
+.flat-gray-button {
+text-align: center;
+background-color: rgba(255,255,255,0.35);
+color: #fff;
+padding: 6px 13px 6px 13px;
+display: inline-block;
+line-height: 20px;
+font-family: 'ProximaNova-Bold';
+font-weight: normal;
+box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.2);
+-moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.2);
+-webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.2);
+transition: 0.1s linear;
+-moz-transition: 0.1s linear;
+-webkit-transition: 0.1s linear;
+}
+
+.modal {
+overflow: hidden;
+}
+
+.proxima-bold {
+	font-family: 'ProximaNova-Bold';
+	font-weight: normal;
+}
+
+.blue-gradient {
+	color: #ffffff;
+	border: 1px solid #2c839f;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, .3), inset 0px 1px 0px rgba(255, 255, 255, 0.2);
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .3), inset 0px 1px 0px rgba(255, 255, 255, 0.2);
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .3), inset 0px 1px 0px rgba(255, 255, 255, 0.2);
+	background-image: linear-gradient(90deg, #2e8ead 0%, #339fc1 100%);
+	background-image: -moz-linear-gradient(90deg, #2e8ead 0%, #339fc1 100%);
+	background-image: -webkit-linear-gradient(90deg, #2e8ead 0%, #339fc1 100%);
+}
+
+#login-modal .login-button img.hidden {
+	opacity: 0;
+}
+
+#login-modal .login-button img {
+	position: absolute;
+	height: 16px;
+	width: 16px;
+	margin-left: 4px;
+	margin-top: 8px;
+	opacity: 1;
+	transition: 0.1s linear;
+	-moz-transition: 0.1s linear;
+	-webkit-transition: 0.1s linear;
+}
+
+a.link {
+	color: #33a5c8;
+	text-decoration: none;
+	transition: 0.1s linear;
+	-moz-transition: 0.1s linear;
+	-webkit-transition: 0.1s linear;
+}
+
+.button {
+	text-decoration: none !important;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+}

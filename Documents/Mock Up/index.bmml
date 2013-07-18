@@ -7,6 +7,8 @@
     </control>
     <control controlID="2" controlTypeID="com.balsamiq.mockups::IconLabel" x="252" y="146" w="151" h="-1" measuredW="66" measuredH="63" zOrder="2" locked="false" isInGroup="-1">
       <controlProperties>
+        <href>index%26bm%3Bindex.bmml%26bm%3Bindex.bmml%26bm%3Bindex.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22172%2C146%2C323%2C209%22%20href%3D%22index.bmml%22%20alt%3D%22index%22%20id%3D%222%22/%3E</map>
         <text>PasteByMe</text>
       </controlProperties>
     </control>
@@ -23,6 +25,8 @@
     </control>
     <control controlID="11" controlTypeID="com.balsamiq.mockups::LinkBar" x="1080" y="83" w="-1" h="-1" measuredW="120" measuredH="19" zOrder="5" locked="false" isInGroup="-1">
       <controlProperties>
+        <hrefs>SignIn%26bm%3BSignIn.bmml%26bm%3BSignIn.bmml%26bm%3BSignIn.bmml%2CSignUp%26bm%3BSignUp.bmml%26bm%3BSignUp.bmml%26bm%3BSignUp.bmml</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%221000%2C85%2C1049%2C98%22%20href%3D%22SignIn.bmml%22%20alt%3D%22SignIn%22%20id%3D%2211%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%221067%2C85%2C1120%2C98%22%20href%3D%22SignUp.bmml%22%20alt%3D%22SignUp%22%20id%3D%2211%22/%3E%0A</map>
         <text>SIGN%20IN%2C%20SIGN%20UP</text>
       </controlProperties>
     </control>
@@ -36,6 +40,8 @@
     <control controlID="16" controlTypeID="com.balsamiq.mockups::Canvas" x="908" y="274" w="307" h="267" measuredW="100" measuredH="70" zOrder="9" locked="false" isInGroup="-1"/>
     <control controlID="18" controlTypeID="com.balsamiq.mockups::Button" x="829" y="614" w="-1" h="-1" measuredW="64" measuredH="27" zOrder="10" locked="false" isInGroup="-1">
       <controlProperties>
+        <href>Detail%20Page%26bm%3BDetail%20Page.bmml%26bm%3BDetail%20Page.bmml%26bm%3BDetail%20Page.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22749%2C614%2C813%2C641%22%20href%3D%22Detail%2520Page.bmml%22%20alt%3D%22Detail%20Page%22%20id%3D%2218%22/%3E</map>
         <text>Submit</text>
       </controlProperties>
     </control>
@@ -74,18 +80,22 @@
         <icon>GoogleIcon%7Csmall</icon>
       </controlProperties>
     </control>
-    <control controlID="28" controlTypeID="com.balsamiq.mockups::Title" x="920" y="276" w="-1" h="-1" measuredW="278" measuredH="43" zOrder="18" locked="false" isInGroup="-1">
+    <control controlID="28" controlTypeID="com.balsamiq.mockups::Title" x="920" y="276" w="-1" h="-1" measuredW="261" measuredH="43" zOrder="18" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>Public%20Formular</text>
+        <text>Public%20Formula</text>
       </controlProperties>
     </control>
     <control controlID="29" controlTypeID="com.balsamiq.mockups::List" x="908" y="327" w="306" h="214" measuredW="100" measuredH="126" zOrder="19" locked="false" isInGroup="-1">
       <controlProperties>
+        <hrefs>Detail%20Page%26bm%3BDetail%20Page.bmml%26bm%3BDetail%20Page.bmml%26bm%3BDetail%20Page.bmml%2CDetail%20Page%26bm%3BDetail%20Page.bmml%26bm%3BDetail%20Page.bmml%26bm%3BDetail%20Page.bmml%2CDetail%20Page%26bm%3BDetail%20Page.bmml%26bm%3BDetail%20Page.bmml%26bm%3BDetail%20Page.bmml</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22828%2C330%2C1134%2C351%22%20href%3D%22Detail%2520Page.bmml%22%20alt%3D%22Detail%20Page%22%20id%3D%2229%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22828%2C351%2C1134%2C372%22%20href%3D%22Detail%2520Page.bmml%22%20alt%3D%22Detail%20Page%22%20id%3D%2229%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22828%2C372%2C1134%2C393%22%20href%3D%22Detail%2520Page.bmml%22%20alt%3D%22Detail%20Page%22%20id%3D%2229%22/%3E%0A</map>
         <text>Item%20One%0AItem%20Two%0AItem%20Three</text>
       </controlProperties>
     </control>
     <control controlID="30" controlTypeID="com.balsamiq.mockups::Button" x="728" y="614" w="-1" h="-1" measuredW="69" measuredH="27" zOrder="20" locked="false" isInGroup="-1">
       <controlProperties>
+        <href>Detail%20Page%26bm%3BDetail%20Page.bmml%26bm%3BDetail%20Page.bmml%26bm%3BDetail%20Page.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22648%2C614%2C717%2C641%22%20href%3D%22Detail%2520Page.bmml%22%20alt%3D%22Detail%20Page%22%20id%3D%2230%22/%3E</map>
         <text>Preview</text>
       </controlProperties>
     </control>
@@ -159,23 +169,28 @@
       </controlProperties>
     </control>
     <control controlID="53" controlTypeID="com.balsamiq.mockups::ScratchOut" x="920" y="646" w="280" h="228" measuredW="205" measuredH="107" zOrder="39" locked="false" isInGroup="-1"/>
-    <control controlID="54" controlTypeID="com.balsamiq.mockups::Icon" x="930" y="615" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="40" locked="false" isInGroup="-1">
+    <control controlID="54" controlTypeID="com.balsamiq.mockups::Icon" x="936" y="615" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="45" locked="false" isInGroup="-1">
       <controlProperties>
         <icon>ThumbsUpIcon%7Csmall</icon>
       </controlProperties>
     </control>
-    <control controlID="55" controlTypeID="com.balsamiq.mockups::Label" x="981" y="619" w="-1" h="-1" measuredW="96" measuredH="21" zOrder="41" locked="false" isInGroup="-1">
+    <control controlID="55" controlTypeID="com.balsamiq.mockups::Label" x="985" y="619" w="-1" h="-1" measuredW="96" measuredH="21" zOrder="40" locked="false" isInGroup="-1">
       <controlProperties>
         <text>PasteByMe.Com</text>
       </controlProperties>
     </control>
-    <control controlID="56" controlTypeID="com.balsamiq.mockups::VideoPlayer" x="581" y="1001" w="300" h="160" measuredW="300" measuredH="200" zOrder="42" locked="false" isInGroup="-1"/>
-    <control controlID="57" controlTypeID="com.balsamiq.mockups::Title" x="581" y="963" w="-1" h="-1" measuredW="112" measuredH="23" zOrder="43" locked="false" isInGroup="-1">
+    <control controlID="56" controlTypeID="com.balsamiq.mockups::VideoPlayer" x="581" y="1001" w="300" h="160" measuredW="300" measuredH="200" zOrder="41" locked="false" isInGroup="-1"/>
+    <control controlID="57" controlTypeID="com.balsamiq.mockups::Title" x="581" y="963" w="-1" h="-1" measuredW="112" measuredH="23" zOrder="42" locked="false" isInGroup="-1">
       <controlProperties>
         <size>20</size>
         <text>How%20to%20use%3F</text>
       </controlProperties>
     </control>
-    <control controlID="60" controlTypeID="com.balsamiq.mockups::ScratchOut" x="289" y="702" w="563" h="166" measuredW="205" measuredH="107" zOrder="44" locked="false" isInGroup="-1"/>
+    <control controlID="60" controlTypeID="com.balsamiq.mockups::ScratchOut" x="289" y="702" w="563" h="166" measuredW="205" measuredH="107" zOrder="43" locked="false" isInGroup="-1"/>
+    <control controlID="61" controlTypeID="com.balsamiq.mockups::Button" x="920" y="612" w="59" h="33" measuredW="22" measuredH="27" zOrder="44" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
   </controls>
 </mockup>

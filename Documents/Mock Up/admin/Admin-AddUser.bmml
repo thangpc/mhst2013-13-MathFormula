@@ -1,0 +1,112 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1211" measuredH="720" mockupW="1167" mockupH="720">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="44" y="0" w="1167" h="720" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>PasteByMe%20Administrator%0Ahttp%3A//www.pastebyme.com/admin</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Canvas" x="44" y="76" w="1166" h="70" measuredW="100" measuredH="70" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>10470904</color>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::IconLabel" x="76" y="76" w="-1" h="-1" measuredW="66" measuredH="63" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>PasteByMe</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Title" x="164" y="90" w="-1" h="-1" measuredW="239" measuredH="43" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <text>Administrator</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Label" x="994" y="100" w="-1" h="-1" measuredW="101" measuredH="22" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>Welcome%20Admin</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Button" x="1116" y="95" w="-1" h="-1" measuredW="63" measuredH="27" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Logout</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Canvas" x="44" y="139" w="1167" h="32" measuredW="100" measuredH="70" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>14540253</color>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::Label" x="994" y="145" w="-1" h="-1" measuredW="127" measuredH="21" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>IP%3A%20127.0.0.1%20%2010%3A15%20am</text>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::Accordion" x="44" y="165" w="220" h="527" measuredW="150" measuredH="240" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Dashboard%0AConfiguration%0AUser%20management%0A-%20Add%20User%0A-%20List%20User%0APost%20management%0ALogs%0AChange%20password</text>
+      </controlProperties>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::Canvas" x="264" y="661" w="944" h="31" measuredW="100" measuredH="70" zOrder="9" locked="false" isInGroup="-1"/>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::Label" x="656" y="666" w="-1" h="-1" measuredW="161" measuredH="21" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Copyright%202013%20PasteByMe</text>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::Title" x="264" y="171" w="-1" h="-1" measuredW="170" measuredH="43" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Add%20User</text>
+      </controlProperties>
+    </control>
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::SearchBox" x="837" y="180" w="342" h="-1" measuredW="120" measuredH="25" zOrder="12" locked="false" isInGroup="-1"/>
+    <control controlID="28" controlTypeID="com.balsamiq.mockups::TextInput" x="443" y="259" w="192" h="-1" measuredW="79" measuredH="26" zOrder="13" locked="false" isInGroup="-1"/>
+    <control controlID="29" controlTypeID="com.balsamiq.mockups::Label" x="319" y="259" w="-1" h="-1" measuredW="85" measuredH="26" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>18</size>
+        <text>Username</text>
+      </controlProperties>
+    </control>
+    <control controlID="30" controlTypeID="com.balsamiq.mockups::TextInput" x="443" y="311" w="192" h="-1" measuredW="79" measuredH="26" zOrder="15" locked="false" isInGroup="-1"/>
+    <control controlID="31" controlTypeID="com.balsamiq.mockups::Label" x="319" y="311" w="-1" h="-1" measuredW="77" measuredH="26" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>18</size>
+        <text>Password</text>
+      </controlProperties>
+    </control>
+    <control controlID="32" controlTypeID="com.balsamiq.mockups::TextInput" x="443" y="369" w="192" h="-1" measuredW="79" measuredH="26" zOrder="17" locked="false" isInGroup="-1"/>
+    <control controlID="33" controlTypeID="com.balsamiq.mockups::Label" x="319" y="369" w="-1" h="-1" measuredW="107" measuredH="26" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>18</size>
+        <text>Re-password</text>
+      </controlProperties>
+    </control>
+    <control controlID="34" controlTypeID="com.balsamiq.mockups::TextInput" x="443" y="423" w="192" h="-1" measuredW="79" measuredH="26" zOrder="19" locked="false" isInGroup="-1"/>
+    <control controlID="35" controlTypeID="com.balsamiq.mockups::Label" x="319" y="423" w="-1" h="-1" measuredW="45" measuredH="26" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>18</size>
+        <text>Email</text>
+      </controlProperties>
+    </control>
+    <control controlID="36" controlTypeID="com.balsamiq.mockups::ComboBox" x="443" y="474" w="-1" h="-1" measuredW="59" measuredH="24" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>User</text>
+      </controlProperties>
+    </control>
+    <control controlID="37" controlTypeID="com.balsamiq.mockups::Label" x="319" y="473" w="-1" h="-1" measuredW="50" measuredH="26" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>18</size>
+        <text>Group</text>
+      </controlProperties>
+    </control>
+    <control controlID="38" controlTypeID="com.balsamiq.mockups::Button" x="443" y="521" w="-1" h="-1" measuredW="51" measuredH="27" zOrder="23" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Back</text>
+      </controlProperties>
+    </control>
+    <control controlID="39" controlTypeID="com.balsamiq.mockups::Button" x="517" y="521" w="-1" h="-1" measuredW="64" measuredH="27" zOrder="24" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Submit</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

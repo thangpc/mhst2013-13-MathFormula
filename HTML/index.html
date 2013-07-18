@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bootstrap, from Twitter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+  
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+    </style>
+      <link rel="stylesheet" href="css/bootstrap.css">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/bootstrap-responsive.css">
+      <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+      <link rel="stylesheet" href="css/bootstrap-switch.css">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/common.css">
+
+
+ 
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="#">Project name</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="index.html">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+
+
+            <div class="nav pull-right" >
+            <a id="header-login-button" href="#login-modal" role="button" data-toggle="modal" class="button flat-blue-button no-right-border">
+              Log in</a>
+            <a href="signup.html" class="button flat-gray-button no-left-border">Sign up</a>
+
+            </div>
+           
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+
+      <div class="row-fluid">
+
+        <div class="span9" id='left-content'>
+          <!--Body content-->
+          <div id="math">
+            <img src="img/mathformula.jpg" alt="Math Formular" id="math_editor">
+          </div>
+          <div id="editor">
+            <textarea></textarea>
+          </div>
+          <div id="information">
+            <label for="title">Title : </label>
+            <input type="text" name="title" value="" id="title"><br>
+            <label for="public">Public :</label>
+            <input type="checkbox" checked="checked"><br/>
+            <div class="bottom-button">
+              <input type="submit" class="btn" name="preview" value="Preview">
+              <input type="button" class="btn" name="submit" value="Submit">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="span3" id='right-content'>
+          <!--Sidebar content-->
+
+       		<div id="new_post">
+       			<div id="menu_2">
+              <ul class="right_menu">
+                <li>
+                  <a href="#">Toan lop 1</a>
+                  <span>18 sec ago</span>
+                </li>
+                <li>
+                  <a href="#">Toan lop 2</a>
+                  <span>18 sec ago</span>
+                </li>
+                <li>
+                  <a href="#">Toan lop 3</a>
+                  <span>18 sec ago</span>
+                </li>
+                <li>
+                  <a href="#">Toan lop 4</a>
+                  <span>18 sec ago</span>
+                </li>
+                <li>
+                  <a href="#">Toan lop 5</a>
+                  <span>18 sec ago</span>
+                </li>
+                <li>
+                  <a href="#">Toan lop 6</a>
+                  <span>18 sec ago</span>
+                </li>
+              </ul>
+            </div>
+       		</div>
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <div class="container">
+      <hr>
+
+      <footer>
+        <div class="col">
+            <div id="logo">
+                <a href="#">
+                  <img src="img/icon.png" alt="">
+                </a>
+            </div>
+            <div>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+          </div>
+
+
+          <div class="col">
+              <section>
+              <header>
+                <h3>
+                  How to use?
+                </h3>
+              </header>
+            </section>
+            <section>
+              <p>
+                <video src="http://people.xiph.org/~maikmerten/demos/BigBuckBunny.ogv" controls autoplay loop>
+              <div class="no-html5-video"><p>This video will work in Mozilla Firefox or Google Chrome only.</p></div>
+            </video>
+          </p>
+        </section>
+          </div>
+
+
+          
+          <div class="col">
+            <section>
+              <header>
+                <h3>
+                  Feedback
+                </h3>
+              </header>
+            </section>
+            <section>
+              <form id="feedback">
+                <label for="name">Name :</label>
+                <input type="text" name="name" id="name" value="" placeholder="Enter your name"><br>
+
+                <label for="email">Email :</label>
+                <input type="text" name="email" id="email" value="" placeholder="Enter email"><br>
+
+                
+                <div style="float:left;">
+                  <label for="content">Content :</label>
+                  <div>
+                  <textarea cols="10" rows="4" name="content" id="content"></textarea>
+                  </div>
+                </div>
+
+                <input style="float:left;" type="submit" value="Send" class="btn" id="btnSubmitFeedback">
+              </form>
+            </section>
+          </div>
+          <div style="clear: both;"></div>
+          <div id="copyright">
+            <p>2013 Copyright pastebyme.com<p>
+          </div>
+        </div>
+      </footer>
+
+
+         <div id="login-modal" class="modal hide" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="login-top clearfix">
+        <div class="left">
+          <div class="header-text proxima-bold">Log in</div>
+          <form id="login-form" method="post">
+            <div style='display:none'><input type='hidden' name='csrfmiddlewaretoken' value='79HD4nH9w9R4BcBMxj16EFdZ3Phvx0EK' /></div>
+            <input type="text" name="email" autofocus="autofocus" placeholder="Email" class="email input"/>
+            <input type="password" name="password" placeholder="Password" class="password input"/>
+            <button href="#" id="login-button" class="proxima-bold blue-gradient login-button">LOG IN <img class="hidden" src="https://s3.amazonaws.com/jetstrap-site/images/common/login_loader.gif" alt="Loading" title="Loading"/></button>
+            <a href="/user/pwreset" class="reset link">Forget your password?</a>
+          </form>
+        </div>
+        <div class="right">
+          <div class="header-text proxima-bold">Or did you sign up with...</div>
+          <a href="/login/twitter" class="button clearfix">
+            <div class="twitter button-icon">
+              <img class="login-icon" src="https://s3.amazonaws.com/jetstrap-site/images/website/common/login_twitter_icon.png" alt="Twitter Logo"/>
+            </div>
+            <div class="proxima-bold twitter button-right">I signed up with Twitter</div>
+          </a>
+          <a href="/login/google-oauth2" class="button clearfix">
+            <div class="google button-icon">
+              <img class="login-icon" src="https://s3.amazonaws.com/jetstrap-site/images/website/common/login_google_icon.png" alt="Google Logo"/>
+            </div>
+            <div class="proxima-bold google button-right">I signed up with Google</div>
+          </a>
+          <a href="/login/github" class="button clearfix">
+            <div class="facebook button-icon">
+              <img class="login-icon" src="img/face.png" alt="Github Logo"/>
+            </div>
+            <div class="proxima-bold facebook button-right">I signed up with Facebook</div>
+          </a>
+        </div>
+      </div>
+      <a href="/plans" class="login-bottom blue-gradient clearfix">Don't have an account? <span class="proxima-bold"><b>Sign up</b></span></a>
+      <div id="login-response-text" class="login-response-text hidden clearfix proxima-bold"></div>
+    </div>
+  
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="js/bootstrap-transition.js"></script>
+    <script src="js/bootstrap-alert.js"></script>
+    <script src="js/bootstrap-modal.js"></script>
+    <script src="js/bootstrap-dropdown.js"></script>
+    <script src="js/bootstrap-scrollspy.js"></script>
+    <script src="js/bootstrap-tab.js"></script>
+    <script src="js/bootstrap-tooltip.js"></script>
+    <script src="js/bootstrap-popover.js"></script>
+    <script src="js/bootstrap-button.js"></script>
+    <script src="js/bootstrap-collapse.js"></script>
+    <script src="js/bootstrap-carousel.js"></script>
+    <script src="js/bootstrap-typeahead.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      $('.dropdown-toggle').dropdown();
+      $('.dropdown-menu').find('form').click(function (e) {
+        e.stopPropagation();
+      });
+    </script>
+  </body>
+</html>
