@@ -1,13 +1,33 @@
-<?php
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class User_model extends Model {
+class User_model extends MY_Model {
+
+	protected $_table_name = 'users';
+	protected $_primary_key = 'user_id';
+	protected $_primary_filter = 'intval';
+	protected $_order_by = 'user_id';
+	protected $_rules = array();
+	protected $_timetamps = FALSE;
 
 	public function __construct() {
-        
-        parent::__construct();
-    }
-    
-    public function auth($username, $password) {
+
+		parent::__construct();
+	}
+
+	public $rules = array(
+		'email' => array(
+			'field' => 'email', 
+			'label' => 'Email', 
+			'rules' => 'trim|required|valid_email|xss_clean'
+		), 
+		'password' => array(
+			'field' => 'password', 
+			'label' => 'Password', 
+			'rules' => 'trim|required'
+		)
+	);
+
+	public function auth($username, $password) {
 
     	$query = $this->db
     		->select('user_id, username, password')
@@ -22,44 +42,4 @@ class User_model extends Model {
       	return false;
     }
 
-    public function getById($id = '') {
-
-        $data = array();
-
-        $query = $this->db
-            ->where('user_id', $id)
-            ->get('users');
-
-        if ( $query->num_rows() > 0 ) {
-            foreach ($query->result_array() as $row) {
-                $data = $row;
-            }
-        }
-        $query->free_result();
-        return $data;
-    }
-
-    public function checkPass($pass = '') {
-
-        $query = $this->db->where('password', $pass)->get('users');
-        if ($query->num_rows() > 0) { return TRUE; }
-        else return FALSE;
-    }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

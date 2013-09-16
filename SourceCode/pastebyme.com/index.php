@@ -1,5 +1,7 @@
 <?php
 
+date_default_timezone_set('Europe/Amsterdam');
+
 /*
  *---------------------------------------------------------------
  * APPLICATION ENVIRONMENT
@@ -18,7 +20,18 @@
  * NOTE: If you change these, also change the error_reporting() code below
  *
  */
-	define('ENVIRONMENT', 'development');
+	//auto switch debug mode
+	switch (dirname(__FILE__)) {
+		case '/Volumes/Data/www/pastebyme.com':
+			define('ENVIRONMENT', 'development');
+			break;
+		
+		default:
+			define('ENVIRONMENT', 'production');
+			break;
+	}
+
+	
 /*
  *---------------------------------------------------------------
  * ERROR REPORTING
