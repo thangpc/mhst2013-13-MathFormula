@@ -14,7 +14,7 @@ class MY_Model extends CI_Model {
 		parent::__construct();
 	}
 	
-	public function get($id = NULL, $single = FALSE) {
+	public function get($id = NULL, $single = FALSE, $limit = NULL, $start=0) {
 		
 		if ($id != NULL) {
 			$filter = $this->_primary_filter;
@@ -30,7 +30,10 @@ class MY_Model extends CI_Model {
 		}
 		
 		if (!count($this->db->ar_orderby)) {
-			$this->db->order_by($this->_order_by);
+			if ($limit != NULL)
+				$this->db->order_by($this->_order_by)->limit($limit, $start);
+			else
+				$this->db->order_by($this->_order_by);
 		}
 		return $this->db->get($this->_table_name)->$method();
 	}

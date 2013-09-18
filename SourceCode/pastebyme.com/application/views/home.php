@@ -5,18 +5,21 @@
 	<p class="note" style="opacity: 1; left: 0px; color: #fff; font-size: 22px">Quick math now</p>
 	<p class="rapid" style="opacity: 1; right: 0px; "><a href="<?php echo site_url('cheat-sheets'); ?>">Rapid typing - Cheat sheets</a></p>
 	<div id="editor">
-		<form id="frm_math">
+		<?php echo form_open('save-formular', 'id="frm_formular" name="frm_formular"'); ?>	
 		<span id="editable-math" class="mathquill-editor">
-			\frac{d}{dx}\sqrt{x} = \frac{d}{dx}x^{\frac{1}{2}} = \frac{1}{2}x^{-\frac{1}{2}} = \frac{1}{2\sqrt{x}}
 		</span>
-		<input id="latex-source" placeholder="latex here" style="display: block">
+		<?php
+	        echo form_input('latex-source', set_value('latex-source'), 'id="latex-source" autofocus placeholder="latex here"');
+		?>
 		<div class="clearfix"></div>
-		<input id="title" placeholder="title for this math formular">
+		<?php 
+	        echo form_input('title', set_value('title'), 'id="title" autofocus placeholder="title for this math formular"');
+		?>
 
-		<button class="btn-submit preview">Preview</button>
-		<button class="btn-submit publish">Publish</button>
+		<button class="btn" id="preview">Preview</button>
+		<button class="btn" id="publish">Publish</button>
 
-		<div id="loading-ajax"></div>
+		<div class="status" style="margin-left: 300px; margin-top: 30px;"></div>
 		<div class="result">
 			<div class="title">Preview</div>			
 			<a class="down" target="_blank" href="">Download this image</a>
@@ -31,6 +34,6 @@
 				<span></span>
 			</div>
 		</div>
-		</form>
+		<?php echo form_close(); ?>
 	</div>
 </div> 

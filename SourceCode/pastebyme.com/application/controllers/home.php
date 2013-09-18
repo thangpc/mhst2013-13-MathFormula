@@ -10,8 +10,8 @@ class Home extends Frontend_Controller {
 	/**
 	* Home page
 	**/
-	public function index() {
-		
+	public function index() {		
+
 		$this->data['title_page'] = "Home";
 		$this->data['content_view'] = 'home';
 		$this->load->view('_layout', $this->data);
