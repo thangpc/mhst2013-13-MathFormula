@@ -65,5 +65,10 @@ $route['formular/view-(:any)'] = "formular/view/$1";
 $route['formular/edit-(:any)'] = "formular/edit/$1";
 $route['formular/copy-(:any)'] = "formular/copy/$1";
 
+/* ADMIN */
+$route['admin'] = "admin/dashboard/index";
+
+$route['admin/login'] = "admin/user/login";
+
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

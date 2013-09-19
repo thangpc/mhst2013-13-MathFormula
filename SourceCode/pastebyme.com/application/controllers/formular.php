@@ -18,11 +18,17 @@ class Formular extends Frontend_Controller {
 		if (isset($_SESSION['time_post'])) $time_post = $_SESSION['time_post'];
 		else $time_post = 0;
 		$max_time = 60;
-		if (!isset($_SESSION['username'])) $max_time = 3 * 60;
+		$login = 1;
+		if (!isset($_SESSION['username'])) {
+			$max_time = 3 * 60;
+			$login = 0;
+		}
+
 		if ( (time() - $time_post) < $max_time ) {
-			$time = 60 - (time() - $time_post);
+			$time = $max_time - (time() - $time_post);
 			$data['status'] = 'timeout';			
 			$data['time'] = $time;
+			$data['login'] = $login;
             $data['message'] = 'Please wait '.$time.' seconds to next post. Thanks!';
 		} else {
 

@@ -43,10 +43,14 @@ $(function(){
                 	document.frm_formular.reset();
                     window.location = PUBLIC_URL + 'formular/view-' + msg.data.id;
                 } else {
-                    $('.status').attr('class', 'status error').html(msg.data.message).fadeOut(2500);
+                    $('.status').attr('class', 'status error').html(msg.data.message).fadeOut(2500);    
+                    
                     if (msg.data.status == 'timeout') {
-                    	if (msg.data.time == 0) {
-                    	}
+                        if (msg.data.login == 0) {
+                            setTimeout(function() {
+                                $('.status').html("You can't wait. <a href='"+PUBLIC_URL+"login'>Login</a> or  <a href='"+PUBLIC_URL+"sign-up'>Register</a> account now.").fadeIn(2500); 
+                            }, 3000);
+                        }
                     }
                 }
             }

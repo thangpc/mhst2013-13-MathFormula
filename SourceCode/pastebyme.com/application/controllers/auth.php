@@ -29,7 +29,7 @@ class Auth extends Frontend_Controller {
                     	$this->input->post('username'), 
                      	$this->input->post('email')
                   	);
-         	if ( $res !== false ) {
+         	if ( $res != false ) {
            		$_SESSION['username'] = $this->input->post('username');                
             	$data['status'] = 'success';
                 $data['user'] = $_SESSION['username'];
@@ -38,7 +38,7 @@ class Auth extends Frontend_Controller {
                 $user = array(
                     'username' => $this->input->post('username'),
                     'password' => md5($this->input->post('password')),
-                    'email' => 'tester@localhost'
+                    'email' => $this->input->post('email')
                 );
                 $id = $this->user_model->save($user);
          	} else {
