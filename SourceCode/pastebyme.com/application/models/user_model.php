@@ -42,4 +42,19 @@ class User_model extends MY_Model {
       	return false;
     }
 
+	public function reg($username, $email) {
+
+    	$query = $this->db
+    		->select('user_id, username')
+    		->where('username', $username)
+    		->limit(1)
+    		->get('users');
+
+      	if ( $query->num_rows > 0 ) {
+        	return false;
+     	}
+
+      	return true;
+    }
+
 }

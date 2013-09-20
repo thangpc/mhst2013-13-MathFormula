@@ -5,6 +5,9 @@
 
 a {
 	text-decoration: none;
+	color: #333;
+}
+a:hover {
 }
 
 ul, ol {
@@ -136,6 +139,10 @@ footer .copyright {
 	margin-top: 80px;
 }
 
+.status a:hover {	
+	text-decoration: underline;
+}
+
 code,#html-source{
 font-family:"Courier New",sans-serif;
 }
@@ -212,7 +219,39 @@ min-width: 1cm;
 	margin-bottom: 15px;
 }
 
-#frm_math #title {
+.changePassArea {
+	padding-top: 50px;
+	margin-left: 300px;
+}
+.changePassArea input {
+	padding: 2px;
+	width: 250px;
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+
+.list-formular {
+
+}
+.list-formular a {
+	font-size: 16px;
+	color: #333;
+}
+.list-formular a:hover {
+	text-decoration: underline;
+}
+.list-formular .row {
+	padding: 10px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #ccc;
+}
+
+.user-info {
+	float: left;
+	width: 200px;
+}
+
+#frm_formular #title {
 	margin-top: 15px;
 	font-size: 15px;
 	color: #333;
@@ -318,6 +357,20 @@ min-width: 1cm;
 	margin-right: 30px;
 }
 
+#frm_login .status {
+	font-size: 14px;
+	height: 30px;
+	font-weight: bold;
+	margin-top: 25px;
+	text-align: center;
+}
+.error {
+	color: red;
+}
+.success {
+	color: blue;
+}
+
 	table {
 		overflow:hidden;
 		border:1px solid #d3d3d3;
@@ -328,6 +381,12 @@ min-width: 1cm;
 		border-radius:5px;
 		-moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
 		-webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+	}
+	table tr a {
+		color: #333;
+	}
+	table tr a:hover {
+		text-decoration: underline;
 	}
 	
 	th, td {padding:18px 28px 18px; text-align:center; }
@@ -381,7 +440,7 @@ min-width: 1cm;
 		-webkit-border-bottom-right-radius:5px; /* Saf3-4 */
 	}
 
-	.btn-submit {
+	.btn {
 		-webkit-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
 		-moz-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
 		box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
@@ -398,9 +457,26 @@ min-width: 1cm;
 		padding:5px;
 		cursor: pointer;
 	}
-	.btn-submit:hover {
+	.btn:hover {
 		border: 1px solid #666;
 	}
+	.btn-disable {		
+		-webkit-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+		-moz-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+		box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+		border-bottom-color:#333;
+		border:1px solid #ccc;
+		background-color:#eee;
+		border-radius:5px;
+		-moz-border-radius:5px;
+		-webkit-border-radius:5px;
+		color:#666;
+		font-family:'Verdana',Arial,sans-serif;
+		font-size:14px;
+		text-shadow:#b2e2f5 0 1px 0;
+		padding:5px;
+		cursor: pointer;
+	} 
 
 	.btn-preview {
 		-webkit-box-shadow:rgba(0,0,0,0.98) 0 1px 0 0;

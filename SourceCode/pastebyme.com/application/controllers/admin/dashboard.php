@@ -9,6 +9,8 @@ class Dashboard extends Admin_Controller {
 
 	public function index() {
 
-		$this->load->view('_layout_main');
+		$this->data['title_page'] = "Dashboard";
+		$this->data['content_view'] = 'dashboard';		
+		$this->load->view('admin/_layout', $this->data);
 	}
 }
