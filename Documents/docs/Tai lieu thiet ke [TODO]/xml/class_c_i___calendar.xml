@@ -1,0 +1,419 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_c_i___calendar" kind="class" prot="public">
+    <compoundname>CI_Calendar</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_c_i___calendar_1ae0314d046ddf7fcfaec03222977427d3" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$CI</definition>
+        <argsstring></argsstring>
+        <name>$CI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Calendar.php" line="31" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Calendar.php" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___calendar_1a7714b111b644017933931ec69a154102" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang</definition>
+        <argsstring></argsstring>
+        <name>$lang</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Calendar.php" line="32" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Calendar.php" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___calendar_1a0233c9bb13f81d81d6e34641b25898da" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$local_time</definition>
+        <argsstring></argsstring>
+        <name>$local_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Calendar.php" line="33" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Calendar.php" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___calendar_1aa3e9534005fd516d941f6a5569896e01" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$template</definition>
+        <argsstring></argsstring>
+        <name>$template</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Calendar.php" line="34" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Calendar.php" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___calendar_1ac4e461505bb7cd9a2fdb2bf47560a389" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$start_day</definition>
+        <argsstring></argsstring>
+        <name>$start_day</name>
+        <initializer>= &apos;sunday&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Calendar.php" line="35" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Calendar.php" bodystart="35" bodyend="-1"/>
+        <referencedby refid="class_c_i___calendar_1a532f3b6ce22d22e01ace95a24a6f7179" compoundref="_calendar_8php" startline="98" endline="249">generate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___calendar_1ab40961ce0a0e4a7ee10ad389c9566b28" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$month_type</definition>
+        <argsstring></argsstring>
+        <name>$month_type</name>
+        <initializer>= &apos;long&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Calendar.php" line="36" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Calendar.php" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___calendar_1a1e35fdb6b6cc297a6bb256517a8d813d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$day_type</definition>
+        <argsstring></argsstring>
+        <name>$day_type</name>
+        <initializer>= &apos;abr&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Calendar.php" line="37" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Calendar.php" bodystart="37" bodyend="-1"/>
+        <referencedby refid="class_c_i___calendar_1ac0f5e250a3694e74e4a160557f91b8ca" compoundref="_calendar_8php" startline="296" endline="321">get_day_names</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___calendar_1aeade2ffe515604c0dffb78d32ca846ae" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$show_next_prev</definition>
+        <argsstring></argsstring>
+        <name>$show_next_prev</name>
+        <initializer>= FALSE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Calendar.php" line="38" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Calendar.php" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___calendar_1a3ed0df912e3e67eb17d432c1f54ae2de" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$next_prev_url</definition>
+        <argsstring></argsstring>
+        <name>$next_prev_url</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Calendar.php" line="39" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Calendar.php" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_i___calendar_1af7f9493844d2d66e924e3c1df51ce616" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>($config=array())</argsstring>
+        <name>__construct</name>
+        <param>
+          <declname>$config</declname>
+          <defval>array()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor</para><para>Loads the calendar language file and sets the default time reference </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Calendar.php" line="46" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Calendar.php" bodystart="46" bodyend="63"/>
+        <references refid="_code_igniter_8php_1a185483844bd20a0e80955460d66d2199" compoundref="_code_igniter_8php" startline="231" endline="398">get_instance</references>
+        <references refid="application_2config_2config_8php_1a8063081991a9d7087e6aea78db95a524" compoundref="application_2config_2config_8php" startline="26">$config</references>
+        <references refid="class_c_i___calendar_1a481385e36d920f5a5005ace05c6cd016" compoundref="_calendar_8php" startline="76" endline="85">initialize</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___calendar_1a481385e36d920f5a5005ace05c6cd016" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>initialize</definition>
+        <argsstring>($config=array())</argsstring>
+        <name>initialize</name>
+        <param>
+          <declname>$config</declname>
+          <defval>array()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Initialize the user preferences</para><para>Accepts an associative array as input, containing display preferences</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>config preferences </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Calendar.php" line="76" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Calendar.php" bodystart="76" bodyend="85"/>
+        <references refid="application_2config_2config_8php_1a8063081991a9d7087e6aea78db95a524" compoundref="application_2config_2config_8php" startline="26">$config</references>
+        <referencedby refid="class_c_i___calendar_1af7f9493844d2d66e924e3c1df51ce616" compoundref="_calendar_8php" startline="46" endline="63">__construct</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___calendar_1a532f3b6ce22d22e01ace95a24a6f7179" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>generate</definition>
+        <argsstring>($year= &apos;&apos;, $month= &apos;&apos;, $data=array())</argsstring>
+        <name>generate</name>
+        <param>
+          <declname>$year</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$month</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$data</declname>
+          <defval>array()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generate the calendar</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>integer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the year </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>integer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the month </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the data to be shown in the calendar cells </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Calendar.php" line="98" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Calendar.php" bodystart="98" bodyend="249"/>
+        <references refid="class_c_i___calendar_1ac216356ab0ff31e8538fd9208a26577a" compoundref="_calendar_8php" startline="337" endline="362">adjust_date</references>
+        <references refid="class_c_i___calendar_1a3c863f62907e445af2711df11fb90ff9" compoundref="_calendar_8php" startline="374" endline="393">get_total_days</references>
+        <references refid="class_c_i___calendar_1ac4e461505bb7cd9a2fdb2bf47560a389" compoundref="_calendar_8php" startline="35">$start_day</references>
+        <references refid="class_c_i___calendar_1ac0331959620d18320ab6587621730d44" compoundref="_calendar_8php" startline="443" endline="468">parse_template</references>
+        <references refid="class_c_i___calendar_1a056208e620b0ffc2525a07d8646eb194" compoundref="_calendar_8php" startline="263" endline="282">get_month_name</references>
+        <references refid="class_c_i___calendar_1ac0f5e250a3694e74e4a160557f91b8ca" compoundref="_calendar_8php" startline="296" endline="321">get_day_names</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___calendar_1a056208e620b0ffc2525a07d8646eb194" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>get_month_name</definition>
+        <argsstring>($month)</argsstring>
+        <name>get_month_name</name>
+        <param>
+          <declname>$month</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get Month Name</para><para>Generates a textual month name based on the numeric month provided.</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>integer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the month </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Calendar.php" line="263" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Calendar.php" bodystart="263" bodyend="282"/>
+        <referencedby refid="class_c_i___calendar_1a532f3b6ce22d22e01ace95a24a6f7179" compoundref="_calendar_8php" startline="98" endline="249">generate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___calendar_1ac0f5e250a3694e74e4a160557f91b8ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>get_day_names</definition>
+        <argsstring>($day_type= &apos;&apos;)</argsstring>
+        <name>get_day_names</name>
+        <param>
+          <declname>$day_type</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get Day Names</para><para>Returns an array of day names (Sunday, Monday, etc.) based on the type. Options: long, short, abrev</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Calendar.php" line="296" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Calendar.php" bodystart="296" bodyend="321"/>
+        <references refid="class_c_i___calendar_1a1e35fdb6b6cc297a6bb256517a8d813d" compoundref="_calendar_8php" startline="37">$day_type</references>
+        <referencedby refid="class_c_i___calendar_1a532f3b6ce22d22e01ace95a24a6f7179" compoundref="_calendar_8php" startline="98" endline="249">generate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___calendar_1ac216356ab0ff31e8538fd9208a26577a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>adjust_date</definition>
+        <argsstring>($month, $year)</argsstring>
+        <name>adjust_date</name>
+        <param>
+          <declname>$month</declname>
+        </param>
+        <param>
+          <declname>$year</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Adjust Date</para><para>This function makes sure that we have a valid month/year. For example, if you submit 13 as the month, the year will increment and the month will become January.</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>integer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the month </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>integer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the year </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Calendar.php" line="337" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Calendar.php" bodystart="337" bodyend="362"/>
+        <referencedby refid="class_c_i___calendar_1a532f3b6ce22d22e01ace95a24a6f7179" compoundref="_calendar_8php" startline="98" endline="249">generate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___calendar_1a3c863f62907e445af2711df11fb90ff9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>get_total_days</definition>
+        <argsstring>($month, $year)</argsstring>
+        <name>get_total_days</name>
+        <param>
+          <declname>$month</declname>
+        </param>
+        <param>
+          <declname>$year</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Total days in a given month</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>integer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the month </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>integer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the year </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>integer </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Calendar.php" line="374" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Calendar.php" bodystart="374" bodyend="393"/>
+        <referencedby refid="class_c_i___calendar_1a532f3b6ce22d22e01ace95a24a6f7179" compoundref="_calendar_8php" startline="98" endline="249">generate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___calendar_1a5d174710ed7a2a08df21dbaa2bb6a50f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>default_template</definition>
+        <argsstring>()</argsstring>
+        <name>default_template</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set Default Template Data</para><para>This is used in the event that the user has not created their own template</para><para>public <simplesect kind="return"><para>array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Calendar.php" line="405" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Calendar.php" bodystart="405" bodyend="430"/>
+        <referencedby refid="class_c_i___calendar_1ac0331959620d18320ab6587621730d44" compoundref="_calendar_8php" startline="443" endline="468">parse_template</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___calendar_1ac0331959620d18320ab6587621730d44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>parse_template</definition>
+        <argsstring>()</argsstring>
+        <name>parse_template</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Parse Template</para><para>Harvests the data within the template {pseudo-variables} used to display the calendar</para><para>public <simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Calendar.php" line="443" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Calendar.php" bodystart="443" bodyend="468"/>
+        <references refid="class_c_i___calendar_1a5d174710ed7a2a08df21dbaa2bb6a50f" compoundref="_calendar_8php" startline="405" endline="430">default_template</references>
+        <referencedby refid="class_c_i___calendar_1a532f3b6ce22d22e01ace95a24a6f7179" compoundref="_calendar_8php" startline="98" endline="249">generate</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Calendar.php" line="29" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Calendar.php" bodystart="29" bodyend="470"/>
+    <listofallmembers>
+      <member refid="class_c_i___calendar_1ae0314d046ddf7fcfaec03222977427d3" prot="public" virt="non-virtual"><scope>CI_Calendar</scope><name>$CI</name></member>
+      <member refid="class_c_i___calendar_1a1e35fdb6b6cc297a6bb256517a8d813d" prot="public" virt="non-virtual"><scope>CI_Calendar</scope><name>$day_type</name></member>
+      <member refid="class_c_i___calendar_1a7714b111b644017933931ec69a154102" prot="public" virt="non-virtual"><scope>CI_Calendar</scope><name>$lang</name></member>
+      <member refid="class_c_i___calendar_1a0233c9bb13f81d81d6e34641b25898da" prot="public" virt="non-virtual"><scope>CI_Calendar</scope><name>$local_time</name></member>
+      <member refid="class_c_i___calendar_1ab40961ce0a0e4a7ee10ad389c9566b28" prot="public" virt="non-virtual"><scope>CI_Calendar</scope><name>$month_type</name></member>
+      <member refid="class_c_i___calendar_1a3ed0df912e3e67eb17d432c1f54ae2de" prot="public" virt="non-virtual"><scope>CI_Calendar</scope><name>$next_prev_url</name></member>
+      <member refid="class_c_i___calendar_1aeade2ffe515604c0dffb78d32ca846ae" prot="public" virt="non-virtual"><scope>CI_Calendar</scope><name>$show_next_prev</name></member>
+      <member refid="class_c_i___calendar_1ac4e461505bb7cd9a2fdb2bf47560a389" prot="public" virt="non-virtual"><scope>CI_Calendar</scope><name>$start_day</name></member>
+      <member refid="class_c_i___calendar_1aa3e9534005fd516d941f6a5569896e01" prot="public" virt="non-virtual"><scope>CI_Calendar</scope><name>$template</name></member>
+      <member refid="class_c_i___calendar_1af7f9493844d2d66e924e3c1df51ce616" prot="public" virt="non-virtual"><scope>CI_Calendar</scope><name>__construct</name></member>
+      <member refid="class_c_i___calendar_1ac216356ab0ff31e8538fd9208a26577a" prot="public" virt="non-virtual"><scope>CI_Calendar</scope><name>adjust_date</name></member>
+      <member refid="class_c_i___calendar_1a5d174710ed7a2a08df21dbaa2bb6a50f" prot="public" virt="non-virtual"><scope>CI_Calendar</scope><name>default_template</name></member>
+      <member refid="class_c_i___calendar_1a532f3b6ce22d22e01ace95a24a6f7179" prot="public" virt="non-virtual"><scope>CI_Calendar</scope><name>generate</name></member>
+      <member refid="class_c_i___calendar_1ac0f5e250a3694e74e4a160557f91b8ca" prot="public" virt="non-virtual"><scope>CI_Calendar</scope><name>get_day_names</name></member>
+      <member refid="class_c_i___calendar_1a056208e620b0ffc2525a07d8646eb194" prot="public" virt="non-virtual"><scope>CI_Calendar</scope><name>get_month_name</name></member>
+      <member refid="class_c_i___calendar_1a3c863f62907e445af2711df11fb90ff9" prot="public" virt="non-virtual"><scope>CI_Calendar</scope><name>get_total_days</name></member>
+      <member refid="class_c_i___calendar_1a481385e36d920f5a5005ace05c6cd016" prot="public" virt="non-virtual"><scope>CI_Calendar</scope><name>initialize</name></member>
+      <member refid="class_c_i___calendar_1ac0331959620d18320ab6587621730d44" prot="public" virt="non-virtual"><scope>CI_Calendar</scope><name>parse_template</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

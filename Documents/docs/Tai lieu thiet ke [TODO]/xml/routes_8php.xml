@@ -1,0 +1,351 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="routes_8php" kind="file">
+    <compoundname>routes.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="routes_8php_1a6c2a82e4cec825eb1921141d08af834b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$route[&apos;default_controller&apos;]</definition>
+        <argsstring>[&apos;default_controller&apos;]</argsstring>
+        <name>$route</name>
+        <initializer>= &quot;home&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/routes.php" line="41" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/routes.php" bodystart="41" bodyend="-1"/>
+        <referencedby refid="class_c_i___router_1abc9f3e0d48cec66f93a7f103c9a65892" compoundref="_router_8php" startline="104" endline="174">CI_Router\_set_routing</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="routes_8php_1ad99ba8a90b758dbe982c621c9f27eedc" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$route[&apos;404_override&apos;]</definition>
+        <argsstring>[&apos;404_override&apos;]</argsstring>
+        <name>$route</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/routes.php" line="42" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/routes.php" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="routes_8php_1a68f9537f20c6adee48d71cd857b01410" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$route[&apos;cheat-sheets&apos;]</definition>
+        <argsstring>[&apos;cheat-sheets&apos;]</argsstring>
+        <name>$route</name>
+        <initializer>= &quot;home/cheatSheet&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/routes.php" line="44" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/routes.php" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="routes_8php_1a879b37eb8ab23f146ef5d9c1f99c4156" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$route[&apos;contact-us&apos;]</definition>
+        <argsstring>[&apos;contact-us&apos;]</argsstring>
+        <name>$route</name>
+        <initializer>= &quot;home/contactUs&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/routes.php" line="45" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/routes.php" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="routes_8php_1ada107d2f4f76b05d59584b97f4620e4e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$route[&apos;save-image/(:any)&apos;]</definition>
+        <argsstring>[&apos;save-image/(:any)&apos;]</argsstring>
+        <name>$route</name>
+        <initializer>= &quot;home/saveImage/$1&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/routes.php" line="46" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/routes.php" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="routes_8php_1ae498edf30300ac629d57d6f792269b5e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$route[&apos;login&apos;]</definition>
+        <argsstring>[&apos;login&apos;]</argsstring>
+        <name>$route</name>
+        <initializer>= &quot;account/login&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/routes.php" line="48" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/routes.php" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="routes_8php_1a223aa064a349c5a0ee487832f915e81a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$route[&apos;check-login&apos;]</definition>
+        <argsstring>[&apos;check-login&apos;]</argsstring>
+        <name>$route</name>
+        <initializer>= &quot;auth/checkLogin&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/routes.php" line="49" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/routes.php" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="routes_8php_1a1a7cba54e5f132d593cd2e73f0b4aa21" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$route[&apos;sign-up&apos;]</definition>
+        <argsstring>[&apos;sign-up&apos;]</argsstring>
+        <name>$route</name>
+        <initializer>= &quot;account/register&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/routes.php" line="51" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/routes.php" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="routes_8php_1aed782d27d10fc156cc2bfd21da5f511b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$route[&apos;check-sign-up&apos;]</definition>
+        <argsstring>[&apos;check-sign-up&apos;]</argsstring>
+        <name>$route</name>
+        <initializer>= &quot;auth/checkSignUp&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/routes.php" line="52" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/routes.php" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="routes_8php_1a1d3e833786c5b494a7e64bd90543ff54" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$route[&apos;logout&apos;]</definition>
+        <argsstring>[&apos;logout&apos;]</argsstring>
+        <name>$route</name>
+        <initializer>= &quot;auth/logout&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/routes.php" line="54" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/routes.php" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="routes_8php_1a456226c2c4c89e963ae1f7a39c05f664" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$route[&apos;account/change-info&apos;]</definition>
+        <argsstring>[&apos;account/change-info&apos;]</argsstring>
+        <name>$route</name>
+        <initializer>= &quot;account/changeInfo&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/routes.php" line="56" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/routes.php" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="routes_8php_1a1f1cca6f261ccaa1eeae697a8e61b43f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$route[&apos;account/change-pass&apos;]</definition>
+        <argsstring>[&apos;account/change-pass&apos;]</argsstring>
+        <name>$route</name>
+        <initializer>= &quot;account/changePass&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/routes.php" line="57" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/routes.php" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="routes_8php_1ab69c72ae7bdfb0b07485edc5eab66e93" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$route[&apos;account/(:any)&apos;]</definition>
+        <argsstring>[&apos;account/(:any)&apos;]</argsstring>
+        <name>$route</name>
+        <initializer>= &quot;account/info&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/routes.php" line="58" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/routes.php" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="routes_8php_1aa42a2acd00cabe0c949ace0144b32d17" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$route[&apos;community/(:any)&apos;]</definition>
+        <argsstring>[&apos;community/(:any)&apos;]</argsstring>
+        <name>$route</name>
+        <initializer>= &quot;community/index/$1&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/routes.php" line="60" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/routes.php" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="routes_8php_1abd97a091a6cf337746c8b06f9a74cfd1" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$route[&apos;save-formular&apos;]</definition>
+        <argsstring>[&apos;save-formular&apos;]</argsstring>
+        <name>$route</name>
+        <initializer>= &quot;formular/save&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/routes.php" line="62" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/routes.php" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="routes_8php_1a15bdd3d189063146001dbf6d24700221" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$route[&apos;update-formular&apos;]</definition>
+        <argsstring>[&apos;update-formular&apos;]</argsstring>
+        <name>$route</name>
+        <initializer>= &quot;formular/update&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/routes.php" line="63" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/routes.php" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="routes_8php_1a0e749412e2f26f650e9153df14585d38" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$route[&apos;formular/view-(:any)&apos;]</definition>
+        <argsstring>[&apos;formular/view-(:any)&apos;]</argsstring>
+        <name>$route</name>
+        <initializer>= &quot;formular/view/$1&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/routes.php" line="64" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/routes.php" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="routes_8php_1a34f30a10e7ae0647da591556346cccc0" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$route[&apos;formular/edit-(:any)&apos;]</definition>
+        <argsstring>[&apos;formular/edit-(:any)&apos;]</argsstring>
+        <name>$route</name>
+        <initializer>= &quot;formular/edit/$1&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/routes.php" line="65" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/routes.php" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="routes_8php_1a8c14dc806faab68928fc37976a78e078" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$route[&apos;formular/copy-(:any)&apos;]</definition>
+        <argsstring>[&apos;formular/copy-(:any)&apos;]</argsstring>
+        <name>$route</name>
+        <initializer>= &quot;formular/copy/$1&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/routes.php" line="66" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/routes.php" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php<sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>!<sp/>defined(</highlight><highlight class="stringliteral">&apos;BASEPATH&apos;</highlight><highlight class="normal">))<sp/>exit(</highlight><highlight class="stringliteral">&apos;No<sp/>direct<sp/>script<sp/>access<sp/>allowed&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment">|<sp/>-------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="4"><highlight class="comment">|<sp/>URI<sp/>ROUTING</highlight></codeline>
+<codeline lineno="5"><highlight class="comment">|<sp/>-------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="6"><highlight class="comment">|<sp/>This<sp/>file<sp/>lets<sp/>you<sp/>re-map<sp/>URI<sp/>requests<sp/>to<sp/>specific<sp/>controller<sp/>functions.</highlight></codeline>
+<codeline lineno="7"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="8"><highlight class="comment">|<sp/>Typically<sp/>there<sp/>is<sp/>a<sp/>one-to-one<sp/>relationship<sp/>between<sp/>a<sp/>URL<sp/>string</highlight></codeline>
+<codeline lineno="9"><highlight class="comment">|<sp/>and<sp/>its<sp/>corresponding<sp/>controller<sp/>class/method.<sp/>The<sp/>segments<sp/>in<sp/>a</highlight></codeline>
+<codeline lineno="10"><highlight class="comment">|<sp/>URL<sp/>normally<sp/>follow<sp/>this<sp/>pattern:</highlight></codeline>
+<codeline lineno="11"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="12"><highlight class="comment">|<sp/><sp/><sp/>example.com/class/method/id/</highlight></codeline>
+<codeline lineno="13"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="14"><highlight class="comment">|<sp/>In<sp/>some<sp/>instances,<sp/>however,<sp/>you<sp/>may<sp/>want<sp/>to<sp/>remap<sp/>this<sp/>relationship</highlight></codeline>
+<codeline lineno="15"><highlight class="comment">|<sp/>so<sp/>that<sp/>a<sp/>different<sp/>class/function<sp/>is<sp/>called<sp/>than<sp/>the<sp/>one</highlight></codeline>
+<codeline lineno="16"><highlight class="comment">|<sp/>corresponding<sp/>to<sp/>the<sp/>URL.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="18"><highlight class="comment">|<sp/>Please<sp/>see<sp/>the<sp/>user<sp/>guide<sp/>for<sp/>complete<sp/>details:</highlight></codeline>
+<codeline lineno="19"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">|<sp/><sp/><sp/>http://codeigniter.com/user_guide/general/routing.html</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="22"><highlight class="comment">|<sp/>-------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="23"><highlight class="comment">|<sp/>RESERVED<sp/>ROUTES</highlight></codeline>
+<codeline lineno="24"><highlight class="comment">|<sp/>-------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="25"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="26"><highlight class="comment">|<sp/>There<sp/>area<sp/>two<sp/>reserved<sp/>routes:</highlight></codeline>
+<codeline lineno="27"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="28"><highlight class="comment">|<sp/><sp/><sp/>$route[&apos;default_controller&apos;]<sp/>=<sp/>&apos;welcome&apos;;</highlight></codeline>
+<codeline lineno="29"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="30"><highlight class="comment">|<sp/>This<sp/>route<sp/>indicates<sp/>which<sp/>controller<sp/>class<sp/>should<sp/>be<sp/>loaded<sp/>if<sp/>the</highlight></codeline>
+<codeline lineno="31"><highlight class="comment">|<sp/>URI<sp/>contains<sp/>no<sp/>data.<sp/>In<sp/>the<sp/>above<sp/>example,<sp/>the<sp/>&quot;welcome&quot;<sp/>class</highlight></codeline>
+<codeline lineno="32"><highlight class="comment">|<sp/>would<sp/>be<sp/>loaded.</highlight></codeline>
+<codeline lineno="33"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="34"><highlight class="comment">|<sp/><sp/><sp/>$route[&apos;404_override&apos;]<sp/>=<sp/>&apos;errors/page_missing&apos;;</highlight></codeline>
+<codeline lineno="35"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="36"><highlight class="comment">|<sp/>This<sp/>route<sp/>will<sp/>tell<sp/>the<sp/>Router<sp/>what<sp/>URI<sp/>segments<sp/>to<sp/>use<sp/>if<sp/>those<sp/>provided</highlight></codeline>
+<codeline lineno="37"><highlight class="comment">|<sp/>in<sp/>the<sp/>URL<sp/>cannot<sp/>be<sp/>matched<sp/>to<sp/>a<sp/>valid<sp/>route.</highlight></codeline>
+<codeline lineno="38"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="39"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="routes_8php_1a6c2a82e4cec825eb1921141d08af834b" refkind="member"><highlight class="normal"><ref refid="routes_8php_1a6c2a82e4cec825eb1921141d08af834b" kindref="member">$route</ref>[</highlight><highlight class="stringliteral">&apos;default_controller&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;home&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="42" refid="routes_8php_1ad99ba8a90b758dbe982c621c9f27eedc" refkind="member"><highlight class="normal"><ref refid="routes_8php_1a6c2a82e4cec825eb1921141d08af834b" kindref="member">$route</ref>[</highlight><highlight class="stringliteral">&apos;404_override&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="routes_8php_1a68f9537f20c6adee48d71cd857b01410" refkind="member"><highlight class="normal"><ref refid="routes_8php_1a6c2a82e4cec825eb1921141d08af834b" kindref="member">$route</ref>[</highlight><highlight class="stringliteral">&apos;cheat-sheets&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;home/cheatSheet&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="45" refid="routes_8php_1a879b37eb8ab23f146ef5d9c1f99c4156" refkind="member"><highlight class="normal"><ref refid="routes_8php_1a6c2a82e4cec825eb1921141d08af834b" kindref="member">$route</ref>[</highlight><highlight class="stringliteral">&apos;contact-us&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;home/contactUs&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="46" refid="routes_8php_1ada107d2f4f76b05d59584b97f4620e4e" refkind="member"><highlight class="normal"><ref refid="routes_8php_1a6c2a82e4cec825eb1921141d08af834b" kindref="member">$route</ref>[</highlight><highlight class="stringliteral">&apos;save-image/(:any)&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;home/saveImage/$1&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="routes_8php_1ae498edf30300ac629d57d6f792269b5e" refkind="member"><highlight class="normal"><ref refid="routes_8php_1a6c2a82e4cec825eb1921141d08af834b" kindref="member">$route</ref>[</highlight><highlight class="stringliteral">&apos;login&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;account/login&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="49" refid="routes_8php_1a223aa064a349c5a0ee487832f915e81a" refkind="member"><highlight class="normal"><ref refid="routes_8php_1a6c2a82e4cec825eb1921141d08af834b" kindref="member">$route</ref>[</highlight><highlight class="stringliteral">&apos;check-login&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;auth/checkLogin&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="routes_8php_1a1a7cba54e5f132d593cd2e73f0b4aa21" refkind="member"><highlight class="normal"><ref refid="routes_8php_1a6c2a82e4cec825eb1921141d08af834b" kindref="member">$route</ref>[</highlight><highlight class="stringliteral">&apos;sign-up&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;account/register&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="52" refid="routes_8php_1aed782d27d10fc156cc2bfd21da5f511b" refkind="member"><highlight class="normal"><ref refid="routes_8php_1a6c2a82e4cec825eb1921141d08af834b" kindref="member">$route</ref>[</highlight><highlight class="stringliteral">&apos;check-sign-up&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;auth/checkSignUp&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="routes_8php_1a1d3e833786c5b494a7e64bd90543ff54" refkind="member"><highlight class="normal"><ref refid="routes_8php_1a6c2a82e4cec825eb1921141d08af834b" kindref="member">$route</ref>[</highlight><highlight class="stringliteral">&apos;logout&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;auth/logout&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="routes_8php_1a456226c2c4c89e963ae1f7a39c05f664" refkind="member"><highlight class="normal"><ref refid="routes_8php_1a6c2a82e4cec825eb1921141d08af834b" kindref="member">$route</ref>[</highlight><highlight class="stringliteral">&apos;account/change-info&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;account/changeInfo&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="57" refid="routes_8php_1a1f1cca6f261ccaa1eeae697a8e61b43f" refkind="member"><highlight class="normal"><ref refid="routes_8php_1a6c2a82e4cec825eb1921141d08af834b" kindref="member">$route</ref>[</highlight><highlight class="stringliteral">&apos;account/change-pass&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;account/changePass&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="58" refid="routes_8php_1ab69c72ae7bdfb0b07485edc5eab66e93" refkind="member"><highlight class="normal"><ref refid="routes_8php_1a6c2a82e4cec825eb1921141d08af834b" kindref="member">$route</ref>[</highlight><highlight class="stringliteral">&apos;account/(:any)&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;account/info&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="routes_8php_1aa42a2acd00cabe0c949ace0144b32d17" refkind="member"><highlight class="normal"><ref refid="routes_8php_1a6c2a82e4cec825eb1921141d08af834b" kindref="member">$route</ref>[</highlight><highlight class="stringliteral">&apos;community/(:any)&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;community/index/$1&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="routes_8php_1abd97a091a6cf337746c8b06f9a74cfd1" refkind="member"><highlight class="normal"><ref refid="routes_8php_1a6c2a82e4cec825eb1921141d08af834b" kindref="member">$route</ref>[</highlight><highlight class="stringliteral">&apos;save-formular&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;formular/save&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="63" refid="routes_8php_1a15bdd3d189063146001dbf6d24700221" refkind="member"><highlight class="normal"><ref refid="routes_8php_1a6c2a82e4cec825eb1921141d08af834b" kindref="member">$route</ref>[</highlight><highlight class="stringliteral">&apos;update-formular&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;formular/update&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="64" refid="routes_8php_1a0e749412e2f26f650e9153df14585d38" refkind="member"><highlight class="normal"><ref refid="routes_8php_1a6c2a82e4cec825eb1921141d08af834b" kindref="member">$route</ref>[</highlight><highlight class="stringliteral">&apos;formular/view-(:any)&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;formular/view/$1&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="65" refid="routes_8php_1a34f30a10e7ae0647da591556346cccc0" refkind="member"><highlight class="normal"><ref refid="routes_8php_1a6c2a82e4cec825eb1921141d08af834b" kindref="member">$route</ref>[</highlight><highlight class="stringliteral">&apos;formular/edit-(:any)&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;formular/edit/$1&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="66" refid="routes_8php_1a8c14dc806faab68928fc37976a78e078" refkind="member"><highlight class="normal"><ref refid="routes_8php_1a6c2a82e4cec825eb1921141d08af834b" kindref="member">$route</ref>[</highlight><highlight class="stringliteral">&apos;formular/copy-(:any)&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;formular/copy/$1&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>End<sp/>of<sp/>file<sp/>routes.php<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Location:<sp/>./application/config/routes.php<sp/>*/</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/routes.php"/>
+  </compounddef>
+</doxygen>

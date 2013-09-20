@@ -1,0 +1,1201 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_c_i___loader" kind="class" prot="public">
+    <compoundname>CI_Loader</compoundname>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_c_i___loader_1a499cf11349613b24142f9c13aa83ee1b" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$_ci_ob_level</definition>
+        <argsstring></argsstring>
+        <name>$_ci_ob_level</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" line="38" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___loader_1adc48c64c673b28c2447ea4214a27eeea" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$_ci_view_paths</definition>
+        <argsstring></argsstring>
+        <name>$_ci_view_paths</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" line="45" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" bodystart="45" bodyend="-1"/>
+        <referencedby refid="class_c_i___loader_1a8b23f3be0a84aa31df8b715ca841f5cf" compoundref="_loader_8php" startline="645" endline="658">add_package_path</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___loader_1a2cafeab35438db8fc21754e311b14e09" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$_ci_library_paths</definition>
+        <argsstring></argsstring>
+        <name>$_ci_library_paths</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" line="52" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___loader_1ac5f53015a6bd6ce67af5e30cb156cce4" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$_ci_model_paths</definition>
+        <argsstring></argsstring>
+        <name>$_ci_model_paths</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" line="59" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" bodystart="59" bodyend="-1"/>
+        <referencedby refid="class_c_i___loader_1a645d5b65ec991d936d864e8af01485e7" compoundref="_loader_8php" startline="670" endline="673">get_package_paths</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___loader_1a6ed0348d5a8afc689d71a234de8da95c" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$_ci_helper_paths</definition>
+        <argsstring></argsstring>
+        <name>$_ci_helper_paths</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" line="66" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___loader_1a3f6ad72a17d4acd515c8cc224b94297e" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$_base_classes</definition>
+        <argsstring></argsstring>
+        <name>$_base_classes</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" line="74" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___loader_1a963cdc111da481606d2d67adf4c2947f" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$_ci_cached_vars</definition>
+        <argsstring></argsstring>
+        <name>$_ci_cached_vars</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" line="81" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___loader_1adad50876041bed7c7bf44aac03eb1162" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$_ci_classes</definition>
+        <argsstring></argsstring>
+        <name>$_ci_classes</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" line="88" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___loader_1a610f07342114240cecd9377d55f433f8" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$_ci_loaded_files</definition>
+        <argsstring></argsstring>
+        <name>$_ci_loaded_files</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" line="95" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___loader_1adf3c08ef6905b17b2237bfa89d556f2c" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$_ci_models</definition>
+        <argsstring></argsstring>
+        <name>$_ci_models</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" line="102" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___loader_1abc8797a91f1cdb473e2d0ad65dcbff55" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$_ci_helpers</definition>
+        <argsstring></argsstring>
+        <name>$_ci_helpers</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" line="109" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___loader_1a8dd33a8ab99688451b1f811f122d1114" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$_ci_varmap</definition>
+        <argsstring></argsstring>
+        <name>$_ci_varmap</name>
+        <initializer>= array(&apos;unit_test&apos; =&gt; &apos;unit&apos;,
+											&apos;user_agent&apos; =&gt; &apos;agent&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" line="116" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_i___loader_1a095c5d389db211932136b53f25f39685" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>()</argsstring>
+        <name>__construct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor</para><para>Sets the path to the view files and gets the initial output buffering level </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" line="124" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" bodystart="124" bodyend="133"/>
+        <references refid="index_8php_1ad39801cabfd338dc5524466fe793fda9" compoundref="index_8php" startline="183">BASEPATH</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___loader_1a91098fa7d1917ce4833f284bbef12627" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>initialize</definition>
+        <argsstring>()</argsstring>
+        <name>initialize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Initialize the Loader</para><para>This method is called once in <ref refid="class_c_i___controller" kindref="compound">CI_Controller</ref>.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>object </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" line="145" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" bodystart="145" bodyend="155"/>
+        <references refid="class_c_i___loader_1a57ba1b43ec1d58c07a2d1e8cd00b9658" compoundref="_loader_8php" startline="171" endline="179">is_loaded</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___loader_1a57ba1b43ec1d58c07a2d1e8cd00b9658" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>is_loaded</definition>
+        <argsstring>($class)</argsstring>
+        <name>is_loaded</name>
+        <param>
+          <declname>$class</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Is Loaded</para><para>A utility function to test if a class is in the self::$_ci_classes array. This function returns the object name if the class tested for is loaded, and returns FALSE if it isn&apos;t.</para><para>It is mainly used in the form_helper -&gt; _get_validation_object()</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>class being checked for </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed class object name on the CI SuperObject or FALSE </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" line="171" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" bodystart="171" bodyend="179"/>
+        <references refid="_code_igniter_8php_1a252ba022809910ea710a068fc1bab657" compoundref="_code_igniter_8php" startline="264">$class</references>
+        <referencedby refid="class_c_i___loader_1a91098fa7d1917ce4833f284bbef12627" compoundref="_loader_8php" startline="145" endline="155">initialize</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___loader_1a107e711d913e6008ee5f4d557655afd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>library</definition>
+        <argsstring>($library= &apos;&apos;, $params=NULL, $object_name=NULL)</argsstring>
+        <name>library</name>
+        <param>
+          <declname>$library</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$params</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <declname>$object_name</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Class Loader</para><para>This function lets users load and instantiate classes. It is designed to be called from a user&apos;s app controllers.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the name of the class </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mixed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the optional parameters </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>an optional object name </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" line="194" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" bodystart="194" bodyend="217"/>
+        <references refid="_code_igniter_8php_1a252ba022809910ea710a068fc1bab657" compoundref="_code_igniter_8php" startline="264">$class</references>
+        <references refid="class_c_i___loader_1ad5e557570063bdce07595a06643d6b12" compoundref="_loader_8php" startline="879" endline="994">_ci_load_class</references>
+        <referencedby refid="class_c_i___loader_1a4490a2a9bb42a8bfb57446b831544a6c" compoundref="_loader_8php" startline="611" endline="632">driver</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___loader_1a3f2fc35ce58c58b39980136502db18e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>model</definition>
+        <argsstring>($model, $name= &apos;&apos;, $db_conn=FALSE)</argsstring>
+        <name>model</name>
+        <param>
+          <declname>$model</declname>
+        </param>
+        <param>
+          <declname>$name</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$db_conn</declname>
+          <defval>FALSE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Model Loader</para><para>This function lets users load and instantiate models.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the name of the class </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name for the model </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bool</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>database connection </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" line="231" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" bodystart="231" bodyend="311"/>
+        <references refid="_code_igniter_8php_1ae0314d046ddf7fcfaec03222977427d3" compoundref="_code_igniter_8php" startline="308">$CI</references>
+        <references refid="_code_igniter_8php_1a185483844bd20a0e80955460d66d2199" compoundref="_code_igniter_8php" startline="231" endline="398">get_instance</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___loader_1a22d288c451a7ebb77c814d21a1cb0a1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>database</definition>
+        <argsstring>($params= &apos;&apos;, $return=FALSE, $active_record=NULL)</argsstring>
+        <name>database</name>
+        <param>
+          <declname>$params</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$return</declname>
+          <defval>FALSE</defval>
+        </param>
+        <param>
+          <declname>$active_record</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Database Loader</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the DB credentials </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bool</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>whether to return the DB object </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bool</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>whether to enable active record (this allows us to override the config setting) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>object </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" line="323" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" bodystart="323" bodyend="347"/>
+        <references refid="_code_igniter_8php_1ae0314d046ddf7fcfaec03222977427d3" compoundref="_code_igniter_8php" startline="308">$CI</references>
+        <references refid="_code_igniter_8php_1a185483844bd20a0e80955460d66d2199" compoundref="_code_igniter_8php" startline="231" endline="398">get_instance</references>
+        <references refid="development_2database_8php_1a228b6ea91602f48a8831d0dc94809b94" compoundref="development_2database_8php" startline="49">$active_record</references>
+        <references refid="index_8php_1ad39801cabfd338dc5524466fe793fda9" compoundref="index_8php" startline="183">BASEPATH</references>
+        <references refid="_d_b_8php_1a187380ea48f71add22e585213d6aa6bf" compoundref="_d_b_8php" startline="27" endline="157">DB</references>
+        <referencedby refid="class_c_i___loader_1afca757331ddb1ee832af732a2f624882" compoundref="_loader_8php" startline="356" endline="374">dbutil</referencedby>
+        <referencedby refid="class_c_i___loader_1a4e719447bdbd4829418772916630949c" compoundref="_loader_8php" startline="383" endline="397">dbforge</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___loader_1afca757331ddb1ee832af732a2f624882" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>dbutil</definition>
+        <argsstring>()</argsstring>
+        <name>dbutil</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Load the Utilities Class</para><para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" line="356" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" bodystart="356" bodyend="374"/>
+        <references refid="class_c_i___loader_1a22d288c451a7ebb77c814d21a1cb0a1c" compoundref="_loader_8php" startline="323" endline="347">database</references>
+        <references refid="_code_igniter_8php_1ae0314d046ddf7fcfaec03222977427d3" compoundref="_code_igniter_8php" startline="308">$CI</references>
+        <references refid="_code_igniter_8php_1a185483844bd20a0e80955460d66d2199" compoundref="_code_igniter_8php" startline="231" endline="398">get_instance</references>
+        <references refid="index_8php_1ad39801cabfd338dc5524466fe793fda9" compoundref="index_8php" startline="183">BASEPATH</references>
+        <references refid="_code_igniter_8php_1a252ba022809910ea710a068fc1bab657" compoundref="_code_igniter_8php" startline="264">$class</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___loader_1a4e719447bdbd4829418772916630949c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>dbforge</definition>
+        <argsstring>()</argsstring>
+        <name>dbforge</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Load the Database Forge Class</para><para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" line="383" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" bodystart="383" bodyend="397"/>
+        <references refid="class_c_i___loader_1a22d288c451a7ebb77c814d21a1cb0a1c" compoundref="_loader_8php" startline="323" endline="347">database</references>
+        <references refid="_code_igniter_8php_1ae0314d046ddf7fcfaec03222977427d3" compoundref="_code_igniter_8php" startline="308">$CI</references>
+        <references refid="_code_igniter_8php_1a185483844bd20a0e80955460d66d2199" compoundref="_code_igniter_8php" startline="231" endline="398">get_instance</references>
+        <references refid="index_8php_1ad39801cabfd338dc5524466fe793fda9" compoundref="index_8php" startline="183">BASEPATH</references>
+        <references refid="_code_igniter_8php_1a252ba022809910ea710a068fc1bab657" compoundref="_code_igniter_8php" startline="264">$class</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___loader_1a338c66f36b2406ff1e14e7d64515b40c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>view</definition>
+        <argsstring>($view, $vars=array(), $return=FALSE)</argsstring>
+        <name>view</name>
+        <param>
+          <declname>$view</declname>
+        </param>
+        <param>
+          <declname>$vars</declname>
+          <defval>array()</defval>
+        </param>
+        <param>
+          <declname>$return</declname>
+          <defval>FALSE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Load View</para><para>This function is used to load a &quot;view&quot; file. It has three parameters:</para><para><orderedlist>
+<listitem><para>The name of the &quot;view&quot; file to be included.</para></listitem><listitem><para>An associative array of data to be extracted for use in the view.</para></listitem><listitem><para>TRUE/FALSE - whether to return the data or load it. In some cases it&apos;s advantageous to be able to return data so that a developer can process it in some way.</para></listitem></orderedlist>
+</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bool</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" line="417" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" bodystart="417" bodyend="420"/>
+        <references refid="class_c_i___loader_1ae3b5045c81f69c90afc7e918ff664d37" compoundref="_loader_8php" startline="741" endline="865">_ci_load</references>
+        <references refid="class_c_i___loader_1ab000c31996cf4b8750f2c1d66aa8413b" compoundref="_loader_8php" startline="1199" endline="1202">_ci_object_to_array</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___loader_1a47e4b8eda2bbf9e8bb505cdafb8e4ba5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>file</definition>
+        <argsstring>($path, $return=FALSE)</argsstring>
+        <name>file</name>
+        <param>
+          <declname>$path</declname>
+        </param>
+        <param>
+          <declname>$return</declname>
+          <defval>FALSE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Load File</para><para>This is a generic file loader</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bool</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" line="433" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" bodystart="433" bodyend="436"/>
+        <references refid="class_c_i___loader_1ae3b5045c81f69c90afc7e918ff664d37" compoundref="_loader_8php" startline="741" endline="865">_ci_load</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___loader_1a81f52eab55f5b998b1956ea67e58fcc3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>vars</definition>
+        <argsstring>($vars=array(), $val= &apos;&apos;)</argsstring>
+        <name>vars</name>
+        <param>
+          <declname>$vars</declname>
+          <defval>array()</defval>
+        </param>
+        <param>
+          <declname>$val</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set Variables</para><para>Once variables are set they become available within the controller class and its &quot;view&quot; files.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" line="450" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" bodystart="450" bodyend="466"/>
+        <references refid="class_c_i___loader_1ab000c31996cf4b8750f2c1d66aa8413b" compoundref="_loader_8php" startline="1199" endline="1202">_ci_object_to_array</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___loader_1a06567b423ba6d5b852808e581ef00fb0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>get_var</definition>
+        <argsstring>($key)</argsstring>
+        <name>get_var</name>
+        <param>
+          <declname>$key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get Variable</para><para>Check if a variable is set and retrieve it.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" line="478" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" bodystart="478" bodyend="481"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___loader_1a2da00ff269596262b62c0c6032b2996f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>helper</definition>
+        <argsstring>($helpers=array())</argsstring>
+        <name>helper</name>
+        <param>
+          <declname>$helpers</declname>
+          <defval>array()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Load Helper</para><para>This function loads the specified helper file.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mixed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" line="493" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" bodystart="493" bodyend="541"/>
+        <references refid="class_c_i___loader_1afbd52d4d271057334cb076106b50a327" compoundref="_loader_8php" startline="1229" endline="1244">_ci_prep_filename</references>
+        <references refid="index_8php_1ad39801cabfd338dc5524466fe793fda9" compoundref="index_8php" startline="183">BASEPATH</references>
+        <referencedby refid="class_c_i___loader_1a2c39d50f31ce66ffe936e4f68219e275" compoundref="_loader_8php" startline="554" endline="557">helpers</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___loader_1a2c39d50f31ce66ffe936e4f68219e275" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>helpers</definition>
+        <argsstring>($helpers=array())</argsstring>
+        <name>helpers</name>
+        <param>
+          <declname>$helpers</declname>
+          <defval>array()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Load Helpers</para><para>This is simply an alias to the above function in case the user has written the plural form of this function.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" line="554" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" bodystart="554" bodyend="557"/>
+        <references refid="class_c_i___loader_1a2da00ff269596262b62c0c6032b2996f" compoundref="_loader_8php" startline="493" endline="541">helper</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___loader_1a02a9f9b72bea7dc67355c850f919be71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>language</definition>
+        <argsstring>($file=array(), $lang= &apos;&apos;)</argsstring>
+        <name>language</name>
+        <param>
+          <declname>$file</declname>
+          <defval>array()</defval>
+        </param>
+        <param>
+          <declname>$lang</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Loads a language file</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" line="568" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" bodystart="568" bodyend="581"/>
+        <references refid="_code_igniter_8php_1ae0314d046ddf7fcfaec03222977427d3" compoundref="_code_igniter_8php" startline="308">$CI</references>
+        <references refid="_code_igniter_8php_1a185483844bd20a0e80955460d66d2199" compoundref="_code_igniter_8php" startline="231" endline="398">get_instance</references>
+        <references refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" compoundref="calendar__lang_8php" startline="3">$lang</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___loader_1af9e3be49624baaef3ff7ac93fc0e7f99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>config</definition>
+        <argsstring>($file= &apos;&apos;, $use_sections=FALSE, $fail_gracefully=FALSE)</argsstring>
+        <name>config</name>
+        <param>
+          <declname>$file</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$use_sections</declname>
+          <defval>FALSE</defval>
+        </param>
+        <param>
+          <declname>$fail_gracefully</declname>
+          <defval>FALSE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Loads a config file</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bool</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bool</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" line="593" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" bodystart="593" bodyend="597"/>
+        <references refid="_code_igniter_8php_1ae0314d046ddf7fcfaec03222977427d3" compoundref="_code_igniter_8php" startline="308">$CI</references>
+        <references refid="_code_igniter_8php_1a185483844bd20a0e80955460d66d2199" compoundref="_code_igniter_8php" startline="231" endline="398">get_instance</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___loader_1a4490a2a9bb42a8bfb57446b831544a6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>driver</definition>
+        <argsstring>($library= &apos;&apos;, $params=NULL, $object_name=NULL)</argsstring>
+        <name>driver</name>
+        <param>
+          <declname>$library</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$params</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <declname>$object_name</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Driver</para><para>Loads a driver library</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the name of the class </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mixed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the optional parameters </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>an optional object name </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" line="611" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" bodystart="611" bodyend="632"/>
+        <references refid="index_8php_1ad39801cabfd338dc5524466fe793fda9" compoundref="index_8php" startline="183">BASEPATH</references>
+        <references refid="class_c_i___loader_1a107e711d913e6008ee5f4d557655afd3" compoundref="_loader_8php" startline="194" endline="217">library</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___loader_1a8b23f3be0a84aa31df8b715ca841f5cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>add_package_path</definition>
+        <argsstring>($path, $view_cascade=TRUE)</argsstring>
+        <name>add_package_path</name>
+        <param>
+          <declname>$path</declname>
+        </param>
+        <param>
+          <declname>$view_cascade</declname>
+          <defval>TRUE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add Package Path</para><para>Prepends a parent path to the library, model, helper, and config path arrays</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>boolean</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" line="645" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" bodystart="645" bodyend="658"/>
+        <references refid="class_c_i___loader_1adc48c64c673b28c2447ea4214a27eeea" compoundref="_loader_8php" startline="45">$_ci_view_paths</references>
+        <references refid="application_2config_2config_8php_1a8063081991a9d7087e6aea78db95a524" compoundref="application_2config_2config_8php" startline="26">$config</references>
+        <references refid="class_c_i___loader_1a189d7f497e55c20fb9f82b065c20e402" compoundref="_loader_8php" startline="1212" endline="1216">_ci_get_component</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___loader_1a645d5b65ec991d936d864e8af01485e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>get_package_paths</definition>
+        <argsstring>($include_base=FALSE)</argsstring>
+        <name>get_package_paths</name>
+        <param>
+          <declname>$include_base</declname>
+          <defval>FALSE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get Package Paths</para><para>Return a list of all package paths, by default it will ignore BASEPATH.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" line="670" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" bodystart="670" bodyend="673"/>
+        <references refid="class_c_i___loader_1ac5f53015a6bd6ce67af5e30cb156cce4" compoundref="_loader_8php" startline="59">$_ci_model_paths</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___loader_1a201b769bd98ad90d37521dff960a6839" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>remove_package_path</definition>
+        <argsstring>($path= &apos;&apos;, $remove_config_path=TRUE)</argsstring>
+        <name>remove_package_path</name>
+        <param>
+          <declname>$path</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$remove_config_path</declname>
+          <defval>TRUE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Remove Package Path</para><para>Remove a path from the library, model, and helper path arrays if it exists If no path is provided, the most recently added path is removed.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bool</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>type </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" line="687" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" bodystart="687" bodyend="727"/>
+        <references refid="application_2config_2config_8php_1a8063081991a9d7087e6aea78db95a524" compoundref="application_2config_2config_8php" startline="26">$config</references>
+        <references refid="class_c_i___loader_1a189d7f497e55c20fb9f82b065c20e402" compoundref="_loader_8php" startline="1212" endline="1216">_ci_get_component</references>
+        <references refid="index_8php_1ad39801cabfd338dc5524466fe793fda9" compoundref="index_8php" startline="183">BASEPATH</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_c_i___loader_1ae3b5045c81f69c90afc7e918ff664d37" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_ci_load</definition>
+        <argsstring>($_ci_data)</argsstring>
+        <name>_ci_load</name>
+        <param>
+          <declname>$_ci_data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Loader</para><para>This function is used to load views and files. Variables are prefixed with <emphasis>ci</emphasis> to avoid symbol collision with variables made available to view files</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" line="741" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" bodystart="741" bodyend="865"/>
+        <references refid="list_8php_1a58236cd338e9e5c3a603f5be54ed6b4b" compoundref="list_8php" startline="11">foreach</references>
+        <references refid="_code_igniter_8php_1a185483844bd20a0e80955460d66d2199" compoundref="_code_igniter_8php" startline="231" endline="398">get_instance</references>
+        <referencedby refid="class_c_i___loader_1a338c66f36b2406ff1e14e7d64515b40c" compoundref="_loader_8php" startline="417" endline="420">view</referencedby>
+        <referencedby refid="class_c_i___loader_1a47e4b8eda2bbf9e8bb505cdafb8e4ba5" compoundref="_loader_8php" startline="433" endline="436">file</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___loader_1ad5e557570063bdce07595a06643d6b12" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_ci_load_class</definition>
+        <argsstring>($class, $params=NULL, $object_name=NULL)</argsstring>
+        <name>_ci_load_class</name>
+        <param>
+          <declname>$class</declname>
+        </param>
+        <param>
+          <declname>$params</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <declname>$object_name</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Load class</para><para>This function loads the requested class.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the item that is being loaded </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mixed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>any additional parameters </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>an optional object name </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" line="879" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" bodystart="879" bodyend="994"/>
+        <references refid="_code_igniter_8php_1a252ba022809910ea710a068fc1bab657" compoundref="_code_igniter_8php" startline="264">$class</references>
+        <references refid="index_8php_1ad39801cabfd338dc5524466fe793fda9" compoundref="index_8php" startline="183">BASEPATH</references>
+        <references refid="_code_igniter_8php_1ae0314d046ddf7fcfaec03222977427d3" compoundref="_code_igniter_8php" startline="308">$CI</references>
+        <references refid="_code_igniter_8php_1a185483844bd20a0e80955460d66d2199" compoundref="_code_igniter_8php" startline="231" endline="398">get_instance</references>
+        <references refid="class_c_i___loader_1aa7807101f5503fe3e53b3e917dd72a63" compoundref="_loader_8php" startline="1007" endline="1101">_ci_init_class</references>
+        <referencedby refid="class_c_i___loader_1a107e711d913e6008ee5f4d557655afd3" compoundref="_loader_8php" startline="194" endline="217">library</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___loader_1aa7807101f5503fe3e53b3e917dd72a63" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_ci_init_class</definition>
+        <argsstring>($class, $prefix= &apos;&apos;, $config=FALSE, $object_name=NULL)</argsstring>
+        <name>_ci_init_class</name>
+        <param>
+          <declname>$class</declname>
+        </param>
+        <param>
+          <declname>$prefix</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$config</declname>
+          <defval>FALSE</defval>
+        </param>
+        <param>
+          <declname>$object_name</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Instantiates a class</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bool</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>an optional object name </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>null </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" line="1007" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" bodystart="1007" bodyend="1101"/>
+        <references refid="application_2config_2config_8php_1a8063081991a9d7087e6aea78db95a524" compoundref="application_2config_2config_8php" startline="26">$config</references>
+        <references refid="class_c_i___loader_1a189d7f497e55c20fb9f82b065c20e402" compoundref="_loader_8php" startline="1212" endline="1216">_ci_get_component</references>
+        <references refid="_code_igniter_8php_1a252ba022809910ea710a068fc1bab657" compoundref="_code_igniter_8php" startline="264">$class</references>
+        <references refid="_code_igniter_8php_1ae0314d046ddf7fcfaec03222977427d3" compoundref="_code_igniter_8php" startline="308">$CI</references>
+        <references refid="_code_igniter_8php_1a185483844bd20a0e80955460d66d2199" compoundref="_code_igniter_8php" startline="231" endline="398">get_instance</references>
+        <referencedby refid="class_c_i___loader_1ad5e557570063bdce07595a06643d6b12" compoundref="_loader_8php" startline="879" endline="994">_ci_load_class</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___loader_1ab000c31996cf4b8750f2c1d66aa8413b" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_ci_object_to_array</definition>
+        <argsstring>($object)</argsstring>
+        <name>_ci_object_to_array</name>
+        <param>
+          <declname>$object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Object to Array</para><para>Takes an object as input and converts the class variables to array key/vals</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>object</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" line="1199" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" bodystart="1199" bodyend="1202"/>
+        <referencedby refid="class_c_i___loader_1a338c66f36b2406ff1e14e7d64515b40c" compoundref="_loader_8php" startline="417" endline="420">view</referencedby>
+        <referencedby refid="class_c_i___loader_1a81f52eab55f5b998b1956ea67e58fcc3" compoundref="_loader_8php" startline="450" endline="466">vars</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___loader_1a189d7f497e55c20fb9f82b065c20e402" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>&amp;</type>
+        <definition>&amp; _ci_get_component</definition>
+        <argsstring>($component)</argsstring>
+        <name>_ci_get_component</name>
+        <param>
+          <declname>$component</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get a reference to a specific library or model</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" line="1212" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" bodystart="1212" bodyend="1216"/>
+        <references refid="_code_igniter_8php_1ae0314d046ddf7fcfaec03222977427d3" compoundref="_code_igniter_8php" startline="308">$CI</references>
+        <references refid="_code_igniter_8php_1a185483844bd20a0e80955460d66d2199" compoundref="_code_igniter_8php" startline="231" endline="398">get_instance</references>
+        <referencedby refid="class_c_i___loader_1a8b23f3be0a84aa31df8b715ca841f5cf" compoundref="_loader_8php" startline="645" endline="658">add_package_path</referencedby>
+        <referencedby refid="class_c_i___loader_1a201b769bd98ad90d37521dff960a6839" compoundref="_loader_8php" startline="687" endline="727">remove_package_path</referencedby>
+        <referencedby refid="class_c_i___loader_1aa7807101f5503fe3e53b3e917dd72a63" compoundref="_loader_8php" startline="1007" endline="1101">_ci_init_class</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___loader_1afbd52d4d271057334cb076106b50a327" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_ci_prep_filename</definition>
+        <argsstring>($filename, $extension)</argsstring>
+        <name>_ci_prep_filename</name>
+        <param>
+          <declname>$filename</declname>
+        </param>
+        <param>
+          <declname>$extension</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Prep filename</para><para>This function preps the name of various items to make loading them more reliable.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mixed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" line="1229" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" bodystart="1229" bodyend="1244"/>
+        <referencedby refid="class_c_i___loader_1a2da00ff269596262b62c0c6032b2996f" compoundref="_loader_8php" startline="493" endline="541">helper</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_c_i___loader_1a93471c04ea0689dcf8faa5903d201efe" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_ci_autoloader</definition>
+        <argsstring>()</argsstring>
+        <name>_ci_autoloader</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Autoloader</para><para>The <ref refid="autoload_8php" kindref="compound">config/autoload.php</ref> file contains an array that permits sub-systems, libraries, and helpers to be loaded automatically.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" line="1114" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" bodystart="1114" bodyend="1187"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" line="29" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Loader.php" bodystart="29" bodyend="1245"/>
+    <listofallmembers>
+      <member refid="class_c_i___loader_1a3f6ad72a17d4acd515c8cc224b94297e" prot="protected" virt="non-virtual"><scope>CI_Loader</scope><name>$_base_classes</name></member>
+      <member refid="class_c_i___loader_1a963cdc111da481606d2d67adf4c2947f" prot="protected" virt="non-virtual"><scope>CI_Loader</scope><name>$_ci_cached_vars</name></member>
+      <member refid="class_c_i___loader_1adad50876041bed7c7bf44aac03eb1162" prot="protected" virt="non-virtual"><scope>CI_Loader</scope><name>$_ci_classes</name></member>
+      <member refid="class_c_i___loader_1a6ed0348d5a8afc689d71a234de8da95c" prot="protected" virt="non-virtual"><scope>CI_Loader</scope><name>$_ci_helper_paths</name></member>
+      <member refid="class_c_i___loader_1abc8797a91f1cdb473e2d0ad65dcbff55" prot="protected" virt="non-virtual"><scope>CI_Loader</scope><name>$_ci_helpers</name></member>
+      <member refid="class_c_i___loader_1a2cafeab35438db8fc21754e311b14e09" prot="protected" virt="non-virtual"><scope>CI_Loader</scope><name>$_ci_library_paths</name></member>
+      <member refid="class_c_i___loader_1a610f07342114240cecd9377d55f433f8" prot="protected" virt="non-virtual"><scope>CI_Loader</scope><name>$_ci_loaded_files</name></member>
+      <member refid="class_c_i___loader_1ac5f53015a6bd6ce67af5e30cb156cce4" prot="protected" virt="non-virtual"><scope>CI_Loader</scope><name>$_ci_model_paths</name></member>
+      <member refid="class_c_i___loader_1adf3c08ef6905b17b2237bfa89d556f2c" prot="protected" virt="non-virtual"><scope>CI_Loader</scope><name>$_ci_models</name></member>
+      <member refid="class_c_i___loader_1a499cf11349613b24142f9c13aa83ee1b" prot="protected" virt="non-virtual"><scope>CI_Loader</scope><name>$_ci_ob_level</name></member>
+      <member refid="class_c_i___loader_1a8dd33a8ab99688451b1f811f122d1114" prot="protected" virt="non-virtual"><scope>CI_Loader</scope><name>$_ci_varmap</name></member>
+      <member refid="class_c_i___loader_1adc48c64c673b28c2447ea4214a27eeea" prot="protected" virt="non-virtual"><scope>CI_Loader</scope><name>$_ci_view_paths</name></member>
+      <member refid="class_c_i___loader_1a095c5d389db211932136b53f25f39685" prot="public" virt="non-virtual"><scope>CI_Loader</scope><name>__construct</name></member>
+      <member refid="class_c_i___loader_1a93471c04ea0689dcf8faa5903d201efe" prot="private" virt="non-virtual"><scope>CI_Loader</scope><name>_ci_autoloader</name></member>
+      <member refid="class_c_i___loader_1a189d7f497e55c20fb9f82b065c20e402" prot="protected" virt="non-virtual"><scope>CI_Loader</scope><name>_ci_get_component</name></member>
+      <member refid="class_c_i___loader_1aa7807101f5503fe3e53b3e917dd72a63" prot="protected" virt="non-virtual"><scope>CI_Loader</scope><name>_ci_init_class</name></member>
+      <member refid="class_c_i___loader_1ae3b5045c81f69c90afc7e918ff664d37" prot="protected" virt="non-virtual"><scope>CI_Loader</scope><name>_ci_load</name></member>
+      <member refid="class_c_i___loader_1ad5e557570063bdce07595a06643d6b12" prot="protected" virt="non-virtual"><scope>CI_Loader</scope><name>_ci_load_class</name></member>
+      <member refid="class_c_i___loader_1ab000c31996cf4b8750f2c1d66aa8413b" prot="protected" virt="non-virtual"><scope>CI_Loader</scope><name>_ci_object_to_array</name></member>
+      <member refid="class_c_i___loader_1afbd52d4d271057334cb076106b50a327" prot="protected" virt="non-virtual"><scope>CI_Loader</scope><name>_ci_prep_filename</name></member>
+      <member refid="class_c_i___loader_1a8b23f3be0a84aa31df8b715ca841f5cf" prot="public" virt="non-virtual"><scope>CI_Loader</scope><name>add_package_path</name></member>
+      <member refid="class_c_i___loader_1af9e3be49624baaef3ff7ac93fc0e7f99" prot="public" virt="non-virtual"><scope>CI_Loader</scope><name>config</name></member>
+      <member refid="class_c_i___loader_1a22d288c451a7ebb77c814d21a1cb0a1c" prot="public" virt="non-virtual"><scope>CI_Loader</scope><name>database</name></member>
+      <member refid="class_c_i___loader_1a4e719447bdbd4829418772916630949c" prot="public" virt="non-virtual"><scope>CI_Loader</scope><name>dbforge</name></member>
+      <member refid="class_c_i___loader_1afca757331ddb1ee832af732a2f624882" prot="public" virt="non-virtual"><scope>CI_Loader</scope><name>dbutil</name></member>
+      <member refid="class_c_i___loader_1a4490a2a9bb42a8bfb57446b831544a6c" prot="public" virt="non-virtual"><scope>CI_Loader</scope><name>driver</name></member>
+      <member refid="class_c_i___loader_1a47e4b8eda2bbf9e8bb505cdafb8e4ba5" prot="public" virt="non-virtual"><scope>CI_Loader</scope><name>file</name></member>
+      <member refid="class_c_i___loader_1a645d5b65ec991d936d864e8af01485e7" prot="public" virt="non-virtual"><scope>CI_Loader</scope><name>get_package_paths</name></member>
+      <member refid="class_c_i___loader_1a06567b423ba6d5b852808e581ef00fb0" prot="public" virt="non-virtual"><scope>CI_Loader</scope><name>get_var</name></member>
+      <member refid="class_c_i___loader_1a2da00ff269596262b62c0c6032b2996f" prot="public" virt="non-virtual"><scope>CI_Loader</scope><name>helper</name></member>
+      <member refid="class_c_i___loader_1a2c39d50f31ce66ffe936e4f68219e275" prot="public" virt="non-virtual"><scope>CI_Loader</scope><name>helpers</name></member>
+      <member refid="class_c_i___loader_1a91098fa7d1917ce4833f284bbef12627" prot="public" virt="non-virtual"><scope>CI_Loader</scope><name>initialize</name></member>
+      <member refid="class_c_i___loader_1a57ba1b43ec1d58c07a2d1e8cd00b9658" prot="public" virt="non-virtual"><scope>CI_Loader</scope><name>is_loaded</name></member>
+      <member refid="class_c_i___loader_1a02a9f9b72bea7dc67355c850f919be71" prot="public" virt="non-virtual"><scope>CI_Loader</scope><name>language</name></member>
+      <member refid="class_c_i___loader_1a107e711d913e6008ee5f4d557655afd3" prot="public" virt="non-virtual"><scope>CI_Loader</scope><name>library</name></member>
+      <member refid="class_c_i___loader_1a3f2fc35ce58c58b39980136502db18e8" prot="public" virt="non-virtual"><scope>CI_Loader</scope><name>model</name></member>
+      <member refid="class_c_i___loader_1a201b769bd98ad90d37521dff960a6839" prot="public" virt="non-virtual"><scope>CI_Loader</scope><name>remove_package_path</name></member>
+      <member refid="class_c_i___loader_1a81f52eab55f5b998b1956ea67e58fcc3" prot="public" virt="non-virtual"><scope>CI_Loader</scope><name>vars</name></member>
+      <member refid="class_c_i___loader_1a338c66f36b2406ff1e14e7d64515b40c" prot="public" virt="non-virtual"><scope>CI_Loader</scope><name>view</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

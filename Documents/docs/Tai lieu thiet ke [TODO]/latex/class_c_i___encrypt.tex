@@ -1,0 +1,576 @@
+\section{C\-I\-\_\-\-Encrypt Class Reference}
+\label{class_c_i___encrypt}\index{C\-I\-\_\-\-Encrypt@{C\-I\-\_\-\-Encrypt}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf \-\_\-\-\_\-construct} ()
+\item 
+{\bf get\-\_\-key} (\$key= '')
+\item 
+{\bf set\-\_\-key} (\$key= '')
+\item 
+{\bf encode} (\$string, \$key= '')
+\item 
+{\bf decode} (\$string, \$key= '')
+\item 
+{\bf encode\-\_\-from\-\_\-legacy} (\$string, \$legacy\-\_\-mode=M\-C\-R\-Y\-P\-T\-\_\-\-M\-O\-D\-E\-\_\-\-E\-C\-B, \$key= '')
+\item 
+{\bf \-\_\-xor\-\_\-encode} (\$string, \$key)
+\item 
+{\bf \-\_\-xor\-\_\-decode} (\$string, \$key)
+\item 
+{\bf \-\_\-xor\-\_\-merge} (\$string, \$key)
+\item 
+{\bf mcrypt\-\_\-encode} (\$data, \$key)
+\item 
+{\bf mcrypt\-\_\-decode} (\$data, \$key)
+\item 
+{\bf \-\_\-add\-\_\-cipher\-\_\-noise} (\$data, \$key)
+\item 
+{\bf \-\_\-remove\-\_\-cipher\-\_\-noise} (\$data, \$key)
+\item 
+{\bf set\-\_\-cipher} (\$cipher)
+\item 
+{\bf set\-\_\-mode} (\$mode)
+\item 
+{\bf \-\_\-get\-\_\-cipher} ()
+\item 
+{\bf \-\_\-get\-\_\-mode} ()
+\item 
+{\bf set\-\_\-hash} (\${\bf type}= '{\bf sha1}')
+\item 
+{\bf hash} (\$str)
+\item 
+{\bf sha1} (\$str)
+\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+{\bf \$\-C\-I}
+\item 
+{\bf \$encryption\-\_\-key} = ''
+\item 
+{\bf \$\-\_\-hash\-\_\-type} = '{\bf sha1}'
+\item 
+{\bf \$\-\_\-mcrypt\-\_\-exists} = F\-A\-L\-S\-E
+\item 
+{\bf \$\-\_\-mcrypt\-\_\-cipher}
+\item 
+{\bf \$\-\_\-mcrypt\-\_\-mode}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 29 of file Encrypt.\-php.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{C\-I\-\_\-\-Encrypt@{C\-I\-\_\-\-Encrypt}!\-\_\-\-\_\-construct@{\-\_\-\-\_\-construct}}
+\index{\-\_\-\-\_\-construct@{\-\_\-\-\_\-construct}!CI_Encrypt@{C\-I\-\_\-\-Encrypt}}
+\subsubsection[{\-\_\-\-\_\-construct}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-\-\_\-construct (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_c_i___encrypt_a095c5d389db211932136b53f25f39685}
+Constructor
+
+Simply determines whether the mcrypt library exists. 
+
+Definition at line 44 of file Encrypt.\-php.
+
+
+
+\subsection{Member Function Documentation}
+\index{C\-I\-\_\-\-Encrypt@{C\-I\-\_\-\-Encrypt}!\-\_\-add\-\_\-cipher\-\_\-noise@{\-\_\-add\-\_\-cipher\-\_\-noise}}
+\index{\-\_\-add\-\_\-cipher\-\_\-noise@{\-\_\-add\-\_\-cipher\-\_\-noise}!CI_Encrypt@{C\-I\-\_\-\-Encrypt}}
+\subsubsection[{\-\_\-add\-\_\-cipher\-\_\-noise}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-add\-\_\-cipher\-\_\-noise (
+\begin{DoxyParamCaption}
+\item[{}]{\$data, }
+\item[{}]{\$key}
+\end{DoxyParamCaption}
+)}\label{class_c_i___encrypt_ada423e99876a54e7bc33afc9899d01a2}
+Adds permuted noise to the I\-V + encrypted data to protect against Man-\/in-\/the-\/middle attacks on C\-B\-C mode ciphers {\tt http\-://www.\-ciphersbyritter.\-com/\-G\-L\-O\-S\-S\-A\-R\-Y.\-H\-T\-M\#\-I\-V}
+
+Function description
+
+private 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 363 of file Encrypt.\-php.
+
+\index{C\-I\-\_\-\-Encrypt@{C\-I\-\_\-\-Encrypt}!\-\_\-get\-\_\-cipher@{\-\_\-get\-\_\-cipher}}
+\index{\-\_\-get\-\_\-cipher@{\-\_\-get\-\_\-cipher}!CI_Encrypt@{C\-I\-\_\-\-Encrypt}}
+\subsubsection[{\-\_\-get\-\_\-cipher}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-get\-\_\-cipher (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_c_i___encrypt_a663ee049f0b7596a0e4925a3eb2db062}
+Get Mcrypt cipher Value
+
+private \begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 456 of file Encrypt.\-php.
+
+\index{C\-I\-\_\-\-Encrypt@{C\-I\-\_\-\-Encrypt}!\-\_\-get\-\_\-mode@{\-\_\-get\-\_\-mode}}
+\index{\-\_\-get\-\_\-mode@{\-\_\-get\-\_\-mode}!CI_Encrypt@{C\-I\-\_\-\-Encrypt}}
+\subsubsection[{\-\_\-get\-\_\-mode}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-get\-\_\-mode (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_c_i___encrypt_a8c6526d9458754249ee7268ead883a6c}
+Get Mcrypt Mode Value
+
+private \begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 474 of file Encrypt.\-php.
+
+\index{C\-I\-\_\-\-Encrypt@{C\-I\-\_\-\-Encrypt}!\-\_\-remove\-\_\-cipher\-\_\-noise@{\-\_\-remove\-\_\-cipher\-\_\-noise}}
+\index{\-\_\-remove\-\_\-cipher\-\_\-noise@{\-\_\-remove\-\_\-cipher\-\_\-noise}!CI_Encrypt@{C\-I\-\_\-\-Encrypt}}
+\subsubsection[{\-\_\-remove\-\_\-cipher\-\_\-noise}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-remove\-\_\-cipher\-\_\-noise (
+\begin{DoxyParamCaption}
+\item[{}]{\$data, }
+\item[{}]{\$key}
+\end{DoxyParamCaption}
+)}\label{class_c_i___encrypt_a35c2675b85803d42231d1f8353fa8dac}
+Removes permuted noise from the I\-V + encrypted data, reversing \doxyref{\-\_\-add\-\_\-cipher\-\_\-noise()}{p.}{class_c_i___encrypt_ada423e99876a54e7bc33afc9899d01a2}
+
+Function description
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em type} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+type 
+\end{DoxyReturn}
+
+
+Definition at line 394 of file Encrypt.\-php.
+
+\index{C\-I\-\_\-\-Encrypt@{C\-I\-\_\-\-Encrypt}!\-\_\-xor\-\_\-decode@{\-\_\-xor\-\_\-decode}}
+\index{\-\_\-xor\-\_\-decode@{\-\_\-xor\-\_\-decode}!CI_Encrypt@{C\-I\-\_\-\-Encrypt}}
+\subsubsection[{\-\_\-xor\-\_\-decode}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-xor\-\_\-decode (
+\begin{DoxyParamCaption}
+\item[{}]{\$string, }
+\item[{}]{\$key}
+\end{DoxyParamCaption}
+)}\label{class_c_i___encrypt_aa0cee348c5cef9a3a06c22a92c38fd4f}
+X\-O\-R Decode
+
+Takes an encoded string and key as input and generates the plain-\/text original message
+
+private 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 270 of file Encrypt.\-php.
+
+\index{C\-I\-\_\-\-Encrypt@{C\-I\-\_\-\-Encrypt}!\-\_\-xor\-\_\-encode@{\-\_\-xor\-\_\-encode}}
+\index{\-\_\-xor\-\_\-encode@{\-\_\-xor\-\_\-encode}!CI_Encrypt@{C\-I\-\_\-\-Encrypt}}
+\subsubsection[{\-\_\-xor\-\_\-encode}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-xor\-\_\-encode (
+\begin{DoxyParamCaption}
+\item[{}]{\$string, }
+\item[{}]{\$key}
+\end{DoxyParamCaption}
+)}\label{class_c_i___encrypt_a6e12266a879a6258c49dbc380aed35ca}
+X\-O\-R Encode
+
+Takes a plain-\/text string and key as input and generates an encoded bit-\/string using X\-O\-R
+
+private 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 238 of file Encrypt.\-php.
+
+\index{C\-I\-\_\-\-Encrypt@{C\-I\-\_\-\-Encrypt}!\-\_\-xor\-\_\-merge@{\-\_\-xor\-\_\-merge}}
+\index{\-\_\-xor\-\_\-merge@{\-\_\-xor\-\_\-merge}!CI_Encrypt@{C\-I\-\_\-\-Encrypt}}
+\subsubsection[{\-\_\-xor\-\_\-merge}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-xor\-\_\-merge (
+\begin{DoxyParamCaption}
+\item[{}]{\$string, }
+\item[{}]{\$key}
+\end{DoxyParamCaption}
+)}\label{class_c_i___encrypt_aaf2644aeb5ec418eb4ddc2d70f372ada}
+X\-O\-R key + string Combiner
+
+Takes a string and key as input and computes the difference using X\-O\-R
+
+private 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 295 of file Encrypt.\-php.
+
+\index{C\-I\-\_\-\-Encrypt@{C\-I\-\_\-\-Encrypt}!decode@{decode}}
+\index{decode@{decode}!CI_Encrypt@{C\-I\-\_\-\-Encrypt}}
+\subsubsection[{decode}]{\setlength{\rightskip}{0pt plus 5cm}decode (
+\begin{DoxyParamCaption}
+\item[{}]{\$string, }
+\item[{}]{\$key = {\ttfamily ''}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___encrypt_a60c68c6c16a6082e23386f9ac23518ef}
+Decode
+
+Reverses the above process
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 144 of file Encrypt.\-php.
+
+\index{C\-I\-\_\-\-Encrypt@{C\-I\-\_\-\-Encrypt}!encode@{encode}}
+\index{encode@{encode}!CI_Encrypt@{C\-I\-\_\-\-Encrypt}}
+\subsubsection[{encode}]{\setlength{\rightskip}{0pt plus 5cm}encode (
+\begin{DoxyParamCaption}
+\item[{}]{\$string, }
+\item[{}]{\$key = {\ttfamily ''}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___encrypt_a3d863b1bc39b9a7865d99df1cdf24df0}
+Encode
+
+Encodes the message string using bitwise X\-O\-R encoding. The key is combined with a random hash, and then it too gets converted using X\-O\-R. The whole thing is then run through mcrypt (if supported) using the randomized key. The end result is a double-\/encrypted message string that is randomized with each call to this function, even if the supplied message and key are the same.
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & the string to encode \\
+\hline
+{\em string} & the key \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 116 of file Encrypt.\-php.
+
+\index{C\-I\-\_\-\-Encrypt@{C\-I\-\_\-\-Encrypt}!encode\-\_\-from\-\_\-legacy@{encode\-\_\-from\-\_\-legacy}}
+\index{encode\-\_\-from\-\_\-legacy@{encode\-\_\-from\-\_\-legacy}!CI_Encrypt@{C\-I\-\_\-\-Encrypt}}
+\subsubsection[{encode\-\_\-from\-\_\-legacy}]{\setlength{\rightskip}{0pt plus 5cm}encode\-\_\-from\-\_\-legacy (
+\begin{DoxyParamCaption}
+\item[{}]{\$string, }
+\item[{}]{\$legacy\-\_\-mode = {\ttfamily MCRYPT\-\_\-MODE\-\_\-ECB}, }
+\item[{}]{\$key = {\ttfamily ''}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___encrypt_a2dffd202d3b3968d905d1012041e6588}
+Encode from Legacy
+
+Takes an encoded string from the original Encryption class algorithms and returns a newly encoded string using the improved method added in 2.\-0.\-0 This allows for backwards compatibility and a method to transition to the new encryption algorithms.
+
+For more details, see {\tt http\-://codeigniter.\-com/user\-\_\-guide/installation/upgrade\-\_\-200.\-html\#encryption}
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+{\em int} & (mcrypt mode constant) \\
+\hline
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 188 of file Encrypt.\-php.
+
+\index{C\-I\-\_\-\-Encrypt@{C\-I\-\_\-\-Encrypt}!get\-\_\-key@{get\-\_\-key}}
+\index{get\-\_\-key@{get\-\_\-key}!CI_Encrypt@{C\-I\-\_\-\-Encrypt}}
+\subsubsection[{get\-\_\-key}]{\setlength{\rightskip}{0pt plus 5cm}get\-\_\-key (
+\begin{DoxyParamCaption}
+\item[{}]{\$key = {\ttfamily ''}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___encrypt_aad3fd0de27f6a67b14751b47d2471693}
+Fetch the encryption key
+
+Returns it as M\-D5 in order to have an exact-\/length 128 bit key. Mcrypt is sensitive to keys that are not the correct length
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 63 of file Encrypt.\-php.
+
+\index{C\-I\-\_\-\-Encrypt@{C\-I\-\_\-\-Encrypt}!hash@{hash}}
+\index{hash@{hash}!CI_Encrypt@{C\-I\-\_\-\-Encrypt}}
+\subsubsection[{hash}]{\setlength{\rightskip}{0pt plus 5cm}hash (
+\begin{DoxyParamCaption}
+\item[{}]{\$str}
+\end{DoxyParamCaption}
+)}\label{class_c_i___encrypt_aea8db0058c00fd2bc1351ddb2ebf3191}
+Hash encode a string
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 507 of file Encrypt.\-php.
+
+\index{C\-I\-\_\-\-Encrypt@{C\-I\-\_\-\-Encrypt}!mcrypt\-\_\-decode@{mcrypt\-\_\-decode}}
+\index{mcrypt\-\_\-decode@{mcrypt\-\_\-decode}!CI_Encrypt@{C\-I\-\_\-\-Encrypt}}
+\subsubsection[{mcrypt\-\_\-decode}]{\setlength{\rightskip}{0pt plus 5cm}mcrypt\-\_\-decode (
+\begin{DoxyParamCaption}
+\item[{}]{\$data, }
+\item[{}]{\$key}
+\end{DoxyParamCaption}
+)}\label{class_c_i___encrypt_a85f02c928abbbc5a6bf038ea5292324d}
+Decrypt using Mcrypt
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 334 of file Encrypt.\-php.
+
+\index{C\-I\-\_\-\-Encrypt@{C\-I\-\_\-\-Encrypt}!mcrypt\-\_\-encode@{mcrypt\-\_\-encode}}
+\index{mcrypt\-\_\-encode@{mcrypt\-\_\-encode}!CI_Encrypt@{C\-I\-\_\-\-Encrypt}}
+\subsubsection[{mcrypt\-\_\-encode}]{\setlength{\rightskip}{0pt plus 5cm}mcrypt\-\_\-encode (
+\begin{DoxyParamCaption}
+\item[{}]{\$data, }
+\item[{}]{\$key}
+\end{DoxyParamCaption}
+)}\label{class_c_i___encrypt_aa1d7e40f65deb526fe4619da65c6b1ec}
+Encrypt using Mcrypt
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 317 of file Encrypt.\-php.
+
+\index{C\-I\-\_\-\-Encrypt@{C\-I\-\_\-\-Encrypt}!set\-\_\-cipher@{set\-\_\-cipher}}
+\index{set\-\_\-cipher@{set\-\_\-cipher}!CI_Encrypt@{C\-I\-\_\-\-Encrypt}}
+\subsubsection[{set\-\_\-cipher}]{\setlength{\rightskip}{0pt plus 5cm}set\-\_\-cipher (
+\begin{DoxyParamCaption}
+\item[{}]{\$cipher}
+\end{DoxyParamCaption}
+)}\label{class_c_i___encrypt_a6459059d757a362410feb13d96455747}
+Set the Mcrypt Cipher
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em constant} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 429 of file Encrypt.\-php.
+
+\index{C\-I\-\_\-\-Encrypt@{C\-I\-\_\-\-Encrypt}!set\-\_\-hash@{set\-\_\-hash}}
+\index{set\-\_\-hash@{set\-\_\-hash}!CI_Encrypt@{C\-I\-\_\-\-Encrypt}}
+\subsubsection[{set\-\_\-hash}]{\setlength{\rightskip}{0pt plus 5cm}set\-\_\-hash (
+\begin{DoxyParamCaption}
+\item[{}]{\$type = {\ttfamily '{\bf sha1}'}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___encrypt_ab14b774f9fd0cc2fd082a2c44c5f9f07}
+Set the Hash type
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 493 of file Encrypt.\-php.
+
+\index{C\-I\-\_\-\-Encrypt@{C\-I\-\_\-\-Encrypt}!set\-\_\-key@{set\-\_\-key}}
+\index{set\-\_\-key@{set\-\_\-key}!CI_Encrypt@{C\-I\-\_\-\-Encrypt}}
+\subsubsection[{set\-\_\-key}]{\setlength{\rightskip}{0pt plus 5cm}set\-\_\-key (
+\begin{DoxyParamCaption}
+\item[{}]{\$key = {\ttfamily ''}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___encrypt_aec193abfe69c2cb1af185b3ca5754de3}
+Set the encryption key
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 93 of file Encrypt.\-php.
+
+\index{C\-I\-\_\-\-Encrypt@{C\-I\-\_\-\-Encrypt}!set\-\_\-mode@{set\-\_\-mode}}
+\index{set\-\_\-mode@{set\-\_\-mode}!CI_Encrypt@{C\-I\-\_\-\-Encrypt}}
+\subsubsection[{set\-\_\-mode}]{\setlength{\rightskip}{0pt plus 5cm}set\-\_\-mode (
+\begin{DoxyParamCaption}
+\item[{}]{\$mode}
+\end{DoxyParamCaption}
+)}\label{class_c_i___encrypt_ab32fd90a4ac2df4be1e56460d6f6daa3}
+Set the Mcrypt Mode
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em constant} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 443 of file Encrypt.\-php.
+
+\index{C\-I\-\_\-\-Encrypt@{C\-I\-\_\-\-Encrypt}!sha1@{sha1}}
+\index{sha1@{sha1}!CI_Encrypt@{C\-I\-\_\-\-Encrypt}}
+\subsubsection[{sha1}]{\setlength{\rightskip}{0pt plus 5cm}sha1 (
+\begin{DoxyParamCaption}
+\item[{}]{\$str}
+\end{DoxyParamCaption}
+)}\label{class_c_i___encrypt_a0cd7cd589a363e34549991c27584b489}
+Generate an S\-H\-A1 Hash
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 521 of file Encrypt.\-php.
+
+
+
+\subsection{Field Documentation}
+\index{C\-I\-\_\-\-Encrypt@{C\-I\-\_\-\-Encrypt}!\$\-\_\-hash\-\_\-type@{\$\-\_\-hash\-\_\-type}}
+\index{\$\-\_\-hash\-\_\-type@{\$\-\_\-hash\-\_\-type}!CI_Encrypt@{C\-I\-\_\-\-Encrypt}}
+\subsubsection[{\$\-\_\-hash\-\_\-type}]{\setlength{\rightskip}{0pt plus 5cm}\$\-\_\-hash\-\_\-type = '{\bf sha1}'}\label{class_c_i___encrypt_a04e9d4ea0e45fc04c07aa1e291e17412}
+
+
+Definition at line 33 of file Encrypt.\-php.
+
+\index{C\-I\-\_\-\-Encrypt@{C\-I\-\_\-\-Encrypt}!\$\-\_\-mcrypt\-\_\-cipher@{\$\-\_\-mcrypt\-\_\-cipher}}
+\index{\$\-\_\-mcrypt\-\_\-cipher@{\$\-\_\-mcrypt\-\_\-cipher}!CI_Encrypt@{C\-I\-\_\-\-Encrypt}}
+\subsubsection[{\$\-\_\-mcrypt\-\_\-cipher}]{\setlength{\rightskip}{0pt plus 5cm}\$\-\_\-mcrypt\-\_\-cipher}\label{class_c_i___encrypt_ab2cdedd99c4818b191c667f5e081a2db}
+
+
+Definition at line 35 of file Encrypt.\-php.
+
+\index{C\-I\-\_\-\-Encrypt@{C\-I\-\_\-\-Encrypt}!\$\-\_\-mcrypt\-\_\-exists@{\$\-\_\-mcrypt\-\_\-exists}}
+\index{\$\-\_\-mcrypt\-\_\-exists@{\$\-\_\-mcrypt\-\_\-exists}!CI_Encrypt@{C\-I\-\_\-\-Encrypt}}
+\subsubsection[{\$\-\_\-mcrypt\-\_\-exists}]{\setlength{\rightskip}{0pt plus 5cm}\$\-\_\-mcrypt\-\_\-exists = F\-A\-L\-S\-E}\label{class_c_i___encrypt_aaf4246798dad057cc4e294706e5e4e37}
+
+
+Definition at line 34 of file Encrypt.\-php.
+
+\index{C\-I\-\_\-\-Encrypt@{C\-I\-\_\-\-Encrypt}!\$\-\_\-mcrypt\-\_\-mode@{\$\-\_\-mcrypt\-\_\-mode}}
+\index{\$\-\_\-mcrypt\-\_\-mode@{\$\-\_\-mcrypt\-\_\-mode}!CI_Encrypt@{C\-I\-\_\-\-Encrypt}}
+\subsubsection[{\$\-\_\-mcrypt\-\_\-mode}]{\setlength{\rightskip}{0pt plus 5cm}\$\-\_\-mcrypt\-\_\-mode}\label{class_c_i___encrypt_ace4d98b5320c7fe75e6a38505abcdb82}
+
+
+Definition at line 36 of file Encrypt.\-php.
+
+\index{C\-I\-\_\-\-Encrypt@{C\-I\-\_\-\-Encrypt}!\$\-C\-I@{\$\-C\-I}}
+\index{\$\-C\-I@{\$\-C\-I}!CI_Encrypt@{C\-I\-\_\-\-Encrypt}}
+\subsubsection[{\$\-C\-I}]{\setlength{\rightskip}{0pt plus 5cm}\$C\-I}\label{class_c_i___encrypt_ae0314d046ddf7fcfaec03222977427d3}
+
+
+Definition at line 31 of file Encrypt.\-php.
+
+\index{C\-I\-\_\-\-Encrypt@{C\-I\-\_\-\-Encrypt}!\$encryption\-\_\-key@{\$encryption\-\_\-key}}
+\index{\$encryption\-\_\-key@{\$encryption\-\_\-key}!CI_Encrypt@{C\-I\-\_\-\-Encrypt}}
+\subsubsection[{\$encryption\-\_\-key}]{\setlength{\rightskip}{0pt plus 5cm}\$encryption\-\_\-key = ''}\label{class_c_i___encrypt_a35bbf76a5bcca90ca9b39368ed28121c}
+
+
+Definition at line 32 of file Encrypt.\-php.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+system/libraries/{\bf Encrypt.\-php}\end{DoxyCompactItemize}

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_e9a3063a362e52a72a2c571924e6112b" kind="dir">
+    <compoundname>system/database/drivers</compoundname>
+    <innerdir refid="dir_ef7236c450393c91e55f483d00ba69c1">system/database/drivers/cubrid</innerdir>
+    <innerdir refid="dir_5c5927f348e9c8783c8a11b99154faf8">system/database/drivers/mssql</innerdir>
+    <innerdir refid="dir_6ead3397c534477048b45bbe58282792">system/database/drivers/mysql</innerdir>
+    <innerdir refid="dir_af86efcb20a3346723b6915f61b9f076">system/database/drivers/mysqli</innerdir>
+    <innerdir refid="dir_86f43e1240547d452a9e47a1935ff608">system/database/drivers/oci8</innerdir>
+    <innerdir refid="dir_5edab66afb78c79f394b1d2225c16407">system/database/drivers/odbc</innerdir>
+    <innerdir refid="dir_afc966ecfa4f8e779e8ed196616e6a0e">system/database/drivers/pdo</innerdir>
+    <innerdir refid="dir_4ba92a8732cb8d5ea7936cf1d07058a7">system/database/drivers/postgre</innerdir>
+    <innerdir refid="dir_c2a2361d9a15fddf945d32691b39e55d">system/database/drivers/sqlite</innerdir>
+    <innerdir refid="dir_e0316cb2d3241c0b7da8a07bd66febae">system/database/drivers/sqlsrv</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/"/>
+  </compounddef>
+</doxygen>

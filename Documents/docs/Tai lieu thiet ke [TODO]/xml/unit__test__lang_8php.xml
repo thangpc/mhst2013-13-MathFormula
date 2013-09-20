@@ -1,0 +1,306 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="unit__test__lang_8php" kind="file">
+    <compoundname>unit_test_lang.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="unit__test__lang_8php_1ad25baa7cab208cbe1fbe6f6913b0e18c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;ut_test_name&apos;]</definition>
+        <argsstring>[&apos;ut_test_name&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;<ref refid="class_test" kindref="compound">Test</ref> Name&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/unit_test_lang.php" line="3" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/unit_test_lang.php" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unit__test__lang_8php_1a141cfe44ef46b61362f161bc0cf220bc" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;ut_test_datatype&apos;]</definition>
+        <argsstring>[&apos;ut_test_datatype&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;<ref refid="class_test" kindref="compound">Test</ref> Datatype&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/unit_test_lang.php" line="4" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/unit_test_lang.php" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unit__test__lang_8php_1a104083e98991c97a0ffa647a05541146" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;ut_res_datatype&apos;]</definition>
+        <argsstring>[&apos;ut_res_datatype&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;Expected Datatype&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/unit_test_lang.php" line="5" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/unit_test_lang.php" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unit__test__lang_8php_1a01f12785712ee32a97dc53d85e226993" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;ut_result&apos;]</definition>
+        <argsstring>[&apos;ut_result&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;Result&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/unit_test_lang.php" line="6" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/unit_test_lang.php" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unit__test__lang_8php_1a08d38874ed86b9368f126d7597801077" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;ut_undefined&apos;]</definition>
+        <argsstring>[&apos;ut_undefined&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;Undefined <ref refid="class_test" kindref="compound">Test</ref> Name&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/unit_test_lang.php" line="7" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/unit_test_lang.php" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unit__test__lang_8php_1aadb1d48c93ccef9a1f4e61d529f8ee80" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;ut_file&apos;]</definition>
+        <argsstring>[&apos;ut_file&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;File Name&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/unit_test_lang.php" line="8" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/unit_test_lang.php" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unit__test__lang_8php_1aee353ee43b856ce5ec790a20ea15ef92" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;ut_line&apos;]</definition>
+        <argsstring>[&apos;ut_line&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;Line Number&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/unit_test_lang.php" line="9" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/unit_test_lang.php" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unit__test__lang_8php_1a7b1c16415de1186d294aa317d0bc864f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;ut_passed&apos;]</definition>
+        <argsstring>[&apos;ut_passed&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;Passed&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/unit_test_lang.php" line="10" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/unit_test_lang.php" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unit__test__lang_8php_1a3aefecf7c98bec69d7957cbb673a3f49" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;ut_failed&apos;]</definition>
+        <argsstring>[&apos;ut_failed&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;Failed&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/unit_test_lang.php" line="11" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/unit_test_lang.php" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unit__test__lang_8php_1aa274bf9371c9922bc530135b4dc45943" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;ut_boolean&apos;]</definition>
+        <argsstring>[&apos;ut_boolean&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;Boolean&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/unit_test_lang.php" line="12" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/unit_test_lang.php" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unit__test__lang_8php_1aa59dea4a9af41fde66d69436eadfd67b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;ut_integer&apos;]</definition>
+        <argsstring>[&apos;ut_integer&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;Integer&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/unit_test_lang.php" line="13" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/unit_test_lang.php" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unit__test__lang_8php_1a0f8267057369911f12753bdef18154cf" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;ut_float&apos;]</definition>
+        <argsstring>[&apos;ut_float&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;Float&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/unit_test_lang.php" line="14" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/unit_test_lang.php" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unit__test__lang_8php_1a4c75bfa3ef771d6952b724b23d752b8e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;ut_double&apos;]</definition>
+        <argsstring>[&apos;ut_double&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;Float&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/unit_test_lang.php" line="15" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/unit_test_lang.php" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unit__test__lang_8php_1ab5097b676a29051de6c07955d59659d1" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;ut_string&apos;]</definition>
+        <argsstring>[&apos;ut_string&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;String&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/unit_test_lang.php" line="16" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/unit_test_lang.php" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unit__test__lang_8php_1a3d6aa3d4ed503f15adc21813a9018950" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;ut_array&apos;]</definition>
+        <argsstring>[&apos;ut_array&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;Array&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/unit_test_lang.php" line="17" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/unit_test_lang.php" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unit__test__lang_8php_1a771c29e5029c601b1f3e7c4e6fb93c94" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;ut_object&apos;]</definition>
+        <argsstring>[&apos;ut_object&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;Object&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/unit_test_lang.php" line="18" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/unit_test_lang.php" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unit__test__lang_8php_1a6653a67c4fc0bc5ade6aaf327eed05bf" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;ut_resource&apos;]</definition>
+        <argsstring>[&apos;ut_resource&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;Resource&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/unit_test_lang.php" line="19" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/unit_test_lang.php" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unit__test__lang_8php_1ad4aef71cf1e43fa884add4613da590cb" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;ut_null&apos;]</definition>
+        <argsstring>[&apos;ut_null&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;Null&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/unit_test_lang.php" line="20" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/unit_test_lang.php" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unit__test__lang_8php_1a4d80b77ed0c51d05d5abdc88afa1b540" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;ut_notes&apos;]</definition>
+        <argsstring>[&apos;ut_notes&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;Notes&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/unit_test_lang.php" line="21" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/unit_test_lang.php" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="unit__test__lang_8php_1ad25baa7cab208cbe1fbe6f6913b0e18c" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;ut_test_name&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Test<sp/>Name&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="4" refid="unit__test__lang_8php_1a141cfe44ef46b61362f161bc0cf220bc" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;ut_test_datatype&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Test<sp/>Datatype&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="5" refid="unit__test__lang_8php_1a104083e98991c97a0ffa647a05541146" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;ut_res_datatype&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Expected<sp/>Datatype&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="6" refid="unit__test__lang_8php_1a01f12785712ee32a97dc53d85e226993" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;ut_result&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Result&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="7" refid="unit__test__lang_8php_1a08d38874ed86b9368f126d7597801077" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;ut_undefined&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Undefined<sp/>Test<sp/>Name&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="8" refid="unit__test__lang_8php_1aadb1d48c93ccef9a1f4e61d529f8ee80" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;ut_file&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;File<sp/>Name&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="9" refid="unit__test__lang_8php_1aee353ee43b856ce5ec790a20ea15ef92" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;ut_line&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Line<sp/>Number&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="10" refid="unit__test__lang_8php_1a7b1c16415de1186d294aa317d0bc864f" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;ut_passed&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Passed&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="11" refid="unit__test__lang_8php_1a3aefecf7c98bec69d7957cbb673a3f49" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;ut_failed&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Failed&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="12" refid="unit__test__lang_8php_1aa274bf9371c9922bc530135b4dc45943" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;ut_boolean&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Boolean&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="13" refid="unit__test__lang_8php_1aa59dea4a9af41fde66d69436eadfd67b" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;ut_integer&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Integer&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="14" refid="unit__test__lang_8php_1a0f8267057369911f12753bdef18154cf" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;ut_float&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Float&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="15" refid="unit__test__lang_8php_1a4c75bfa3ef771d6952b724b23d752b8e" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;ut_double&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Float&apos;</highlight><highlight class="normal">;<sp/></highlight><highlight class="comment">//<sp/>can<sp/>be<sp/>the<sp/>same<sp/>as<sp/>float</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="unit__test__lang_8php_1ab5097b676a29051de6c07955d59659d1" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;ut_string&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;String&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="17" refid="unit__test__lang_8php_1a3d6aa3d4ed503f15adc21813a9018950" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;ut_array&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Array&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="18" refid="unit__test__lang_8php_1a771c29e5029c601b1f3e7c4e6fb93c94" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;ut_object&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Object&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="19" refid="unit__test__lang_8php_1a6653a67c4fc0bc5ade6aaf327eed05bf" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;ut_resource&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Resource&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="20" refid="unit__test__lang_8php_1ad4aef71cf1e43fa884add4613da590cb" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;ut_null&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Null&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="21" refid="unit__test__lang_8php_1a4d80b77ed0c51d05d5abdc88afa1b540" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;ut_notes&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Notes&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>End<sp/>of<sp/>file<sp/>unit_test_lang.php<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Location:<sp/>./system/language/english/unit_test_lang.php<sp/>*/</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/unit_test_lang.php"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,291 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="imglib__lang_8php" kind="file">
+    <compoundname>imglib_lang.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="imglib__lang_8php_1af48787ab142f633036ebdf1cc5da7409" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;imglib_source_image_required&apos;]</definition>
+        <argsstring>[&apos;imglib_source_image_required&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;You must specify <ref refid="jquery_8min_8js_1aa4d4888597588a84fd5b1184d00c91f3" kindref="member">a</ref> source image in your preferences.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/imglib_lang.php" line="3" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/imglib_lang.php" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="imglib__lang_8php_1aa8d7f8276e62fbe759daef2021c16552" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;imglib_gd_required&apos;]</definition>
+        <argsstring>[&apos;imglib_gd_required&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;The GD image library is required <ref refid="mathquill_8js_1a6051bae356f28cb834303745ad2f4d86" kindref="member">for</ref> this feature.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/imglib_lang.php" line="4" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/imglib_lang.php" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="imglib__lang_8php_1a0da9c99f9e2b5f38ccbefb9d9f702c5e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;imglib_gd_required_for_props&apos;]</definition>
+        <argsstring>[&apos;imglib_gd_required_for_props&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;Your server must support the GD image library in order <ref refid="mathquill_8js_1ae3622f38202b3532cd6eae25726945f8" kindref="member">to</ref> determine the image properties.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/imglib_lang.php" line="5" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/imglib_lang.php" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="imglib__lang_8php_1ace032cbe8dafb1f3417a758d0914ecdb" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;imglib_unsupported_imagecreate&apos;]</definition>
+        <argsstring>[&apos;imglib_unsupported_imagecreate&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;Your server does <ref refid="mathquill_8js_1ac1e1ab538c27d68cc2cbafea74e7412c" kindref="member">not</ref> support the GD function required <ref refid="mathquill_8js_1ae3622f38202b3532cd6eae25726945f8" kindref="member">to</ref> process this <ref refid="jquery_8min_8js_1a6561cb5de8e22e2d6cfbe165bf30af12" kindref="member">type</ref> of image.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/imglib_lang.php" line="6" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/imglib_lang.php" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="imglib__lang_8php_1a235a59a6660145fc136b3933b5b10675" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;imglib_gif_not_supported&apos;]</definition>
+        <argsstring>[&apos;imglib_gif_not_supported&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;GIF images are often <ref refid="mathquill_8js_1ac1e1ab538c27d68cc2cbafea74e7412c" kindref="member">not</ref> supported due <ref refid="mathquill_8js_1ae3622f38202b3532cd6eae25726945f8" kindref="member">to</ref> licensing restrictions.  You may have <ref refid="mathquill_8js_1ae3622f38202b3532cd6eae25726945f8" kindref="member">to</ref> use JPG <ref refid="mathquill_8js_1a6fdf1c439b25d95597e99492b728acaa" kindref="member">or</ref> PNG images instead.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/imglib_lang.php" line="7" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/imglib_lang.php" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="imglib__lang_8php_1a4acdc927c172bab1370b2897c667c552" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;imglib_jpg_not_supported&apos;]</definition>
+        <argsstring>[&apos;imglib_jpg_not_supported&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;JPG images are <ref refid="mathquill_8js_1ac1e1ab538c27d68cc2cbafea74e7412c" kindref="member">not</ref> supported.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/imglib_lang.php" line="8" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/imglib_lang.php" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="imglib__lang_8php_1a0b7ea2e2fbd03eb72fe9d969adb643dd" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;imglib_png_not_supported&apos;]</definition>
+        <argsstring>[&apos;imglib_png_not_supported&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;PNG images are <ref refid="mathquill_8js_1ac1e1ab538c27d68cc2cbafea74e7412c" kindref="member">not</ref> supported.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/imglib_lang.php" line="9" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/imglib_lang.php" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="imglib__lang_8php_1a2878e2b878871cd8010970f865d70e71" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;imglib_jpg_or_png_required&apos;]</definition>
+        <argsstring>[&apos;imglib_jpg_or_png_required&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;The image resize protocol specified in your preferences only works with JPEG <ref refid="mathquill_8js_1a6fdf1c439b25d95597e99492b728acaa" kindref="member">or</ref> PNG image types.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/imglib_lang.php" line="10" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/imglib_lang.php" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="imglib__lang_8php_1a012b6a0d2b3a8ef934e8783d2fbd6535" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;imglib_copy_error&apos;]</definition>
+        <argsstring>[&apos;imglib_copy_error&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;An error was encountered while attempting <ref refid="mathquill_8js_1ae3622f38202b3532cd6eae25726945f8" kindref="member">to</ref> replace the file.  Please make sure your file directory is writable.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/imglib_lang.php" line="11" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/imglib_lang.php" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="imglib__lang_8php_1ab1c77c6b58fc5bf8e979ab4237ec87e7" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;imglib_rotate_unsupported&apos;]</definition>
+        <argsstring>[&apos;imglib_rotate_unsupported&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;Image rotation does <ref refid="mathquill_8js_1ac1e1ab538c27d68cc2cbafea74e7412c" kindref="member">not</ref> appear <ref refid="mathquill_8js_1ae3622f38202b3532cd6eae25726945f8" kindref="member">to</ref> be supported by your server.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/imglib_lang.php" line="12" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/imglib_lang.php" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="imglib__lang_8php_1a8f190c17a02ca89334c8bf0a04333f65" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;imglib_libpath_invalid&apos;]</definition>
+        <argsstring>[&apos;imglib_libpath_invalid&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;The path <ref refid="mathquill_8js_1ae3622f38202b3532cd6eae25726945f8" kindref="member">to</ref> your image library is <ref refid="mathquill_8js_1ac1e1ab538c27d68cc2cbafea74e7412c" kindref="member">not</ref> correct.  Please set the correct path in your image preferences.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/imglib_lang.php" line="13" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/imglib_lang.php" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="imglib__lang_8php_1a9ac6659eb97dd12e5c714cc9635cf22e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;imglib_image_process_failed&apos;]</definition>
+        <argsstring>[&apos;imglib_image_process_failed&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;Image processing failed.  Please verify that your server supports the chosen protocol <ref refid="mathquill_8js_1ac39c488ee3bd6d675c340966d33495a7" kindref="member">and</ref> that the path <ref refid="mathquill_8js_1ae3622f38202b3532cd6eae25726945f8" kindref="member">to</ref> your image library is correct.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/imglib_lang.php" line="14" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/imglib_lang.php" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="imglib__lang_8php_1a1110d59ea8fd0564e78068dbda3438fb" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;imglib_rotation_angle_required&apos;]</definition>
+        <argsstring>[&apos;imglib_rotation_angle_required&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;An angle of rotation is required <ref refid="mathquill_8js_1ae3622f38202b3532cd6eae25726945f8" kindref="member">to</ref> rotate the image.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/imglib_lang.php" line="15" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/imglib_lang.php" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="imglib__lang_8php_1a6169e9ed18d970dcc8965c4f195ae3e7" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;imglib_writing_failed_gif&apos;]</definition>
+        <argsstring>[&apos;imglib_writing_failed_gif&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;GIF image.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/imglib_lang.php" line="16" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/imglib_lang.php" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="imglib__lang_8php_1a8ff486c25806a4731d1ffe20431df825" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;imglib_invalid_path&apos;]</definition>
+        <argsstring>[&apos;imglib_invalid_path&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;The path <ref refid="mathquill_8js_1ae3622f38202b3532cd6eae25726945f8" kindref="member">to</ref> the image is <ref refid="mathquill_8js_1ac1e1ab538c27d68cc2cbafea74e7412c" kindref="member">not</ref> correct.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/imglib_lang.php" line="17" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/imglib_lang.php" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="imglib__lang_8php_1a9363000d2005b8276b39d581a11b562d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;imglib_copy_failed&apos;]</definition>
+        <argsstring>[&apos;imglib_copy_failed&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;The image copy routine failed.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/imglib_lang.php" line="18" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/imglib_lang.php" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="imglib__lang_8php_1a935800aad2be18ca4fe99bb074674848" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;imglib_missing_font&apos;]</definition>
+        <argsstring>[&apos;imglib_missing_font&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;Unable <ref refid="mathquill_8js_1ae3622f38202b3532cd6eae25726945f8" kindref="member">to</ref> find <ref refid="jquery_8min_8js_1aa4d4888597588a84fd5b1184d00c91f3" kindref="member">a</ref> font <ref refid="mathquill_8js_1ae3622f38202b3532cd6eae25726945f8" kindref="member">to</ref> use.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/imglib_lang.php" line="19" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/imglib_lang.php" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="imglib__lang_8php_1a4d7a99fddc60c97a7327fa0125dea264" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;imglib_save_failed&apos;]</definition>
+        <argsstring>[&apos;imglib_save_failed&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;Unable <ref refid="mathquill_8js_1ae3622f38202b3532cd6eae25726945f8" kindref="member">to</ref> save the image.  Please make sure the image <ref refid="mathquill_8js_1ac39c488ee3bd6d675c340966d33495a7" kindref="member">and</ref> file directory are writable.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/imglib_lang.php" line="20" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/imglib_lang.php" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="imglib__lang_8php_1af48787ab142f633036ebdf1cc5da7409" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;imglib_source_image_required&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;You<sp/>must<sp/>specify<sp/>a<sp/>source<sp/>image<sp/>in<sp/>your<sp/>preferences.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="4" refid="imglib__lang_8php_1aa8d7f8276e62fbe759daef2021c16552" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;imglib_gd_required&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;The<sp/>GD<sp/>image<sp/>library<sp/>is<sp/>required<sp/>for<sp/>this<sp/>feature.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="5" refid="imglib__lang_8php_1a0da9c99f9e2b5f38ccbefb9d9f702c5e" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;imglib_gd_required_for_props&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Your<sp/>server<sp/>must<sp/>support<sp/>the<sp/>GD<sp/>image<sp/>library<sp/>in<sp/>order<sp/>to<sp/>determine<sp/>the<sp/>image<sp/>properties.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="6" refid="imglib__lang_8php_1ace032cbe8dafb1f3417a758d0914ecdb" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;imglib_unsupported_imagecreate&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Your<sp/>server<sp/>does<sp/>not<sp/>support<sp/>the<sp/>GD<sp/>function<sp/>required<sp/>to<sp/>process<sp/>this<sp/>type<sp/>of<sp/>image.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="7" refid="imglib__lang_8php_1a235a59a6660145fc136b3933b5b10675" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;imglib_gif_not_supported&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;GIF<sp/>images<sp/>are<sp/>often<sp/>not<sp/>supported<sp/>due<sp/>to<sp/>licensing<sp/>restrictions.<sp/><sp/>You<sp/>may<sp/>have<sp/>to<sp/>use<sp/>JPG<sp/>or<sp/>PNG<sp/>images<sp/>instead.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="8" refid="imglib__lang_8php_1a4acdc927c172bab1370b2897c667c552" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;imglib_jpg_not_supported&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;JPG<sp/>images<sp/>are<sp/>not<sp/>supported.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="9" refid="imglib__lang_8php_1a0b7ea2e2fbd03eb72fe9d969adb643dd" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;imglib_png_not_supported&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;PNG<sp/>images<sp/>are<sp/>not<sp/>supported.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="10" refid="imglib__lang_8php_1a2878e2b878871cd8010970f865d70e71" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;imglib_jpg_or_png_required&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;The<sp/>image<sp/>resize<sp/>protocol<sp/>specified<sp/>in<sp/>your<sp/>preferences<sp/>only<sp/>works<sp/>with<sp/>JPEG<sp/>or<sp/>PNG<sp/>image<sp/>types.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="11" refid="imglib__lang_8php_1a012b6a0d2b3a8ef934e8783d2fbd6535" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;imglib_copy_error&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;An<sp/>error<sp/>was<sp/>encountered<sp/>while<sp/>attempting<sp/>to<sp/>replace<sp/>the<sp/>file.<sp/><sp/>Please<sp/>make<sp/>sure<sp/>your<sp/>file<sp/>directory<sp/>is<sp/>writable.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="12" refid="imglib__lang_8php_1ab1c77c6b58fc5bf8e979ab4237ec87e7" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;imglib_rotate_unsupported&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Image<sp/>rotation<sp/>does<sp/>not<sp/>appear<sp/>to<sp/>be<sp/>supported<sp/>by<sp/>your<sp/>server.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="13" refid="imglib__lang_8php_1a8f190c17a02ca89334c8bf0a04333f65" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;imglib_libpath_invalid&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;The<sp/>path<sp/>to<sp/>your<sp/>image<sp/>library<sp/>is<sp/>not<sp/>correct.<sp/><sp/>Please<sp/>set<sp/>the<sp/>correct<sp/>path<sp/>in<sp/>your<sp/>image<sp/>preferences.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="14" refid="imglib__lang_8php_1a9ac6659eb97dd12e5c714cc9635cf22e" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;imglib_image_process_failed&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Image<sp/>processing<sp/>failed.<sp/><sp/>Please<sp/>verify<sp/>that<sp/>your<sp/>server<sp/>supports<sp/>the<sp/>chosen<sp/>protocol<sp/>and<sp/>that<sp/>the<sp/>path<sp/>to<sp/>your<sp/>image<sp/>library<sp/>is<sp/>correct.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="15" refid="imglib__lang_8php_1a1110d59ea8fd0564e78068dbda3438fb" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;imglib_rotation_angle_required&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;An<sp/>angle<sp/>of<sp/>rotation<sp/>is<sp/>required<sp/>to<sp/>rotate<sp/>the<sp/>image.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="16" refid="imglib__lang_8php_1a6169e9ed18d970dcc8965c4f195ae3e7" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;imglib_writing_failed_gif&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;GIF<sp/>image.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="17" refid="imglib__lang_8php_1a8ff486c25806a4731d1ffe20431df825" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;imglib_invalid_path&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;The<sp/>path<sp/>to<sp/>the<sp/>image<sp/>is<sp/>not<sp/>correct.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="18" refid="imglib__lang_8php_1a9363000d2005b8276b39d581a11b562d" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;imglib_copy_failed&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;The<sp/>image<sp/>copy<sp/>routine<sp/>failed.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="19" refid="imglib__lang_8php_1a935800aad2be18ca4fe99bb074674848" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;imglib_missing_font&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Unable<sp/>to<sp/>find<sp/>a<sp/>font<sp/>to<sp/>use.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="20" refid="imglib__lang_8php_1a4d7a99fddc60c97a7327fa0125dea264" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;imglib_save_failed&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Unable<sp/>to<sp/>save<sp/>the<sp/>image.<sp/><sp/>Please<sp/>make<sp/>sure<sp/>the<sp/>image<sp/>and<sp/>file<sp/>directory<sp/>are<sp/>writable.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>End<sp/>of<sp/>file<sp/>imglib_lang.php<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Location:<sp/>./system/language/english/imglib_lang.php<sp/>*/</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/imglib_lang.php"/>
+  </compounddef>
+</doxygen>

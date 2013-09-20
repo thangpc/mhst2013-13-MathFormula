@@ -1,0 +1,378 @@
+\section{C\-I\-\_\-\-Pagination Class Reference}
+\label{class_c_i___pagination}\index{C\-I\-\_\-\-Pagination@{C\-I\-\_\-\-Pagination}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf \-\_\-\-\_\-construct} (\$params=array())
+\item 
+{\bf initialize} (\$params=array())
+\item 
+{\bf create\-\_\-links} ()
+\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+{\bf \$base\-\_\-url} = ''
+\item 
+{\bf \$prefix} = ''
+\item 
+{\bf \$suffix} = ''
+\item 
+{\bf \$total\-\_\-rows} = 0
+\item 
+{\bf \$per\-\_\-page} = 10
+\item 
+{\bf \$num\-\_\-links} = 2
+\item 
+{\bf \$cur\-\_\-page} = 0
+\item 
+{\bf \$use\-\_\-page\-\_\-numbers} = F\-A\-L\-S\-E
+\item 
+{\bf \$first\-\_\-link} = '\&lsaquo; First'
+\item 
+{\bf \$next\-\_\-link} = '\&{\bf gt};'
+\item 
+{\bf \$prev\-\_\-link} = '\&{\bf lt};'
+\item 
+{\bf \$last\-\_\-link} = 'Last \&rsaquo;'
+\item 
+{\bf \$uri\-\_\-segment} = 3
+\item 
+{\bf \$full\-\_\-tag\-\_\-open} = ''
+\item 
+{\bf \$full\-\_\-tag\-\_\-close} = ''
+\item 
+{\bf \$first\-\_\-tag\-\_\-open} = ''
+\item 
+{\bf \$first\-\_\-tag\-\_\-close} = '\&nbsp;'
+\item 
+{\bf \$last\-\_\-tag\-\_\-open} = '\&nbsp;'
+\item 
+{\bf \$last\-\_\-tag\-\_\-close} = ''
+\item 
+{\bf \$first\-\_\-url} = ''
+\item 
+{\bf \$cur\-\_\-tag\-\_\-open} = '\&nbsp;$<$strong$>$'
+\item 
+{\bf \$cur\-\_\-tag\-\_\-close} = '$<$/strong$>$'
+\item 
+{\bf \$next\-\_\-tag\-\_\-open} = '\&nbsp;'
+\item 
+{\bf \$next\-\_\-tag\-\_\-close} = '\&nbsp;'
+\item 
+{\bf \$prev\-\_\-tag\-\_\-open} = '\&nbsp;'
+\item 
+{\bf \$prev\-\_\-tag\-\_\-close} = ''
+\item 
+{\bf \$num\-\_\-tag\-\_\-open} = '\&nbsp;'
+\item 
+{\bf \$num\-\_\-tag\-\_\-close} = ''
+\item 
+{\bf \$page\-\_\-query\-\_\-string} = F\-A\-L\-S\-E
+\item 
+{\bf \$query\-\_\-string\-\_\-segment} = 'per\-\_\-page'
+\item 
+{\bf \$display\-\_\-pages} = T\-R\-U\-E
+\item 
+{\bf \$anchor\-\_\-class} = ''
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 27 of file Pagination.\-php.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{C\-I\-\_\-\-Pagination@{C\-I\-\_\-\-Pagination}!\-\_\-\-\_\-construct@{\-\_\-\-\_\-construct}}
+\index{\-\_\-\-\_\-construct@{\-\_\-\-\_\-construct}!CI_Pagination@{C\-I\-\_\-\-Pagination}}
+\subsubsection[{\-\_\-\-\_\-construct}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-\-\_\-construct (
+\begin{DoxyParamCaption}
+\item[{}]{\$params = {\ttfamily array()}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___pagination_a568ecdb0d73d2a870f33189739922a50}
+Constructor
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em array} & initialization parameters \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 69 of file Pagination.\-php.
+
+
+
+\subsection{Member Function Documentation}
+\index{C\-I\-\_\-\-Pagination@{C\-I\-\_\-\-Pagination}!create\-\_\-links@{create\-\_\-links}}
+\index{create\-\_\-links@{create\-\_\-links}!CI_Pagination@{C\-I\-\_\-\-Pagination}}
+\subsubsection[{create\-\_\-links}]{\setlength{\rightskip}{0pt plus 5cm}create\-\_\-links (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_c_i___pagination_afd580f4d296b1d416d2b4b03edef3bc5}
+Generate the pagination links
+
+public \begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 115 of file Pagination.\-php.
+
+\index{C\-I\-\_\-\-Pagination@{C\-I\-\_\-\-Pagination}!initialize@{initialize}}
+\index{initialize@{initialize}!CI_Pagination@{C\-I\-\_\-\-Pagination}}
+\subsubsection[{initialize}]{\setlength{\rightskip}{0pt plus 5cm}initialize (
+\begin{DoxyParamCaption}
+\item[{}]{\$params = {\ttfamily array()}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___pagination_ae411a67cc3ac31622373c65c71b66c66}
+Initialize Preferences
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em array} & initialization parameters \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 93 of file Pagination.\-php.
+
+
+
+\subsection{Field Documentation}
+\index{C\-I\-\_\-\-Pagination@{C\-I\-\_\-\-Pagination}!\$anchor\-\_\-class@{\$anchor\-\_\-class}}
+\index{\$anchor\-\_\-class@{\$anchor\-\_\-class}!CI_Pagination@{C\-I\-\_\-\-Pagination}}
+\subsubsection[{\$anchor\-\_\-class}]{\setlength{\rightskip}{0pt plus 5cm}\$anchor\-\_\-class = ''}\label{class_c_i___pagination_a6e44d84fef9aa8b966899c447120fd3a}
+
+
+Definition at line 61 of file Pagination.\-php.
+
+\index{C\-I\-\_\-\-Pagination@{C\-I\-\_\-\-Pagination}!\$base\-\_\-url@{\$base\-\_\-url}}
+\index{\$base\-\_\-url@{\$base\-\_\-url}!CI_Pagination@{C\-I\-\_\-\-Pagination}}
+\subsubsection[{\$base\-\_\-url}]{\setlength{\rightskip}{0pt plus 5cm}\$base\-\_\-url = ''}\label{class_c_i___pagination_a6886427c9c643f707fcb35c018049bc7}
+
+
+Definition at line 29 of file Pagination.\-php.
+
+\index{C\-I\-\_\-\-Pagination@{C\-I\-\_\-\-Pagination}!\$cur\-\_\-page@{\$cur\-\_\-page}}
+\index{\$cur\-\_\-page@{\$cur\-\_\-page}!CI_Pagination@{C\-I\-\_\-\-Pagination}}
+\subsubsection[{\$cur\-\_\-page}]{\setlength{\rightskip}{0pt plus 5cm}\$cur\-\_\-page = 0}\label{class_c_i___pagination_a0114271d3cbbe963a73efe317e3512c7}
+
+
+Definition at line 36 of file Pagination.\-php.
+
+\index{C\-I\-\_\-\-Pagination@{C\-I\-\_\-\-Pagination}!\$cur\-\_\-tag\-\_\-close@{\$cur\-\_\-tag\-\_\-close}}
+\index{\$cur\-\_\-tag\-\_\-close@{\$cur\-\_\-tag\-\_\-close}!CI_Pagination@{C\-I\-\_\-\-Pagination}}
+\subsubsection[{\$cur\-\_\-tag\-\_\-close}]{\setlength{\rightskip}{0pt plus 5cm}\$cur\-\_\-tag\-\_\-close = '$<$/strong$>$'}\label{class_c_i___pagination_a8f284fc318c9b1a0d20e5aa53cdbb540}
+
+
+Definition at line 51 of file Pagination.\-php.
+
+\index{C\-I\-\_\-\-Pagination@{C\-I\-\_\-\-Pagination}!\$cur\-\_\-tag\-\_\-open@{\$cur\-\_\-tag\-\_\-open}}
+\index{\$cur\-\_\-tag\-\_\-open@{\$cur\-\_\-tag\-\_\-open}!CI_Pagination@{C\-I\-\_\-\-Pagination}}
+\subsubsection[{\$cur\-\_\-tag\-\_\-open}]{\setlength{\rightskip}{0pt plus 5cm}\$cur\-\_\-tag\-\_\-open = '\&nbsp;$<$strong$>$'}\label{class_c_i___pagination_a60f0f6e2515e166fa11657186b39345d}
+
+
+Definition at line 50 of file Pagination.\-php.
+
+\index{C\-I\-\_\-\-Pagination@{C\-I\-\_\-\-Pagination}!\$display\-\_\-pages@{\$display\-\_\-pages}}
+\index{\$display\-\_\-pages@{\$display\-\_\-pages}!CI_Pagination@{C\-I\-\_\-\-Pagination}}
+\subsubsection[{\$display\-\_\-pages}]{\setlength{\rightskip}{0pt plus 5cm}\$display\-\_\-pages = T\-R\-U\-E}\label{class_c_i___pagination_ab68f1bc9a7442f1936286f05b7ba175d}
+
+
+Definition at line 60 of file Pagination.\-php.
+
+\index{C\-I\-\_\-\-Pagination@{C\-I\-\_\-\-Pagination}!\$first\-\_\-link@{\$first\-\_\-link}}
+\index{\$first\-\_\-link@{\$first\-\_\-link}!CI_Pagination@{C\-I\-\_\-\-Pagination}}
+\subsubsection[{\$first\-\_\-link}]{\setlength{\rightskip}{0pt plus 5cm}\$first\-\_\-link = '\&lsaquo; First'}\label{class_c_i___pagination_a0236d9345031b8c11db487560609f9a7}
+
+
+Definition at line 38 of file Pagination.\-php.
+
+\index{C\-I\-\_\-\-Pagination@{C\-I\-\_\-\-Pagination}!\$first\-\_\-tag\-\_\-close@{\$first\-\_\-tag\-\_\-close}}
+\index{\$first\-\_\-tag\-\_\-close@{\$first\-\_\-tag\-\_\-close}!CI_Pagination@{C\-I\-\_\-\-Pagination}}
+\subsubsection[{\$first\-\_\-tag\-\_\-close}]{\setlength{\rightskip}{0pt plus 5cm}\$first\-\_\-tag\-\_\-close = '\&nbsp;'}\label{class_c_i___pagination_a1aa5f33d3f661838fa1f8482128a19c7}
+
+
+Definition at line 46 of file Pagination.\-php.
+
+\index{C\-I\-\_\-\-Pagination@{C\-I\-\_\-\-Pagination}!\$first\-\_\-tag\-\_\-open@{\$first\-\_\-tag\-\_\-open}}
+\index{\$first\-\_\-tag\-\_\-open@{\$first\-\_\-tag\-\_\-open}!CI_Pagination@{C\-I\-\_\-\-Pagination}}
+\subsubsection[{\$first\-\_\-tag\-\_\-open}]{\setlength{\rightskip}{0pt plus 5cm}\$first\-\_\-tag\-\_\-open = ''}\label{class_c_i___pagination_a5e352cfb5a6e9b6f850264aca68f00e0}
+
+
+Definition at line 45 of file Pagination.\-php.
+
+\index{C\-I\-\_\-\-Pagination@{C\-I\-\_\-\-Pagination}!\$first\-\_\-url@{\$first\-\_\-url}}
+\index{\$first\-\_\-url@{\$first\-\_\-url}!CI_Pagination@{C\-I\-\_\-\-Pagination}}
+\subsubsection[{\$first\-\_\-url}]{\setlength{\rightskip}{0pt plus 5cm}\$first\-\_\-url = ''}\label{class_c_i___pagination_ac7fe85e2fda76364772be52656e346b8}
+
+
+Definition at line 49 of file Pagination.\-php.
+
+\index{C\-I\-\_\-\-Pagination@{C\-I\-\_\-\-Pagination}!\$full\-\_\-tag\-\_\-close@{\$full\-\_\-tag\-\_\-close}}
+\index{\$full\-\_\-tag\-\_\-close@{\$full\-\_\-tag\-\_\-close}!CI_Pagination@{C\-I\-\_\-\-Pagination}}
+\subsubsection[{\$full\-\_\-tag\-\_\-close}]{\setlength{\rightskip}{0pt plus 5cm}\$full\-\_\-tag\-\_\-close = ''}\label{class_c_i___pagination_ad7e8fd7ace07539860b6f0b323aacbc8}
+
+
+Definition at line 44 of file Pagination.\-php.
+
+\index{C\-I\-\_\-\-Pagination@{C\-I\-\_\-\-Pagination}!\$full\-\_\-tag\-\_\-open@{\$full\-\_\-tag\-\_\-open}}
+\index{\$full\-\_\-tag\-\_\-open@{\$full\-\_\-tag\-\_\-open}!CI_Pagination@{C\-I\-\_\-\-Pagination}}
+\subsubsection[{\$full\-\_\-tag\-\_\-open}]{\setlength{\rightskip}{0pt plus 5cm}\$full\-\_\-tag\-\_\-open = ''}\label{class_c_i___pagination_a75336a53727415578f78bd3d337c8559}
+
+
+Definition at line 43 of file Pagination.\-php.
+
+\index{C\-I\-\_\-\-Pagination@{C\-I\-\_\-\-Pagination}!\$last\-\_\-link@{\$last\-\_\-link}}
+\index{\$last\-\_\-link@{\$last\-\_\-link}!CI_Pagination@{C\-I\-\_\-\-Pagination}}
+\subsubsection[{\$last\-\_\-link}]{\setlength{\rightskip}{0pt plus 5cm}\$last\-\_\-link = 'Last \&rsaquo;'}\label{class_c_i___pagination_ab10d1c6de63d2bc11a210c26e450b231}
+
+
+Definition at line 41 of file Pagination.\-php.
+
+\index{C\-I\-\_\-\-Pagination@{C\-I\-\_\-\-Pagination}!\$last\-\_\-tag\-\_\-close@{\$last\-\_\-tag\-\_\-close}}
+\index{\$last\-\_\-tag\-\_\-close@{\$last\-\_\-tag\-\_\-close}!CI_Pagination@{C\-I\-\_\-\-Pagination}}
+\subsubsection[{\$last\-\_\-tag\-\_\-close}]{\setlength{\rightskip}{0pt plus 5cm}\$last\-\_\-tag\-\_\-close = ''}\label{class_c_i___pagination_a8e024740710598d97da42739bd231dda}
+
+
+Definition at line 48 of file Pagination.\-php.
+
+\index{C\-I\-\_\-\-Pagination@{C\-I\-\_\-\-Pagination}!\$last\-\_\-tag\-\_\-open@{\$last\-\_\-tag\-\_\-open}}
+\index{\$last\-\_\-tag\-\_\-open@{\$last\-\_\-tag\-\_\-open}!CI_Pagination@{C\-I\-\_\-\-Pagination}}
+\subsubsection[{\$last\-\_\-tag\-\_\-open}]{\setlength{\rightskip}{0pt plus 5cm}\$last\-\_\-tag\-\_\-open = '\&nbsp;'}\label{class_c_i___pagination_ac7e807e8227dd4528c2b315424d126db}
+
+
+Definition at line 47 of file Pagination.\-php.
+
+\index{C\-I\-\_\-\-Pagination@{C\-I\-\_\-\-Pagination}!\$next\-\_\-link@{\$next\-\_\-link}}
+\index{\$next\-\_\-link@{\$next\-\_\-link}!CI_Pagination@{C\-I\-\_\-\-Pagination}}
+\subsubsection[{\$next\-\_\-link}]{\setlength{\rightskip}{0pt plus 5cm}\$next\-\_\-link = '\&{\bf gt};'}\label{class_c_i___pagination_ae3962413e69384df902aedf7484ddefe}
+
+
+Definition at line 39 of file Pagination.\-php.
+
+\index{C\-I\-\_\-\-Pagination@{C\-I\-\_\-\-Pagination}!\$next\-\_\-tag\-\_\-close@{\$next\-\_\-tag\-\_\-close}}
+\index{\$next\-\_\-tag\-\_\-close@{\$next\-\_\-tag\-\_\-close}!CI_Pagination@{C\-I\-\_\-\-Pagination}}
+\subsubsection[{\$next\-\_\-tag\-\_\-close}]{\setlength{\rightskip}{0pt plus 5cm}\$next\-\_\-tag\-\_\-close = '\&nbsp;'}\label{class_c_i___pagination_aa3dc112ae0edd3eb76d13eb3f5a57d02}
+
+
+Definition at line 53 of file Pagination.\-php.
+
+\index{C\-I\-\_\-\-Pagination@{C\-I\-\_\-\-Pagination}!\$next\-\_\-tag\-\_\-open@{\$next\-\_\-tag\-\_\-open}}
+\index{\$next\-\_\-tag\-\_\-open@{\$next\-\_\-tag\-\_\-open}!CI_Pagination@{C\-I\-\_\-\-Pagination}}
+\subsubsection[{\$next\-\_\-tag\-\_\-open}]{\setlength{\rightskip}{0pt plus 5cm}\$next\-\_\-tag\-\_\-open = '\&nbsp;'}\label{class_c_i___pagination_a0345e4646ae630d4d95f98de048e4572}
+
+
+Definition at line 52 of file Pagination.\-php.
+
+\index{C\-I\-\_\-\-Pagination@{C\-I\-\_\-\-Pagination}!\$num\-\_\-links@{\$num\-\_\-links}}
+\index{\$num\-\_\-links@{\$num\-\_\-links}!CI_Pagination@{C\-I\-\_\-\-Pagination}}
+\subsubsection[{\$num\-\_\-links}]{\setlength{\rightskip}{0pt plus 5cm}\$num\-\_\-links = 2}\label{class_c_i___pagination_aa04c33b46d7b63638408ac57ca3ee9e9}
+
+
+Definition at line 35 of file Pagination.\-php.
+
+\index{C\-I\-\_\-\-Pagination@{C\-I\-\_\-\-Pagination}!\$num\-\_\-tag\-\_\-close@{\$num\-\_\-tag\-\_\-close}}
+\index{\$num\-\_\-tag\-\_\-close@{\$num\-\_\-tag\-\_\-close}!CI_Pagination@{C\-I\-\_\-\-Pagination}}
+\subsubsection[{\$num\-\_\-tag\-\_\-close}]{\setlength{\rightskip}{0pt plus 5cm}\$num\-\_\-tag\-\_\-close = ''}\label{class_c_i___pagination_ab84030017256e7345316413cfefd41a5}
+
+
+Definition at line 57 of file Pagination.\-php.
+
+\index{C\-I\-\_\-\-Pagination@{C\-I\-\_\-\-Pagination}!\$num\-\_\-tag\-\_\-open@{\$num\-\_\-tag\-\_\-open}}
+\index{\$num\-\_\-tag\-\_\-open@{\$num\-\_\-tag\-\_\-open}!CI_Pagination@{C\-I\-\_\-\-Pagination}}
+\subsubsection[{\$num\-\_\-tag\-\_\-open}]{\setlength{\rightskip}{0pt plus 5cm}\$num\-\_\-tag\-\_\-open = '\&nbsp;'}\label{class_c_i___pagination_a1227a094532251dca78e533d9b9f068f}
+
+
+Definition at line 56 of file Pagination.\-php.
+
+\index{C\-I\-\_\-\-Pagination@{C\-I\-\_\-\-Pagination}!\$page\-\_\-query\-\_\-string@{\$page\-\_\-query\-\_\-string}}
+\index{\$page\-\_\-query\-\_\-string@{\$page\-\_\-query\-\_\-string}!CI_Pagination@{C\-I\-\_\-\-Pagination}}
+\subsubsection[{\$page\-\_\-query\-\_\-string}]{\setlength{\rightskip}{0pt plus 5cm}\$page\-\_\-query\-\_\-string = F\-A\-L\-S\-E}\label{class_c_i___pagination_a2721bf5c6a50b356b53f1c1bdb9d139e}
+
+
+Definition at line 58 of file Pagination.\-php.
+
+\index{C\-I\-\_\-\-Pagination@{C\-I\-\_\-\-Pagination}!\$per\-\_\-page@{\$per\-\_\-page}}
+\index{\$per\-\_\-page@{\$per\-\_\-page}!CI_Pagination@{C\-I\-\_\-\-Pagination}}
+\subsubsection[{\$per\-\_\-page}]{\setlength{\rightskip}{0pt plus 5cm}\$per\-\_\-page = 10}\label{class_c_i___pagination_abece0f3099457a037f8f339811dc6e20}
+
+
+Definition at line 34 of file Pagination.\-php.
+
+\index{C\-I\-\_\-\-Pagination@{C\-I\-\_\-\-Pagination}!\$prefix@{\$prefix}}
+\index{\$prefix@{\$prefix}!CI_Pagination@{C\-I\-\_\-\-Pagination}}
+\subsubsection[{\$prefix}]{\setlength{\rightskip}{0pt plus 5cm}\$prefix = ''}\label{class_c_i___pagination_a09e8cf95b9d29955a0bfabca9b420edc}
+
+
+Definition at line 30 of file Pagination.\-php.
+
+\index{C\-I\-\_\-\-Pagination@{C\-I\-\_\-\-Pagination}!\$prev\-\_\-link@{\$prev\-\_\-link}}
+\index{\$prev\-\_\-link@{\$prev\-\_\-link}!CI_Pagination@{C\-I\-\_\-\-Pagination}}
+\subsubsection[{\$prev\-\_\-link}]{\setlength{\rightskip}{0pt plus 5cm}\$prev\-\_\-link = '\&{\bf lt};'}\label{class_c_i___pagination_afab5c29a3da82c4dce6a491f1d257831}
+
+
+Definition at line 40 of file Pagination.\-php.
+
+\index{C\-I\-\_\-\-Pagination@{C\-I\-\_\-\-Pagination}!\$prev\-\_\-tag\-\_\-close@{\$prev\-\_\-tag\-\_\-close}}
+\index{\$prev\-\_\-tag\-\_\-close@{\$prev\-\_\-tag\-\_\-close}!CI_Pagination@{C\-I\-\_\-\-Pagination}}
+\subsubsection[{\$prev\-\_\-tag\-\_\-close}]{\setlength{\rightskip}{0pt plus 5cm}\$prev\-\_\-tag\-\_\-close = ''}\label{class_c_i___pagination_abb46001ebebf96f2562ea1f8ced80aa1}
+
+
+Definition at line 55 of file Pagination.\-php.
+
+\index{C\-I\-\_\-\-Pagination@{C\-I\-\_\-\-Pagination}!\$prev\-\_\-tag\-\_\-open@{\$prev\-\_\-tag\-\_\-open}}
+\index{\$prev\-\_\-tag\-\_\-open@{\$prev\-\_\-tag\-\_\-open}!CI_Pagination@{C\-I\-\_\-\-Pagination}}
+\subsubsection[{\$prev\-\_\-tag\-\_\-open}]{\setlength{\rightskip}{0pt plus 5cm}\$prev\-\_\-tag\-\_\-open = '\&nbsp;'}\label{class_c_i___pagination_ab8f96d2bdfd51057db368d8ffd57ca5c}
+
+
+Definition at line 54 of file Pagination.\-php.
+
+\index{C\-I\-\_\-\-Pagination@{C\-I\-\_\-\-Pagination}!\$query\-\_\-string\-\_\-segment@{\$query\-\_\-string\-\_\-segment}}
+\index{\$query\-\_\-string\-\_\-segment@{\$query\-\_\-string\-\_\-segment}!CI_Pagination@{C\-I\-\_\-\-Pagination}}
+\subsubsection[{\$query\-\_\-string\-\_\-segment}]{\setlength{\rightskip}{0pt plus 5cm}\$query\-\_\-string\-\_\-segment = 'per\-\_\-page'}\label{class_c_i___pagination_a8fe6ddd39110b4952ddcca9bba07c019}
+
+
+Definition at line 59 of file Pagination.\-php.
+
+\index{C\-I\-\_\-\-Pagination@{C\-I\-\_\-\-Pagination}!\$suffix@{\$suffix}}
+\index{\$suffix@{\$suffix}!CI_Pagination@{C\-I\-\_\-\-Pagination}}
+\subsubsection[{\$suffix}]{\setlength{\rightskip}{0pt plus 5cm}\$suffix = ''}\label{class_c_i___pagination_a8a4ee1ac7ecdf8ef590598ad43b23e0a}
+
+
+Definition at line 31 of file Pagination.\-php.
+
+\index{C\-I\-\_\-\-Pagination@{C\-I\-\_\-\-Pagination}!\$total\-\_\-rows@{\$total\-\_\-rows}}
+\index{\$total\-\_\-rows@{\$total\-\_\-rows}!CI_Pagination@{C\-I\-\_\-\-Pagination}}
+\subsubsection[{\$total\-\_\-rows}]{\setlength{\rightskip}{0pt plus 5cm}\$total\-\_\-rows = 0}\label{class_c_i___pagination_af2c641e024ee7eeec68ae26c08ca2cf2}
+
+
+Definition at line 33 of file Pagination.\-php.
+
+\index{C\-I\-\_\-\-Pagination@{C\-I\-\_\-\-Pagination}!\$uri\-\_\-segment@{\$uri\-\_\-segment}}
+\index{\$uri\-\_\-segment@{\$uri\-\_\-segment}!CI_Pagination@{C\-I\-\_\-\-Pagination}}
+\subsubsection[{\$uri\-\_\-segment}]{\setlength{\rightskip}{0pt plus 5cm}\$uri\-\_\-segment = 3}\label{class_c_i___pagination_a79fd9718cc6c432f6919c28299584d77}
+
+
+Definition at line 42 of file Pagination.\-php.
+
+\index{C\-I\-\_\-\-Pagination@{C\-I\-\_\-\-Pagination}!\$use\-\_\-page\-\_\-numbers@{\$use\-\_\-page\-\_\-numbers}}
+\index{\$use\-\_\-page\-\_\-numbers@{\$use\-\_\-page\-\_\-numbers}!CI_Pagination@{C\-I\-\_\-\-Pagination}}
+\subsubsection[{\$use\-\_\-page\-\_\-numbers}]{\setlength{\rightskip}{0pt plus 5cm}\$use\-\_\-page\-\_\-numbers = F\-A\-L\-S\-E}\label{class_c_i___pagination_ac19b7d290389a9188ca6466f85d14a85}
+
+
+Definition at line 37 of file Pagination.\-php.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+system/libraries/{\bf Pagination.\-php}\end{DoxyCompactItemize}

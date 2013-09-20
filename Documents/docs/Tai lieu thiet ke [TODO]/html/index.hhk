@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD></HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="FrameName" value="right">
+</OBJECT>
+<UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="index_8php.html#ace4309eda0b92e3260b226079bc17909"><param name="Name" value="$application_folder"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="index_8php.html#ae873e5430c828eb3081abe7050a379b6"><param name="Name" value="$system_path"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="index_8php.html#ad39801cabfd338dc5524466fe793fda9"><param name="Name" value="BASEPATH"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="index_8php.html#a949e0a4a1cdea0279f54348f205f993b"><param name="Name" value="else"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="index_8php.html#ad48706cc82e010be85f1398fb34c6510"><param name="Name" value="EXT"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="index_8php.html#ae486546e58b2603595efedf9f95b3926"><param name="Name" value="FCPATH"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="index_8php.html"><param name="Name" value="index.php"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="index_8php.html#ace4309eda0b92e3260b226079bc17909"><param name="Name" value="$application_folder"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="index_8php.html#ae873e5430c828eb3081abe7050a379b6"><param name="Name" value="$system_path"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="index_8php.html#ad39801cabfd338dc5524466fe793fda9"><param name="Name" value="BASEPATH"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="index_8php.html#a949e0a4a1cdea0279f54348f205f993b"><param name="Name" value="else"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="index_8php.html#ad48706cc82e010be85f1398fb34c6510"><param name="Name" value="EXT"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="index_8php.html#ae486546e58b2603595efedf9f95b3926"><param name="Name" value="FCPATH"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="index_8php.html#a428c045e64680e1582ba74161e441a1c"><param name="Name" value="SELF"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="index_8php.html#ab645ae0961792b1f2b4b83f89cb95fa5"><param name="Name" value="SYSDIR"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="index_8php.html#a428c045e64680e1582ba74161e441a1c"><param name="Name" value="SELF"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="index_8php.html#ab645ae0961792b1f2b4b83f89cb95fa5"><param name="Name" value="SYSDIR"></OBJECT>
+</UL>
+</BODY>
+</HTML>

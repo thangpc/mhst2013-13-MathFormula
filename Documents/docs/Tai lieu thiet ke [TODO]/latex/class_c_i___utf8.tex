@@ -1,0 +1,141 @@
+\section{C\-I\-\_\-\-Utf8 Class Reference}
+\label{class_c_i___utf8}\index{C\-I\-\_\-\-Utf8@{C\-I\-\_\-\-Utf8}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf \-\_\-\-\_\-construct} ()
+\item 
+{\bf clean\-\_\-string} (\$str)
+\item 
+{\bf safe\-\_\-ascii\-\_\-for\-\_\-xml} (\$str)
+\item 
+{\bf convert\-\_\-to\-\_\-utf8} (\$str, \$encoding)
+\item 
+{\bf \-\_\-is\-\_\-ascii} (\$str)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 29 of file Utf8.\-php.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{C\-I\-\_\-\-Utf8@{C\-I\-\_\-\-Utf8}!\-\_\-\-\_\-construct@{\-\_\-\-\_\-construct}}
+\index{\-\_\-\-\_\-construct@{\-\_\-\-\_\-construct}!CI_Utf8@{C\-I\-\_\-\-Utf8}}
+\subsubsection[{\-\_\-\-\_\-construct}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-\-\_\-construct (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_c_i___utf8_a095c5d389db211932136b53f25f39685}
+Constructor
+
+Determines if U\-T\-F-\/8 support is to be enabled 
+
+Definition at line 37 of file Utf8.\-php.
+
+
+
+\subsection{Member Function Documentation}
+\index{C\-I\-\_\-\-Utf8@{C\-I\-\_\-\-Utf8}!\-\_\-is\-\_\-ascii@{\-\_\-is\-\_\-ascii}}
+\index{\-\_\-is\-\_\-ascii@{\-\_\-is\-\_\-ascii}!CI_Utf8@{C\-I\-\_\-\-Utf8}}
+\subsubsection[{\-\_\-is\-\_\-ascii}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-is\-\_\-ascii (
+\begin{DoxyParamCaption}
+\item[{}]{\$str}
+\end{DoxyParamCaption}
+)}\label{class_c_i___utf8_af73156e39514ff611394f7195808f722}
+Is A\-S\-C\-I\-I?
+
+Tests if a string is standard 7-\/bit A\-S\-C\-I\-I or not
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 154 of file Utf8.\-php.
+
+\index{C\-I\-\_\-\-Utf8@{C\-I\-\_\-\-Utf8}!clean\-\_\-string@{clean\-\_\-string}}
+\index{clean\-\_\-string@{clean\-\_\-string}!CI_Utf8@{C\-I\-\_\-\-Utf8}}
+\subsubsection[{clean\-\_\-string}]{\setlength{\rightskip}{0pt plus 5cm}clean\-\_\-string (
+\begin{DoxyParamCaption}
+\item[{}]{\$str}
+\end{DoxyParamCaption}
+)}\label{class_c_i___utf8_af9fc6214803042dd0b46d6ac5bdb4b7b}
+Clean U\-T\-F-\/8 strings
+
+Ensures strings are U\-T\-F-\/8
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 85 of file Utf8.\-php.
+
+\index{C\-I\-\_\-\-Utf8@{C\-I\-\_\-\-Utf8}!convert\-\_\-to\-\_\-utf8@{convert\-\_\-to\-\_\-utf8}}
+\index{convert\-\_\-to\-\_\-utf8@{convert\-\_\-to\-\_\-utf8}!CI_Utf8@{C\-I\-\_\-\-Utf8}}
+\subsubsection[{convert\-\_\-to\-\_\-utf8}]{\setlength{\rightskip}{0pt plus 5cm}convert\-\_\-to\-\_\-utf8 (
+\begin{DoxyParamCaption}
+\item[{}]{\$str, }
+\item[{}]{\$encoding}
+\end{DoxyParamCaption}
+)}\label{class_c_i___utf8_a7f6a8b9f00d7d11b23abcadfc91e9583}
+Convert to U\-T\-F-\/8
+
+Attempts to convert a string to U\-T\-F-\/8
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+{\em string} & -\/ input encoding \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 125 of file Utf8.\-php.
+
+\index{C\-I\-\_\-\-Utf8@{C\-I\-\_\-\-Utf8}!safe\-\_\-ascii\-\_\-for\-\_\-xml@{safe\-\_\-ascii\-\_\-for\-\_\-xml}}
+\index{safe\-\_\-ascii\-\_\-for\-\_\-xml@{safe\-\_\-ascii\-\_\-for\-\_\-xml}!CI_Utf8@{C\-I\-\_\-\-Utf8}}
+\subsubsection[{safe\-\_\-ascii\-\_\-for\-\_\-xml}]{\setlength{\rightskip}{0pt plus 5cm}safe\-\_\-ascii\-\_\-for\-\_\-xml (
+\begin{DoxyParamCaption}
+\item[{}]{\$str}
+\end{DoxyParamCaption}
+)}\label{class_c_i___utf8_a10d712b507a87fd841f134143eaedb8e}
+Remove A\-S\-C\-I\-I control characters
+
+Removes all A\-S\-C\-I\-I control characters except horizontal tabs, line feeds, and carriage returns, as all others can cause problems in X\-M\-L
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 108 of file Utf8.\-php.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+system/core/{\bf Utf8.\-php}\end{DoxyCompactItemize}

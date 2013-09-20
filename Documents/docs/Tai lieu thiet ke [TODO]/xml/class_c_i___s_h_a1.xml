@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_c_i___s_h_a1" kind="class" prot="public">
+    <compoundname>CI_SHA1</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_i___s_h_a1_1a095c5d389db211932136b53f25f39685" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>()</argsstring>
+        <name>__construct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Sha1.php" line="47" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Sha1.php" bodystart="47" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___s_h_a1_1ac6b93bee131501c2bd3a134cec2eeb28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>generate</definition>
+        <argsstring>($str)</argsstring>
+        <name>generate</name>
+        <param>
+          <declname>$str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generate the Hash</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Sha1.php" line="59" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Sha1.php" bodystart="59" bodyend="119"/>
+        <references refid="class_c_i___s_h_a1_1ae1c8bafeb683ecd4cb37fb1c2c65ae4f" compoundref="_sha1_8php" startline="214" endline="217">_rol</references>
+        <references refid="class_c_i___s_h_a1_1afa61540a9d1b13692ce63c3552c877af" compoundref="_sha1_8php" startline="198" endline="204">_safe_add</references>
+        <references refid="class_c_i___s_h_a1_1aef225b3bbbc79af00dc53b8a4253a6a1" compoundref="_sha1_8php" startline="150" endline="160">_ft</references>
+        <references refid="class_c_i___s_h_a1_1a7828b4f54f0ffe2a979a51daf276dff1" compoundref="_sha1_8php" startline="170" endline="188">_kt</references>
+        <references refid="class_c_i___s_h_a1_1a5fad906bbb8c3531def1b50c256e652e" compoundref="_sha1_8php" startline="130" endline="140">_hex</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___s_h_a1_1a5fad906bbb8c3531def1b50c256e652e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_hex</definition>
+        <argsstring>($str)</argsstring>
+        <name>_hex</name>
+        <param>
+          <declname>$str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert a decimal to hex</para><para>private <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Sha1.php" line="130" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Sha1.php" bodystart="130" bodyend="140"/>
+        <referencedby refid="class_c_i___s_h_a1_1ac6b93bee131501c2bd3a134cec2eeb28" compoundref="_sha1_8php" startline="59" endline="119">generate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___s_h_a1_1aef225b3bbbc79af00dc53b8a4253a6a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_ft</definition>
+        <argsstring>($t, $b, $c, $d)</argsstring>
+        <name>_ft</name>
+        <param>
+          <declname>$t</declname>
+        </param>
+        <param>
+          <declname>$b</declname>
+        </param>
+        <param>
+          <declname>$c</declname>
+        </param>
+        <param>
+          <declname>$d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return result based on iteration</para><para>private <simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Sha1.php" line="150" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Sha1.php" bodystart="150" bodyend="160"/>
+        <referencedby refid="class_c_i___s_h_a1_1ac6b93bee131501c2bd3a134cec2eeb28" compoundref="_sha1_8php" startline="59" endline="119">generate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___s_h_a1_1a7828b4f54f0ffe2a979a51daf276dff1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_kt</definition>
+        <argsstring>($t)</argsstring>
+        <name>_kt</name>
+        <param>
+          <declname>$t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Determine the additive constant</para><para>private <simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Sha1.php" line="170" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Sha1.php" bodystart="170" bodyend="188"/>
+        <referencedby refid="class_c_i___s_h_a1_1ac6b93bee131501c2bd3a134cec2eeb28" compoundref="_sha1_8php" startline="59" endline="119">generate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___s_h_a1_1afa61540a9d1b13692ce63c3552c877af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_safe_add</definition>
+        <argsstring>($x, $y)</argsstring>
+        <name>_safe_add</name>
+        <param>
+          <declname>$x</declname>
+        </param>
+        <param>
+          <declname>$y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add integers, wrapping at 2^32</para><para>private <simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Sha1.php" line="198" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Sha1.php" bodystart="198" bodyend="204"/>
+        <referencedby refid="class_c_i___s_h_a1_1ac6b93bee131501c2bd3a134cec2eeb28" compoundref="_sha1_8php" startline="59" endline="119">generate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___s_h_a1_1ae1c8bafeb683ecd4cb37fb1c2c65ae4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_rol</definition>
+        <argsstring>($num, $cnt)</argsstring>
+        <name>_rol</name>
+        <param>
+          <declname>$num</declname>
+        </param>
+        <param>
+          <declname>$cnt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Bitwise rotate a 32-bit number</para><para>private <simplesect kind="return"><para>integer </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Sha1.php" line="214" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Sha1.php" bodystart="214" bodyend="217"/>
+        <references refid="class_c_i___s_h_a1_1aeef845ba55d1c5cd2613daa43893ec3d" compoundref="_sha1_8php" startline="227" endline="246">_zero_fill</references>
+        <referencedby refid="class_c_i___s_h_a1_1ac6b93bee131501c2bd3a134cec2eeb28" compoundref="_sha1_8php" startline="59" endline="119">generate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___s_h_a1_1aeef845ba55d1c5cd2613daa43893ec3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_zero_fill</definition>
+        <argsstring>($a, $b)</argsstring>
+        <name>_zero_fill</name>
+        <param>
+          <declname>$a</declname>
+        </param>
+        <param>
+          <declname>$b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Pad string with zero</para><para>private <simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Sha1.php" line="227" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Sha1.php" bodystart="227" bodyend="246"/>
+        <referencedby refid="class_c_i___s_h_a1_1ae1c8bafeb683ecd4cb37fb1c2c65ae4f" compoundref="_sha1_8php" startline="214" endline="217">_rol</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Sha1.php" line="45" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Sha1.php" bodystart="45" bodyend="247"/>
+    <listofallmembers>
+      <member refid="class_c_i___s_h_a1_1a095c5d389db211932136b53f25f39685" prot="public" virt="non-virtual"><scope>CI_SHA1</scope><name>__construct</name></member>
+      <member refid="class_c_i___s_h_a1_1aef225b3bbbc79af00dc53b8a4253a6a1" prot="public" virt="non-virtual"><scope>CI_SHA1</scope><name>_ft</name></member>
+      <member refid="class_c_i___s_h_a1_1a5fad906bbb8c3531def1b50c256e652e" prot="public" virt="non-virtual"><scope>CI_SHA1</scope><name>_hex</name></member>
+      <member refid="class_c_i___s_h_a1_1a7828b4f54f0ffe2a979a51daf276dff1" prot="public" virt="non-virtual"><scope>CI_SHA1</scope><name>_kt</name></member>
+      <member refid="class_c_i___s_h_a1_1ae1c8bafeb683ecd4cb37fb1c2c65ae4f" prot="public" virt="non-virtual"><scope>CI_SHA1</scope><name>_rol</name></member>
+      <member refid="class_c_i___s_h_a1_1afa61540a9d1b13692ce63c3552c877af" prot="public" virt="non-virtual"><scope>CI_SHA1</scope><name>_safe_add</name></member>
+      <member refid="class_c_i___s_h_a1_1aeef845ba55d1c5cd2613daa43893ec3d" prot="public" virt="non-virtual"><scope>CI_SHA1</scope><name>_zero_fill</name></member>
+      <member refid="class_c_i___s_h_a1_1ac6b93bee131501c2bd3a134cec2eeb28" prot="public" virt="non-virtual"><scope>CI_SHA1</scope><name>generate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

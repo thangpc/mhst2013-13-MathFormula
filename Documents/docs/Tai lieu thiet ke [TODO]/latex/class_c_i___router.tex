@@ -1,0 +1,361 @@
+\section{C\-I\-\_\-\-Router Class Reference}
+\label{class_c_i___router}\index{C\-I\-\_\-\-Router@{C\-I\-\_\-\-Router}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf \-\_\-\-\_\-construct} ()
+\item 
+{\bf \-\_\-set\-\_\-routing} ()
+\item 
+{\bf \-\_\-set\-\_\-default\-\_\-controller} ()
+\item 
+{\bf \-\_\-set\-\_\-request} (\$segments=array())
+\item 
+{\bf \-\_\-validate\-\_\-request} (\$segments)
+\item 
+{\bf \-\_\-parse\-\_\-routes} ()
+\item 
+{\bf set\-\_\-class} (\$class)
+\item 
+{\bf fetch\-\_\-class} ()
+\item 
+{\bf set\-\_\-method} (\$method)
+\item 
+{\bf fetch\-\_\-method} ()
+\item 
+{\bf set\-\_\-directory} (\$dir)
+\item 
+{\bf fetch\-\_\-directory} ()
+\item 
+{\bf \-\_\-set\-\_\-overrides} (\$routing)
+\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+{\bf \$config}
+\item 
+{\bf \$routes} = array()
+\item 
+{\bf \$error\-\_\-routes} = array()
+\item 
+{\bf \$class} = ''
+\item 
+{\bf \$method} = 'index'
+\item 
+{\bf \$directory} = ''
+\item 
+{\bf \$default\-\_\-controller}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 29 of file Router.\-php.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{C\-I\-\_\-\-Router@{C\-I\-\_\-\-Router}!\-\_\-\-\_\-construct@{\-\_\-\-\_\-construct}}
+\index{\-\_\-\-\_\-construct@{\-\_\-\-\_\-construct}!CI_Router@{C\-I\-\_\-\-Router}}
+\subsubsection[{\-\_\-\-\_\-construct}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-\-\_\-construct (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_c_i___router_a095c5d389db211932136b53f25f39685}
+Constructor
+
+Runs the route mapping function. 
+
+Definition at line 86 of file Router.\-php.
+
+
+
+\subsection{Member Function Documentation}
+\index{C\-I\-\_\-\-Router@{C\-I\-\_\-\-Router}!\-\_\-parse\-\_\-routes@{\-\_\-parse\-\_\-routes}}
+\index{\-\_\-parse\-\_\-routes@{\-\_\-parse\-\_\-routes}!CI_Router@{C\-I\-\_\-\-Router}}
+\subsubsection[{\-\_\-parse\-\_\-routes}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-parse\-\_\-routes (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_c_i___router_a55a42fae865d03334b49baa5a5a6bd0b}
+Parse Routes
+
+This function matches any routes that may exist in the \doxyref{config/routes.\-php}{p.}{routes_8php} file against the U\-R\-I to determine if the class/method need to be remapped.
+
+private \begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 363 of file Router.\-php.
+
+\index{C\-I\-\_\-\-Router@{C\-I\-\_\-\-Router}!\-\_\-set\-\_\-default\-\_\-controller@{\-\_\-set\-\_\-default\-\_\-controller}}
+\index{\-\_\-set\-\_\-default\-\_\-controller@{\-\_\-set\-\_\-default\-\_\-controller}!CI_Router@{C\-I\-\_\-\-Router}}
+\subsubsection[{\-\_\-set\-\_\-default\-\_\-controller}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-set\-\_\-default\-\_\-controller (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_c_i___router_a86b13067b062022251d2c7ecb4fb9492}
+Set the default controller
+
+private \begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 184 of file Router.\-php.
+
+\index{C\-I\-\_\-\-Router@{C\-I\-\_\-\-Router}!\-\_\-set\-\_\-overrides@{\-\_\-set\-\_\-overrides}}
+\index{\-\_\-set\-\_\-overrides@{\-\_\-set\-\_\-overrides}!CI_Router@{C\-I\-\_\-\-Router}}
+\subsubsection[{\-\_\-set\-\_\-overrides}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-set\-\_\-overrides (
+\begin{DoxyParamCaption}
+\item[{}]{\$routing}
+\end{DoxyParamCaption}
+)}\label{class_c_i___router_a43442c6087205cb04125a4953b045d87}
+Set the controller overrides
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em array} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+null 
+\end{DoxyReturn}
+
+
+Definition at line 493 of file Router.\-php.
+
+\index{C\-I\-\_\-\-Router@{C\-I\-\_\-\-Router}!\-\_\-set\-\_\-request@{\-\_\-set\-\_\-request}}
+\index{\-\_\-set\-\_\-request@{\-\_\-set\-\_\-request}!CI_Router@{C\-I\-\_\-\-Router}}
+\subsubsection[{\-\_\-set\-\_\-request}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-set\-\_\-request (
+\begin{DoxyParamCaption}
+\item[{}]{\$segments = {\ttfamily array()}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___router_a92b8b486926e4dea5fee4d71f80a472a}
+Set the Route
+
+This function takes an array of U\-R\-I segments as input, and sets the current class/method
+
+private 
+\begin{DoxyParams}{Parameters}
+{\em array} & \\
+\hline
+{\em bool} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 225 of file Router.\-php.
+
+\index{C\-I\-\_\-\-Router@{C\-I\-\_\-\-Router}!\-\_\-set\-\_\-routing@{\-\_\-set\-\_\-routing}}
+\index{\-\_\-set\-\_\-routing@{\-\_\-set\-\_\-routing}!CI_Router@{C\-I\-\_\-\-Router}}
+\subsubsection[{\-\_\-set\-\_\-routing}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-set\-\_\-routing (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_c_i___router_abc9f3e0d48cec66f93a7f103c9a65892}
+Set the route mapping
+
+This function determines what should be served based on the U\-R\-I request, as well as any \char`\"{}routes\char`\"{} that have been set in the routing config file.
+
+private \begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 104 of file Router.\-php.
+
+\index{C\-I\-\_\-\-Router@{C\-I\-\_\-\-Router}!\-\_\-validate\-\_\-request@{\-\_\-validate\-\_\-request}}
+\index{\-\_\-validate\-\_\-request@{\-\_\-validate\-\_\-request}!CI_Router@{C\-I\-\_\-\-Router}}
+\subsubsection[{\-\_\-validate\-\_\-request}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-validate\-\_\-request (
+\begin{DoxyParamCaption}
+\item[{}]{\$segments}
+\end{DoxyParamCaption}
+)}\label{class_c_i___router_a488aa4aaa52c36c4e6c791e7bfd76358}
+Validates the supplied segments. Attempts to determine the path to the controller.
+
+private 
+\begin{DoxyParams}{Parameters}
+{\em array} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+
+
+Definition at line 264 of file Router.\-php.
+
+\index{C\-I\-\_\-\-Router@{C\-I\-\_\-\-Router}!fetch\-\_\-class@{fetch\-\_\-class}}
+\index{fetch\-\_\-class@{fetch\-\_\-class}!CI_Router@{C\-I\-\_\-\-Router}}
+\subsubsection[{fetch\-\_\-class}]{\setlength{\rightskip}{0pt plus 5cm}fetch\-\_\-class (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_c_i___router_af5586c3f514021e9e2588e102620d237}
+Fetch the current class
+
+public \begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 420 of file Router.\-php.
+
+\index{C\-I\-\_\-\-Router@{C\-I\-\_\-\-Router}!fetch\-\_\-directory@{fetch\-\_\-directory}}
+\index{fetch\-\_\-directory@{fetch\-\_\-directory}!CI_Router@{C\-I\-\_\-\-Router}}
+\subsubsection[{fetch\-\_\-directory}]{\setlength{\rightskip}{0pt plus 5cm}fetch\-\_\-directory (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_c_i___router_a7a089f2cfae731dcc9e59a71d20208ef}
+Fetch the sub-\/directory (if any) that contains the requested controller class
+
+public \begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 479 of file Router.\-php.
+
+\index{C\-I\-\_\-\-Router@{C\-I\-\_\-\-Router}!fetch\-\_\-method@{fetch\-\_\-method}}
+\index{fetch\-\_\-method@{fetch\-\_\-method}!CI_Router@{C\-I\-\_\-\-Router}}
+\subsubsection[{fetch\-\_\-method}]{\setlength{\rightskip}{0pt plus 5cm}fetch\-\_\-method (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_c_i___router_ad408b28e3a095e7435f21e95d93e7714}
+Fetch the current method
+
+public \begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 447 of file Router.\-php.
+
+\index{C\-I\-\_\-\-Router@{C\-I\-\_\-\-Router}!set\-\_\-class@{set\-\_\-class}}
+\index{set\-\_\-class@{set\-\_\-class}!CI_Router@{C\-I\-\_\-\-Router}}
+\subsubsection[{set\-\_\-class}]{\setlength{\rightskip}{0pt plus 5cm}set\-\_\-class (
+\begin{DoxyParamCaption}
+\item[{}]{\$class}
+\end{DoxyParamCaption}
+)}\label{class_c_i___router_afbb540df5c161fe69909a5f8182f910f}
+Set the class name
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 407 of file Router.\-php.
+
+\index{C\-I\-\_\-\-Router@{C\-I\-\_\-\-Router}!set\-\_\-directory@{set\-\_\-directory}}
+\index{set\-\_\-directory@{set\-\_\-directory}!CI_Router@{C\-I\-\_\-\-Router}}
+\subsubsection[{set\-\_\-directory}]{\setlength{\rightskip}{0pt plus 5cm}set\-\_\-directory (
+\begin{DoxyParamCaption}
+\item[{}]{\$dir}
+\end{DoxyParamCaption}
+)}\label{class_c_i___router_aba98bd014f2bd0e2b299bd7a0695b33e}
+Set the directory name
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 466 of file Router.\-php.
+
+\index{C\-I\-\_\-\-Router@{C\-I\-\_\-\-Router}!set\-\_\-method@{set\-\_\-method}}
+\index{set\-\_\-method@{set\-\_\-method}!CI_Router@{C\-I\-\_\-\-Router}}
+\subsubsection[{set\-\_\-method}]{\setlength{\rightskip}{0pt plus 5cm}set\-\_\-method (
+\begin{DoxyParamCaption}
+\item[{}]{\$method}
+\end{DoxyParamCaption}
+)}\label{class_c_i___router_a6a42036a115946acdaf0975c994106fb}
+Set the method name
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 434 of file Router.\-php.
+
+
+
+\subsection{Field Documentation}
+\index{C\-I\-\_\-\-Router@{C\-I\-\_\-\-Router}!\$class@{\$class}}
+\index{\$class@{\$class}!CI_Router@{C\-I\-\_\-\-Router}}
+\subsubsection[{\$class}]{\setlength{\rightskip}{0pt plus 5cm}\$class = ''}\label{class_c_i___router_a252ba022809910ea710a068fc1bab657}
+
+
+Definition at line 58 of file Router.\-php.
+
+\index{C\-I\-\_\-\-Router@{C\-I\-\_\-\-Router}!\$config@{\$config}}
+\index{\$config@{\$config}!CI_Router@{C\-I\-\_\-\-Router}}
+\subsubsection[{\$config}]{\setlength{\rightskip}{0pt plus 5cm}\$config}\label{class_c_i___router_a49c7011be9c979d9174c52a8b83e5d8e}
+
+
+Definition at line 37 of file Router.\-php.
+
+\index{C\-I\-\_\-\-Router@{C\-I\-\_\-\-Router}!\$default\-\_\-controller@{\$default\-\_\-controller}}
+\index{\$default\-\_\-controller@{\$default\-\_\-controller}!CI_Router@{C\-I\-\_\-\-Router}}
+\subsubsection[{\$default\-\_\-controller}]{\setlength{\rightskip}{0pt plus 5cm}\$default\-\_\-controller}\label{class_c_i___router_ab949cccd963058f0937d04bc26ee24a7}
+
+
+Definition at line 79 of file Router.\-php.
+
+\index{C\-I\-\_\-\-Router@{C\-I\-\_\-\-Router}!\$directory@{\$directory}}
+\index{\$directory@{\$directory}!CI_Router@{C\-I\-\_\-\-Router}}
+\subsubsection[{\$directory}]{\setlength{\rightskip}{0pt plus 5cm}\$directory = ''}\label{class_c_i___router_a1b07c630eb02f770a082a013373a16d6}
+
+
+Definition at line 72 of file Router.\-php.
+
+\index{C\-I\-\_\-\-Router@{C\-I\-\_\-\-Router}!\$error\-\_\-routes@{\$error\-\_\-routes}}
+\index{\$error\-\_\-routes@{\$error\-\_\-routes}!CI_Router@{C\-I\-\_\-\-Router}}
+\subsubsection[{\$error\-\_\-routes}]{\setlength{\rightskip}{0pt plus 5cm}\$error\-\_\-routes = array()}\label{class_c_i___router_a8fd5c23c355e91c5faac1e498ebe4ac9}
+
+
+Definition at line 51 of file Router.\-php.
+
+\index{C\-I\-\_\-\-Router@{C\-I\-\_\-\-Router}!\$method@{\$method}}
+\index{\$method@{\$method}!CI_Router@{C\-I\-\_\-\-Router}}
+\subsubsection[{\$method}]{\setlength{\rightskip}{0pt plus 5cm}\$method = 'index'}\label{class_c_i___router_a12661b2fc0f57f97e30a1620889ce9c6}
+
+
+Definition at line 65 of file Router.\-php.
+
+\index{C\-I\-\_\-\-Router@{C\-I\-\_\-\-Router}!\$routes@{\$routes}}
+\index{\$routes@{\$routes}!CI_Router@{C\-I\-\_\-\-Router}}
+\subsubsection[{\$routes}]{\setlength{\rightskip}{0pt plus 5cm}\$routes = array()}\label{class_c_i___router_a8f7eb04a54e0f0bfc0cedeb9899ce4a8}
+
+
+Definition at line 44 of file Router.\-php.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+system/core/{\bf Router.\-php}\end{DoxyCompactItemize}

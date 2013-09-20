@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_auth" kind="class" prot="public">
+    <compoundname>Auth</compoundname>
+    <basecompoundref refid="class_frontend___controller" prot="public" virt="non-virtual">Frontend_Controller</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_auth_1a095c5d389db211932136b53f25f39685" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>()</argsstring>
+        <name>__construct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/controllers/auth.php" line="5" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/controllers/auth.php" bodystart="5" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="class_auth_1a149eb92716c1084a935e04a8d95f7347" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>index</definition>
+        <argsstring>()</argsstring>
+        <name>index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/controllers/auth.php" line="11" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/controllers/auth.php" bodystart="11" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_auth_1a75c5d0ba8cf46e01803fe73377c0b568" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>checkSignUp</definition>
+        <argsstring>()</argsstring>
+        <name>checkSignUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/controllers/auth.php" line="15" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/controllers/auth.php" bodystart="15" bodyend="56"/>
+        <references refid="class_m_y___controller_1a6efc15b5a2314dd4b5aaa556a375c6d6" compoundref="_m_y___controller_8php" startline="5">MY_Controller\$data</references>
+      </memberdef>
+      <memberdef kind="function" id="class_auth_1ab8e90adf3e4b15eea283c4ea450a4288" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>checkLogin</definition>
+        <argsstring>()</argsstring>
+        <name>checkLogin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/controllers/auth.php" line="59" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/controllers/auth.php" bodystart="59" bodyend="93"/>
+        <references refid="class_m_y___controller_1a6efc15b5a2314dd4b5aaa556a375c6d6" compoundref="_m_y___controller_8php" startline="5">MY_Controller\$data</references>
+      </memberdef>
+      <memberdef kind="function" id="class_auth_1a082405d89acd6835c3a7c7a08a7adbab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>logout</definition>
+        <argsstring>()</argsstring>
+        <name>logout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/controllers/auth.php" line="95" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/controllers/auth.php" bodystart="95" bodyend="99"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="18">
+        <label>CI_Controller</label>
+        <link refid="class_c_i___controller"/>
+      </node>
+      <node id="17">
+        <label>MY_Controller</label>
+        <link refid="class_m_y___controller"/>
+        <childnode refid="18" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>Auth</label>
+        <link refid="class_auth"/>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>Frontend_Controller</label>
+        <link refid="class_frontend___controller"/>
+        <childnode refid="17" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="22">
+        <label>CI_Controller</label>
+        <link refid="class_c_i___controller"/>
+      </node>
+      <node id="21">
+        <label>MY_Controller</label>
+        <link refid="class_m_y___controller"/>
+        <childnode refid="22" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>Auth</label>
+        <link refid="class_auth"/>
+        <childnode refid="20" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>Frontend_Controller</label>
+        <link refid="class_frontend___controller"/>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/controllers/auth.php" line="3" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/controllers/auth.php" bodystart="3" bodyend="100"/>
+    <listofallmembers>
+      <member refid="class_m_y___controller_1a6efc15b5a2314dd4b5aaa556a375c6d6" prot="public" virt="non-virtual"><scope>Auth</scope><name>$data</name></member>
+      <member refid="class_auth_1a095c5d389db211932136b53f25f39685" prot="public" virt="non-virtual"><scope>Auth</scope><name>__construct</name></member>
+      <member refid="class_auth_1ab8e90adf3e4b15eea283c4ea450a4288" prot="public" virt="non-virtual"><scope>Auth</scope><name>checkLogin</name></member>
+      <member refid="class_auth_1a75c5d0ba8cf46e01803fe73377c0b568" prot="public" virt="non-virtual"><scope>Auth</scope><name>checkSignUp</name></member>
+      <member refid="class_c_i___controller_1a8d3cc57e7b6ec94e704712b0f277f5bb" prot="public" virt="non-virtual"><scope>Auth</scope><name>get_instance</name></member>
+      <member refid="class_auth_1a149eb92716c1084a935e04a8d95f7347" prot="public" virt="non-virtual"><scope>Auth</scope><name>index</name></member>
+      <member refid="class_auth_1a082405d89acd6835c3a7c7a08a7adbab" prot="public" virt="non-virtual"><scope>Auth</scope><name>logout</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

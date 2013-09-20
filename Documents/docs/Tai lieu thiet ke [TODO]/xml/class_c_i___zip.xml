@@ -1,0 +1,452 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_c_i___zip" kind="class" prot="public">
+    <compoundname>CI_Zip</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_c_i___zip_1a395accfd5884d9a0e6fd53470b3e85b1" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$zipdata</definition>
+        <argsstring></argsstring>
+        <name>$zipdata</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Zip.php" line="35" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Zip.php" bodystart="35" bodyend="-1"/>
+        <referencedby refid="class_c_i___zip_1a263fd906f99ccca15a12fe34a79656e4" compoundref="_zip_8php" startline="328" endline="345">get_zip</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___zip_1a1b07c630eb02f770a082a013373a16d6" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$directory</definition>
+        <argsstring></argsstring>
+        <name>$directory</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Zip.php" line="36" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Zip.php" bodystart="36" bodyend="-1"/>
+        <referencedby refid="class_c_i___zip_1a86b6a309dad105e43b446dc9f8820703" compoundref="_zip_8php" startline="63" endline="76">add_dir</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___zip_1affb4200921149b6126d0e51b415b2c75" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$entries</definition>
+        <argsstring></argsstring>
+        <name>$entries</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Zip.php" line="37" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Zip.php" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___zip_1af1ab53ee1a849492829ce782aac0163d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$file_num</definition>
+        <argsstring></argsstring>
+        <name>$file_num</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Zip.php" line="38" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Zip.php" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___zip_1aec4de82415d7f05cb9748d12d3a95a87" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$offset</definition>
+        <argsstring></argsstring>
+        <name>$offset</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Zip.php" line="39" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Zip.php" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___zip_1af1d5ccdee975b8f4d20aaffc5b28557c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$now</definition>
+        <argsstring></argsstring>
+        <name>$now</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Zip.php" line="40" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Zip.php" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_i___zip_1a095c5d389db211932136b53f25f39685" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>()</argsstring>
+        <name>__construct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Zip.php" line="45" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Zip.php" bodystart="45" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___zip_1a86b6a309dad105e43b446dc9f8820703" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>add_dir</definition>
+        <argsstring>($directory)</argsstring>
+        <name>add_dir</name>
+        <param>
+          <declname>$directory</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add Directory</para><para>Lets you add a virtual directory into which you can place files.</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mixed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the directory name. Can be string or array </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Zip.php" line="63" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Zip.php" bodystart="63" bodyend="76"/>
+        <references refid="class_c_i___zip_1a1b07c630eb02f770a082a013373a16d6" compoundref="_zip_8php" startline="36">$directory</references>
+        <references refid="class_c_i___zip_1a2e4a669b246619934060ea323b99b332" compoundref="_zip_8php" startline="88" endline="97">_get_mod_time</references>
+        <references refid="class_c_i___zip_1aacd1bc7175638298e01bd6c16bccfbe6" compoundref="_zip_8php" startline="108" endline="145">_add_dir</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___zip_1a2e4a669b246619934060ea323b99b332" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_get_mod_time</definition>
+        <argsstring>($dir)</argsstring>
+        <name>_get_mod_time</name>
+        <param>
+          <declname>$dir</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get file/directory modification time</para><para>If this is a newly created file/dir, we will set the time to &apos;now&apos;</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>path to file </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array filemtime/filemdate </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Zip.php" line="88" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Zip.php" bodystart="88" bodyend="97"/>
+        <referencedby refid="class_c_i___zip_1a86b6a309dad105e43b446dc9f8820703" compoundref="_zip_8php" startline="63" endline="76">add_dir</referencedby>
+        <referencedby refid="class_c_i___zip_1a8d541e6609a5b2634a6a2bc7731465a5" compoundref="_zip_8php" startline="161" endline="178">add_data</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___zip_1aacd1bc7175638298e01bd6c16bccfbe6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_add_dir</definition>
+        <argsstring>($dir, $file_mtime, $file_mdate)</argsstring>
+        <name>_add_dir</name>
+        <param>
+          <declname>$dir</declname>
+        </param>
+        <param>
+          <declname>$file_mtime</declname>
+        </param>
+        <param>
+          <declname>$file_mdate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add Directory</para><para>private <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the directory name </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Zip.php" line="108" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Zip.php" bodystart="108" bodyend="145"/>
+        <referencedby refid="class_c_i___zip_1a86b6a309dad105e43b446dc9f8820703" compoundref="_zip_8php" startline="63" endline="76">add_dir</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___zip_1a8d541e6609a5b2634a6a2bc7731465a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>add_data</definition>
+        <argsstring>($filepath, $data=NULL)</argsstring>
+        <name>add_data</name>
+        <param>
+          <declname>$filepath</declname>
+        </param>
+        <param>
+          <declname>$data</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add Data to Zip</para><para>Lets you add files to the archive. If the path is included in the filename it will be placed within a directory. Make sure you use <ref refid="class_c_i___zip_1a86b6a309dad105e43b446dc9f8820703" kindref="member">add_dir()</ref> first to create the folder.</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mixed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Zip.php" line="161" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Zip.php" bodystart="161" bodyend="178"/>
+        <references refid="class_c_i___zip_1a2e4a669b246619934060ea323b99b332" compoundref="_zip_8php" startline="88" endline="97">_get_mod_time</references>
+        <references refid="class_c_i___zip_1a4ff8a5ea57979ec1a44cc9e443acf26d" compoundref="_zip_8php" startline="190" endline="232">_add_data</references>
+        <referencedby refid="class_c_i___zip_1af32859ac9a7db39f291e6316c6e943d5" compoundref="_zip_8php" startline="242" endline="262">read_file</referencedby>
+        <referencedby refid="class_c_i___zip_1a296847a86d7cf0e4bba9b71a173cfffe" compoundref="_zip_8php" startline="277" endline="318">read_dir</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___zip_1a4ff8a5ea57979ec1a44cc9e443acf26d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_add_data</definition>
+        <argsstring>($filepath, $data, $file_mtime, $file_mdate)</argsstring>
+        <name>_add_data</name>
+        <param>
+          <declname>$filepath</declname>
+        </param>
+        <param>
+          <declname>$data</declname>
+        </param>
+        <param>
+          <declname>$file_mtime</declname>
+        </param>
+        <param>
+          <declname>$file_mdate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add Data to Zip</para><para>private <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the file name/path </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the data to be encoded </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Zip.php" line="190" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Zip.php" bodystart="190" bodyend="232"/>
+        <referencedby refid="class_c_i___zip_1a8d541e6609a5b2634a6a2bc7731465a5" compoundref="_zip_8php" startline="161" endline="178">add_data</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___zip_1af32859ac9a7db39f291e6316c6e943d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>read_file</definition>
+        <argsstring>($path, $preserve_filepath=FALSE)</argsstring>
+        <name>read_file</name>
+        <param>
+          <declname>$path</declname>
+        </param>
+        <param>
+          <declname>$preserve_filepath</declname>
+          <defval>FALSE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Read the contents of a file and add it to the zip</para><para>public <simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Zip.php" line="242" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Zip.php" bodystart="242" bodyend="262"/>
+        <references refid="class_c_i___zip_1a8d541e6609a5b2634a6a2bc7731465a5" compoundref="_zip_8php" startline="161" endline="178">add_data</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___zip_1a296847a86d7cf0e4bba9b71a173cfffe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>read_dir</definition>
+        <argsstring>($path, $preserve_filepath=TRUE, $root_path=NULL)</argsstring>
+        <name>read_dir</name>
+        <param>
+          <declname>$path</declname>
+        </param>
+        <param>
+          <declname>$preserve_filepath</declname>
+          <defval>TRUE</defval>
+        </param>
+        <param>
+          <declname>$root_path</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Read a directory and add it to the zip.</para><para>This function recursively reads a folder and everything it contains (including sub-folders) and creates a zip based on it. Whatever directory structure is in the original file path will be recreated in the zip file.</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>path to source </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Zip.php" line="277" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Zip.php" bodystart="277" bodyend="318"/>
+        <references refid="class_c_i___zip_1a8d541e6609a5b2634a6a2bc7731465a5" compoundref="_zip_8php" startline="161" endline="178">add_data</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___zip_1a263fd906f99ccca15a12fe34a79656e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>get_zip</definition>
+        <argsstring>()</argsstring>
+        <name>get_zip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the Zip file</para><para>public <simplesect kind="return"><para>binary string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Zip.php" line="328" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Zip.php" bodystart="328" bodyend="345"/>
+        <references refid="class_c_i___zip_1a395accfd5884d9a0e6fd53470b3e85b1" compoundref="_zip_8php" startline="35">$zipdata</references>
+        <referencedby refid="class_c_i___zip_1a935879d7074c751a4ac886aebd66cbd4" compoundref="_zip_8php" startline="358" endline="371">archive</referencedby>
+        <referencedby refid="class_c_i___zip_1a485d204dc928fd19b711cb857e44561f" compoundref="_zip_8php" startline="383" endline="398">download</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___zip_1a935879d7074c751a4ac886aebd66cbd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>archive</definition>
+        <argsstring>($filepath)</argsstring>
+        <name>archive</name>
+        <param>
+          <declname>$filepath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Write File to the specified directory</para><para>Lets you write a file</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the file name </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Zip.php" line="358" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Zip.php" bodystart="358" bodyend="371"/>
+        <references refid="constants_8php_1a246692af603ceac463cab532d81a6048" compoundref="constants_8php" startline="32">FOPEN_WRITE_CREATE_DESTRUCTIVE</references>
+        <references refid="class_c_i___zip_1a263fd906f99ccca15a12fe34a79656e4" compoundref="_zip_8php" startline="328" endline="345">get_zip</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___zip_1a485d204dc928fd19b711cb857e44561f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>download</definition>
+        <argsstring>($filename= &apos;backup.zip&apos;)</argsstring>
+        <name>download</name>
+        <param>
+          <declname>$filename</declname>
+          <defval>&apos;backup.zip&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Download</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the file name </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the data to be encoded </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Zip.php" line="383" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Zip.php" bodystart="383" bodyend="398"/>
+        <references refid="_code_igniter_8php_1ae0314d046ddf7fcfaec03222977427d3" compoundref="_code_igniter_8php" startline="308">$CI</references>
+        <references refid="_code_igniter_8php_1a185483844bd20a0e80955460d66d2199" compoundref="_code_igniter_8php" startline="231" endline="398">get_instance</references>
+        <references refid="class_c_i___zip_1a263fd906f99ccca15a12fe34a79656e4" compoundref="_zip_8php" startline="328" endline="345">get_zip</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___zip_1a89d046bac0ab06a81c5c03d55b4bcae5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>clear_data</definition>
+        <argsstring>()</argsstring>
+        <name>clear_data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Initialize Data</para><para>Lets you clear current zip data. Useful if you need to create multiple zips with different data.</para><para>public <simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Zip.php" line="411" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Zip.php" bodystart="411" bodyend="418"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Zip.php" line="33" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Zip.php" bodystart="33" bodyend="420"/>
+    <listofallmembers>
+      <member refid="class_c_i___zip_1a1b07c630eb02f770a082a013373a16d6" prot="public" virt="non-virtual"><scope>CI_Zip</scope><name>$directory</name></member>
+      <member refid="class_c_i___zip_1affb4200921149b6126d0e51b415b2c75" prot="public" virt="non-virtual"><scope>CI_Zip</scope><name>$entries</name></member>
+      <member refid="class_c_i___zip_1af1ab53ee1a849492829ce782aac0163d" prot="public" virt="non-virtual"><scope>CI_Zip</scope><name>$file_num</name></member>
+      <member refid="class_c_i___zip_1af1d5ccdee975b8f4d20aaffc5b28557c" prot="public" virt="non-virtual"><scope>CI_Zip</scope><name>$now</name></member>
+      <member refid="class_c_i___zip_1aec4de82415d7f05cb9748d12d3a95a87" prot="public" virt="non-virtual"><scope>CI_Zip</scope><name>$offset</name></member>
+      <member refid="class_c_i___zip_1a395accfd5884d9a0e6fd53470b3e85b1" prot="public" virt="non-virtual"><scope>CI_Zip</scope><name>$zipdata</name></member>
+      <member refid="class_c_i___zip_1a095c5d389db211932136b53f25f39685" prot="public" virt="non-virtual"><scope>CI_Zip</scope><name>__construct</name></member>
+      <member refid="class_c_i___zip_1a4ff8a5ea57979ec1a44cc9e443acf26d" prot="public" virt="non-virtual"><scope>CI_Zip</scope><name>_add_data</name></member>
+      <member refid="class_c_i___zip_1aacd1bc7175638298e01bd6c16bccfbe6" prot="public" virt="non-virtual"><scope>CI_Zip</scope><name>_add_dir</name></member>
+      <member refid="class_c_i___zip_1a2e4a669b246619934060ea323b99b332" prot="public" virt="non-virtual"><scope>CI_Zip</scope><name>_get_mod_time</name></member>
+      <member refid="class_c_i___zip_1a8d541e6609a5b2634a6a2bc7731465a5" prot="public" virt="non-virtual"><scope>CI_Zip</scope><name>add_data</name></member>
+      <member refid="class_c_i___zip_1a86b6a309dad105e43b446dc9f8820703" prot="public" virt="non-virtual"><scope>CI_Zip</scope><name>add_dir</name></member>
+      <member refid="class_c_i___zip_1a935879d7074c751a4ac886aebd66cbd4" prot="public" virt="non-virtual"><scope>CI_Zip</scope><name>archive</name></member>
+      <member refid="class_c_i___zip_1a89d046bac0ab06a81c5c03d55b4bcae5" prot="public" virt="non-virtual"><scope>CI_Zip</scope><name>clear_data</name></member>
+      <member refid="class_c_i___zip_1a485d204dc928fd19b711cb857e44561f" prot="public" virt="non-virtual"><scope>CI_Zip</scope><name>download</name></member>
+      <member refid="class_c_i___zip_1a263fd906f99ccca15a12fe34a79656e4" prot="public" virt="non-virtual"><scope>CI_Zip</scope><name>get_zip</name></member>
+      <member refid="class_c_i___zip_1a296847a86d7cf0e4bba9b71a173cfffe" prot="public" virt="non-virtual"><scope>CI_Zip</scope><name>read_dir</name></member>
+      <member refid="class_c_i___zip_1af32859ac9a7db39f291e6316c6e943d5" prot="public" virt="non-virtual"><scope>CI_Zip</scope><name>read_file</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

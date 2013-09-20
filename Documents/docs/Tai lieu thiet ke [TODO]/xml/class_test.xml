@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_test" kind="class" prot="public">
+    <compoundname>Test</compoundname>
+    <basecompoundref refid="class_frontend___controller" prot="public" virt="non-virtual">Frontend_Controller</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_test_1a095c5d389db211932136b53f25f39685" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>()</argsstring>
+        <name>__construct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/controllers/test.php" line="5" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/controllers/test.php" bodystart="5" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="function" id="class_test_1a149eb92716c1084a935e04a8d95f7347" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>index</definition>
+        <argsstring>()</argsstring>
+        <name>index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/controllers/test.php" line="10" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/controllers/test.php" bodystart="10" bodyend="27"/>
+        <references refid="class_m_y___controller_1a6efc15b5a2314dd4b5aaa556a375c6d6" compoundref="_m_y___controller_8php" startline="5">MY_Controller\$data</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="467">
+        <label>CI_Controller</label>
+        <link refid="class_c_i___controller"/>
+      </node>
+      <node id="466">
+        <label>MY_Controller</label>
+        <link refid="class_m_y___controller"/>
+        <childnode refid="467" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="464">
+        <label>Test</label>
+        <link refid="class_test"/>
+        <childnode refid="465" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="465">
+        <label>Frontend_Controller</label>
+        <link refid="class_frontend___controller"/>
+        <childnode refid="466" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="471">
+        <label>CI_Controller</label>
+        <link refid="class_c_i___controller"/>
+      </node>
+      <node id="470">
+        <label>MY_Controller</label>
+        <link refid="class_m_y___controller"/>
+        <childnode refid="471" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="468">
+        <label>Test</label>
+        <link refid="class_test"/>
+        <childnode refid="469" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="469">
+        <label>Frontend_Controller</label>
+        <link refid="class_frontend___controller"/>
+        <childnode refid="470" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/controllers/test.php" line="3" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/controllers/test.php" bodystart="3" bodyend="28"/>
+    <listofallmembers>
+      <member refid="class_m_y___controller_1a6efc15b5a2314dd4b5aaa556a375c6d6" prot="public" virt="non-virtual"><scope>Test</scope><name>$data</name></member>
+      <member refid="class_test_1a095c5d389db211932136b53f25f39685" prot="public" virt="non-virtual"><scope>Test</scope><name>__construct</name></member>
+      <member refid="class_c_i___controller_1a8d3cc57e7b6ec94e704712b0f277f5bb" prot="public" virt="non-virtual"><scope>Test</scope><name>get_instance</name></member>
+      <member refid="class_test_1a149eb92716c1084a935e04a8d95f7347" prot="public" virt="non-virtual"><scope>Test</scope><name>index</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

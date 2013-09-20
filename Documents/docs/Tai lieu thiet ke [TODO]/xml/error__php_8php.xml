@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="error__php_8php" kind="file">
+    <compoundname>error_php.php</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;<ref refid="mathquill_8js_1a7faab0faa1bacc23a7ffe6f0c7c26e76" kindref="member">div</ref><sp/>style=</highlight><highlight class="stringliteral">&quot;border:1px<sp/>solid<sp/>#990000;padding-left:20px;margin:0<sp/>0<sp/>10px<sp/>0;&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal">&lt;h4&gt;A<sp/>PHP<sp/>Error<sp/>was<sp/>encountered&lt;/h4&gt;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">&lt;<ref refid="jquery_8min_8js_1ad1707b001240e9c8298830073364c8bf" kindref="member">p</ref>&gt;Severity:<sp/>&lt;?php<sp/>echo<sp/>$severity;<sp/>?&gt;&lt;/<ref refid="jquery_8min_8js_1ad1707b001240e9c8298830073364c8bf" kindref="member">p</ref>&gt;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">&lt;<ref refid="jquery_8min_8js_1ad1707b001240e9c8298830073364c8bf" kindref="member">p</ref>&gt;Message:<sp/><sp/>&lt;?php<sp/>echo<sp/>$message;<sp/>?&gt;&lt;/<ref refid="jquery_8min_8js_1ad1707b001240e9c8298830073364c8bf" kindref="member">p</ref>&gt;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">&lt;<ref refid="jquery_8min_8js_1ad1707b001240e9c8298830073364c8bf" kindref="member">p</ref>&gt;Filename:<sp/>&lt;?php<sp/>echo<sp/>$filepath;<sp/>?&gt;&lt;/<ref refid="jquery_8min_8js_1ad1707b001240e9c8298830073364c8bf" kindref="member">p</ref>&gt;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">&lt;<ref refid="jquery_8min_8js_1ad1707b001240e9c8298830073364c8bf" kindref="member">p</ref>&gt;Line<sp/>Number:<sp/>&lt;?php<sp/>echo<sp/>$line;<sp/>?&gt;&lt;/<ref refid="jquery_8min_8js_1ad1707b001240e9c8298830073364c8bf" kindref="member">p</ref>&gt;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">&lt;/<ref refid="mathquill_8js_1a7faab0faa1bacc23a7ffe6f0c7c26e76" kindref="member">div</ref>&gt;</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/errors/error_php.php"/>
+  </compounddef>
+</doxygen>

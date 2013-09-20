@@ -1,0 +1,323 @@
+\section{C\-I\-\_\-\-Calendar Class Reference}
+\label{class_c_i___calendar}\index{C\-I\-\_\-\-Calendar@{C\-I\-\_\-\-Calendar}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf \-\_\-\-\_\-construct} (\$config=array())
+\item 
+{\bf initialize} (\$config=array())
+\item 
+{\bf generate} (\$year= '', \$month= '', \$data=array())
+\item 
+{\bf get\-\_\-month\-\_\-name} (\$month)
+\item 
+{\bf get\-\_\-day\-\_\-names} (\$day\-\_\-type= '')
+\item 
+{\bf adjust\-\_\-date} (\$month, \$year)
+\item 
+{\bf get\-\_\-total\-\_\-days} (\$month, \$year)
+\item 
+{\bf default\-\_\-template} ()
+\item 
+{\bf parse\-\_\-template} ()
+\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+{\bf \$\-C\-I}
+\item 
+{\bf \$lang}
+\item 
+{\bf \$local\-\_\-time}
+\item 
+{\bf \$template} = ''
+\item 
+{\bf \$start\-\_\-day} = 'sunday'
+\item 
+{\bf \$month\-\_\-type} = 'long'
+\item 
+{\bf \$day\-\_\-type} = 'abr'
+\item 
+{\bf \$show\-\_\-next\-\_\-prev} = F\-A\-L\-S\-E
+\item 
+{\bf \$next\-\_\-prev\-\_\-url} = ''
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 29 of file Calendar.\-php.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{C\-I\-\_\-\-Calendar@{C\-I\-\_\-\-Calendar}!\-\_\-\-\_\-construct@{\-\_\-\-\_\-construct}}
+\index{\-\_\-\-\_\-construct@{\-\_\-\-\_\-construct}!CI_Calendar@{C\-I\-\_\-\-Calendar}}
+\subsubsection[{\-\_\-\-\_\-construct}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-\-\_\-construct (
+\begin{DoxyParamCaption}
+\item[{}]{\$config = {\ttfamily array()}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___calendar_af7f9493844d2d66e924e3c1df51ce616}
+Constructor
+
+Loads the calendar language file and sets the default time reference 
+
+Definition at line 46 of file Calendar.\-php.
+
+
+
+\subsection{Member Function Documentation}
+\index{C\-I\-\_\-\-Calendar@{C\-I\-\_\-\-Calendar}!adjust\-\_\-date@{adjust\-\_\-date}}
+\index{adjust\-\_\-date@{adjust\-\_\-date}!CI_Calendar@{C\-I\-\_\-\-Calendar}}
+\subsubsection[{adjust\-\_\-date}]{\setlength{\rightskip}{0pt plus 5cm}adjust\-\_\-date (
+\begin{DoxyParamCaption}
+\item[{}]{\$month, }
+\item[{}]{\$year}
+\end{DoxyParamCaption}
+)}\label{class_c_i___calendar_ac216356ab0ff31e8538fd9208a26577a}
+Adjust Date
+
+This function makes sure that we have a valid month/year. For example, if you submit 13 as the month, the year will increment and the month will become January.
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em integer} & the month \\
+\hline
+{\em integer} & the year \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+
+
+Definition at line 337 of file Calendar.\-php.
+
+\index{C\-I\-\_\-\-Calendar@{C\-I\-\_\-\-Calendar}!default\-\_\-template@{default\-\_\-template}}
+\index{default\-\_\-template@{default\-\_\-template}!CI_Calendar@{C\-I\-\_\-\-Calendar}}
+\subsubsection[{default\-\_\-template}]{\setlength{\rightskip}{0pt plus 5cm}default\-\_\-template (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_c_i___calendar_a5d174710ed7a2a08df21dbaa2bb6a50f}
+Set Default Template Data
+
+This is used in the event that the user has not created their own template
+
+public \begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+
+
+Definition at line 405 of file Calendar.\-php.
+
+\index{C\-I\-\_\-\-Calendar@{C\-I\-\_\-\-Calendar}!generate@{generate}}
+\index{generate@{generate}!CI_Calendar@{C\-I\-\_\-\-Calendar}}
+\subsubsection[{generate}]{\setlength{\rightskip}{0pt plus 5cm}generate (
+\begin{DoxyParamCaption}
+\item[{}]{\$year = {\ttfamily ''}, }
+\item[{}]{\$month = {\ttfamily ''}, }
+\item[{}]{\$data = {\ttfamily array()}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___calendar_a532f3b6ce22d22e01ace95a24a6f7179}
+Generate the calendar
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em integer} & the year \\
+\hline
+{\em integer} & the month \\
+\hline
+{\em array} & the data to be shown in the calendar cells \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 98 of file Calendar.\-php.
+
+\index{C\-I\-\_\-\-Calendar@{C\-I\-\_\-\-Calendar}!get\-\_\-day\-\_\-names@{get\-\_\-day\-\_\-names}}
+\index{get\-\_\-day\-\_\-names@{get\-\_\-day\-\_\-names}!CI_Calendar@{C\-I\-\_\-\-Calendar}}
+\subsubsection[{get\-\_\-day\-\_\-names}]{\setlength{\rightskip}{0pt plus 5cm}get\-\_\-day\-\_\-names (
+\begin{DoxyParamCaption}
+\item[{}]{\$day\-\_\-type = {\ttfamily ''}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___calendar_ac0f5e250a3694e74e4a160557f91b8ca}
+Get Day Names
+
+Returns an array of day names (Sunday, Monday, etc.) based on the type. Options\-: long, short, abrev
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+
+
+Definition at line 296 of file Calendar.\-php.
+
+\index{C\-I\-\_\-\-Calendar@{C\-I\-\_\-\-Calendar}!get\-\_\-month\-\_\-name@{get\-\_\-month\-\_\-name}}
+\index{get\-\_\-month\-\_\-name@{get\-\_\-month\-\_\-name}!CI_Calendar@{C\-I\-\_\-\-Calendar}}
+\subsubsection[{get\-\_\-month\-\_\-name}]{\setlength{\rightskip}{0pt plus 5cm}get\-\_\-month\-\_\-name (
+\begin{DoxyParamCaption}
+\item[{}]{\$month}
+\end{DoxyParamCaption}
+)}\label{class_c_i___calendar_a056208e620b0ffc2525a07d8646eb194}
+Get Month Name
+
+Generates a textual month name based on the numeric month provided.
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em integer} & the month \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 263 of file Calendar.\-php.
+
+\index{C\-I\-\_\-\-Calendar@{C\-I\-\_\-\-Calendar}!get\-\_\-total\-\_\-days@{get\-\_\-total\-\_\-days}}
+\index{get\-\_\-total\-\_\-days@{get\-\_\-total\-\_\-days}!CI_Calendar@{C\-I\-\_\-\-Calendar}}
+\subsubsection[{get\-\_\-total\-\_\-days}]{\setlength{\rightskip}{0pt plus 5cm}get\-\_\-total\-\_\-days (
+\begin{DoxyParamCaption}
+\item[{}]{\$month, }
+\item[{}]{\$year}
+\end{DoxyParamCaption}
+)}\label{class_c_i___calendar_a3c863f62907e445af2711df11fb90ff9}
+Total days in a given month
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em integer} & the month \\
+\hline
+{\em integer} & the year \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+integer 
+\end{DoxyReturn}
+
+
+Definition at line 374 of file Calendar.\-php.
+
+\index{C\-I\-\_\-\-Calendar@{C\-I\-\_\-\-Calendar}!initialize@{initialize}}
+\index{initialize@{initialize}!CI_Calendar@{C\-I\-\_\-\-Calendar}}
+\subsubsection[{initialize}]{\setlength{\rightskip}{0pt plus 5cm}initialize (
+\begin{DoxyParamCaption}
+\item[{}]{\$config = {\ttfamily array()}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___calendar_a481385e36d920f5a5005ace05c6cd016}
+Initialize the user preferences
+
+Accepts an associative array as input, containing display preferences
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em array} & config preferences \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 76 of file Calendar.\-php.
+
+\index{C\-I\-\_\-\-Calendar@{C\-I\-\_\-\-Calendar}!parse\-\_\-template@{parse\-\_\-template}}
+\index{parse\-\_\-template@{parse\-\_\-template}!CI_Calendar@{C\-I\-\_\-\-Calendar}}
+\subsubsection[{parse\-\_\-template}]{\setlength{\rightskip}{0pt plus 5cm}parse\-\_\-template (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_c_i___calendar_ac0331959620d18320ab6587621730d44}
+Parse Template
+
+Harvests the data within the template \{pseudo-\/variables\} used to display the calendar
+
+public \begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 443 of file Calendar.\-php.
+
+
+
+\subsection{Field Documentation}
+\index{C\-I\-\_\-\-Calendar@{C\-I\-\_\-\-Calendar}!\$\-C\-I@{\$\-C\-I}}
+\index{\$\-C\-I@{\$\-C\-I}!CI_Calendar@{C\-I\-\_\-\-Calendar}}
+\subsubsection[{\$\-C\-I}]{\setlength{\rightskip}{0pt plus 5cm}\$C\-I}\label{class_c_i___calendar_ae0314d046ddf7fcfaec03222977427d3}
+
+
+Definition at line 31 of file Calendar.\-php.
+
+\index{C\-I\-\_\-\-Calendar@{C\-I\-\_\-\-Calendar}!\$day\-\_\-type@{\$day\-\_\-type}}
+\index{\$day\-\_\-type@{\$day\-\_\-type}!CI_Calendar@{C\-I\-\_\-\-Calendar}}
+\subsubsection[{\$day\-\_\-type}]{\setlength{\rightskip}{0pt plus 5cm}\$day\-\_\-type = 'abr'}\label{class_c_i___calendar_a1e35fdb6b6cc297a6bb256517a8d813d}
+
+
+Definition at line 37 of file Calendar.\-php.
+
+\index{C\-I\-\_\-\-Calendar@{C\-I\-\_\-\-Calendar}!\$lang@{\$lang}}
+\index{\$lang@{\$lang}!CI_Calendar@{C\-I\-\_\-\-Calendar}}
+\subsubsection[{\$lang}]{\setlength{\rightskip}{0pt plus 5cm}\$lang}\label{class_c_i___calendar_a7714b111b644017933931ec69a154102}
+
+
+Definition at line 32 of file Calendar.\-php.
+
+\index{C\-I\-\_\-\-Calendar@{C\-I\-\_\-\-Calendar}!\$local\-\_\-time@{\$local\-\_\-time}}
+\index{\$local\-\_\-time@{\$local\-\_\-time}!CI_Calendar@{C\-I\-\_\-\-Calendar}}
+\subsubsection[{\$local\-\_\-time}]{\setlength{\rightskip}{0pt plus 5cm}\$local\-\_\-time}\label{class_c_i___calendar_a0233c9bb13f81d81d6e34641b25898da}
+
+
+Definition at line 33 of file Calendar.\-php.
+
+\index{C\-I\-\_\-\-Calendar@{C\-I\-\_\-\-Calendar}!\$month\-\_\-type@{\$month\-\_\-type}}
+\index{\$month\-\_\-type@{\$month\-\_\-type}!CI_Calendar@{C\-I\-\_\-\-Calendar}}
+\subsubsection[{\$month\-\_\-type}]{\setlength{\rightskip}{0pt plus 5cm}\$month\-\_\-type = 'long'}\label{class_c_i___calendar_ab40961ce0a0e4a7ee10ad389c9566b28}
+
+
+Definition at line 36 of file Calendar.\-php.
+
+\index{C\-I\-\_\-\-Calendar@{C\-I\-\_\-\-Calendar}!\$next\-\_\-prev\-\_\-url@{\$next\-\_\-prev\-\_\-url}}
+\index{\$next\-\_\-prev\-\_\-url@{\$next\-\_\-prev\-\_\-url}!CI_Calendar@{C\-I\-\_\-\-Calendar}}
+\subsubsection[{\$next\-\_\-prev\-\_\-url}]{\setlength{\rightskip}{0pt plus 5cm}\$next\-\_\-prev\-\_\-url = ''}\label{class_c_i___calendar_a3ed0df912e3e67eb17d432c1f54ae2de}
+
+
+Definition at line 39 of file Calendar.\-php.
+
+\index{C\-I\-\_\-\-Calendar@{C\-I\-\_\-\-Calendar}!\$show\-\_\-next\-\_\-prev@{\$show\-\_\-next\-\_\-prev}}
+\index{\$show\-\_\-next\-\_\-prev@{\$show\-\_\-next\-\_\-prev}!CI_Calendar@{C\-I\-\_\-\-Calendar}}
+\subsubsection[{\$show\-\_\-next\-\_\-prev}]{\setlength{\rightskip}{0pt plus 5cm}\$show\-\_\-next\-\_\-prev = F\-A\-L\-S\-E}\label{class_c_i___calendar_aeade2ffe515604c0dffb78d32ca846ae}
+
+
+Definition at line 38 of file Calendar.\-php.
+
+\index{C\-I\-\_\-\-Calendar@{C\-I\-\_\-\-Calendar}!\$start\-\_\-day@{\$start\-\_\-day}}
+\index{\$start\-\_\-day@{\$start\-\_\-day}!CI_Calendar@{C\-I\-\_\-\-Calendar}}
+\subsubsection[{\$start\-\_\-day}]{\setlength{\rightskip}{0pt plus 5cm}\$start\-\_\-day = 'sunday'}\label{class_c_i___calendar_ac4e461505bb7cd9a2fdb2bf47560a389}
+
+
+Definition at line 35 of file Calendar.\-php.
+
+\index{C\-I\-\_\-\-Calendar@{C\-I\-\_\-\-Calendar}!\$template@{\$template}}
+\index{\$template@{\$template}!CI_Calendar@{C\-I\-\_\-\-Calendar}}
+\subsubsection[{\$template}]{\setlength{\rightskip}{0pt plus 5cm}\$template = ''}\label{class_c_i___calendar_aa3e9534005fd516d941f6a5569896e01}
+
+
+Definition at line 34 of file Calendar.\-php.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+system/libraries/{\bf Calendar.\-php}\end{DoxyCompactItemize}

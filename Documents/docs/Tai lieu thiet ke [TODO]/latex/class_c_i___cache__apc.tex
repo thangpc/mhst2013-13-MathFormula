@@ -1,0 +1,182 @@
+\section{C\-I\-\_\-\-Cache\-\_\-apc Class Reference}
+\label{class_c_i___cache__apc}\index{C\-I\-\_\-\-Cache\-\_\-apc@{C\-I\-\_\-\-Cache\-\_\-apc}}
+Inheritance diagram for C\-I\-\_\-\-Cache\-\_\-apc\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_c_i___cache__apc}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf get} (\$id)
+\item 
+{\bf save} (\$id, \$data, \$ttl=60)
+\item 
+{\bf delete} (\$id)
+\item 
+{\bf clean} ()
+\item 
+{\bf cache\-\_\-info} (\${\bf type}=N\-U\-L\-L)
+\item 
+{\bf get\-\_\-metadata} (\$id)
+\item 
+{\bf is\-\_\-supported} ()
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 28 of file Cache\-\_\-apc.\-php.
+
+
+
+\subsection{Member Function Documentation}
+\index{C\-I\-\_\-\-Cache\-\_\-apc@{C\-I\-\_\-\-Cache\-\_\-apc}!cache\-\_\-info@{cache\-\_\-info}}
+\index{cache\-\_\-info@{cache\-\_\-info}!CI_Cache_apc@{C\-I\-\_\-\-Cache\-\_\-apc}}
+\subsubsection[{cache\-\_\-info}]{\setlength{\rightskip}{0pt plus 5cm}cache\-\_\-info (
+\begin{DoxyParamCaption}
+\item[{}]{\$type = {\ttfamily NULL}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___cache__apc_aa8b9c4d9f0387156736ccd8850f0727e}
+Cache Info
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & user/filehits \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed array on success, false on failure 
+\end{DoxyReturn}
+
+
+Definition at line 95 of file Cache\-\_\-apc.\-php.
+
+\index{C\-I\-\_\-\-Cache\-\_\-apc@{C\-I\-\_\-\-Cache\-\_\-apc}!clean@{clean}}
+\index{clean@{clean}!CI_Cache_apc@{C\-I\-\_\-\-Cache\-\_\-apc}}
+\subsubsection[{clean}]{\setlength{\rightskip}{0pt plus 5cm}clean (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_c_i___cache__apc_adb40b812890a8bc058bf6b7a0e1a54d9}
+Clean the cache
+
+\begin{DoxyReturn}{Returns}
+boolean false on failure/true on success 
+\end{DoxyReturn}
+
+
+Definition at line 82 of file Cache\-\_\-apc.\-php.
+
+\index{C\-I\-\_\-\-Cache\-\_\-apc@{C\-I\-\_\-\-Cache\-\_\-apc}!delete@{delete}}
+\index{delete@{delete}!CI_Cache_apc@{C\-I\-\_\-\-Cache\-\_\-apc}}
+\subsubsection[{delete}]{\setlength{\rightskip}{0pt plus 5cm}delete (
+\begin{DoxyParamCaption}
+\item[{}]{\$id}
+\end{DoxyParamCaption}
+)}\label{class_c_i___cache__apc_a2f8258add505482d7f00ea26493a5723}
+Delete from Cache
+
+
+\begin{DoxyParams}{Parameters}
+{\em mixed} & unique identifier of the item in the cache \\
+\hline
+{\em boolean} & true on success/false on failure \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 70 of file Cache\-\_\-apc.\-php.
+
+\index{C\-I\-\_\-\-Cache\-\_\-apc@{C\-I\-\_\-\-Cache\-\_\-apc}!get@{get}}
+\index{get@{get}!CI_Cache_apc@{C\-I\-\_\-\-Cache\-\_\-apc}}
+\subsubsection[{get}]{\setlength{\rightskip}{0pt plus 5cm}get (
+\begin{DoxyParamCaption}
+\item[{}]{\$id}
+\end{DoxyParamCaption}
+)}\label{class_c_i___cache__apc_a50e3bfb586b2f42932a6a93f3fbb0828}
+Get
+
+Look for a value in the cache. If it exists, return the data if not, return F\-A\-L\-S\-E
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed value that is stored/\-F\-A\-L\-S\-E on failure 
+\end{DoxyReturn}
+
+
+Definition at line 39 of file Cache\-\_\-apc.\-php.
+
+\index{C\-I\-\_\-\-Cache\-\_\-apc@{C\-I\-\_\-\-Cache\-\_\-apc}!get\-\_\-metadata@{get\-\_\-metadata}}
+\index{get\-\_\-metadata@{get\-\_\-metadata}!CI_Cache_apc@{C\-I\-\_\-\-Cache\-\_\-apc}}
+\subsubsection[{get\-\_\-metadata}]{\setlength{\rightskip}{0pt plus 5cm}get\-\_\-metadata (
+\begin{DoxyParamCaption}
+\item[{}]{\$id}
+\end{DoxyParamCaption}
+)}\label{class_c_i___cache__apc_a59635cf18e997c5141bffa05ff7622e0}
+Get Cache Metadata
+
+
+\begin{DoxyParams}{Parameters}
+{\em mixed} & key to get cache metadata on \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed array on success/false on failure 
+\end{DoxyReturn}
+
+
+Definition at line 108 of file Cache\-\_\-apc.\-php.
+
+\index{C\-I\-\_\-\-Cache\-\_\-apc@{C\-I\-\_\-\-Cache\-\_\-apc}!is\-\_\-supported@{is\-\_\-supported}}
+\index{is\-\_\-supported@{is\-\_\-supported}!CI_Cache_apc@{C\-I\-\_\-\-Cache\-\_\-apc}}
+\subsubsection[{is\-\_\-supported}]{\setlength{\rightskip}{0pt plus 5cm}is\-\_\-supported (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_c_i___cache__apc_a98c68fd153468bc148c4ed8c716859fc}
+\doxyref{is\-\_\-supported()}{p.}{class_c_i___cache__apc_a98c68fd153468bc148c4ed8c716859fc}
+
+Check to see if A\-P\-C is available on this system, bail if it isn't. 
+
+Definition at line 133 of file Cache\-\_\-apc.\-php.
+
+\index{C\-I\-\_\-\-Cache\-\_\-apc@{C\-I\-\_\-\-Cache\-\_\-apc}!save@{save}}
+\index{save@{save}!CI_Cache_apc@{C\-I\-\_\-\-Cache\-\_\-apc}}
+\subsubsection[{save}]{\setlength{\rightskip}{0pt plus 5cm}save (
+\begin{DoxyParamCaption}
+\item[{}]{\$id, }
+\item[{}]{\$data, }
+\item[{}]{\$ttl = {\ttfamily 60}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___cache__apc_a747c50183a4ed7009899628fa75c562b}
+Cache Save
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & Unique Key \\
+\hline
+{\em mixed} & Data to store \\
+\hline
+{\em int} & Length of time (in seconds) to cache the data\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean true on success/false on failure 
+\end{DoxyReturn}
+
+
+Definition at line 57 of file Cache\-\_\-apc.\-php.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+system/libraries/\-Cache/drivers/{\bf Cache\-\_\-apc.\-php}\end{DoxyCompactItemize}

@@ -1,0 +1,366 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="form__validation__lang_8php" kind="file">
+    <compoundname>form_validation_lang.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="form__validation__lang_8php_1ac05864968b28fa7a4476f49e6b8d4433" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;required&apos;]</definition>
+        <argsstring>[&apos;required&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;The %<ref refid="jquery_8min_8js_1a3691308f2a4c2f6983f2880d32e29c84" kindref="member">s</ref> field is required.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/form_validation_lang.php" line="3" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/form_validation_lang.php" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="form__validation__lang_8php_1a7fcb906106dda1aee23bf5bc22024354" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;isset&apos;]</definition>
+        <argsstring>[&apos;isset&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;The %<ref refid="jquery_8min_8js_1a3691308f2a4c2f6983f2880d32e29c84" kindref="member">s</ref> field must have <ref refid="jquery_8min_8js_1aa4d4888597588a84fd5b1184d00c91f3" kindref="member">a</ref> value.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/form_validation_lang.php" line="4" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/form_validation_lang.php" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="form__validation__lang_8php_1ac65b0427695080708e293f1bd469a94d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;valid_email&apos;]</definition>
+        <argsstring>[&apos;valid_email&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;The %<ref refid="jquery_8min_8js_1a3691308f2a4c2f6983f2880d32e29c84" kindref="member">s</ref> field must contain <ref refid="jquery_8min_8js_1aa4d4888597588a84fd5b1184d00c91f3" kindref="member">a</ref> valid email address.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/form_validation_lang.php" line="5" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/form_validation_lang.php" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="form__validation__lang_8php_1abf35f5d2105406bc8c673a40b31388ba" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;valid_emails&apos;]</definition>
+        <argsstring>[&apos;valid_emails&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;The %<ref refid="jquery_8min_8js_1a3691308f2a4c2f6983f2880d32e29c84" kindref="member">s</ref> field must contain all valid email addresses.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/form_validation_lang.php" line="6" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/form_validation_lang.php" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="form__validation__lang_8php_1ad972568b7943f130b6b241a6b31d455b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;valid_url&apos;]</definition>
+        <argsstring>[&apos;valid_url&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;The %<ref refid="jquery_8min_8js_1a3691308f2a4c2f6983f2880d32e29c84" kindref="member">s</ref> field must contain <ref refid="jquery_8min_8js_1aa4d4888597588a84fd5b1184d00c91f3" kindref="member">a</ref> valid URL.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/form_validation_lang.php" line="7" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/form_validation_lang.php" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="form__validation__lang_8php_1ad153ba0f29eaf9bbdb529c2f03f29751" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;valid_ip&apos;]</definition>
+        <argsstring>[&apos;valid_ip&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;The %<ref refid="jquery_8min_8js_1a3691308f2a4c2f6983f2880d32e29c84" kindref="member">s</ref> field must contain <ref refid="jquery_8min_8js_1aa4d4888597588a84fd5b1184d00c91f3" kindref="member">a</ref> valid IP.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/form_validation_lang.php" line="8" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/form_validation_lang.php" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="form__validation__lang_8php_1a64646d89fb51eebd0b5bea81fd17eb1f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;min_length&apos;]</definition>
+        <argsstring>[&apos;min_length&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;The %<ref refid="jquery_8min_8js_1a3691308f2a4c2f6983f2880d32e29c84" kindref="member">s</ref> field must be at least %<ref refid="jquery_8min_8js_1a3691308f2a4c2f6983f2880d32e29c84" kindref="member">s</ref> characters in length.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/form_validation_lang.php" line="9" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/form_validation_lang.php" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="form__validation__lang_8php_1a813327453a2d63855f7d6f84c9b58d49" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;max_length&apos;]</definition>
+        <argsstring>[&apos;max_length&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;The %<ref refid="jquery_8min_8js_1a3691308f2a4c2f6983f2880d32e29c84" kindref="member">s</ref> field can <ref refid="mathquill_8js_1ac1e1ab538c27d68cc2cbafea74e7412c" kindref="member">not</ref> exceed %<ref refid="jquery_8min_8js_1a3691308f2a4c2f6983f2880d32e29c84" kindref="member">s</ref> characters in length.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/form_validation_lang.php" line="10" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/form_validation_lang.php" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="form__validation__lang_8php_1af951a7ce2f4a4afd7da33e7fac480175" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;exact_length&apos;]</definition>
+        <argsstring>[&apos;exact_length&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;The %<ref refid="jquery_8min_8js_1a3691308f2a4c2f6983f2880d32e29c84" kindref="member">s</ref> field must be exactly %<ref refid="jquery_8min_8js_1a3691308f2a4c2f6983f2880d32e29c84" kindref="member">s</ref> characters in length.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/form_validation_lang.php" line="11" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/form_validation_lang.php" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="form__validation__lang_8php_1aa49612ba8d03053d7d0b71cceb076758" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;alpha&apos;]</definition>
+        <argsstring>[&apos;alpha&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;The %<ref refid="jquery_8min_8js_1a3691308f2a4c2f6983f2880d32e29c84" kindref="member">s</ref> field may only contain alphabetical characters.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/form_validation_lang.php" line="12" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/form_validation_lang.php" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="form__validation__lang_8php_1a65ae3b2624bdea4b04ab5cf4a508f64e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;alpha_numeric&apos;]</definition>
+        <argsstring>[&apos;alpha_numeric&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;The %<ref refid="jquery_8min_8js_1a3691308f2a4c2f6983f2880d32e29c84" kindref="member">s</ref> field may only contain <ref refid="mathquill_8js_1a24c6874a257d093fa6e97028a8936d62" kindref="member">alpha</ref>-numeric characters.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/form_validation_lang.php" line="13" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/form_validation_lang.php" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="form__validation__lang_8php_1aee9bc9f895ccbca30d1f6433b48a509d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;alpha_dash&apos;]</definition>
+        <argsstring>[&apos;alpha_dash&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;The %<ref refid="jquery_8min_8js_1a3691308f2a4c2f6983f2880d32e29c84" kindref="member">s</ref> field may only contain <ref refid="mathquill_8js_1a24c6874a257d093fa6e97028a8936d62" kindref="member">alpha</ref>-numeric characters, underscores, <ref refid="mathquill_8js_1ac39c488ee3bd6d675c340966d33495a7" kindref="member">and</ref> dashes.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/form_validation_lang.php" line="14" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/form_validation_lang.php" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="form__validation__lang_8php_1a21d76ebd4b70690a642c86afb93e3cc2" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;numeric&apos;]</definition>
+        <argsstring>[&apos;numeric&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;The %<ref refid="jquery_8min_8js_1a3691308f2a4c2f6983f2880d32e29c84" kindref="member">s</ref> field must contain only numbers.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/form_validation_lang.php" line="15" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/form_validation_lang.php" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="form__validation__lang_8php_1a39b379d8a1148337906321c8d2ce03ec" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;is_numeric&apos;]</definition>
+        <argsstring>[&apos;is_numeric&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;The %<ref refid="jquery_8min_8js_1a3691308f2a4c2f6983f2880d32e29c84" kindref="member">s</ref> field must contain only numeric characters.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/form_validation_lang.php" line="16" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/form_validation_lang.php" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="form__validation__lang_8php_1a23b8cd7ec18c6e0c1f85613a06100f7e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;integer&apos;]</definition>
+        <argsstring>[&apos;integer&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;The %<ref refid="jquery_8min_8js_1a3691308f2a4c2f6983f2880d32e29c84" kindref="member">s</ref> field must contain an integer.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/form_validation_lang.php" line="17" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/form_validation_lang.php" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="form__validation__lang_8php_1aa10761f3ecf310c4b347672c3d7cc483" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;regex_match&apos;]</definition>
+        <argsstring>[&apos;regex_match&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;The %<ref refid="jquery_8min_8js_1a3691308f2a4c2f6983f2880d32e29c84" kindref="member">s</ref> field is <ref refid="mathquill_8js_1ac1e1ab538c27d68cc2cbafea74e7412c" kindref="member">not</ref> in the correct format.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/form_validation_lang.php" line="18" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/form_validation_lang.php" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="form__validation__lang_8php_1a5a5299bf244783be43038a191bfdee03" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;matches&apos;]</definition>
+        <argsstring>[&apos;matches&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;The %<ref refid="jquery_8min_8js_1a3691308f2a4c2f6983f2880d32e29c84" kindref="member">s</ref> field does <ref refid="mathquill_8js_1ac1e1ab538c27d68cc2cbafea74e7412c" kindref="member">not</ref> match the %<ref refid="jquery_8min_8js_1a3691308f2a4c2f6983f2880d32e29c84" kindref="member">s</ref> field.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/form_validation_lang.php" line="19" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/form_validation_lang.php" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="form__validation__lang_8php_1aadc3e586aaac175b851ee4bcd0c26ef2" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;is_unique&apos;]</definition>
+        <argsstring>[&apos;is_unique&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;The %<ref refid="jquery_8min_8js_1a3691308f2a4c2f6983f2880d32e29c84" kindref="member">s</ref> field must contain <ref refid="jquery_8min_8js_1aa4d4888597588a84fd5b1184d00c91f3" kindref="member">a</ref> unique value.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/form_validation_lang.php" line="20" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/form_validation_lang.php" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="form__validation__lang_8php_1a0d61ebbd2ae667c2cccf29c316b6a382" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;is_natural&apos;]</definition>
+        <argsstring>[&apos;is_natural&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;The %<ref refid="jquery_8min_8js_1a3691308f2a4c2f6983f2880d32e29c84" kindref="member">s</ref> field must contain only positive numbers.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/form_validation_lang.php" line="21" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/form_validation_lang.php" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="form__validation__lang_8php_1a0956fbaf56ed9b9598a43ea9e9014727" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;is_natural_no_zero&apos;]</definition>
+        <argsstring>[&apos;is_natural_no_zero&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;The %<ref refid="jquery_8min_8js_1a3691308f2a4c2f6983f2880d32e29c84" kindref="member">s</ref> field must contain <ref refid="jquery_8min_8js_1aa4d4888597588a84fd5b1184d00c91f3" kindref="member">a</ref> number greater than zero.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/form_validation_lang.php" line="22" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/form_validation_lang.php" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="form__validation__lang_8php_1a1926dbdd7b5919a5e1a966d6ec18c9e4" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;decimal&apos;]</definition>
+        <argsstring>[&apos;decimal&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;The %<ref refid="jquery_8min_8js_1a3691308f2a4c2f6983f2880d32e29c84" kindref="member">s</ref> field must contain <ref refid="jquery_8min_8js_1aa4d4888597588a84fd5b1184d00c91f3" kindref="member">a</ref> decimal number.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/form_validation_lang.php" line="23" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/form_validation_lang.php" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="form__validation__lang_8php_1a6037a90e37e5d1bd139c641ae955f2b9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;less_than&apos;]</definition>
+        <argsstring>[&apos;less_than&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;The %<ref refid="jquery_8min_8js_1a3691308f2a4c2f6983f2880d32e29c84" kindref="member">s</ref> field must contain <ref refid="jquery_8min_8js_1aa4d4888597588a84fd5b1184d00c91f3" kindref="member">a</ref> number less than %s.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/form_validation_lang.php" line="24" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/form_validation_lang.php" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="form__validation__lang_8php_1a6e4bd5ad6a3238d9be1ca6f810eac978" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;greater_than&apos;]</definition>
+        <argsstring>[&apos;greater_than&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;The %<ref refid="jquery_8min_8js_1a3691308f2a4c2f6983f2880d32e29c84" kindref="member">s</ref> field must contain <ref refid="jquery_8min_8js_1aa4d4888597588a84fd5b1184d00c91f3" kindref="member">a</ref> number greater than %s.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/form_validation_lang.php" line="25" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/form_validation_lang.php" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="form__validation__lang_8php_1ac05864968b28fa7a4476f49e6b8d4433" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;required&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;The<sp/>%s<sp/>field<sp/>is<sp/>required.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="4" refid="form__validation__lang_8php_1a7fcb906106dda1aee23bf5bc22024354" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;isset&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;The<sp/>%s<sp/>field<sp/>must<sp/>have<sp/>a<sp/>value.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="5" refid="form__validation__lang_8php_1ac65b0427695080708e293f1bd469a94d" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;valid_email&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;The<sp/>%s<sp/>field<sp/>must<sp/>contain<sp/>a<sp/>valid<sp/>email<sp/>address.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="6" refid="form__validation__lang_8php_1abf35f5d2105406bc8c673a40b31388ba" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;valid_emails&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;The<sp/>%s<sp/>field<sp/>must<sp/>contain<sp/>all<sp/>valid<sp/>email<sp/>addresses.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="7" refid="form__validation__lang_8php_1ad972568b7943f130b6b241a6b31d455b" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;valid_url&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;The<sp/>%s<sp/>field<sp/>must<sp/>contain<sp/>a<sp/>valid<sp/>URL.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="8" refid="form__validation__lang_8php_1ad153ba0f29eaf9bbdb529c2f03f29751" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;valid_ip&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;The<sp/>%s<sp/>field<sp/>must<sp/>contain<sp/>a<sp/>valid<sp/>IP.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="9" refid="form__validation__lang_8php_1a64646d89fb51eebd0b5bea81fd17eb1f" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;min_length&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;The<sp/>%s<sp/>field<sp/>must<sp/>be<sp/>at<sp/>least<sp/>%s<sp/>characters<sp/>in<sp/>length.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="10" refid="form__validation__lang_8php_1a813327453a2d63855f7d6f84c9b58d49" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;max_length&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;The<sp/>%s<sp/>field<sp/>can<sp/>not<sp/>exceed<sp/>%s<sp/>characters<sp/>in<sp/>length.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="11" refid="form__validation__lang_8php_1af951a7ce2f4a4afd7da33e7fac480175" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;exact_length&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;The<sp/>%s<sp/>field<sp/>must<sp/>be<sp/>exactly<sp/>%s<sp/>characters<sp/>in<sp/>length.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="12" refid="form__validation__lang_8php_1aa49612ba8d03053d7d0b71cceb076758" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;alpha&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;The<sp/>%s<sp/>field<sp/>may<sp/>only<sp/>contain<sp/>alphabetical<sp/>characters.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="13" refid="form__validation__lang_8php_1a65ae3b2624bdea4b04ab5cf4a508f64e" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;alpha_numeric&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;The<sp/>%s<sp/>field<sp/>may<sp/>only<sp/>contain<sp/>alpha-numeric<sp/>characters.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="14" refid="form__validation__lang_8php_1aee9bc9f895ccbca30d1f6433b48a509d" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;alpha_dash&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;The<sp/>%s<sp/>field<sp/>may<sp/>only<sp/>contain<sp/>alpha-numeric<sp/>characters,<sp/>underscores,<sp/>and<sp/>dashes.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="15" refid="form__validation__lang_8php_1a21d76ebd4b70690a642c86afb93e3cc2" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;numeric&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;The<sp/>%s<sp/>field<sp/>must<sp/>contain<sp/>only<sp/>numbers.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="16" refid="form__validation__lang_8php_1a39b379d8a1148337906321c8d2ce03ec" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;is_numeric&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;The<sp/>%s<sp/>field<sp/>must<sp/>contain<sp/>only<sp/>numeric<sp/>characters.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="17" refid="form__validation__lang_8php_1a23b8cd7ec18c6e0c1f85613a06100f7e" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;integer&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;The<sp/>%s<sp/>field<sp/>must<sp/>contain<sp/>an<sp/>integer.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="18" refid="form__validation__lang_8php_1aa10761f3ecf310c4b347672c3d7cc483" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;regex_match&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;The<sp/>%s<sp/>field<sp/>is<sp/>not<sp/>in<sp/>the<sp/>correct<sp/>format.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="19" refid="form__validation__lang_8php_1a5a5299bf244783be43038a191bfdee03" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;matches&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;The<sp/>%s<sp/>field<sp/>does<sp/>not<sp/>match<sp/>the<sp/>%s<sp/>field.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="20" refid="form__validation__lang_8php_1aadc3e586aaac175b851ee4bcd0c26ef2" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;is_unique&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;The<sp/>%s<sp/>field<sp/>must<sp/>contain<sp/>a<sp/>unique<sp/>value.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="21" refid="form__validation__lang_8php_1a0d61ebbd2ae667c2cccf29c316b6a382" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;is_natural&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;The<sp/>%s<sp/>field<sp/>must<sp/>contain<sp/>only<sp/>positive<sp/>numbers.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="22" refid="form__validation__lang_8php_1a0956fbaf56ed9b9598a43ea9e9014727" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;is_natural_no_zero&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;The<sp/>%s<sp/>field<sp/>must<sp/>contain<sp/>a<sp/>number<sp/>greater<sp/>than<sp/>zero.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="23" refid="form__validation__lang_8php_1a1926dbdd7b5919a5e1a966d6ec18c9e4" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;decimal&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;The<sp/>%s<sp/>field<sp/>must<sp/>contain<sp/>a<sp/>decimal<sp/>number.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="24" refid="form__validation__lang_8php_1a6037a90e37e5d1bd139c641ae955f2b9" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;less_than&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;The<sp/>%s<sp/>field<sp/>must<sp/>contain<sp/>a<sp/>number<sp/>less<sp/>than<sp/>%s.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="25" refid="form__validation__lang_8php_1a6e4bd5ad6a3238d9be1ca6f810eac978" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;greater_than&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;The<sp/>%s<sp/>field<sp/>must<sp/>contain<sp/>a<sp/>number<sp/>greater<sp/>than<sp/>%s.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>End<sp/>of<sp/>file<sp/>form_validation_lang.php<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Location:<sp/>./system/language/english/form_validation_lang.php<sp/>*/</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/form_validation_lang.php"/>
+  </compounddef>
+</doxygen>

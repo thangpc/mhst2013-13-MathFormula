@@ -1,0 +1,1001 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="application_2config_2config_8php" kind="file">
+    <compoundname>config.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="application_2config_2config_8php_1a8063081991a9d7087e6aea78db95a524" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$config[&apos;base_url&apos;]</definition>
+        <argsstring>[&apos;base_url&apos;]</argsstring>
+        <name>$config</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" line="26" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_c_i___migration_1af7f9493844d2d66e924e3c1df51ce616" compoundref="system_2libraries_2migration_8php" startline="38" endline="82">CI_Migration\__construct</referencedby>
+        <referencedby refid="class_c_i___profiler_1af7f9493844d2d66e924e3c1df51ce616" compoundref="system_2libraries_2profiler_8php" startline="54" endline="75">CI_Profiler\__construct</referencedby>
+        <referencedby refid="class_c_i___profiler_1a81c587d7a2a249d05f28c96a135591f7" compoundref="system_2libraries_2profiler_8php" startline="87" endline="96">CI_Profiler\set_sections</referencedby>
+        <referencedby refid="class_community_1a65c682611e5c929cdacbce2ff322c9ce" compoundref="community_8php" startline="13" endline="57">Community\index</referencedby>
+        <referencedby refid="class_c_i___lang_1ac7a274e555ce877a6023efaafb2bc0d6" compoundref="_lang_8php" startline="65" endline="132">CI_Lang\load</referencedby>
+        <referencedby refid="class_c_i___loader_1a8b23f3be0a84aa31df8b715ca841f5cf" compoundref="_loader_8php" startline="645" endline="658">CI_Loader\add_package_path</referencedby>
+        <referencedby refid="class_c_i___loader_1a201b769bd98ad90d37521dff960a6839" compoundref="_loader_8php" startline="687" endline="727">CI_Loader\remove_package_path</referencedby>
+        <referencedby refid="class_c_i___loader_1aa7807101f5503fe3e53b3e917dd72a63" compoundref="_loader_8php" startline="1007" endline="1101">CI_Loader\_ci_init_class</referencedby>
+        <referencedby refid="class_c_i___cache_1af7f9493844d2d66e924e3c1df51ce616" compoundref="_cache_8php" startline="44" endline="50">CI_Cache\__construct</referencedby>
+        <referencedby refid="class_c_i___calendar_1af7f9493844d2d66e924e3c1df51ce616" compoundref="_calendar_8php" startline="46" endline="63">CI_Calendar\__construct</referencedby>
+        <referencedby refid="class_c_i___calendar_1a481385e36d920f5a5005ace05c6cd016" compoundref="_calendar_8php" startline="76" endline="85">CI_Calendar\initialize</referencedby>
+        <referencedby refid="class_c_i___cart_1a568ecdb0d73d2a870f33189739922a50" compoundref="_cart_8php" startline="43" endline="74">CI_Cart\__construct</referencedby>
+        <referencedby refid="class_c_i___email_1af7f9493844d2d66e924e3c1df51ce616" compoundref="_email_8php" startline="86" endline="99">CI_Email\__construct</referencedby>
+        <referencedby refid="class_c_i___email_1a481385e36d920f5a5005ace05c6cd016" compoundref="_email_8php" startline="110" endline="134">CI_Email\initialize</referencedby>
+        <referencedby refid="class_c_i___f_t_p_1af7f9493844d2d66e924e3c1df51ce616" compoundref="_ftp_8php" startline="43" endline="51">CI_FTP\__construct</referencedby>
+        <referencedby refid="class_c_i___f_t_p_1a481385e36d920f5a5005ace05c6cd016" compoundref="_ftp_8php" startline="62" endline="74">CI_FTP\initialize</referencedby>
+        <referencedby refid="class_c_i___f_t_p_1ab2827759611aaaf0c59e69661122c534" compoundref="_ftp_8php" startline="85" endline="117">CI_FTP\connect</referencedby>
+        <referencedby refid="class_c_i___log_1a095c5d389db211932136b53f25f39685" compoundref="_log_8php" startline="38" endline="58">CI_Log\__construct</referencedby>
+        <referencedby refid="class_c_i___upload_1a481385e36d920f5a5005ace05c6cd016" compoundref="_upload_8php" startline="80" endline="134">CI_Upload\initialize</referencedby>
+        <referencedby refid="class_c_i___xmlrpc_1af7f9493844d2d66e924e3c1df51ce616" compoundref="_xmlrpc_8php" startline="72" endline="128">CI_Xmlrpc\__construct</referencedby>
+        <referencedby refid="class_c_i___xmlrpc_1a481385e36d920f5a5005ace05c6cd016" compoundref="_xmlrpc_8php" startline="135" endline="147">CI_Xmlrpc\initialize</referencedby>
+        <referencedby refid="class_c_i___xmlrpcs_1af7f9493844d2d66e924e3c1df51ce616" compoundref="_xmlrpcs_8php" startline="49" endline="60">CI_Xmlrpcs\__construct</referencedby>
+        <referencedby refid="class_c_i___xmlrpcs_1a481385e36d920f5a5005ace05c6cd016" compoundref="_xmlrpcs_8php" startline="71" endline="92">CI_Xmlrpcs\initialize</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="application_2config_2config_8php_1a64d47dc21f6eab24bf747cae9da5e7bb" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$config[&apos;index_page&apos;]</definition>
+        <argsstring>[&apos;index_page&apos;]</argsstring>
+        <name>$config</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" line="38" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="application_2config_2config_8php_1a37a0ed82a5db3c3aebdc12611e1e4498" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$config[&apos;uri_protocol&apos;]</definition>
+        <argsstring>[&apos;uri_protocol&apos;]</argsstring>
+        <name>$config</name>
+        <initializer>= &apos;AUTO&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" line="56" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="application_2config_2config_8php_1a40da61bb27389d4c21a1271840ec7c40" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$config[&apos;url_suffix&apos;]</definition>
+        <argsstring>[&apos;url_suffix&apos;]</argsstring>
+        <name>$config</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" line="69" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="application_2config_2config_8php_1ae05e29ba794fe4453013dd7b1cc30219" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$config[&apos;language&apos;]</definition>
+        <argsstring>[&apos;language&apos;]</argsstring>
+        <name>$config</name>
+        <initializer>= &apos;english&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" line="81" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="application_2config_2config_8php_1ac9128ac0276b1b7acf4c96a22b2469f1" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$config[&apos;charset&apos;]</definition>
+        <argsstring>[&apos;charset&apos;]</argsstring>
+        <name>$config</name>
+        <initializer>= &apos;UTF-8&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" line="92" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="application_2config_2config_8php_1a2d80c3b160b2bb6f3329a9b07e970c51" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$config[&apos;enable_hooks&apos;]</definition>
+        <argsstring>[&apos;enable_hooks&apos;]</argsstring>
+        <name>$config</name>
+        <initializer>= FALSE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" line="103" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="application_2config_2config_8php_1a51b79c9e455d64cb54212f2966b28ae6" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$config[&apos;subclass_prefix&apos;]</definition>
+        <argsstring>[&apos;subclass_prefix&apos;]</argsstring>
+        <name>$config</name>
+        <initializer>= &apos;MY_&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" line="118" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="application_2config_2config_8php_1ae2e36375b245287a8851ac04565994de" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$config[&apos;permitted_uri_chars&apos;]</definition>
+        <argsstring>[&apos;permitted_uri_chars&apos;]</argsstring>
+        <name>$config</name>
+        <initializer>= &apos;<ref refid="jquery_8min_8js_1aa4d4888597588a84fd5b1184d00c91f3" kindref="member">a</ref>-z 0-9~%.:_\-&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" line="138" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="application_2config_2config_8php_1ac714a2702b430e47833d82d6ee590298" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$config[&apos;allow_get_array&apos;]</definition>
+        <argsstring>[&apos;allow_get_array&apos;]</argsstring>
+        <name>$config</name>
+        <initializer>= TRUE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" line="166" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" bodystart="166" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="application_2config_2config_8php_1a227b7a6fec0306454ffb0dead1f1c4f7" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$config[&apos;enable_query_strings&apos;]</definition>
+        <argsstring>[&apos;enable_query_strings&apos;]</argsstring>
+        <name>$config</name>
+        <initializer>= FALSE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" line="167" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" bodystart="167" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="application_2config_2config_8php_1a7ea9e139536f27af75812de53e852829" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$config[&apos;controller_trigger&apos;]</definition>
+        <argsstring>[&apos;controller_trigger&apos;]</argsstring>
+        <name>$config</name>
+        <initializer>= &apos;c&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" line="168" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" bodystart="168" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="application_2config_2config_8php_1acac6a7410b2ae72152894e3b93501811" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$config[&apos;function_trigger&apos;]</definition>
+        <argsstring>[&apos;function_trigger&apos;]</argsstring>
+        <name>$config</name>
+        <initializer>= &apos;<ref refid="jquery_8min_8js_1a9e77e016b2928d7dcb493b89a0c9dc32" kindref="member">m</ref>&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" line="169" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="application_2config_2config_8php_1af7e6593d4088b77d153dafff4567f143" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$config[&apos;directory_trigger&apos;]</definition>
+        <argsstring>[&apos;directory_trigger&apos;]</argsstring>
+        <name>$config</name>
+        <initializer>= &apos;d&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" line="170" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" bodystart="170" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="application_2config_2config_8php_1a7e7fe9a5aa2c85e48865b154035dab6a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$config[&apos;log_threshold&apos;]</definition>
+        <argsstring>[&apos;log_threshold&apos;]</argsstring>
+        <name>$config</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" line="192" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" bodystart="192" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="application_2config_2config_8php_1aee8524f2388d21b1c73de5c48a82b687" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$config[&apos;log_path&apos;]</definition>
+        <argsstring>[&apos;log_path&apos;]</argsstring>
+        <name>$config</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" line="203" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" bodystart="203" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="application_2config_2config_8php_1a9cc05811c32c13c55ed407435a3a31b6" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$config[&apos;log_date_format&apos;]</definition>
+        <argsstring>[&apos;log_date_format&apos;]</argsstring>
+        <name>$config</name>
+        <initializer>= &apos;Y-<ref refid="jquery_8min_8js_1a9e77e016b2928d7dcb493b89a0c9dc32" kindref="member">m</ref>-d H:i:s&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" line="214" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" bodystart="214" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="application_2config_2config_8php_1ae3a5dd52b4d040adb6461b9a17d1e0f0" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$config[&apos;cache_path&apos;]</definition>
+        <argsstring>[&apos;cache_path&apos;]</argsstring>
+        <name>$config</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" line="225" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" bodystart="225" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="application_2config_2config_8php_1aefa5c9d6e7a454a6218df87e65796357" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$config[&apos;encryption_key&apos;]</definition>
+        <argsstring>[&apos;encryption_key&apos;]</argsstring>
+        <name>$config</name>
+        <initializer>= &apos;pastebyme&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" line="236" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" bodystart="236" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="application_2config_2config_8php_1acaf9fb6347a03527f4b04198d6d8155b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$config[&apos;sess_cookie_name&apos;]</definition>
+        <argsstring>[&apos;sess_cookie_name&apos;]</argsstring>
+        <name>$config</name>
+        <initializer>= &apos;ci_session&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" line="256" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" bodystart="256" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="application_2config_2config_8php_1ad6a3784cad81991936465dcdac74b66a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$config[&apos;sess_expiration&apos;]</definition>
+        <argsstring>[&apos;sess_expiration&apos;]</argsstring>
+        <name>$config</name>
+        <initializer>= 7200</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" line="257" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" bodystart="257" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="application_2config_2config_8php_1afe76a77df2001e739290d58bf6029036" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$config[&apos;sess_expire_on_close&apos;]</definition>
+        <argsstring>[&apos;sess_expire_on_close&apos;]</argsstring>
+        <name>$config</name>
+        <initializer>= FALSE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" line="258" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" bodystart="258" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="application_2config_2config_8php_1aed8943fa55fc74e62b540e8638c03038" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$config[&apos;sess_encrypt_cookie&apos;]</definition>
+        <argsstring>[&apos;sess_encrypt_cookie&apos;]</argsstring>
+        <name>$config</name>
+        <initializer>= FALSE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" line="259" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" bodystart="259" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="application_2config_2config_8php_1ae320549e749a21903b685e363820370a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$config[&apos;sess_use_database&apos;]</definition>
+        <argsstring>[&apos;sess_use_database&apos;]</argsstring>
+        <name>$config</name>
+        <initializer>= FALSE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" line="260" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" bodystart="260" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="application_2config_2config_8php_1ab65a6c6a4a0f2339707a4c20c44bf16b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$config[&apos;sess_table_name&apos;]</definition>
+        <argsstring>[&apos;sess_table_name&apos;]</argsstring>
+        <name>$config</name>
+        <initializer>= &apos;ci_sessions&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" line="261" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" bodystart="261" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="application_2config_2config_8php_1aed449d12f2854249e5f7229fafb269b2" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$config[&apos;sess_match_ip&apos;]</definition>
+        <argsstring>[&apos;sess_match_ip&apos;]</argsstring>
+        <name>$config</name>
+        <initializer>= FALSE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" line="262" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" bodystart="262" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="application_2config_2config_8php_1a90a66e41bce1a62ff818c4f0e3aa09d2" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$config[&apos;sess_match_useragent&apos;]</definition>
+        <argsstring>[&apos;sess_match_useragent&apos;]</argsstring>
+        <name>$config</name>
+        <initializer>= TRUE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" line="263" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" bodystart="263" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="application_2config_2config_8php_1afb6a66c470a9c08b90efcbc6c5594573" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$config[&apos;sess_time_to_update&apos;]</definition>
+        <argsstring>[&apos;sess_time_to_update&apos;]</argsstring>
+        <name>$config</name>
+        <initializer>= 300</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" line="264" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" bodystart="264" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="application_2config_2config_8php_1ae5f35eb62ffdcfa1878ed13fa47b2d5d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$config[&apos;cookie_prefix&apos;]</definition>
+        <argsstring>[&apos;cookie_prefix&apos;]</argsstring>
+        <name>$config</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" line="277" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" bodystart="277" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="application_2config_2config_8php_1a4f967865afe18263372e9c66223a752e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$config[&apos;cookie_domain&apos;]</definition>
+        <argsstring>[&apos;cookie_domain&apos;]</argsstring>
+        <name>$config</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" line="278" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" bodystart="278" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="application_2config_2config_8php_1aeadefdcde429770b04a079e002194d2f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$config[&apos;cookie_path&apos;]</definition>
+        <argsstring>[&apos;cookie_path&apos;]</argsstring>
+        <name>$config</name>
+        <initializer>= &quot;/&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" line="279" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" bodystart="279" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="application_2config_2config_8php_1a7d66abd075b76c2fdcd0837068a13b51" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$config[&apos;cookie_secure&apos;]</definition>
+        <argsstring>[&apos;cookie_secure&apos;]</argsstring>
+        <name>$config</name>
+        <initializer>= FALSE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" line="280" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" bodystart="280" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="application_2config_2config_8php_1afee3589eecfa5ebecf39f44c271d58ce" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$config[&apos;global_xss_filtering&apos;]</definition>
+        <argsstring>[&apos;global_xss_filtering&apos;]</argsstring>
+        <name>$config</name>
+        <initializer>= FALSE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" line="291" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" bodystart="291" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="application_2config_2config_8php_1a37f959c7a92cefa11c0df7db2b83c89f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$config[&apos;csrf_protection&apos;]</definition>
+        <argsstring>[&apos;csrf_protection&apos;]</argsstring>
+        <name>$config</name>
+        <initializer>= FALSE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" line="305" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" bodystart="305" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="application_2config_2config_8php_1af0e5ccff5383b00a56f4ad3ee0d289d2" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$config[&apos;csrf_token_name&apos;]</definition>
+        <argsstring>[&apos;csrf_token_name&apos;]</argsstring>
+        <name>$config</name>
+        <initializer>= &apos;csrf_test_name&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" line="306" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" bodystart="306" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="application_2config_2config_8php_1ad8f36090649afb3101c3c337c1d722a1" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$config[&apos;csrf_cookie_name&apos;]</definition>
+        <argsstring>[&apos;csrf_cookie_name&apos;]</argsstring>
+        <name>$config</name>
+        <initializer>= &apos;csrf_cookie_name&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" line="307" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" bodystart="307" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="application_2config_2config_8php_1af5c0ea7b77c40439da4f23b7cbb9c2e4" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$config[&apos;csrf_expire&apos;]</definition>
+        <argsstring>[&apos;csrf_expire&apos;]</argsstring>
+        <name>$config</name>
+        <initializer>= 7200</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" line="308" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" bodystart="308" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="application_2config_2config_8php_1a5f03a6c067b921917c2d978f4991bcd1" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$config[&apos;compress_output&apos;]</definition>
+        <argsstring>[&apos;compress_output&apos;]</argsstring>
+        <name>$config</name>
+        <initializer>= FALSE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" line="327" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" bodystart="327" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="application_2config_2config_8php_1acb20698e35bc3d4b9692a4b4619b1b05" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$config[&apos;time_reference&apos;]</definition>
+        <argsstring>[&apos;time_reference&apos;]</argsstring>
+        <name>$config</name>
+        <initializer>= &apos;local&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" line="340" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" bodystart="340" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="application_2config_2config_8php_1a5d2e2b3f3030d1bd97f6d986ef13ace9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$config[&apos;rewrite_short_tags&apos;]</definition>
+        <argsstring>[&apos;rewrite_short_tags&apos;]</argsstring>
+        <name>$config</name>
+        <initializer>= FALSE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" line="353" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" bodystart="353" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="application_2config_2config_8php_1a99ce814cf767ce4e281380e6f2158b1b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$config[&apos;proxy_ips&apos;]</definition>
+        <argsstring>[&apos;proxy_ips&apos;]</argsstring>
+        <name>$config</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" line="367" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" bodystart="367" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="application_2config_2config_8php_1a0be872cd5a9e883ce56599451b1e5e25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__autoload</definition>
+        <argsstring>($classname)</argsstring>
+        <name>__autoload</name>
+        <param>
+          <declname>$classname</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" line="4" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php" bodystart="4" bodyend="11"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php<sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>!<sp/>defined(</highlight><highlight class="stringliteral">&apos;BASEPATH&apos;</highlight><highlight class="normal">))<sp/>exit(</highlight><highlight class="stringliteral">&apos;No<sp/>direct<sp/>script<sp/>access<sp/>allowed&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>autoload<sp/>libraries</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="application_2config_2config_8php_1a0be872cd5a9e883ce56599451b1e5e25" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="application_2config_2config_8php_1a0be872cd5a9e883ce56599451b1e5e25" kindref="member">__autoload</ref>($classname)<sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>strpos($classname,<sp/></highlight><highlight class="stringliteral">&apos;MY_&apos;</highlight><highlight class="normal">)<sp/>!==<sp/>0<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$file<sp/>=<sp/>APPPATH<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;libraries/&apos;</highlight><highlight class="normal"><sp/>.<sp/>$classname<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;.php&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>file_exists($file)<sp/>&amp;&amp;<sp/>is_file($file)<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>@include_once($file);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment">|--------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="14"><highlight class="comment">|<sp/>Base<sp/>Site<sp/>URL</highlight></codeline>
+<codeline lineno="15"><highlight class="comment">|--------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="16"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="17"><highlight class="comment">|<sp/>URL<sp/>to<sp/>your<sp/>CodeIgniter<sp/>root.<sp/>Typically<sp/>this<sp/>will<sp/>be<sp/>your<sp/>base<sp/>URL,</highlight></codeline>
+<codeline lineno="18"><highlight class="comment">|<sp/>WITH<sp/>a<sp/>trailing<sp/>slash:</highlight></codeline>
+<codeline lineno="19"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">|<sp/><sp/><sp/>http://example.com/</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="22"><highlight class="comment">|<sp/>If<sp/>this<sp/>is<sp/>not<sp/>set<sp/>then<sp/>CodeIgniter<sp/>will<sp/>guess<sp/>the<sp/>protocol,<sp/>domain<sp/>and</highlight></codeline>
+<codeline lineno="23"><highlight class="comment">|<sp/>path<sp/>to<sp/>your<sp/>installation.</highlight></codeline>
+<codeline lineno="24"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="25"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="application_2config_2config_8php_1a8063081991a9d7087e6aea78db95a524" refkind="member"><highlight class="normal"><ref refid="application_2config_2config_8php_1a8063081991a9d7087e6aea78db95a524" kindref="member">$config</ref>[</highlight><highlight class="stringliteral">&apos;base_url&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="29"><highlight class="comment">|--------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="30"><highlight class="comment">|<sp/>Index<sp/>File</highlight></codeline>
+<codeline lineno="31"><highlight class="comment">|--------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="32"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="33"><highlight class="comment">|<sp/>Typically<sp/>this<sp/>will<sp/>be<sp/>your<sp/>index.php<sp/>file,<sp/>unless<sp/>you&apos;ve<sp/>renamed<sp/>it<sp/>to</highlight></codeline>
+<codeline lineno="34"><highlight class="comment">|<sp/>something<sp/>else.<sp/>If<sp/>you<sp/>are<sp/>using<sp/>mod_rewrite<sp/>to<sp/>remove<sp/>the<sp/>page<sp/>set<sp/>this</highlight></codeline>
+<codeline lineno="35"><highlight class="comment">|<sp/>variable<sp/>so<sp/>that<sp/>it<sp/>is<sp/>blank.</highlight></codeline>
+<codeline lineno="36"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="37"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="application_2config_2config_8php_1a64d47dc21f6eab24bf747cae9da5e7bb" refkind="member"><highlight class="normal"><ref refid="application_2config_2config_8php_1a8063081991a9d7087e6aea78db95a524" kindref="member">$config</ref>[</highlight><highlight class="stringliteral">&apos;index_page&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="41"><highlight class="comment">|--------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="42"><highlight class="comment">|<sp/>URI<sp/>PROTOCOL</highlight></codeline>
+<codeline lineno="43"><highlight class="comment">|--------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="44"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="45"><highlight class="comment">|<sp/>This<sp/>item<sp/>determines<sp/>which<sp/>server<sp/>global<sp/>should<sp/>be<sp/>used<sp/>to<sp/>retrieve<sp/>the</highlight></codeline>
+<codeline lineno="46"><highlight class="comment">|<sp/>URI<sp/>string.<sp/><sp/>The<sp/>default<sp/>setting<sp/>of<sp/>&apos;AUTO&apos;<sp/>works<sp/>for<sp/>most<sp/>servers.</highlight></codeline>
+<codeline lineno="47"><highlight class="comment">|<sp/>If<sp/>your<sp/>links<sp/>do<sp/>not<sp/>seem<sp/>to<sp/>work,<sp/>try<sp/>one<sp/>of<sp/>the<sp/>other<sp/>delicious<sp/>flavors:</highlight></codeline>
+<codeline lineno="48"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="49"><highlight class="comment">|<sp/>&apos;AUTO&apos;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Default<sp/>-<sp/>auto<sp/>detects</highlight></codeline>
+<codeline lineno="50"><highlight class="comment">|<sp/>&apos;PATH_INFO&apos;<sp/><sp/><sp/><sp/><sp/><sp/><sp/>Uses<sp/>the<sp/>PATH_INFO</highlight></codeline>
+<codeline lineno="51"><highlight class="comment">|<sp/>&apos;QUERY_STRING&apos;<sp/><sp/><sp/><sp/>Uses<sp/>the<sp/>QUERY_STRING</highlight></codeline>
+<codeline lineno="52"><highlight class="comment">|<sp/>&apos;REQUEST_URI&apos;<sp/><sp/><sp/><sp/><sp/>Uses<sp/>the<sp/>REQUEST_URI</highlight></codeline>
+<codeline lineno="53"><highlight class="comment">|<sp/>&apos;ORIG_PATH_INFO&apos;<sp/><sp/>Uses<sp/>the<sp/>ORIG_PATH_INFO</highlight></codeline>
+<codeline lineno="54"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="55"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="application_2config_2config_8php_1a37a0ed82a5db3c3aebdc12611e1e4498" refkind="member"><highlight class="normal"><ref refid="application_2config_2config_8php_1a8063081991a9d7087e6aea78db95a524" kindref="member">$config</ref>[</highlight><highlight class="stringliteral">&apos;uri_protocol&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;AUTO&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="59"><highlight class="comment">|--------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="60"><highlight class="comment">|<sp/>URL<sp/>suffix</highlight></codeline>
+<codeline lineno="61"><highlight class="comment">|--------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="62"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="63"><highlight class="comment">|<sp/>This<sp/>option<sp/>allows<sp/>you<sp/>to<sp/>add<sp/>a<sp/>suffix<sp/>to<sp/>all<sp/>URLs<sp/>generated<sp/>by<sp/>CodeIgniter.</highlight></codeline>
+<codeline lineno="64"><highlight class="comment">|<sp/>For<sp/>more<sp/>information<sp/>please<sp/>see<sp/>the<sp/>user<sp/>guide:</highlight></codeline>
+<codeline lineno="65"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="66"><highlight class="comment">|<sp/>http://codeigniter.com/user_guide/general/urls.html</highlight></codeline>
+<codeline lineno="67"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="application_2config_2config_8php_1a40da61bb27389d4c21a1271840ec7c40" refkind="member"><highlight class="normal"><ref refid="application_2config_2config_8php_1a8063081991a9d7087e6aea78db95a524" kindref="member">$config</ref>[</highlight><highlight class="stringliteral">&apos;url_suffix&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="72"><highlight class="comment">|--------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="73"><highlight class="comment">|<sp/>Default<sp/>Language</highlight></codeline>
+<codeline lineno="74"><highlight class="comment">|--------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="75"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="76"><highlight class="comment">|<sp/>This<sp/>determines<sp/>which<sp/>set<sp/>of<sp/>language<sp/>files<sp/>should<sp/>be<sp/>used.<sp/>Make<sp/>sure</highlight></codeline>
+<codeline lineno="77"><highlight class="comment">|<sp/>there<sp/>is<sp/>an<sp/>available<sp/>translation<sp/>if<sp/>you<sp/>intend<sp/>to<sp/>use<sp/>something<sp/>other</highlight></codeline>
+<codeline lineno="78"><highlight class="comment">|<sp/>than<sp/>english.</highlight></codeline>
+<codeline lineno="79"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="80"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="application_2config_2config_8php_1ae05e29ba794fe4453013dd7b1cc30219" refkind="member"><highlight class="normal"><ref refid="application_2config_2config_8php_1a8063081991a9d7087e6aea78db95a524" kindref="member">$config</ref>[</highlight><highlight class="stringliteral">&apos;language&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;english&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="84"><highlight class="comment">|--------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="85"><highlight class="comment">|<sp/>Default<sp/>Character<sp/>Set</highlight></codeline>
+<codeline lineno="86"><highlight class="comment">|--------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="87"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="88"><highlight class="comment">|<sp/>This<sp/>determines<sp/>which<sp/>character<sp/>set<sp/>is<sp/>used<sp/>by<sp/>default<sp/>in<sp/>various<sp/>methods</highlight></codeline>
+<codeline lineno="89"><highlight class="comment">|<sp/>that<sp/>require<sp/>a<sp/>character<sp/>set<sp/>to<sp/>be<sp/>provided.</highlight></codeline>
+<codeline lineno="90"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="91"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92" refid="application_2config_2config_8php_1ac9128ac0276b1b7acf4c96a22b2469f1" refkind="member"><highlight class="normal"><ref refid="application_2config_2config_8php_1a8063081991a9d7087e6aea78db95a524" kindref="member">$config</ref>[</highlight><highlight class="stringliteral">&apos;charset&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;UTF-8&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="95"><highlight class="comment">|--------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="96"><highlight class="comment">|<sp/>Enable/Disable<sp/>System<sp/>Hooks</highlight></codeline>
+<codeline lineno="97"><highlight class="comment">|--------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="98"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="99"><highlight class="comment">|<sp/>If<sp/>you<sp/>would<sp/>like<sp/>to<sp/>use<sp/>the<sp/>&apos;hooks&apos;<sp/>feature<sp/>you<sp/>must<sp/>enable<sp/>it<sp/>by</highlight></codeline>
+<codeline lineno="100"><highlight class="comment">|<sp/>setting<sp/>this<sp/>variable<sp/>to<sp/>TRUE<sp/>(boolean).<sp/><sp/>See<sp/>the<sp/>user<sp/>guide<sp/>for<sp/>details.</highlight></codeline>
+<codeline lineno="101"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="102"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="application_2config_2config_8php_1a2d80c3b160b2bb6f3329a9b07e970c51" refkind="member"><highlight class="normal"><ref refid="application_2config_2config_8php_1a8063081991a9d7087e6aea78db95a524" kindref="member">$config</ref>[</highlight><highlight class="stringliteral">&apos;enable_hooks&apos;</highlight><highlight class="normal">]<sp/>=<sp/>FALSE;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="107"><highlight class="comment">|--------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="108"><highlight class="comment">|<sp/>Class<sp/>Extension<sp/>Prefix</highlight></codeline>
+<codeline lineno="109"><highlight class="comment">|--------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="110"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="111"><highlight class="comment">|<sp/>This<sp/>item<sp/>allows<sp/>you<sp/>to<sp/>set<sp/>the<sp/>filename/classname<sp/>prefix<sp/>when<sp/>extending</highlight></codeline>
+<codeline lineno="112"><highlight class="comment">|<sp/>native<sp/>libraries.<sp/><sp/>For<sp/>more<sp/>information<sp/>please<sp/>see<sp/>the<sp/>user<sp/>guide:</highlight></codeline>
+<codeline lineno="113"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="114"><highlight class="comment">|<sp/>http://codeigniter.com/user_guide/general/core_classes.html</highlight></codeline>
+<codeline lineno="115"><highlight class="comment">|<sp/>http://codeigniter.com/user_guide/general/creating_libraries.html</highlight></codeline>
+<codeline lineno="116"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="117"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="application_2config_2config_8php_1a51b79c9e455d64cb54212f2966b28ae6" refkind="member"><highlight class="normal"><ref refid="application_2config_2config_8php_1a8063081991a9d7087e6aea78db95a524" kindref="member">$config</ref>[</highlight><highlight class="stringliteral">&apos;subclass_prefix&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;MY_&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="122"><highlight class="comment">|--------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="123"><highlight class="comment">|<sp/>Allowed<sp/>URL<sp/>Characters</highlight></codeline>
+<codeline lineno="124"><highlight class="comment">|--------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="125"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="126"><highlight class="comment">|<sp/>This<sp/>lets<sp/>you<sp/>specify<sp/>with<sp/>a<sp/>regular<sp/>expression<sp/>which<sp/>characters<sp/>are<sp/>permitted</highlight></codeline>
+<codeline lineno="127"><highlight class="comment">|<sp/>within<sp/>your<sp/>URLs.<sp/><sp/>When<sp/>someone<sp/>tries<sp/>to<sp/>submit<sp/>a<sp/>URL<sp/>with<sp/>disallowed</highlight></codeline>
+<codeline lineno="128"><highlight class="comment">|<sp/>characters<sp/>they<sp/>will<sp/>get<sp/>a<sp/>warning<sp/>message.</highlight></codeline>
+<codeline lineno="129"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="130"><highlight class="comment">|<sp/>As<sp/>a<sp/>security<sp/>measure<sp/>you<sp/>are<sp/>STRONGLY<sp/>encouraged<sp/>to<sp/>restrict<sp/>URLs<sp/>to</highlight></codeline>
+<codeline lineno="131"><highlight class="comment">|<sp/>as<sp/>few<sp/>characters<sp/>as<sp/>possible.<sp/><sp/>By<sp/>default<sp/>only<sp/>these<sp/>are<sp/>allowed:<sp/>a-z<sp/>0-9~%.:_-</highlight></codeline>
+<codeline lineno="132"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="133"><highlight class="comment">|<sp/>Leave<sp/>blank<sp/>to<sp/>allow<sp/>all<sp/>characters<sp/>--<sp/>but<sp/>only<sp/>if<sp/>you<sp/>are<sp/>insane.</highlight></codeline>
+<codeline lineno="134"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="135"><highlight class="comment">|<sp/>DO<sp/>NOT<sp/>CHANGE<sp/>THIS<sp/>UNLESS<sp/>YOU<sp/>FULLY<sp/>UNDERSTAND<sp/>THE<sp/>REPERCUSSIONS!!</highlight></codeline>
+<codeline lineno="136"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="137"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138" refid="application_2config_2config_8php_1ae2e36375b245287a8851ac04565994de" refkind="member"><highlight class="normal"><ref refid="application_2config_2config_8php_1a8063081991a9d7087e6aea78db95a524" kindref="member">$config</ref>[</highlight><highlight class="stringliteral">&apos;permitted_uri_chars&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;a-z<sp/>0-9~%.:_\-&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="142"><highlight class="comment">|--------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="143"><highlight class="comment">|<sp/>Enable<sp/>Query<sp/>Strings</highlight></codeline>
+<codeline lineno="144"><highlight class="comment">|--------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="145"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="146"><highlight class="comment">|<sp/>By<sp/>default<sp/>CodeIgniter<sp/>uses<sp/>search-engine<sp/>friendly<sp/>segment<sp/>based<sp/>URLs:</highlight></codeline>
+<codeline lineno="147"><highlight class="comment">|<sp/>example.com/who/what/where/</highlight></codeline>
+<codeline lineno="148"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="149"><highlight class="comment">|<sp/>By<sp/>default<sp/>CodeIgniter<sp/>enables<sp/>access<sp/>to<sp/>the<sp/>$_GET<sp/>array.<sp/><sp/>If<sp/>for<sp/>some</highlight></codeline>
+<codeline lineno="150"><highlight class="comment">|<sp/>reason<sp/>you<sp/>would<sp/>like<sp/>to<sp/>disable<sp/>it,<sp/>set<sp/>&apos;allow_get_array&apos;<sp/>to<sp/>FALSE.</highlight></codeline>
+<codeline lineno="151"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="152"><highlight class="comment">|<sp/>You<sp/>can<sp/>optionally<sp/>enable<sp/>standard<sp/>query<sp/>string<sp/>based<sp/>URLs:</highlight></codeline>
+<codeline lineno="153"><highlight class="comment">|<sp/>example.com?who=me&amp;what=something&amp;where=here</highlight></codeline>
+<codeline lineno="154"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="155"><highlight class="comment">|<sp/>Options<sp/>are:<sp/>TRUE<sp/>or<sp/>FALSE<sp/>(boolean)</highlight></codeline>
+<codeline lineno="156"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="157"><highlight class="comment">|<sp/>The<sp/>other<sp/>items<sp/>let<sp/>you<sp/>set<sp/>the<sp/>query<sp/>string<sp/>&apos;words&apos;<sp/>that<sp/>will</highlight></codeline>
+<codeline lineno="158"><highlight class="comment">|<sp/>invoke<sp/>your<sp/>controllers<sp/>and<sp/>its<sp/>functions:</highlight></codeline>
+<codeline lineno="159"><highlight class="comment">|<sp/>example.com/index.php?c=controller&amp;m=function</highlight></codeline>
+<codeline lineno="160"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="161"><highlight class="comment">|<sp/>Please<sp/>note<sp/>that<sp/>some<sp/>of<sp/>the<sp/>helpers<sp/>won&apos;t<sp/>work<sp/>as<sp/>expected<sp/>when</highlight></codeline>
+<codeline lineno="162"><highlight class="comment">|<sp/>this<sp/>feature<sp/>is<sp/>enabled,<sp/>since<sp/>CodeIgniter<sp/>is<sp/>designed<sp/>primarily<sp/>to</highlight></codeline>
+<codeline lineno="163"><highlight class="comment">|<sp/>use<sp/>segment<sp/>based<sp/>URLs.</highlight></codeline>
+<codeline lineno="164"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="165"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="166" refid="application_2config_2config_8php_1ac714a2702b430e47833d82d6ee590298" refkind="member"><highlight class="normal"><ref refid="application_2config_2config_8php_1a8063081991a9d7087e6aea78db95a524" kindref="member">$config</ref>[</highlight><highlight class="stringliteral">&apos;allow_get_array&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>TRUE;</highlight></codeline>
+<codeline lineno="167" refid="application_2config_2config_8php_1a227b7a6fec0306454ffb0dead1f1c4f7" refkind="member"><highlight class="normal"><ref refid="application_2config_2config_8php_1a8063081991a9d7087e6aea78db95a524" kindref="member">$config</ref>[</highlight><highlight class="stringliteral">&apos;enable_query_strings&apos;</highlight><highlight class="normal">]<sp/>=<sp/>FALSE;</highlight></codeline>
+<codeline lineno="168" refid="application_2config_2config_8php_1a7ea9e139536f27af75812de53e852829" refkind="member"><highlight class="normal"><ref refid="application_2config_2config_8php_1a8063081991a9d7087e6aea78db95a524" kindref="member">$config</ref>[</highlight><highlight class="stringliteral">&apos;controller_trigger&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/>=<sp/></highlight><highlight class="charliteral">&apos;c&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="169" refid="application_2config_2config_8php_1acac6a7410b2ae72152894e3b93501811" refkind="member"><highlight class="normal"><ref refid="application_2config_2config_8php_1a8063081991a9d7087e6aea78db95a524" kindref="member">$config</ref>[</highlight><highlight class="stringliteral">&apos;function_trigger&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="charliteral">&apos;m&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="170" refid="application_2config_2config_8php_1af7e6593d4088b77d153dafff4567f143" refkind="member"><highlight class="normal"><ref refid="application_2config_2config_8php_1a8063081991a9d7087e6aea78db95a524" kindref="member">$config</ref>[</highlight><highlight class="stringliteral">&apos;directory_trigger&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="charliteral">&apos;d&apos;</highlight><highlight class="normal">;<sp/></highlight><highlight class="comment">//<sp/>experimental<sp/>not<sp/>currently<sp/>in<sp/>use</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="173"><highlight class="comment">|--------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="174"><highlight class="comment">|<sp/>Error<sp/>Logging<sp/>Threshold</highlight></codeline>
+<codeline lineno="175"><highlight class="comment">|--------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="176"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="177"><highlight class="comment">|<sp/>If<sp/>you<sp/>have<sp/>enabled<sp/>error<sp/>logging,<sp/>you<sp/>can<sp/>set<sp/>an<sp/>error<sp/>threshold<sp/>to</highlight></codeline>
+<codeline lineno="178"><highlight class="comment">|<sp/>determine<sp/>what<sp/>gets<sp/>logged.<sp/>Threshold<sp/>options<sp/>are:</highlight></codeline>
+<codeline lineno="179"><highlight class="comment">|<sp/>You<sp/>can<sp/>enable<sp/>error<sp/>logging<sp/>by<sp/>setting<sp/>a<sp/>threshold<sp/>over<sp/>zero.<sp/>The</highlight></codeline>
+<codeline lineno="180"><highlight class="comment">|<sp/>threshold<sp/>determines<sp/>what<sp/>gets<sp/>logged.<sp/>Threshold<sp/>options<sp/>are:</highlight></codeline>
+<codeline lineno="181"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="182"><highlight class="comment">|<sp/><sp/><sp/>0<sp/>=<sp/>Disables<sp/>logging,<sp/>Error<sp/>logging<sp/>TURNED<sp/>OFF</highlight></codeline>
+<codeline lineno="183"><highlight class="comment">|<sp/><sp/><sp/>1<sp/>=<sp/>Error<sp/>Messages<sp/>(including<sp/>PHP<sp/>errors)</highlight></codeline>
+<codeline lineno="184"><highlight class="comment">|<sp/><sp/><sp/>2<sp/>=<sp/>Debug<sp/>Messages</highlight></codeline>
+<codeline lineno="185"><highlight class="comment">|<sp/><sp/><sp/>3<sp/>=<sp/>Informational<sp/>Messages</highlight></codeline>
+<codeline lineno="186"><highlight class="comment">|<sp/><sp/><sp/>4<sp/>=<sp/>All<sp/>Messages</highlight></codeline>
+<codeline lineno="187"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="188"><highlight class="comment">|<sp/>For<sp/>a<sp/>live<sp/>site<sp/>you&apos;ll<sp/>usually<sp/>only<sp/>enable<sp/>Errors<sp/>(1)<sp/>to<sp/>be<sp/>logged<sp/>otherwise</highlight></codeline>
+<codeline lineno="189"><highlight class="comment">|<sp/>your<sp/>log<sp/>files<sp/>will<sp/>fill<sp/>up<sp/>very<sp/>fast.</highlight></codeline>
+<codeline lineno="190"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="191"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="192" refid="application_2config_2config_8php_1a7e7fe9a5aa2c85e48865b154035dab6a" refkind="member"><highlight class="normal"><ref refid="application_2config_2config_8php_1a8063081991a9d7087e6aea78db95a524" kindref="member">$config</ref>[</highlight><highlight class="stringliteral">&apos;log_threshold&apos;</highlight><highlight class="normal">]<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="195"><highlight class="comment">|--------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="196"><highlight class="comment">|<sp/>Error<sp/>Logging<sp/>Directory<sp/>Path</highlight></codeline>
+<codeline lineno="197"><highlight class="comment">|--------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="198"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="199"><highlight class="comment">|<sp/>Leave<sp/>this<sp/>BLANK<sp/>unless<sp/>you<sp/>would<sp/>like<sp/>to<sp/>set<sp/>something<sp/>other<sp/>than<sp/>the<sp/>default</highlight></codeline>
+<codeline lineno="200"><highlight class="comment">|<sp/>application/logs/<sp/>folder.<sp/>Use<sp/>a<sp/>full<sp/>server<sp/>path<sp/>with<sp/>trailing<sp/>slash.</highlight></codeline>
+<codeline lineno="201"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="202"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="203" refid="application_2config_2config_8php_1aee8524f2388d21b1c73de5c48a82b687" refkind="member"><highlight class="normal"><ref refid="application_2config_2config_8php_1a8063081991a9d7087e6aea78db95a524" kindref="member">$config</ref>[</highlight><highlight class="stringliteral">&apos;log_path&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="206"><highlight class="comment">|--------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="207"><highlight class="comment">|<sp/>Date<sp/>Format<sp/>for<sp/>Logs</highlight></codeline>
+<codeline lineno="208"><highlight class="comment">|--------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="209"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="210"><highlight class="comment">|<sp/>Each<sp/>item<sp/>that<sp/>is<sp/>logged<sp/>has<sp/>an<sp/>associated<sp/>date.<sp/>You<sp/>can<sp/>use<sp/>PHP<sp/>date</highlight></codeline>
+<codeline lineno="211"><highlight class="comment">|<sp/>codes<sp/>to<sp/>set<sp/>your<sp/>own<sp/>date<sp/>formatting</highlight></codeline>
+<codeline lineno="212"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="213"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="214" refid="application_2config_2config_8php_1a9cc05811c32c13c55ed407435a3a31b6" refkind="member"><highlight class="normal"><ref refid="application_2config_2config_8php_1a8063081991a9d7087e6aea78db95a524" kindref="member">$config</ref>[</highlight><highlight class="stringliteral">&apos;log_date_format&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Y-m-d<sp/>H:i:s&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="217"><highlight class="comment">|--------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="218"><highlight class="comment">|<sp/>Cache<sp/>Directory<sp/>Path</highlight></codeline>
+<codeline lineno="219"><highlight class="comment">|--------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="220"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="221"><highlight class="comment">|<sp/>Leave<sp/>this<sp/>BLANK<sp/>unless<sp/>you<sp/>would<sp/>like<sp/>to<sp/>set<sp/>something<sp/>other<sp/>than<sp/>the<sp/>default</highlight></codeline>
+<codeline lineno="222"><highlight class="comment">|<sp/>system/cache/<sp/>folder.<sp/><sp/>Use<sp/>a<sp/>full<sp/>server<sp/>path<sp/>with<sp/>trailing<sp/>slash.</highlight></codeline>
+<codeline lineno="223"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="224"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="225" refid="application_2config_2config_8php_1ae3a5dd52b4d040adb6461b9a17d1e0f0" refkind="member"><highlight class="normal"><ref refid="application_2config_2config_8php_1a8063081991a9d7087e6aea78db95a524" kindref="member">$config</ref>[</highlight><highlight class="stringliteral">&apos;cache_path&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="228"><highlight class="comment">|--------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="229"><highlight class="comment">|<sp/>Encryption<sp/>Key</highlight></codeline>
+<codeline lineno="230"><highlight class="comment">|--------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="231"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="232"><highlight class="comment">|<sp/>If<sp/>you<sp/>use<sp/>the<sp/>Encryption<sp/>class<sp/>or<sp/>the<sp/>Session<sp/>class<sp/>you</highlight></codeline>
+<codeline lineno="233"><highlight class="comment">|<sp/>MUST<sp/>set<sp/>an<sp/>encryption<sp/>key.<sp/><sp/>See<sp/>the<sp/>user<sp/>guide<sp/>for<sp/>info.</highlight></codeline>
+<codeline lineno="234"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="235"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="236" refid="application_2config_2config_8php_1aefa5c9d6e7a454a6218df87e65796357" refkind="member"><highlight class="normal"><ref refid="application_2config_2config_8php_1a8063081991a9d7087e6aea78db95a524" kindref="member">$config</ref>[</highlight><highlight class="stringliteral">&apos;encryption_key&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;pastebyme&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight></codeline>
+<codeline lineno="238"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="239"><highlight class="comment">|--------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="240"><highlight class="comment">|<sp/>Session<sp/>Variables</highlight></codeline>
+<codeline lineno="241"><highlight class="comment">|--------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="242"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="243"><highlight class="comment">|<sp/>&apos;sess_cookie_name&apos;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>the<sp/>name<sp/>you<sp/>want<sp/>for<sp/>the<sp/>cookie</highlight></codeline>
+<codeline lineno="244"><highlight class="comment">|<sp/>&apos;sess_expiration&apos;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>the<sp/>number<sp/>of<sp/>SECONDS<sp/>you<sp/>want<sp/>the<sp/>session<sp/>to<sp/>last.</highlight></codeline>
+<codeline lineno="245"><highlight class="comment">|<sp/><sp/><sp/>by<sp/>default<sp/>sessions<sp/>last<sp/>7200<sp/>seconds<sp/>(two<sp/>hours).<sp/><sp/>Set<sp/>to<sp/>zero<sp/>for<sp/>no<sp/>expiration.</highlight></codeline>
+<codeline lineno="246"><highlight class="comment">|<sp/>&apos;sess_expire_on_close&apos;<sp/><sp/><sp/><sp/>=<sp/>Whether<sp/>to<sp/>cause<sp/>the<sp/>session<sp/>to<sp/>expire<sp/>automatically</highlight></codeline>
+<codeline lineno="247"><highlight class="comment">|<sp/><sp/><sp/>when<sp/>the<sp/>browser<sp/>window<sp/>is<sp/>closed</highlight></codeline>
+<codeline lineno="248"><highlight class="comment">|<sp/>&apos;sess_encrypt_cookie&apos;<sp/><sp/><sp/><sp/><sp/>=<sp/>Whether<sp/>to<sp/>encrypt<sp/>the<sp/>cookie</highlight></codeline>
+<codeline lineno="249"><highlight class="comment">|<sp/>&apos;sess_use_database&apos;<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>Whether<sp/>to<sp/>save<sp/>the<sp/>session<sp/>data<sp/>to<sp/>a<sp/>database</highlight></codeline>
+<codeline lineno="250"><highlight class="comment">|<sp/>&apos;sess_table_name&apos;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>The<sp/>name<sp/>of<sp/>the<sp/>session<sp/>database<sp/>table</highlight></codeline>
+<codeline lineno="251"><highlight class="comment">|<sp/>&apos;sess_match_ip&apos;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>Whether<sp/>to<sp/>match<sp/>the<sp/>user&apos;s<sp/>IP<sp/>address<sp/>when<sp/>reading<sp/>the<sp/>session<sp/>data</highlight></codeline>
+<codeline lineno="252"><highlight class="comment">|<sp/>&apos;sess_match_useragent&apos;<sp/><sp/><sp/><sp/>=<sp/>Whether<sp/>to<sp/>match<sp/>the<sp/>User<sp/>Agent<sp/>when<sp/>reading<sp/>the<sp/>session<sp/>data</highlight></codeline>
+<codeline lineno="253"><highlight class="comment">|<sp/>&apos;sess_time_to_update&apos;<sp/><sp/><sp/><sp/><sp/>=<sp/>how<sp/>many<sp/>seconds<sp/>between<sp/>CI<sp/>refreshing<sp/>Session<sp/>Information</highlight></codeline>
+<codeline lineno="254"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="255"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="256" refid="application_2config_2config_8php_1acaf9fb6347a03527f4b04198d6d8155b" refkind="member"><highlight class="normal"><ref refid="application_2config_2config_8php_1a8063081991a9d7087e6aea78db95a524" kindref="member">$config</ref>[</highlight><highlight class="stringliteral">&apos;sess_cookie_name&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;ci_session&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="257" refid="application_2config_2config_8php_1ad6a3784cad81991936465dcdac74b66a" refkind="member"><highlight class="normal"><ref refid="application_2config_2config_8php_1a8063081991a9d7087e6aea78db95a524" kindref="member">$config</ref>[</highlight><highlight class="stringliteral">&apos;sess_expiration&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>7200;</highlight></codeline>
+<codeline lineno="258" refid="application_2config_2config_8php_1afe76a77df2001e739290d58bf6029036" refkind="member"><highlight class="normal"><ref refid="application_2config_2config_8php_1a8063081991a9d7087e6aea78db95a524" kindref="member">$config</ref>[</highlight><highlight class="stringliteral">&apos;sess_expire_on_close&apos;</highlight><highlight class="normal">]<sp/>=<sp/>FALSE;</highlight></codeline>
+<codeline lineno="259" refid="application_2config_2config_8php_1aed8943fa55fc74e62b540e8638c03038" refkind="member"><highlight class="normal"><ref refid="application_2config_2config_8php_1a8063081991a9d7087e6aea78db95a524" kindref="member">$config</ref>[</highlight><highlight class="stringliteral">&apos;sess_encrypt_cookie&apos;</highlight><highlight class="normal">]<sp/><sp/>=<sp/>FALSE;</highlight></codeline>
+<codeline lineno="260" refid="application_2config_2config_8php_1ae320549e749a21903b685e363820370a" refkind="member"><highlight class="normal"><ref refid="application_2config_2config_8php_1a8063081991a9d7087e6aea78db95a524" kindref="member">$config</ref>[</highlight><highlight class="stringliteral">&apos;sess_use_database&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/>=<sp/>FALSE;</highlight></codeline>
+<codeline lineno="261" refid="application_2config_2config_8php_1ab65a6c6a4a0f2339707a4c20c44bf16b" refkind="member"><highlight class="normal"><ref refid="application_2config_2config_8php_1a8063081991a9d7087e6aea78db95a524" kindref="member">$config</ref>[</highlight><highlight class="stringliteral">&apos;sess_table_name&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;ci_sessions&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="262" refid="application_2config_2config_8php_1aed449d12f2854249e5f7229fafb269b2" refkind="member"><highlight class="normal"><ref refid="application_2config_2config_8php_1a8063081991a9d7087e6aea78db95a524" kindref="member">$config</ref>[</highlight><highlight class="stringliteral">&apos;sess_match_ip&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>FALSE;</highlight></codeline>
+<codeline lineno="263" refid="application_2config_2config_8php_1a90a66e41bce1a62ff818c4f0e3aa09d2" refkind="member"><highlight class="normal"><ref refid="application_2config_2config_8php_1a8063081991a9d7087e6aea78db95a524" kindref="member">$config</ref>[</highlight><highlight class="stringliteral">&apos;sess_match_useragent&apos;</highlight><highlight class="normal">]<sp/>=<sp/>TRUE;</highlight></codeline>
+<codeline lineno="264" refid="application_2config_2config_8php_1afb6a66c470a9c08b90efcbc6c5594573" refkind="member"><highlight class="normal"><ref refid="application_2config_2config_8php_1a8063081991a9d7087e6aea78db95a524" kindref="member">$config</ref>[</highlight><highlight class="stringliteral">&apos;sess_time_to_update&apos;</highlight><highlight class="normal">]<sp/><sp/>=<sp/>300;</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"></highlight></codeline>
+<codeline lineno="266"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="267"><highlight class="comment">|--------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="268"><highlight class="comment">|<sp/>Cookie<sp/>Related<sp/>Variables</highlight></codeline>
+<codeline lineno="269"><highlight class="comment">|--------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="270"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="271"><highlight class="comment">|<sp/>&apos;cookie_prefix&apos;<sp/>=<sp/>Set<sp/>a<sp/>prefix<sp/>if<sp/>you<sp/>need<sp/>to<sp/>avoid<sp/>collisions</highlight></codeline>
+<codeline lineno="272"><highlight class="comment">|<sp/>&apos;cookie_domain&apos;<sp/>=<sp/>Set<sp/>to<sp/>.your-domain.com<sp/>for<sp/>site-wide<sp/>cookies</highlight></codeline>
+<codeline lineno="273"><highlight class="comment">|<sp/>&apos;cookie_path&apos;<sp/><sp/><sp/>=<sp/><sp/>Typically<sp/>will<sp/>be<sp/>a<sp/>forward<sp/>slash</highlight></codeline>
+<codeline lineno="274"><highlight class="comment">|<sp/>&apos;cookie_secure&apos;<sp/>=<sp/><sp/>Cookies<sp/>will<sp/>only<sp/>be<sp/>set<sp/>if<sp/>a<sp/>secure<sp/>HTTPS<sp/>connection<sp/>exists.</highlight></codeline>
+<codeline lineno="275"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="276"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="277" refid="application_2config_2config_8php_1ae5f35eb62ffdcfa1878ed13fa47b2d5d" refkind="member"><highlight class="normal"><ref refid="application_2config_2config_8php_1a8063081991a9d7087e6aea78db95a524" kindref="member">$config</ref>[</highlight><highlight class="stringliteral">&apos;cookie_prefix&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="278" refid="application_2config_2config_8php_1a4f967865afe18263372e9c66223a752e" refkind="member"><highlight class="normal"><ref refid="application_2config_2config_8php_1a8063081991a9d7087e6aea78db95a524" kindref="member">$config</ref>[</highlight><highlight class="stringliteral">&apos;cookie_domain&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="279" refid="application_2config_2config_8php_1aeadefdcde429770b04a079e002194d2f" refkind="member"><highlight class="normal"><ref refid="application_2config_2config_8php_1a8063081991a9d7087e6aea78db95a524" kindref="member">$config</ref>[</highlight><highlight class="stringliteral">&apos;cookie_path&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;/&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="280" refid="application_2config_2config_8php_1a7d66abd075b76c2fdcd0837068a13b51" refkind="member"><highlight class="normal"><ref refid="application_2config_2config_8php_1a8063081991a9d7087e6aea78db95a524" kindref="member">$config</ref>[</highlight><highlight class="stringliteral">&apos;cookie_secure&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/>=<sp/>FALSE;</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"></highlight></codeline>
+<codeline lineno="282"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="283"><highlight class="comment">|--------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="284"><highlight class="comment">|<sp/>Global<sp/>XSS<sp/>Filtering</highlight></codeline>
+<codeline lineno="285"><highlight class="comment">|--------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="286"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="287"><highlight class="comment">|<sp/>Determines<sp/>whether<sp/>the<sp/>XSS<sp/>filter<sp/>is<sp/>always<sp/>active<sp/>when<sp/>GET,<sp/>POST<sp/>or</highlight></codeline>
+<codeline lineno="288"><highlight class="comment">|<sp/>COOKIE<sp/>data<sp/>is<sp/>encountered</highlight></codeline>
+<codeline lineno="289"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="290"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="291" refid="application_2config_2config_8php_1afee3589eecfa5ebecf39f44c271d58ce" refkind="member"><highlight class="normal"><ref refid="application_2config_2config_8php_1a8063081991a9d7087e6aea78db95a524" kindref="member">$config</ref>[</highlight><highlight class="stringliteral">&apos;global_xss_filtering&apos;</highlight><highlight class="normal">]<sp/>=<sp/>FALSE;</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"></highlight></codeline>
+<codeline lineno="293"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="294"><highlight class="comment">|--------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="295"><highlight class="comment">|<sp/>Cross<sp/>Site<sp/>Request<sp/>Forgery</highlight></codeline>
+<codeline lineno="296"><highlight class="comment">|--------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="297"><highlight class="comment">|<sp/>Enables<sp/>a<sp/>CSRF<sp/>cookie<sp/>token<sp/>to<sp/>be<sp/>set.<sp/>When<sp/>set<sp/>to<sp/>TRUE,<sp/>token<sp/>will<sp/>be</highlight></codeline>
+<codeline lineno="298"><highlight class="comment">|<sp/>checked<sp/>on<sp/>a<sp/>submitted<sp/>form.<sp/>If<sp/>you<sp/>are<sp/>accepting<sp/>user<sp/>data,<sp/>it<sp/>is<sp/>strongly</highlight></codeline>
+<codeline lineno="299"><highlight class="comment">|<sp/>recommended<sp/>CSRF<sp/>protection<sp/>be<sp/>enabled.</highlight></codeline>
+<codeline lineno="300"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="301"><highlight class="comment">|<sp/>&apos;csrf_token_name&apos;<sp/>=<sp/>The<sp/>token<sp/>name</highlight></codeline>
+<codeline lineno="302"><highlight class="comment">|<sp/>&apos;csrf_cookie_name&apos;<sp/>=<sp/>The<sp/>cookie<sp/>name</highlight></codeline>
+<codeline lineno="303"><highlight class="comment">|<sp/>&apos;csrf_expire&apos;<sp/>=<sp/>The<sp/>number<sp/>in<sp/>seconds<sp/>the<sp/>token<sp/>should<sp/>expire.</highlight></codeline>
+<codeline lineno="304"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="305" refid="application_2config_2config_8php_1a37f959c7a92cefa11c0df7db2b83c89f" refkind="member"><highlight class="normal"><ref refid="application_2config_2config_8php_1a8063081991a9d7087e6aea78db95a524" kindref="member">$config</ref>[</highlight><highlight class="stringliteral">&apos;csrf_protection&apos;</highlight><highlight class="normal">]<sp/>=<sp/>FALSE;</highlight></codeline>
+<codeline lineno="306" refid="application_2config_2config_8php_1af0e5ccff5383b00a56f4ad3ee0d289d2" refkind="member"><highlight class="normal"><ref refid="application_2config_2config_8php_1a8063081991a9d7087e6aea78db95a524" kindref="member">$config</ref>[</highlight><highlight class="stringliteral">&apos;csrf_token_name&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;csrf_test_name&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="307" refid="application_2config_2config_8php_1ad8f36090649afb3101c3c337c1d722a1" refkind="member"><highlight class="normal"><ref refid="application_2config_2config_8php_1a8063081991a9d7087e6aea78db95a524" kindref="member">$config</ref>[</highlight><highlight class="stringliteral">&apos;csrf_cookie_name&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;csrf_cookie_name&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="308" refid="application_2config_2config_8php_1af5c0ea7b77c40439da4f23b7cbb9c2e4" refkind="member"><highlight class="normal"><ref refid="application_2config_2config_8php_1a8063081991a9d7087e6aea78db95a524" kindref="member">$config</ref>[</highlight><highlight class="stringliteral">&apos;csrf_expire&apos;</highlight><highlight class="normal">]<sp/>=<sp/>7200;</highlight></codeline>
+<codeline lineno="309"><highlight class="normal"></highlight></codeline>
+<codeline lineno="310"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="311"><highlight class="comment">|--------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="312"><highlight class="comment">|<sp/>Output<sp/>Compression</highlight></codeline>
+<codeline lineno="313"><highlight class="comment">|--------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="314"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="315"><highlight class="comment">|<sp/>Enables<sp/>Gzip<sp/>output<sp/>compression<sp/>for<sp/>faster<sp/>page<sp/>loads.<sp/><sp/>When<sp/>enabled,</highlight></codeline>
+<codeline lineno="316"><highlight class="comment">|<sp/>the<sp/>output<sp/>class<sp/>will<sp/>test<sp/>whether<sp/>your<sp/>server<sp/>supports<sp/>Gzip.</highlight></codeline>
+<codeline lineno="317"><highlight class="comment">|<sp/>Even<sp/>if<sp/>it<sp/>does,<sp/>however,<sp/>not<sp/>all<sp/>browsers<sp/>support<sp/>compression</highlight></codeline>
+<codeline lineno="318"><highlight class="comment">|<sp/>so<sp/>enable<sp/>only<sp/>if<sp/>you<sp/>are<sp/>reasonably<sp/>sure<sp/>your<sp/>visitors<sp/>can<sp/>handle<sp/>it.</highlight></codeline>
+<codeline lineno="319"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="320"><highlight class="comment">|<sp/>VERY<sp/>IMPORTANT:<sp/><sp/>If<sp/>you<sp/>are<sp/>getting<sp/>a<sp/>blank<sp/>page<sp/>when<sp/>compression<sp/>is<sp/>enabled<sp/>it</highlight></codeline>
+<codeline lineno="321"><highlight class="comment">|<sp/>means<sp/>you<sp/>are<sp/>prematurely<sp/>outputting<sp/>something<sp/>to<sp/>your<sp/>browser.<sp/>It<sp/>could</highlight></codeline>
+<codeline lineno="322"><highlight class="comment">|<sp/>even<sp/>be<sp/>a<sp/>line<sp/>of<sp/>whitespace<sp/>at<sp/>the<sp/>end<sp/>of<sp/>one<sp/>of<sp/>your<sp/>scripts.<sp/><sp/>For</highlight></codeline>
+<codeline lineno="323"><highlight class="comment">|<sp/>compression<sp/>to<sp/>work,<sp/>nothing<sp/>can<sp/>be<sp/>sent<sp/>before<sp/>the<sp/>output<sp/>buffer<sp/>is<sp/>called</highlight></codeline>
+<codeline lineno="324"><highlight class="comment">|<sp/>by<sp/>the<sp/>output<sp/>class.<sp/><sp/>Do<sp/>not<sp/>&apos;echo&apos;<sp/>any<sp/>values<sp/>with<sp/>compression<sp/>enabled.</highlight></codeline>
+<codeline lineno="325"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="326"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="327" refid="application_2config_2config_8php_1a5f03a6c067b921917c2d978f4991bcd1" refkind="member"><highlight class="normal"><ref refid="application_2config_2config_8php_1a8063081991a9d7087e6aea78db95a524" kindref="member">$config</ref>[</highlight><highlight class="stringliteral">&apos;compress_output&apos;</highlight><highlight class="normal">]<sp/>=<sp/>FALSE;</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"></highlight></codeline>
+<codeline lineno="329"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="330"><highlight class="comment">|--------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="331"><highlight class="comment">|<sp/>Master<sp/>Time<sp/>Reference</highlight></codeline>
+<codeline lineno="332"><highlight class="comment">|--------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="333"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="334"><highlight class="comment">|<sp/>Options<sp/>are<sp/>&apos;local&apos;<sp/>or<sp/>&apos;gmt&apos;.<sp/><sp/>This<sp/>pref<sp/>tells<sp/>the<sp/>system<sp/>whether<sp/>to<sp/>use</highlight></codeline>
+<codeline lineno="335"><highlight class="comment">|<sp/>your<sp/>server&apos;s<sp/>local<sp/>time<sp/>as<sp/>the<sp/>master<sp/>&apos;now&apos;<sp/>reference,<sp/>or<sp/>convert<sp/>it<sp/>to</highlight></codeline>
+<codeline lineno="336"><highlight class="comment">|<sp/>GMT.<sp/><sp/>See<sp/>the<sp/>&apos;date<sp/>helper&apos;<sp/>page<sp/>of<sp/>the<sp/>user<sp/>guide<sp/>for<sp/>information</highlight></codeline>
+<codeline lineno="337"><highlight class="comment">|<sp/>regarding<sp/>date<sp/>handling.</highlight></codeline>
+<codeline lineno="338"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="339"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="340" refid="application_2config_2config_8php_1acb20698e35bc3d4b9692a4b4619b1b05" refkind="member"><highlight class="normal"><ref refid="application_2config_2config_8php_1a8063081991a9d7087e6aea78db95a524" kindref="member">$config</ref>[</highlight><highlight class="stringliteral">&apos;time_reference&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;local&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="341"><highlight class="normal"></highlight></codeline>
+<codeline lineno="342"><highlight class="normal"></highlight></codeline>
+<codeline lineno="343"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="344"><highlight class="comment">|--------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="345"><highlight class="comment">|<sp/>Rewrite<sp/>PHP<sp/>Short<sp/>Tags</highlight></codeline>
+<codeline lineno="346"><highlight class="comment">|--------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="347"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="348"><highlight class="comment">|<sp/>If<sp/>your<sp/>PHP<sp/>installation<sp/>does<sp/>not<sp/>have<sp/>short<sp/>tag<sp/>support<sp/>enabled<sp/>CI</highlight></codeline>
+<codeline lineno="349"><highlight class="comment">|<sp/>can<sp/>rewrite<sp/>the<sp/>tags<sp/>on-the-fly,<sp/>enabling<sp/>you<sp/>to<sp/>utilize<sp/>that<sp/>syntax</highlight></codeline>
+<codeline lineno="350"><highlight class="comment">|<sp/>in<sp/>your<sp/>view<sp/>files.<sp/><sp/>Options<sp/>are<sp/>TRUE<sp/>or<sp/>FALSE<sp/>(boolean)</highlight></codeline>
+<codeline lineno="351"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="352"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="353" refid="application_2config_2config_8php_1a5d2e2b3f3030d1bd97f6d986ef13ace9" refkind="member"><highlight class="normal"><ref refid="application_2config_2config_8php_1a8063081991a9d7087e6aea78db95a524" kindref="member">$config</ref>[</highlight><highlight class="stringliteral">&apos;rewrite_short_tags&apos;</highlight><highlight class="normal">]<sp/>=<sp/>FALSE;</highlight></codeline>
+<codeline lineno="354"><highlight class="normal"></highlight></codeline>
+<codeline lineno="355"><highlight class="normal"></highlight></codeline>
+<codeline lineno="356"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="357"><highlight class="comment">|--------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="358"><highlight class="comment">|<sp/>Reverse<sp/>Proxy<sp/>IPs</highlight></codeline>
+<codeline lineno="359"><highlight class="comment">|--------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="360"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="361"><highlight class="comment">|<sp/>If<sp/>your<sp/>server<sp/>is<sp/>behind<sp/>a<sp/>reverse<sp/>proxy,<sp/>you<sp/>must<sp/>whitelist<sp/>the<sp/>proxy<sp/>IP</highlight></codeline>
+<codeline lineno="362"><highlight class="comment">|<sp/>addresses<sp/>from<sp/>which<sp/>CodeIgniter<sp/>should<sp/>trust<sp/>the<sp/>HTTP_X_FORWARDED_FOR</highlight></codeline>
+<codeline lineno="363"><highlight class="comment">|<sp/>header<sp/>in<sp/>order<sp/>to<sp/>properly<sp/>identify<sp/>the<sp/>visitor&apos;s<sp/>IP<sp/>address.</highlight></codeline>
+<codeline lineno="364"><highlight class="comment">|<sp/>Comma-delimited,<sp/>e.g.<sp/>&apos;10.0.1.200,10.0.1.201&apos;</highlight></codeline>
+<codeline lineno="365"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="366"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="367" refid="application_2config_2config_8php_1a99ce814cf767ce4e281380e6f2158b1b" refkind="member"><highlight class="normal"><ref refid="application_2config_2config_8php_1a8063081991a9d7087e6aea78db95a524" kindref="member">$config</ref>[</highlight><highlight class="stringliteral">&apos;proxy_ips&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="368"><highlight class="normal"></highlight></codeline>
+<codeline lineno="369"><highlight class="normal"></highlight></codeline>
+<codeline lineno="370"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>End<sp/>of<sp/>file<sp/>config.php<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="371"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Location:<sp/>./application/config/config.php<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/config.php"/>
+  </compounddef>
+</doxygen>

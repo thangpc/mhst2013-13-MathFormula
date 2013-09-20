@@ -1,0 +1,307 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_x_m_l___r_p_c___values" kind="class" prot="public">
+    <compoundname>XML_RPC_Values</compoundname>
+    <basecompoundref refid="class_c_i___xmlrpc" prot="public" virt="non-virtual">CI_Xmlrpc</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_x_m_l___r_p_c___values_1ad856a60cee1894f180e845f9b7b81458" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$me</definition>
+        <argsstring></argsstring>
+        <name>$me</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpc.php" line="1211" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpc.php" bodystart="1211" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_x_m_l___r_p_c___values_1a49afa471d90298c2a53fb4dba2b099bf" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$mytype</definition>
+        <argsstring></argsstring>
+        <name>$mytype</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpc.php" line="1212" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpc.php" bodystart="1212" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_x_m_l___r_p_c___values_1af3d459d43acf9109a9604d02b12ccf44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>($val=-1, $type=&apos;&apos;)</argsstring>
+        <name>__construct</name>
+        <param>
+          <declname>$val</declname>
+          <defval>-1</defval>
+        </param>
+        <param>
+          <declname>$type</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpc.php" line="1214" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpc.php" bodystart="1214" bodyend="1235"/>
+        <references refid="class_x_m_l___r_p_c___values_1ac847166eee63ab7bfaa8b0e22ae19430" compoundref="_xmlrpc_8php" startline="1237" endline="1279">addScalar</references>
+        <references refid="class_x_m_l___r_p_c___values_1a2081e6a72b7e1c15f8c1dbcdfa673d4c" compoundref="_xmlrpc_8php" startline="1281" endline="1292">addArray</references>
+        <references refid="class_x_m_l___r_p_c___values_1a5dbdf0121566791a201cd07a3de15531" compoundref="_xmlrpc_8php" startline="1294" endline="1304">addStruct</references>
+      </memberdef>
+      <memberdef kind="function" id="class_x_m_l___r_p_c___values_1ac847166eee63ab7bfaa8b0e22ae19430" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>addScalar</definition>
+        <argsstring>($val, $type=&apos;string&apos;)</argsstring>
+        <name>addScalar</name>
+        <param>
+          <declname>$val</declname>
+        </param>
+        <param>
+          <declname>$type</declname>
+          <defval>&apos;string&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpc.php" line="1237" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpc.php" bodystart="1237" bodyend="1279"/>
+        <referencedby refid="class_x_m_l___r_p_c___values_1af3d459d43acf9109a9604d02b12ccf44" compoundref="_xmlrpc_8php" startline="1214" endline="1235">__construct</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_x_m_l___r_p_c___values_1a2081e6a72b7e1c15f8c1dbcdfa673d4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>addArray</definition>
+        <argsstring>($vals)</argsstring>
+        <name>addArray</name>
+        <param>
+          <declname>$vals</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpc.php" line="1281" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpc.php" bodystart="1281" bodyend="1292"/>
+        <references refid="class_x_m_l___r_p_c___values_1a3b169c364729cee2afdccadef5229f80" compoundref="_xmlrpc_8php" startline="1306" endline="1322">kindOf</references>
+        <referencedby refid="class_x_m_l___r_p_c___values_1af3d459d43acf9109a9604d02b12ccf44" compoundref="_xmlrpc_8php" startline="1214" endline="1235">__construct</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_x_m_l___r_p_c___values_1a5dbdf0121566791a201cd07a3de15531" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>addStruct</definition>
+        <argsstring>($vals)</argsstring>
+        <name>addStruct</name>
+        <param>
+          <declname>$vals</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpc.php" line="1294" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpc.php" bodystart="1294" bodyend="1304"/>
+        <references refid="class_x_m_l___r_p_c___values_1a3b169c364729cee2afdccadef5229f80" compoundref="_xmlrpc_8php" startline="1306" endline="1322">kindOf</references>
+        <referencedby refid="class_x_m_l___r_p_c___values_1af3d459d43acf9109a9604d02b12ccf44" compoundref="_xmlrpc_8php" startline="1214" endline="1235">__construct</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_x_m_l___r_p_c___values_1a3b169c364729cee2afdccadef5229f80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>kindOf</definition>
+        <argsstring>()</argsstring>
+        <name>kindOf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpc.php" line="1306" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpc.php" bodystart="1306" bodyend="1322"/>
+        <referencedby refid="class_x_m_l___r_p_c___values_1a2081e6a72b7e1c15f8c1dbcdfa673d4c" compoundref="_xmlrpc_8php" startline="1281" endline="1292">addArray</referencedby>
+        <referencedby refid="class_x_m_l___r_p_c___values_1a5dbdf0121566791a201cd07a3de15531" compoundref="_xmlrpc_8php" startline="1294" endline="1304">addStruct</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_x_m_l___r_p_c___values_1a7058e00e310218c447d3c9fea0ee0a3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>serializedata</definition>
+        <argsstring>($typ, $val)</argsstring>
+        <name>serializedata</name>
+        <param>
+          <declname>$typ</declname>
+        </param>
+        <param>
+          <declname>$val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpc.php" line="1324" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpc.php" bodystart="1324" bodyend="1372"/>
+        <references refid="mathquill_8js_1a734e1de789ca45f7044c7c886588cd5b" compoundref="mathquill_8js" startline="226">each</references>
+        <references refid="class_x_m_l___r_p_c___values_1a1a4bfc79985c185745d96ebe3a1e5c3d" compoundref="_xmlrpc_8php" startline="1379" endline="1387">serializeval</references>
+      </memberdef>
+      <memberdef kind="function" id="class_x_m_l___r_p_c___values_1a59df3d3c8fbb47a946d6a29f0b3c8e0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>serialize_class</definition>
+        <argsstring>()</argsstring>
+        <name>serialize_class</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpc.php" line="1374" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpc.php" bodystart="1374" bodyend="1377"/>
+        <references refid="class_x_m_l___r_p_c___values_1a1a4bfc79985c185745d96ebe3a1e5c3d" compoundref="_xmlrpc_8php" startline="1379" endline="1387">serializeval</references>
+      </memberdef>
+      <memberdef kind="function" id="class_x_m_l___r_p_c___values_1a1a4bfc79985c185745d96ebe3a1e5c3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>serializeval</definition>
+        <argsstring>($o)</argsstring>
+        <name>serializeval</name>
+        <param>
+          <declname>$o</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpc.php" line="1379" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpc.php" bodystart="1379" bodyend="1387"/>
+        <references refid="mathquill_8js_1a734e1de789ca45f7044c7c886588cd5b" compoundref="mathquill_8js" startline="226">each</references>
+        <referencedby refid="class_x_m_l___r_p_c___values_1a7058e00e310218c447d3c9fea0ee0a3d" compoundref="_xmlrpc_8php" startline="1324" endline="1372">serializedata</referencedby>
+        <referencedby refid="class_x_m_l___r_p_c___values_1a59df3d3c8fbb47a946d6a29f0b3c8e0c" compoundref="_xmlrpc_8php" startline="1374" endline="1377">serialize_class</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_x_m_l___r_p_c___values_1ac9a3751dc2d5479f409d0a4683c37d26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>scalarval</definition>
+        <argsstring>()</argsstring>
+        <name>scalarval</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpc.php" line="1389" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpc.php" bodystart="1389" bodyend="1394"/>
+        <references refid="mathquill_8js_1a734e1de789ca45f7044c7c886588cd5b" compoundref="mathquill_8js" startline="226">each</references>
+      </memberdef>
+      <memberdef kind="function" id="class_x_m_l___r_p_c___values_1a7da53e4f2dcd98cc2024a938bcd79873" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>iso8601_encode</definition>
+        <argsstring>($time, $utc=0)</argsstring>
+        <name>iso8601_encode</name>
+        <param>
+          <declname>$time</declname>
+        </param>
+        <param>
+          <declname>$utc</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpc.php" line="1403" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpc.php" bodystart="1403" bodyend="1417"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="488">
+        <label>XML_RPC_Values</label>
+        <link refid="class_x_m_l___r_p_c___values"/>
+        <childnode refid="489" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="489">
+        <label>CI_Xmlrpc</label>
+        <link refid="class_c_i___xmlrpc"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="490">
+        <label>XML_RPC_Values</label>
+        <link refid="class_x_m_l___r_p_c___values"/>
+        <childnode refid="491" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="491">
+        <label>CI_Xmlrpc</label>
+        <link refid="class_c_i___xmlrpc"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpc.php" line="1210" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpc.php" bodystart="1209" bodyend="1419"/>
+    <listofallmembers>
+      <member refid="class_c_i___xmlrpc_1ad1405dc1ba2e288764378e79bff7a87d" prot="public" virt="non-virtual"><scope>XML_RPC_Values</scope><name>$client</name></member>
+      <member refid="class_c_i___xmlrpc_1a6efc15b5a2314dd4b5aaa556a375c6d6" prot="public" virt="non-virtual"><scope>XML_RPC_Values</scope><name>$data</name></member>
+      <member refid="class_c_i___xmlrpc_1a85ae3e64cd40e9564adceb010085e9dd" prot="public" virt="non-virtual"><scope>XML_RPC_Values</scope><name>$debug</name></member>
+      <member refid="class_c_i___xmlrpc_1aeba2ab722cedda53dbb7ec1a59f45550" prot="public" virt="non-virtual"><scope>XML_RPC_Values</scope><name>$error</name></member>
+      <member refid="class_x_m_l___r_p_c___values_1ad856a60cee1894f180e845f9b7b81458" prot="public" virt="non-virtual"><scope>XML_RPC_Values</scope><name>$me</name></member>
+      <member refid="class_c_i___xmlrpc_1abf17cb2dba2ed17cb28aa5f37deb5293" prot="public" virt="non-virtual"><scope>XML_RPC_Values</scope><name>$message</name></member>
+      <member refid="class_c_i___xmlrpc_1a12661b2fc0f57f97e30a1620889ce9c6" prot="public" virt="non-virtual"><scope>XML_RPC_Values</scope><name>$method</name></member>
+      <member refid="class_x_m_l___r_p_c___values_1a49afa471d90298c2a53fb4dba2b099bf" prot="public" virt="non-virtual"><scope>XML_RPC_Values</scope><name>$mytype</name></member>
+      <member refid="class_c_i___xmlrpc_1af4b6fb1bbc77ccc05f10da3b16935b99" prot="public" virt="non-virtual"><scope>XML_RPC_Values</scope><name>$response</name></member>
+      <member refid="class_c_i___xmlrpc_1a112ef069ddc0454086e3d1e6d8d55d07" prot="public" virt="non-virtual"><scope>XML_RPC_Values</scope><name>$result</name></member>
+      <member refid="class_c_i___xmlrpc_1a801945a338a9dee5f723c00cb71657b7" prot="public" virt="non-virtual"><scope>XML_RPC_Values</scope><name>$valid_parents</name></member>
+      <member refid="class_c_i___xmlrpc_1a2bfcef776e3e3cd8f7700e375c6ccaec" prot="public" virt="non-virtual"><scope>XML_RPC_Values</scope><name>$xmlrpc_backslash</name></member>
+      <member refid="class_c_i___xmlrpc_1a7a31af447cebbb81b1f3c5581cd90d5a" prot="public" virt="non-virtual"><scope>XML_RPC_Values</scope><name>$xmlrpc_defencoding</name></member>
+      <member refid="class_c_i___xmlrpc_1aedecd71f2438e9a44a8f5a1dc73f4c7a" prot="public" virt="non-virtual"><scope>XML_RPC_Values</scope><name>$xmlrpcArray</name></member>
+      <member refid="class_c_i___xmlrpc_1a95dc3164d1c3e1fdaf7185095fb376ae" prot="public" virt="non-virtual"><scope>XML_RPC_Values</scope><name>$xmlrpcBase64</name></member>
+      <member refid="class_c_i___xmlrpc_1abb241cb9cac2595c7ef28106808ec438" prot="public" virt="non-virtual"><scope>XML_RPC_Values</scope><name>$xmlrpcBoolean</name></member>
+      <member refid="class_c_i___xmlrpc_1ad0ef2c8353643b73afe4636a5fb84cff" prot="public" virt="non-virtual"><scope>XML_RPC_Values</scope><name>$xmlrpcDateTime</name></member>
+      <member refid="class_c_i___xmlrpc_1aa412c6bea7572d0e508b5ef9d2213db3" prot="public" virt="non-virtual"><scope>XML_RPC_Values</scope><name>$xmlrpcDouble</name></member>
+      <member refid="class_c_i___xmlrpc_1a915a90a791db11a94f665567d2f5ad01" prot="public" virt="non-virtual"><scope>XML_RPC_Values</scope><name>$xmlrpcerr</name></member>
+      <member refid="class_c_i___xmlrpc_1a45bf41f1e861f94e04f463a638e5abf5" prot="public" virt="non-virtual"><scope>XML_RPC_Values</scope><name>$xmlrpcerruser</name></member>
+      <member refid="class_c_i___xmlrpc_1af2500be600bfad88988409e6ff64c01c" prot="public" virt="non-virtual"><scope>XML_RPC_Values</scope><name>$xmlrpcerrxml</name></member>
+      <member refid="class_c_i___xmlrpc_1a4d41d61a02c60406c56254f0988b8141" prot="public" virt="non-virtual"><scope>XML_RPC_Values</scope><name>$xmlrpcI4</name></member>
+      <member refid="class_c_i___xmlrpc_1a1bf451bf41226cf1702f54fa46b041f2" prot="public" virt="non-virtual"><scope>XML_RPC_Values</scope><name>$xmlrpcInt</name></member>
+      <member refid="class_c_i___xmlrpc_1a1311a8891b845bf89b1bc459d54a6312" prot="public" virt="non-virtual"><scope>XML_RPC_Values</scope><name>$xmlrpcName</name></member>
+      <member refid="class_c_i___xmlrpc_1a89bbdd6a565dd3af2378b44fc5f156a0" prot="public" virt="non-virtual"><scope>XML_RPC_Values</scope><name>$xmlrpcstr</name></member>
+      <member refid="class_c_i___xmlrpc_1a69f8b2c87014597d1f5509ec934ceeea" prot="public" virt="non-virtual"><scope>XML_RPC_Values</scope><name>$xmlrpcString</name></member>
+      <member refid="class_c_i___xmlrpc_1a9a499285050ed5c867eec71854231f01" prot="public" virt="non-virtual"><scope>XML_RPC_Values</scope><name>$xmlrpcStruct</name></member>
+      <member refid="class_c_i___xmlrpc_1a2b937e1ca5ee8495f0251a74222cec64" prot="public" virt="non-virtual"><scope>XML_RPC_Values</scope><name>$xmlrpcTypes</name></member>
+      <member refid="class_c_i___xmlrpc_1a4130f55bb1f23dcabf9cf3ae5f5a746d" prot="public" virt="non-virtual"><scope>XML_RPC_Values</scope><name>$xmlrpcVersion</name></member>
+      <member refid="class_c_i___xmlrpc_1a0f2ee8861c0b3164a5c6e126dd98c0cc" prot="public" virt="non-virtual"><scope>XML_RPC_Values</scope><name>$xss_clean</name></member>
+      <member refid="class_x_m_l___r_p_c___values_1af3d459d43acf9109a9604d02b12ccf44" prot="public" virt="non-virtual"><scope>XML_RPC_Values</scope><name>__construct</name></member>
+      <member refid="class_c_i___xmlrpc_1af7f9493844d2d66e924e3c1df51ce616" prot="public" virt="non-virtual" ambiguityscope="CI_Xmlrpc::"><scope>XML_RPC_Values</scope><name>__construct</name></member>
+      <member refid="class_x_m_l___r_p_c___values_1a2081e6a72b7e1c15f8c1dbcdfa673d4c" prot="public" virt="non-virtual"><scope>XML_RPC_Values</scope><name>addArray</name></member>
+      <member refid="class_x_m_l___r_p_c___values_1ac847166eee63ab7bfaa8b0e22ae19430" prot="public" virt="non-virtual"><scope>XML_RPC_Values</scope><name>addScalar</name></member>
+      <member refid="class_x_m_l___r_p_c___values_1a5dbdf0121566791a201cd07a3de15531" prot="public" virt="non-virtual"><scope>XML_RPC_Values</scope><name>addStruct</name></member>
+      <member refid="class_c_i___xmlrpc_1adf0d809d39e17bc0e08387436db31386" prot="public" virt="non-virtual"><scope>XML_RPC_Values</scope><name>display_error</name></member>
+      <member refid="class_c_i___xmlrpc_1a3a8aedc2a1e6a67ad248dc6078ce8614" prot="public" virt="non-virtual"><scope>XML_RPC_Values</scope><name>display_response</name></member>
+      <member refid="class_c_i___xmlrpc_1a481385e36d920f5a5005ace05c6cd016" prot="public" virt="non-virtual"><scope>XML_RPC_Values</scope><name>initialize</name></member>
+      <member refid="class_x_m_l___r_p_c___values_1a7da53e4f2dcd98cc2024a938bcd79873" prot="public" virt="non-virtual"><scope>XML_RPC_Values</scope><name>iso8601_encode</name></member>
+      <member refid="class_x_m_l___r_p_c___values_1a3b169c364729cee2afdccadef5229f80" prot="public" virt="non-virtual"><scope>XML_RPC_Values</scope><name>kindOf</name></member>
+      <member refid="class_c_i___xmlrpc_1a3d7e090549ec52eba8cf65598eefa72c" prot="public" virt="non-virtual"><scope>XML_RPC_Values</scope><name>method</name></member>
+      <member refid="class_c_i___xmlrpc_1a10d4ec842c61f2301ecccc900500e4c8" prot="public" virt="non-virtual"><scope>XML_RPC_Values</scope><name>request</name></member>
+      <member refid="class_x_m_l___r_p_c___values_1ac9a3751dc2d5479f409d0a4683c37d26" prot="public" virt="non-virtual"><scope>XML_RPC_Values</scope><name>scalarval</name></member>
+      <member refid="class_c_i___xmlrpc_1a024ae8a44e09995c6d0b6cb50d8abd9a" prot="public" virt="non-virtual"><scope>XML_RPC_Values</scope><name>send_error_message</name></member>
+      <member refid="class_c_i___xmlrpc_1ad6f2431aec35ca073f3bdac3f0e8c66a" prot="public" virt="non-virtual"><scope>XML_RPC_Values</scope><name>send_request</name></member>
+      <member refid="class_c_i___xmlrpc_1ac567feb54a4bda4cad24ff63d09267a1" prot="public" virt="non-virtual"><scope>XML_RPC_Values</scope><name>send_response</name></member>
+      <member refid="class_x_m_l___r_p_c___values_1a59df3d3c8fbb47a946d6a29f0b3c8e0c" prot="public" virt="non-virtual"><scope>XML_RPC_Values</scope><name>serialize_class</name></member>
+      <member refid="class_x_m_l___r_p_c___values_1a7058e00e310218c447d3c9fea0ee0a3d" prot="public" virt="non-virtual"><scope>XML_RPC_Values</scope><name>serializedata</name></member>
+      <member refid="class_x_m_l___r_p_c___values_1a1a4bfc79985c185745d96ebe3a1e5c3d" prot="public" virt="non-virtual"><scope>XML_RPC_Values</scope><name>serializeval</name></member>
+      <member refid="class_c_i___xmlrpc_1a73157f1025c772bfa2c8c710aea1ae1f" prot="public" virt="non-virtual"><scope>XML_RPC_Values</scope><name>server</name></member>
+      <member refid="class_c_i___xmlrpc_1a277e289843ab2ff13a12441e1dd5cd37" prot="public" virt="non-virtual"><scope>XML_RPC_Values</scope><name>set_debug</name></member>
+      <member refid="class_c_i___xmlrpc_1ada3149e6290a7991c7dfc88c6c90f2db" prot="public" virt="non-virtual"><scope>XML_RPC_Values</scope><name>timeout</name></member>
+      <member refid="class_c_i___xmlrpc_1a544761a56ec064427da119066ddbc3ce" prot="public" virt="non-virtual"><scope>XML_RPC_Values</scope><name>values_parsing</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

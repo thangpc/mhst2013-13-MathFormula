@@ -1,0 +1,812 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_c_i___session" kind="class" prot="public">
+    <compoundname>CI_Session</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_c_i___session_1a6d32af5e9bd9b9105ae0820ed8a09495" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$sess_encrypt_cookie</definition>
+        <argsstring></argsstring>
+        <name>$sess_encrypt_cookie</name>
+        <initializer>= FALSE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" line="29" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___session_1a98c035e4010a1f494b146d950d7f41a3" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$sess_use_database</definition>
+        <argsstring></argsstring>
+        <name>$sess_use_database</name>
+        <initializer>= FALSE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" line="30" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___session_1ac02cd771521df3c8c52675a63097cf8f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$sess_table_name</definition>
+        <argsstring></argsstring>
+        <name>$sess_table_name</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" line="31" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___session_1a3ef0fc3196a5fc8415939b69d158a488" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$sess_expiration</definition>
+        <argsstring></argsstring>
+        <name>$sess_expiration</name>
+        <initializer>= 7200</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" line="32" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" bodystart="32" bodyend="-1"/>
+        <referencedby refid="class_c_i___session_1acda34aabaf23a1a90ef8cc1711a92078" compoundref="_session_8php" startline="756" endline="773">_sess_gc</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___session_1abd220b00e9d36c1e3296f9ddef681f01" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$sess_expire_on_close</definition>
+        <argsstring></argsstring>
+        <name>$sess_expire_on_close</name>
+        <initializer>= FALSE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" line="33" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___session_1ac87480ccf2a450d6ef69dead9c7b01bb" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$sess_match_ip</definition>
+        <argsstring></argsstring>
+        <name>$sess_match_ip</name>
+        <initializer>= FALSE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" line="34" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___session_1a2026f3075cd8256329189662923c1f34" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$sess_match_useragent</definition>
+        <argsstring></argsstring>
+        <name>$sess_match_useragent</name>
+        <initializer>= TRUE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" line="35" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___session_1a7e2872972d8eef9294738fd18e054fbb" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$sess_cookie_name</definition>
+        <argsstring></argsstring>
+        <name>$sess_cookie_name</name>
+        <initializer>= &apos;ci_session&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" line="36" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___session_1ada115919bde6b8248b4326b5fbd8a618" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$cookie_prefix</definition>
+        <argsstring></argsstring>
+        <name>$cookie_prefix</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" line="37" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___session_1a306f5cca27534399088154892069210c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$cookie_path</definition>
+        <argsstring></argsstring>
+        <name>$cookie_path</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" line="38" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___session_1abec6ae06ad5526172520fb1ccb7c6806" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$cookie_domain</definition>
+        <argsstring></argsstring>
+        <name>$cookie_domain</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" line="39" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___session_1a34b1dc25271af52f269a649392ce8d43" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$cookie_secure</definition>
+        <argsstring></argsstring>
+        <name>$cookie_secure</name>
+        <initializer>= FALSE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" line="40" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___session_1aa1487c597a0e2b1d804802a75878dd8f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$sess_time_to_update</definition>
+        <argsstring></argsstring>
+        <name>$sess_time_to_update</name>
+        <initializer>= 300</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" line="41" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___session_1a35bbf76a5bcca90ca9b39368ed28121c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$encryption_key</definition>
+        <argsstring></argsstring>
+        <name>$encryption_key</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" line="42" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___session_1afaa74f7303193b2ca2452540c3fd45ff" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$flashdata_key</definition>
+        <argsstring></argsstring>
+        <name>$flashdata_key</name>
+        <initializer>= &apos;flash&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" line="43" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" bodystart="43" bodyend="-1"/>
+        <referencedby refid="class_c_i___session_1a00227f8b40e21cce8905a9ae7b73e151" compoundref="_session_8php" startline="514" endline="529">set_flashdata</referencedby>
+        <referencedby refid="class_c_i___session_1a6a8a92e8b35ab1ba980f64d8d0af298b" compoundref="_session_8php" startline="562" endline="566">flashdata</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___session_1ae76ac08d6f71ee519ff2f723489edbad" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$time_reference</definition>
+        <argsstring></argsstring>
+        <name>$time_reference</name>
+        <initializer>= &apos;time&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" line="44" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___session_1a96b09cc763572f45280786a7b33feb7e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$gc_probability</definition>
+        <argsstring></argsstring>
+        <name>$gc_probability</name>
+        <initializer>= 5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" line="45" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___session_1af70e594e86a310311c717b13e6ecac00" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$userdata</definition>
+        <argsstring></argsstring>
+        <name>$userdata</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" line="46" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" bodystart="46" bodyend="-1"/>
+        <referencedby refid="class_c_i___session_1acd5ba33f5ff68a7c9ee9d1d8f0d8a237" compoundref="_session_8php" startline="253" endline="295">sess_write</referencedby>
+        <referencedby refid="class_c_i___session_1a974fa60ddc074b14ffcc78ef9902bc5c" compoundref="_session_8php" startline="444" endline="447">all_userdata</referencedby>
+        <referencedby refid="class_c_i___session_1add8c0608531c88bf75a9b2e82341163e" compoundref="_session_8php" startline="577" endline="590">_flashdata_mark</referencedby>
+        <referencedby refid="class_c_i___session_1a4f5465cfc2f0dae836bfcc489d96d33e" compoundref="_session_8php" startline="601" endline="612">_flashdata_sweep</referencedby>
+        <referencedby refid="class_c_i___session_1a28a4132f8380d6426f83c0aaeaa3c3f0" compoundref="_session_8php" startline="645" endline="676">_set_cookie</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___session_1ae0314d046ddf7fcfaec03222977427d3" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$CI</definition>
+        <argsstring></argsstring>
+        <name>$CI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" line="47" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___session_1af1d5ccdee975b8f4d20aaffc5b28557c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$now</definition>
+        <argsstring></argsstring>
+        <name>$now</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" line="48" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" bodystart="48" bodyend="-1"/>
+        <referencedby refid="class_c_i___session_1a333d608511ddfdee6717a8d474ff111f" compoundref="_session_8php" startline="343" endline="389">sess_update</referencedby>
+        <referencedby refid="class_c_i___session_1a8593101bdc7969d31743d6d432dad908" compoundref="_session_8php" startline="622" endline="635">_get_time</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_i___session_1a568ecdb0d73d2a870f33189739922a50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>($params=array())</argsstring>
+        <name>__construct</name>
+        <param>
+          <declname>$params</declname>
+          <defval>array()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Session Constructor</para><para>The constructor runs the session routines automatically whenever the class is instantiated. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" line="56" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" bodystart="56" bodyend="125"/>
+        <references refid="_code_igniter_8php_1a185483844bd20a0e80955460d66d2199" compoundref="_code_igniter_8php" startline="231" endline="398">get_instance</references>
+        <references refid="class_c_i___session_1a8593101bdc7969d31743d6d432dad908" compoundref="_session_8php" startline="622" endline="635">_get_time</references>
+        <references refid="class_c_i___session_1ae5ba2069165f9af1c729d0573137d95a" compoundref="_session_8php" startline="135" endline="243">sess_read</references>
+        <references refid="class_c_i___session_1af210b7940693f8bbe707c5e3051f2e6c" compoundref="_session_8php" startline="305" endline="333">sess_create</references>
+        <references refid="class_c_i___session_1a333d608511ddfdee6717a8d474ff111f" compoundref="_session_8php" startline="343" endline="389">sess_update</references>
+        <references refid="class_c_i___session_1a4f5465cfc2f0dae836bfcc489d96d33e" compoundref="_session_8php" startline="601" endline="612">_flashdata_sweep</references>
+        <references refid="class_c_i___session_1add8c0608531c88bf75a9b2e82341163e" compoundref="_session_8php" startline="577" endline="590">_flashdata_mark</references>
+        <references refid="class_c_i___session_1acda34aabaf23a1a90ef8cc1711a92078" compoundref="_session_8php" startline="756" endline="773">_sess_gc</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___session_1ae5ba2069165f9af1c729d0573137d95a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>sess_read</definition>
+        <argsstring>()</argsstring>
+        <name>sess_read</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fetch the current session data if it exists</para><para>public <simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" line="135" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" bodystart="135" bodyend="243"/>
+        <references refid="class_c_i___session_1a9451d1625c402b8d712aedaa5ebc752d" compoundref="_session_8php" startline="399" endline="420">sess_destroy</references>
+        <references refid="class_c_i___session_1ae7f6b0450269815736585abc087fee7b" compoundref="_session_8php" startline="725" endline="743">_unserialize</references>
+        <references refid="class_c_i___session_1a234cc3c1e955a6da95092107cb2a8ac6" compoundref="_session_8php" startline="431" endline="434">userdata</references>
+        <referencedby refid="class_c_i___session_1a568ecdb0d73d2a870f33189739922a50" compoundref="_session_8php" startline="56" endline="125">__construct</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___session_1acd5ba33f5ff68a7c9ee9d1d8f0d8a237" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>sess_write</definition>
+        <argsstring>()</argsstring>
+        <name>sess_write</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Write the session data</para><para>public <simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" line="253" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" bodystart="253" bodyend="295"/>
+        <references refid="class_c_i___session_1a28a4132f8380d6426f83c0aaeaa3c3f0" compoundref="_session_8php" startline="645" endline="676">_set_cookie</references>
+        <references refid="class_c_i___session_1af70e594e86a310311c717b13e6ecac00" compoundref="_session_8php" startline="46">$userdata</references>
+        <references refid="class_c_i___session_1a234cc3c1e955a6da95092107cb2a8ac6" compoundref="_session_8php" startline="431" endline="434">userdata</references>
+        <references refid="class_c_i___session_1a0adebf4d7ba21c19cba8c90e8319bf3a" compoundref="_session_8php" startline="690" endline="711">_serialize</references>
+        <referencedby refid="class_c_i___session_1aa2116dc78b715fb8f5f7234deba8cf79" compoundref="_session_8php" startline="459" endline="475">set_userdata</referencedby>
+        <referencedby refid="class_c_i___session_1a57e126e7c8c9081641cf7642cb7e0e83" compoundref="_session_8php" startline="485" endline="501">unset_userdata</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___session_1af210b7940693f8bbe707c5e3051f2e6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>sess_create</definition>
+        <argsstring>()</argsstring>
+        <name>sess_create</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a new session</para><para>public <simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" line="305" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" bodystart="305" bodyend="333"/>
+        <references refid="class_c_i___session_1a234cc3c1e955a6da95092107cb2a8ac6" compoundref="_session_8php" startline="431" endline="434">userdata</references>
+        <references refid="class_c_i___session_1a28a4132f8380d6426f83c0aaeaa3c3f0" compoundref="_session_8php" startline="645" endline="676">_set_cookie</references>
+        <referencedby refid="class_c_i___session_1a568ecdb0d73d2a870f33189739922a50" compoundref="_session_8php" startline="56" endline="125">__construct</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___session_1a333d608511ddfdee6717a8d474ff111f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>sess_update</definition>
+        <argsstring>()</argsstring>
+        <name>sess_update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Update an existing session</para><para>public <simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" line="343" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" bodystart="343" bodyend="389"/>
+        <references refid="class_c_i___session_1a234cc3c1e955a6da95092107cb2a8ac6" compoundref="_session_8php" startline="431" endline="434">userdata</references>
+        <references refid="class_c_i___session_1af1d5ccdee975b8f4d20aaffc5b28557c" compoundref="_session_8php" startline="48">$now</references>
+        <references refid="class_c_i___session_1a28a4132f8380d6426f83c0aaeaa3c3f0" compoundref="_session_8php" startline="645" endline="676">_set_cookie</references>
+        <referencedby refid="class_c_i___session_1a568ecdb0d73d2a870f33189739922a50" compoundref="_session_8php" startline="56" endline="125">__construct</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___session_1a9451d1625c402b8d712aedaa5ebc752d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>sess_destroy</definition>
+        <argsstring>()</argsstring>
+        <name>sess_destroy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Destroy the current session</para><para>public <simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" line="399" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" bodystart="399" bodyend="420"/>
+        <references refid="class_c_i___session_1a234cc3c1e955a6da95092107cb2a8ac6" compoundref="_session_8php" startline="431" endline="434">userdata</references>
+        <referencedby refid="class_c_i___session_1ae5ba2069165f9af1c729d0573137d95a" compoundref="_session_8php" startline="135" endline="243">sess_read</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___session_1a234cc3c1e955a6da95092107cb2a8ac6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>userdata</definition>
+        <argsstring>($item)</argsstring>
+        <name>userdata</name>
+        <param>
+          <declname>$item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fetch a specific item from the session array</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" line="431" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" bodystart="431" bodyend="434"/>
+        <referencedby refid="class_c_i___session_1ae5ba2069165f9af1c729d0573137d95a" compoundref="_session_8php" startline="135" endline="243">sess_read</referencedby>
+        <referencedby refid="class_c_i___session_1acd5ba33f5ff68a7c9ee9d1d8f0d8a237" compoundref="_session_8php" startline="253" endline="295">sess_write</referencedby>
+        <referencedby refid="class_c_i___session_1af210b7940693f8bbe707c5e3051f2e6c" compoundref="_session_8php" startline="305" endline="333">sess_create</referencedby>
+        <referencedby refid="class_c_i___session_1a333d608511ddfdee6717a8d474ff111f" compoundref="_session_8php" startline="343" endline="389">sess_update</referencedby>
+        <referencedby refid="class_c_i___session_1a9451d1625c402b8d712aedaa5ebc752d" compoundref="_session_8php" startline="399" endline="420">sess_destroy</referencedby>
+        <referencedby refid="class_c_i___session_1aa2116dc78b715fb8f5f7234deba8cf79" compoundref="_session_8php" startline="459" endline="475">set_userdata</referencedby>
+        <referencedby refid="class_c_i___session_1a57e126e7c8c9081641cf7642cb7e0e83" compoundref="_session_8php" startline="485" endline="501">unset_userdata</referencedby>
+        <referencedby refid="class_c_i___session_1a1e25514ba8dbd132db06cbedc6412158" compoundref="_session_8php" startline="540" endline="551">keep_flashdata</referencedby>
+        <referencedby refid="class_c_i___session_1a6a8a92e8b35ab1ba980f64d8d0af298b" compoundref="_session_8php" startline="562" endline="566">flashdata</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___session_1a974fa60ddc074b14ffcc78ef9902bc5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>all_userdata</definition>
+        <argsstring>()</argsstring>
+        <name>all_userdata</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fetch all session data</para><para>public <simplesect kind="return"><para>array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" line="444" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" bodystart="444" bodyend="447"/>
+        <references refid="class_c_i___session_1af70e594e86a310311c717b13e6ecac00" compoundref="_session_8php" startline="46">$userdata</references>
+        <referencedby refid="class_c_i___session_1add8c0608531c88bf75a9b2e82341163e" compoundref="_session_8php" startline="577" endline="590">_flashdata_mark</referencedby>
+        <referencedby refid="class_c_i___session_1a4f5465cfc2f0dae836bfcc489d96d33e" compoundref="_session_8php" startline="601" endline="612">_flashdata_sweep</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___session_1aa2116dc78b715fb8f5f7234deba8cf79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>set_userdata</definition>
+        <argsstring>($newdata=array(), $newval= &apos;&apos;)</argsstring>
+        <name>set_userdata</name>
+        <param>
+          <declname>$newdata</declname>
+          <defval>array()</defval>
+        </param>
+        <param>
+          <declname>$newval</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add or change data in the &quot;userdata&quot; array</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mixed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" line="459" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" bodystart="459" bodyend="475"/>
+        <references refid="class_c_i___session_1a234cc3c1e955a6da95092107cb2a8ac6" compoundref="_session_8php" startline="431" endline="434">userdata</references>
+        <references refid="class_c_i___session_1acd5ba33f5ff68a7c9ee9d1d8f0d8a237" compoundref="_session_8php" startline="253" endline="295">sess_write</references>
+        <referencedby refid="class_c_i___session_1a00227f8b40e21cce8905a9ae7b73e151" compoundref="_session_8php" startline="514" endline="529">set_flashdata</referencedby>
+        <referencedby refid="class_c_i___session_1a1e25514ba8dbd132db06cbedc6412158" compoundref="_session_8php" startline="540" endline="551">keep_flashdata</referencedby>
+        <referencedby refid="class_c_i___session_1add8c0608531c88bf75a9b2e82341163e" compoundref="_session_8php" startline="577" endline="590">_flashdata_mark</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___session_1a57e126e7c8c9081641cf7642cb7e0e83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>unset_userdata</definition>
+        <argsstring>($newdata=array())</argsstring>
+        <name>unset_userdata</name>
+        <param>
+          <declname>$newdata</declname>
+          <defval>array()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Delete a session variable from the &quot;userdata&quot; array</para><para>array <simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" line="485" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" bodystart="485" bodyend="501"/>
+        <references refid="class_c_i___session_1a234cc3c1e955a6da95092107cb2a8ac6" compoundref="_session_8php" startline="431" endline="434">userdata</references>
+        <references refid="class_c_i___session_1acd5ba33f5ff68a7c9ee9d1d8f0d8a237" compoundref="_session_8php" startline="253" endline="295">sess_write</references>
+        <referencedby refid="class_c_i___session_1add8c0608531c88bf75a9b2e82341163e" compoundref="_session_8php" startline="577" endline="590">_flashdata_mark</referencedby>
+        <referencedby refid="class_c_i___session_1a4f5465cfc2f0dae836bfcc489d96d33e" compoundref="_session_8php" startline="601" endline="612">_flashdata_sweep</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___session_1a00227f8b40e21cce8905a9ae7b73e151" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>set_flashdata</definition>
+        <argsstring>($newdata=array(), $newval= &apos;&apos;)</argsstring>
+        <name>set_flashdata</name>
+        <param>
+          <declname>$newdata</declname>
+          <defval>array()</defval>
+        </param>
+        <param>
+          <declname>$newval</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add or change flashdata, only available until the next request</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mixed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" line="514" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" bodystart="514" bodyend="529"/>
+        <references refid="class_c_i___session_1afaa74f7303193b2ca2452540c3fd45ff" compoundref="_session_8php" startline="43">$flashdata_key</references>
+        <references refid="class_c_i___session_1aa2116dc78b715fb8f5f7234deba8cf79" compoundref="_session_8php" startline="459" endline="475">set_userdata</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___session_1a1e25514ba8dbd132db06cbedc6412158" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>keep_flashdata</definition>
+        <argsstring>($key)</argsstring>
+        <name>keep_flashdata</name>
+        <param>
+          <declname>$key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Keeps existing flashdata available to next request.</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" line="540" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" bodystart="540" bodyend="551"/>
+        <references refid="class_c_i___session_1a234cc3c1e955a6da95092107cb2a8ac6" compoundref="_session_8php" startline="431" endline="434">userdata</references>
+        <references refid="class_c_i___session_1aa2116dc78b715fb8f5f7234deba8cf79" compoundref="_session_8php" startline="459" endline="475">set_userdata</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___session_1a6a8a92e8b35ab1ba980f64d8d0af298b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>flashdata</definition>
+        <argsstring>($key)</argsstring>
+        <name>flashdata</name>
+        <param>
+          <declname>$key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fetch a specific flashdata item from the session array</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" line="562" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" bodystart="562" bodyend="566"/>
+        <references refid="class_c_i___session_1afaa74f7303193b2ca2452540c3fd45ff" compoundref="_session_8php" startline="43">$flashdata_key</references>
+        <references refid="class_c_i___session_1a234cc3c1e955a6da95092107cb2a8ac6" compoundref="_session_8php" startline="431" endline="434">userdata</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___session_1add8c0608531c88bf75a9b2e82341163e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_flashdata_mark</definition>
+        <argsstring>()</argsstring>
+        <name>_flashdata_mark</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Identifies flashdata as &apos;old&apos; for removal when <ref refid="class_c_i___session_1a4f5465cfc2f0dae836bfcc489d96d33e" kindref="member">_flashdata_sweep()</ref> runs.</para><para>private <simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" line="577" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" bodystart="577" bodyend="590"/>
+        <references refid="class_c_i___session_1af70e594e86a310311c717b13e6ecac00" compoundref="_session_8php" startline="46">$userdata</references>
+        <references refid="class_c_i___session_1a974fa60ddc074b14ffcc78ef9902bc5c" compoundref="_session_8php" startline="444" endline="447">all_userdata</references>
+        <references refid="class_c_i___session_1aa2116dc78b715fb8f5f7234deba8cf79" compoundref="_session_8php" startline="459" endline="475">set_userdata</references>
+        <references refid="class_c_i___session_1a57e126e7c8c9081641cf7642cb7e0e83" compoundref="_session_8php" startline="485" endline="501">unset_userdata</references>
+        <referencedby refid="class_c_i___session_1a568ecdb0d73d2a870f33189739922a50" compoundref="_session_8php" startline="56" endline="125">__construct</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___session_1a4f5465cfc2f0dae836bfcc489d96d33e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_flashdata_sweep</definition>
+        <argsstring>()</argsstring>
+        <name>_flashdata_sweep</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes all flashdata marked as &apos;old&apos;</para><para>private <simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" line="601" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" bodystart="601" bodyend="612"/>
+        <references refid="class_c_i___session_1af70e594e86a310311c717b13e6ecac00" compoundref="_session_8php" startline="46">$userdata</references>
+        <references refid="class_c_i___session_1a974fa60ddc074b14ffcc78ef9902bc5c" compoundref="_session_8php" startline="444" endline="447">all_userdata</references>
+        <references refid="class_c_i___session_1a57e126e7c8c9081641cf7642cb7e0e83" compoundref="_session_8php" startline="485" endline="501">unset_userdata</references>
+        <referencedby refid="class_c_i___session_1a568ecdb0d73d2a870f33189739922a50" compoundref="_session_8php" startline="56" endline="125">__construct</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___session_1a8593101bdc7969d31743d6d432dad908" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_get_time</definition>
+        <argsstring>()</argsstring>
+        <name>_get_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the &quot;now&quot; time</para><para>private <simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" line="622" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" bodystart="622" bodyend="635"/>
+        <references refid="class_c_i___session_1af1d5ccdee975b8f4d20aaffc5b28557c" compoundref="_session_8php" startline="48">$now</references>
+        <referencedby refid="class_c_i___session_1a568ecdb0d73d2a870f33189739922a50" compoundref="_session_8php" startline="56" endline="125">__construct</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___session_1a28a4132f8380d6426f83c0aaeaa3c3f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_set_cookie</definition>
+        <argsstring>($cookie_data=NULL)</argsstring>
+        <name>_set_cookie</name>
+        <param>
+          <declname>$cookie_data</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Write the session cookie</para><para>public <simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" line="645" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" bodystart="645" bodyend="676"/>
+        <references refid="class_c_i___session_1af70e594e86a310311c717b13e6ecac00" compoundref="_session_8php" startline="46">$userdata</references>
+        <references refid="class_c_i___session_1a0adebf4d7ba21c19cba8c90e8319bf3a" compoundref="_session_8php" startline="690" endline="711">_serialize</references>
+        <referencedby refid="class_c_i___session_1acd5ba33f5ff68a7c9ee9d1d8f0d8a237" compoundref="_session_8php" startline="253" endline="295">sess_write</referencedby>
+        <referencedby refid="class_c_i___session_1af210b7940693f8bbe707c5e3051f2e6c" compoundref="_session_8php" startline="305" endline="333">sess_create</referencedby>
+        <referencedby refid="class_c_i___session_1a333d608511ddfdee6717a8d474ff111f" compoundref="_session_8php" startline="343" endline="389">sess_update</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___session_1a0adebf4d7ba21c19cba8c90e8319bf3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_serialize</definition>
+        <argsstring>($data)</argsstring>
+        <name>_serialize</name>
+        <param>
+          <declname>$data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Serialize an array</para><para>This function first converts any slashes found in the array to a temporary marker, so when it gets unserialized the slashes will be preserved</para><para>private <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" line="690" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" bodystart="690" bodyend="711"/>
+        <referencedby refid="class_c_i___session_1acd5ba33f5ff68a7c9ee9d1d8f0d8a237" compoundref="_session_8php" startline="253" endline="295">sess_write</referencedby>
+        <referencedby refid="class_c_i___session_1a28a4132f8380d6426f83c0aaeaa3c3f0" compoundref="_session_8php" startline="645" endline="676">_set_cookie</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___session_1ae7f6b0450269815736585abc087fee7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_unserialize</definition>
+        <argsstring>($data)</argsstring>
+        <name>_unserialize</name>
+        <param>
+          <declname>$data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Unserialize</para><para>This function unserializes a data string, then converts any temporary slash markers back to actual slashes</para><para>private <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" line="725" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" bodystart="725" bodyend="743"/>
+        <referencedby refid="class_c_i___session_1ae5ba2069165f9af1c729d0573137d95a" compoundref="_session_8php" startline="135" endline="243">sess_read</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___session_1acda34aabaf23a1a90ef8cc1711a92078" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_sess_gc</definition>
+        <argsstring>()</argsstring>
+        <name>_sess_gc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Garbage collection</para><para>This deletes expired session rows from database if the probability percentage is met</para><para>public <simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" line="756" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" bodystart="756" bodyend="773"/>
+        <references refid="class_c_i___session_1a3ef0fc3196a5fc8415939b69d158a488" compoundref="_session_8php" startline="32">$sess_expiration</references>
+        <referencedby refid="class_c_i___session_1a568ecdb0d73d2a870f33189739922a50" compoundref="_session_8php" startline="56" endline="125">__construct</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" line="27" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Session.php" bodystart="27" bodyend="776"/>
+    <listofallmembers>
+      <member refid="class_c_i___session_1ae0314d046ddf7fcfaec03222977427d3" prot="public" virt="non-virtual"><scope>CI_Session</scope><name>$CI</name></member>
+      <member refid="class_c_i___session_1abec6ae06ad5526172520fb1ccb7c6806" prot="public" virt="non-virtual"><scope>CI_Session</scope><name>$cookie_domain</name></member>
+      <member refid="class_c_i___session_1a306f5cca27534399088154892069210c" prot="public" virt="non-virtual"><scope>CI_Session</scope><name>$cookie_path</name></member>
+      <member refid="class_c_i___session_1ada115919bde6b8248b4326b5fbd8a618" prot="public" virt="non-virtual"><scope>CI_Session</scope><name>$cookie_prefix</name></member>
+      <member refid="class_c_i___session_1a34b1dc25271af52f269a649392ce8d43" prot="public" virt="non-virtual"><scope>CI_Session</scope><name>$cookie_secure</name></member>
+      <member refid="class_c_i___session_1a35bbf76a5bcca90ca9b39368ed28121c" prot="public" virt="non-virtual"><scope>CI_Session</scope><name>$encryption_key</name></member>
+      <member refid="class_c_i___session_1afaa74f7303193b2ca2452540c3fd45ff" prot="public" virt="non-virtual"><scope>CI_Session</scope><name>$flashdata_key</name></member>
+      <member refid="class_c_i___session_1a96b09cc763572f45280786a7b33feb7e" prot="public" virt="non-virtual"><scope>CI_Session</scope><name>$gc_probability</name></member>
+      <member refid="class_c_i___session_1af1d5ccdee975b8f4d20aaffc5b28557c" prot="public" virt="non-virtual"><scope>CI_Session</scope><name>$now</name></member>
+      <member refid="class_c_i___session_1a7e2872972d8eef9294738fd18e054fbb" prot="public" virt="non-virtual"><scope>CI_Session</scope><name>$sess_cookie_name</name></member>
+      <member refid="class_c_i___session_1a6d32af5e9bd9b9105ae0820ed8a09495" prot="public" virt="non-virtual"><scope>CI_Session</scope><name>$sess_encrypt_cookie</name></member>
+      <member refid="class_c_i___session_1a3ef0fc3196a5fc8415939b69d158a488" prot="public" virt="non-virtual"><scope>CI_Session</scope><name>$sess_expiration</name></member>
+      <member refid="class_c_i___session_1abd220b00e9d36c1e3296f9ddef681f01" prot="public" virt="non-virtual"><scope>CI_Session</scope><name>$sess_expire_on_close</name></member>
+      <member refid="class_c_i___session_1ac87480ccf2a450d6ef69dead9c7b01bb" prot="public" virt="non-virtual"><scope>CI_Session</scope><name>$sess_match_ip</name></member>
+      <member refid="class_c_i___session_1a2026f3075cd8256329189662923c1f34" prot="public" virt="non-virtual"><scope>CI_Session</scope><name>$sess_match_useragent</name></member>
+      <member refid="class_c_i___session_1ac02cd771521df3c8c52675a63097cf8f" prot="public" virt="non-virtual"><scope>CI_Session</scope><name>$sess_table_name</name></member>
+      <member refid="class_c_i___session_1aa1487c597a0e2b1d804802a75878dd8f" prot="public" virt="non-virtual"><scope>CI_Session</scope><name>$sess_time_to_update</name></member>
+      <member refid="class_c_i___session_1a98c035e4010a1f494b146d950d7f41a3" prot="public" virt="non-virtual"><scope>CI_Session</scope><name>$sess_use_database</name></member>
+      <member refid="class_c_i___session_1ae76ac08d6f71ee519ff2f723489edbad" prot="public" virt="non-virtual"><scope>CI_Session</scope><name>$time_reference</name></member>
+      <member refid="class_c_i___session_1af70e594e86a310311c717b13e6ecac00" prot="public" virt="non-virtual"><scope>CI_Session</scope><name>$userdata</name></member>
+      <member refid="class_c_i___session_1a568ecdb0d73d2a870f33189739922a50" prot="public" virt="non-virtual"><scope>CI_Session</scope><name>__construct</name></member>
+      <member refid="class_c_i___session_1add8c0608531c88bf75a9b2e82341163e" prot="public" virt="non-virtual"><scope>CI_Session</scope><name>_flashdata_mark</name></member>
+      <member refid="class_c_i___session_1a4f5465cfc2f0dae836bfcc489d96d33e" prot="public" virt="non-virtual"><scope>CI_Session</scope><name>_flashdata_sweep</name></member>
+      <member refid="class_c_i___session_1a8593101bdc7969d31743d6d432dad908" prot="public" virt="non-virtual"><scope>CI_Session</scope><name>_get_time</name></member>
+      <member refid="class_c_i___session_1a0adebf4d7ba21c19cba8c90e8319bf3a" prot="public" virt="non-virtual"><scope>CI_Session</scope><name>_serialize</name></member>
+      <member refid="class_c_i___session_1acda34aabaf23a1a90ef8cc1711a92078" prot="public" virt="non-virtual"><scope>CI_Session</scope><name>_sess_gc</name></member>
+      <member refid="class_c_i___session_1a28a4132f8380d6426f83c0aaeaa3c3f0" prot="public" virt="non-virtual"><scope>CI_Session</scope><name>_set_cookie</name></member>
+      <member refid="class_c_i___session_1ae7f6b0450269815736585abc087fee7b" prot="public" virt="non-virtual"><scope>CI_Session</scope><name>_unserialize</name></member>
+      <member refid="class_c_i___session_1a974fa60ddc074b14ffcc78ef9902bc5c" prot="public" virt="non-virtual"><scope>CI_Session</scope><name>all_userdata</name></member>
+      <member refid="class_c_i___session_1a6a8a92e8b35ab1ba980f64d8d0af298b" prot="public" virt="non-virtual"><scope>CI_Session</scope><name>flashdata</name></member>
+      <member refid="class_c_i___session_1a1e25514ba8dbd132db06cbedc6412158" prot="public" virt="non-virtual"><scope>CI_Session</scope><name>keep_flashdata</name></member>
+      <member refid="class_c_i___session_1af210b7940693f8bbe707c5e3051f2e6c" prot="public" virt="non-virtual"><scope>CI_Session</scope><name>sess_create</name></member>
+      <member refid="class_c_i___session_1a9451d1625c402b8d712aedaa5ebc752d" prot="public" virt="non-virtual"><scope>CI_Session</scope><name>sess_destroy</name></member>
+      <member refid="class_c_i___session_1ae5ba2069165f9af1c729d0573137d95a" prot="public" virt="non-virtual"><scope>CI_Session</scope><name>sess_read</name></member>
+      <member refid="class_c_i___session_1a333d608511ddfdee6717a8d474ff111f" prot="public" virt="non-virtual"><scope>CI_Session</scope><name>sess_update</name></member>
+      <member refid="class_c_i___session_1acd5ba33f5ff68a7c9ee9d1d8f0d8a237" prot="public" virt="non-virtual"><scope>CI_Session</scope><name>sess_write</name></member>
+      <member refid="class_c_i___session_1a00227f8b40e21cce8905a9ae7b73e151" prot="public" virt="non-virtual"><scope>CI_Session</scope><name>set_flashdata</name></member>
+      <member refid="class_c_i___session_1aa2116dc78b715fb8f5f7234deba8cf79" prot="public" virt="non-virtual"><scope>CI_Session</scope><name>set_userdata</name></member>
+      <member refid="class_c_i___session_1a57e126e7c8c9081641cf7642cb7e0e83" prot="public" virt="non-virtual"><scope>CI_Session</scope><name>unset_userdata</name></member>
+      <member refid="class_c_i___session_1a234cc3c1e955a6da95092107cb2a8ac6" prot="public" virt="non-virtual"><scope>CI_Session</scope><name>userdata</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

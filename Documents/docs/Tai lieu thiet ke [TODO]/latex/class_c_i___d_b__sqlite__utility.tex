@@ -1,0 +1,120 @@
+\section{C\-I\-\_\-\-D\-B\-\_\-sqlite\-\_\-utility Class Reference}
+\label{class_c_i___d_b__sqlite__utility}\index{C\-I\-\_\-\-D\-B\-\_\-sqlite\-\_\-utility@{C\-I\-\_\-\-D\-B\-\_\-sqlite\-\_\-utility}}
+Inheritance diagram for C\-I\-\_\-\-D\-B\-\_\-sqlite\-\_\-utility\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_c_i___d_b__sqlite__utility}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf \-\_\-list\-\_\-databases} ()
+\item 
+{\bf \-\_\-optimize\-\_\-table} (\$table)
+\item 
+{\bf \-\_\-repair\-\_\-table} (\$table)
+\item 
+{\bf \-\_\-backup} (\$params=array())
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 25 of file sqlite\-\_\-utility.\-php.
+
+
+
+\subsection{Member Function Documentation}
+\index{C\-I\-\_\-\-D\-B\-\_\-sqlite\-\_\-utility@{C\-I\-\_\-\-D\-B\-\_\-sqlite\-\_\-utility}!\-\_\-backup@{\-\_\-backup}}
+\index{\-\_\-backup@{\-\_\-backup}!CI_DB_sqlite_utility@{C\-I\-\_\-\-D\-B\-\_\-sqlite\-\_\-utility}}
+\subsubsection[{\-\_\-backup}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-backup (
+\begin{DoxyParamCaption}
+\item[{}]{\$params = {\ttfamily array()}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__sqlite__utility_a30f3053d2c82e7562349924363507afa}
+S\-Q\-Lite Export
+
+private 
+\begin{DoxyParams}{Parameters}
+{\em array} & Preferences \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+
+
+Definition at line 88 of file sqlite\-\_\-utility.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-sqlite\-\_\-utility@{C\-I\-\_\-\-D\-B\-\_\-sqlite\-\_\-utility}!\-\_\-list\-\_\-databases@{\-\_\-list\-\_\-databases}}
+\index{\-\_\-list\-\_\-databases@{\-\_\-list\-\_\-databases}!CI_DB_sqlite_utility@{C\-I\-\_\-\-D\-B\-\_\-sqlite\-\_\-utility}}
+\subsubsection[{\-\_\-list\-\_\-databases}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-list\-\_\-databases (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__sqlite__utility_aa047e69a7e732ca7280270f87f82bb3a}
+List databases
+
+I don't believe you can do a database listing with S\-Q\-Lite since each database is its own file. I suppose we could try reading a directory looking for S\-Q\-Lite files, but that doesn't seem like a terribly good idea
+
+private \begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 38 of file sqlite\-\_\-utility.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-sqlite\-\_\-utility@{C\-I\-\_\-\-D\-B\-\_\-sqlite\-\_\-utility}!\-\_\-optimize\-\_\-table@{\-\_\-optimize\-\_\-table}}
+\index{\-\_\-optimize\-\_\-table@{\-\_\-optimize\-\_\-table}!CI_DB_sqlite_utility@{C\-I\-\_\-\-D\-B\-\_\-sqlite\-\_\-utility}}
+\subsubsection[{\-\_\-optimize\-\_\-table}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-optimize\-\_\-table (
+\begin{DoxyParamCaption}
+\item[{}]{\$table}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__sqlite__utility_a4856292816fbbc8e9d927f565766727b}
+Optimize table query
+
+Is optimization even supported in S\-Q\-Lite?
+
+private 
+\begin{DoxyParams}{Parameters}
+{\em string} & the table name \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+object 
+\end{DoxyReturn}
+
+
+Definition at line 58 of file sqlite\-\_\-utility.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-sqlite\-\_\-utility@{C\-I\-\_\-\-D\-B\-\_\-sqlite\-\_\-utility}!\-\_\-repair\-\_\-table@{\-\_\-repair\-\_\-table}}
+\index{\-\_\-repair\-\_\-table@{\-\_\-repair\-\_\-table}!CI_DB_sqlite_utility@{C\-I\-\_\-\-D\-B\-\_\-sqlite\-\_\-utility}}
+\subsubsection[{\-\_\-repair\-\_\-table}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-repair\-\_\-table (
+\begin{DoxyParamCaption}
+\item[{}]{\$table}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__sqlite__utility_a7f40d4a3d78917e455e315cf708842ef}
+Repair table query
+
+Are table repairs even supported in S\-Q\-Lite?
+
+private 
+\begin{DoxyParams}{Parameters}
+{\em string} & the table name \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+object 
+\end{DoxyReturn}
+
+
+Definition at line 74 of file sqlite\-\_\-utility.\-php.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+system/database/drivers/sqlite/{\bf sqlite\-\_\-utility.\-php}\end{DoxyCompactItemize}

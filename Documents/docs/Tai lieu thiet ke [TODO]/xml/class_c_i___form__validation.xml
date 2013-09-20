@@ -1,0 +1,1498 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_c_i___form__validation" kind="class" prot="public">
+    <compoundname>CI_Form_validation</compoundname>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_c_i___form__validation_1ae0314d046ddf7fcfaec03222977427d3" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$CI</definition>
+        <argsstring></argsstring>
+        <name>$CI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" line="29" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___form__validation_1a8263493b8d14294371f1f157ea632df5" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$_field_data</definition>
+        <argsstring></argsstring>
+        <name>$_field_data</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" line="30" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___form__validation_1aa1b63acebe8880c36ea51e11a57eb0d3" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$_config_rules</definition>
+        <argsstring></argsstring>
+        <name>$_config_rules</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" line="31" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___form__validation_1a50e8f829178352ca2ea7777cb491b7f8" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$_error_array</definition>
+        <argsstring></argsstring>
+        <name>$_error_array</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" line="32" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___form__validation_1a04bf2e3e86d96dde4d4353c053b81473" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$_error_messages</definition>
+        <argsstring></argsstring>
+        <name>$_error_messages</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" line="33" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___form__validation_1ad4e512c18b95689885fcee10b5489901" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$_error_prefix</definition>
+        <argsstring></argsstring>
+        <name>$_error_prefix</name>
+        <initializer>= &apos;&lt;<ref refid="jquery_8min_8js_1ad1707b001240e9c8298830073364c8bf" kindref="member">p</ref>&gt;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" line="34" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" bodystart="34" bodyend="-1"/>
+        <referencedby refid="class_c_i___form__validation_1acf78c6bd8181779486407f1c4ef12c30" compoundref="_form__validation_8php" startline="208" endline="226">error</referencedby>
+        <referencedby refid="class_c_i___form__validation_1a583ab6b5d353cca33fdd076c364dbdf3" compoundref="_form__validation_8php" startline="240" endline="269">error_string</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___form__validation_1ab5c737026065a0b4c7bdd5414eec6a6d" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$_error_suffix</definition>
+        <argsstring></argsstring>
+        <name>$_error_suffix</name>
+        <initializer>= &apos;&lt;/<ref refid="jquery_8min_8js_1ad1707b001240e9c8298830073364c8bf" kindref="member">p</ref>&gt;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" line="35" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" bodystart="35" bodyend="-1"/>
+        <referencedby refid="class_c_i___form__validation_1acf78c6bd8181779486407f1c4ef12c30" compoundref="_form__validation_8php" startline="208" endline="226">error</referencedby>
+        <referencedby refid="class_c_i___form__validation_1a583ab6b5d353cca33fdd076c364dbdf3" compoundref="_form__validation_8php" startline="240" endline="269">error_string</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___form__validation_1a22323b47b58139586ed855d04138d212" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$error_string</definition>
+        <argsstring></argsstring>
+        <name>$error_string</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" line="36" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___form__validation_1ad767d36cd2cc57999044f0a94a0e470f" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$_safe_form_data</definition>
+        <argsstring></argsstring>
+        <name>$_safe_form_data</name>
+        <initializer>= FALSE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" line="37" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_i___form__validation_1ac7224a1f92da249b312d1400c459ba83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>($rules=array())</argsstring>
+        <name>__construct</name>
+        <param>
+          <declname>$rules</declname>
+          <defval>array()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" line="42" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" bodystart="42" bodyend="59"/>
+        <references refid="_code_igniter_8php_1a185483844bd20a0e80955460d66d2199" compoundref="_code_igniter_8php" startline="231" endline="398">get_instance</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___form__validation_1ae9436b60fedfb89ec1888b355e3ef3a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>set_rules</definition>
+        <argsstring>($field, $label= &apos;&apos;, $rules= &apos;&apos;)</argsstring>
+        <name>set_rules</name>
+        <param>
+          <declname>$field</declname>
+        </param>
+        <param>
+          <declname>$label</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$rules</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set Rules</para><para>This function takes an array of field names and validation rules as input, validates the info, and stores it</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mixed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" line="74" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" bodystart="74" bodyend="150"/>
+        <referencedby refid="class_c_i___form__validation_1adf7a41dbb03750328e510ad6c703c085" compoundref="_form__validation_8php" startline="281" endline="363">run</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___form__validation_1a09634765920fbb178a76fcf9690e0e86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>set_message</definition>
+        <argsstring>($lang, $val= &apos;&apos;)</argsstring>
+        <name>set_message</name>
+        <param>
+          <declname>$lang</declname>
+        </param>
+        <param>
+          <declname>$val</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set Error Message</para><para>Lets users set their own error messages on the fly. Note: The key name has to match the function name that it corresponds to.</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" line="165" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" bodystart="165" bodyend="175"/>
+        <references refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" compoundref="calendar__lang_8php" startline="3">$lang</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___form__validation_1af8f2dc3325362faef29ccf64b7f3fb27" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>set_error_delimiters</definition>
+        <argsstring>($prefix= &apos;&lt; p &gt;&apos;, $suffix= &apos;&lt;/p &gt;&apos;)</argsstring>
+        <name>set_error_delimiters</name>
+        <param>
+          <declname>$prefix</declname>
+          <defval>&apos;&lt; <ref refid="jquery_8min_8js_1ad1707b001240e9c8298830073364c8bf" kindref="member">p</ref> &gt;&apos;</defval>
+        </param>
+        <param>
+          <declname>$suffix</declname>
+          <defval>&apos;&lt;/<ref refid="jquery_8min_8js_1ad1707b001240e9c8298830073364c8bf" kindref="member">p</ref> &gt;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set The Error Delimiter</para><para>Permits a prefix/suffix to be added to each error message</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" line="189" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" bodystart="189" bodyend="195"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___form__validation_1acf78c6bd8181779486407f1c4ef12c30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>error</definition>
+        <argsstring>($field= &apos;&apos;, $prefix= &apos;&apos;, $suffix= &apos;&apos;)</argsstring>
+        <name>error</name>
+        <param>
+          <declname>$field</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$prefix</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$suffix</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get Error Message</para><para>Gets the error message associated with a particular field</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the field name </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" line="208" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" bodystart="208" bodyend="226"/>
+        <references refid="class_c_i___form__validation_1ad4e512c18b95689885fcee10b5489901" compoundref="_form__validation_8php" startline="34">$_error_prefix</references>
+        <references refid="class_c_i___form__validation_1ab5c737026065a0b4c7bdd5414eec6a6d" compoundref="_form__validation_8php" startline="35">$_error_suffix</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___form__validation_1a583ab6b5d353cca33fdd076c364dbdf3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>error_string</definition>
+        <argsstring>($prefix= &apos;&apos;, $suffix= &apos;&apos;)</argsstring>
+        <name>error_string</name>
+        <param>
+          <declname>$prefix</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$suffix</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Error String</para><para>Returns the error messages as a string, wrapped in the error delimiters</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>str </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" line="240" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" bodystart="240" bodyend="269"/>
+        <references refid="class_c_i___form__validation_1ad4e512c18b95689885fcee10b5489901" compoundref="_form__validation_8php" startline="34">$_error_prefix</references>
+        <references refid="class_c_i___form__validation_1ab5c737026065a0b4c7bdd5414eec6a6d" compoundref="_form__validation_8php" startline="35">$_error_suffix</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___form__validation_1adf7a41dbb03750328e510ad6c703c085" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>run</definition>
+        <argsstring>($group= &apos;&apos;)</argsstring>
+        <name>run</name>
+        <param>
+          <declname>$group</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Run the Validator</para><para>This function does all the work.</para><para>public <simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" line="281" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" bodystart="281" bodyend="363"/>
+        <references refid="class_c_i___form__validation_1ae9436b60fedfb89ec1888b355e3ef3a6" compoundref="_form__validation_8php" startline="74" endline="150">set_rules</references>
+        <references refid="class_c_i___form__validation_1a20ed7e44a35f5a5f6db5a6b220151df0" compoundref="_form__validation_8php" startline="376" endline="398">_reduce_array</references>
+        <references refid="class_c_i___form__validation_1a00fc7d98650d07098dd4a13b486c3dea" compoundref="_form__validation_8php" startline="470" endline="686">_execute</references>
+        <references refid="class_c_i___form__validation_1a5cb72e21d23a62d15655b8caaa493698" compoundref="_form__validation_8php" startline="408" endline="456">_reset_post_array</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___form__validation_1aaa70eb02beedeae55d7cfb37462f23a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>set_value</definition>
+        <argsstring>($field= &apos;&apos;, $default= &apos;&apos;)</argsstring>
+        <name>set_value</name>
+        <param>
+          <declname>$field</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$default</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the value from a form</para><para>Permits you to repopulate a form field with the value it was submitted with, or, if that value doesn&apos;t exist, with the default</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the field name </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" line="729" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" bodystart="729" bodyend="744"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___form__validation_1ac404077526153c2c3330cb00e47affd7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>set_select</definition>
+        <argsstring>($field= &apos;&apos;, $value= &apos;&apos;, $default=FALSE)</argsstring>
+        <name>set_select</name>
+        <param>
+          <declname>$field</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$value</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$default</declname>
+          <defval>FALSE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set Select</para><para>Enables pull-down lists to be set to the value the user selected in the event of an error</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" line="759" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" bodystart="759" bodyend="788"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___form__validation_1a3f76b822a246401c16949c8066dfea3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>set_radio</definition>
+        <argsstring>($field= &apos;&apos;, $value= &apos;&apos;, $default=FALSE)</argsstring>
+        <name>set_radio</name>
+        <param>
+          <declname>$field</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$value</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$default</declname>
+          <defval>FALSE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set Radio</para><para>Enables radio buttons to be set to the value the user selected in the event of an error</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" line="803" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" bodystart="803" bodyend="832"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___form__validation_1a1fe43ad49fc07563737e50922c90492b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>set_checkbox</definition>
+        <argsstring>($field= &apos;&apos;, $value= &apos;&apos;, $default=FALSE)</argsstring>
+        <name>set_checkbox</name>
+        <param>
+          <declname>$field</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$value</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$default</declname>
+          <defval>FALSE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set Checkbox</para><para>Enables checkboxes to be set to the value the user selected in the event of an error</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" line="847" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" bodystart="847" bodyend="876"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___form__validation_1ada72eadfd041118d5f429a93dd0de07e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>required</definition>
+        <argsstring>($str)</argsstring>
+        <name>required</name>
+        <param>
+          <declname>$str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Required</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" line="887" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" bodystart="887" bodyend="897"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___form__validation_1acef19e29276dbdd2c69dffd5ec635600" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>regex_match</definition>
+        <argsstring>($str, $regex)</argsstring>
+        <name>regex_match</name>
+        <param>
+          <declname>$str</declname>
+        </param>
+        <param>
+          <declname>$regex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Performs a Regular Expression match test.</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>regex</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" line="909" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" bodystart="909" bodyend="917"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___form__validation_1aefdd25116835b684a2ab9ce6ef58d38c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>matches</definition>
+        <argsstring>($str, $field)</argsstring>
+        <name>matches</name>
+        <param>
+          <declname>$str</declname>
+        </param>
+        <param>
+          <declname>$field</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Match one field to another</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>field</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" line="929" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" bodystart="929" bodyend="939"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___form__validation_1a1a5ee6b60f419248ca8796444aea3a78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>is_unique</definition>
+        <argsstring>($str, $field)</argsstring>
+        <name>is_unique</name>
+        <param>
+          <declname>$str</declname>
+        </param>
+        <param>
+          <declname>$field</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Match one field to another</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>field</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" line="951" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" bodystart="951" bodyend="957"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___form__validation_1a63a166f35fed88ec433fd2a37ec5ae90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>min_length</definition>
+        <argsstring>($str, $val)</argsstring>
+        <name>min_length</name>
+        <param>
+          <declname>$str</declname>
+        </param>
+        <param>
+          <declname>$val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Minimum Length</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" line="969" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" bodystart="969" bodyend="982"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___form__validation_1a0896e538dd761148e6b3dfb0e033d344" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>max_length</definition>
+        <argsstring>($str, $val)</argsstring>
+        <name>max_length</name>
+        <param>
+          <declname>$str</declname>
+        </param>
+        <param>
+          <declname>$val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Max Length</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" line="994" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" bodystart="994" bodyend="1007"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___form__validation_1a126edde2bb0ce82d7a202e340a61de9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>exact_length</definition>
+        <argsstring>($str, $val)</argsstring>
+        <name>exact_length</name>
+        <param>
+          <declname>$str</declname>
+        </param>
+        <param>
+          <declname>$val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Exact Length</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" line="1019" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" bodystart="1019" bodyend="1032"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___form__validation_1af7d43edae9c6e388390176b3c62de140" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>valid_email</definition>
+        <argsstring>($str)</argsstring>
+        <name>valid_email</name>
+        <param>
+          <declname>$str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Valid Email</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" line="1043" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" bodystart="1043" bodyend="1046"/>
+        <referencedby refid="class_c_i___form__validation_1a7692019b59978c17621e3920823621c4" compoundref="_form__validation_8php" startline="1057" endline="1073">valid_emails</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___form__validation_1a7692019b59978c17621e3920823621c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>valid_emails</definition>
+        <argsstring>($str)</argsstring>
+        <name>valid_emails</name>
+        <param>
+          <declname>$str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Valid Emails</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" line="1057" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" bodystart="1057" bodyend="1073"/>
+        <references refid="class_c_i___form__validation_1af7d43edae9c6e388390176b3c62de140" compoundref="_form__validation_8php" startline="1043" endline="1046">valid_email</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___form__validation_1a2adf8f23c98fcdafdc7588f874db4c4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>valid_ip</definition>
+        <argsstring>($ip, $which= &apos;&apos;)</argsstring>
+        <name>valid_ip</name>
+        <param>
+          <declname>$ip</declname>
+        </param>
+        <param>
+          <declname>$which</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Validate IP Address</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>&quot;ipv4&quot; or &quot;ipv6&quot; to validate a specific ip format </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" line="1085" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" bodystart="1085" bodyend="1088"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___form__validation_1a4784b18b432005bec36cdf437353ec76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>alpha</definition>
+        <argsstring>($str)</argsstring>
+        <name>alpha</name>
+        <param>
+          <declname>$str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Alpha</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" line="1099" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" bodystart="1099" bodyend="1102"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___form__validation_1aa3b561d437be2774b1a6850ada97024a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>alpha_numeric</definition>
+        <argsstring>($str)</argsstring>
+        <name>alpha_numeric</name>
+        <param>
+          <declname>$str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Alpha-numeric</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" line="1113" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" bodystart="1113" bodyend="1116"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___form__validation_1a4d1ca92bb78369923e57b2f6aca58c70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>alpha_dash</definition>
+        <argsstring>($str)</argsstring>
+        <name>alpha_dash</name>
+        <param>
+          <declname>$str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Alpha-numeric with underscores and dashes</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" line="1127" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" bodystart="1127" bodyend="1130"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___form__validation_1a058a2b065a28a929956630238d5bf5bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>numeric</definition>
+        <argsstring>($str)</argsstring>
+        <name>numeric</name>
+        <param>
+          <declname>$str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Numeric</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" line="1141" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" bodystart="1141" bodyend="1145"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___form__validation_1af3c765884a08debf97c40b4ef9ffd8c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>is_numeric</definition>
+        <argsstring>($str)</argsstring>
+        <name>is_numeric</name>
+        <param>
+          <declname>$str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Is Numeric</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" line="1156" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" bodystart="1156" bodyend="1159"/>
+        <referencedby refid="class_c_i___form__validation_1a8dd73c5e1d6880a650bb41e1ec6ee2f4" compoundref="_form__validation_8php" startline="1198" endline="1205">greater_than</referencedby>
+        <referencedby refid="class_c_i___form__validation_1a4f5222d1cc44e64ce520d94358f25291" compoundref="_form__validation_8php" startline="1216" endline="1223">less_than</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___form__validation_1af1c6586c2e80ccbb28b09803c3b5461c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>integer</definition>
+        <argsstring>($str)</argsstring>
+        <name>integer</name>
+        <param>
+          <declname>$str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Integer</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" line="1170" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" bodystart="1170" bodyend="1173"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___form__validation_1af460b7c2f8d785b7472329446c600f31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>decimal</definition>
+        <argsstring>($str)</argsstring>
+        <name>decimal</name>
+        <param>
+          <declname>$str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decimal number</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" line="1184" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" bodystart="1184" bodyend="1187"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___form__validation_1a8dd73c5e1d6880a650bb41e1ec6ee2f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>greater_than</definition>
+        <argsstring>($str, $min)</argsstring>
+        <name>greater_than</name>
+        <param>
+          <declname>$str</declname>
+        </param>
+        <param>
+          <declname>$min</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Greather than</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" line="1198" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" bodystart="1198" bodyend="1205"/>
+        <references refid="class_c_i___form__validation_1af3c765884a08debf97c40b4ef9ffd8c0" compoundref="_form__validation_8php" startline="1156" endline="1159">is_numeric</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___form__validation_1a4f5222d1cc44e64ce520d94358f25291" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>less_than</definition>
+        <argsstring>($str, $max)</argsstring>
+        <name>less_than</name>
+        <param>
+          <declname>$str</declname>
+        </param>
+        <param>
+          <declname>$max</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Less than</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" line="1216" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" bodystart="1216" bodyend="1223"/>
+        <references refid="class_c_i___form__validation_1af3c765884a08debf97c40b4ef9ffd8c0" compoundref="_form__validation_8php" startline="1156" endline="1159">is_numeric</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___form__validation_1aaf9d0b9bdaaef3658a78dd6a01629e5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>is_natural</definition>
+        <argsstring>($str)</argsstring>
+        <name>is_natural</name>
+        <param>
+          <declname>$str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Is a Natural number (0,1,2,3, etc.)</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" line="1234" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" bodystart="1234" bodyend="1237"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___form__validation_1ae4f399db6305e565bcf9acd70eea86a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>is_natural_no_zero</definition>
+        <argsstring>($str)</argsstring>
+        <name>is_natural_no_zero</name>
+        <param>
+          <declname>$str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Is a Natural number, but not a zero (1,2,3, etc.)</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" line="1248" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" bodystart="1248" bodyend="1261"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___form__validation_1a9bec2f0a508e0327d4b048ecfc204522" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>valid_base64</definition>
+        <argsstring>($str)</argsstring>
+        <name>valid_base64</name>
+        <param>
+          <declname>$str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Valid Base64</para><para>Tests a string for characters outside of the Base64 alphabet as defined by RFC 2045 <ulink url="http://www.faqs.org/rfcs/rfc2045">http://www.faqs.org/rfcs/rfc2045</ulink></para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" line="1275" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" bodystart="1275" bodyend="1278"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___form__validation_1a964633906e543eeb7851e78f1ed26da8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>prep_for_form</definition>
+        <argsstring>($data= &apos;&apos;)</argsstring>
+        <name>prep_for_form</name>
+        <param>
+          <declname>$data</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Prep data for form</para><para>This function allows HTML to be safely shown in a form. Special characters are converted.</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" line="1292" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" bodystart="1292" bodyend="1310"/>
+        <referencedby refid="class_c_i___form__validation_1a5cb72e21d23a62d15655b8caaa493698" compoundref="_form__validation_8php" startline="408" endline="456">_reset_post_array</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___form__validation_1aa781d9b3c62b5e2803da073e926dca42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>prep_url</definition>
+        <argsstring>($str= &apos;&apos;)</argsstring>
+        <name>prep_url</name>
+        <param>
+          <declname>$str</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Prep URL</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" line="1321" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" bodystart="1321" bodyend="1334"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___form__validation_1abb836a42971c7bc641588db779c6ab1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>strip_image_tags</definition>
+        <argsstring>($str)</argsstring>
+        <name>strip_image_tags</name>
+        <param>
+          <declname>$str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Strip Image Tags</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" line="1345" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" bodystart="1345" bodyend="1348"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___form__validation_1abaca42462f9a4fb50e0eca55678e51e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>xss_clean</definition>
+        <argsstring>($str)</argsstring>
+        <name>xss_clean</name>
+        <param>
+          <declname>$str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>XSS Clean</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" line="1359" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" bodystart="1359" bodyend="1362"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___form__validation_1ae8fff4cb083a2a66c900f8bd61216bdd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>encode_php_tags</definition>
+        <argsstring>($str)</argsstring>
+        <name>encode_php_tags</name>
+        <param>
+          <declname>$str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert PHP tags to entities</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" line="1373" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" bodystart="1373" bodyend="1376"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_c_i___form__validation_1a20ed7e44a35f5a5f6db5a6b220151df0" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_reduce_array</definition>
+        <argsstring>($array, $keys, $i=0)</argsstring>
+        <name>_reduce_array</name>
+        <param>
+          <declname>$array</declname>
+        </param>
+        <param>
+          <declname>$keys</declname>
+        </param>
+        <param>
+          <declname>$i</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Traverse a multidimensional $_POST array index until the data is found</para><para>private <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>integer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" line="376" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" bodystart="376" bodyend="398"/>
+        <referencedby refid="class_c_i___form__validation_1adf7a41dbb03750328e510ad6c703c085" compoundref="_form__validation_8php" startline="281" endline="363">run</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___form__validation_1a5cb72e21d23a62d15655b8caaa493698" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_reset_post_array</definition>
+        <argsstring>()</argsstring>
+        <name>_reset_post_array</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Re-populate the _POST array with our finalized and processed data</para><para>private <simplesect kind="return"><para>null </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" line="408" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" bodystart="408" bodyend="456"/>
+        <references refid="class_c_i___form__validation_1a964633906e543eeb7851e78f1ed26da8" compoundref="_form__validation_8php" startline="1292" endline="1310">prep_for_form</references>
+        <referencedby refid="class_c_i___form__validation_1adf7a41dbb03750328e510ad6c703c085" compoundref="_form__validation_8php" startline="281" endline="363">run</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___form__validation_1a00fc7d98650d07098dd4a13b486c3dea" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_execute</definition>
+        <argsstring>($row, $rules, $postdata=NULL, $cycles=0)</argsstring>
+        <name>_execute</name>
+        <param>
+          <declname>$row</declname>
+        </param>
+        <param>
+          <declname>$rules</declname>
+        </param>
+        <param>
+          <declname>$postdata</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <declname>$cycles</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Executes the Validation routines</para><para>private <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mixed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>integer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" line="470" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" bodystart="470" bodyend="686"/>
+        <references refid="class_c_i___form__validation_1ae6b1edc93754376c05622d905845c215" compoundref="_form__validation_8php" startline="697" endline="714">_translate_fieldname</references>
+        <referencedby refid="class_c_i___form__validation_1adf7a41dbb03750328e510ad6c703c085" compoundref="_form__validation_8php" startline="281" endline="363">run</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___form__validation_1ae6b1edc93754376c05622d905845c215" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_translate_fieldname</definition>
+        <argsstring>($fieldname)</argsstring>
+        <name>_translate_fieldname</name>
+        <param>
+          <declname>$fieldname</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Translate a field name</para><para>private <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the field name </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" line="697" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" bodystart="697" bodyend="714"/>
+        <referencedby refid="class_c_i___form__validation_1a00fc7d98650d07098dd4a13b486c3dea" compoundref="_form__validation_8php" startline="470" endline="686">_execute</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" line="27" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Form_validation.php" bodystart="27" bodyend="1378"/>
+    <listofallmembers>
+      <member refid="class_c_i___form__validation_1aa1b63acebe8880c36ea51e11a57eb0d3" prot="protected" virt="non-virtual"><scope>CI_Form_validation</scope><name>$_config_rules</name></member>
+      <member refid="class_c_i___form__validation_1a50e8f829178352ca2ea7777cb491b7f8" prot="protected" virt="non-virtual"><scope>CI_Form_validation</scope><name>$_error_array</name></member>
+      <member refid="class_c_i___form__validation_1a04bf2e3e86d96dde4d4353c053b81473" prot="protected" virt="non-virtual"><scope>CI_Form_validation</scope><name>$_error_messages</name></member>
+      <member refid="class_c_i___form__validation_1ad4e512c18b95689885fcee10b5489901" prot="protected" virt="non-virtual"><scope>CI_Form_validation</scope><name>$_error_prefix</name></member>
+      <member refid="class_c_i___form__validation_1ab5c737026065a0b4c7bdd5414eec6a6d" prot="protected" virt="non-virtual"><scope>CI_Form_validation</scope><name>$_error_suffix</name></member>
+      <member refid="class_c_i___form__validation_1a8263493b8d14294371f1f157ea632df5" prot="protected" virt="non-virtual"><scope>CI_Form_validation</scope><name>$_field_data</name></member>
+      <member refid="class_c_i___form__validation_1ad767d36cd2cc57999044f0a94a0e470f" prot="protected" virt="non-virtual"><scope>CI_Form_validation</scope><name>$_safe_form_data</name></member>
+      <member refid="class_c_i___form__validation_1ae0314d046ddf7fcfaec03222977427d3" prot="protected" virt="non-virtual"><scope>CI_Form_validation</scope><name>$CI</name></member>
+      <member refid="class_c_i___form__validation_1a22323b47b58139586ed855d04138d212" prot="protected" virt="non-virtual"><scope>CI_Form_validation</scope><name>$error_string</name></member>
+      <member refid="class_c_i___form__validation_1ac7224a1f92da249b312d1400c459ba83" prot="public" virt="non-virtual"><scope>CI_Form_validation</scope><name>__construct</name></member>
+      <member refid="class_c_i___form__validation_1a00fc7d98650d07098dd4a13b486c3dea" prot="protected" virt="non-virtual"><scope>CI_Form_validation</scope><name>_execute</name></member>
+      <member refid="class_c_i___form__validation_1a20ed7e44a35f5a5f6db5a6b220151df0" prot="protected" virt="non-virtual"><scope>CI_Form_validation</scope><name>_reduce_array</name></member>
+      <member refid="class_c_i___form__validation_1a5cb72e21d23a62d15655b8caaa493698" prot="protected" virt="non-virtual"><scope>CI_Form_validation</scope><name>_reset_post_array</name></member>
+      <member refid="class_c_i___form__validation_1ae6b1edc93754376c05622d905845c215" prot="protected" virt="non-virtual"><scope>CI_Form_validation</scope><name>_translate_fieldname</name></member>
+      <member refid="class_c_i___form__validation_1a4784b18b432005bec36cdf437353ec76" prot="public" virt="non-virtual"><scope>CI_Form_validation</scope><name>alpha</name></member>
+      <member refid="class_c_i___form__validation_1a4d1ca92bb78369923e57b2f6aca58c70" prot="public" virt="non-virtual"><scope>CI_Form_validation</scope><name>alpha_dash</name></member>
+      <member refid="class_c_i___form__validation_1aa3b561d437be2774b1a6850ada97024a" prot="public" virt="non-virtual"><scope>CI_Form_validation</scope><name>alpha_numeric</name></member>
+      <member refid="class_c_i___form__validation_1af460b7c2f8d785b7472329446c600f31" prot="public" virt="non-virtual"><scope>CI_Form_validation</scope><name>decimal</name></member>
+      <member refid="class_c_i___form__validation_1ae8fff4cb083a2a66c900f8bd61216bdd" prot="public" virt="non-virtual"><scope>CI_Form_validation</scope><name>encode_php_tags</name></member>
+      <member refid="class_c_i___form__validation_1acf78c6bd8181779486407f1c4ef12c30" prot="public" virt="non-virtual"><scope>CI_Form_validation</scope><name>error</name></member>
+      <member refid="class_c_i___form__validation_1a583ab6b5d353cca33fdd076c364dbdf3" prot="public" virt="non-virtual"><scope>CI_Form_validation</scope><name>error_string</name></member>
+      <member refid="class_c_i___form__validation_1a126edde2bb0ce82d7a202e340a61de9e" prot="public" virt="non-virtual"><scope>CI_Form_validation</scope><name>exact_length</name></member>
+      <member refid="class_c_i___form__validation_1a8dd73c5e1d6880a650bb41e1ec6ee2f4" prot="public" virt="non-virtual"><scope>CI_Form_validation</scope><name>greater_than</name></member>
+      <member refid="class_c_i___form__validation_1af1c6586c2e80ccbb28b09803c3b5461c" prot="public" virt="non-virtual"><scope>CI_Form_validation</scope><name>integer</name></member>
+      <member refid="class_c_i___form__validation_1aaf9d0b9bdaaef3658a78dd6a01629e5d" prot="public" virt="non-virtual"><scope>CI_Form_validation</scope><name>is_natural</name></member>
+      <member refid="class_c_i___form__validation_1ae4f399db6305e565bcf9acd70eea86a6" prot="public" virt="non-virtual"><scope>CI_Form_validation</scope><name>is_natural_no_zero</name></member>
+      <member refid="class_c_i___form__validation_1af3c765884a08debf97c40b4ef9ffd8c0" prot="public" virt="non-virtual"><scope>CI_Form_validation</scope><name>is_numeric</name></member>
+      <member refid="class_c_i___form__validation_1a1a5ee6b60f419248ca8796444aea3a78" prot="public" virt="non-virtual"><scope>CI_Form_validation</scope><name>is_unique</name></member>
+      <member refid="class_c_i___form__validation_1a4f5222d1cc44e64ce520d94358f25291" prot="public" virt="non-virtual"><scope>CI_Form_validation</scope><name>less_than</name></member>
+      <member refid="class_c_i___form__validation_1aefdd25116835b684a2ab9ce6ef58d38c" prot="public" virt="non-virtual"><scope>CI_Form_validation</scope><name>matches</name></member>
+      <member refid="class_c_i___form__validation_1a0896e538dd761148e6b3dfb0e033d344" prot="public" virt="non-virtual"><scope>CI_Form_validation</scope><name>max_length</name></member>
+      <member refid="class_c_i___form__validation_1a63a166f35fed88ec433fd2a37ec5ae90" prot="public" virt="non-virtual"><scope>CI_Form_validation</scope><name>min_length</name></member>
+      <member refid="class_c_i___form__validation_1a058a2b065a28a929956630238d5bf5bb" prot="public" virt="non-virtual"><scope>CI_Form_validation</scope><name>numeric</name></member>
+      <member refid="class_c_i___form__validation_1a964633906e543eeb7851e78f1ed26da8" prot="public" virt="non-virtual"><scope>CI_Form_validation</scope><name>prep_for_form</name></member>
+      <member refid="class_c_i___form__validation_1aa781d9b3c62b5e2803da073e926dca42" prot="public" virt="non-virtual"><scope>CI_Form_validation</scope><name>prep_url</name></member>
+      <member refid="class_c_i___form__validation_1acef19e29276dbdd2c69dffd5ec635600" prot="public" virt="non-virtual"><scope>CI_Form_validation</scope><name>regex_match</name></member>
+      <member refid="class_c_i___form__validation_1ada72eadfd041118d5f429a93dd0de07e" prot="public" virt="non-virtual"><scope>CI_Form_validation</scope><name>required</name></member>
+      <member refid="class_c_i___form__validation_1adf7a41dbb03750328e510ad6c703c085" prot="public" virt="non-virtual"><scope>CI_Form_validation</scope><name>run</name></member>
+      <member refid="class_c_i___form__validation_1a1fe43ad49fc07563737e50922c90492b" prot="public" virt="non-virtual"><scope>CI_Form_validation</scope><name>set_checkbox</name></member>
+      <member refid="class_c_i___form__validation_1af8f2dc3325362faef29ccf64b7f3fb27" prot="public" virt="non-virtual"><scope>CI_Form_validation</scope><name>set_error_delimiters</name></member>
+      <member refid="class_c_i___form__validation_1a09634765920fbb178a76fcf9690e0e86" prot="public" virt="non-virtual"><scope>CI_Form_validation</scope><name>set_message</name></member>
+      <member refid="class_c_i___form__validation_1a3f76b822a246401c16949c8066dfea3c" prot="public" virt="non-virtual"><scope>CI_Form_validation</scope><name>set_radio</name></member>
+      <member refid="class_c_i___form__validation_1ae9436b60fedfb89ec1888b355e3ef3a6" prot="public" virt="non-virtual"><scope>CI_Form_validation</scope><name>set_rules</name></member>
+      <member refid="class_c_i___form__validation_1ac404077526153c2c3330cb00e47affd7" prot="public" virt="non-virtual"><scope>CI_Form_validation</scope><name>set_select</name></member>
+      <member refid="class_c_i___form__validation_1aaa70eb02beedeae55d7cfb37462f23a5" prot="public" virt="non-virtual"><scope>CI_Form_validation</scope><name>set_value</name></member>
+      <member refid="class_c_i___form__validation_1abb836a42971c7bc641588db779c6ab1d" prot="public" virt="non-virtual"><scope>CI_Form_validation</scope><name>strip_image_tags</name></member>
+      <member refid="class_c_i___form__validation_1a9bec2f0a508e0327d4b048ecfc204522" prot="public" virt="non-virtual"><scope>CI_Form_validation</scope><name>valid_base64</name></member>
+      <member refid="class_c_i___form__validation_1af7d43edae9c6e388390176b3c62de140" prot="public" virt="non-virtual"><scope>CI_Form_validation</scope><name>valid_email</name></member>
+      <member refid="class_c_i___form__validation_1a7692019b59978c17621e3920823621c4" prot="public" virt="non-virtual"><scope>CI_Form_validation</scope><name>valid_emails</name></member>
+      <member refid="class_c_i___form__validation_1a2adf8f23c98fcdafdc7588f874db4c4d" prot="public" virt="non-virtual"><scope>CI_Form_validation</scope><name>valid_ip</name></member>
+      <member refid="class_c_i___form__validation_1abaca42462f9a4fb50e0eca55678e51e2" prot="public" virt="non-virtual"><scope>CI_Form_validation</scope><name>xss_clean</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

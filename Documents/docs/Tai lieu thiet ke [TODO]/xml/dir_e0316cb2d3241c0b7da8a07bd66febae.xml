@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_e0316cb2d3241c0b7da8a07bd66febae" kind="dir">
+    <compoundname>system/database/drivers/sqlsrv</compoundname>
+    <innerfile refid="sqlsrv__driver_8php">sqlsrv_driver.php</innerfile>
+    <innerfile refid="sqlsrv__forge_8php">sqlsrv_forge.php</innerfile>
+    <innerfile refid="sqlsrv__result_8php">sqlsrv_result.php</innerfile>
+    <innerfile refid="sqlsrv__utility_8php">sqlsrv_utility.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/sqlsrv/"/>
+  </compounddef>
+</doxygen>

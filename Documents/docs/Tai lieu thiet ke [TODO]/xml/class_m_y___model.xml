@@ -1,0 +1,259 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_m_y___model" kind="class" prot="public">
+    <compoundname>MY_Model</compoundname>
+    <basecompoundref refid="class_c_i___model" prot="public" virt="non-virtual">CI_Model</basecompoundref>
+    <derivedcompoundref refid="class_formular__model" prot="public" virt="non-virtual">Formular_model</derivedcompoundref>
+    <derivedcompoundref refid="class_user__model" prot="public" virt="non-virtual">User_model</derivedcompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_m_y___model_1a90ebc25e748e2696e00b5c5cf3255ee4" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$_table_name</definition>
+        <argsstring></argsstring>
+        <name>$_table_name</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/core/MY_Model.php" line="5" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/core/MY_Model.php" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_m_y___model_1a1befeb0c72587cd2574cd7d1818d66b8" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$_primary_key</definition>
+        <argsstring></argsstring>
+        <name>$_primary_key</name>
+        <initializer>= &apos;id&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/core/MY_Model.php" line="6" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/core/MY_Model.php" bodystart="6" bodyend="-1"/>
+        <referencedby refid="class_m_y___model_1ab8deb57144bc4a1fe191f85b26805460" compoundref="_m_y___model_8php" startline="47" endline="73">save</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_m_y___model_1a46d38cf0c97ee3e0a37dee799457bd14" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$_primary_filter</definition>
+        <argsstring></argsstring>
+        <name>$_primary_filter</name>
+        <initializer>= &apos;intval&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/core/MY_Model.php" line="7" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/core/MY_Model.php" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_m_y___model_1abbfccf1ac0e1d38054ab56a781f63713" compoundref="_m_y___model_8php" startline="17" endline="39">get</referencedby>
+        <referencedby refid="class_m_y___model_1ab8deb57144bc4a1fe191f85b26805460" compoundref="_m_y___model_8php" startline="47" endline="73">save</referencedby>
+        <referencedby refid="class_m_y___model_1a2f8258add505482d7f00ea26493a5723" compoundref="_m_y___model_8php" startline="75" endline="86">delete</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_m_y___model_1a66602db6a52856d08dbd0f2eb34be787" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$_order_by</definition>
+        <argsstring></argsstring>
+        <name>$_order_by</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/core/MY_Model.php" line="8" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/core/MY_Model.php" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_m_y___model_1a2432b65e7e8b8a8328a1c47ab6ca0409" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$_rules</definition>
+        <argsstring></argsstring>
+        <name>$_rules</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/core/MY_Model.php" line="9" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/core/MY_Model.php" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_m_y___model_1aa701f5b72d73b3c5a7516cd6221c60cc" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$_timestamps</definition>
+        <argsstring></argsstring>
+        <name>$_timestamps</name>
+        <initializer>= FALSE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/core/MY_Model.php" line="10" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/core/MY_Model.php" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_m_y___model_1a095c5d389db211932136b53f25f39685" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>()</argsstring>
+        <name>__construct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/core/MY_Model.php" line="12" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/core/MY_Model.php" bodystart="12" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_m_y___model_1abbfccf1ac0e1d38054ab56a781f63713" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>get</definition>
+        <argsstring>($id=NULL, $single=FALSE, $limit=NULL, $start=0)</argsstring>
+        <name>get</name>
+        <param>
+          <declname>$id</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <declname>$single</declname>
+          <defval>FALSE</defval>
+        </param>
+        <param>
+          <declname>$limit</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <declname>$start</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/core/MY_Model.php" line="17" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/core/MY_Model.php" bodystart="17" bodyend="39"/>
+        <references refid="class_m_y___model_1a46d38cf0c97ee3e0a37dee799457bd14" compoundref="_m_y___model_8php" startline="7">$_primary_filter</references>
+        <references refid="_code_igniter_8php_1a12661b2fc0f57f97e30a1620889ce9c6" compoundref="_code_igniter_8php" startline="265">$method</references>
+      </memberdef>
+      <memberdef kind="function" id="class_m_y___model_1a3e485b3a8aab84a1236d05f64bf88a72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getBy</definition>
+        <argsstring>($where, $single=FALSE)</argsstring>
+        <name>getBy</name>
+        <param>
+          <declname>$where</declname>
+        </param>
+        <param>
+          <declname>$single</declname>
+          <defval>FALSE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/core/MY_Model.php" line="41" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/core/MY_Model.php" bodystart="41" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_m_y___model_1ab8deb57144bc4a1fe191f85b26805460" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>save</definition>
+        <argsstring>($data, $id=NULL)</argsstring>
+        <name>save</name>
+        <param>
+          <declname>$data</declname>
+        </param>
+        <param>
+          <declname>$id</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/core/MY_Model.php" line="47" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/core/MY_Model.php" bodystart="47" bodyend="73"/>
+        <references refid="class_m_y___model_1a1befeb0c72587cd2574cd7d1818d66b8" compoundref="_m_y___model_8php" startline="6">$_primary_key</references>
+        <references refid="class_m_y___model_1a46d38cf0c97ee3e0a37dee799457bd14" compoundref="_m_y___model_8php" startline="7">$_primary_filter</references>
+      </memberdef>
+      <memberdef kind="function" id="class_m_y___model_1a2f8258add505482d7f00ea26493a5723" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>delete</definition>
+        <argsstring>($id)</argsstring>
+        <name>delete</name>
+        <param>
+          <declname>$id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/core/MY_Model.php" line="75" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/core/MY_Model.php" bodystart="75" bodyend="86"/>
+        <references refid="class_m_y___model_1a46d38cf0c97ee3e0a37dee799457bd14" compoundref="_m_y___model_8php" startline="7">$_primary_filter</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="459">
+        <label>CI_Model</label>
+        <link refid="class_c_i___model"/>
+      </node>
+      <node id="460">
+        <label>Formular_model</label>
+        <link refid="class_formular__model"/>
+        <childnode refid="458" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="458">
+        <label>MY_Model</label>
+        <link refid="class_m_y___model"/>
+        <childnode refid="459" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="461">
+        <label>User_model</label>
+        <link refid="class_user__model"/>
+        <childnode refid="458" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="463">
+        <label>CI_Model</label>
+        <link refid="class_c_i___model"/>
+      </node>
+      <node id="462">
+        <label>MY_Model</label>
+        <link refid="class_m_y___model"/>
+        <childnode refid="463" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/core/MY_Model.php" line="3" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/core/MY_Model.php" bodystart="3" bodyend="87"/>
+    <listofallmembers>
+      <member refid="class_m_y___model_1a66602db6a52856d08dbd0f2eb34be787" prot="protected" virt="non-virtual"><scope>MY_Model</scope><name>$_order_by</name></member>
+      <member refid="class_m_y___model_1a46d38cf0c97ee3e0a37dee799457bd14" prot="protected" virt="non-virtual"><scope>MY_Model</scope><name>$_primary_filter</name></member>
+      <member refid="class_m_y___model_1a1befeb0c72587cd2574cd7d1818d66b8" prot="protected" virt="non-virtual"><scope>MY_Model</scope><name>$_primary_key</name></member>
+      <member refid="class_m_y___model_1a2432b65e7e8b8a8328a1c47ab6ca0409" prot="protected" virt="non-virtual"><scope>MY_Model</scope><name>$_rules</name></member>
+      <member refid="class_m_y___model_1a90ebc25e748e2696e00b5c5cf3255ee4" prot="protected" virt="non-virtual"><scope>MY_Model</scope><name>$_table_name</name></member>
+      <member refid="class_m_y___model_1aa701f5b72d73b3c5a7516cd6221c60cc" prot="protected" virt="non-virtual"><scope>MY_Model</scope><name>$_timestamps</name></member>
+      <member refid="class_m_y___model_1a095c5d389db211932136b53f25f39685" prot="public" virt="non-virtual"><scope>MY_Model</scope><name>__construct</name></member>
+      <member refid="class_c_i___model_1a4537dad3b44254124991341cc91b28fb" prot="public" virt="non-virtual"><scope>MY_Model</scope><name>__get</name></member>
+      <member refid="class_m_y___model_1a2f8258add505482d7f00ea26493a5723" prot="public" virt="non-virtual"><scope>MY_Model</scope><name>delete</name></member>
+      <member refid="class_m_y___model_1abbfccf1ac0e1d38054ab56a781f63713" prot="public" virt="non-virtual"><scope>MY_Model</scope><name>get</name></member>
+      <member refid="class_m_y___model_1a3e485b3a8aab84a1236d05f64bf88a72" prot="public" virt="non-virtual"><scope>MY_Model</scope><name>getBy</name></member>
+      <member refid="class_m_y___model_1ab8deb57144bc4a1fe191f85b26805460" prot="public" virt="non-virtual"><scope>MY_Model</scope><name>save</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

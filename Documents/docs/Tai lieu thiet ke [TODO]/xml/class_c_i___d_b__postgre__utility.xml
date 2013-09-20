@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_c_i___d_b__postgre__utility" kind="class" prot="public">
+    <compoundname>CI_DB_postgre_utility</compoundname>
+    <basecompoundref refid="class_c_i___d_b__utility" prot="public" virt="non-virtual">CI_DB_utility</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_i___d_b__postgre__utility_1aa047e69a7e732ca7280270f87f82bb3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_list_databases</definition>
+        <argsstring>()</argsstring>
+        <name>_list_databases</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>List databases</para><para>private <simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/postgre/postgre_utility.php" line="33" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/postgre/postgre_utility.php" bodystart="33" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__postgre__utility_1a4856292816fbbc8e9d927f565766727b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_optimize_table</definition>
+        <argsstring>($table)</argsstring>
+        <name>_optimize_table</name>
+        <param>
+          <declname>$table</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Optimize table query</para><para>Is table optimization supported in Postgre?</para><para>private <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the table name </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>object </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/postgre/postgre_utility.php" line="49" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/postgre/postgre_utility.php" bodystart="49" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__postgre__utility_1a7f40d4a3d78917e455e315cf708842ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_repair_table</definition>
+        <argsstring>($table)</argsstring>
+        <name>_repair_table</name>
+        <param>
+          <declname>$table</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Repair table query</para><para>Are table repairs supported in Postgre?</para><para>private <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the table name </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>object </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/postgre/postgre_utility.php" line="65" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/postgre/postgre_utility.php" bodystart="65" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__postgre__utility_1a30f3053d2c82e7562349924363507afa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_backup</definition>
+        <argsstring>($params=array())</argsstring>
+        <name>_backup</name>
+        <param>
+          <declname>$params</declname>
+          <defval>array()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Postgre Export</para><para>private <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Preferences </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/postgre/postgre_utility.php" line="79" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/postgre/postgre_utility.php" bodystart="79" bodyend="83"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="233">
+        <label>CI_DB_postgre_utility</label>
+        <link refid="class_c_i___d_b__postgre__utility"/>
+        <childnode refid="234" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="234">
+        <label>CI_DB_utility</label>
+        <link refid="class_c_i___d_b__utility"/>
+        <childnode refid="235" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="235">
+        <label>CI_DB_forge</label>
+        <link refid="class_c_i___d_b__forge"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="236">
+        <label>CI_DB_postgre_utility</label>
+        <link refid="class_c_i___d_b__postgre__utility"/>
+        <childnode refid="237" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="237">
+        <label>CI_DB_utility</label>
+        <link refid="class_c_i___d_b__utility"/>
+        <childnode refid="238" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="238">
+        <label>CI_DB_forge</label>
+        <link refid="class_c_i___d_b__forge"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/postgre/postgre_utility.php" line="25" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/postgre/postgre_utility.php" bodystart="25" bodyend="84"/>
+    <listofallmembers>
+      <member refid="class_c_i___d_b__utility_1aab3007e30adbaf71d06218aa6c90e384" prot="public" virt="non-virtual"><scope>CI_DB_postgre_utility</scope><name>$data_cache</name></member>
+      <member refid="class_c_i___d_b__utility_1a1fa3127fc82f96b1436d871ef02be319" prot="public" virt="non-virtual"><scope>CI_DB_postgre_utility</scope><name>$db</name></member>
+      <member refid="class_c_i___d_b__forge_1a6e90c3633cd0984a7e8de501f7771c53" prot="public" virt="non-virtual"><scope>CI_DB_postgre_utility</scope><name>$db_char_set</name></member>
+      <member refid="class_c_i___d_b__forge_1ab2303c817e3b402b77b7f99627b9c319" prot="public" virt="non-virtual"><scope>CI_DB_postgre_utility</scope><name>$fields</name></member>
+      <member refid="class_c_i___d_b__forge_1af20635b6c08e03bfee9e3fc036fa80f3" prot="public" virt="non-virtual"><scope>CI_DB_postgre_utility</scope><name>$keys</name></member>
+      <member refid="class_c_i___d_b__forge_1a09349689030ba7198a094abf357c78bc" prot="public" virt="non-virtual"><scope>CI_DB_postgre_utility</scope><name>$primary_keys</name></member>
+      <member refid="class_c_i___d_b__utility_1a095c5d389db211932136b53f25f39685" prot="public" virt="non-virtual"><scope>CI_DB_postgre_utility</scope><name>__construct</name></member>
+      <member refid="class_c_i___d_b__postgre__utility_1a30f3053d2c82e7562349924363507afa" prot="public" virt="non-virtual"><scope>CI_DB_postgre_utility</scope><name>_backup</name></member>
+      <member refid="class_c_i___d_b__postgre__utility_1aa047e69a7e732ca7280270f87f82bb3a" prot="public" virt="non-virtual"><scope>CI_DB_postgre_utility</scope><name>_list_databases</name></member>
+      <member refid="class_c_i___d_b__postgre__utility_1a4856292816fbbc8e9d927f565766727b" prot="public" virt="non-virtual"><scope>CI_DB_postgre_utility</scope><name>_optimize_table</name></member>
+      <member refid="class_c_i___d_b__postgre__utility_1a7f40d4a3d78917e455e315cf708842ef" prot="public" virt="non-virtual"><scope>CI_DB_postgre_utility</scope><name>_repair_table</name></member>
+      <member refid="class_c_i___d_b__forge_1ab90fa1f6f390913fed8670e6535dc180" prot="public" virt="non-virtual"><scope>CI_DB_postgre_utility</scope><name>_reset</name></member>
+      <member refid="class_c_i___d_b__forge_1aa1c3d03fed2c534d116f2a20db66d643" prot="public" virt="non-virtual"><scope>CI_DB_postgre_utility</scope><name>add_column</name></member>
+      <member refid="class_c_i___d_b__forge_1ae7fccf8d1bd6c4fb3efa1a95be18bad7" prot="public" virt="non-virtual"><scope>CI_DB_postgre_utility</scope><name>add_field</name></member>
+      <member refid="class_c_i___d_b__forge_1a0f4211b94ac209ec8b80d800234fc611" prot="public" virt="non-virtual"><scope>CI_DB_postgre_utility</scope><name>add_key</name></member>
+      <member refid="class_c_i___d_b__utility_1abe2b9d47f950dfbaf8c6ec757a9af9a2" prot="public" virt="non-virtual"><scope>CI_DB_postgre_utility</scope><name>backup</name></member>
+      <member refid="class_c_i___d_b__forge_1a902a7267babceb2ce595706f217e00ad" prot="public" virt="non-virtual"><scope>CI_DB_postgre_utility</scope><name>create_database</name></member>
+      <member refid="class_c_i___d_b__forge_1ac468f94f543da8d082ea147d8a3baa3e" prot="public" virt="non-virtual"><scope>CI_DB_postgre_utility</scope><name>create_table</name></member>
+      <member refid="class_c_i___d_b__utility_1aa5efaa0a8bac872775ec1c8247de4cdf" prot="public" virt="non-virtual"><scope>CI_DB_postgre_utility</scope><name>csv_from_result</name></member>
+      <member refid="class_c_i___d_b__utility_1ac0ba63aa14b19a37d4773fcc252bde81" prot="public" virt="non-virtual"><scope>CI_DB_postgre_utility</scope><name>database_exists</name></member>
+      <member refid="class_c_i___d_b__forge_1adb882bbb5281cf8af607730ca44b6486" prot="public" virt="non-virtual"><scope>CI_DB_postgre_utility</scope><name>drop_column</name></member>
+      <member refid="class_c_i___d_b__forge_1a9612987b2d4230de2638d15857e92e67" prot="public" virt="non-virtual"><scope>CI_DB_postgre_utility</scope><name>drop_database</name></member>
+      <member refid="class_c_i___d_b__forge_1a13a0ea391ffc0359a95766ee18ddcba9" prot="public" virt="non-virtual"><scope>CI_DB_postgre_utility</scope><name>drop_table</name></member>
+      <member refid="class_c_i___d_b__utility_1a8486b247a8868504b055622cb2dd34d3" prot="public" virt="non-virtual"><scope>CI_DB_postgre_utility</scope><name>list_databases</name></member>
+      <member refid="class_c_i___d_b__forge_1adf9fa0c74698c9061709fd5eae5fbd47" prot="public" virt="non-virtual"><scope>CI_DB_postgre_utility</scope><name>modify_column</name></member>
+      <member refid="class_c_i___d_b__utility_1acb26598e177f525b39978f6dfca1f212" prot="public" virt="non-virtual"><scope>CI_DB_postgre_utility</scope><name>optimize_database</name></member>
+      <member refid="class_c_i___d_b__utility_1a6aed9274f43b64eeee607d172b51529d" prot="public" virt="non-virtual"><scope>CI_DB_postgre_utility</scope><name>optimize_table</name></member>
+      <member refid="class_c_i___d_b__forge_1a0fb4802acad335ebdecd921d59de9a51" prot="public" virt="non-virtual"><scope>CI_DB_postgre_utility</scope><name>rename_table</name></member>
+      <member refid="class_c_i___d_b__utility_1a41a627004d26198c69bf466eef7eaeeb" prot="public" virt="non-virtual"><scope>CI_DB_postgre_utility</scope><name>repair_table</name></member>
+      <member refid="class_c_i___d_b__utility_1a09decb7db409060365ad2c20072523f9" prot="public" virt="non-virtual"><scope>CI_DB_postgre_utility</scope><name>xml_from_result</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

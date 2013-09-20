@@ -1,0 +1,118 @@
+\section{C\-I\-\_\-\-Log Class Reference}
+\label{class_c_i___log}\index{C\-I\-\_\-\-Log@{C\-I\-\_\-\-Log}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf \-\_\-\-\_\-construct} ()
+\item 
+{\bf write\-\_\-log} (\$level= 'error', \$msg, \$php\-\_\-error=F\-A\-L\-S\-E)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+{\bf \$\-\_\-log\-\_\-path}
+\item 
+{\bf \$\-\_\-threshold} = 1
+\item 
+{\bf \$\-\_\-date\-\_\-fmt} = 'Y-\/{\bf m}-\/d H\-:i\-:s'
+\item 
+{\bf \$\-\_\-enabled} = T\-R\-U\-E
+\item 
+{\bf \$\-\_\-levels} = array('E\-R\-R\-O\-R' =$>$ '1', 'D\-E\-B\-U\-G' =$>$ '2', 'I\-N\-F\-O' =$>$ '3', 'A\-L\-L' =$>$ '4')
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 27 of file Log.\-php.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{C\-I\-\_\-\-Log@{C\-I\-\_\-\-Log}!\-\_\-\-\_\-construct@{\-\_\-\-\_\-construct}}
+\index{\-\_\-\-\_\-construct@{\-\_\-\-\_\-construct}!CI_Log@{C\-I\-\_\-\-Log}}
+\subsubsection[{\-\_\-\-\_\-construct}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-\-\_\-construct (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_c_i___log_a095c5d389db211932136b53f25f39685}
+Constructor 
+
+Definition at line 38 of file Log.\-php.
+
+
+
+\subsection{Member Function Documentation}
+\index{C\-I\-\_\-\-Log@{C\-I\-\_\-\-Log}!write\-\_\-log@{write\-\_\-log}}
+\index{write\-\_\-log@{write\-\_\-log}!CI_Log@{C\-I\-\_\-\-Log}}
+\subsubsection[{write\-\_\-log}]{\setlength{\rightskip}{0pt plus 5cm}write\-\_\-log (
+\begin{DoxyParamCaption}
+\item[{}]{\$level = {\ttfamily 'error'}, }
+\item[{}]{\$msg, }
+\item[{}]{\$php\-\_\-error = {\ttfamily FALSE}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___log_a7a050d4e85d5b176646ec2f424641da4}
+Write Log File
+
+Generally this function will be called using the global log\-\_\-message() function
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & the error level \\
+\hline
+{\em string} & the error message \\
+\hline
+{\em bool} & whether the error is a native P\-H\-P error \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 72 of file Log.\-php.
+
+
+
+\subsection{Field Documentation}
+\index{C\-I\-\_\-\-Log@{C\-I\-\_\-\-Log}!\$\-\_\-date\-\_\-fmt@{\$\-\_\-date\-\_\-fmt}}
+\index{\$\-\_\-date\-\_\-fmt@{\$\-\_\-date\-\_\-fmt}!CI_Log@{C\-I\-\_\-\-Log}}
+\subsubsection[{\$\-\_\-date\-\_\-fmt}]{\setlength{\rightskip}{0pt plus 5cm}\$\-\_\-date\-\_\-fmt = 'Y-\/{\bf m}-\/d H\-:i\-:s'\hspace{0.3cm}{\ttfamily [protected]}}\label{class_c_i___log_aab5c1870169c8e04ede18245f04ad85c}
+
+
+Definition at line 31 of file Log.\-php.
+
+\index{C\-I\-\_\-\-Log@{C\-I\-\_\-\-Log}!\$\-\_\-enabled@{\$\-\_\-enabled}}
+\index{\$\-\_\-enabled@{\$\-\_\-enabled}!CI_Log@{C\-I\-\_\-\-Log}}
+\subsubsection[{\$\-\_\-enabled}]{\setlength{\rightskip}{0pt plus 5cm}\$\-\_\-enabled = T\-R\-U\-E\hspace{0.3cm}{\ttfamily [protected]}}\label{class_c_i___log_af8233d47e8ad3e624ba168154d2f383d}
+
+
+Definition at line 32 of file Log.\-php.
+
+\index{C\-I\-\_\-\-Log@{C\-I\-\_\-\-Log}!\$\-\_\-levels@{\$\-\_\-levels}}
+\index{\$\-\_\-levels@{\$\-\_\-levels}!CI_Log@{C\-I\-\_\-\-Log}}
+\subsubsection[{\$\-\_\-levels}]{\setlength{\rightskip}{0pt plus 5cm}\$\-\_\-levels = array('E\-R\-R\-O\-R' =$>$ '1', 'D\-E\-B\-U\-G' =$>$ '2', 'I\-N\-F\-O' =$>$ '3', 'A\-L\-L' =$>$ '4')\hspace{0.3cm}{\ttfamily [protected]}}\label{class_c_i___log_aeb1c4747136537731b6cfed6f1e64941}
+
+
+Definition at line 33 of file Log.\-php.
+
+\index{C\-I\-\_\-\-Log@{C\-I\-\_\-\-Log}!\$\-\_\-log\-\_\-path@{\$\-\_\-log\-\_\-path}}
+\index{\$\-\_\-log\-\_\-path@{\$\-\_\-log\-\_\-path}!CI_Log@{C\-I\-\_\-\-Log}}
+\subsubsection[{\$\-\_\-log\-\_\-path}]{\setlength{\rightskip}{0pt plus 5cm}\$\-\_\-log\-\_\-path\hspace{0.3cm}{\ttfamily [protected]}}\label{class_c_i___log_a3eaf9e92941ee6be33bc972ab76b4caf}
+
+
+Definition at line 29 of file Log.\-php.
+
+\index{C\-I\-\_\-\-Log@{C\-I\-\_\-\-Log}!\$\-\_\-threshold@{\$\-\_\-threshold}}
+\index{\$\-\_\-threshold@{\$\-\_\-threshold}!CI_Log@{C\-I\-\_\-\-Log}}
+\subsubsection[{\$\-\_\-threshold}]{\setlength{\rightskip}{0pt plus 5cm}\$\-\_\-threshold = 1\hspace{0.3cm}{\ttfamily [protected]}}\label{class_c_i___log_a0fc9914bdaf300fa9a1745201204e73f}
+
+
+Definition at line 30 of file Log.\-php.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+system/libraries/{\bf Log.\-php}\end{DoxyCompactItemize}

@@ -1,0 +1,357 @@
+\section{C\-I\-\_\-\-D\-B\-\_\-forge Class Reference}
+\label{class_c_i___d_b__forge}\index{C\-I\-\_\-\-D\-B\-\_\-forge@{C\-I\-\_\-\-D\-B\-\_\-forge}}
+Inheritance diagram for C\-I\-\_\-\-D\-B\-\_\-forge\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=12.000000cm]{class_c_i___d_b__forge}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf \-\_\-\-\_\-construct} ()
+\item 
+{\bf create\-\_\-database} (\$db\-\_\-name)
+\item 
+{\bf drop\-\_\-database} (\$db\-\_\-name)
+\item 
+{\bf add\-\_\-key} (\$key= '', \$primary=F\-A\-L\-S\-E)
+\item 
+{\bf add\-\_\-field} (\$field= '')
+\item 
+{\bf create\-\_\-table} (\$table= '', \$if\-\_\-not\-\_\-exists=F\-A\-L\-S\-E)
+\item 
+{\bf drop\-\_\-table} (\$table\-\_\-name)
+\item 
+{\bf rename\-\_\-table} (\$table\-\_\-name, \$new\-\_\-table\-\_\-name)
+\item 
+{\bf add\-\_\-column} (\$table= '', \$field=array(), \$after\-\_\-field= '')
+\item 
+{\bf drop\-\_\-column} (\$table= '', \$column\-\_\-name= '')
+\item 
+{\bf modify\-\_\-column} (\$table= '', \$field=array())
+\item 
+{\bf \-\_\-reset} ()
+\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+{\bf \$fields} = array()
+\item 
+{\bf \$keys} = array()
+\item 
+{\bf \$primary\-\_\-keys} = array()
+\item 
+{\bf \$db\-\_\-char\-\_\-set} = ''
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 25 of file D\-B\-\_\-forge.\-php.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{C\-I\-\_\-\-D\-B\-\_\-forge@{C\-I\-\_\-\-D\-B\-\_\-forge}!\-\_\-\-\_\-construct@{\-\_\-\-\_\-construct}}
+\index{\-\_\-\-\_\-construct@{\-\_\-\-\_\-construct}!CI_DB_forge@{C\-I\-\_\-\-D\-B\-\_\-forge}}
+\subsubsection[{\-\_\-\-\_\-construct}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-\-\_\-construct (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__forge_a095c5d389db211932136b53f25f39685}
+Constructor
+
+Grabs the C\-I super object instance so we can access it. 
+
+Definition at line 38 of file D\-B\-\_\-forge.\-php.
+
+
+
+\subsection{Member Function Documentation}
+\index{C\-I\-\_\-\-D\-B\-\_\-forge@{C\-I\-\_\-\-D\-B\-\_\-forge}!\-\_\-reset@{\-\_\-reset}}
+\index{\-\_\-reset@{\-\_\-reset}!CI_DB_forge@{C\-I\-\_\-\-D\-B\-\_\-forge}}
+\subsubsection[{\-\_\-reset}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-reset (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__forge_ab90fa1f6f390913fed8670e6535dc180}
+Reset
+
+Resets table creation vars
+
+private \begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 372 of file D\-B\-\_\-forge.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-forge@{C\-I\-\_\-\-D\-B\-\_\-forge}!add\-\_\-column@{add\-\_\-column}}
+\index{add\-\_\-column@{add\-\_\-column}!CI_DB_forge@{C\-I\-\_\-\-D\-B\-\_\-forge}}
+\subsubsection[{add\-\_\-column}]{\setlength{\rightskip}{0pt plus 5cm}add\-\_\-column (
+\begin{DoxyParamCaption}
+\item[{}]{\$table = {\ttfamily ''}, }
+\item[{}]{\$field = {\ttfamily array()}, }
+\item[{}]{\$after\-\_\-field = {\ttfamily ''}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__forge_aa1c3d03fed2c534d116f2a20db66d643}
+Column Add
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & the table name \\
+\hline
+{\em string} & the column name \\
+\hline
+{\em string} & the column definition \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 252 of file D\-B\-\_\-forge.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-forge@{C\-I\-\_\-\-D\-B\-\_\-forge}!add\-\_\-field@{add\-\_\-field}}
+\index{add\-\_\-field@{add\-\_\-field}!CI_DB_forge@{C\-I\-\_\-\-D\-B\-\_\-forge}}
+\subsubsection[{add\-\_\-field}]{\setlength{\rightskip}{0pt plus 5cm}add\-\_\-field (
+\begin{DoxyParamCaption}
+\item[{}]{\$field = {\ttfamily ''}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__forge_ae7fccf8d1bd6c4fb3efa1a95be18bad7}
+Add Field
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & collation \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 134 of file D\-B\-\_\-forge.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-forge@{C\-I\-\_\-\-D\-B\-\_\-forge}!add\-\_\-key@{add\-\_\-key}}
+\index{add\-\_\-key@{add\-\_\-key}!CI_DB_forge@{C\-I\-\_\-\-D\-B\-\_\-forge}}
+\subsubsection[{add\-\_\-key}]{\setlength{\rightskip}{0pt plus 5cm}add\-\_\-key (
+\begin{DoxyParamCaption}
+\item[{}]{\$key = {\ttfamily ''}, }
+\item[{}]{\$primary = {\ttfamily FALSE}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__forge_a0f4211b94ac209ec8b80d800234fc611}
+Add Key
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & key \\
+\hline
+{\em string} & type \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 98 of file D\-B\-\_\-forge.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-forge@{C\-I\-\_\-\-D\-B\-\_\-forge}!create\-\_\-database@{create\-\_\-database}}
+\index{create\-\_\-database@{create\-\_\-database}!CI_DB_forge@{C\-I\-\_\-\-D\-B\-\_\-forge}}
+\subsubsection[{create\-\_\-database}]{\setlength{\rightskip}{0pt plus 5cm}create\-\_\-database (
+\begin{DoxyParamCaption}
+\item[{}]{\$db\-\_\-name}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__forge_a902a7267babceb2ce595706f217e00ad}
+Create database
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & the database name \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 55 of file D\-B\-\_\-forge.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-forge@{C\-I\-\_\-\-D\-B\-\_\-forge}!create\-\_\-table@{create\-\_\-table}}
+\index{create\-\_\-table@{create\-\_\-table}!CI_DB_forge@{C\-I\-\_\-\-D\-B\-\_\-forge}}
+\subsubsection[{create\-\_\-table}]{\setlength{\rightskip}{0pt plus 5cm}create\-\_\-table (
+\begin{DoxyParamCaption}
+\item[{}]{\$table = {\ttfamily ''}, }
+\item[{}]{\$if\-\_\-not\-\_\-exists = {\ttfamily FALSE}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__forge_ac468f94f543da8d082ea147d8a3baa3e}
+Create Table
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & the table name \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 181 of file D\-B\-\_\-forge.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-forge@{C\-I\-\_\-\-D\-B\-\_\-forge}!drop\-\_\-column@{drop\-\_\-column}}
+\index{drop\-\_\-column@{drop\-\_\-column}!CI_DB_forge@{C\-I\-\_\-\-D\-B\-\_\-forge}}
+\subsubsection[{drop\-\_\-column}]{\setlength{\rightskip}{0pt plus 5cm}drop\-\_\-column (
+\begin{DoxyParamCaption}
+\item[{}]{\$table = {\ttfamily ''}, }
+\item[{}]{\$column\-\_\-name = {\ttfamily ''}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__forge_adb882bbb5281cf8af607730ca44b6486}
+Column Drop
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & the table name \\
+\hline
+{\em string} & the column name \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 295 of file D\-B\-\_\-forge.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-forge@{C\-I\-\_\-\-D\-B\-\_\-forge}!drop\-\_\-database@{drop\-\_\-database}}
+\index{drop\-\_\-database@{drop\-\_\-database}!CI_DB_forge@{C\-I\-\_\-\-D\-B\-\_\-forge}}
+\subsubsection[{drop\-\_\-database}]{\setlength{\rightskip}{0pt plus 5cm}drop\-\_\-database (
+\begin{DoxyParamCaption}
+\item[{}]{\$db\-\_\-name}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__forge_a9612987b2d4230de2638d15857e92e67}
+Drop database
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & the database name \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 76 of file D\-B\-\_\-forge.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-forge@{C\-I\-\_\-\-D\-B\-\_\-forge}!drop\-\_\-table@{drop\-\_\-table}}
+\index{drop\-\_\-table@{drop\-\_\-table}!CI_DB_forge@{C\-I\-\_\-\-D\-B\-\_\-forge}}
+\subsubsection[{drop\-\_\-table}]{\setlength{\rightskip}{0pt plus 5cm}drop\-\_\-table (
+\begin{DoxyParamCaption}
+\item[{}]{\$table\-\_\-name}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__forge_a13a0ea391ffc0359a95766ee18ddcba9}
+Drop Table
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & the table name \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 208 of file D\-B\-\_\-forge.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-forge@{C\-I\-\_\-\-D\-B\-\_\-forge}!modify\-\_\-column@{modify\-\_\-column}}
+\index{modify\-\_\-column@{modify\-\_\-column}!CI_DB_forge@{C\-I\-\_\-\-D\-B\-\_\-forge}}
+\subsubsection[{modify\-\_\-column}]{\setlength{\rightskip}{0pt plus 5cm}modify\-\_\-column (
+\begin{DoxyParamCaption}
+\item[{}]{\$table = {\ttfamily ''}, }
+\item[{}]{\$field = {\ttfamily array()}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__forge_adf9fa0c74698c9061709fd5eae5fbd47}
+Column Modify
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & the table name \\
+\hline
+{\em string} & the column name \\
+\hline
+{\em string} & the column definition \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 324 of file D\-B\-\_\-forge.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-forge@{C\-I\-\_\-\-D\-B\-\_\-forge}!rename\-\_\-table@{rename\-\_\-table}}
+\index{rename\-\_\-table@{rename\-\_\-table}!CI_DB_forge@{C\-I\-\_\-\-D\-B\-\_\-forge}}
+\subsubsection[{rename\-\_\-table}]{\setlength{\rightskip}{0pt plus 5cm}rename\-\_\-table (
+\begin{DoxyParamCaption}
+\item[{}]{\$table\-\_\-name, }
+\item[{}]{\$new\-\_\-table\-\_\-name}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__forge_a0fb4802acad335ebdecd921d59de9a51}
+Rename Table
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & the old table name \\
+\hline
+{\em string} & the new table name \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 230 of file D\-B\-\_\-forge.\-php.
+
+
+
+\subsection{Field Documentation}
+\index{C\-I\-\_\-\-D\-B\-\_\-forge@{C\-I\-\_\-\-D\-B\-\_\-forge}!\$db\-\_\-char\-\_\-set@{\$db\-\_\-char\-\_\-set}}
+\index{\$db\-\_\-char\-\_\-set@{\$db\-\_\-char\-\_\-set}!CI_DB_forge@{C\-I\-\_\-\-D\-B\-\_\-forge}}
+\subsubsection[{\$db\-\_\-char\-\_\-set}]{\setlength{\rightskip}{0pt plus 5cm}\$db\-\_\-char\-\_\-set = ''}\label{class_c_i___d_b__forge_a6e90c3633cd0984a7e8de501f7771c53}
+
+
+Definition at line 30 of file D\-B\-\_\-forge.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-forge@{C\-I\-\_\-\-D\-B\-\_\-forge}!\$fields@{\$fields}}
+\index{\$fields@{\$fields}!CI_DB_forge@{C\-I\-\_\-\-D\-B\-\_\-forge}}
+\subsubsection[{\$fields}]{\setlength{\rightskip}{0pt plus 5cm}\$fields = array()}\label{class_c_i___d_b__forge_ab2303c817e3b402b77b7f99627b9c319}
+
+
+Definition at line 27 of file D\-B\-\_\-forge.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-forge@{C\-I\-\_\-\-D\-B\-\_\-forge}!\$keys@{\$keys}}
+\index{\$keys@{\$keys}!CI_DB_forge@{C\-I\-\_\-\-D\-B\-\_\-forge}}
+\subsubsection[{\$keys}]{\setlength{\rightskip}{0pt plus 5cm}\$keys = array()}\label{class_c_i___d_b__forge_af20635b6c08e03bfee9e3fc036fa80f3}
+
+
+Definition at line 28 of file D\-B\-\_\-forge.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-forge@{C\-I\-\_\-\-D\-B\-\_\-forge}!\$primary\-\_\-keys@{\$primary\-\_\-keys}}
+\index{\$primary\-\_\-keys@{\$primary\-\_\-keys}!CI_DB_forge@{C\-I\-\_\-\-D\-B\-\_\-forge}}
+\subsubsection[{\$primary\-\_\-keys}]{\setlength{\rightskip}{0pt plus 5cm}\$primary\-\_\-keys = array()}\label{class_c_i___d_b__forge_a09349689030ba7198a094abf357c78bc}
+
+
+Definition at line 29 of file D\-B\-\_\-forge.\-php.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+system/database/{\bf D\-B\-\_\-forge.\-php}\end{DoxyCompactItemize}

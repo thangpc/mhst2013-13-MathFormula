@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_9db3ef201d4d5e806f053aae43224a08" kind="dir">
+    <compoundname>application/errors</compoundname>
+    <innerfile refid="error__404_8php">error_404.php</innerfile>
+    <innerfile refid="error__db_8php">error_db.php</innerfile>
+    <innerfile refid="error__general_8php">error_general.php</innerfile>
+    <innerfile refid="error__php_8php">error_php.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/errors/"/>
+  </compounddef>
+</doxygen>

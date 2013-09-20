@@ -1,0 +1,240 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="constants_8php" kind="file">
+    <compoundname>constants.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="constants_8php_1afa80a675a7a8436c2b299e41c63fd405" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const FILE_READ_MODE</definition>
+        <argsstring></argsstring>
+        <name>FILE_READ_MODE</name>
+        <initializer>0644</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/constants.php" line="16" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/constants.php" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constants_8php_1a6b9fcdc9259bf9361e8f97e289024242" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const FILE_WRITE_MODE</definition>
+        <argsstring></argsstring>
+        <name>FILE_WRITE_MODE</name>
+        <initializer>0666</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/constants.php" line="17" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/constants.php" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_c_i___output_1a772aa9eb3f60f66fa194443ca0bdd8a4" compoundref="_output_8php" startline="461" endline="502">CI_Output\_write_cache</referencedby>
+        <referencedby refid="class_c_i___d_b___cache_1a483ea50183465928c931aa17b4f4b5b8" compoundref="_d_b__cache_8php" startline="119" endline="151">CI_DB_Cache\write</referencedby>
+        <referencedby refid="class_c_i___d_b__sqlite__driver_1a6aa545dcb7768f0b62d37cdcf7f09adc" compoundref="sqlite__driver_8php" startline="58" endline="73">CI_DB_sqlite_driver\db_connect</referencedby>
+        <referencedby refid="class_c_i___d_b__sqlite__driver_1a0f69e662bd02de5bcf98647068e7c653" compoundref="sqlite__driver_8php" startline="83" endline="98">CI_DB_sqlite_driver\db_pconnect</referencedby>
+        <referencedby refid="class_c_i___image__lib_1a3744cd1438c26d74169260e3580c18c5" compoundref="_image__lib_8php" startline="447" endline="546">CI_Image_lib\image_process_gd</referencedby>
+        <referencedby refid="class_c_i___image__lib_1ab92e23a2b66ec7e2a3ade452214ac3fd" compoundref="_image__lib_8php" startline="559" endline="616">CI_Image_lib\image_process_imagemagick</referencedby>
+        <referencedby refid="class_c_i___image__lib_1a715b6f648450b393c843af9a8756f6d8" compoundref="_image__lib_8php" startline="629" endline="702">CI_Image_lib\image_process_netpbm</referencedby>
+        <referencedby refid="class_c_i___image__lib_1ae0d52ef7503342a0a1c56c99da140446" compoundref="_image__lib_8php" startline="712" endline="753">CI_Image_lib\image_rotate_gd</referencedby>
+        <referencedby refid="class_c_i___image__lib_1a3f6d47ec077726da699890d4644797ad" compoundref="_image__lib_8php" startline="765" endline="837">CI_Image_lib\image_mirror_gd</referencedby>
+        <referencedby refid="class_c_i___log_1a7a050d4e85d5b176646ec2f424641da4" compoundref="_log_8php" startline="72" endline="108">CI_Log\write_log</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="constants_8php_1a5eb43292f0c56482a7869db8adb1c91d" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const DIR_READ_MODE</definition>
+        <argsstring></argsstring>
+        <name>DIR_READ_MODE</name>
+        <initializer>0755</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/constants.php" line="18" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/constants.php" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constants_8php_1aac7345ea170768d48be7cde8ebf6b147" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const DIR_WRITE_MODE</definition>
+        <argsstring></argsstring>
+        <name>DIR_WRITE_MODE</name>
+        <initializer>0777</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/constants.php" line="19" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/constants.php" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_c_i___d_b___cache_1a483ea50183465928c931aa17b4f4b5b8" compoundref="_d_b__cache_8php" startline="119" endline="151">CI_DB_Cache\write</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="constants_8php_1ab6a0a1c6e9ea5f7625b2dba2f7bd286c" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const FOPEN_READ</definition>
+        <argsstring></argsstring>
+        <name>FOPEN_READ</name>
+        <initializer>&apos;rb&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/constants.php" line="30" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/constants.php" bodystart="30" bodyend="-1"/>
+        <referencedby refid="class_c_i___output_1acce78bdac02df9ab196a9c5939f6c4ab" compoundref="_output_8php" startline="514" endline="567">CI_Output\_display_cache</referencedby>
+        <referencedby refid="class_c_i___email_1a9ddc60e529eb909ff0879781a6f296ff" compoundref="_email_8php" startline="1013" endline="1183">CI_Email\_build_message</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="constants_8php_1ab98552969950ea978284c998e10d0153" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const FOPEN_READ_WRITE</definition>
+        <argsstring></argsstring>
+        <name>FOPEN_READ_WRITE</name>
+        <initializer>&apos;<ref refid="jquery_8min_8js_1a015987921e6b4b0bb09bde6fd362ced7" kindref="member">r</ref>+<ref refid="jquery_8min_8js_1a323dcbd4e162ca53a2438713c53593fe" kindref="member">b</ref>&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/constants.php" line="31" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/constants.php" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constants_8php_1a246692af603ceac463cab532d81a6048" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const FOPEN_WRITE_CREATE_DESTRUCTIVE</definition>
+        <argsstring></argsstring>
+        <name>FOPEN_WRITE_CREATE_DESTRUCTIVE</name>
+        <initializer>&apos;wb&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/constants.php" line="32" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/constants.php" bodystart="32" bodyend="-1"/>
+        <referencedby refid="class_c_i___output_1a772aa9eb3f60f66fa194443ca0bdd8a4" compoundref="_output_8php" startline="461" endline="502">CI_Output\_write_cache</referencedby>
+        <referencedby refid="class_c_i___zip_1a935879d7074c751a4ac886aebd66cbd4" compoundref="_zip_8php" startline="358" endline="371">CI_Zip\archive</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="constants_8php_1a1b8581dfce24061e847cc257aed23d62" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const FOPEN_READ_WRITE_CREATE_DESTRUCTIVE</definition>
+        <argsstring></argsstring>
+        <name>FOPEN_READ_WRITE_CREATE_DESTRUCTIVE</name>
+        <initializer>&apos;w+<ref refid="jquery_8min_8js_1a323dcbd4e162ca53a2438713c53593fe" kindref="member">b</ref>&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/constants.php" line="33" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/constants.php" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constants_8php_1a7c5689a170bbaab4dd9c6f3a76bd7a0d" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const FOPEN_WRITE_CREATE</definition>
+        <argsstring></argsstring>
+        <name>FOPEN_WRITE_CREATE</name>
+        <initializer>&apos;ab&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/constants.php" line="34" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/constants.php" bodystart="34" bodyend="-1"/>
+        <referencedby refid="class_c_i___log_1a7a050d4e85d5b176646ec2f424641da4" compoundref="_log_8php" startline="72" endline="108">CI_Log\write_log</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="constants_8php_1adcd04289bf4dc262b7652cb4c1eb08f7" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const FOPEN_READ_WRITE_CREATE</definition>
+        <argsstring></argsstring>
+        <name>FOPEN_READ_WRITE_CREATE</name>
+        <initializer>&apos;<ref refid="jquery_8min_8js_1aa4d4888597588a84fd5b1184d00c91f3" kindref="member">a</ref>+<ref refid="jquery_8min_8js_1a323dcbd4e162ca53a2438713c53593fe" kindref="member">b</ref>&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/constants.php" line="35" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/constants.php" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constants_8php_1a02007ca17f39af174ac54d30f2ca7e82" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const FOPEN_WRITE_CREATE_STRICT</definition>
+        <argsstring></argsstring>
+        <name>FOPEN_WRITE_CREATE_STRICT</name>
+        <initializer>&apos;xb&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/constants.php" line="36" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/constants.php" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constants_8php_1a2eeb98a015d74560e9b60ec60d7531d4" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const FOPEN_READ_WRITE_CREATE_STRICT</definition>
+        <argsstring></argsstring>
+        <name>FOPEN_READ_WRITE_CREATE_STRICT</name>
+        <initializer>&apos;<ref refid="jquery_8min_8js_1a81e910173af87b1161e719a504d52407" kindref="member">x</ref>+<ref refid="jquery_8min_8js_1a323dcbd4e162ca53a2438713c53593fe" kindref="member">b</ref>&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/constants.php" line="37" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/constants.php" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php<sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>!<sp/>defined(</highlight><highlight class="stringliteral">&apos;BASEPATH&apos;</highlight><highlight class="normal">))<sp/>exit(</highlight><highlight class="stringliteral">&apos;No<sp/>direct<sp/>script<sp/>access<sp/>allowed&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment">|--------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="5"><highlight class="comment">|<sp/>File<sp/>and<sp/>Directory<sp/>Modes</highlight></codeline>
+<codeline lineno="6"><highlight class="comment">|--------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="7"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="8"><highlight class="comment">|<sp/>These<sp/>prefs<sp/>are<sp/>used<sp/>when<sp/>checking<sp/>and<sp/>setting<sp/>modes<sp/>when<sp/>working</highlight></codeline>
+<codeline lineno="9"><highlight class="comment">|<sp/>with<sp/>the<sp/>file<sp/>system.<sp/><sp/>The<sp/>defaults<sp/>are<sp/>fine<sp/>on<sp/>servers<sp/>with<sp/>proper</highlight></codeline>
+<codeline lineno="10"><highlight class="comment">|<sp/>security,<sp/>but<sp/>you<sp/>may<sp/>wish<sp/>(or<sp/>even<sp/>need)<sp/>to<sp/>change<sp/>the<sp/>values<sp/>in</highlight></codeline>
+<codeline lineno="11"><highlight class="comment">|<sp/>certain<sp/>environments<sp/>(Apache<sp/>running<sp/>a<sp/>separate<sp/>process<sp/>for<sp/>each</highlight></codeline>
+<codeline lineno="12"><highlight class="comment">|<sp/>user,<sp/>PHP<sp/>under<sp/>CGI<sp/>with<sp/>Apache<sp/>suEXEC,<sp/>etc.).<sp/><sp/>Octal<sp/>values<sp/>should</highlight></codeline>
+<codeline lineno="13"><highlight class="comment">|<sp/>always<sp/>be<sp/>used<sp/>to<sp/>set<sp/>the<sp/>mode<sp/>correctly.</highlight></codeline>
+<codeline lineno="14"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="15"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="constants_8php_1afa80a675a7a8436c2b299e41c63fd405" refkind="member"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;FILE_READ_MODE&apos;</highlight><highlight class="normal">,<sp/>0644);</highlight></codeline>
+<codeline lineno="17" refid="constants_8php_1a6b9fcdc9259bf9361e8f97e289024242" refkind="member"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;FILE_WRITE_MODE&apos;</highlight><highlight class="normal">,<sp/>0666);</highlight></codeline>
+<codeline lineno="18" refid="constants_8php_1a5eb43292f0c56482a7869db8adb1c91d" refkind="member"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;DIR_READ_MODE&apos;</highlight><highlight class="normal">,<sp/>0755);</highlight></codeline>
+<codeline lineno="19" refid="constants_8php_1aac7345ea170768d48be7cde8ebf6b147" refkind="member"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;DIR_WRITE_MODE&apos;</highlight><highlight class="normal">,<sp/>0777);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="22"><highlight class="comment">|--------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="23"><highlight class="comment">|<sp/>File<sp/>Stream<sp/>Modes</highlight></codeline>
+<codeline lineno="24"><highlight class="comment">|--------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="25"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="26"><highlight class="comment">|<sp/>These<sp/>modes<sp/>are<sp/>used<sp/>when<sp/>working<sp/>with<sp/>fopen()/popen()</highlight></codeline>
+<codeline lineno="27"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="28"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="constants_8php_1ab6a0a1c6e9ea5f7625b2dba2f7bd286c" refkind="member"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;FOPEN_READ&apos;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;rb&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31" refid="constants_8php_1ab98552969950ea978284c998e10d0153" refkind="member"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;FOPEN_READ_WRITE&apos;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;r+b&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="32" refid="constants_8php_1a246692af603ceac463cab532d81a6048" refkind="member"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;FOPEN_WRITE_CREATE_DESTRUCTIVE&apos;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;wb&apos;</highlight><highlight class="normal">);<sp/></highlight><highlight class="comment">//<sp/>truncates<sp/>existing<sp/>file<sp/>data,<sp/>use<sp/>with<sp/>care</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="constants_8php_1a1b8581dfce24061e847cc257aed23d62" refkind="member"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;FOPEN_READ_WRITE_CREATE_DESTRUCTIVE&apos;</highlight><highlight class="normal">,<sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;w+b&apos;</highlight><highlight class="normal">);<sp/></highlight><highlight class="comment">//<sp/>truncates<sp/>existing<sp/>file<sp/>data,<sp/>use<sp/>with<sp/>care</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="constants_8php_1a7c5689a170bbaab4dd9c6f3a76bd7a0d" refkind="member"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;FOPEN_WRITE_CREATE&apos;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;ab&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="35" refid="constants_8php_1adcd04289bf4dc262b7652cb4c1eb08f7" refkind="member"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;FOPEN_READ_WRITE_CREATE&apos;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;a+b&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="36" refid="constants_8php_1a02007ca17f39af174ac54d30f2ca7e82" refkind="member"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;FOPEN_WRITE_CREATE_STRICT&apos;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;xb&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="37" refid="constants_8php_1a2eeb98a015d74560e9b60ec60d7531d4" refkind="member"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;FOPEN_READ_WRITE_CREATE_STRICT&apos;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;x+b&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>End<sp/>of<sp/>file<sp/>constants.php<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Location:<sp/>./application/config/constants.php<sp/>*/</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/constants.php"/>
+  </compounddef>
+</doxygen>

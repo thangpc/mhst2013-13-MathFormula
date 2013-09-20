@@ -1,0 +1,247 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_c_i___driver" kind="class" prot="public">
+    <compoundname>CI_Driver</compoundname>
+    <derivedcompoundref refid="class_c_i___cache__apc" prot="public" virt="non-virtual">CI_Cache_apc</derivedcompoundref>
+    <derivedcompoundref refid="class_c_i___cache__dummy" prot="public" virt="non-virtual">CI_Cache_dummy</derivedcompoundref>
+    <derivedcompoundref refid="class_c_i___cache__file" prot="public" virt="non-virtual">CI_Cache_file</derivedcompoundref>
+    <derivedcompoundref refid="class_c_i___cache__memcached" prot="public" virt="non-virtual">CI_Cache_memcached</derivedcompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_c_i___driver_1a4e2313a4b35b72a06ac45fd38960f677" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$parent</definition>
+        <argsstring></argsstring>
+        <name>$parent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Driver.php" line="110" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Driver.php" bodystart="110" bodyend="-1"/>
+        <referencedby refid="class_c_i___driver_1acf6a5ad6a84d4c7a27f463cbb618004b" compoundref="_driver_8php" startline="125" endline="160">decorate</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_c_i___driver_1a802753499268a04da139bd6e6ef89b35" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$methods</definition>
+        <argsstring></argsstring>
+        <name>$methods</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Driver.php" line="112" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Driver.php" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___driver_1a7f675de4b5983d7e84f6573b7d4d453d" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$properties</definition>
+        <argsstring></argsstring>
+        <name>$properties</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Driver.php" line="113" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Driver.php" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_c_i___driver_1a6f3e6dc837810a1240396038ee1dd468" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$reflections</definition>
+        <argsstring></argsstring>
+        <name>$reflections</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Driver.php" line="115" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Driver.php" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_i___driver_1acf6a5ad6a84d4c7a27f463cbb618004b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>decorate</definition>
+        <argsstring>($parent)</argsstring>
+        <name>decorate</name>
+        <param>
+          <declname>$parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decorate</para><para>Decorates the child with the parent driver lib&apos;s methods and properties</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>object</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Driver.php" line="125" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Driver.php" bodystart="125" bodyend="160"/>
+        <references refid="mathquill_8js_1a73c61f8f80bfb4ec7e57a9d4c9d1d738" compoundref="mathquill_8js" startline="23">parent</references>
+        <references refid="class_c_i___driver_1a4e2313a4b35b72a06ac45fd38960f677" compoundref="_driver_8php" startline="110">$parent</references>
+        <references refid="_code_igniter_8php_1a12661b2fc0f57f97e30a1620889ce9c6" compoundref="_code_igniter_8php" startline="265">$method</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___driver_1a57936fde7f1adea3f3e7dfca474a1786" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__call</definition>
+        <argsstring>($method, $args=array())</argsstring>
+        <name>__call</name>
+        <param>
+          <declname>$method</declname>
+        </param>
+        <param>
+          <declname>$args</declname>
+          <defval>array()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>__call magic method</para><para>Handles access to the parent driver library&apos;s methods</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Driver.php" line="174" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Driver.php" bodystart="174" bodyend="184"/>
+        <references refid="_code_igniter_8php_1a12661b2fc0f57f97e30a1620889ce9c6" compoundref="_code_igniter_8php" startline="265">$method</references>
+        <references refid="mathquill_8js_1a73c61f8f80bfb4ec7e57a9d4c9d1d738" compoundref="mathquill_8js" startline="23">parent</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___driver_1a8fb2d9cdca17b87400e780b9f9720933" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__get</definition>
+        <argsstring>($var)</argsstring>
+        <name>__get</name>
+        <param>
+          <declname>$var</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>__get magic method</para><para>Handles reading of the parent driver library&apos;s properties</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Driver.php" line="196" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Driver.php" bodystart="196" bodyend="202"/>
+        <references refid="mathquill_8js_1a73c61f8f80bfb4ec7e57a9d4c9d1d738" compoundref="mathquill_8js" startline="23">parent</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___driver_1a921783e9d7c3fb79479375193c9f3d1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__set</definition>
+        <argsstring>($var, $val)</argsstring>
+        <name>__set</name>
+        <param>
+          <declname>$var</declname>
+        </param>
+        <param>
+          <declname>$val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>__set magic method</para><para>Handles writing to the parent driver library&apos;s properties</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Driver.php" line="215" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Driver.php" bodystart="215" bodyend="221"/>
+        <references refid="mathquill_8js_1a73c61f8f80bfb4ec7e57a9d4c9d1d738" compoundref="mathquill_8js" startline="23">parent</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="303">
+        <label>CI_Cache_dummy</label>
+        <link refid="class_c_i___cache__dummy"/>
+        <childnode refid="301" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="302">
+        <label>CI_Cache_apc</label>
+        <link refid="class_c_i___cache__apc"/>
+        <childnode refid="301" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="301">
+        <label>CI_Driver</label>
+        <link refid="class_c_i___driver"/>
+      </node>
+      <node id="305">
+        <label>CI_Cache_memcached</label>
+        <link refid="class_c_i___cache__memcached"/>
+        <childnode refid="301" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="304">
+        <label>CI_Cache_file</label>
+        <link refid="class_c_i___cache__file"/>
+        <childnode refid="301" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Driver.php" line="109" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Driver.php" bodystart="109" bodyend="225"/>
+    <listofallmembers>
+      <member refid="class_c_i___driver_1a802753499268a04da139bd6e6ef89b35" prot="private" virt="non-virtual"><scope>CI_Driver</scope><name>$methods</name></member>
+      <member refid="class_c_i___driver_1a4e2313a4b35b72a06ac45fd38960f677" prot="protected" virt="non-virtual"><scope>CI_Driver</scope><name>$parent</name></member>
+      <member refid="class_c_i___driver_1a7f675de4b5983d7e84f6573b7d4d453d" prot="private" virt="non-virtual"><scope>CI_Driver</scope><name>$properties</name></member>
+      <member refid="class_c_i___driver_1a6f3e6dc837810a1240396038ee1dd468" prot="private" virt="non-virtual"><scope>CI_Driver</scope><name>$reflections</name></member>
+      <member refid="class_c_i___driver_1a57936fde7f1adea3f3e7dfca474a1786" prot="public" virt="non-virtual"><scope>CI_Driver</scope><name>__call</name></member>
+      <member refid="class_c_i___driver_1a8fb2d9cdca17b87400e780b9f9720933" prot="public" virt="non-virtual"><scope>CI_Driver</scope><name>__get</name></member>
+      <member refid="class_c_i___driver_1a921783e9d7c3fb79479375193c9f3d1e" prot="public" virt="non-virtual"><scope>CI_Driver</scope><name>__set</name></member>
+      <member refid="class_c_i___driver_1acf6a5ad6a84d4c7a27f463cbb618004b" prot="public" virt="non-virtual"><scope>CI_Driver</scope><name>decorate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

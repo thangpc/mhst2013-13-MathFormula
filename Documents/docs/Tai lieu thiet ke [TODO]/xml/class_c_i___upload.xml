@@ -1,0 +1,1117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_c_i___upload" kind="class" prot="public">
+    <compoundname>CI_Upload</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_c_i___upload_1a3fec414be9f76cb7ba77ed79b784de62" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$max_size</definition>
+        <argsstring></argsstring>
+        <name>$max_size</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" line="29" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___upload_1a7f6a5db40a5fd00c8babbd37480b00fc" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$max_width</definition>
+        <argsstring></argsstring>
+        <name>$max_width</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" line="30" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___upload_1a7f2b56fde8cdd8907f9228149fc4b9bc" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$max_height</definition>
+        <argsstring></argsstring>
+        <name>$max_height</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" line="31" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___upload_1a7c8c80e453111c2521e355b83331a9df" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$max_filename</definition>
+        <argsstring></argsstring>
+        <name>$max_filename</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" line="32" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___upload_1a2e0df9e15179e2db66d161206842d6c0" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$allowed_types</definition>
+        <argsstring></argsstring>
+        <name>$allowed_types</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" line="33" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___upload_1a8b49917820e40f0b8956d95c1fd6ee6e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$file_temp</definition>
+        <argsstring></argsstring>
+        <name>$file_temp</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" line="34" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" bodystart="34" bodyend="-1"/>
+        <referencedby refid="class_c_i___upload_1ae7e5f9b6d774795da126647f10c3c2a6" compoundref="_upload_8php" startline="824" endline="884">do_xss_clean</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___upload_1a59bf132c77b5bee5adff2098cc2a6fbc" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$file_name</definition>
+        <argsstring></argsstring>
+        <name>$file_name</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" line="35" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" bodystart="35" bodyend="-1"/>
+        <referencedby refid="class_c_i___upload_1a481385e36d920f5a5005ace05c6cd016" compoundref="_upload_8php" startline="80" endline="134">initialize</referencedby>
+        <referencedby refid="class_c_i___upload_1ad4cb1d2aafb3690018dfdeb09010a48c" compoundref="_upload_8php" startline="143" endline="331">do_upload</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___upload_1a2704f7723b97b03285de219442ae3e2b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$orig_name</definition>
+        <argsstring></argsstring>
+        <name>$orig_name</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" line="36" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___upload_1a6210dfa92a7e2e5e9db1aa2337ce4cd1" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$file_type</definition>
+        <argsstring></argsstring>
+        <name>$file_type</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" line="37" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___upload_1a5b3595a69dbf686d879bd009ec9c0317" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$file_size</definition>
+        <argsstring></argsstring>
+        <name>$file_size</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" line="38" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___upload_1a65b080519869bc14d792c1800e3362f5" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$file_ext</definition>
+        <argsstring></argsstring>
+        <name>$file_ext</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" line="39" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" bodystart="39" bodyend="-1"/>
+        <referencedby refid="class_c_i___upload_1ad4cb1d2aafb3690018dfdeb09010a48c" compoundref="_upload_8php" startline="143" endline="331">do_upload</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___upload_1a38507bf82f955d4b13642a3c7fd6e773" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$upload_path</definition>
+        <argsstring></argsstring>
+        <name>$upload_path</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" line="40" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___upload_1a8d31b0ad9cccde7e2d857097672ed6cf" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$overwrite</definition>
+        <argsstring></argsstring>
+        <name>$overwrite</name>
+        <initializer>= FALSE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" line="41" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___upload_1a54a751add0762edd4da11373e3b56687" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$encrypt_name</definition>
+        <argsstring></argsstring>
+        <name>$encrypt_name</name>
+        <initializer>= FALSE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" line="42" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___upload_1a4dae8ae20ed5fdf406554e1911065753" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$is_image</definition>
+        <argsstring></argsstring>
+        <name>$is_image</name>
+        <initializer>= FALSE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" line="43" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___upload_1a8dadc2d2dcc0f25529a2d1e080d08169" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$image_width</definition>
+        <argsstring></argsstring>
+        <name>$image_width</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" line="44" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___upload_1af1b0485025a4c66fa3b2fc442df02d72" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$image_height</definition>
+        <argsstring></argsstring>
+        <name>$image_height</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" line="45" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___upload_1a939d6733d998cce893403d2f59f40317" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$image_type</definition>
+        <argsstring></argsstring>
+        <name>$image_type</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" line="46" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___upload_1a3a1769072af8ab3b0c5d6e0c1a1ae2ef" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$image_size_str</definition>
+        <argsstring></argsstring>
+        <name>$image_size_str</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" line="47" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___upload_1acf910733622c1fa671b9f755c69c2ec7" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$error_msg</definition>
+        <argsstring></argsstring>
+        <name>$error_msg</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" line="48" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___upload_1a2ce7d338d1fd0f0d971ba6213ac298a2" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$mimes</definition>
+        <argsstring></argsstring>
+        <name>$mimes</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" line="49" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" bodystart="49" bodyend="-1"/>
+        <referencedby refid="class_c_i___upload_1aa72da887bec3d5e3fe922c402f706209" compoundref="_upload_8php" startline="947" endline="971">mimes_types</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___upload_1ad9f32a52b4b2c16e42a007e0fa832721" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$remove_spaces</definition>
+        <argsstring></argsstring>
+        <name>$remove_spaces</name>
+        <initializer>= TRUE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" line="50" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___upload_1a0f2ee8861c0b3164a5c6e126dd98c0cc" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$xss_clean</definition>
+        <argsstring></argsstring>
+        <name>$xss_clean</name>
+        <initializer>= FALSE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" line="51" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___upload_1ab38888cba65ae75bbc5b3841bc69d64a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$temp_prefix</definition>
+        <argsstring></argsstring>
+        <name>$temp_prefix</name>
+        <initializer>= &quot;temp_file_&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" line="52" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___upload_1a3b81ba4d3535269e20e0b4a2ddab2edc" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$client_name</definition>
+        <argsstring></argsstring>
+        <name>$client_name</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" line="53" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_c_i___upload_1a9f09c7cb693d391de63f9c8e91f159e1" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$_file_name_override</definition>
+        <argsstring></argsstring>
+        <name>$_file_name_override</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" line="55" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_i___upload_1a563262d396a1cef6153c9998d77bb548" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>($props=array())</argsstring>
+        <name>__construct</name>
+        <param>
+          <declname>$props</declname>
+          <defval>array()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor</para><para>public </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" line="62" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" bodystart="62" bodyend="70"/>
+        <references refid="class_c_i___upload_1a481385e36d920f5a5005ace05c6cd016" compoundref="_upload_8php" startline="80" endline="134">initialize</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___upload_1a481385e36d920f5a5005ace05c6cd016" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>initialize</definition>
+        <argsstring>($config=array())</argsstring>
+        <name>initialize</name>
+        <param>
+          <declname>$config</declname>
+          <defval>array()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Initialize preferences</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" line="80" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" bodystart="80" bodyend="134"/>
+        <references refid="application_2config_2config_8php_1a8063081991a9d7087e6aea78db95a524" compoundref="application_2config_2config_8php" startline="26">$config</references>
+        <references refid="_code_igniter_8php_1a12661b2fc0f57f97e30a1620889ce9c6" compoundref="_code_igniter_8php" startline="265">$method</references>
+        <references refid="class_c_i___upload_1a59bf132c77b5bee5adff2098cc2a6fbc" compoundref="_upload_8php" startline="35">$file_name</references>
+        <referencedby refid="class_c_i___upload_1a563262d396a1cef6153c9998d77bb548" compoundref="_upload_8php" startline="62" endline="70">__construct</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___upload_1ad4cb1d2aafb3690018dfdeb09010a48c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>do_upload</definition>
+        <argsstring>($field= &apos;userfile&apos;)</argsstring>
+        <name>do_upload</name>
+        <param>
+          <declname>$field</declname>
+          <defval>&apos;userfile&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Perform the file upload</para><para><simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" line="143" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" bodystart="143" bodyend="331"/>
+        <references refid="class_c_i___upload_1a892f1ba7cba3731a3fc68f1f64e92610" compoundref="_upload_8php" startline="894" endline="914">set_error</references>
+        <references refid="class_c_i___upload_1a067f092935018f0d1fbfa955ddecfee3" compoundref="_upload_8php" startline="700" endline="727">validate_upload_path</references>
+        <references refid="class_c_i___upload_1a8ac4511eca70b271965b7f8ef00faf66" compoundref="_upload_8php" startline="1023" endline="1128">_file_mime_type</references>
+        <references refid="class_c_i___upload_1a00936ce870d818794909bf16dc2ff70b" compoundref="_upload_8php" startline="984" endline="1010">_prep_filename</references>
+        <references refid="class_c_i___upload_1a6c656eedccb1131accc8e350bc50632f" compoundref="_upload_8php" startline="737" endline="741">get_extension</references>
+        <references refid="class_c_i___upload_1a59bf132c77b5bee5adff2098cc2a6fbc" compoundref="_upload_8php" startline="35">$file_name</references>
+        <references refid="class_c_i___upload_1a248e8cef69fc954953dc988e8d82afca" compoundref="_upload_8php" startline="584" endline="635">is_allowed_filetype</references>
+        <references refid="class_c_i___upload_1a65b080519869bc14d792c1800e3362f5" compoundref="_upload_8php" startline="39">$file_ext</references>
+        <references refid="class_c_i___upload_1aa1283241c3b2fc700c7b577beecd5f97" compoundref="_upload_8php" startline="644" endline="654">is_allowed_filesize</references>
+        <references refid="class_c_i___upload_1a70d66ccc85ab4ec9e76e02cfeaccc193" compoundref="_upload_8php" startline="663" endline="688">is_allowed_dimensions</references>
+        <references refid="class_c_i___upload_1ae243476bbecc4448f38fb52d7a883c32" compoundref="_upload_8php" startline="751" endline="785">clean_file_name</references>
+        <references refid="class_c_i___upload_1ab1f627192a69c4b88a44ad60ba05d0af" compoundref="_upload_8php" startline="795" endline="811">limit_filename_length</references>
+        <references refid="class_c_i___upload_1a4b09b3f2b57a8bafcac1700f43d12c36" compoundref="_upload_8php" startline="390" endline="424">set_filename</references>
+        <references refid="class_c_i___upload_1ae7e5f9b6d774795da126647f10c3c2a6" compoundref="_upload_8php" startline="824" endline="884">do_xss_clean</references>
+        <references refid="class_c_i___upload_1a5a85ab4c11b130ebc33ba1f07baac1fe" compoundref="_upload_8php" startline="506" endline="525">set_image_properties</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___upload_1a742e8fae78fd74219638525de1271605" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>data</definition>
+        <argsstring>()</argsstring>
+        <name>data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Finalized Data Array</para><para>Returns an associative array containing all of the information related to the upload, allowing the developer easy access in one array.</para><para><simplesect kind="return"><para>array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" line="343" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" bodystart="343" bodyend="361"/>
+        <references refid="class_c_i___upload_1af6f513bc693e3ba836f23fe9bebc6427" compoundref="_upload_8php" startline="550" endline="575">is_image</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___upload_1ab2407f3a942d9b203f54e21194cf040d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>set_upload_path</definition>
+        <argsstring>($path)</argsstring>
+        <name>set_upload_path</name>
+        <param>
+          <declname>$path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set Upload Path</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" line="371" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" bodystart="371" bodyend="375"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___upload_1a4b09b3f2b57a8bafcac1700f43d12c36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>set_filename</definition>
+        <argsstring>($path, $filename)</argsstring>
+        <name>set_filename</name>
+        <param>
+          <declname>$path</declname>
+        </param>
+        <param>
+          <declname>$filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the file name</para><para>This function takes a filename/path as input and looks for the existence of a file with the same name. If found, it will append a number to the end of the filename to avoid overwriting a pre-existing file.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" line="390" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" bodystart="390" bodyend="424"/>
+        <references refid="class_c_i___upload_1a892f1ba7cba3731a3fc68f1f64e92610" compoundref="_upload_8php" startline="894" endline="914">set_error</references>
+        <referencedby refid="class_c_i___upload_1ad4cb1d2aafb3690018dfdeb09010a48c" compoundref="_upload_8php" startline="143" endline="331">do_upload</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___upload_1a1f78c3a54f32d313294b27cde4eafaf4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>set_max_filesize</definition>
+        <argsstring>($n)</argsstring>
+        <name>set_max_filesize</name>
+        <param>
+          <declname>$n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set Maximum File Size</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>integer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" line="434" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" bodystart="434" bodyend="437"/>
+        <references refid="mathquill_8js_1a61569f2965b7a369eb10b6d75d410d11" compoundref="mathquill_8js" startline="1661">int</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___upload_1aa288c7337b534788b32d66b23e25548e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>set_max_filename</definition>
+        <argsstring>($n)</argsstring>
+        <name>set_max_filename</name>
+        <param>
+          <declname>$n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set Maximum File Name Length</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>integer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" line="447" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" bodystart="447" bodyend="450"/>
+        <references refid="mathquill_8js_1a61569f2965b7a369eb10b6d75d410d11" compoundref="mathquill_8js" startline="1661">int</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___upload_1a4028f187a825a666976cc3fe47cd44a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>set_max_width</definition>
+        <argsstring>($n)</argsstring>
+        <name>set_max_width</name>
+        <param>
+          <declname>$n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set Maximum Image Width</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>integer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" line="460" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" bodystart="460" bodyend="463"/>
+        <references refid="mathquill_8js_1a61569f2965b7a369eb10b6d75d410d11" compoundref="mathquill_8js" startline="1661">int</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___upload_1aaed82d431f5aeee6a0af294bc604a51e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>set_max_height</definition>
+        <argsstring>($n)</argsstring>
+        <name>set_max_height</name>
+        <param>
+          <declname>$n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set Maximum Image Height</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>integer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" line="473" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" bodystart="473" bodyend="476"/>
+        <references refid="mathquill_8js_1a61569f2965b7a369eb10b6d75d410d11" compoundref="mathquill_8js" startline="1661">int</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___upload_1a7c7ddfefedddc3fd625dd816d67c21bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>set_allowed_types</definition>
+        <argsstring>($types)</argsstring>
+        <name>set_allowed_types</name>
+        <param>
+          <declname>$types</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set Allowed File Types</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" line="486" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" bodystart="486" bodyend="494"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___upload_1a5a85ab4c11b130ebc33ba1f07baac1fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>set_image_properties</definition>
+        <argsstring>($path= &apos;&apos;)</argsstring>
+        <name>set_image_properties</name>
+        <param>
+          <declname>$path</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set Image Properties</para><para>Uses GD to determine the width/height/type of image</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" line="506" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" bodystart="506" bodyend="525"/>
+        <references refid="class_c_i___upload_1af6f513bc693e3ba836f23fe9bebc6427" compoundref="_upload_8php" startline="550" endline="575">is_image</references>
+        <referencedby refid="class_c_i___upload_1ad4cb1d2aafb3690018dfdeb09010a48c" compoundref="_upload_8php" startline="143" endline="331">do_upload</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___upload_1a5556024223414507d84d221862919212" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>set_xss_clean</definition>
+        <argsstring>($flag=FALSE)</argsstring>
+        <name>set_xss_clean</name>
+        <param>
+          <declname>$flag</declname>
+          <defval>FALSE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set XSS Clean</para><para>Enables the XSS flag so that the file that was uploaded will be run through the XSS filter.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>bool</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" line="538" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" bodystart="538" bodyend="541"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___upload_1af6f513bc693e3ba836f23fe9bebc6427" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>is_image</definition>
+        <argsstring>()</argsstring>
+        <name>is_image</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Validate the image</para><para><simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" line="550" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" bodystart="550" bodyend="575"/>
+        <referencedby refid="class_c_i___upload_1a742e8fae78fd74219638525de1271605" compoundref="_upload_8php" startline="343" endline="361">data</referencedby>
+        <referencedby refid="class_c_i___upload_1a5a85ab4c11b130ebc33ba1f07baac1fe" compoundref="_upload_8php" startline="506" endline="525">set_image_properties</referencedby>
+        <referencedby refid="class_c_i___upload_1a70d66ccc85ab4ec9e76e02cfeaccc193" compoundref="_upload_8php" startline="663" endline="688">is_allowed_dimensions</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___upload_1a248e8cef69fc954953dc988e8d82afca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>is_allowed_filetype</definition>
+        <argsstring>($ignore_mime=FALSE)</argsstring>
+        <name>is_allowed_filetype</name>
+        <param>
+          <declname>$ignore_mime</declname>
+          <defval>FALSE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Verify that the filetype is allowed</para><para><simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" line="584" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" bodystart="584" bodyend="635"/>
+        <references refid="class_c_i___upload_1a892f1ba7cba3731a3fc68f1f64e92610" compoundref="_upload_8php" startline="894" endline="914">set_error</references>
+        <references refid="class_c_i___upload_1aa72da887bec3d5e3fe922c402f706209" compoundref="_upload_8php" startline="947" endline="971">mimes_types</references>
+        <referencedby refid="class_c_i___upload_1ad4cb1d2aafb3690018dfdeb09010a48c" compoundref="_upload_8php" startline="143" endline="331">do_upload</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___upload_1aa1283241c3b2fc700c7b577beecd5f97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>is_allowed_filesize</definition>
+        <argsstring>()</argsstring>
+        <name>is_allowed_filesize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Verify that the file is within the allowed size</para><para><simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" line="644" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" bodystart="644" bodyend="654"/>
+        <referencedby refid="class_c_i___upload_1ad4cb1d2aafb3690018dfdeb09010a48c" compoundref="_upload_8php" startline="143" endline="331">do_upload</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___upload_1a70d66ccc85ab4ec9e76e02cfeaccc193" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>is_allowed_dimensions</definition>
+        <argsstring>()</argsstring>
+        <name>is_allowed_dimensions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Verify that the image is within the allowed width/height</para><para><simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" line="663" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" bodystart="663" bodyend="688"/>
+        <references refid="class_c_i___upload_1af6f513bc693e3ba836f23fe9bebc6427" compoundref="_upload_8php" startline="550" endline="575">is_image</references>
+        <referencedby refid="class_c_i___upload_1ad4cb1d2aafb3690018dfdeb09010a48c" compoundref="_upload_8php" startline="143" endline="331">do_upload</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___upload_1a067f092935018f0d1fbfa955ddecfee3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>validate_upload_path</definition>
+        <argsstring>()</argsstring>
+        <name>validate_upload_path</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Validate Upload Path</para><para>Verifies that it is a valid upload path with proper permissions.</para><para><simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" line="700" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" bodystart="700" bodyend="727"/>
+        <references refid="class_c_i___upload_1a892f1ba7cba3731a3fc68f1f64e92610" compoundref="_upload_8php" startline="894" endline="914">set_error</references>
+        <referencedby refid="class_c_i___upload_1ad4cb1d2aafb3690018dfdeb09010a48c" compoundref="_upload_8php" startline="143" endline="331">do_upload</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___upload_1a6c656eedccb1131accc8e350bc50632f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>get_extension</definition>
+        <argsstring>($filename)</argsstring>
+        <name>get_extension</name>
+        <param>
+          <declname>$filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Extract the file extension</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" line="737" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" bodystart="737" bodyend="741"/>
+        <referencedby refid="class_c_i___upload_1ad4cb1d2aafb3690018dfdeb09010a48c" compoundref="_upload_8php" startline="143" endline="331">do_upload</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___upload_1ae243476bbecc4448f38fb52d7a883c32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>clean_file_name</definition>
+        <argsstring>($filename)</argsstring>
+        <name>clean_file_name</name>
+        <param>
+          <declname>$filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Clean the file name for security</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" line="751" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" bodystart="751" bodyend="785"/>
+        <referencedby refid="class_c_i___upload_1ad4cb1d2aafb3690018dfdeb09010a48c" compoundref="_upload_8php" startline="143" endline="331">do_upload</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___upload_1ab1f627192a69c4b88a44ad60ba05d0af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>limit_filename_length</definition>
+        <argsstring>($filename, $length)</argsstring>
+        <name>limit_filename_length</name>
+        <param>
+          <declname>$filename</declname>
+        </param>
+        <param>
+          <declname>$length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Limit the File Name Length</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" line="795" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" bodystart="795" bodyend="811"/>
+        <referencedby refid="class_c_i___upload_1ad4cb1d2aafb3690018dfdeb09010a48c" compoundref="_upload_8php" startline="143" endline="331">do_upload</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___upload_1ae7e5f9b6d774795da126647f10c3c2a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>do_xss_clean</definition>
+        <argsstring>()</argsstring>
+        <name>do_xss_clean</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Runs the file through the XSS clean function</para><para>This prevents people from embedding malicious code in their files. I&apos;m not sure that it won&apos;t negatively affect certain files in unexpected ways, but so far I haven&apos;t found that it causes trouble.</para><para><simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" line="824" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" bodystart="824" bodyend="884"/>
+        <references refid="class_c_i___upload_1a8b49917820e40f0b8956d95c1fd6ee6e" compoundref="_upload_8php" startline="34">$file_temp</references>
+        <references refid="_code_igniter_8php_1ae0314d046ddf7fcfaec03222977427d3" compoundref="_code_igniter_8php" startline="308">$CI</references>
+        <references refid="_code_igniter_8php_1a185483844bd20a0e80955460d66d2199" compoundref="_code_igniter_8php" startline="231" endline="398">get_instance</references>
+        <referencedby refid="class_c_i___upload_1ad4cb1d2aafb3690018dfdeb09010a48c" compoundref="_upload_8php" startline="143" endline="331">do_upload</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___upload_1a892f1ba7cba3731a3fc68f1f64e92610" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>set_error</definition>
+        <argsstring>($msg)</argsstring>
+        <name>set_error</name>
+        <param>
+          <declname>$msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set an error message</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" line="894" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" bodystart="894" bodyend="914"/>
+        <references refid="_code_igniter_8php_1ae0314d046ddf7fcfaec03222977427d3" compoundref="_code_igniter_8php" startline="308">$CI</references>
+        <references refid="_code_igniter_8php_1a185483844bd20a0e80955460d66d2199" compoundref="_code_igniter_8php" startline="231" endline="398">get_instance</references>
+        <referencedby refid="class_c_i___upload_1ad4cb1d2aafb3690018dfdeb09010a48c" compoundref="_upload_8php" startline="143" endline="331">do_upload</referencedby>
+        <referencedby refid="class_c_i___upload_1a4b09b3f2b57a8bafcac1700f43d12c36" compoundref="_upload_8php" startline="390" endline="424">set_filename</referencedby>
+        <referencedby refid="class_c_i___upload_1a248e8cef69fc954953dc988e8d82afca" compoundref="_upload_8php" startline="584" endline="635">is_allowed_filetype</referencedby>
+        <referencedby refid="class_c_i___upload_1a067f092935018f0d1fbfa955ddecfee3" compoundref="_upload_8php" startline="700" endline="727">validate_upload_path</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___upload_1a3ed4aa1a4d480c82bb1b663efd466aee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>display_errors</definition>
+        <argsstring>($open= &apos;&lt; p &gt;&apos;, $close= &apos;&lt;/p &gt;&apos;)</argsstring>
+        <name>display_errors</name>
+        <param>
+          <declname>$open</declname>
+          <defval>&apos;&lt; <ref refid="jquery_8min_8js_1ad1707b001240e9c8298830073364c8bf" kindref="member">p</ref> &gt;&apos;</defval>
+        </param>
+        <param>
+          <declname>$close</declname>
+          <defval>&apos;&lt;/<ref refid="jquery_8min_8js_1ad1707b001240e9c8298830073364c8bf" kindref="member">p</ref> &gt;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Display the error message</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" line="925" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" bodystart="925" bodyend="934"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___upload_1aa72da887bec3d5e3fe922c402f706209" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>mimes_types</definition>
+        <argsstring>($mime)</argsstring>
+        <name>mimes_types</name>
+        <param>
+          <declname>$mime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>List of Mime Types</para><para>This is a list of mime types. We use it to validate the &quot;allowed types&quot; set by the developer</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" line="947" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" bodystart="947" bodyend="971"/>
+        <references refid="class_c_i___upload_1a2ce7d338d1fd0f0d971ba6213ac298a2" compoundref="_upload_8php" startline="49">$mimes</references>
+        <referencedby refid="class_c_i___upload_1a248e8cef69fc954953dc988e8d82afca" compoundref="_upload_8php" startline="584" endline="635">is_allowed_filetype</referencedby>
+        <referencedby refid="class_c_i___upload_1a00936ce870d818794909bf16dc2ff70b" compoundref="_upload_8php" startline="984" endline="1010">_prep_filename</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_c_i___upload_1a00936ce870d818794909bf16dc2ff70b" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_prep_filename</definition>
+        <argsstring>($filename)</argsstring>
+        <name>_prep_filename</name>
+        <param>
+          <declname>$filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Prep Filename</para><para>Prevents possible script execution from Apache&apos;s handling of files multiple extensions <ulink url="http://httpd.apache.org/docs/1.3/mod/mod_mime.html#multipleext">http://httpd.apache.org/docs/1.3/mod/mod_mime.html#multipleext</ulink></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" line="984" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" bodystart="984" bodyend="1010"/>
+        <references refid="class_c_i___upload_1aa72da887bec3d5e3fe922c402f706209" compoundref="_upload_8php" startline="947" endline="971">mimes_types</references>
+        <referencedby refid="class_c_i___upload_1ad4cb1d2aafb3690018dfdeb09010a48c" compoundref="_upload_8php" startline="143" endline="331">do_upload</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___upload_1a8ac4511eca70b271965b7f8ef00faf66" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_file_mime_type</definition>
+        <argsstring>($file)</argsstring>
+        <name>_file_mime_type</name>
+        <param>
+          <declname>$file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>File MIME type</para><para>Detects the (actual) MIME type of the uploaded file, if possible. The input array is expected to be $_FILES[$field]</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" line="1023" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" bodystart="1023" bodyend="1128"/>
+        <referencedby refid="class_c_i___upload_1ad4cb1d2aafb3690018dfdeb09010a48c" compoundref="_upload_8php" startline="143" endline="331">do_upload</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" line="27" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Upload.php" bodystart="27" bodyend="1132"/>
+    <listofallmembers>
+      <member refid="class_c_i___upload_1a9f09c7cb693d391de63f9c8e91f159e1" prot="protected" virt="non-virtual"><scope>CI_Upload</scope><name>$_file_name_override</name></member>
+      <member refid="class_c_i___upload_1a2e0df9e15179e2db66d161206842d6c0" prot="public" virt="non-virtual"><scope>CI_Upload</scope><name>$allowed_types</name></member>
+      <member refid="class_c_i___upload_1a3b81ba4d3535269e20e0b4a2ddab2edc" prot="public" virt="non-virtual"><scope>CI_Upload</scope><name>$client_name</name></member>
+      <member refid="class_c_i___upload_1a54a751add0762edd4da11373e3b56687" prot="public" virt="non-virtual"><scope>CI_Upload</scope><name>$encrypt_name</name></member>
+      <member refid="class_c_i___upload_1acf910733622c1fa671b9f755c69c2ec7" prot="public" virt="non-virtual"><scope>CI_Upload</scope><name>$error_msg</name></member>
+      <member refid="class_c_i___upload_1a65b080519869bc14d792c1800e3362f5" prot="public" virt="non-virtual"><scope>CI_Upload</scope><name>$file_ext</name></member>
+      <member refid="class_c_i___upload_1a59bf132c77b5bee5adff2098cc2a6fbc" prot="public" virt="non-virtual"><scope>CI_Upload</scope><name>$file_name</name></member>
+      <member refid="class_c_i___upload_1a5b3595a69dbf686d879bd009ec9c0317" prot="public" virt="non-virtual"><scope>CI_Upload</scope><name>$file_size</name></member>
+      <member refid="class_c_i___upload_1a8b49917820e40f0b8956d95c1fd6ee6e" prot="public" virt="non-virtual"><scope>CI_Upload</scope><name>$file_temp</name></member>
+      <member refid="class_c_i___upload_1a6210dfa92a7e2e5e9db1aa2337ce4cd1" prot="public" virt="non-virtual"><scope>CI_Upload</scope><name>$file_type</name></member>
+      <member refid="class_c_i___upload_1af1b0485025a4c66fa3b2fc442df02d72" prot="public" virt="non-virtual"><scope>CI_Upload</scope><name>$image_height</name></member>
+      <member refid="class_c_i___upload_1a3a1769072af8ab3b0c5d6e0c1a1ae2ef" prot="public" virt="non-virtual"><scope>CI_Upload</scope><name>$image_size_str</name></member>
+      <member refid="class_c_i___upload_1a939d6733d998cce893403d2f59f40317" prot="public" virt="non-virtual"><scope>CI_Upload</scope><name>$image_type</name></member>
+      <member refid="class_c_i___upload_1a8dadc2d2dcc0f25529a2d1e080d08169" prot="public" virt="non-virtual"><scope>CI_Upload</scope><name>$image_width</name></member>
+      <member refid="class_c_i___upload_1a4dae8ae20ed5fdf406554e1911065753" prot="public" virt="non-virtual"><scope>CI_Upload</scope><name>$is_image</name></member>
+      <member refid="class_c_i___upload_1a7c8c80e453111c2521e355b83331a9df" prot="public" virt="non-virtual"><scope>CI_Upload</scope><name>$max_filename</name></member>
+      <member refid="class_c_i___upload_1a7f2b56fde8cdd8907f9228149fc4b9bc" prot="public" virt="non-virtual"><scope>CI_Upload</scope><name>$max_height</name></member>
+      <member refid="class_c_i___upload_1a3fec414be9f76cb7ba77ed79b784de62" prot="public" virt="non-virtual"><scope>CI_Upload</scope><name>$max_size</name></member>
+      <member refid="class_c_i___upload_1a7f6a5db40a5fd00c8babbd37480b00fc" prot="public" virt="non-virtual"><scope>CI_Upload</scope><name>$max_width</name></member>
+      <member refid="class_c_i___upload_1a2ce7d338d1fd0f0d971ba6213ac298a2" prot="public" virt="non-virtual"><scope>CI_Upload</scope><name>$mimes</name></member>
+      <member refid="class_c_i___upload_1a2704f7723b97b03285de219442ae3e2b" prot="public" virt="non-virtual"><scope>CI_Upload</scope><name>$orig_name</name></member>
+      <member refid="class_c_i___upload_1a8d31b0ad9cccde7e2d857097672ed6cf" prot="public" virt="non-virtual"><scope>CI_Upload</scope><name>$overwrite</name></member>
+      <member refid="class_c_i___upload_1ad9f32a52b4b2c16e42a007e0fa832721" prot="public" virt="non-virtual"><scope>CI_Upload</scope><name>$remove_spaces</name></member>
+      <member refid="class_c_i___upload_1ab38888cba65ae75bbc5b3841bc69d64a" prot="public" virt="non-virtual"><scope>CI_Upload</scope><name>$temp_prefix</name></member>
+      <member refid="class_c_i___upload_1a38507bf82f955d4b13642a3c7fd6e773" prot="public" virt="non-virtual"><scope>CI_Upload</scope><name>$upload_path</name></member>
+      <member refid="class_c_i___upload_1a0f2ee8861c0b3164a5c6e126dd98c0cc" prot="public" virt="non-virtual"><scope>CI_Upload</scope><name>$xss_clean</name></member>
+      <member refid="class_c_i___upload_1a563262d396a1cef6153c9998d77bb548" prot="public" virt="non-virtual"><scope>CI_Upload</scope><name>__construct</name></member>
+      <member refid="class_c_i___upload_1a8ac4511eca70b271965b7f8ef00faf66" prot="protected" virt="non-virtual"><scope>CI_Upload</scope><name>_file_mime_type</name></member>
+      <member refid="class_c_i___upload_1a00936ce870d818794909bf16dc2ff70b" prot="protected" virt="non-virtual"><scope>CI_Upload</scope><name>_prep_filename</name></member>
+      <member refid="class_c_i___upload_1ae243476bbecc4448f38fb52d7a883c32" prot="public" virt="non-virtual"><scope>CI_Upload</scope><name>clean_file_name</name></member>
+      <member refid="class_c_i___upload_1a742e8fae78fd74219638525de1271605" prot="public" virt="non-virtual"><scope>CI_Upload</scope><name>data</name></member>
+      <member refid="class_c_i___upload_1a3ed4aa1a4d480c82bb1b663efd466aee" prot="public" virt="non-virtual"><scope>CI_Upload</scope><name>display_errors</name></member>
+      <member refid="class_c_i___upload_1ad4cb1d2aafb3690018dfdeb09010a48c" prot="public" virt="non-virtual"><scope>CI_Upload</scope><name>do_upload</name></member>
+      <member refid="class_c_i___upload_1ae7e5f9b6d774795da126647f10c3c2a6" prot="public" virt="non-virtual"><scope>CI_Upload</scope><name>do_xss_clean</name></member>
+      <member refid="class_c_i___upload_1a6c656eedccb1131accc8e350bc50632f" prot="public" virt="non-virtual"><scope>CI_Upload</scope><name>get_extension</name></member>
+      <member refid="class_c_i___upload_1a481385e36d920f5a5005ace05c6cd016" prot="public" virt="non-virtual"><scope>CI_Upload</scope><name>initialize</name></member>
+      <member refid="class_c_i___upload_1a70d66ccc85ab4ec9e76e02cfeaccc193" prot="public" virt="non-virtual"><scope>CI_Upload</scope><name>is_allowed_dimensions</name></member>
+      <member refid="class_c_i___upload_1aa1283241c3b2fc700c7b577beecd5f97" prot="public" virt="non-virtual"><scope>CI_Upload</scope><name>is_allowed_filesize</name></member>
+      <member refid="class_c_i___upload_1a248e8cef69fc954953dc988e8d82afca" prot="public" virt="non-virtual"><scope>CI_Upload</scope><name>is_allowed_filetype</name></member>
+      <member refid="class_c_i___upload_1af6f513bc693e3ba836f23fe9bebc6427" prot="public" virt="non-virtual"><scope>CI_Upload</scope><name>is_image</name></member>
+      <member refid="class_c_i___upload_1ab1f627192a69c4b88a44ad60ba05d0af" prot="public" virt="non-virtual"><scope>CI_Upload</scope><name>limit_filename_length</name></member>
+      <member refid="class_c_i___upload_1aa72da887bec3d5e3fe922c402f706209" prot="public" virt="non-virtual"><scope>CI_Upload</scope><name>mimes_types</name></member>
+      <member refid="class_c_i___upload_1a7c7ddfefedddc3fd625dd816d67c21bf" prot="public" virt="non-virtual"><scope>CI_Upload</scope><name>set_allowed_types</name></member>
+      <member refid="class_c_i___upload_1a892f1ba7cba3731a3fc68f1f64e92610" prot="public" virt="non-virtual"><scope>CI_Upload</scope><name>set_error</name></member>
+      <member refid="class_c_i___upload_1a4b09b3f2b57a8bafcac1700f43d12c36" prot="public" virt="non-virtual"><scope>CI_Upload</scope><name>set_filename</name></member>
+      <member refid="class_c_i___upload_1a5a85ab4c11b130ebc33ba1f07baac1fe" prot="public" virt="non-virtual"><scope>CI_Upload</scope><name>set_image_properties</name></member>
+      <member refid="class_c_i___upload_1aa288c7337b534788b32d66b23e25548e" prot="public" virt="non-virtual"><scope>CI_Upload</scope><name>set_max_filename</name></member>
+      <member refid="class_c_i___upload_1a1f78c3a54f32d313294b27cde4eafaf4" prot="public" virt="non-virtual"><scope>CI_Upload</scope><name>set_max_filesize</name></member>
+      <member refid="class_c_i___upload_1aaed82d431f5aeee6a0af294bc604a51e" prot="public" virt="non-virtual"><scope>CI_Upload</scope><name>set_max_height</name></member>
+      <member refid="class_c_i___upload_1a4028f187a825a666976cc3fe47cd44a8" prot="public" virt="non-virtual"><scope>CI_Upload</scope><name>set_max_width</name></member>
+      <member refid="class_c_i___upload_1ab2407f3a942d9b203f54e21194cf040d" prot="public" virt="non-virtual"><scope>CI_Upload</scope><name>set_upload_path</name></member>
+      <member refid="class_c_i___upload_1a5556024223414507d84d221862919212" prot="public" virt="non-virtual"><scope>CI_Upload</scope><name>set_xss_clean</name></member>
+      <member refid="class_c_i___upload_1a067f092935018f0d1fbfa955ddecfee3" prot="public" virt="non-virtual"><scope>CI_Upload</scope><name>validate_upload_path</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

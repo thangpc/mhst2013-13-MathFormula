@@ -1,0 +1,867 @@
+\section{C\-I\-\_\-\-Upload Class Reference}
+\label{class_c_i___upload}\index{C\-I\-\_\-\-Upload@{C\-I\-\_\-\-Upload}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf \-\_\-\-\_\-construct} (\${\bf props}=array())
+\item 
+{\bf initialize} (\$config=array())
+\item 
+{\bf do\-\_\-upload} (\$field= 'userfile')
+\item 
+{\bf data} ()
+\item 
+{\bf set\-\_\-upload\-\_\-path} (\$path)
+\item 
+{\bf set\-\_\-filename} (\$path, \$filename)
+\item 
+{\bf set\-\_\-max\-\_\-filesize} (\${\bf n})
+\item 
+{\bf set\-\_\-max\-\_\-filename} (\${\bf n})
+\item 
+{\bf set\-\_\-max\-\_\-width} (\${\bf n})
+\item 
+{\bf set\-\_\-max\-\_\-height} (\${\bf n})
+\item 
+{\bf set\-\_\-allowed\-\_\-types} (\$types)
+\item 
+{\bf set\-\_\-image\-\_\-properties} (\$path= '')
+\item 
+{\bf set\-\_\-xss\-\_\-clean} (\$flag=F\-A\-L\-S\-E)
+\item 
+{\bf is\-\_\-image} ()
+\item 
+{\bf is\-\_\-allowed\-\_\-filetype} (\$ignore\-\_\-mime=F\-A\-L\-S\-E)
+\item 
+{\bf is\-\_\-allowed\-\_\-filesize} ()
+\item 
+{\bf is\-\_\-allowed\-\_\-dimensions} ()
+\item 
+{\bf validate\-\_\-upload\-\_\-path} ()
+\item 
+{\bf get\-\_\-extension} (\$filename)
+\item 
+{\bf clean\-\_\-file\-\_\-name} (\$filename)
+\item 
+{\bf limit\-\_\-filename\-\_\-length} (\$filename, \$length)
+\item 
+{\bf do\-\_\-xss\-\_\-clean} ()
+\item 
+{\bf set\-\_\-error} (\$msg)
+\item 
+{\bf display\-\_\-errors} (\$open= '$<$ {\bf p} $>$', \$close= '$<$/{\bf p} $>$')
+\item 
+{\bf mimes\-\_\-types} (\$mime)
+\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+{\bf \$max\-\_\-size} = 0
+\item 
+{\bf \$max\-\_\-width} = 0
+\item 
+{\bf \$max\-\_\-height} = 0
+\item 
+{\bf \$max\-\_\-filename} = 0
+\item 
+{\bf \$allowed\-\_\-types} = \char`\"{}\char`\"{}
+\item 
+{\bf \$file\-\_\-temp} = \char`\"{}\char`\"{}
+\item 
+{\bf \$file\-\_\-name} = \char`\"{}\char`\"{}
+\item 
+{\bf \$orig\-\_\-name} = \char`\"{}\char`\"{}
+\item 
+{\bf \$file\-\_\-type} = \char`\"{}\char`\"{}
+\item 
+{\bf \$file\-\_\-size} = \char`\"{}\char`\"{}
+\item 
+{\bf \$file\-\_\-ext} = \char`\"{}\char`\"{}
+\item 
+{\bf \$upload\-\_\-path} = \char`\"{}\char`\"{}
+\item 
+{\bf \$overwrite} = F\-A\-L\-S\-E
+\item 
+{\bf \$encrypt\-\_\-name} = F\-A\-L\-S\-E
+\item 
+{\bf \$is\-\_\-image} = F\-A\-L\-S\-E
+\item 
+{\bf \$image\-\_\-width} = ''
+\item 
+{\bf \$image\-\_\-height} = ''
+\item 
+{\bf \$image\-\_\-type} = ''
+\item 
+{\bf \$image\-\_\-size\-\_\-str} = ''
+\item 
+{\bf \$error\-\_\-msg} = array()
+\item 
+{\bf \$mimes} = array()
+\item 
+{\bf \$remove\-\_\-spaces} = T\-R\-U\-E
+\item 
+{\bf \$xss\-\_\-clean} = F\-A\-L\-S\-E
+\item 
+{\bf \$temp\-\_\-prefix} = \char`\"{}temp\-\_\-file\-\_\-\char`\"{}
+\item 
+{\bf \$client\-\_\-name} = ''
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf \-\_\-prep\-\_\-filename} (\$filename)
+\item 
+{\bf \-\_\-file\-\_\-mime\-\_\-type} (\$file)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+{\bf \$\-\_\-file\-\_\-name\-\_\-override} = ''
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 27 of file Upload.\-php.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{C\-I\-\_\-\-Upload@{C\-I\-\_\-\-Upload}!\-\_\-\-\_\-construct@{\-\_\-\-\_\-construct}}
+\index{\-\_\-\-\_\-construct@{\-\_\-\-\_\-construct}!CI_Upload@{C\-I\-\_\-\-Upload}}
+\subsubsection[{\-\_\-\-\_\-construct}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-\-\_\-construct (
+\begin{DoxyParamCaption}
+\item[{}]{\$props = {\ttfamily array()}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___upload_a563262d396a1cef6153c9998d77bb548}
+Constructor
+
+public 
+
+Definition at line 62 of file Upload.\-php.
+
+
+
+\subsection{Member Function Documentation}
+\index{C\-I\-\_\-\-Upload@{C\-I\-\_\-\-Upload}!\-\_\-file\-\_\-mime\-\_\-type@{\-\_\-file\-\_\-mime\-\_\-type}}
+\index{\-\_\-file\-\_\-mime\-\_\-type@{\-\_\-file\-\_\-mime\-\_\-type}!CI_Upload@{C\-I\-\_\-\-Upload}}
+\subsubsection[{\-\_\-file\-\_\-mime\-\_\-type}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-file\-\_\-mime\-\_\-type (
+\begin{DoxyParamCaption}
+\item[{}]{\$file}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\label{class_c_i___upload_a8ac4511eca70b271965b7f8ef00faf66}
+File M\-I\-M\-E type
+
+Detects the (actual) M\-I\-M\-E type of the uploaded file, if possible. The input array is expected to be \$\-\_\-\-F\-I\-L\-E\-S[\$field]
+
+
+\begin{DoxyParams}{Parameters}
+{\em array} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 1023 of file Upload.\-php.
+
+\index{C\-I\-\_\-\-Upload@{C\-I\-\_\-\-Upload}!\-\_\-prep\-\_\-filename@{\-\_\-prep\-\_\-filename}}
+\index{\-\_\-prep\-\_\-filename@{\-\_\-prep\-\_\-filename}!CI_Upload@{C\-I\-\_\-\-Upload}}
+\subsubsection[{\-\_\-prep\-\_\-filename}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-prep\-\_\-filename (
+\begin{DoxyParamCaption}
+\item[{}]{\$filename}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\label{class_c_i___upload_a00936ce870d818794909bf16dc2ff70b}
+Prep Filename
+
+Prevents possible script execution from Apache's handling of files multiple extensions {\tt http\-://httpd.\-apache.\-org/docs/1.\-3/mod/mod\-\_\-mime.\-html\#multipleext}
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 984 of file Upload.\-php.
+
+\index{C\-I\-\_\-\-Upload@{C\-I\-\_\-\-Upload}!clean\-\_\-file\-\_\-name@{clean\-\_\-file\-\_\-name}}
+\index{clean\-\_\-file\-\_\-name@{clean\-\_\-file\-\_\-name}!CI_Upload@{C\-I\-\_\-\-Upload}}
+\subsubsection[{clean\-\_\-file\-\_\-name}]{\setlength{\rightskip}{0pt plus 5cm}clean\-\_\-file\-\_\-name (
+\begin{DoxyParamCaption}
+\item[{}]{\$filename}
+\end{DoxyParamCaption}
+)}\label{class_c_i___upload_ae243476bbecc4448f38fb52d7a883c32}
+Clean the file name for security
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 751 of file Upload.\-php.
+
+\index{C\-I\-\_\-\-Upload@{C\-I\-\_\-\-Upload}!data@{data}}
+\index{data@{data}!CI_Upload@{C\-I\-\_\-\-Upload}}
+\subsubsection[{data}]{\setlength{\rightskip}{0pt plus 5cm}data (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_c_i___upload_a742e8fae78fd74219638525de1271605}
+Finalized Data Array
+
+Returns an associative array containing all of the information related to the upload, allowing the developer easy access in one array.
+
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+
+
+Definition at line 343 of file Upload.\-php.
+
+\index{C\-I\-\_\-\-Upload@{C\-I\-\_\-\-Upload}!display\-\_\-errors@{display\-\_\-errors}}
+\index{display\-\_\-errors@{display\-\_\-errors}!CI_Upload@{C\-I\-\_\-\-Upload}}
+\subsubsection[{display\-\_\-errors}]{\setlength{\rightskip}{0pt plus 5cm}display\-\_\-errors (
+\begin{DoxyParamCaption}
+\item[{}]{\$open = {\ttfamily '$<${\bf p}$>$'}, }
+\item[{}]{\$close = {\ttfamily '$<$/{\bf p}$>$'}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___upload_a3ed4aa1a4d480c82bb1b663efd466aee}
+Display the error message
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 925 of file Upload.\-php.
+
+\index{C\-I\-\_\-\-Upload@{C\-I\-\_\-\-Upload}!do\-\_\-upload@{do\-\_\-upload}}
+\index{do\-\_\-upload@{do\-\_\-upload}!CI_Upload@{C\-I\-\_\-\-Upload}}
+\subsubsection[{do\-\_\-upload}]{\setlength{\rightskip}{0pt plus 5cm}do\-\_\-upload (
+\begin{DoxyParamCaption}
+\item[{}]{\$field = {\ttfamily 'userfile'}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___upload_ad4cb1d2aafb3690018dfdeb09010a48c}
+Perform the file upload
+
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 143 of file Upload.\-php.
+
+\index{C\-I\-\_\-\-Upload@{C\-I\-\_\-\-Upload}!do\-\_\-xss\-\_\-clean@{do\-\_\-xss\-\_\-clean}}
+\index{do\-\_\-xss\-\_\-clean@{do\-\_\-xss\-\_\-clean}!CI_Upload@{C\-I\-\_\-\-Upload}}
+\subsubsection[{do\-\_\-xss\-\_\-clean}]{\setlength{\rightskip}{0pt plus 5cm}do\-\_\-xss\-\_\-clean (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_c_i___upload_ae7e5f9b6d774795da126647f10c3c2a6}
+Runs the file through the X\-S\-S clean function
+
+This prevents people from embedding malicious code in their files. I'm not sure that it won't negatively affect certain files in unexpected ways, but so far I haven't found that it causes trouble.
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 824 of file Upload.\-php.
+
+\index{C\-I\-\_\-\-Upload@{C\-I\-\_\-\-Upload}!get\-\_\-extension@{get\-\_\-extension}}
+\index{get\-\_\-extension@{get\-\_\-extension}!CI_Upload@{C\-I\-\_\-\-Upload}}
+\subsubsection[{get\-\_\-extension}]{\setlength{\rightskip}{0pt plus 5cm}get\-\_\-extension (
+\begin{DoxyParamCaption}
+\item[{}]{\$filename}
+\end{DoxyParamCaption}
+)}\label{class_c_i___upload_a6c656eedccb1131accc8e350bc50632f}
+Extract the file extension
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 737 of file Upload.\-php.
+
+\index{C\-I\-\_\-\-Upload@{C\-I\-\_\-\-Upload}!initialize@{initialize}}
+\index{initialize@{initialize}!CI_Upload@{C\-I\-\_\-\-Upload}}
+\subsubsection[{initialize}]{\setlength{\rightskip}{0pt plus 5cm}initialize (
+\begin{DoxyParamCaption}
+\item[{}]{\$config = {\ttfamily array()}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___upload_a481385e36d920f5a5005ace05c6cd016}
+Initialize preferences
+
+
+\begin{DoxyParams}{Parameters}
+{\em array} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 80 of file Upload.\-php.
+
+\index{C\-I\-\_\-\-Upload@{C\-I\-\_\-\-Upload}!is\-\_\-allowed\-\_\-dimensions@{is\-\_\-allowed\-\_\-dimensions}}
+\index{is\-\_\-allowed\-\_\-dimensions@{is\-\_\-allowed\-\_\-dimensions}!CI_Upload@{C\-I\-\_\-\-Upload}}
+\subsubsection[{is\-\_\-allowed\-\_\-dimensions}]{\setlength{\rightskip}{0pt plus 5cm}is\-\_\-allowed\-\_\-dimensions (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_c_i___upload_a70d66ccc85ab4ec9e76e02cfeaccc193}
+Verify that the image is within the allowed width/height
+
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 663 of file Upload.\-php.
+
+\index{C\-I\-\_\-\-Upload@{C\-I\-\_\-\-Upload}!is\-\_\-allowed\-\_\-filesize@{is\-\_\-allowed\-\_\-filesize}}
+\index{is\-\_\-allowed\-\_\-filesize@{is\-\_\-allowed\-\_\-filesize}!CI_Upload@{C\-I\-\_\-\-Upload}}
+\subsubsection[{is\-\_\-allowed\-\_\-filesize}]{\setlength{\rightskip}{0pt plus 5cm}is\-\_\-allowed\-\_\-filesize (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_c_i___upload_aa1283241c3b2fc700c7b577beecd5f97}
+Verify that the file is within the allowed size
+
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 644 of file Upload.\-php.
+
+\index{C\-I\-\_\-\-Upload@{C\-I\-\_\-\-Upload}!is\-\_\-allowed\-\_\-filetype@{is\-\_\-allowed\-\_\-filetype}}
+\index{is\-\_\-allowed\-\_\-filetype@{is\-\_\-allowed\-\_\-filetype}!CI_Upload@{C\-I\-\_\-\-Upload}}
+\subsubsection[{is\-\_\-allowed\-\_\-filetype}]{\setlength{\rightskip}{0pt plus 5cm}is\-\_\-allowed\-\_\-filetype (
+\begin{DoxyParamCaption}
+\item[{}]{\$ignore\-\_\-mime = {\ttfamily FALSE}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___upload_a248e8cef69fc954953dc988e8d82afca}
+Verify that the filetype is allowed
+
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 584 of file Upload.\-php.
+
+\index{C\-I\-\_\-\-Upload@{C\-I\-\_\-\-Upload}!is\-\_\-image@{is\-\_\-image}}
+\index{is\-\_\-image@{is\-\_\-image}!CI_Upload@{C\-I\-\_\-\-Upload}}
+\subsubsection[{is\-\_\-image}]{\setlength{\rightskip}{0pt plus 5cm}is\-\_\-image (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_c_i___upload_af6f513bc693e3ba836f23fe9bebc6427}
+Validate the image
+
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 550 of file Upload.\-php.
+
+\index{C\-I\-\_\-\-Upload@{C\-I\-\_\-\-Upload}!limit\-\_\-filename\-\_\-length@{limit\-\_\-filename\-\_\-length}}
+\index{limit\-\_\-filename\-\_\-length@{limit\-\_\-filename\-\_\-length}!CI_Upload@{C\-I\-\_\-\-Upload}}
+\subsubsection[{limit\-\_\-filename\-\_\-length}]{\setlength{\rightskip}{0pt plus 5cm}limit\-\_\-filename\-\_\-length (
+\begin{DoxyParamCaption}
+\item[{}]{\$filename, }
+\item[{}]{\$length}
+\end{DoxyParamCaption}
+)}\label{class_c_i___upload_ab1f627192a69c4b88a44ad60ba05d0af}
+Limit the File Name Length
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 795 of file Upload.\-php.
+
+\index{C\-I\-\_\-\-Upload@{C\-I\-\_\-\-Upload}!mimes\-\_\-types@{mimes\-\_\-types}}
+\index{mimes\-\_\-types@{mimes\-\_\-types}!CI_Upload@{C\-I\-\_\-\-Upload}}
+\subsubsection[{mimes\-\_\-types}]{\setlength{\rightskip}{0pt plus 5cm}mimes\-\_\-types (
+\begin{DoxyParamCaption}
+\item[{}]{\$mime}
+\end{DoxyParamCaption}
+)}\label{class_c_i___upload_aa72da887bec3d5e3fe922c402f706209}
+List of Mime Types
+
+This is a list of mime types. We use it to validate the \char`\"{}allowed types\char`\"{} set by the developer
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 947 of file Upload.\-php.
+
+\index{C\-I\-\_\-\-Upload@{C\-I\-\_\-\-Upload}!set\-\_\-allowed\-\_\-types@{set\-\_\-allowed\-\_\-types}}
+\index{set\-\_\-allowed\-\_\-types@{set\-\_\-allowed\-\_\-types}!CI_Upload@{C\-I\-\_\-\-Upload}}
+\subsubsection[{set\-\_\-allowed\-\_\-types}]{\setlength{\rightskip}{0pt plus 5cm}set\-\_\-allowed\-\_\-types (
+\begin{DoxyParamCaption}
+\item[{}]{\$types}
+\end{DoxyParamCaption}
+)}\label{class_c_i___upload_a7c7ddfefedddc3fd625dd816d67c21bf}
+Set Allowed File Types
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 486 of file Upload.\-php.
+
+\index{C\-I\-\_\-\-Upload@{C\-I\-\_\-\-Upload}!set\-\_\-error@{set\-\_\-error}}
+\index{set\-\_\-error@{set\-\_\-error}!CI_Upload@{C\-I\-\_\-\-Upload}}
+\subsubsection[{set\-\_\-error}]{\setlength{\rightskip}{0pt plus 5cm}set\-\_\-error (
+\begin{DoxyParamCaption}
+\item[{}]{\$msg}
+\end{DoxyParamCaption}
+)}\label{class_c_i___upload_a892f1ba7cba3731a3fc68f1f64e92610}
+Set an error message
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 894 of file Upload.\-php.
+
+\index{C\-I\-\_\-\-Upload@{C\-I\-\_\-\-Upload}!set\-\_\-filename@{set\-\_\-filename}}
+\index{set\-\_\-filename@{set\-\_\-filename}!CI_Upload@{C\-I\-\_\-\-Upload}}
+\subsubsection[{set\-\_\-filename}]{\setlength{\rightskip}{0pt plus 5cm}set\-\_\-filename (
+\begin{DoxyParamCaption}
+\item[{}]{\$path, }
+\item[{}]{\$filename}
+\end{DoxyParamCaption}
+)}\label{class_c_i___upload_a4b09b3f2b57a8bafcac1700f43d12c36}
+Set the file name
+
+This function takes a filename/path as input and looks for the existence of a file with the same name. If found, it will append a number to the end of the filename to avoid overwriting a pre-\/existing file.
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 390 of file Upload.\-php.
+
+\index{C\-I\-\_\-\-Upload@{C\-I\-\_\-\-Upload}!set\-\_\-image\-\_\-properties@{set\-\_\-image\-\_\-properties}}
+\index{set\-\_\-image\-\_\-properties@{set\-\_\-image\-\_\-properties}!CI_Upload@{C\-I\-\_\-\-Upload}}
+\subsubsection[{set\-\_\-image\-\_\-properties}]{\setlength{\rightskip}{0pt plus 5cm}set\-\_\-image\-\_\-properties (
+\begin{DoxyParamCaption}
+\item[{}]{\$path = {\ttfamily ''}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___upload_a5a85ab4c11b130ebc33ba1f07baac1fe}
+Set Image Properties
+
+Uses G\-D to determine the width/height/type of image
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 506 of file Upload.\-php.
+
+\index{C\-I\-\_\-\-Upload@{C\-I\-\_\-\-Upload}!set\-\_\-max\-\_\-filename@{set\-\_\-max\-\_\-filename}}
+\index{set\-\_\-max\-\_\-filename@{set\-\_\-max\-\_\-filename}!CI_Upload@{C\-I\-\_\-\-Upload}}
+\subsubsection[{set\-\_\-max\-\_\-filename}]{\setlength{\rightskip}{0pt plus 5cm}set\-\_\-max\-\_\-filename (
+\begin{DoxyParamCaption}
+\item[{}]{\$n}
+\end{DoxyParamCaption}
+)}\label{class_c_i___upload_aa288c7337b534788b32d66b23e25548e}
+Set Maximum File Name Length
+
+
+\begin{DoxyParams}{Parameters}
+{\em integer} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 447 of file Upload.\-php.
+
+\index{C\-I\-\_\-\-Upload@{C\-I\-\_\-\-Upload}!set\-\_\-max\-\_\-filesize@{set\-\_\-max\-\_\-filesize}}
+\index{set\-\_\-max\-\_\-filesize@{set\-\_\-max\-\_\-filesize}!CI_Upload@{C\-I\-\_\-\-Upload}}
+\subsubsection[{set\-\_\-max\-\_\-filesize}]{\setlength{\rightskip}{0pt plus 5cm}set\-\_\-max\-\_\-filesize (
+\begin{DoxyParamCaption}
+\item[{}]{\$n}
+\end{DoxyParamCaption}
+)}\label{class_c_i___upload_a1f78c3a54f32d313294b27cde4eafaf4}
+Set Maximum File Size
+
+
+\begin{DoxyParams}{Parameters}
+{\em integer} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 434 of file Upload.\-php.
+
+\index{C\-I\-\_\-\-Upload@{C\-I\-\_\-\-Upload}!set\-\_\-max\-\_\-height@{set\-\_\-max\-\_\-height}}
+\index{set\-\_\-max\-\_\-height@{set\-\_\-max\-\_\-height}!CI_Upload@{C\-I\-\_\-\-Upload}}
+\subsubsection[{set\-\_\-max\-\_\-height}]{\setlength{\rightskip}{0pt plus 5cm}set\-\_\-max\-\_\-height (
+\begin{DoxyParamCaption}
+\item[{}]{\$n}
+\end{DoxyParamCaption}
+)}\label{class_c_i___upload_aaed82d431f5aeee6a0af294bc604a51e}
+Set Maximum Image Height
+
+
+\begin{DoxyParams}{Parameters}
+{\em integer} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 473 of file Upload.\-php.
+
+\index{C\-I\-\_\-\-Upload@{C\-I\-\_\-\-Upload}!set\-\_\-max\-\_\-width@{set\-\_\-max\-\_\-width}}
+\index{set\-\_\-max\-\_\-width@{set\-\_\-max\-\_\-width}!CI_Upload@{C\-I\-\_\-\-Upload}}
+\subsubsection[{set\-\_\-max\-\_\-width}]{\setlength{\rightskip}{0pt plus 5cm}set\-\_\-max\-\_\-width (
+\begin{DoxyParamCaption}
+\item[{}]{\$n}
+\end{DoxyParamCaption}
+)}\label{class_c_i___upload_a4028f187a825a666976cc3fe47cd44a8}
+Set Maximum Image Width
+
+
+\begin{DoxyParams}{Parameters}
+{\em integer} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 460 of file Upload.\-php.
+
+\index{C\-I\-\_\-\-Upload@{C\-I\-\_\-\-Upload}!set\-\_\-upload\-\_\-path@{set\-\_\-upload\-\_\-path}}
+\index{set\-\_\-upload\-\_\-path@{set\-\_\-upload\-\_\-path}!CI_Upload@{C\-I\-\_\-\-Upload}}
+\subsubsection[{set\-\_\-upload\-\_\-path}]{\setlength{\rightskip}{0pt plus 5cm}set\-\_\-upload\-\_\-path (
+\begin{DoxyParamCaption}
+\item[{}]{\$path}
+\end{DoxyParamCaption}
+)}\label{class_c_i___upload_ab2407f3a942d9b203f54e21194cf040d}
+Set Upload Path
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 371 of file Upload.\-php.
+
+\index{C\-I\-\_\-\-Upload@{C\-I\-\_\-\-Upload}!set\-\_\-xss\-\_\-clean@{set\-\_\-xss\-\_\-clean}}
+\index{set\-\_\-xss\-\_\-clean@{set\-\_\-xss\-\_\-clean}!CI_Upload@{C\-I\-\_\-\-Upload}}
+\subsubsection[{set\-\_\-xss\-\_\-clean}]{\setlength{\rightskip}{0pt plus 5cm}set\-\_\-xss\-\_\-clean (
+\begin{DoxyParamCaption}
+\item[{}]{\$flag = {\ttfamily FALSE}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___upload_a5556024223414507d84d221862919212}
+Set X\-S\-S Clean
+
+Enables the X\-S\-S flag so that the file that was uploaded will be run through the X\-S\-S filter.
+
+
+\begin{DoxyParams}{Parameters}
+{\em bool} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 538 of file Upload.\-php.
+
+\index{C\-I\-\_\-\-Upload@{C\-I\-\_\-\-Upload}!validate\-\_\-upload\-\_\-path@{validate\-\_\-upload\-\_\-path}}
+\index{validate\-\_\-upload\-\_\-path@{validate\-\_\-upload\-\_\-path}!CI_Upload@{C\-I\-\_\-\-Upload}}
+\subsubsection[{validate\-\_\-upload\-\_\-path}]{\setlength{\rightskip}{0pt plus 5cm}validate\-\_\-upload\-\_\-path (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_c_i___upload_a067f092935018f0d1fbfa955ddecfee3}
+Validate Upload Path
+
+Verifies that it is a valid upload path with proper permissions.
+
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 700 of file Upload.\-php.
+
+
+
+\subsection{Field Documentation}
+\index{C\-I\-\_\-\-Upload@{C\-I\-\_\-\-Upload}!\$\-\_\-file\-\_\-name\-\_\-override@{\$\-\_\-file\-\_\-name\-\_\-override}}
+\index{\$\-\_\-file\-\_\-name\-\_\-override@{\$\-\_\-file\-\_\-name\-\_\-override}!CI_Upload@{C\-I\-\_\-\-Upload}}
+\subsubsection[{\$\-\_\-file\-\_\-name\-\_\-override}]{\setlength{\rightskip}{0pt plus 5cm}\$\-\_\-file\-\_\-name\-\_\-override = ''\hspace{0.3cm}{\ttfamily [protected]}}\label{class_c_i___upload_a9f09c7cb693d391de63f9c8e91f159e1}
+
+
+Definition at line 55 of file Upload.\-php.
+
+\index{C\-I\-\_\-\-Upload@{C\-I\-\_\-\-Upload}!\$allowed\-\_\-types@{\$allowed\-\_\-types}}
+\index{\$allowed\-\_\-types@{\$allowed\-\_\-types}!CI_Upload@{C\-I\-\_\-\-Upload}}
+\subsubsection[{\$allowed\-\_\-types}]{\setlength{\rightskip}{0pt plus 5cm}\$allowed\-\_\-types = \char`\"{}\char`\"{}}\label{class_c_i___upload_a2e0df9e15179e2db66d161206842d6c0}
+
+
+Definition at line 33 of file Upload.\-php.
+
+\index{C\-I\-\_\-\-Upload@{C\-I\-\_\-\-Upload}!\$client\-\_\-name@{\$client\-\_\-name}}
+\index{\$client\-\_\-name@{\$client\-\_\-name}!CI_Upload@{C\-I\-\_\-\-Upload}}
+\subsubsection[{\$client\-\_\-name}]{\setlength{\rightskip}{0pt plus 5cm}\$client\-\_\-name = ''}\label{class_c_i___upload_a3b81ba4d3535269e20e0b4a2ddab2edc}
+
+
+Definition at line 53 of file Upload.\-php.
+
+\index{C\-I\-\_\-\-Upload@{C\-I\-\_\-\-Upload}!\$encrypt\-\_\-name@{\$encrypt\-\_\-name}}
+\index{\$encrypt\-\_\-name@{\$encrypt\-\_\-name}!CI_Upload@{C\-I\-\_\-\-Upload}}
+\subsubsection[{\$encrypt\-\_\-name}]{\setlength{\rightskip}{0pt plus 5cm}\$encrypt\-\_\-name = F\-A\-L\-S\-E}\label{class_c_i___upload_a54a751add0762edd4da11373e3b56687}
+
+
+Definition at line 42 of file Upload.\-php.
+
+\index{C\-I\-\_\-\-Upload@{C\-I\-\_\-\-Upload}!\$error\-\_\-msg@{\$error\-\_\-msg}}
+\index{\$error\-\_\-msg@{\$error\-\_\-msg}!CI_Upload@{C\-I\-\_\-\-Upload}}
+\subsubsection[{\$error\-\_\-msg}]{\setlength{\rightskip}{0pt plus 5cm}\$error\-\_\-msg = array()}\label{class_c_i___upload_acf910733622c1fa671b9f755c69c2ec7}
+
+
+Definition at line 48 of file Upload.\-php.
+
+\index{C\-I\-\_\-\-Upload@{C\-I\-\_\-\-Upload}!\$file\-\_\-ext@{\$file\-\_\-ext}}
+\index{\$file\-\_\-ext@{\$file\-\_\-ext}!CI_Upload@{C\-I\-\_\-\-Upload}}
+\subsubsection[{\$file\-\_\-ext}]{\setlength{\rightskip}{0pt plus 5cm}\$file\-\_\-ext = \char`\"{}\char`\"{}}\label{class_c_i___upload_a65b080519869bc14d792c1800e3362f5}
+
+
+Definition at line 39 of file Upload.\-php.
+
+\index{C\-I\-\_\-\-Upload@{C\-I\-\_\-\-Upload}!\$file\-\_\-name@{\$file\-\_\-name}}
+\index{\$file\-\_\-name@{\$file\-\_\-name}!CI_Upload@{C\-I\-\_\-\-Upload}}
+\subsubsection[{\$file\-\_\-name}]{\setlength{\rightskip}{0pt plus 5cm}\$file\-\_\-name = \char`\"{}\char`\"{}}\label{class_c_i___upload_a59bf132c77b5bee5adff2098cc2a6fbc}
+
+
+Definition at line 35 of file Upload.\-php.
+
+\index{C\-I\-\_\-\-Upload@{C\-I\-\_\-\-Upload}!\$file\-\_\-size@{\$file\-\_\-size}}
+\index{\$file\-\_\-size@{\$file\-\_\-size}!CI_Upload@{C\-I\-\_\-\-Upload}}
+\subsubsection[{\$file\-\_\-size}]{\setlength{\rightskip}{0pt plus 5cm}\$file\-\_\-size = \char`\"{}\char`\"{}}\label{class_c_i___upload_a5b3595a69dbf686d879bd009ec9c0317}
+
+
+Definition at line 38 of file Upload.\-php.
+
+\index{C\-I\-\_\-\-Upload@{C\-I\-\_\-\-Upload}!\$file\-\_\-temp@{\$file\-\_\-temp}}
+\index{\$file\-\_\-temp@{\$file\-\_\-temp}!CI_Upload@{C\-I\-\_\-\-Upload}}
+\subsubsection[{\$file\-\_\-temp}]{\setlength{\rightskip}{0pt plus 5cm}\$file\-\_\-temp = \char`\"{}\char`\"{}}\label{class_c_i___upload_a8b49917820e40f0b8956d95c1fd6ee6e}
+
+
+Definition at line 34 of file Upload.\-php.
+
+\index{C\-I\-\_\-\-Upload@{C\-I\-\_\-\-Upload}!\$file\-\_\-type@{\$file\-\_\-type}}
+\index{\$file\-\_\-type@{\$file\-\_\-type}!CI_Upload@{C\-I\-\_\-\-Upload}}
+\subsubsection[{\$file\-\_\-type}]{\setlength{\rightskip}{0pt plus 5cm}\$file\-\_\-type = \char`\"{}\char`\"{}}\label{class_c_i___upload_a6210dfa92a7e2e5e9db1aa2337ce4cd1}
+
+
+Definition at line 37 of file Upload.\-php.
+
+\index{C\-I\-\_\-\-Upload@{C\-I\-\_\-\-Upload}!\$image\-\_\-height@{\$image\-\_\-height}}
+\index{\$image\-\_\-height@{\$image\-\_\-height}!CI_Upload@{C\-I\-\_\-\-Upload}}
+\subsubsection[{\$image\-\_\-height}]{\setlength{\rightskip}{0pt plus 5cm}\$image\-\_\-height = ''}\label{class_c_i___upload_af1b0485025a4c66fa3b2fc442df02d72}
+
+
+Definition at line 45 of file Upload.\-php.
+
+\index{C\-I\-\_\-\-Upload@{C\-I\-\_\-\-Upload}!\$image\-\_\-size\-\_\-str@{\$image\-\_\-size\-\_\-str}}
+\index{\$image\-\_\-size\-\_\-str@{\$image\-\_\-size\-\_\-str}!CI_Upload@{C\-I\-\_\-\-Upload}}
+\subsubsection[{\$image\-\_\-size\-\_\-str}]{\setlength{\rightskip}{0pt plus 5cm}\$image\-\_\-size\-\_\-str = ''}\label{class_c_i___upload_a3a1769072af8ab3b0c5d6e0c1a1ae2ef}
+
+
+Definition at line 47 of file Upload.\-php.
+
+\index{C\-I\-\_\-\-Upload@{C\-I\-\_\-\-Upload}!\$image\-\_\-type@{\$image\-\_\-type}}
+\index{\$image\-\_\-type@{\$image\-\_\-type}!CI_Upload@{C\-I\-\_\-\-Upload}}
+\subsubsection[{\$image\-\_\-type}]{\setlength{\rightskip}{0pt plus 5cm}\$image\-\_\-type = ''}\label{class_c_i___upload_a939d6733d998cce893403d2f59f40317}
+
+
+Definition at line 46 of file Upload.\-php.
+
+\index{C\-I\-\_\-\-Upload@{C\-I\-\_\-\-Upload}!\$image\-\_\-width@{\$image\-\_\-width}}
+\index{\$image\-\_\-width@{\$image\-\_\-width}!CI_Upload@{C\-I\-\_\-\-Upload}}
+\subsubsection[{\$image\-\_\-width}]{\setlength{\rightskip}{0pt plus 5cm}\$image\-\_\-width = ''}\label{class_c_i___upload_a8dadc2d2dcc0f25529a2d1e080d08169}
+
+
+Definition at line 44 of file Upload.\-php.
+
+\index{C\-I\-\_\-\-Upload@{C\-I\-\_\-\-Upload}!\$is\-\_\-image@{\$is\-\_\-image}}
+\index{\$is\-\_\-image@{\$is\-\_\-image}!CI_Upload@{C\-I\-\_\-\-Upload}}
+\subsubsection[{\$is\-\_\-image}]{\setlength{\rightskip}{0pt plus 5cm}\${\bf is\-\_\-image} = F\-A\-L\-S\-E}\label{class_c_i___upload_a4dae8ae20ed5fdf406554e1911065753}
+
+
+Definition at line 43 of file Upload.\-php.
+
+\index{C\-I\-\_\-\-Upload@{C\-I\-\_\-\-Upload}!\$max\-\_\-filename@{\$max\-\_\-filename}}
+\index{\$max\-\_\-filename@{\$max\-\_\-filename}!CI_Upload@{C\-I\-\_\-\-Upload}}
+\subsubsection[{\$max\-\_\-filename}]{\setlength{\rightskip}{0pt plus 5cm}\$max\-\_\-filename = 0}\label{class_c_i___upload_a7c8c80e453111c2521e355b83331a9df}
+
+
+Definition at line 32 of file Upload.\-php.
+
+\index{C\-I\-\_\-\-Upload@{C\-I\-\_\-\-Upload}!\$max\-\_\-height@{\$max\-\_\-height}}
+\index{\$max\-\_\-height@{\$max\-\_\-height}!CI_Upload@{C\-I\-\_\-\-Upload}}
+\subsubsection[{\$max\-\_\-height}]{\setlength{\rightskip}{0pt plus 5cm}\$max\-\_\-height = 0}\label{class_c_i___upload_a7f2b56fde8cdd8907f9228149fc4b9bc}
+
+
+Definition at line 31 of file Upload.\-php.
+
+\index{C\-I\-\_\-\-Upload@{C\-I\-\_\-\-Upload}!\$max\-\_\-size@{\$max\-\_\-size}}
+\index{\$max\-\_\-size@{\$max\-\_\-size}!CI_Upload@{C\-I\-\_\-\-Upload}}
+\subsubsection[{\$max\-\_\-size}]{\setlength{\rightskip}{0pt plus 5cm}\$max\-\_\-size = 0}\label{class_c_i___upload_a3fec414be9f76cb7ba77ed79b784de62}
+
+
+Definition at line 29 of file Upload.\-php.
+
+\index{C\-I\-\_\-\-Upload@{C\-I\-\_\-\-Upload}!\$max\-\_\-width@{\$max\-\_\-width}}
+\index{\$max\-\_\-width@{\$max\-\_\-width}!CI_Upload@{C\-I\-\_\-\-Upload}}
+\subsubsection[{\$max\-\_\-width}]{\setlength{\rightskip}{0pt plus 5cm}\$max\-\_\-width = 0}\label{class_c_i___upload_a7f6a5db40a5fd00c8babbd37480b00fc}
+
+
+Definition at line 30 of file Upload.\-php.
+
+\index{C\-I\-\_\-\-Upload@{C\-I\-\_\-\-Upload}!\$mimes@{\$mimes}}
+\index{\$mimes@{\$mimes}!CI_Upload@{C\-I\-\_\-\-Upload}}
+\subsubsection[{\$mimes}]{\setlength{\rightskip}{0pt plus 5cm}\$mimes = array()}\label{class_c_i___upload_a2ce7d338d1fd0f0d971ba6213ac298a2}
+
+
+Definition at line 49 of file Upload.\-php.
+
+\index{C\-I\-\_\-\-Upload@{C\-I\-\_\-\-Upload}!\$orig\-\_\-name@{\$orig\-\_\-name}}
+\index{\$orig\-\_\-name@{\$orig\-\_\-name}!CI_Upload@{C\-I\-\_\-\-Upload}}
+\subsubsection[{\$orig\-\_\-name}]{\setlength{\rightskip}{0pt plus 5cm}\$orig\-\_\-name = \char`\"{}\char`\"{}}\label{class_c_i___upload_a2704f7723b97b03285de219442ae3e2b}
+
+
+Definition at line 36 of file Upload.\-php.
+
+\index{C\-I\-\_\-\-Upload@{C\-I\-\_\-\-Upload}!\$overwrite@{\$overwrite}}
+\index{\$overwrite@{\$overwrite}!CI_Upload@{C\-I\-\_\-\-Upload}}
+\subsubsection[{\$overwrite}]{\setlength{\rightskip}{0pt plus 5cm}\$overwrite = F\-A\-L\-S\-E}\label{class_c_i___upload_a8d31b0ad9cccde7e2d857097672ed6cf}
+
+
+Definition at line 41 of file Upload.\-php.
+
+\index{C\-I\-\_\-\-Upload@{C\-I\-\_\-\-Upload}!\$remove\-\_\-spaces@{\$remove\-\_\-spaces}}
+\index{\$remove\-\_\-spaces@{\$remove\-\_\-spaces}!CI_Upload@{C\-I\-\_\-\-Upload}}
+\subsubsection[{\$remove\-\_\-spaces}]{\setlength{\rightskip}{0pt plus 5cm}\$remove\-\_\-spaces = T\-R\-U\-E}\label{class_c_i___upload_ad9f32a52b4b2c16e42a007e0fa832721}
+
+
+Definition at line 50 of file Upload.\-php.
+
+\index{C\-I\-\_\-\-Upload@{C\-I\-\_\-\-Upload}!\$temp\-\_\-prefix@{\$temp\-\_\-prefix}}
+\index{\$temp\-\_\-prefix@{\$temp\-\_\-prefix}!CI_Upload@{C\-I\-\_\-\-Upload}}
+\subsubsection[{\$temp\-\_\-prefix}]{\setlength{\rightskip}{0pt plus 5cm}\$temp\-\_\-prefix = \char`\"{}temp\-\_\-file\-\_\-\char`\"{}}\label{class_c_i___upload_ab38888cba65ae75bbc5b3841bc69d64a}
+
+
+Definition at line 52 of file Upload.\-php.
+
+\index{C\-I\-\_\-\-Upload@{C\-I\-\_\-\-Upload}!\$upload\-\_\-path@{\$upload\-\_\-path}}
+\index{\$upload\-\_\-path@{\$upload\-\_\-path}!CI_Upload@{C\-I\-\_\-\-Upload}}
+\subsubsection[{\$upload\-\_\-path}]{\setlength{\rightskip}{0pt plus 5cm}\$upload\-\_\-path = \char`\"{}\char`\"{}}\label{class_c_i___upload_a38507bf82f955d4b13642a3c7fd6e773}
+
+
+Definition at line 40 of file Upload.\-php.
+
+\index{C\-I\-\_\-\-Upload@{C\-I\-\_\-\-Upload}!\$xss\-\_\-clean@{\$xss\-\_\-clean}}
+\index{\$xss\-\_\-clean@{\$xss\-\_\-clean}!CI_Upload@{C\-I\-\_\-\-Upload}}
+\subsubsection[{\$xss\-\_\-clean}]{\setlength{\rightskip}{0pt plus 5cm}\$xss\-\_\-clean = F\-A\-L\-S\-E}\label{class_c_i___upload_a0f2ee8861c0b3164a5c6e126dd98c0cc}
+
+
+Definition at line 51 of file Upload.\-php.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+system/libraries/{\bf Upload.\-php}\end{DoxyCompactItemize}

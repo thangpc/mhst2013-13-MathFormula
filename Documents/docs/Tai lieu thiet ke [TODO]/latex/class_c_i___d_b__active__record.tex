@@ -1,0 +1,1839 @@
+\section{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record Class Reference}
+\label{class_c_i___d_b__active__record}\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+Inheritance diagram for C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_c_i___d_b__active__record}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf select} (\$select= '$\ast$', \${\bf escape}=N\-U\-L\-L)
+\item 
+{\bf select\-\_\-max} (\${\bf select}= '', \$alias= '')
+\item 
+{\bf select\-\_\-min} (\${\bf select}= '', \$alias= '')
+\item 
+{\bf select\-\_\-avg} (\${\bf select}= '', \$alias= '')
+\item 
+{\bf select\-\_\-sum} (\${\bf select}= '', \$alias= '')
+\item 
+{\bf distinct} (\$val=T\-R\-U\-E)
+\item 
+{\bf from} (\$from)
+\item 
+{\bf join} (\$table, \$cond, \${\bf type}= '')
+\item 
+{\bf where} (\$key, \$value=N\-U\-L\-L, \${\bf escape}=T\-R\-U\-E)
+\item 
+{\bf or\-\_\-where} (\$key, \$value=N\-U\-L\-L, \${\bf escape}=T\-R\-U\-E)
+\item 
+{\bf where\-\_\-in} (\$key=N\-U\-L\-L, \$values=N\-U\-L\-L)
+\item 
+{\bf or\-\_\-where\-\_\-in} (\$key=N\-U\-L\-L, \$values=N\-U\-L\-L)
+\item 
+{\bf where\-\_\-not\-\_\-in} (\$key=N\-U\-L\-L, \$values=N\-U\-L\-L)
+\item 
+{\bf or\-\_\-where\-\_\-not\-\_\-in} (\$key=N\-U\-L\-L, \$values=N\-U\-L\-L)
+\item 
+{\bf like} (\$field, \$match= '', \$side= 'both')
+\item 
+{\bf not\-\_\-like} (\$field, \$match= '', \$side= 'both')
+\item 
+{\bf or\-\_\-like} (\$field, \$match= '', \$side= 'both')
+\item 
+{\bf or\-\_\-not\-\_\-like} (\$field, \$match= '', \$side= 'both')
+\item 
+{\bf group\-\_\-by} (\$by)
+\item 
+{\bf having} (\$key, \$value= '', \${\bf escape}=T\-R\-U\-E)
+\item 
+{\bf or\-\_\-having} (\$key, \$value= '', \${\bf escape}=T\-R\-U\-E)
+\item 
+{\bf order\-\_\-by} (\$orderby, \$direction= '')
+\item 
+{\bf limit} (\$value, \${\bf offset}= '')
+\item 
+{\bf offset} (\$offset)
+\item 
+{\bf set} (\$key, \$value= '', \${\bf escape}=T\-R\-U\-E)
+\item 
+{\bf get} (\$table= '', \${\bf limit}=null, \${\bf offset}=null)
+\item 
+{\bf count\-\_\-all\-\_\-results} (\$table= '')
+\item 
+{\bf get\-\_\-where} (\$table= '', \${\bf where}=null, \${\bf limit}=null, \${\bf offset}=null)
+\item 
+{\bf insert\-\_\-batch} (\$table= '', \${\bf set}=N\-U\-L\-L)
+\item 
+{\bf set\-\_\-insert\-\_\-batch} (\$key, \$value= '', \${\bf escape}=T\-R\-U\-E)
+\item 
+{\bf insert} (\$table= '', \${\bf set}=N\-U\-L\-L)
+\item 
+{\bf replace} (\$table= '', \${\bf set}=N\-U\-L\-L)
+\item 
+{\bf update} (\$table= '', \${\bf set}=N\-U\-L\-L, \${\bf where}=N\-U\-L\-L, \${\bf limit}=N\-U\-L\-L)
+\item 
+{\bf update\-\_\-batch} (\$table= '', \${\bf set}=N\-U\-L\-L, \$index=N\-U\-L\-L)
+\item 
+{\bf set\-\_\-update\-\_\-batch} (\$key, \$index= '', \${\bf escape}=T\-R\-U\-E)
+\item 
+{\bf empty\-\_\-table} (\$table= '')
+\item 
+{\bf truncate} (\$table= '')
+\item 
+{\bf delete} (\$table= '', \${\bf where}= '', \${\bf limit}=N\-U\-L\-L, \$reset\-\_\-data=T\-R\-U\-E)
+\item 
+{\bf dbprefix} (\$table= '')
+\item 
+{\bf set\-\_\-dbprefix} (\$prefix= '')
+\item 
+{\bf \-\_\-object\-\_\-to\-\_\-array} (\$object)
+\item 
+{\bf \-\_\-object\-\_\-to\-\_\-array\-\_\-batch} (\$object)
+\item 
+{\bf start\-\_\-cache} ()
+\item 
+{\bf stop\-\_\-cache} ()
+\item 
+{\bf flush\-\_\-cache} ()
+\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+{\bf \$ar\-\_\-select} = array()
+\item 
+{\bf \$ar\-\_\-distinct} = F\-A\-L\-S\-E
+\item 
+{\bf \$ar\-\_\-from} = array()
+\item 
+{\bf \$ar\-\_\-join} = array()
+\item 
+{\bf \$ar\-\_\-where} = array()
+\item 
+{\bf \$ar\-\_\-like} = array()
+\item 
+{\bf \$ar\-\_\-groupby} = array()
+\item 
+{\bf \$ar\-\_\-having} = array()
+\item 
+{\bf \$ar\-\_\-keys} = array()
+\item 
+{\bf \$ar\-\_\-limit} = F\-A\-L\-S\-E
+\item 
+{\bf \$ar\-\_\-offset} = F\-A\-L\-S\-E
+\item 
+{\bf \$ar\-\_\-order} = F\-A\-L\-S\-E
+\item 
+{\bf \$ar\-\_\-orderby} = array()
+\item 
+{\bf \$ar\-\_\-set} = array()
+\item 
+{\bf \$ar\-\_\-wherein} = array()
+\item 
+{\bf \$ar\-\_\-aliased\-\_\-tables} = array()
+\item 
+{\bf \$ar\-\_\-store\-\_\-array} = array()
+\item 
+{\bf \$ar\-\_\-caching} = F\-A\-L\-S\-E
+\item 
+{\bf \$ar\-\_\-cache\-\_\-exists} = array()
+\item 
+{\bf \$ar\-\_\-cache\-\_\-select} = array()
+\item 
+{\bf \$ar\-\_\-cache\-\_\-from} = array()
+\item 
+{\bf \$ar\-\_\-cache\-\_\-join} = array()
+\item 
+{\bf \$ar\-\_\-cache\-\_\-where} = array()
+\item 
+{\bf \$ar\-\_\-cache\-\_\-like} = array()
+\item 
+{\bf \$ar\-\_\-cache\-\_\-groupby} = array()
+\item 
+{\bf \$ar\-\_\-cache\-\_\-having} = array()
+\item 
+{\bf \$ar\-\_\-cache\-\_\-orderby} = array()
+\item 
+{\bf \$ar\-\_\-cache\-\_\-set} = array()
+\item 
+{\bf \$ar\-\_\-no\-\_\-escape} = array()
+\item 
+{\bf \$ar\-\_\-cache\-\_\-no\-\_\-escape} = array()
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf \-\_\-max\-\_\-min\-\_\-avg\-\_\-sum} (\${\bf select}= '', \$alias= '', \${\bf type}= 'M\-A\-X')
+\item 
+{\bf \-\_\-create\-\_\-alias\-\_\-from\-\_\-table} (\$item)
+\item 
+{\bf \-\_\-where} (\$key, \$value=N\-U\-L\-L, \${\bf type}= 'A\-N\-D ', \${\bf escape}=N\-U\-L\-L)
+\item 
+{\bf \-\_\-where\-\_\-in} (\$key=N\-U\-L\-L, \$values=N\-U\-L\-L, \${\bf not}=F\-A\-L\-S\-E, \${\bf type}= 'A\-N\-D ')
+\item 
+{\bf \-\_\-like} (\$field, \$match= '', \${\bf type}= 'A\-N\-D ', \$side= 'both', \${\bf not}= '')
+\item 
+{\bf \-\_\-having} (\$key, \$value= '', \${\bf type}= 'A\-N\-D ', \${\bf escape}=T\-R\-U\-E)
+\item 
+{\bf \-\_\-track\-\_\-aliases} (\$table)
+\item 
+{\bf \-\_\-compile\-\_\-select} (\$select\-\_\-override=F\-A\-L\-S\-E)
+\item 
+{\bf \-\_\-merge\-\_\-cache} ()
+\item 
+{\bf \-\_\-reset\-\_\-run} (\$ar\-\_\-reset\-\_\-items)
+\item 
+{\bf \-\_\-reset\-\_\-select} ()
+\item 
+{\bf \-\_\-reset\-\_\-write} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 29 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+
+
+\subsection{Member Function Documentation}
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!\-\_\-compile\-\_\-select@{\-\_\-compile\-\_\-select}}
+\index{\-\_\-compile\-\_\-select@{\-\_\-compile\-\_\-select}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{\-\_\-compile\-\_\-select}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-compile\-\_\-select (
+\begin{DoxyParamCaption}
+\item[{}]{\$select\-\_\-override = {\ttfamily FALSE}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\label{class_c_i___d_b__active__record_a441f6e994a212cfa12dd33d92973915b}
+Compile the S\-E\-L\-E\-C\-T statement
+
+Generates a query string based on which functions were used. Should not be called directly. The \doxyref{get()}{p.}{class_c_i___d_b__active__record_adcee0a9d1d395fd4d3b41c4b8db7e6e9} function calls it.
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 1673 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!\-\_\-create\-\_\-alias\-\_\-from\-\_\-table@{\-\_\-create\-\_\-alias\-\_\-from\-\_\-table}}
+\index{\-\_\-create\-\_\-alias\-\_\-from\-\_\-table@{\-\_\-create\-\_\-alias\-\_\-from\-\_\-table}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{\-\_\-create\-\_\-alias\-\_\-from\-\_\-table}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-create\-\_\-alias\-\_\-from\-\_\-table (
+\begin{DoxyParamCaption}
+\item[{}]{\$item}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\label{class_c_i___d_b__active__record_a194edea7be9a8636b67b7d2c8a3de04e}
+Determines the alias name based on the table
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 220 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!\-\_\-having@{\-\_\-having}}
+\index{\-\_\-having@{\-\_\-having}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{\-\_\-having}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-having (
+\begin{DoxyParamCaption}
+\item[{}]{\$key, }
+\item[{}]{\$value = {\ttfamily ''}, }
+\item[{}]{\$type = {\ttfamily 'AND~'}, }
+\item[{}]{\$escape = {\ttfamily TRUE}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\label{class_c_i___d_b__active__record_af7242af6fdb53f7fa75bbb2162e7627f}
+Sets the H\-A\-V\-I\-N\-G values
+
+Called by \doxyref{having()}{p.}{class_c_i___d_b__active__record_adbeaab3e62553d410606bcc8a7c4e3b3} or \doxyref{or\-\_\-having()}{p.}{class_c_i___d_b__active__record_a290ac4eca3794427c4f36026552e155b}
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+object 
+\end{DoxyReturn}
+
+
+Definition at line 774 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!\-\_\-like@{\-\_\-like}}
+\index{\-\_\-like@{\-\_\-like}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{\-\_\-like}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-like (
+\begin{DoxyParamCaption}
+\item[{}]{\$field, }
+\item[{}]{\$match = {\ttfamily ''}, }
+\item[{}]{\$type = {\ttfamily 'AND~'}, }
+\item[{}]{\$side = {\ttfamily 'both'}, }
+\item[{}]{\$not = {\ttfamily ''}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\label{class_c_i___d_b__active__record_af8f104d471d9b9e82b9d05baf4af6e89}
+Like
+
+Called by \doxyref{like()}{p.}{class_c_i___d_b__active__record_a015236670a8364b5f254f7743a94342d} or orlike()
+
+
+\begin{DoxyParams}{Parameters}
+{\em mixed} & \\
+\hline
+{\em mixed} & \\
+\hline
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+object 
+\end{DoxyReturn}
+
+
+Definition at line 649 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!\-\_\-max\-\_\-min\-\_\-avg\-\_\-sum@{\-\_\-max\-\_\-min\-\_\-avg\-\_\-sum}}
+\index{\-\_\-max\-\_\-min\-\_\-avg\-\_\-sum@{\-\_\-max\-\_\-min\-\_\-avg\-\_\-sum}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{\-\_\-max\-\_\-min\-\_\-avg\-\_\-sum}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-max\-\_\-min\-\_\-avg\-\_\-sum (
+\begin{DoxyParamCaption}
+\item[{}]{\$select = {\ttfamily ''}, }
+\item[{}]{\$alias = {\ttfamily ''}, }
+\item[{}]{\$type = {\ttfamily 'MAX'}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\label{class_c_i___d_b__active__record_ab51e293829027327d05172aaf0720f70}
+Processing Function for the four functions above\-:
+
+\doxyref{select\-\_\-max()}{p.}{class_c_i___d_b__active__record_a3283a75881bf34d98cc13aa5a187c8ac} \doxyref{select\-\_\-min()}{p.}{class_c_i___d_b__active__record_a460e37c355e9531b238b7c34d5979164} \doxyref{select\-\_\-avg()}{p.}{class_c_i___d_b__active__record_a7c1b8ed90462898bd0d4e95ac3ba1539} \doxyref{select\-\_\-sum()}{p.}{class_c_i___d_b__active__record_aeb58275ab60ed426ce60ead616477e82}
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & the field \\
+\hline
+{\em string} & an alias \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+object 
+\end{DoxyReturn}
+
+
+Definition at line 180 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!\-\_\-merge\-\_\-cache@{\-\_\-merge\-\_\-cache}}
+\index{\-\_\-merge\-\_\-cache@{\-\_\-merge\-\_\-cache}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{\-\_\-merge\-\_\-cache}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-merge\-\_\-cache (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\label{class_c_i___d_b__active__record_aeee4c0cf664e1a65d7eb8a3c8e9970c6}
+Merge Cache
+
+When called, this function merges any cached A\-R arrays with locally called ones.
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 1939 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!\-\_\-object\-\_\-to\-\_\-array@{\-\_\-object\-\_\-to\-\_\-array}}
+\index{\-\_\-object\-\_\-to\-\_\-array@{\-\_\-object\-\_\-to\-\_\-array}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{\-\_\-object\-\_\-to\-\_\-array}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-object\-\_\-to\-\_\-array (
+\begin{DoxyParamCaption}
+\item[{}]{\$object}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__active__record_a50b3069661bbf4605b6b561f38eae849}
+Object to Array
+
+Takes an object as input and converts the class variables to array key/vals
+
+
+\begin{DoxyParams}{Parameters}
+{\em object} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+
+
+Definition at line 1815 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!\-\_\-object\-\_\-to\-\_\-array\-\_\-batch@{\-\_\-object\-\_\-to\-\_\-array\-\_\-batch}}
+\index{\-\_\-object\-\_\-to\-\_\-array\-\_\-batch@{\-\_\-object\-\_\-to\-\_\-array\-\_\-batch}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{\-\_\-object\-\_\-to\-\_\-array\-\_\-batch}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-object\-\_\-to\-\_\-array\-\_\-batch (
+\begin{DoxyParamCaption}
+\item[{}]{\$object}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__active__record_ab53f659c5df0b0b6d30eaab74f507dc5}
+Object to Array
+
+Takes an object as input and converts the class variables to array key/vals
+
+
+\begin{DoxyParams}{Parameters}
+{\em object} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+
+
+Definition at line 1845 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!\-\_\-reset\-\_\-run@{\-\_\-reset\-\_\-run}}
+\index{\-\_\-reset\-\_\-run@{\-\_\-reset\-\_\-run}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{\-\_\-reset\-\_\-run}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-reset\-\_\-run (
+\begin{DoxyParamCaption}
+\item[{}]{\$ar\-\_\-reset\-\_\-items}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\label{class_c_i___d_b__active__record_a978ee07343d83abcdcb3a4ba7516b9b8}
+Resets the active record values. Called by the \doxyref{get()}{p.}{class_c_i___d_b__active__record_adcee0a9d1d395fd4d3b41c4b8db7e6e9} function
+
+
+\begin{DoxyParams}{Parameters}
+{\em array} & An array of fields to reset \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 1977 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!\-\_\-reset\-\_\-select@{\-\_\-reset\-\_\-select}}
+\index{\-\_\-reset\-\_\-select@{\-\_\-reset\-\_\-select}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{\-\_\-reset\-\_\-select}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-reset\-\_\-select (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\label{class_c_i___d_b__active__record_a7c6cc16411b9c36fbfd42a9317f64317}
+Resets the active record values. Called by the \doxyref{get()}{p.}{class_c_i___d_b__active__record_adcee0a9d1d395fd4d3b41c4b8db7e6e9} function
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 1995 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!\-\_\-reset\-\_\-write@{\-\_\-reset\-\_\-write}}
+\index{\-\_\-reset\-\_\-write@{\-\_\-reset\-\_\-write}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{\-\_\-reset\-\_\-write}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-reset\-\_\-write (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\label{class_c_i___d_b__active__record_ae49808f6becc0366eef957756c8309e4}
+Resets the active record \char`\"{}write\char`\"{} values.
+
+Called by the \doxyref{insert()}{p.}{class_c_i___d_b__active__record_ac354a4a5bc07f519085230be00b3545c} \doxyref{update()}{p.}{class_c_i___d_b__active__record_a7f1bcfcca3cb9fe450f21737028040a7} \doxyref{insert\-\_\-batch()}{p.}{class_c_i___d_b__active__record_a5e097f5526844f12b1d4779bb3c97c69} \doxyref{update\-\_\-batch()}{p.}{class_c_i___d_b__active__record_a3a7d52e50b609117b3ca44a4dfeca263} and \doxyref{delete()}{p.}{class_c_i___d_b__active__record_a98c786dcc4964dbb2307636c523c1ebd} functions
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 2027 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!\-\_\-track\-\_\-aliases@{\-\_\-track\-\_\-aliases}}
+\index{\-\_\-track\-\_\-aliases@{\-\_\-track\-\_\-aliases}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{\-\_\-track\-\_\-aliases}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-track\-\_\-aliases (
+\begin{DoxyParamCaption}
+\item[{}]{\$table}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\label{class_c_i___d_b__active__record_afb539c1557a7cb20a190f5b68d96b74a}
+Track Aliases
+
+Used to track S\-Q\-L statements written with aliased tables.
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & The table to inspect \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 1628 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!\-\_\-where@{\-\_\-where}}
+\index{\-\_\-where@{\-\_\-where}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{\-\_\-where}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-where (
+\begin{DoxyParamCaption}
+\item[{}]{\$key, }
+\item[{}]{\$value = {\ttfamily NULL}, }
+\item[{}]{\$type = {\ttfamily 'AND~'}, }
+\item[{}]{\$escape = {\ttfamily NULL}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\label{class_c_i___d_b__active__record_acf021126513088c97575912f17979cd9}
+Where
+
+Called by \doxyref{where()}{p.}{class_c_i___d_b__active__record_a7519d8b5035bdb081e1e7d9cc7c716fb} or \doxyref{or\-\_\-where()}{p.}{class_c_i___d_b__active__record_a28b19c8d67694cbd9562878d5f38ae0d}
+
+
+\begin{DoxyParams}{Parameters}
+{\em mixed} & \\
+\hline
+{\em mixed} & \\
+\hline
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+object 
+\end{DoxyReturn}
+
+
+Definition at line 398 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!\-\_\-where\-\_\-in@{\-\_\-where\-\_\-in}}
+\index{\-\_\-where\-\_\-in@{\-\_\-where\-\_\-in}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{\-\_\-where\-\_\-in}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-where\-\_\-in (
+\begin{DoxyParamCaption}
+\item[{}]{\$key = {\ttfamily NULL}, }
+\item[{}]{\$values = {\ttfamily NULL}, }
+\item[{}]{\$not = {\ttfamily FALSE}, }
+\item[{}]{\$type = {\ttfamily 'AND~'}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\label{class_c_i___d_b__active__record_a62678912baf752d3885888ea2dc311be}
+Where\-\_\-in
+
+Called by where\-\_\-in, where\-\_\-in\-\_\-or, where\-\_\-not\-\_\-in, where\-\_\-not\-\_\-in\-\_\-or
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & The field to search \\
+\hline
+{\em array} & The values searched on \\
+\hline
+{\em boolean} & If the statement would be I\-N or N\-O\-T I\-N \\
+\hline
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+object 
+\end{DoxyReturn}
+
+
+Definition at line 534 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!count\-\_\-all\-\_\-results@{count\-\_\-all\-\_\-results}}
+\index{count\-\_\-all\-\_\-results@{count\-\_\-all\-\_\-results}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{count\-\_\-all\-\_\-results}]{\setlength{\rightskip}{0pt plus 5cm}count\-\_\-all\-\_\-results (
+\begin{DoxyParamCaption}
+\item[{}]{\$table = {\ttfamily ''}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__active__record_a52e1ce5849c8339c0e0deb2dd0d820f5}
+\char`\"{}\-Count All Results\char`\"{} query
+
+Generates a platform-\/specific query string that counts all records returned by an Active Record query.
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 977 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!dbprefix@{dbprefix}}
+\index{dbprefix@{dbprefix}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{dbprefix}]{\setlength{\rightskip}{0pt plus 5cm}dbprefix (
+\begin{DoxyParamCaption}
+\item[{}]{\$table = {\ttfamily ''}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__active__record_a1e6bfc7a51f973e57bc948474e699e96}
+D\-B Prefix
+
+Prepends a database prefix if one exists in configuration
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & the table \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 1593 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!delete@{delete}}
+\index{delete@{delete}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{delete}]{\setlength{\rightskip}{0pt plus 5cm}delete (
+\begin{DoxyParamCaption}
+\item[{}]{\$table = {\ttfamily ''}, }
+\item[{}]{\$where = {\ttfamily ''}, }
+\item[{}]{\$limit = {\ttfamily NULL}, }
+\item[{}]{\$reset\-\_\-data = {\ttfamily TRUE}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__active__record_a98c786dcc4964dbb2307636c523c1ebd}
+Delete
+
+Compiles a delete string and runs the query
+
+
+\begin{DoxyParams}{Parameters}
+{\em mixed} & the table(s) to delete from. String or array \\
+\hline
+{\em mixed} & the where clause \\
+\hline
+{\em mixed} & the limit clause \\
+\hline
+{\em boolean} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+object 
+\end{DoxyReturn}
+
+
+Definition at line 1520 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!distinct@{distinct}}
+\index{distinct@{distinct}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{distinct}]{\setlength{\rightskip}{0pt plus 5cm}distinct (
+\begin{DoxyParamCaption}
+\item[{}]{\$val = {\ttfamily TRUE}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__active__record_a65b172f03eea17b7fa243f5732a592bd}
+D\-I\-S\-T\-I\-N\-C\-T
+
+Sets a flag which tells the query string compiler to add D\-I\-S\-T\-I\-N\-C\-T
+
+
+\begin{DoxyParams}{Parameters}
+{\em bool} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+object 
+\end{DoxyReturn}
+
+
+Definition at line 240 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!empty\-\_\-table@{empty\-\_\-table}}
+\index{empty\-\_\-table@{empty\-\_\-table}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{empty\-\_\-table}]{\setlength{\rightskip}{0pt plus 5cm}empty\-\_\-table (
+\begin{DoxyParamCaption}
+\item[{}]{\$table = {\ttfamily ''}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__active__record_adb594700d683271e17cc5041099d8d40}
+Empty Table
+
+Compiles a delete string and runs \char`\"{}\-D\-E\-L\-E\-T\-E F\-R\-O\-M table\char`\"{}
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & the table to empty \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+object 
+\end{DoxyReturn}
+
+
+Definition at line 1441 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!flush\-\_\-cache@{flush\-\_\-cache}}
+\index{flush\-\_\-cache@{flush\-\_\-cache}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{flush\-\_\-cache}]{\setlength{\rightskip}{0pt plus 5cm}flush\-\_\-cache (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__active__record_aa3c94d79d552f6e10277b01c447ebbb6}
+Flush Cache
+
+Empties the A\-R cache
+
+public \begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 1912 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!from@{from}}
+\index{from@{from}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{from}]{\setlength{\rightskip}{0pt plus 5cm}from (
+\begin{DoxyParamCaption}
+\item[{}]{\$from}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__active__record_a91f5f004ed8e2237a4decc5d23ac3457}
+From
+
+Generates the F\-R\-O\-M portion of the query
+
+
+\begin{DoxyParams}{Parameters}
+{\em mixed} & can be a string or array \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+object 
+\end{DoxyReturn}
+
+
+Definition at line 256 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!get@{get}}
+\index{get@{get}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{get}]{\setlength{\rightskip}{0pt plus 5cm}get (
+\begin{DoxyParamCaption}
+\item[{}]{\$table = {\ttfamily ''}, }
+\item[{}]{\$limit = {\ttfamily null}, }
+\item[{}]{\$offset = {\ttfamily null}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__active__record_adcee0a9d1d395fd4d3b41c4b8db7e6e9}
+Get
+
+Compiles the select statement based on the other functions called and runs the query
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & the table \\
+\hline
+{\em string} & the limit clause \\
+\hline
+{\em string} & the offset clause \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+object 
+\end{DoxyReturn}
+
+
+Definition at line 948 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!get\-\_\-where@{get\-\_\-where}}
+\index{get\-\_\-where@{get\-\_\-where}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{get\-\_\-where}]{\setlength{\rightskip}{0pt plus 5cm}get\-\_\-where (
+\begin{DoxyParamCaption}
+\item[{}]{\$table = {\ttfamily ''}, }
+\item[{}]{\$where = {\ttfamily null}, }
+\item[{}]{\$limit = {\ttfamily null}, }
+\item[{}]{\$offset = {\ttfamily null}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__active__record_a64f276196101afd426b56b7cece7dde3}
+Get\-\_\-\-Where
+
+Allows the where clause, limit and offset to be added directly
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & the where clause \\
+\hline
+{\em string} & the limit clause \\
+\hline
+{\em string} & the offset clause \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+object 
+\end{DoxyReturn}
+
+
+Definition at line 1011 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!group\-\_\-by@{group\-\_\-by}}
+\index{group\-\_\-by@{group\-\_\-by}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{group\-\_\-by}]{\setlength{\rightskip}{0pt plus 5cm}group\-\_\-by (
+\begin{DoxyParamCaption}
+\item[{}]{\$by}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__active__record_ac62c582e587dfea3b7671bb7a700e4ee}
+G\-R\-O\-U\-P B\-Y
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+object 
+\end{DoxyReturn}
+
+
+Definition at line 706 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!having@{having}}
+\index{having@{having}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{having}]{\setlength{\rightskip}{0pt plus 5cm}having (
+\begin{DoxyParamCaption}
+\item[{}]{\$key, }
+\item[{}]{\$value = {\ttfamily ''}, }
+\item[{}]{\$escape = {\ttfamily TRUE}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__active__record_adbeaab3e62553d410606bcc8a7c4e3b3}
+Sets the H\-A\-V\-I\-N\-G value
+
+Separates multiple calls with A\-N\-D
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+object 
+\end{DoxyReturn}
+
+
+Definition at line 742 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!insert@{insert}}
+\index{insert@{insert}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{insert}]{\setlength{\rightskip}{0pt plus 5cm}insert (
+\begin{DoxyParamCaption}
+\item[{}]{\$table = {\ttfamily ''}, }
+\item[{}]{\$set = {\ttfamily NULL}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__active__record_ac354a4a5bc07f519085230be00b3545c}
+Insert
+
+Compiles an insert string and runs the query
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & the table to insert data into \\
+\hline
+{\em array} & an associative array of insert values \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+object 
+\end{DoxyReturn}
+
+
+Definition at line 1163 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!insert\-\_\-batch@{insert\-\_\-batch}}
+\index{insert\-\_\-batch@{insert\-\_\-batch}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{insert\-\_\-batch}]{\setlength{\rightskip}{0pt plus 5cm}insert\-\_\-batch (
+\begin{DoxyParamCaption}
+\item[{}]{\$table = {\ttfamily ''}, }
+\item[{}]{\$set = {\ttfamily NULL}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__active__record_a5e097f5526844f12b1d4779bb3c97c69}
+Insert\-\_\-\-Batch
+
+Compiles batch insert strings and runs the queries
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & the table to retrieve the results from \\
+\hline
+{\em array} & an associative array of insert values \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+object 
+\end{DoxyReturn}
+
+
+Definition at line 1046 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!join@{join}}
+\index{join@{join}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{join}]{\setlength{\rightskip}{0pt plus 5cm}join (
+\begin{DoxyParamCaption}
+\item[{}]{\$table, }
+\item[{}]{\$cond, }
+\item[{}]{\$type = {\ttfamily ''}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__active__record_ad0bc485bb36a5ff045d6efe24dc10791}
+Join
+
+Generates the J\-O\-I\-N portion of the query
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+{\em string} & the join condition \\
+\hline
+{\em string} & the type of join \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+object 
+\end{DoxyReturn}
+
+
+Definition at line 310 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!like@{like}}
+\index{like@{like}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{like}]{\setlength{\rightskip}{0pt plus 5cm}like (
+\begin{DoxyParamCaption}
+\item[{}]{\$field, }
+\item[{}]{\$match = {\ttfamily ''}, }
+\item[{}]{\$side = {\ttfamily 'both'}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__active__record_a015236670a8364b5f254f7743a94342d}
+Like
+
+Generates a L\-I\-K\-E\% portion of the query. Separates multiple calls with A\-N\-D
+
+
+\begin{DoxyParams}{Parameters}
+{\em mixed} & \\
+\hline
+{\em mixed} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+object 
+\end{DoxyReturn}
+
+
+Definition at line 581 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!limit@{limit}}
+\index{limit@{limit}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{limit}]{\setlength{\rightskip}{0pt plus 5cm}limit (
+\begin{DoxyParamCaption}
+\item[{}]{\$value, }
+\item[{}]{\$offset = {\ttfamily ''}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__active__record_a7514ed2c519255f6ad52366ff2157b4a}
+Sets the L\-I\-M\-I\-T value
+
+
+\begin{DoxyParams}{Parameters}
+{\em integer} & the limit value \\
+\hline
+{\em integer} & the offset value \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+object 
+\end{DoxyReturn}
+
+
+Definition at line 875 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!not\-\_\-like@{not\-\_\-like}}
+\index{not\-\_\-like@{not\-\_\-like}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{not\-\_\-like}]{\setlength{\rightskip}{0pt plus 5cm}not\-\_\-like (
+\begin{DoxyParamCaption}
+\item[{}]{\$field, }
+\item[{}]{\$match = {\ttfamily ''}, }
+\item[{}]{\$side = {\ttfamily 'both'}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__active__record_a8e67ce1860b62c59cbf27844ba5e4630}
+Not Like
+
+Generates a N\-O\-T L\-I\-K\-E portion of the query. Separates multiple calls with A\-N\-D
+
+
+\begin{DoxyParams}{Parameters}
+{\em mixed} & \\
+\hline
+{\em mixed} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+object 
+\end{DoxyReturn}
+
+
+Definition at line 598 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!offset@{offset}}
+\index{offset@{offset}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{offset}]{\setlength{\rightskip}{0pt plus 5cm}offset (
+\begin{DoxyParamCaption}
+\item[{}]{\$offset}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__active__record_afd31b65425a2b5cf30711bf29e1b1851}
+Sets the O\-F\-F\-S\-E\-T value
+
+
+\begin{DoxyParams}{Parameters}
+{\em integer} & the offset value \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+object 
+\end{DoxyReturn}
+
+
+Definition at line 895 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!or\-\_\-having@{or\-\_\-having}}
+\index{or\-\_\-having@{or\-\_\-having}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{or\-\_\-having}]{\setlength{\rightskip}{0pt plus 5cm}or\-\_\-having (
+\begin{DoxyParamCaption}
+\item[{}]{\$key, }
+\item[{}]{\$value = {\ttfamily ''}, }
+\item[{}]{\$escape = {\ttfamily TRUE}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__active__record_a290ac4eca3794427c4f36026552e155b}
+Sets the O\-R H\-A\-V\-I\-N\-G value
+
+Separates multiple calls with O\-R
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+object 
+\end{DoxyReturn}
+
+
+Definition at line 758 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!or\-\_\-like@{or\-\_\-like}}
+\index{or\-\_\-like@{or\-\_\-like}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{or\-\_\-like}]{\setlength{\rightskip}{0pt plus 5cm}or\-\_\-like (
+\begin{DoxyParamCaption}
+\item[{}]{\$field, }
+\item[{}]{\$match = {\ttfamily ''}, }
+\item[{}]{\$side = {\ttfamily 'both'}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__active__record_a25831efd5925dee48030eaeaf337e1c5}
+O\-R Like
+
+Generates a L\-I\-K\-E\% portion of the query. Separates multiple calls with O\-R
+
+
+\begin{DoxyParams}{Parameters}
+{\em mixed} & \\
+\hline
+{\em mixed} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+object 
+\end{DoxyReturn}
+
+
+Definition at line 615 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!or\-\_\-not\-\_\-like@{or\-\_\-not\-\_\-like}}
+\index{or\-\_\-not\-\_\-like@{or\-\_\-not\-\_\-like}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{or\-\_\-not\-\_\-like}]{\setlength{\rightskip}{0pt plus 5cm}or\-\_\-not\-\_\-like (
+\begin{DoxyParamCaption}
+\item[{}]{\$field, }
+\item[{}]{\$match = {\ttfamily ''}, }
+\item[{}]{\$side = {\ttfamily 'both'}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__active__record_a3bba159790b4904f8f19d4fd4d3d6c99}
+O\-R Not Like
+
+Generates a N\-O\-T L\-I\-K\-E portion of the query. Separates multiple calls with O\-R
+
+
+\begin{DoxyParams}{Parameters}
+{\em mixed} & \\
+\hline
+{\em mixed} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+object 
+\end{DoxyReturn}
+
+
+Definition at line 632 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!or\-\_\-where@{or\-\_\-where}}
+\index{or\-\_\-where@{or\-\_\-where}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{or\-\_\-where}]{\setlength{\rightskip}{0pt plus 5cm}or\-\_\-where (
+\begin{DoxyParamCaption}
+\item[{}]{\$key, }
+\item[{}]{\$value = {\ttfamily NULL}, }
+\item[{}]{\$escape = {\ttfamily TRUE}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__active__record_a28b19c8d67694cbd9562878d5f38ae0d}
+O\-R Where
+
+Generates the W\-H\-E\-R\-E portion of the query. Separates multiple calls with O\-R
+
+
+\begin{DoxyParams}{Parameters}
+{\em mixed} & \\
+\hline
+{\em mixed} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+object 
+\end{DoxyReturn}
+
+
+Definition at line 381 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!or\-\_\-where\-\_\-in@{or\-\_\-where\-\_\-in}}
+\index{or\-\_\-where\-\_\-in@{or\-\_\-where\-\_\-in}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{or\-\_\-where\-\_\-in}]{\setlength{\rightskip}{0pt plus 5cm}or\-\_\-where\-\_\-in (
+\begin{DoxyParamCaption}
+\item[{}]{\$key = {\ttfamily NULL}, }
+\item[{}]{\$values = {\ttfamily NULL}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__active__record_af3d06ae312c33df08f01c557c74c300c}
+Where\-\_\-in\-\_\-or
+
+Generates a W\-H\-E\-R\-E field I\-N ('item', 'item') S\-Q\-L query joined with O\-R if appropriate
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & The field to search \\
+\hline
+{\em array} & The values searched on \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+object 
+\end{DoxyReturn}
+
+
+Definition at line 482 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!or\-\_\-where\-\_\-not\-\_\-in@{or\-\_\-where\-\_\-not\-\_\-in}}
+\index{or\-\_\-where\-\_\-not\-\_\-in@{or\-\_\-where\-\_\-not\-\_\-in}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{or\-\_\-where\-\_\-not\-\_\-in}]{\setlength{\rightskip}{0pt plus 5cm}or\-\_\-where\-\_\-not\-\_\-in (
+\begin{DoxyParamCaption}
+\item[{}]{\$key = {\ttfamily NULL}, }
+\item[{}]{\$values = {\ttfamily NULL}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__active__record_a9c66c22c5268f00cfdee1e0cd5add5b6}
+Where\-\_\-not\-\_\-in\-\_\-or
+
+Generates a W\-H\-E\-R\-E field N\-O\-T I\-N ('item', 'item') S\-Q\-L query joined with O\-R if appropriate
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & The field to search \\
+\hline
+{\em array} & The values searched on \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+object 
+\end{DoxyReturn}
+
+
+Definition at line 516 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!order\-\_\-by@{order\-\_\-by}}
+\index{order\-\_\-by@{order\-\_\-by}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{order\-\_\-by}]{\setlength{\rightskip}{0pt plus 5cm}order\-\_\-by (
+\begin{DoxyParamCaption}
+\item[{}]{\$orderby, }
+\item[{}]{\$direction = {\ttfamily ''}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__active__record_ad0b080e339399fe9bc35142880f997b8}
+Sets the O\-R\-D\-E\-R B\-Y value
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+{\em string} & direction\-: asc or desc \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+object 
+\end{DoxyReturn}
+
+
+Definition at line 820 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!replace@{replace}}
+\index{replace@{replace}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{replace}]{\setlength{\rightskip}{0pt plus 5cm}replace (
+\begin{DoxyParamCaption}
+\item[{}]{\$table = {\ttfamily ''}, }
+\item[{}]{\$set = {\ttfamily NULL}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__active__record_a71a4809228dce3974013c0db36a5f281}
+Replace
+
+Compiles an replace into string and runs the query
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & the table to replace data into \\
+\hline
+{\em array} & an associative array of insert values \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+object 
+\end{DoxyReturn}
+
+
+Definition at line 1210 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!select@{select}}
+\index{select@{select}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{select}]{\setlength{\rightskip}{0pt plus 5cm}select (
+\begin{DoxyParamCaption}
+\item[{}]{\$select = {\ttfamily '$\ast$'}, }
+\item[{}]{\$escape = {\ttfamily NULL}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__active__record_ac6194faecb10a2731d6e6016f1714531}
+Select
+
+Generates the S\-E\-L\-E\-C\-T portion of the query
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+object 
+\end{DoxyReturn}
+
+
+Definition at line 75 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!select\-\_\-avg@{select\-\_\-avg}}
+\index{select\-\_\-avg@{select\-\_\-avg}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{select\-\_\-avg}]{\setlength{\rightskip}{0pt plus 5cm}select\-\_\-avg (
+\begin{DoxyParamCaption}
+\item[{}]{\$select = {\ttfamily ''}, }
+\item[{}]{\$alias = {\ttfamily ''}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__active__record_a7c1b8ed90462898bd0d4e95ac3ba1539}
+Select Average
+
+Generates a S\-E\-L\-E\-C\-T A\-V\-G(field) portion of a query
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & the field \\
+\hline
+{\em string} & an alias \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+object 
+\end{DoxyReturn}
+
+
+Definition at line 145 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!select\-\_\-max@{select\-\_\-max}}
+\index{select\-\_\-max@{select\-\_\-max}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{select\-\_\-max}]{\setlength{\rightskip}{0pt plus 5cm}select\-\_\-max (
+\begin{DoxyParamCaption}
+\item[{}]{\$select = {\ttfamily ''}, }
+\item[{}]{\$alias = {\ttfamily ''}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__active__record_a3283a75881bf34d98cc13aa5a187c8ac}
+Select Max
+
+Generates a S\-E\-L\-E\-C\-T M\-A\-X(field) portion of a query
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & the field \\
+\hline
+{\em string} & an alias \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+object 
+\end{DoxyReturn}
+
+
+Definition at line 113 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!select\-\_\-min@{select\-\_\-min}}
+\index{select\-\_\-min@{select\-\_\-min}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{select\-\_\-min}]{\setlength{\rightskip}{0pt plus 5cm}select\-\_\-min (
+\begin{DoxyParamCaption}
+\item[{}]{\$select = {\ttfamily ''}, }
+\item[{}]{\$alias = {\ttfamily ''}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__active__record_a460e37c355e9531b238b7c34d5979164}
+Select Min
+
+Generates a S\-E\-L\-E\-C\-T M\-I\-N(field) portion of a query
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & the field \\
+\hline
+{\em string} & an alias \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+object 
+\end{DoxyReturn}
+
+
+Definition at line 129 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!select\-\_\-sum@{select\-\_\-sum}}
+\index{select\-\_\-sum@{select\-\_\-sum}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{select\-\_\-sum}]{\setlength{\rightskip}{0pt plus 5cm}select\-\_\-sum (
+\begin{DoxyParamCaption}
+\item[{}]{\$select = {\ttfamily ''}, }
+\item[{}]{\$alias = {\ttfamily ''}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__active__record_aeb58275ab60ed426ce60ead616477e82}
+Select Sum
+
+Generates a S\-E\-L\-E\-C\-T S\-U\-M(field) portion of a query
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & the field \\
+\hline
+{\em string} & an alias \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+object 
+\end{DoxyReturn}
+
+
+Definition at line 161 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!set@{set}}
+\index{set@{set}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{set}]{\setlength{\rightskip}{0pt plus 5cm}set (
+\begin{DoxyParamCaption}
+\item[{}]{\$key, }
+\item[{}]{\$value = {\ttfamily ''}, }
+\item[{}]{\$escape = {\ttfamily TRUE}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__active__record_a0c43d8d98db94a956f172035ed147d55}
+The \char`\"{}set\char`\"{} function. Allows key/value pairs to be set for inserting or updating
+
+
+\begin{DoxyParams}{Parameters}
+{\em mixed} & \\
+\hline
+{\em string} & \\
+\hline
+{\em boolean} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+object 
+\end{DoxyReturn}
+
+
+Definition at line 911 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!set\-\_\-dbprefix@{set\-\_\-dbprefix}}
+\index{set\-\_\-dbprefix@{set\-\_\-dbprefix}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{set\-\_\-dbprefix}]{\setlength{\rightskip}{0pt plus 5cm}set\-\_\-dbprefix (
+\begin{DoxyParamCaption}
+\item[{}]{\$prefix = {\ttfamily ''}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__active__record_a18182914d989b4d6781bda1163db31d7}
+Set D\-B Prefix
+
+Set's the D\-B Prefix to something new without needing to reconnect
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & the prefix \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 1613 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!set\-\_\-insert\-\_\-batch@{set\-\_\-insert\-\_\-batch}}
+\index{set\-\_\-insert\-\_\-batch@{set\-\_\-insert\-\_\-batch}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{set\-\_\-insert\-\_\-batch}]{\setlength{\rightskip}{0pt plus 5cm}set\-\_\-insert\-\_\-batch (
+\begin{DoxyParamCaption}
+\item[{}]{\$key, }
+\item[{}]{\$value = {\ttfamily ''}, }
+\item[{}]{\$escape = {\ttfamily TRUE}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__active__record_aa6a14a96c2f2b6e5f761aaf18bf8c14e}
+The \char`\"{}set\-\_\-insert\-\_\-batch\char`\"{} function. Allows key/value pairs to be set for batch inserts
+
+
+\begin{DoxyParams}{Parameters}
+{\em mixed} & \\
+\hline
+{\em string} & \\
+\hline
+{\em boolean} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+object 
+\end{DoxyReturn}
+
+
+Definition at line 1104 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!set\-\_\-update\-\_\-batch@{set\-\_\-update\-\_\-batch}}
+\index{set\-\_\-update\-\_\-batch@{set\-\_\-update\-\_\-batch}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{set\-\_\-update\-\_\-batch}]{\setlength{\rightskip}{0pt plus 5cm}set\-\_\-update\-\_\-batch (
+\begin{DoxyParamCaption}
+\item[{}]{\$key, }
+\item[{}]{\$index = {\ttfamily ''}, }
+\item[{}]{\$escape = {\ttfamily TRUE}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__active__record_a545a5065c17fae640a0f46b99798c443}
+The \char`\"{}set\-\_\-update\-\_\-batch\char`\"{} function. Allows key/value pairs to be set for batch updating
+
+
+\begin{DoxyParams}{Parameters}
+{\em array} & \\
+\hline
+{\em string} & \\
+\hline
+{\em boolean} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+object 
+\end{DoxyReturn}
+
+
+Definition at line 1385 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!start\-\_\-cache@{start\-\_\-cache}}
+\index{start\-\_\-cache@{start\-\_\-cache}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{start\-\_\-cache}]{\setlength{\rightskip}{0pt plus 5cm}start\-\_\-cache (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__active__record_a2d4f0c7b71f87dc7ca7f7fcfbdd12ba0}
+Start Cache
+
+Starts A\-R caching
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 1883 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!stop\-\_\-cache@{stop\-\_\-cache}}
+\index{stop\-\_\-cache@{stop\-\_\-cache}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{stop\-\_\-cache}]{\setlength{\rightskip}{0pt plus 5cm}stop\-\_\-cache (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__active__record_a612e54a6230b7e899c4d2a42a234bd5a}
+Stop Cache
+
+Stops A\-R caching
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 1897 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!truncate@{truncate}}
+\index{truncate@{truncate}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{truncate}]{\setlength{\rightskip}{0pt plus 5cm}truncate (
+\begin{DoxyParamCaption}
+\item[{}]{\$table = {\ttfamily ''}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__active__record_a59e71805908a91d2b45089c0137b5bc7}
+Truncate
+
+Compiles a truncate string and runs the query If the database does not support the \doxyref{truncate()}{p.}{class_c_i___d_b__active__record_a59e71805908a91d2b45089c0137b5bc7} command This function maps to \char`\"{}\-D\-E\-L\-E\-T\-E F\-R\-O\-M table\char`\"{}
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & the table to truncate \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+object 
+\end{DoxyReturn}
+
+
+Definition at line 1480 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!update@{update}}
+\index{update@{update}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{update}]{\setlength{\rightskip}{0pt plus 5cm}update (
+\begin{DoxyParamCaption}
+\item[{}]{\$table = {\ttfamily ''}, }
+\item[{}]{\$set = {\ttfamily NULL}, }
+\item[{}]{\$where = {\ttfamily NULL}, }
+\item[{}]{\$limit = {\ttfamily NULL}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__active__record_a7f1bcfcca3cb9fe450f21737028040a7}
+Update
+
+Compiles an update string and runs the query
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & the table to retrieve the results from \\
+\hline
+{\em array} & an associative array of update values \\
+\hline
+{\em mixed} & the where clause \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+object 
+\end{DoxyReturn}
+
+
+Definition at line 1258 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!update\-\_\-batch@{update\-\_\-batch}}
+\index{update\-\_\-batch@{update\-\_\-batch}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{update\-\_\-batch}]{\setlength{\rightskip}{0pt plus 5cm}update\-\_\-batch (
+\begin{DoxyParamCaption}
+\item[{}]{\$table = {\ttfamily ''}, }
+\item[{}]{\$set = {\ttfamily NULL}, }
+\item[{}]{\$index = {\ttfamily NULL}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__active__record_a3a7d52e50b609117b3ca44a4dfeca263}
+Update\-\_\-\-Batch
+
+Compiles an update string and runs the query
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & the table to retrieve the results from \\
+\hline
+{\em array} & an associative array of update values \\
+\hline
+{\em string} & the where key \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+object 
+\end{DoxyReturn}
+
+
+Definition at line 1320 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!where@{where}}
+\index{where@{where}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{where}]{\setlength{\rightskip}{0pt plus 5cm}where (
+\begin{DoxyParamCaption}
+\item[{}]{\$key, }
+\item[{}]{\$value = {\ttfamily NULL}, }
+\item[{}]{\$escape = {\ttfamily TRUE}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__active__record_a7519d8b5035bdb081e1e7d9cc7c716fb}
+Where
+
+Generates the W\-H\-E\-R\-E portion of the query. Separates multiple calls with A\-N\-D
+
+
+\begin{DoxyParams}{Parameters}
+{\em mixed} & \\
+\hline
+{\em mixed} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+object 
+\end{DoxyReturn}
+
+
+Definition at line 364 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!where\-\_\-in@{where\-\_\-in}}
+\index{where\-\_\-in@{where\-\_\-in}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{where\-\_\-in}]{\setlength{\rightskip}{0pt plus 5cm}where\-\_\-in (
+\begin{DoxyParamCaption}
+\item[{}]{\$key = {\ttfamily NULL}, }
+\item[{}]{\$values = {\ttfamily NULL}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__active__record_a2c8ee381f79063599c2a8e636f096c70}
+Where\-\_\-in
+
+Generates a W\-H\-E\-R\-E field I\-N ('item', 'item') S\-Q\-L query joined with A\-N\-D if appropriate
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & The field to search \\
+\hline
+{\em array} & The values searched on \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+object 
+\end{DoxyReturn}
+
+
+Definition at line 465 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!where\-\_\-not\-\_\-in@{where\-\_\-not\-\_\-in}}
+\index{where\-\_\-not\-\_\-in@{where\-\_\-not\-\_\-in}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{where\-\_\-not\-\_\-in}]{\setlength{\rightskip}{0pt plus 5cm}where\-\_\-not\-\_\-in (
+\begin{DoxyParamCaption}
+\item[{}]{\$key = {\ttfamily NULL}, }
+\item[{}]{\$values = {\ttfamily NULL}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b__active__record_a916d1fb578946ae0e9f7f4f9e556bb5c}
+Where\-\_\-not\-\_\-in
+
+Generates a W\-H\-E\-R\-E field N\-O\-T I\-N ('item', 'item') S\-Q\-L query joined with A\-N\-D if appropriate
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & The field to search \\
+\hline
+{\em array} & The values searched on \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+object 
+\end{DoxyReturn}
+
+
+Definition at line 499 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+
+
+\subsection{Field Documentation}
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!\$ar\-\_\-aliased\-\_\-tables@{\$ar\-\_\-aliased\-\_\-tables}}
+\index{\$ar\-\_\-aliased\-\_\-tables@{\$ar\-\_\-aliased\-\_\-tables}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{\$ar\-\_\-aliased\-\_\-tables}]{\setlength{\rightskip}{0pt plus 5cm}\$ar\-\_\-aliased\-\_\-tables = array()}\label{class_c_i___d_b__active__record_afc57b21431b4cdf800edd0a18c802e18}
+
+
+Definition at line 46 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!\$ar\-\_\-cache\-\_\-exists@{\$ar\-\_\-cache\-\_\-exists}}
+\index{\$ar\-\_\-cache\-\_\-exists@{\$ar\-\_\-cache\-\_\-exists}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{\$ar\-\_\-cache\-\_\-exists}]{\setlength{\rightskip}{0pt plus 5cm}\$ar\-\_\-cache\-\_\-exists = array()}\label{class_c_i___d_b__active__record_a18e3446f3dcc9905e3747ef2e7f7b7eb}
+
+
+Definition at line 51 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!\$ar\-\_\-cache\-\_\-from@{\$ar\-\_\-cache\-\_\-from}}
+\index{\$ar\-\_\-cache\-\_\-from@{\$ar\-\_\-cache\-\_\-from}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{\$ar\-\_\-cache\-\_\-from}]{\setlength{\rightskip}{0pt plus 5cm}\$ar\-\_\-cache\-\_\-from = array()}\label{class_c_i___d_b__active__record_a5750eae1b2d422db7838f3647879a0ee}
+
+
+Definition at line 53 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!\$ar\-\_\-cache\-\_\-groupby@{\$ar\-\_\-cache\-\_\-groupby}}
+\index{\$ar\-\_\-cache\-\_\-groupby@{\$ar\-\_\-cache\-\_\-groupby}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{\$ar\-\_\-cache\-\_\-groupby}]{\setlength{\rightskip}{0pt plus 5cm}\$ar\-\_\-cache\-\_\-groupby = array()}\label{class_c_i___d_b__active__record_a6240f4c779f6c5e4dd0980df51b3adbd}
+
+
+Definition at line 57 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!\$ar\-\_\-cache\-\_\-having@{\$ar\-\_\-cache\-\_\-having}}
+\index{\$ar\-\_\-cache\-\_\-having@{\$ar\-\_\-cache\-\_\-having}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{\$ar\-\_\-cache\-\_\-having}]{\setlength{\rightskip}{0pt plus 5cm}\$ar\-\_\-cache\-\_\-having = array()}\label{class_c_i___d_b__active__record_a7b18f160a87dfb07f85412c549e4c57c}
+
+
+Definition at line 58 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!\$ar\-\_\-cache\-\_\-join@{\$ar\-\_\-cache\-\_\-join}}
+\index{\$ar\-\_\-cache\-\_\-join@{\$ar\-\_\-cache\-\_\-join}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{\$ar\-\_\-cache\-\_\-join}]{\setlength{\rightskip}{0pt plus 5cm}\$ar\-\_\-cache\-\_\-join = array()}\label{class_c_i___d_b__active__record_a4ba4582934d13ab151701db3f9d0276c}
+
+
+Definition at line 54 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!\$ar\-\_\-cache\-\_\-like@{\$ar\-\_\-cache\-\_\-like}}
+\index{\$ar\-\_\-cache\-\_\-like@{\$ar\-\_\-cache\-\_\-like}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{\$ar\-\_\-cache\-\_\-like}]{\setlength{\rightskip}{0pt plus 5cm}\$ar\-\_\-cache\-\_\-like = array()}\label{class_c_i___d_b__active__record_a38c187eeb7bcc67cb23daef88a2b12a8}
+
+
+Definition at line 56 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!\$ar\-\_\-cache\-\_\-no\-\_\-escape@{\$ar\-\_\-cache\-\_\-no\-\_\-escape}}
+\index{\$ar\-\_\-cache\-\_\-no\-\_\-escape@{\$ar\-\_\-cache\-\_\-no\-\_\-escape}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{\$ar\-\_\-cache\-\_\-no\-\_\-escape}]{\setlength{\rightskip}{0pt plus 5cm}\$ar\-\_\-cache\-\_\-no\-\_\-escape = array()}\label{class_c_i___d_b__active__record_afa3320514449f5115b7b25418a94b02e}
+
+
+Definition at line 63 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!\$ar\-\_\-cache\-\_\-orderby@{\$ar\-\_\-cache\-\_\-orderby}}
+\index{\$ar\-\_\-cache\-\_\-orderby@{\$ar\-\_\-cache\-\_\-orderby}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{\$ar\-\_\-cache\-\_\-orderby}]{\setlength{\rightskip}{0pt plus 5cm}\$ar\-\_\-cache\-\_\-orderby = array()}\label{class_c_i___d_b__active__record_ab525cea98bda6b22334981a77a2a9679}
+
+
+Definition at line 59 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!\$ar\-\_\-cache\-\_\-select@{\$ar\-\_\-cache\-\_\-select}}
+\index{\$ar\-\_\-cache\-\_\-select@{\$ar\-\_\-cache\-\_\-select}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{\$ar\-\_\-cache\-\_\-select}]{\setlength{\rightskip}{0pt plus 5cm}\$ar\-\_\-cache\-\_\-select = array()}\label{class_c_i___d_b__active__record_a5109a1bd9153d54fabc8da05ebabf723}
+
+
+Definition at line 52 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!\$ar\-\_\-cache\-\_\-set@{\$ar\-\_\-cache\-\_\-set}}
+\index{\$ar\-\_\-cache\-\_\-set@{\$ar\-\_\-cache\-\_\-set}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{\$ar\-\_\-cache\-\_\-set}]{\setlength{\rightskip}{0pt plus 5cm}\$ar\-\_\-cache\-\_\-set = array()}\label{class_c_i___d_b__active__record_a587ae428156ae056b3f4d88414aa83f4}
+
+
+Definition at line 60 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!\$ar\-\_\-cache\-\_\-where@{\$ar\-\_\-cache\-\_\-where}}
+\index{\$ar\-\_\-cache\-\_\-where@{\$ar\-\_\-cache\-\_\-where}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{\$ar\-\_\-cache\-\_\-where}]{\setlength{\rightskip}{0pt plus 5cm}\$ar\-\_\-cache\-\_\-where = array()}\label{class_c_i___d_b__active__record_a2e79a7f06bc14a5ebb45079623e2e64a}
+
+
+Definition at line 55 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!\$ar\-\_\-caching@{\$ar\-\_\-caching}}
+\index{\$ar\-\_\-caching@{\$ar\-\_\-caching}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{\$ar\-\_\-caching}]{\setlength{\rightskip}{0pt plus 5cm}\$ar\-\_\-caching = F\-A\-L\-S\-E}\label{class_c_i___d_b__active__record_a308bcebf4c8adced35e4b38a91d1c786}
+
+
+Definition at line 50 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!\$ar\-\_\-distinct@{\$ar\-\_\-distinct}}
+\index{\$ar\-\_\-distinct@{\$ar\-\_\-distinct}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{\$ar\-\_\-distinct}]{\setlength{\rightskip}{0pt plus 5cm}\$ar\-\_\-distinct = F\-A\-L\-S\-E}\label{class_c_i___d_b__active__record_a095d86bc9e6d06232acfa6d43a245fc0}
+
+
+Definition at line 32 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!\$ar\-\_\-from@{\$ar\-\_\-from}}
+\index{\$ar\-\_\-from@{\$ar\-\_\-from}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{\$ar\-\_\-from}]{\setlength{\rightskip}{0pt plus 5cm}\$ar\-\_\-from = array()}\label{class_c_i___d_b__active__record_a862adab461db1d5e818cea446648220c}
+
+
+Definition at line 33 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!\$ar\-\_\-groupby@{\$ar\-\_\-groupby}}
+\index{\$ar\-\_\-groupby@{\$ar\-\_\-groupby}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{\$ar\-\_\-groupby}]{\setlength{\rightskip}{0pt plus 5cm}\$ar\-\_\-groupby = array()}\label{class_c_i___d_b__active__record_a708d484566c200d28d8e3139cc6a8a6c}
+
+
+Definition at line 37 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!\$ar\-\_\-having@{\$ar\-\_\-having}}
+\index{\$ar\-\_\-having@{\$ar\-\_\-having}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{\$ar\-\_\-having}]{\setlength{\rightskip}{0pt plus 5cm}\$ar\-\_\-having = array()}\label{class_c_i___d_b__active__record_a7d7dbdaa94e66d6e18088da8c614644d}
+
+
+Definition at line 38 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!\$ar\-\_\-join@{\$ar\-\_\-join}}
+\index{\$ar\-\_\-join@{\$ar\-\_\-join}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{\$ar\-\_\-join}]{\setlength{\rightskip}{0pt plus 5cm}\$ar\-\_\-join = array()}\label{class_c_i___d_b__active__record_a7586606381cc112cad3f31aabbc31ea6}
+
+
+Definition at line 34 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!\$ar\-\_\-keys@{\$ar\-\_\-keys}}
+\index{\$ar\-\_\-keys@{\$ar\-\_\-keys}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{\$ar\-\_\-keys}]{\setlength{\rightskip}{0pt plus 5cm}\$ar\-\_\-keys = array()}\label{class_c_i___d_b__active__record_aebf004d80ee72abc06da59389da36c45}
+
+
+Definition at line 39 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!\$ar\-\_\-like@{\$ar\-\_\-like}}
+\index{\$ar\-\_\-like@{\$ar\-\_\-like}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{\$ar\-\_\-like}]{\setlength{\rightskip}{0pt plus 5cm}\$ar\-\_\-like = array()}\label{class_c_i___d_b__active__record_a932080b6d718eb255adee55d0a05f815}
+
+
+Definition at line 36 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!\$ar\-\_\-limit@{\$ar\-\_\-limit}}
+\index{\$ar\-\_\-limit@{\$ar\-\_\-limit}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{\$ar\-\_\-limit}]{\setlength{\rightskip}{0pt plus 5cm}\$ar\-\_\-limit = F\-A\-L\-S\-E}\label{class_c_i___d_b__active__record_afd3444376e2806c184aec39da01adad5}
+
+
+Definition at line 40 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!\$ar\-\_\-no\-\_\-escape@{\$ar\-\_\-no\-\_\-escape}}
+\index{\$ar\-\_\-no\-\_\-escape@{\$ar\-\_\-no\-\_\-escape}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{\$ar\-\_\-no\-\_\-escape}]{\setlength{\rightskip}{0pt plus 5cm}\$ar\-\_\-no\-\_\-escape = array()}\label{class_c_i___d_b__active__record_a7c12214d4cda06a8278405a5841fb096}
+
+
+Definition at line 62 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!\$ar\-\_\-offset@{\$ar\-\_\-offset}}
+\index{\$ar\-\_\-offset@{\$ar\-\_\-offset}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{\$ar\-\_\-offset}]{\setlength{\rightskip}{0pt plus 5cm}\$ar\-\_\-offset = F\-A\-L\-S\-E}\label{class_c_i___d_b__active__record_a0b62c5aa489250b693f22a50ea6b2094}
+
+
+Definition at line 41 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!\$ar\-\_\-order@{\$ar\-\_\-order}}
+\index{\$ar\-\_\-order@{\$ar\-\_\-order}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{\$ar\-\_\-order}]{\setlength{\rightskip}{0pt plus 5cm}\$ar\-\_\-order = F\-A\-L\-S\-E}\label{class_c_i___d_b__active__record_a3aac663f32333aebe197788ecb20a469}
+
+
+Definition at line 42 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!\$ar\-\_\-orderby@{\$ar\-\_\-orderby}}
+\index{\$ar\-\_\-orderby@{\$ar\-\_\-orderby}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{\$ar\-\_\-orderby}]{\setlength{\rightskip}{0pt plus 5cm}\$ar\-\_\-orderby = array()}\label{class_c_i___d_b__active__record_a3880e9552e8633df582665611281d5ee}
+
+
+Definition at line 43 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!\$ar\-\_\-select@{\$ar\-\_\-select}}
+\index{\$ar\-\_\-select@{\$ar\-\_\-select}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{\$ar\-\_\-select}]{\setlength{\rightskip}{0pt plus 5cm}\$ar\-\_\-select = array()}\label{class_c_i___d_b__active__record_a6e20fdd21772a1afe552931b7e8226b7}
+
+
+Definition at line 31 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!\$ar\-\_\-set@{\$ar\-\_\-set}}
+\index{\$ar\-\_\-set@{\$ar\-\_\-set}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{\$ar\-\_\-set}]{\setlength{\rightskip}{0pt plus 5cm}\$ar\-\_\-set = array()}\label{class_c_i___d_b__active__record_a689f677e0352b03a1a51f9b3ef30a663}
+
+
+Definition at line 44 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!\$ar\-\_\-store\-\_\-array@{\$ar\-\_\-store\-\_\-array}}
+\index{\$ar\-\_\-store\-\_\-array@{\$ar\-\_\-store\-\_\-array}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{\$ar\-\_\-store\-\_\-array}]{\setlength{\rightskip}{0pt plus 5cm}\$ar\-\_\-store\-\_\-array = array()}\label{class_c_i___d_b__active__record_a58c4c18055f541856de85275840aa24c}
+
+
+Definition at line 47 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!\$ar\-\_\-where@{\$ar\-\_\-where}}
+\index{\$ar\-\_\-where@{\$ar\-\_\-where}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{\$ar\-\_\-where}]{\setlength{\rightskip}{0pt plus 5cm}\$ar\-\_\-where = array()}\label{class_c_i___d_b__active__record_acc294995d7d46cfa1c5e4377b1a691ec}
+
+
+Definition at line 35 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}!\$ar\-\_\-wherein@{\$ar\-\_\-wherein}}
+\index{\$ar\-\_\-wherein@{\$ar\-\_\-wherein}!CI_DB_active_record@{C\-I\-\_\-\-D\-B\-\_\-active\-\_\-record}}
+\subsubsection[{\$ar\-\_\-wherein}]{\setlength{\rightskip}{0pt plus 5cm}\$ar\-\_\-wherein = array()}\label{class_c_i___d_b__active__record_ad2c99824b4b9114fd06caf4627dcd7a7}
+
+
+Definition at line 45 of file D\-B\-\_\-active\-\_\-rec.\-php.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+system/database/{\bf D\-B\-\_\-active\-\_\-rec.\-php}\end{DoxyCompactItemize}

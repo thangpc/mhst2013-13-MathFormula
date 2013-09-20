@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_8a21fd3abc083796b657b5dbb68fbead" kind="dir">
+    <compoundname>system/helpers</compoundname>
+    <innerfile refid="array__helper_8php">array_helper.php</innerfile>
+    <innerfile refid="captcha__helper_8php">captcha_helper.php</innerfile>
+    <innerfile refid="cookie__helper_8php">cookie_helper.php</innerfile>
+    <innerfile refid="date__helper_8php">date_helper.php</innerfile>
+    <innerfile refid="directory__helper_8php">directory_helper.php</innerfile>
+    <innerfile refid="download__helper_8php">download_helper.php</innerfile>
+    <innerfile refid="email__helper_8php">email_helper.php</innerfile>
+    <innerfile refid="file__helper_8php">file_helper.php</innerfile>
+    <innerfile refid="form__helper_8php">form_helper.php</innerfile>
+    <innerfile refid="html__helper_8php">html_helper.php</innerfile>
+    <innerfile refid="inflector__helper_8php">inflector_helper.php</innerfile>
+    <innerfile refid="language__helper_8php">language_helper.php</innerfile>
+    <innerfile refid="number__helper_8php">number_helper.php</innerfile>
+    <innerfile refid="path__helper_8php">path_helper.php</innerfile>
+    <innerfile refid="security__helper_8php">security_helper.php</innerfile>
+    <innerfile refid="smiley__helper_8php">smiley_helper.php</innerfile>
+    <innerfile refid="string__helper_8php">string_helper.php</innerfile>
+    <innerfile refid="text__helper_8php">text_helper.php</innerfile>
+    <innerfile refid="typography__helper_8php">typography_helper.php</innerfile>
+    <innerfile refid="url__helper_8php">url_helper.php</innerfile>
+    <innerfile refid="xml__helper_8php">xml_helper.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/helpers/"/>
+  </compounddef>
+</doxygen>

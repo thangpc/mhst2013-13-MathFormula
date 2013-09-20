@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_c_i___log" kind="class" prot="public">
+    <compoundname>CI_Log</compoundname>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_c_i___log_1a3eaf9e92941ee6be33bc972ab76b4caf" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$_log_path</definition>
+        <argsstring></argsstring>
+        <name>$_log_path</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Log.php" line="29" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Log.php" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___log_1a0fc9914bdaf300fa9a1745201204e73f" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$_threshold</definition>
+        <argsstring></argsstring>
+        <name>$_threshold</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Log.php" line="30" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Log.php" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___log_1aab5c1870169c8e04ede18245f04ad85c" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$_date_fmt</definition>
+        <argsstring></argsstring>
+        <name>$_date_fmt</name>
+        <initializer>= &apos;Y-<ref refid="jquery_8min_8js_1a9e77e016b2928d7dcb493b89a0c9dc32" kindref="member">m</ref>-d H:i:s&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Log.php" line="31" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Log.php" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___log_1af8233d47e8ad3e624ba168154d2f383d" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$_enabled</definition>
+        <argsstring></argsstring>
+        <name>$_enabled</name>
+        <initializer>= TRUE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Log.php" line="32" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Log.php" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___log_1aeb1c4747136537731b6cfed6f1e64941" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$_levels</definition>
+        <argsstring></argsstring>
+        <name>$_levels</name>
+        <initializer>= array(&apos;ERROR&apos; =&gt; &apos;1&apos;, &apos;DEBUG&apos; =&gt; &apos;2&apos;,  &apos;INFO&apos; =&gt; &apos;3&apos;, &apos;ALL&apos; =&gt; &apos;4&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Log.php" line="33" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Log.php" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_i___log_1a095c5d389db211932136b53f25f39685" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>()</argsstring>
+        <name>__construct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Log.php" line="38" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Log.php" bodystart="38" bodyend="58"/>
+        <references refid="application_2config_2config_8php_1a8063081991a9d7087e6aea78db95a524" compoundref="application_2config_2config_8php" startline="26">$config</references>
+        <references refid="view_8php_1aedd748201fa69e4a7b1166124a4a76b7" compoundref="view_8php" startline="28">if</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___log_1a7a050d4e85d5b176646ec2f424641da4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>write_log</definition>
+        <argsstring>($level= &apos;error&apos;, $msg, $php_error=FALSE)</argsstring>
+        <name>write_log</name>
+        <param>
+          <declname>$level</declname>
+          <defval>&apos;error&apos;</defval>
+        </param>
+        <param>
+          <declname>$msg</declname>
+        </param>
+        <param>
+          <declname>$php_error</declname>
+          <defval>FALSE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Write Log File</para><para>Generally this function will be called using the global log_message() function</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the error level </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the error message </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bool</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>whether the error is a native PHP error </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Log.php" line="72" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Log.php" bodystart="72" bodyend="108"/>
+        <references refid="constants_8php_1a7c5689a170bbaab4dd9c6f3a76bd7a0d" compoundref="constants_8php" startline="34">FOPEN_WRITE_CREATE</references>
+        <references refid="constants_8php_1a6b9fcdc9259bf9361e8f97e289024242" compoundref="constants_8php" startline="17">FILE_WRITE_MODE</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Log.php" line="27" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Log.php" bodystart="27" bodyend="110"/>
+    <listofallmembers>
+      <member refid="class_c_i___log_1aab5c1870169c8e04ede18245f04ad85c" prot="protected" virt="non-virtual"><scope>CI_Log</scope><name>$_date_fmt</name></member>
+      <member refid="class_c_i___log_1af8233d47e8ad3e624ba168154d2f383d" prot="protected" virt="non-virtual"><scope>CI_Log</scope><name>$_enabled</name></member>
+      <member refid="class_c_i___log_1aeb1c4747136537731b6cfed6f1e64941" prot="protected" virt="non-virtual"><scope>CI_Log</scope><name>$_levels</name></member>
+      <member refid="class_c_i___log_1a3eaf9e92941ee6be33bc972ab76b4caf" prot="protected" virt="non-virtual"><scope>CI_Log</scope><name>$_log_path</name></member>
+      <member refid="class_c_i___log_1a0fc9914bdaf300fa9a1745201204e73f" prot="protected" virt="non-virtual"><scope>CI_Log</scope><name>$_threshold</name></member>
+      <member refid="class_c_i___log_1a095c5d389db211932136b53f25f39685" prot="public" virt="non-virtual"><scope>CI_Log</scope><name>__construct</name></member>
+      <member refid="class_c_i___log_1a7a050d4e85d5b176646ec2f424641da4" prot="public" virt="non-virtual"><scope>CI_Log</scope><name>write_log</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

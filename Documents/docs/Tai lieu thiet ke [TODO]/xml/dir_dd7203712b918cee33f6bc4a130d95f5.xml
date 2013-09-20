@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_dd7203712b918cee33f6bc4a130d95f5" kind="dir">
+    <compoundname>application/core</compoundname>
+    <innerfile refid="_m_y___controller_8php">MY_Controller.php</innerfile>
+    <innerfile refid="_m_y___model_8php">MY_Model.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/core/"/>
+  </compounddef>
+</doxygen>

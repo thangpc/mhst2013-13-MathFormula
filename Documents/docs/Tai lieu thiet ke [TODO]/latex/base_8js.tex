@@ -1,0 +1,34 @@
+\section{public\-\_\-html/js/base.js File Reference}
+\label{base_8js}\index{public\-\_\-html/js/base.\-js@{public\-\_\-html/js/base.\-js}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+document {\bf ready} (function()\{init\-Math\-Quill();\$('\#btn-\/login').click(function()\{var username=\$('\#username').val();var password=\$('\#password').val();{\bf if}(username.\-length$<$ 4$|$$|$username.\-length $>$25)\{\$('.status').attr('class', 'status error').html('Username must be 4 from 25 characters.');\$('\#username').{\bf focus}();return false;\}{\bf if}(password.\-length$<$ 4)\{\$('.status').attr('class', 'status error').html('Password must be 4 characters.');\$('\#password').{\bf focus}();return false;\}\$.ajax(\{type\-:\char`\"{}P\-O\-S\-T\char`\"{}, url\-:\-P\-U\-B\-L\-I\-C\-\_\-\-U\-R\-L+ 'check-\/login', cache\-:false, data\-Type\-: 'json', data\-:\$('\#frm\-\_\-login').serialize(), before\-Send\-:function(msg)\{\$('.status').attr('class', 'status success').html('Logging$<$ img src=\char`\"{}'+P\-U\-B\-L\-I\-C\-\_\-\-U\-R\-L+'public\-\_\-html/images/loading.\-gif\char`\"{}/$>$');\}, success\-:function(msg)\{{\bf if}(msg.\-data.\-status== 'success')\{history.\-back(-\/1);\}{\bf else}\{\$('.status').attr('class', 'status error').html(msg.\-data.\-message);\}\}\});return false;\});\$('\#btn-\/signup').click(function()\{var username=\$('\#username').val();var password=\$('\#password').val();var email=\$('\#email').val();{\bf if}(username.\-length$<$ 4$|$$|$username.\-length $>$25)\{\$('.status').attr('class', 'status error').html('Username must be 4 from 25 characters.');\$('\#username').{\bf focus}();return false;\}{\bf if}(password.\-length$<$ 4)\{\$('.status').attr('class', 'status error').html('Password must be 4 characters.');\$('\#password').{\bf focus}();return false;\}{\bf if}(!{\bf validate\-Email}(email))\{\$('.status').attr('class', 'status error').html('Email {\bf not} valid.');\$('\#email').{\bf focus}();return false;\}\$.ajax(\{type\-:\char`\"{}P\-O\-S\-T\char`\"{}, url\-:\-P\-U\-B\-L\-I\-C\-\_\-\-U\-R\-L+ 'check-\/sign-\/up', cache\-:false, data\-Type\-: 'json', data\-:\$('\#frm\-\_\-signup').serialize(), before\-Send\-:function(msg)\{\$('.status').attr('class', 'status success').html('Checking$<$ img src=\char`\"{}'+P\-U\-B\-L\-I\-C\-\_\-\-U\-R\-L+'public\-\_\-html/images/loading.\-gif\char`\"{}/$>$');\}, success\-:function(msg)\{{\bf if}(msg.\-data.\-status== 'success')\{history.\-back(-\/1);\}{\bf else}\{\$('.status').attr('class', 'status error').html(msg.\-data.\-message);\}\}\});return false;\});\}) function init\-Math\-Quill()
+\item 
+function {\bf validate\-Email} (email)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\index{base.\-js@{base.\-js}!ready@{ready}}
+\index{ready@{ready}!base.js@{base.\-js}}
+\subsubsection[{ready}]{\setlength{\rightskip}{0pt plus 5cm}document ready (
+\begin{DoxyParamCaption}
+\item[{}]{function()\{init\-Math\-Quill();\$('\#btn-\/login').\-click(function()\{var username=\$('\#username').\-val();var password=\$('\#password').\-val();if(username.\-length$<$ 4$|$$|$username.\-length $>$25)\{\$('.\-status').\-attr('class', 'status error').\-html('\-Username must be 4 from 25 characters.');\$('\#username').\-focus();return false;\}if(password.\-length$<$ 4)\{\$('.\-status').\-attr('class', 'status error').\-html('\-Password must be 4 characters.');\$('\#password').\-focus();return false;\}\$.\-ajax(\{type\-:\char`\"{}\-P\-O\-S\-T\char`\"{}, url\-:\-P\-U\-B\-L\-I\-C\-\_\-\-U\-R\-L+ 'check-\/login', cache\-:false, data\-Type\-: 'json', data\-:\$('\#frm\-\_\-login').\-serialize(), before\-Send\-:function(msg)\{\$('.\-status').\-attr('class', 'status success').\-html('\-Logging$<$ img src=\char`\"{}'+\-P\-U\-B\-L\-I\-C\-\_\-\-U\-R\-L+'public\-\_\-html/images/loading.\-gif\char`\"{}/$>$');\}, success\-:function(msg)\{if(msg.\-data.\-status== 'success')\{history.\-back(-\/1);\}else\{\$('.\-status').\-attr('class', 'status error').\-html(msg.\-data.\-message);\}\}\});return false;\});\$('\#btn-\/signup').\-click(function()\{var username=\$('\#username').\-val();var password=\$('\#password').\-val();var email=\$('\#email').\-val();if(username.\-length$<$ 4$|$$|$username.\-length $>$25)\{\$('.\-status').\-attr('class', 'status error').\-html('\-Username must be 4 from 25 characters.');\$('\#username').\-focus();return false;\}if(password.\-length$<$ 4)\{\$('.\-status').\-attr('class', 'status error').\-html('\-Password must be 4 characters.');\$('\#password').\-focus();return false;\}if(!validate\-Email(email))\{\$('.\-status').\-attr('class', 'status error').\-html('\-Email not valid.');\$('\#email').\-focus();return false;\}\$.\-ajax(\{type\-:\char`\"{}\-P\-O\-S\-T\char`\"{}, url\-:\-P\-U\-B\-L\-I\-C\-\_\-\-U\-R\-L+ 'check-\/sign-\/up', cache\-:false, data\-Type\-: 'json', data\-:\$('\#frm\-\_\-signup').\-serialize(), before\-Send\-:function(msg)\{\$('.\-status').\-attr('class', 'status success').\-html('\-Checking$<$ img src=\char`\"{}'+\-P\-U\-B\-L\-I\-C\-\_\-\-U\-R\-L+'public\-\_\-html/images/loading.\-gif\char`\"{}/$>$');\}, success\-:function(msg)\{if(msg.\-data.\-status== 'success')\{history.\-back(-\/1);\}else\{\$('.\-status').\-attr('class', 'status error').\-html(msg.\-data.\-message);\}\}\});return false;\});\}}
+\end{DoxyParamCaption}
+)}\label{base_8js_a1c68e45ccda72c393b83da5b7383971e}
+
+
+Definition at line 1 of file base.\-js.
+
+\index{base.\-js@{base.\-js}!validate\-Email@{validate\-Email}}
+\index{validate\-Email@{validate\-Email}!base.js@{base.\-js}}
+\subsubsection[{validate\-Email}]{\setlength{\rightskip}{0pt plus 5cm}function validate\-Email (
+\begin{DoxyParamCaption}
+\item[{}]{email}
+\end{DoxyParamCaption}
+)}\label{base_8js_a81530dc7311d94c37f2f486341268e71}
+
+
+Definition at line 152 of file base.\-js.
+

@@ -1,0 +1,161 @@
+\section{C\-I\-\_\-\-D\-B\-\_\-\-Cache Class Reference}
+\label{class_c_i___d_b___cache}\index{C\-I\-\_\-\-D\-B\-\_\-\-Cache@{C\-I\-\_\-\-D\-B\-\_\-\-Cache}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf \-\_\-\-\_\-construct} (\&\$db)
+\item 
+{\bf check\-\_\-path} (\$path= '')
+\item 
+{\bf read} (\$sql)
+\item 
+{\bf write} (\$sql, \$object)
+\item 
+{\bf delete} (\$segment\-\_\-one= '', \$segment\-\_\-two= '')
+\item 
+{\bf delete\-\_\-all} ()
+\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+{\bf \$\-C\-I}
+\item 
+{\bf \$db}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 25 of file D\-B\-\_\-cache.\-php.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{C\-I\-\_\-\-D\-B\-\_\-\-Cache@{C\-I\-\_\-\-D\-B\-\_\-\-Cache}!\-\_\-\-\_\-construct@{\-\_\-\-\_\-construct}}
+\index{\-\_\-\-\_\-construct@{\-\_\-\-\_\-construct}!CI_DB_Cache@{C\-I\-\_\-\-D\-B\-\_\-\-Cache}}
+\subsubsection[{\-\_\-\-\_\-construct}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-\-\_\-construct (
+\begin{DoxyParamCaption}
+\item[{\&}]{\$db}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b___cache_aaf2ef772755ec6f361d44e16cc9ffd69}
+Constructor
+
+Grabs the C\-I super object instance so we can access it. 
+
+Definition at line 36 of file D\-B\-\_\-cache.\-php.
+
+
+
+\subsection{Member Function Documentation}
+\index{C\-I\-\_\-\-D\-B\-\_\-\-Cache@{C\-I\-\_\-\-D\-B\-\_\-\-Cache}!check\-\_\-path@{check\-\_\-path}}
+\index{check\-\_\-path@{check\-\_\-path}!CI_DB_Cache@{C\-I\-\_\-\-D\-B\-\_\-\-Cache}}
+\subsubsection[{check\-\_\-path}]{\setlength{\rightskip}{0pt plus 5cm}check\-\_\-path (
+\begin{DoxyParamCaption}
+\item[{}]{\$path = {\ttfamily ''}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b___cache_abfc83fa929a7465bb8cf3d6945b4c6a1}
+Set Cache Directory Path
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & the path to the cache directory \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 54 of file D\-B\-\_\-cache.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-\-Cache@{C\-I\-\_\-\-D\-B\-\_\-\-Cache}!delete@{delete}}
+\index{delete@{delete}!CI_DB_Cache@{C\-I\-\_\-\-D\-B\-\_\-\-Cache}}
+\subsubsection[{delete}]{\setlength{\rightskip}{0pt plus 5cm}delete (
+\begin{DoxyParamCaption}
+\item[{}]{\$segment\-\_\-one = {\ttfamily ''}, }
+\item[{}]{\$segment\-\_\-two = {\ttfamily ''}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b___cache_a309c0e75720989c8d45fa47bbf05b5a9}
+Delete cache files within a particular directory
+
+public \begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 161 of file D\-B\-\_\-cache.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-\-Cache@{C\-I\-\_\-\-D\-B\-\_\-\-Cache}!delete\-\_\-all@{delete\-\_\-all}}
+\index{delete\-\_\-all@{delete\-\_\-all}!CI_DB_Cache@{C\-I\-\_\-\-D\-B\-\_\-\-Cache}}
+\subsubsection[{delete\-\_\-all}]{\setlength{\rightskip}{0pt plus 5cm}delete\-\_\-all (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b___cache_ac83c8ea1573fe325dfd87a282627fe6d}
+Delete all existing cache files
+
+public \begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 186 of file D\-B\-\_\-cache.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-\-Cache@{C\-I\-\_\-\-D\-B\-\_\-\-Cache}!read@{read}}
+\index{read@{read}!CI_DB_Cache@{C\-I\-\_\-\-D\-B\-\_\-\-Cache}}
+\subsubsection[{read}]{\setlength{\rightskip}{0pt plus 5cm}read (
+\begin{DoxyParamCaption}
+\item[{}]{\$sql}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b___cache_a6e421e93555105d187d7e6ba4c84521b}
+Retrieve a cached query
+
+The U\-R\-I being requested will become the name of the cache sub-\/folder. An M\-D5 hash of the S\-Q\-L statement will become the cache file name
+
+public \begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 90 of file D\-B\-\_\-cache.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-\-Cache@{C\-I\-\_\-\-D\-B\-\_\-\-Cache}!write@{write}}
+\index{write@{write}!CI_DB_Cache@{C\-I\-\_\-\-D\-B\-\_\-\-Cache}}
+\subsubsection[{write}]{\setlength{\rightskip}{0pt plus 5cm}write (
+\begin{DoxyParamCaption}
+\item[{}]{\$sql, }
+\item[{}]{\$object}
+\end{DoxyParamCaption}
+)}\label{class_c_i___d_b___cache_a483ea50183465928c931aa17b4f4b5b8}
+Write a query to a cache file
+
+public \begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 119 of file D\-B\-\_\-cache.\-php.
+
+
+
+\subsection{Field Documentation}
+\index{C\-I\-\_\-\-D\-B\-\_\-\-Cache@{C\-I\-\_\-\-D\-B\-\_\-\-Cache}!\$\-C\-I@{\$\-C\-I}}
+\index{\$\-C\-I@{\$\-C\-I}!CI_DB_Cache@{C\-I\-\_\-\-D\-B\-\_\-\-Cache}}
+\subsubsection[{\$\-C\-I}]{\setlength{\rightskip}{0pt plus 5cm}\$C\-I}\label{class_c_i___d_b___cache_ae0314d046ddf7fcfaec03222977427d3}
+
+
+Definition at line 27 of file D\-B\-\_\-cache.\-php.
+
+\index{C\-I\-\_\-\-D\-B\-\_\-\-Cache@{C\-I\-\_\-\-D\-B\-\_\-\-Cache}!\$db@{\$db}}
+\index{\$db@{\$db}!CI_DB_Cache@{C\-I\-\_\-\-D\-B\-\_\-\-Cache}}
+\subsubsection[{\$db}]{\setlength{\rightskip}{0pt plus 5cm}\$db}\label{class_c_i___d_b___cache_a1fa3127fc82f96b1436d871ef02be319}
+
+
+Definition at line 28 of file D\-B\-\_\-cache.\-php.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+system/database/{\bf D\-B\-\_\-cache.\-php}\end{DoxyCompactItemize}

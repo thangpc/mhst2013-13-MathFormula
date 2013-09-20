@@ -1,0 +1,334 @@
+\section{C\-I\-\_\-\-Cart Class Reference}
+\label{class_c_i___cart}\index{C\-I\-\_\-\-Cart@{C\-I\-\_\-\-Cart}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf \-\_\-\-\_\-construct} (\$params=array())
+\item 
+{\bf insert} (\$items=array())
+\item 
+{\bf \-\_\-insert} (\$items=array())
+\item 
+{\bf update} (\$items=array())
+\item 
+{\bf \-\_\-update} (\$items=array())
+\item 
+{\bf \-\_\-save\-\_\-cart} ()
+\item 
+{\bf total} ()
+\item 
+{\bf total\-\_\-items} ()
+\item 
+{\bf contents} ()
+\item 
+{\bf has\-\_\-options} (\$rowid= '')
+\item 
+{\bf product\-\_\-options} (\$rowid= '')
+\item 
+{\bf format\-\_\-number} (\${\bf n}= '')
+\item 
+{\bf destroy} ()
+\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+{\bf \$product\-\_\-id\-\_\-rules} = '\textbackslash{}.{\bf a}-\/z0-\/9\-\_\--\/'
+\item 
+{\bf \$product\-\_\-name\-\_\-rules} = '\textbackslash{}.\textbackslash{}\-:\textbackslash{}-\/{\bf \-\_\-} {\bf a}-\/z0-\/9'
+\item 
+{\bf \$\-C\-I}
+\item 
+{\bf \$\-\_\-cart\-\_\-contents} = array()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 27 of file Cart.\-php.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{C\-I\-\_\-\-Cart@{C\-I\-\_\-\-Cart}!\-\_\-\-\_\-construct@{\-\_\-\-\_\-construct}}
+\index{\-\_\-\-\_\-construct@{\-\_\-\-\_\-construct}!CI_Cart@{C\-I\-\_\-\-Cart}}
+\subsubsection[{\-\_\-\-\_\-construct}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-\-\_\-construct (
+\begin{DoxyParamCaption}
+\item[{}]{\$params = {\ttfamily array()}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___cart_a568ecdb0d73d2a870f33189739922a50}
+Shopping Class Constructor
+
+The constructor loads the Session class, used to store the shopping cart contents. 
+
+Definition at line 43 of file Cart.\-php.
+
+
+
+\subsection{Member Function Documentation}
+\index{C\-I\-\_\-\-Cart@{C\-I\-\_\-\-Cart}!\-\_\-insert@{\-\_\-insert}}
+\index{\-\_\-insert@{\-\_\-insert}!CI_Cart@{C\-I\-\_\-\-Cart}}
+\subsubsection[{\-\_\-insert}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-insert (
+\begin{DoxyParamCaption}
+\item[{}]{\$items = {\ttfamily array()}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___cart_a55d27979573b7d46bdf774f247c15b07}
+Insert
+
+private 
+\begin{DoxyParams}{Parameters}
+{\em array} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 140 of file Cart.\-php.
+
+\index{C\-I\-\_\-\-Cart@{C\-I\-\_\-\-Cart}!\-\_\-save\-\_\-cart@{\-\_\-save\-\_\-cart}}
+\index{\-\_\-save\-\_\-cart@{\-\_\-save\-\_\-cart}!CI_Cart@{C\-I\-\_\-\-Cart}}
+\subsubsection[{\-\_\-save\-\_\-cart}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-save\-\_\-cart (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_c_i___cart_abaa559f3e9e7f8ad933f19165fb61083}
+Save the cart array to the session D\-B
+
+private \begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 369 of file Cart.\-php.
+
+\index{C\-I\-\_\-\-Cart@{C\-I\-\_\-\-Cart}!\-\_\-update@{\-\_\-update}}
+\index{\-\_\-update@{\-\_\-update}!CI_Cart@{C\-I\-\_\-\-Cart}}
+\subsubsection[{\-\_\-update}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-update (
+\begin{DoxyParamCaption}
+\item[{}]{\$items = {\ttfamily array()}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___cart_ac7b19afff2357d4b9e926ee2df1f3e65}
+Update the cart
+
+This function permits the quantity of a given item to be changed. Typically it is called from the \char`\"{}view cart\char`\"{} page if a user makes changes to the quantity before checkout. That array must contain the product I\-D and quantity for each item.
+
+private 
+\begin{DoxyParams}{Parameters}
+{\em array} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 323 of file Cart.\-php.
+
+\index{C\-I\-\_\-\-Cart@{C\-I\-\_\-\-Cart}!contents@{contents}}
+\index{contents@{contents}!CI_Cart@{C\-I\-\_\-\-Cart}}
+\subsubsection[{contents}]{\setlength{\rightskip}{0pt plus 5cm}contents (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_c_i___cart_a3c3eeaf9ed289e55cd34926feb82eabf}
+Cart Contents
+
+Returns the entire cart array
+
+public \begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+
+
+Definition at line 452 of file Cart.\-php.
+
+\index{C\-I\-\_\-\-Cart@{C\-I\-\_\-\-Cart}!destroy@{destroy}}
+\index{destroy@{destroy}!CI_Cart@{C\-I\-\_\-\-Cart}}
+\subsubsection[{destroy}]{\setlength{\rightskip}{0pt plus 5cm}destroy (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_c_i___cart_aa118461de946085fe42989193337044a}
+Destroy the cart
+
+Empties the cart and kills the session
+
+public \begin{DoxyReturn}{Returns}
+null 
+\end{DoxyReturn}
+
+
+Definition at line 537 of file Cart.\-php.
+
+\index{C\-I\-\_\-\-Cart@{C\-I\-\_\-\-Cart}!format\-\_\-number@{format\-\_\-number}}
+\index{format\-\_\-number@{format\-\_\-number}!CI_Cart@{C\-I\-\_\-\-Cart}}
+\subsubsection[{format\-\_\-number}]{\setlength{\rightskip}{0pt plus 5cm}format\-\_\-number (
+\begin{DoxyParamCaption}
+\item[{}]{\$n = {\ttfamily ''}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___cart_a0ee4758d55d11ab91f5b7ac04b1eedc3}
+Format Number
+
+Returns the supplied number with commas and a decimal point.
+
+public \begin{DoxyReturn}{Returns}
+integer 
+\end{DoxyReturn}
+
+
+Definition at line 514 of file Cart.\-php.
+
+\index{C\-I\-\_\-\-Cart@{C\-I\-\_\-\-Cart}!has\-\_\-options@{has\-\_\-options}}
+\index{has\-\_\-options@{has\-\_\-options}!CI_Cart@{C\-I\-\_\-\-Cart}}
+\subsubsection[{has\-\_\-options}]{\setlength{\rightskip}{0pt plus 5cm}has\-\_\-options (
+\begin{DoxyParamCaption}
+\item[{}]{\$rowid = {\ttfamily ''}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___cart_aabcb32751bff6bec65aa62fc152d5dde}
+Has options
+
+Returns T\-R\-U\-E if the rowid passed to this function correlates to an item that has options associated with it.
+
+public \begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+
+
+Definition at line 474 of file Cart.\-php.
+
+\index{C\-I\-\_\-\-Cart@{C\-I\-\_\-\-Cart}!insert@{insert}}
+\index{insert@{insert}!CI_Cart@{C\-I\-\_\-\-Cart}}
+\subsubsection[{insert}]{\setlength{\rightskip}{0pt plus 5cm}insert (
+\begin{DoxyParamCaption}
+\item[{}]{\$items = {\ttfamily array()}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___cart_a07488e002c513013079157a9fe61a8e3}
+Insert items into the cart and save it to the session table
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em array} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 85 of file Cart.\-php.
+
+\index{C\-I\-\_\-\-Cart@{C\-I\-\_\-\-Cart}!product\-\_\-options@{product\-\_\-options}}
+\index{product\-\_\-options@{product\-\_\-options}!CI_Cart@{C\-I\-\_\-\-Cart}}
+\subsubsection[{product\-\_\-options}]{\setlength{\rightskip}{0pt plus 5cm}product\-\_\-options (
+\begin{DoxyParamCaption}
+\item[{}]{\$rowid = {\ttfamily ''}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___cart_ac4ca22391c63376c2b134e5138712ace}
+Product options
+
+Returns the an array of options, for a particular product row I\-D
+
+public \begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+
+
+Definition at line 494 of file Cart.\-php.
+
+\index{C\-I\-\_\-\-Cart@{C\-I\-\_\-\-Cart}!total@{total}}
+\index{total@{total}!CI_Cart@{C\-I\-\_\-\-Cart}}
+\subsubsection[{total}]{\setlength{\rightskip}{0pt plus 5cm}total (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_c_i___cart_a9efa17b570797933c7c5b0c68f743a55}
+Cart Total
+
+public \begin{DoxyReturn}{Returns}
+integer 
+\end{DoxyReturn}
+
+
+Definition at line 422 of file Cart.\-php.
+
+\index{C\-I\-\_\-\-Cart@{C\-I\-\_\-\-Cart}!total\-\_\-items@{total\-\_\-items}}
+\index{total\-\_\-items@{total\-\_\-items}!CI_Cart@{C\-I\-\_\-\-Cart}}
+\subsubsection[{total\-\_\-items}]{\setlength{\rightskip}{0pt plus 5cm}total\-\_\-items (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_c_i___cart_a785be13903ee65b8936d523b2728e53a}
+Total Items
+
+Returns the total item count
+
+public \begin{DoxyReturn}{Returns}
+integer 
+\end{DoxyReturn}
+
+
+Definition at line 437 of file Cart.\-php.
+
+\index{C\-I\-\_\-\-Cart@{C\-I\-\_\-\-Cart}!update@{update}}
+\index{update@{update}!CI_Cart@{C\-I\-\_\-\-Cart}}
+\subsubsection[{update}]{\setlength{\rightskip}{0pt plus 5cm}update (
+\begin{DoxyParamCaption}
+\item[{}]{\$items = {\ttfamily array()}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___cart_adddf5d1a4f704b647f28b0322f8b64f2}
+Update the cart
+
+This function permits the quantity of a given item to be changed. Typically it is called from the \char`\"{}view cart\char`\"{} page if a user makes changes to the quantity before checkout. That array must contain the product I\-D and quantity for each item.
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em array} & \\
+\hline
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 265 of file Cart.\-php.
+
+
+
+\subsection{Field Documentation}
+\index{C\-I\-\_\-\-Cart@{C\-I\-\_\-\-Cart}!\$\-\_\-cart\-\_\-contents@{\$\-\_\-cart\-\_\-contents}}
+\index{\$\-\_\-cart\-\_\-contents@{\$\-\_\-cart\-\_\-contents}!CI_Cart@{C\-I\-\_\-\-Cart}}
+\subsubsection[{\$\-\_\-cart\-\_\-contents}]{\setlength{\rightskip}{0pt plus 5cm}\$\-\_\-cart\-\_\-contents = array()}\label{class_c_i___cart_a93aff4174af6004d8cc7a51bf0c59632}
+
+
+Definition at line 35 of file Cart.\-php.
+
+\index{C\-I\-\_\-\-Cart@{C\-I\-\_\-\-Cart}!\$\-C\-I@{\$\-C\-I}}
+\index{\$\-C\-I@{\$\-C\-I}!CI_Cart@{C\-I\-\_\-\-Cart}}
+\subsubsection[{\$\-C\-I}]{\setlength{\rightskip}{0pt plus 5cm}\$C\-I}\label{class_c_i___cart_ae0314d046ddf7fcfaec03222977427d3}
+
+
+Definition at line 34 of file Cart.\-php.
+
+\index{C\-I\-\_\-\-Cart@{C\-I\-\_\-\-Cart}!\$product\-\_\-id\-\_\-rules@{\$product\-\_\-id\-\_\-rules}}
+\index{\$product\-\_\-id\-\_\-rules@{\$product\-\_\-id\-\_\-rules}!CI_Cart@{C\-I\-\_\-\-Cart}}
+\subsubsection[{\$product\-\_\-id\-\_\-rules}]{\setlength{\rightskip}{0pt plus 5cm}\$product\-\_\-id\-\_\-rules = '\textbackslash{}.{\bf a}-\/z0-\/9\-\_\--\/'}\label{class_c_i___cart_aef9fb0bb2a9ab37008d77ed80b7b122b}
+
+
+Definition at line 30 of file Cart.\-php.
+
+\index{C\-I\-\_\-\-Cart@{C\-I\-\_\-\-Cart}!\$product\-\_\-name\-\_\-rules@{\$product\-\_\-name\-\_\-rules}}
+\index{\$product\-\_\-name\-\_\-rules@{\$product\-\_\-name\-\_\-rules}!CI_Cart@{C\-I\-\_\-\-Cart}}
+\subsubsection[{\$product\-\_\-name\-\_\-rules}]{\setlength{\rightskip}{0pt plus 5cm}\$product\-\_\-name\-\_\-rules = '\textbackslash{}.\textbackslash{}\-:\textbackslash{}-\/{\bf \-\_\-} {\bf a}-\/z0-\/9'}\label{class_c_i___cart_afdc2e791be5e676e94580a0d9ed63ebf}
+
+
+Definition at line 31 of file Cart.\-php.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+system/libraries/{\bf Cart.\-php}\end{DoxyCompactItemize}

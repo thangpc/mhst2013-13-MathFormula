@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_c2a2361d9a15fddf945d32691b39e55d" kind="dir">
+    <compoundname>system/database/drivers/sqlite</compoundname>
+    <innerfile refid="sqlite__driver_8php">sqlite_driver.php</innerfile>
+    <innerfile refid="sqlite__forge_8php">sqlite_forge.php</innerfile>
+    <innerfile refid="sqlite__result_8php">sqlite_result.php</innerfile>
+    <innerfile refid="sqlite__utility_8php">sqlite_utility.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/sqlite/"/>
+  </compounddef>
+</doxygen>

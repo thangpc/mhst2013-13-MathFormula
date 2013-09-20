@@ -1,0 +1,459 @@
+\section{C\-I\-\_\-\-Xmlrpc Class Reference}
+\label{class_c_i___xmlrpc}\index{C\-I\-\_\-\-Xmlrpc@{C\-I\-\_\-\-Xmlrpc}}
+Inheritance diagram for C\-I\-\_\-\-Xmlrpc\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_c_i___xmlrpc}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf \-\_\-\-\_\-construct} (\$config=array())
+\item 
+{\bf initialize} (\$config=array())
+\item 
+{\bf server} (\$url, \$port=80)
+\item 
+{\bf timeout} (\$seconds=5)
+\item 
+{\bf method} (\$function)
+\item 
+{\bf request} (\$incoming)
+\item 
+{\bf set\-\_\-debug} (\$flag=T\-R\-U\-E)
+\item 
+{\bf values\-\_\-parsing} (\$value, \$return=F\-A\-L\-S\-E)
+\item 
+{\bf send\-\_\-request} ()
+\item 
+{\bf display\-\_\-error} ()
+\item 
+{\bf display\-\_\-response} ()
+\item 
+{\bf send\-\_\-error\-\_\-message} (\$number, \$message)
+\item 
+{\bf send\-\_\-response} (\$response)
+\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+{\bf \$debug} = F\-A\-L\-S\-E
+\item 
+{\bf \$xmlrpc\-I4} = 'i4'
+\item 
+{\bf \$xmlrpc\-Int} = '{\bf int}'
+\item 
+{\bf \$xmlrpc\-Boolean} = 'boolean'
+\item 
+{\bf \$xmlrpc\-Double} = 'double'
+\item 
+{\bf \$xmlrpc\-String} = 'string'
+\item 
+{\bf \$xmlrpc\-Date\-Time} = 'date\-Time.\-iso8601'
+\item 
+{\bf \$xmlrpc\-Base64} = 'base64'
+\item 
+{\bf \$xmlrpc\-Array} = 'array'
+\item 
+{\bf \$xmlrpc\-Struct} = 'struct'
+\item 
+{\bf \$xmlrpc\-Types} = array()
+\item 
+{\bf \$valid\-\_\-parents} = array()
+\item 
+{\bf \$xmlrpcerr} = array()
+\item 
+{\bf \$xmlrpcstr} = array()
+\item 
+{\bf \$xmlrpc\-\_\-defencoding} = 'U\-T\-F-\/8'
+\item 
+{\bf \$xmlrpc\-Name} = 'X\-M\-L-\/R\-P\-C {\bf for} Code\-Igniter'
+\item 
+{\bf \$xmlrpc\-Version} = '1.\-1'
+\item 
+{\bf \$xmlrpcerruser} = 800
+\item 
+{\bf \$xmlrpcerrxml} = 100
+\item 
+{\bf \$xmlrpc\-\_\-backslash} = ''
+\item 
+{\bf \$client}
+\item 
+{\bf \$method}
+\item 
+{\bf \$data}
+\item 
+{\bf \$message} = ''
+\item 
+{\bf \$error} = ''
+\item 
+{\bf \$result}
+\item 
+{\bf \$response} = array()
+\item 
+{\bf \$xss\-\_\-clean} = T\-R\-U\-E
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 33 of file Xmlrpc.\-php.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{C\-I\-\_\-\-Xmlrpc@{C\-I\-\_\-\-Xmlrpc}!\-\_\-\-\_\-construct@{\-\_\-\-\_\-construct}}
+\index{\-\_\-\-\_\-construct@{\-\_\-\-\_\-construct}!CI_Xmlrpc@{C\-I\-\_\-\-Xmlrpc}}
+\subsubsection[{\-\_\-\-\_\-construct}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-\-\_\-construct (
+\begin{DoxyParamCaption}
+\item[{}]{\$config = {\ttfamily array()}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___xmlrpc_af7f9493844d2d66e924e3c1df51ce616}
+
+
+Definition at line 72 of file Xmlrpc.\-php.
+
+
+
+\subsection{Member Function Documentation}
+\index{C\-I\-\_\-\-Xmlrpc@{C\-I\-\_\-\-Xmlrpc}!display\-\_\-error@{display\-\_\-error}}
+\index{display\-\_\-error@{display\-\_\-error}!CI_Xmlrpc@{C\-I\-\_\-\-Xmlrpc}}
+\subsubsection[{display\-\_\-error}]{\setlength{\rightskip}{0pt plus 5cm}display\-\_\-error (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_c_i___xmlrpc_adf0d809d39e17bc0e08387436db31386}
+
+
+Definition at line 300 of file Xmlrpc.\-php.
+
+\index{C\-I\-\_\-\-Xmlrpc@{C\-I\-\_\-\-Xmlrpc}!display\-\_\-response@{display\-\_\-response}}
+\index{display\-\_\-response@{display\-\_\-response}!CI_Xmlrpc@{C\-I\-\_\-\-Xmlrpc}}
+\subsubsection[{display\-\_\-response}]{\setlength{\rightskip}{0pt plus 5cm}display\-\_\-response (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_c_i___xmlrpc_a3a8aedc2a1e6a67ad248dc6078ce8614}
+
+
+Definition at line 310 of file Xmlrpc.\-php.
+
+\index{C\-I\-\_\-\-Xmlrpc@{C\-I\-\_\-\-Xmlrpc}!initialize@{initialize}}
+\index{initialize@{initialize}!CI_Xmlrpc@{C\-I\-\_\-\-Xmlrpc}}
+\subsubsection[{initialize}]{\setlength{\rightskip}{0pt plus 5cm}initialize (
+\begin{DoxyParamCaption}
+\item[{}]{\$config = {\ttfamily array()}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___xmlrpc_a481385e36d920f5a5005ace05c6cd016}
+
+
+Definition at line 135 of file Xmlrpc.\-php.
+
+\index{C\-I\-\_\-\-Xmlrpc@{C\-I\-\_\-\-Xmlrpc}!method@{method}}
+\index{method@{method}!CI_Xmlrpc@{C\-I\-\_\-\-Xmlrpc}}
+\subsubsection[{method}]{\setlength{\rightskip}{0pt plus 5cm}method (
+\begin{DoxyParamCaption}
+\item[{}]{\$function}
+\end{DoxyParamCaption}
+)}\label{class_c_i___xmlrpc_a3d7e090549ec52eba8cf65598eefa72c}
+
+
+Definition at line 191 of file Xmlrpc.\-php.
+
+\index{C\-I\-\_\-\-Xmlrpc@{C\-I\-\_\-\-Xmlrpc}!request@{request}}
+\index{request@{request}!CI_Xmlrpc@{C\-I\-\_\-\-Xmlrpc}}
+\subsubsection[{request}]{\setlength{\rightskip}{0pt plus 5cm}request (
+\begin{DoxyParamCaption}
+\item[{}]{\$incoming}
+\end{DoxyParamCaption}
+)}\label{class_c_i___xmlrpc_a10d4ec842c61f2301ecccc900500e4c8}
+
+
+Definition at line 201 of file Xmlrpc.\-php.
+
+\index{C\-I\-\_\-\-Xmlrpc@{C\-I\-\_\-\-Xmlrpc}!send\-\_\-error\-\_\-message@{send\-\_\-error\-\_\-message}}
+\index{send\-\_\-error\-\_\-message@{send\-\_\-error\-\_\-message}!CI_Xmlrpc@{C\-I\-\_\-\-Xmlrpc}}
+\subsubsection[{send\-\_\-error\-\_\-message}]{\setlength{\rightskip}{0pt plus 5cm}send\-\_\-error\-\_\-message (
+\begin{DoxyParamCaption}
+\item[{}]{\$number, }
+\item[{}]{\$message}
+\end{DoxyParamCaption}
+)}\label{class_c_i___xmlrpc_a024ae8a44e09995c6d0b6cb50d8abd9a}
+
+
+Definition at line 320 of file Xmlrpc.\-php.
+
+\index{C\-I\-\_\-\-Xmlrpc@{C\-I\-\_\-\-Xmlrpc}!send\-\_\-request@{send\-\_\-request}}
+\index{send\-\_\-request@{send\-\_\-request}!CI_Xmlrpc@{C\-I\-\_\-\-Xmlrpc}}
+\subsubsection[{send\-\_\-request}]{\setlength{\rightskip}{0pt plus 5cm}send\-\_\-request (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_c_i___xmlrpc_ad6f2431aec35ca073f3bdac3f0e8c66a}
+
+
+Definition at line 274 of file Xmlrpc.\-php.
+
+\index{C\-I\-\_\-\-Xmlrpc@{C\-I\-\_\-\-Xmlrpc}!send\-\_\-response@{send\-\_\-response}}
+\index{send\-\_\-response@{send\-\_\-response}!CI_Xmlrpc@{C\-I\-\_\-\-Xmlrpc}}
+\subsubsection[{send\-\_\-response}]{\setlength{\rightskip}{0pt plus 5cm}send\-\_\-response (
+\begin{DoxyParamCaption}
+\item[{}]{\$response}
+\end{DoxyParamCaption}
+)}\label{class_c_i___xmlrpc_ac567feb54a4bda4cad24ff63d09267a1}
+
+
+Definition at line 331 of file Xmlrpc.\-php.
+
+\index{C\-I\-\_\-\-Xmlrpc@{C\-I\-\_\-\-Xmlrpc}!server@{server}}
+\index{server@{server}!CI_Xmlrpc@{C\-I\-\_\-\-Xmlrpc}}
+\subsubsection[{server}]{\setlength{\rightskip}{0pt plus 5cm}server (
+\begin{DoxyParamCaption}
+\item[{}]{\$url, }
+\item[{}]{\$port = {\ttfamily 80}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___xmlrpc_a73157f1025c772bfa2c8c710aea1ae1f}
+
+
+Definition at line 154 of file Xmlrpc.\-php.
+
+\index{C\-I\-\_\-\-Xmlrpc@{C\-I\-\_\-\-Xmlrpc}!set\-\_\-debug@{set\-\_\-debug}}
+\index{set\-\_\-debug@{set\-\_\-debug}!CI_Xmlrpc@{C\-I\-\_\-\-Xmlrpc}}
+\subsubsection[{set\-\_\-debug}]{\setlength{\rightskip}{0pt plus 5cm}set\-\_\-debug (
+\begin{DoxyParamCaption}
+\item[{}]{\$flag = {\ttfamily TRUE}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___xmlrpc_a277e289843ab2ff13a12441e1dd5cd37}
+
+
+Definition at line 222 of file Xmlrpc.\-php.
+
+\index{C\-I\-\_\-\-Xmlrpc@{C\-I\-\_\-\-Xmlrpc}!timeout@{timeout}}
+\index{timeout@{timeout}!CI_Xmlrpc@{C\-I\-\_\-\-Xmlrpc}}
+\subsubsection[{timeout}]{\setlength{\rightskip}{0pt plus 5cm}timeout (
+\begin{DoxyParamCaption}
+\item[{}]{\$seconds = {\ttfamily 5}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___xmlrpc_ada3149e6290a7991c7dfc88c6c90f2db}
+
+
+Definition at line 178 of file Xmlrpc.\-php.
+
+\index{C\-I\-\_\-\-Xmlrpc@{C\-I\-\_\-\-Xmlrpc}!values\-\_\-parsing@{values\-\_\-parsing}}
+\index{values\-\_\-parsing@{values\-\_\-parsing}!CI_Xmlrpc@{C\-I\-\_\-\-Xmlrpc}}
+\subsubsection[{values\-\_\-parsing}]{\setlength{\rightskip}{0pt plus 5cm}values\-\_\-parsing (
+\begin{DoxyParamCaption}
+\item[{}]{\$value, }
+\item[{}]{\$return = {\ttfamily FALSE}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___xmlrpc_a544761a56ec064427da119066ddbc3ce}
+
+
+Definition at line 231 of file Xmlrpc.\-php.
+
+
+
+\subsection{Field Documentation}
+\index{C\-I\-\_\-\-Xmlrpc@{C\-I\-\_\-\-Xmlrpc}!\$client@{\$client}}
+\index{\$client@{\$client}!CI_Xmlrpc@{C\-I\-\_\-\-Xmlrpc}}
+\subsubsection[{\$client}]{\setlength{\rightskip}{0pt plus 5cm}\$client}\label{class_c_i___xmlrpc_ad1405dc1ba2e288764378e79bff7a87d}
+
+
+Definition at line 58 of file Xmlrpc.\-php.
+
+\index{C\-I\-\_\-\-Xmlrpc@{C\-I\-\_\-\-Xmlrpc}!\$data@{\$data}}
+\index{\$data@{\$data}!CI_Xmlrpc@{C\-I\-\_\-\-Xmlrpc}}
+\subsubsection[{\$data}]{\setlength{\rightskip}{0pt plus 5cm}\$data}\label{class_c_i___xmlrpc_a6efc15b5a2314dd4b5aaa556a375c6d6}
+
+
+Definition at line 60 of file Xmlrpc.\-php.
+
+\index{C\-I\-\_\-\-Xmlrpc@{C\-I\-\_\-\-Xmlrpc}!\$debug@{\$debug}}
+\index{\$debug@{\$debug}!CI_Xmlrpc@{C\-I\-\_\-\-Xmlrpc}}
+\subsubsection[{\$debug}]{\setlength{\rightskip}{0pt plus 5cm}\$debug = F\-A\-L\-S\-E}\label{class_c_i___xmlrpc_a85ae3e64cd40e9564adceb010085e9dd}
+
+
+Definition at line 35 of file Xmlrpc.\-php.
+
+\index{C\-I\-\_\-\-Xmlrpc@{C\-I\-\_\-\-Xmlrpc}!\$error@{\$error}}
+\index{\$error@{\$error}!CI_Xmlrpc@{C\-I\-\_\-\-Xmlrpc}}
+\subsubsection[{\$error}]{\setlength{\rightskip}{0pt plus 5cm}\$error = ''}\label{class_c_i___xmlrpc_aeba2ab722cedda53dbb7ec1a59f45550}
+
+
+Definition at line 62 of file Xmlrpc.\-php.
+
+\index{C\-I\-\_\-\-Xmlrpc@{C\-I\-\_\-\-Xmlrpc}!\$message@{\$message}}
+\index{\$message@{\$message}!CI_Xmlrpc@{C\-I\-\_\-\-Xmlrpc}}
+\subsubsection[{\$message}]{\setlength{\rightskip}{0pt plus 5cm}\$message = ''}\label{class_c_i___xmlrpc_abf17cb2dba2ed17cb28aa5f37deb5293}
+
+
+Definition at line 61 of file Xmlrpc.\-php.
+
+\index{C\-I\-\_\-\-Xmlrpc@{C\-I\-\_\-\-Xmlrpc}!\$method@{\$method}}
+\index{\$method@{\$method}!CI_Xmlrpc@{C\-I\-\_\-\-Xmlrpc}}
+\subsubsection[{\$method}]{\setlength{\rightskip}{0pt plus 5cm}\${\bf method}}\label{class_c_i___xmlrpc_a12661b2fc0f57f97e30a1620889ce9c6}
+
+
+Definition at line 59 of file Xmlrpc.\-php.
+
+\index{C\-I\-\_\-\-Xmlrpc@{C\-I\-\_\-\-Xmlrpc}!\$response@{\$response}}
+\index{\$response@{\$response}!CI_Xmlrpc@{C\-I\-\_\-\-Xmlrpc}}
+\subsubsection[{\$response}]{\setlength{\rightskip}{0pt plus 5cm}\$response = array()}\label{class_c_i___xmlrpc_af4b6fb1bbc77ccc05f10da3b16935b99}
+
+
+Definition at line 64 of file Xmlrpc.\-php.
+
+\index{C\-I\-\_\-\-Xmlrpc@{C\-I\-\_\-\-Xmlrpc}!\$result@{\$result}}
+\index{\$result@{\$result}!CI_Xmlrpc@{C\-I\-\_\-\-Xmlrpc}}
+\subsubsection[{\$result}]{\setlength{\rightskip}{0pt plus 5cm}\$result}\label{class_c_i___xmlrpc_a112ef069ddc0454086e3d1e6d8d55d07}
+
+
+Definition at line 63 of file Xmlrpc.\-php.
+
+\index{C\-I\-\_\-\-Xmlrpc@{C\-I\-\_\-\-Xmlrpc}!\$valid\-\_\-parents@{\$valid\-\_\-parents}}
+\index{\$valid\-\_\-parents@{\$valid\-\_\-parents}!CI_Xmlrpc@{C\-I\-\_\-\-Xmlrpc}}
+\subsubsection[{\$valid\-\_\-parents}]{\setlength{\rightskip}{0pt plus 5cm}\$valid\-\_\-parents = array()}\label{class_c_i___xmlrpc_a801945a338a9dee5f723c00cb71657b7}
+
+
+Definition at line 47 of file Xmlrpc.\-php.
+
+\index{C\-I\-\_\-\-Xmlrpc@{C\-I\-\_\-\-Xmlrpc}!\$xmlrpc\-\_\-backslash@{\$xmlrpc\-\_\-backslash}}
+\index{\$xmlrpc\-\_\-backslash@{\$xmlrpc\-\_\-backslash}!CI_Xmlrpc@{C\-I\-\_\-\-Xmlrpc}}
+\subsubsection[{\$xmlrpc\-\_\-backslash}]{\setlength{\rightskip}{0pt plus 5cm}\$xmlrpc\-\_\-backslash = ''}\label{class_c_i___xmlrpc_a2bfcef776e3e3cd8f7700e375c6ccaec}
+
+
+Definition at line 56 of file Xmlrpc.\-php.
+
+\index{C\-I\-\_\-\-Xmlrpc@{C\-I\-\_\-\-Xmlrpc}!\$xmlrpc\-\_\-defencoding@{\$xmlrpc\-\_\-defencoding}}
+\index{\$xmlrpc\-\_\-defencoding@{\$xmlrpc\-\_\-defencoding}!CI_Xmlrpc@{C\-I\-\_\-\-Xmlrpc}}
+\subsubsection[{\$xmlrpc\-\_\-defencoding}]{\setlength{\rightskip}{0pt plus 5cm}\$xmlrpc\-\_\-defencoding = 'U\-T\-F-\/8'}\label{class_c_i___xmlrpc_a7a31af447cebbb81b1f3c5581cd90d5a}
+
+
+Definition at line 51 of file Xmlrpc.\-php.
+
+\index{C\-I\-\_\-\-Xmlrpc@{C\-I\-\_\-\-Xmlrpc}!\$xmlrpc\-Array@{\$xmlrpc\-Array}}
+\index{\$xmlrpc\-Array@{\$xmlrpc\-Array}!CI_Xmlrpc@{C\-I\-\_\-\-Xmlrpc}}
+\subsubsection[{\$xmlrpc\-Array}]{\setlength{\rightskip}{0pt plus 5cm}\$xmlrpc\-Array = 'array'}\label{class_c_i___xmlrpc_aedecd71f2438e9a44a8f5a1dc73f4c7a}
+
+
+Definition at line 43 of file Xmlrpc.\-php.
+
+\index{C\-I\-\_\-\-Xmlrpc@{C\-I\-\_\-\-Xmlrpc}!\$xmlrpc\-Base64@{\$xmlrpc\-Base64}}
+\index{\$xmlrpc\-Base64@{\$xmlrpc\-Base64}!CI_Xmlrpc@{C\-I\-\_\-\-Xmlrpc}}
+\subsubsection[{\$xmlrpc\-Base64}]{\setlength{\rightskip}{0pt plus 5cm}\$xmlrpc\-Base64 = 'base64'}\label{class_c_i___xmlrpc_a95dc3164d1c3e1fdaf7185095fb376ae}
+
+
+Definition at line 42 of file Xmlrpc.\-php.
+
+\index{C\-I\-\_\-\-Xmlrpc@{C\-I\-\_\-\-Xmlrpc}!\$xmlrpc\-Boolean@{\$xmlrpc\-Boolean}}
+\index{\$xmlrpc\-Boolean@{\$xmlrpc\-Boolean}!CI_Xmlrpc@{C\-I\-\_\-\-Xmlrpc}}
+\subsubsection[{\$xmlrpc\-Boolean}]{\setlength{\rightskip}{0pt plus 5cm}\$xmlrpc\-Boolean = 'boolean'}\label{class_c_i___xmlrpc_abb241cb9cac2595c7ef28106808ec438}
+
+
+Definition at line 38 of file Xmlrpc.\-php.
+
+\index{C\-I\-\_\-\-Xmlrpc@{C\-I\-\_\-\-Xmlrpc}!\$xmlrpc\-Date\-Time@{\$xmlrpc\-Date\-Time}}
+\index{\$xmlrpc\-Date\-Time@{\$xmlrpc\-Date\-Time}!CI_Xmlrpc@{C\-I\-\_\-\-Xmlrpc}}
+\subsubsection[{\$xmlrpc\-Date\-Time}]{\setlength{\rightskip}{0pt plus 5cm}\$xmlrpc\-Date\-Time = 'date\-Time.\-iso8601'}\label{class_c_i___xmlrpc_ad0ef2c8353643b73afe4636a5fb84cff}
+
+
+Definition at line 41 of file Xmlrpc.\-php.
+
+\index{C\-I\-\_\-\-Xmlrpc@{C\-I\-\_\-\-Xmlrpc}!\$xmlrpc\-Double@{\$xmlrpc\-Double}}
+\index{\$xmlrpc\-Double@{\$xmlrpc\-Double}!CI_Xmlrpc@{C\-I\-\_\-\-Xmlrpc}}
+\subsubsection[{\$xmlrpc\-Double}]{\setlength{\rightskip}{0pt plus 5cm}\$xmlrpc\-Double = 'double'}\label{class_c_i___xmlrpc_aa412c6bea7572d0e508b5ef9d2213db3}
+
+
+Definition at line 39 of file Xmlrpc.\-php.
+
+\index{C\-I\-\_\-\-Xmlrpc@{C\-I\-\_\-\-Xmlrpc}!\$xmlrpcerr@{\$xmlrpcerr}}
+\index{\$xmlrpcerr@{\$xmlrpcerr}!CI_Xmlrpc@{C\-I\-\_\-\-Xmlrpc}}
+\subsubsection[{\$xmlrpcerr}]{\setlength{\rightskip}{0pt plus 5cm}\$xmlrpcerr = array()}\label{class_c_i___xmlrpc_a915a90a791db11a94f665567d2f5ad01}
+
+
+Definition at line 48 of file Xmlrpc.\-php.
+
+\index{C\-I\-\_\-\-Xmlrpc@{C\-I\-\_\-\-Xmlrpc}!\$xmlrpcerruser@{\$xmlrpcerruser}}
+\index{\$xmlrpcerruser@{\$xmlrpcerruser}!CI_Xmlrpc@{C\-I\-\_\-\-Xmlrpc}}
+\subsubsection[{\$xmlrpcerruser}]{\setlength{\rightskip}{0pt plus 5cm}\$xmlrpcerruser = 800}\label{class_c_i___xmlrpc_a45bf41f1e861f94e04f463a638e5abf5}
+
+
+Definition at line 54 of file Xmlrpc.\-php.
+
+\index{C\-I\-\_\-\-Xmlrpc@{C\-I\-\_\-\-Xmlrpc}!\$xmlrpcerrxml@{\$xmlrpcerrxml}}
+\index{\$xmlrpcerrxml@{\$xmlrpcerrxml}!CI_Xmlrpc@{C\-I\-\_\-\-Xmlrpc}}
+\subsubsection[{\$xmlrpcerrxml}]{\setlength{\rightskip}{0pt plus 5cm}\$xmlrpcerrxml = 100}\label{class_c_i___xmlrpc_af2500be600bfad88988409e6ff64c01c}
+
+
+Definition at line 55 of file Xmlrpc.\-php.
+
+\index{C\-I\-\_\-\-Xmlrpc@{C\-I\-\_\-\-Xmlrpc}!\$xmlrpc\-I4@{\$xmlrpc\-I4}}
+\index{\$xmlrpc\-I4@{\$xmlrpc\-I4}!CI_Xmlrpc@{C\-I\-\_\-\-Xmlrpc}}
+\subsubsection[{\$xmlrpc\-I4}]{\setlength{\rightskip}{0pt plus 5cm}\$xmlrpc\-I4 = 'i4'}\label{class_c_i___xmlrpc_a4d41d61a02c60406c56254f0988b8141}
+
+
+Definition at line 36 of file Xmlrpc.\-php.
+
+\index{C\-I\-\_\-\-Xmlrpc@{C\-I\-\_\-\-Xmlrpc}!\$xmlrpc\-Int@{\$xmlrpc\-Int}}
+\index{\$xmlrpc\-Int@{\$xmlrpc\-Int}!CI_Xmlrpc@{C\-I\-\_\-\-Xmlrpc}}
+\subsubsection[{\$xmlrpc\-Int}]{\setlength{\rightskip}{0pt plus 5cm}\$xmlrpc\-Int = '{\bf int}'}\label{class_c_i___xmlrpc_a1bf451bf41226cf1702f54fa46b041f2}
+
+
+Definition at line 37 of file Xmlrpc.\-php.
+
+\index{C\-I\-\_\-\-Xmlrpc@{C\-I\-\_\-\-Xmlrpc}!\$xmlrpc\-Name@{\$xmlrpc\-Name}}
+\index{\$xmlrpc\-Name@{\$xmlrpc\-Name}!CI_Xmlrpc@{C\-I\-\_\-\-Xmlrpc}}
+\subsubsection[{\$xmlrpc\-Name}]{\setlength{\rightskip}{0pt plus 5cm}\$xmlrpc\-Name = 'X\-M\-L-\/R\-P\-C {\bf for} Code\-Igniter'}\label{class_c_i___xmlrpc_a1311a8891b845bf89b1bc459d54a6312}
+
+
+Definition at line 52 of file Xmlrpc.\-php.
+
+\index{C\-I\-\_\-\-Xmlrpc@{C\-I\-\_\-\-Xmlrpc}!\$xmlrpcstr@{\$xmlrpcstr}}
+\index{\$xmlrpcstr@{\$xmlrpcstr}!CI_Xmlrpc@{C\-I\-\_\-\-Xmlrpc}}
+\subsubsection[{\$xmlrpcstr}]{\setlength{\rightskip}{0pt plus 5cm}\$xmlrpcstr = array()}\label{class_c_i___xmlrpc_a89bbdd6a565dd3af2378b44fc5f156a0}
+
+
+Definition at line 49 of file Xmlrpc.\-php.
+
+\index{C\-I\-\_\-\-Xmlrpc@{C\-I\-\_\-\-Xmlrpc}!\$xmlrpc\-String@{\$xmlrpc\-String}}
+\index{\$xmlrpc\-String@{\$xmlrpc\-String}!CI_Xmlrpc@{C\-I\-\_\-\-Xmlrpc}}
+\subsubsection[{\$xmlrpc\-String}]{\setlength{\rightskip}{0pt plus 5cm}\$xmlrpc\-String = 'string'}\label{class_c_i___xmlrpc_a69f8b2c87014597d1f5509ec934ceeea}
+
+
+Definition at line 40 of file Xmlrpc.\-php.
+
+\index{C\-I\-\_\-\-Xmlrpc@{C\-I\-\_\-\-Xmlrpc}!\$xmlrpc\-Struct@{\$xmlrpc\-Struct}}
+\index{\$xmlrpc\-Struct@{\$xmlrpc\-Struct}!CI_Xmlrpc@{C\-I\-\_\-\-Xmlrpc}}
+\subsubsection[{\$xmlrpc\-Struct}]{\setlength{\rightskip}{0pt plus 5cm}\$xmlrpc\-Struct = 'struct'}\label{class_c_i___xmlrpc_a9a499285050ed5c867eec71854231f01}
+
+
+Definition at line 44 of file Xmlrpc.\-php.
+
+\index{C\-I\-\_\-\-Xmlrpc@{C\-I\-\_\-\-Xmlrpc}!\$xmlrpc\-Types@{\$xmlrpc\-Types}}
+\index{\$xmlrpc\-Types@{\$xmlrpc\-Types}!CI_Xmlrpc@{C\-I\-\_\-\-Xmlrpc}}
+\subsubsection[{\$xmlrpc\-Types}]{\setlength{\rightskip}{0pt plus 5cm}\$xmlrpc\-Types = array()}\label{class_c_i___xmlrpc_a2b937e1ca5ee8495f0251a74222cec64}
+
+
+Definition at line 46 of file Xmlrpc.\-php.
+
+\index{C\-I\-\_\-\-Xmlrpc@{C\-I\-\_\-\-Xmlrpc}!\$xmlrpc\-Version@{\$xmlrpc\-Version}}
+\index{\$xmlrpc\-Version@{\$xmlrpc\-Version}!CI_Xmlrpc@{C\-I\-\_\-\-Xmlrpc}}
+\subsubsection[{\$xmlrpc\-Version}]{\setlength{\rightskip}{0pt plus 5cm}\$xmlrpc\-Version = '1.\-1'}\label{class_c_i___xmlrpc_a4130f55bb1f23dcabf9cf3ae5f5a746d}
+
+
+Definition at line 53 of file Xmlrpc.\-php.
+
+\index{C\-I\-\_\-\-Xmlrpc@{C\-I\-\_\-\-Xmlrpc}!\$xss\-\_\-clean@{\$xss\-\_\-clean}}
+\index{\$xss\-\_\-clean@{\$xss\-\_\-clean}!CI_Xmlrpc@{C\-I\-\_\-\-Xmlrpc}}
+\subsubsection[{\$xss\-\_\-clean}]{\setlength{\rightskip}{0pt plus 5cm}\$xss\-\_\-clean = T\-R\-U\-E}\label{class_c_i___xmlrpc_a0f2ee8861c0b3164a5c6e126dd98c0cc}
+
+
+Definition at line 66 of file Xmlrpc.\-php.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+system/libraries/{\bf Xmlrpc.\-php}\end{DoxyCompactItemize}

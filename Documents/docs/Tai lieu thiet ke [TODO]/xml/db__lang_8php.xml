@@ -1,0 +1,380 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="db__lang_8php" kind="file">
+    <compoundname>db_lang.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="db__lang_8php_1a0c2ed2613101d37cbaba14042530c16d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;db_invalid_connection_str&apos;]</definition>
+        <argsstring>[&apos;db_invalid_connection_str&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;Unable <ref refid="mathquill_8js_1ae3622f38202b3532cd6eae25726945f8" kindref="member">to</ref> determine the database settings based on the connection string you submitted.&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/db_lang.php" line="3" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/db_lang.php" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db__lang_8php_1aa5935b86c957eb15ac7d41cf84143d66" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;db_unable_to_connect&apos;]</definition>
+        <argsstring>[&apos;db_unable_to_connect&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;Unable <ref refid="mathquill_8js_1ae3622f38202b3532cd6eae25726945f8" kindref="member">to</ref> connect <ref refid="mathquill_8js_1ae3622f38202b3532cd6eae25726945f8" kindref="member">to</ref> your database server using the provided settings.&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/db_lang.php" line="4" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/db_lang.php" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db__lang_8php_1a3c93974df838c0e036690874108715ea" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;db_unable_to_select&apos;]</definition>
+        <argsstring>[&apos;db_unable_to_select&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;Unable <ref refid="mathquill_8js_1ae3622f38202b3532cd6eae25726945f8" kindref="member">to</ref> select the specified database: %<ref refid="jquery_8min_8js_1a3691308f2a4c2f6983f2880d32e29c84" kindref="member">s</ref>&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/db_lang.php" line="5" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/db_lang.php" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db__lang_8php_1a4266e3b235feb16d9cf2e88afd1fedac" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;db_unable_to_create&apos;]</definition>
+        <argsstring>[&apos;db_unable_to_create&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;Unable <ref refid="mathquill_8js_1ae3622f38202b3532cd6eae25726945f8" kindref="member">to</ref> create the specified database: %<ref refid="jquery_8min_8js_1a3691308f2a4c2f6983f2880d32e29c84" kindref="member">s</ref>&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/db_lang.php" line="6" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/db_lang.php" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db__lang_8php_1a2cbf4ee929f45a29a0dcf21280bad485" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;db_invalid_query&apos;]</definition>
+        <argsstring>[&apos;db_invalid_query&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;The query you submitted is <ref refid="mathquill_8js_1ac1e1ab538c27d68cc2cbafea74e7412c" kindref="member">not</ref> valid.&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/db_lang.php" line="7" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/db_lang.php" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db__lang_8php_1a0f5d469f071f2b5327b44761f4a06396" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;db_must_set_table&apos;]</definition>
+        <argsstring>[&apos;db_must_set_table&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;You must set the database table <ref refid="mathquill_8js_1ae3622f38202b3532cd6eae25726945f8" kindref="member">to</ref> be used with your query.&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/db_lang.php" line="8" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/db_lang.php" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db__lang_8php_1a55e22fb14cedc8ee7f70980bf7f37308" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;db_must_use_set&apos;]</definition>
+        <argsstring>[&apos;db_must_use_set&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;You must use the &quot;set&quot; method <ref refid="mathquill_8js_1ae3622f38202b3532cd6eae25726945f8" kindref="member">to</ref> update an entry.&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/db_lang.php" line="9" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/db_lang.php" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db__lang_8php_1a708419b6b94728c30474ee5fdde3b99b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;db_must_use_index&apos;]</definition>
+        <argsstring>[&apos;db_must_use_index&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;You must specify an index <ref refid="mathquill_8js_1ae3622f38202b3532cd6eae25726945f8" kindref="member">to</ref> match on <ref refid="mathquill_8js_1a6051bae356f28cb834303745ad2f4d86" kindref="member">for</ref> batch updates.&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/db_lang.php" line="10" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/db_lang.php" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db__lang_8php_1af946769a3dd5679c60e6f2ef5f7a5aa1" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;db_batch_missing_index&apos;]</definition>
+        <argsstring>[&apos;db_batch_missing_index&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;One <ref refid="mathquill_8js_1a6fdf1c439b25d95597e99492b728acaa" kindref="member">or</ref> more rows submitted <ref refid="mathquill_8js_1a6051bae356f28cb834303745ad2f4d86" kindref="member">for</ref> batch updating is missing the specified index.&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/db_lang.php" line="11" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/db_lang.php" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db__lang_8php_1add4bfc65af76fda2c48fa6a2e8d2e506" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;db_must_use_where&apos;]</definition>
+        <argsstring>[&apos;db_must_use_where&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;Updates are <ref refid="mathquill_8js_1ac1e1ab538c27d68cc2cbafea74e7412c" kindref="member">not</ref> allowed unless they contain <ref refid="jquery_8min_8js_1aa4d4888597588a84fd5b1184d00c91f3" kindref="member">a</ref> &quot;where&quot; clause.&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/db_lang.php" line="12" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/db_lang.php" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db__lang_8php_1a256ae2de791e589ddc23012f74f390ea" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;db_del_must_use_where&apos;]</definition>
+        <argsstring>[&apos;db_del_must_use_where&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;Deletes are <ref refid="mathquill_8js_1ac1e1ab538c27d68cc2cbafea74e7412c" kindref="member">not</ref> allowed unless they contain <ref refid="jquery_8min_8js_1aa4d4888597588a84fd5b1184d00c91f3" kindref="member">a</ref> &quot;where&quot; or &quot;like&quot; clause.&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/db_lang.php" line="13" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/db_lang.php" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db__lang_8php_1a9101352a8cd8c8f34a6b8b1e30c45d8a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;db_field_param_missing&apos;]</definition>
+        <argsstring>[&apos;db_field_param_missing&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;To fetch fields requires the name of the table as <ref refid="jquery_8min_8js_1aa4d4888597588a84fd5b1184d00c91f3" kindref="member">a</ref> parameter.&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/db_lang.php" line="14" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/db_lang.php" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db__lang_8php_1a77c256be8532e23e8463481f51732116" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;db_unsupported_function&apos;]</definition>
+        <argsstring>[&apos;db_unsupported_function&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;This feature is <ref refid="mathquill_8js_1ac1e1ab538c27d68cc2cbafea74e7412c" kindref="member">not</ref> available <ref refid="mathquill_8js_1a6051bae356f28cb834303745ad2f4d86" kindref="member">for</ref> the database you are using.&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/db_lang.php" line="15" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/db_lang.php" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db__lang_8php_1a35f225a7ead01f13f8c6423b7c7433a0" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;db_transaction_failure&apos;]</definition>
+        <argsstring>[&apos;db_transaction_failure&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;Transaction failure: Rollback performed.&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/db_lang.php" line="16" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/db_lang.php" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db__lang_8php_1af391f0d50d64cbb95cd733fa947fdb5e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;db_unable_to_drop&apos;]</definition>
+        <argsstring>[&apos;db_unable_to_drop&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;Unable <ref refid="mathquill_8js_1ae3622f38202b3532cd6eae25726945f8" kindref="member">to</ref> drop the specified database.&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/db_lang.php" line="17" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/db_lang.php" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db__lang_8php_1a2841b382e3764873e7e740523106d851" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;db_unsuported_feature&apos;]</definition>
+        <argsstring>[&apos;db_unsuported_feature&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;Unsupported feature of the database platform you are using.&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/db_lang.php" line="18" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/db_lang.php" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db__lang_8php_1a89603fd8f05ad5569670542ebc15105b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;db_unsuported_compression&apos;]</definition>
+        <argsstring>[&apos;db_unsuported_compression&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;The file compression format you chose is <ref refid="mathquill_8js_1ac1e1ab538c27d68cc2cbafea74e7412c" kindref="member">not</ref> supported by your server.&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/db_lang.php" line="19" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/db_lang.php" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db__lang_8php_1a0519c50a806cec99f29b499aec2582e5" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;db_filepath_error&apos;]</definition>
+        <argsstring>[&apos;db_filepath_error&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;Unable <ref refid="mathquill_8js_1ae3622f38202b3532cd6eae25726945f8" kindref="member">to</ref> <ref refid="mathquill_8js_1ab3ea9a93d48a6bef28498b6f47c19782" kindref="member">write</ref> data <ref refid="mathquill_8js_1ae3622f38202b3532cd6eae25726945f8" kindref="member">to</ref> the file path you have submitted.&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/db_lang.php" line="20" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/db_lang.php" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db__lang_8php_1a67157df2896b342e247ab744adf2b9e5" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;db_invalid_cache_path&apos;]</definition>
+        <argsstring>[&apos;db_invalid_cache_path&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;The cache path you submitted is <ref refid="mathquill_8js_1ac1e1ab538c27d68cc2cbafea74e7412c" kindref="member">not</ref> valid <ref refid="mathquill_8js_1a6fdf1c439b25d95597e99492b728acaa" kindref="member">or</ref> writable.&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/db_lang.php" line="21" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/db_lang.php" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db__lang_8php_1a2899cf8f7246d7fa97660ea52856ade5" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;db_table_name_required&apos;]</definition>
+        <argsstring>[&apos;db_table_name_required&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;A table name is required <ref refid="mathquill_8js_1a6051bae356f28cb834303745ad2f4d86" kindref="member">for</ref> that operation.&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/db_lang.php" line="22" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/db_lang.php" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db__lang_8php_1ac87ab86a1f105d87327480b6d0659b13" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;db_column_name_required&apos;]</definition>
+        <argsstring>[&apos;db_column_name_required&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;A column name is required <ref refid="mathquill_8js_1a6051bae356f28cb834303745ad2f4d86" kindref="member">for</ref> that operation.&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/db_lang.php" line="23" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/db_lang.php" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db__lang_8php_1ad0ba270704ec81f8f89e486a18660354" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;db_column_definition_required&apos;]</definition>
+        <argsstring>[&apos;db_column_definition_required&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;A column definition is required <ref refid="mathquill_8js_1a6051bae356f28cb834303745ad2f4d86" kindref="member">for</ref> that operation.&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/db_lang.php" line="24" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/db_lang.php" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db__lang_8php_1ab22396948e25460833329cb8786ad831" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;db_unable_to_set_charset&apos;]</definition>
+        <argsstring>[&apos;db_unable_to_set_charset&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;Unable <ref refid="mathquill_8js_1ae3622f38202b3532cd6eae25726945f8" kindref="member">to</ref> set client connection character set: %<ref refid="jquery_8min_8js_1a3691308f2a4c2f6983f2880d32e29c84" kindref="member">s</ref>&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/db_lang.php" line="25" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/db_lang.php" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db__lang_8php_1a4be34cea2490b0d41689b65e52286658" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;db_error_heading&apos;]</definition>
+        <argsstring>[&apos;db_error_heading&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;A Database Error Occurred&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/db_lang.php" line="26" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/db_lang.php" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="db__lang_8php_1a0c2ed2613101d37cbaba14042530c16d" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;db_invalid_connection_str&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Unable<sp/>to<sp/>determine<sp/>the<sp/>database<sp/>settings<sp/>based<sp/>on<sp/>the<sp/>connection<sp/>string<sp/>you<sp/>submitted.&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="4" refid="db__lang_8php_1aa5935b86c957eb15ac7d41cf84143d66" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;db_unable_to_connect&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Unable<sp/>to<sp/>connect<sp/>to<sp/>your<sp/>database<sp/>server<sp/>using<sp/>the<sp/>provided<sp/>settings.&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="5" refid="db__lang_8php_1a3c93974df838c0e036690874108715ea" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;db_unable_to_select&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Unable<sp/>to<sp/>select<sp/>the<sp/>specified<sp/>database:<sp/>%s&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="6" refid="db__lang_8php_1a4266e3b235feb16d9cf2e88afd1fedac" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;db_unable_to_create&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Unable<sp/>to<sp/>create<sp/>the<sp/>specified<sp/>database:<sp/>%s&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="7" refid="db__lang_8php_1a2cbf4ee929f45a29a0dcf21280bad485" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;db_invalid_query&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;The<sp/>query<sp/>you<sp/>submitted<sp/>is<sp/>not<sp/>valid.&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="8" refid="db__lang_8php_1a0f5d469f071f2b5327b44761f4a06396" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;db_must_set_table&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;You<sp/>must<sp/>set<sp/>the<sp/>database<sp/>table<sp/>to<sp/>be<sp/>used<sp/>with<sp/>your<sp/>query.&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="9" refid="db__lang_8php_1a55e22fb14cedc8ee7f70980bf7f37308" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;db_must_use_set&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;You<sp/>must<sp/>use<sp/>the<sp/>&quot;set&quot;<sp/>method<sp/>to<sp/>update<sp/>an<sp/>entry.&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="10" refid="db__lang_8php_1a708419b6b94728c30474ee5fdde3b99b" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;db_must_use_index&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;You<sp/>must<sp/>specify<sp/>an<sp/>index<sp/>to<sp/>match<sp/>on<sp/>for<sp/>batch<sp/>updates.&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="11" refid="db__lang_8php_1af946769a3dd5679c60e6f2ef5f7a5aa1" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;db_batch_missing_index&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;One<sp/>or<sp/>more<sp/>rows<sp/>submitted<sp/>for<sp/>batch<sp/>updating<sp/>is<sp/>missing<sp/>the<sp/>specified<sp/>index.&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="12" refid="db__lang_8php_1add4bfc65af76fda2c48fa6a2e8d2e506" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;db_must_use_where&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Updates<sp/>are<sp/>not<sp/>allowed<sp/>unless<sp/>they<sp/>contain<sp/>a<sp/>&quot;where&quot;<sp/>clause.&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="13" refid="db__lang_8php_1a256ae2de791e589ddc23012f74f390ea" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;db_del_must_use_where&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Deletes<sp/>are<sp/>not<sp/>allowed<sp/>unless<sp/>they<sp/>contain<sp/>a<sp/>&quot;where&quot;<sp/>or<sp/>&quot;like&quot;<sp/>clause.&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="14" refid="db__lang_8php_1a9101352a8cd8c8f34a6b8b1e30c45d8a" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;db_field_param_missing&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;To<sp/>fetch<sp/>fields<sp/>requires<sp/>the<sp/>name<sp/>of<sp/>the<sp/>table<sp/>as<sp/>a<sp/>parameter.&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="15" refid="db__lang_8php_1a77c256be8532e23e8463481f51732116" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;db_unsupported_function&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;This<sp/>feature<sp/>is<sp/>not<sp/>available<sp/>for<sp/>the<sp/>database<sp/>you<sp/>are<sp/>using.&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="16" refid="db__lang_8php_1a35f225a7ead01f13f8c6423b7c7433a0" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;db_transaction_failure&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Transaction<sp/>failure:<sp/>Rollback<sp/>performed.&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="17" refid="db__lang_8php_1af391f0d50d64cbb95cd733fa947fdb5e" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;db_unable_to_drop&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Unable<sp/>to<sp/>drop<sp/>the<sp/>specified<sp/>database.&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="18" refid="db__lang_8php_1a2841b382e3764873e7e740523106d851" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;db_unsuported_feature&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Unsupported<sp/>feature<sp/>of<sp/>the<sp/>database<sp/>platform<sp/>you<sp/>are<sp/>using.&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="19" refid="db__lang_8php_1a89603fd8f05ad5569670542ebc15105b" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;db_unsuported_compression&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;The<sp/>file<sp/>compression<sp/>format<sp/>you<sp/>chose<sp/>is<sp/>not<sp/>supported<sp/>by<sp/>your<sp/>server.&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="20" refid="db__lang_8php_1a0519c50a806cec99f29b499aec2582e5" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;db_filepath_error&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Unable<sp/>to<sp/>write<sp/>data<sp/>to<sp/>the<sp/>file<sp/>path<sp/>you<sp/>have<sp/>submitted.&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="21" refid="db__lang_8php_1a67157df2896b342e247ab744adf2b9e5" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;db_invalid_cache_path&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;The<sp/>cache<sp/>path<sp/>you<sp/>submitted<sp/>is<sp/>not<sp/>valid<sp/>or<sp/>writable.&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="22" refid="db__lang_8php_1a2899cf8f7246d7fa97660ea52856ade5" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;db_table_name_required&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;A<sp/>table<sp/>name<sp/>is<sp/>required<sp/>for<sp/>that<sp/>operation.&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="23" refid="db__lang_8php_1ac87ab86a1f105d87327480b6d0659b13" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;db_column_name_required&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;A<sp/>column<sp/>name<sp/>is<sp/>required<sp/>for<sp/>that<sp/>operation.&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="24" refid="db__lang_8php_1ad0ba270704ec81f8f89e486a18660354" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;db_column_definition_required&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;A<sp/>column<sp/>definition<sp/>is<sp/>required<sp/>for<sp/>that<sp/>operation.&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="25" refid="db__lang_8php_1ab22396948e25460833329cb8786ad831" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;db_unable_to_set_charset&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Unable<sp/>to<sp/>set<sp/>client<sp/>connection<sp/>character<sp/>set:<sp/>%s&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="26" refid="db__lang_8php_1a4be34cea2490b0d41689b65e52286658" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;db_error_heading&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;A<sp/>Database<sp/>Error<sp/>Occurred&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>End<sp/>of<sp/>file<sp/>db_lang.php<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Location:<sp/>./system/language/english/db_lang.php<sp/>*/</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/db_lang.php"/>
+  </compounddef>
+</doxygen>

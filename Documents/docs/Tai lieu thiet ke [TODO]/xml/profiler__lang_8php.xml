@@ -1,0 +1,320 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="profiler__lang_8php" kind="file">
+    <compoundname>profiler_lang.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="profiler__lang_8php_1a93beea1bc75788ad2b7d3d3895984282" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;profiler_database&apos;]</definition>
+        <argsstring>[&apos;profiler_database&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;DATABASE&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/profiler_lang.php" line="3" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/profiler_lang.php" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="profiler__lang_8php_1a13e794a194b3fae4ac89472fa90a39a4" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;profiler_controller_info&apos;]</definition>
+        <argsstring>[&apos;profiler_controller_info&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;CLASS/METHOD&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/profiler_lang.php" line="4" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/profiler_lang.php" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="profiler__lang_8php_1a542e9f6b34cf149d1574a8f6b2c9568d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;profiler_benchmarks&apos;]</definition>
+        <argsstring>[&apos;profiler_benchmarks&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;BENCHMARKS&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/profiler_lang.php" line="5" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/profiler_lang.php" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="profiler__lang_8php_1ac8efd051248fb102a6cc0c9b418ffd6d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;profiler_queries&apos;]</definition>
+        <argsstring>[&apos;profiler_queries&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;QUERIES&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/profiler_lang.php" line="6" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/profiler_lang.php" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="profiler__lang_8php_1aed0d74a29b2ef17977baa94091d06058" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;profiler_get_data&apos;]</definition>
+        <argsstring>[&apos;profiler_get_data&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;GET DATA&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/profiler_lang.php" line="7" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/profiler_lang.php" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="profiler__lang_8php_1a6b2928f829db3649049332dc4468018d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;profiler_post_data&apos;]</definition>
+        <argsstring>[&apos;profiler_post_data&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;POST DATA&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/profiler_lang.php" line="8" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/profiler_lang.php" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="profiler__lang_8php_1a1f1644f4e586555cb83f718552502136" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;profiler_uri_string&apos;]</definition>
+        <argsstring>[&apos;profiler_uri_string&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;URI STRING&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/profiler_lang.php" line="9" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/profiler_lang.php" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="profiler__lang_8php_1aaffc8cc3dd25f21388a6edb5fbfc8859" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;profiler_memory_usage&apos;]</definition>
+        <argsstring>[&apos;profiler_memory_usage&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;MEMORY USAGE&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/profiler_lang.php" line="10" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/profiler_lang.php" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="profiler__lang_8php_1a68a43f2ac48abfc21cd12ee19e75e421" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;profiler_config&apos;]</definition>
+        <argsstring>[&apos;profiler_config&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;CONFIG VARIABLES&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/profiler_lang.php" line="11" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/profiler_lang.php" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="profiler__lang_8php_1a6caa2b856b3211345f4a916febd79a84" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;profiler_session_data&apos;]</definition>
+        <argsstring>[&apos;profiler_session_data&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;SESSION DATA&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/profiler_lang.php" line="12" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/profiler_lang.php" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="profiler__lang_8php_1a079eb6971dec0c6115344e4b621e235f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;profiler_headers&apos;]</definition>
+        <argsstring>[&apos;profiler_headers&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;HTTP HEADERS&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/profiler_lang.php" line="13" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/profiler_lang.php" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="profiler__lang_8php_1a74da0e429477e757130da70e135d4ae9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;profiler_no_db&apos;]</definition>
+        <argsstring>[&apos;profiler_no_db&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;Database driver is <ref refid="mathquill_8js_1ac1e1ab538c27d68cc2cbafea74e7412c" kindref="member">not</ref> currently loaded&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/profiler_lang.php" line="14" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/profiler_lang.php" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="profiler__lang_8php_1a783abf2a3410bbc9c32e4b7bb774724b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;profiler_no_queries&apos;]</definition>
+        <argsstring>[&apos;profiler_no_queries&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;No queries were run&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/profiler_lang.php" line="15" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/profiler_lang.php" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="profiler__lang_8php_1a06e8171d08be812398060c126233a237" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;profiler_no_post&apos;]</definition>
+        <argsstring>[&apos;profiler_no_post&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;No POST data exists&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/profiler_lang.php" line="16" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/profiler_lang.php" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="profiler__lang_8php_1a8ecf037acbeb4a7b202b8238c8d1a328" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;profiler_no_get&apos;]</definition>
+        <argsstring>[&apos;profiler_no_get&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;No GET data exists&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/profiler_lang.php" line="17" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/profiler_lang.php" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="profiler__lang_8php_1ac7d16f2f99b12aeaa609be6bcb89759e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;profiler_no_uri&apos;]</definition>
+        <argsstring>[&apos;profiler_no_uri&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;No URI data exists&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/profiler_lang.php" line="18" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/profiler_lang.php" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="profiler__lang_8php_1a32345afdaa3f160ba1d21d03223313ad" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;profiler_no_memory&apos;]</definition>
+        <argsstring>[&apos;profiler_no_memory&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;Memory Usage Unavailable&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/profiler_lang.php" line="19" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/profiler_lang.php" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="profiler__lang_8php_1aabea841eed12fa8271f13656fa7d5457" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;profiler_no_profiles&apos;]</definition>
+        <argsstring>[&apos;profiler_no_profiles&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;No Profile data - all Profiler sections have been disabled.&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/profiler_lang.php" line="20" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/profiler_lang.php" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="profiler__lang_8php_1a137158ebe1d58bd53bbbb4594f2bc0ed" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;profiler_section_hide&apos;]</definition>
+        <argsstring>[&apos;profiler_section_hide&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;Hide&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/profiler_lang.php" line="21" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/profiler_lang.php" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="profiler__lang_8php_1a3e3b1984f57780efbdaf6d01dac31f3c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;profiler_section_show&apos;]</definition>
+        <argsstring>[&apos;profiler_section_show&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;Show&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/profiler_lang.php" line="22" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/profiler_lang.php" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="profiler__lang_8php_1a93beea1bc75788ad2b7d3d3895984282" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;profiler_database&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;DATABASE&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="4" refid="profiler__lang_8php_1a13e794a194b3fae4ac89472fa90a39a4" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;profiler_controller_info&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;CLASS/METHOD&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="5" refid="profiler__lang_8php_1a542e9f6b34cf149d1574a8f6b2c9568d" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;profiler_benchmarks&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;BENCHMARKS&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="6" refid="profiler__lang_8php_1ac8efd051248fb102a6cc0c9b418ffd6d" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;profiler_queries&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;QUERIES&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="7" refid="profiler__lang_8php_1aed0d74a29b2ef17977baa94091d06058" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;profiler_get_data&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;GET<sp/>DATA&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="8" refid="profiler__lang_8php_1a6b2928f829db3649049332dc4468018d" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;profiler_post_data&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;POST<sp/>DATA&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="9" refid="profiler__lang_8php_1a1f1644f4e586555cb83f718552502136" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;profiler_uri_string&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;URI<sp/>STRING&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="10" refid="profiler__lang_8php_1aaffc8cc3dd25f21388a6edb5fbfc8859" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;profiler_memory_usage&apos;</highlight><highlight class="normal">]<sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;MEMORY<sp/>USAGE&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="11" refid="profiler__lang_8php_1a68a43f2ac48abfc21cd12ee19e75e421" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;profiler_config&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;CONFIG<sp/>VARIABLES&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="12" refid="profiler__lang_8php_1a6caa2b856b3211345f4a916febd79a84" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;profiler_session_data&apos;</highlight><highlight class="normal">]<sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;SESSION<sp/>DATA&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="13" refid="profiler__lang_8php_1a079eb6971dec0c6115344e4b621e235f" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;profiler_headers&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;HTTP<sp/>HEADERS&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="14" refid="profiler__lang_8php_1a74da0e429477e757130da70e135d4ae9" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;profiler_no_db&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Database<sp/>driver<sp/>is<sp/>not<sp/>currently<sp/>loaded&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="15" refid="profiler__lang_8php_1a783abf2a3410bbc9c32e4b7bb774724b" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;profiler_no_queries&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;No<sp/>queries<sp/>were<sp/>run&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="16" refid="profiler__lang_8php_1a06e8171d08be812398060c126233a237" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;profiler_no_post&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;No<sp/>POST<sp/>data<sp/>exists&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="17" refid="profiler__lang_8php_1a8ecf037acbeb4a7b202b8238c8d1a328" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;profiler_no_get&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;No<sp/>GET<sp/>data<sp/>exists&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="18" refid="profiler__lang_8php_1ac7d16f2f99b12aeaa609be6bcb89759e" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;profiler_no_uri&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;No<sp/>URI<sp/>data<sp/>exists&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="19" refid="profiler__lang_8php_1a32345afdaa3f160ba1d21d03223313ad" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;profiler_no_memory&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Memory<sp/>Usage<sp/>Unavailable&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="20" refid="profiler__lang_8php_1aabea841eed12fa8271f13656fa7d5457" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;profiler_no_profiles&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;No<sp/>Profile<sp/>data<sp/>-<sp/>all<sp/>Profiler<sp/>sections<sp/>have<sp/>been<sp/>disabled.&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="21" refid="profiler__lang_8php_1a137158ebe1d58bd53bbbb4594f2bc0ed" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;profiler_section_hide&apos;</highlight><highlight class="normal">]<sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Hide&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="22" refid="profiler__lang_8php_1a3e3b1984f57780efbdaf6d01dac31f3c" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;profiler_section_show&apos;</highlight><highlight class="normal">]<sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Show&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>End<sp/>of<sp/>file<sp/>profiler_lang.php<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Location:<sp/>./system/language/english/profiler_lang.php<sp/>*/</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/profiler_lang.php"/>
+  </compounddef>
+</doxygen>

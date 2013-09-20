@@ -1,0 +1,1077 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_c_i___d_b__oci8__driver" kind="class" prot="public">
+    <compoundname>CI_DB_oci8_driver</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">CI_DB</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_c_i___d_b__oci8__driver_1a0cde2a16322a023d040aa7f725877597" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$dbdriver</definition>
+        <argsstring></argsstring>
+        <name>$dbdriver</name>
+        <initializer>= &apos;oci8&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" line="44" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___d_b__oci8__driver_1aaec2fb0112850159063a8e47ad3aed6e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$_escape_char</definition>
+        <argsstring></argsstring>
+        <name>$_escape_char</name>
+        <initializer>= &apos;&quot;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" line="47" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___d_b__oci8__driver_1adf86ecadf3d0e1ce3f5e0eaeeb3867ae" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$_like_escape_str</definition>
+        <argsstring></argsstring>
+        <name>$_like_escape_str</name>
+        <initializer>= &quot; escape &apos;%<ref refid="jquery_8min_8js_1a3691308f2a4c2f6983f2880d32e29c84" kindref="member">s</ref>&apos; &quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" line="50" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___d_b__oci8__driver_1a668acfd923d0342389cd3a614628cf2a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$_like_escape_chr</definition>
+        <argsstring></argsstring>
+        <name>$_like_escape_chr</name>
+        <initializer>= &apos;!&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" line="51" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___d_b__oci8__driver_1a06c80bac2ecbd0557827e96949c23097" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$_count_string</definition>
+        <argsstring></argsstring>
+        <name>$_count_string</name>
+        <initializer>= &quot;SELECT COUNT(1) AS &quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The syntax to count rows is slightly different across different database engines, so this string appears in each driver and is used for the <ref refid="class_c_i___d_b__oci8__driver_1a66111c61856499b091af32502978d4fc" kindref="member">count_all()</ref> and count_all_results() functions. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" line="58" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___d_b__oci8__driver_1a10213aa6e05f6d924d3277bb1d2fea00" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$_random_keyword</definition>
+        <argsstring></argsstring>
+        <name>$_random_keyword</name>
+        <initializer>= &apos; ASC&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" line="59" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___d_b__oci8__driver_1ad068581ef6fdb05bd46df66870beef79" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$_commit</definition>
+        <argsstring></argsstring>
+        <name>$_commit</name>
+        <initializer>= OCI_COMMIT_ON_SUCCESS</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" line="62" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___d_b__oci8__driver_1a1a97f17fd259cd27c73b65e6c3706ec0" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$stmt_id</definition>
+        <argsstring></argsstring>
+        <name>$stmt_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" line="65" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___d_b__oci8__driver_1a75e7d18ad2e68ace3813533c9da2e179" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$curs_id</definition>
+        <argsstring></argsstring>
+        <name>$curs_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" line="66" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" bodystart="66" bodyend="-1"/>
+        <referencedby refid="class_c_i___d_b__oci8__driver_1aaf8b241dc9ed2d812e965dc882ed9ea3" compoundref="oci8__driver_8php" startline="214" endline="218">get_cursor</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___d_b__oci8__driver_1a96df35d7e3e76bef21ebb80234fe59e8" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$limit_used</definition>
+        <argsstring></argsstring>
+        <name>$limit_used</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" line="70" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_i___d_b__oci8__driver_1a6aa545dcb7768f0b62d37cdcf7f09adc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>db_connect</definition>
+        <argsstring>()</argsstring>
+        <name>db_connect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Non-persistent database connection</para><para>private called by the base class <simplesect kind="return"><para>resource </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" line="78" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" bodystart="78" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__oci8__driver_1a0f69e662bd02de5bcf98647068e7c653" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>db_pconnect</definition>
+        <argsstring>()</argsstring>
+        <name>db_pconnect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Persistent database connection</para><para>private called by the base class <simplesect kind="return"><para>resource </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" line="91" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" bodystart="91" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__oci8__driver_1a57c19c642ab3023e28d10c50f86ff0a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>reconnect</definition>
+        <argsstring>()</argsstring>
+        <name>reconnect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reconnect</para><para>Keep / reestablish the db connection if no queries have been sent for a length of time exceeding the server&apos;s idle timeout</para><para>public <simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" line="107" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" bodystart="107" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__oci8__driver_1af0c7f2602586ea2050b19fb36baefb24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>db_select</definition>
+        <argsstring>()</argsstring>
+        <name>db_select</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Select the database</para><para>private called by the base class <simplesect kind="return"><para>resource </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" line="121" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" bodystart="121" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__oci8__driver_1adc8cd12121dc8edda3adcadd88a97e24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>db_set_charset</definition>
+        <argsstring>($charset, $collation)</argsstring>
+        <name>db_set_charset</name>
+        <param>
+          <declname>$charset</declname>
+        </param>
+        <param>
+          <declname>$collation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set client character set</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>resource </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" line="137" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" bodystart="137" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__oci8__driver_1aaf8b241dc9ed2d812e965dc882ed9ea3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>get_cursor</definition>
+        <argsstring>()</argsstring>
+        <name>get_cursor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>getCursor. Returns a cursor from the datbase</para><para>public <simplesect kind="return"><para>cursor id </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" line="214" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" bodystart="214" bodyend="218"/>
+        <references refid="class_c_i___d_b__oci8__driver_1a75e7d18ad2e68ace3813533c9da2e179" compoundref="oci8__driver_8php" startline="66">$curs_id</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__oci8__driver_1a39bf84e2ee9cbd2d0e8c2d12ea72a292" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>stored_procedure</definition>
+        <argsstring>($package, $procedure, $params)</argsstring>
+        <name>stored_procedure</name>
+        <param>
+          <declname>$package</declname>
+        </param>
+        <param>
+          <declname>$procedure</declname>
+        </param>
+        <param>
+          <declname>$params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Stored Procedure. Executes a stored procedure</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>package</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>package stored procedure is in </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>procedure</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>stored procedure to execute </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>array of parameters </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array</para></simplesect>
+params array keys</para><para>KEY OPTIONAL NOTES name no the name of the parameter should be in :&lt;param_name&gt; format value no the value of the parameter. If this is an OUT or IN OUT parameter, this should be a reference to a variable type yes the type of the parameter length yes the max size of the parameter </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" line="240" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" bodystart="240" bodyend="271"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__oci8__driver_1a90e153cf190d273336d77cce930587e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>trans_begin</definition>
+        <argsstring>($test_mode=FALSE)</argsstring>
+        <name>trans_begin</name>
+        <param>
+          <declname>$test_mode</declname>
+          <defval>FALSE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Begin Transaction</para><para>public <simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" line="310" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" bodystart="310" bodyend="330"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__oci8__driver_1af4fbdcdace4aa94a139b64877601fe9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>trans_commit</definition>
+        <argsstring>()</argsstring>
+        <name>trans_commit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Commit Transaction</para><para>public <simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" line="340" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" bodystart="340" bodyend="356"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__oci8__driver_1a53f76d4dfcd6ac04fb653982442aeef8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>trans_rollback</definition>
+        <argsstring>()</argsstring>
+        <name>trans_rollback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rollback Transaction</para><para>public <simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" line="366" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" bodystart="366" bodyend="382"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__oci8__driver_1aaba16891c8c93600a87075800cc5b72b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>escape_str</definition>
+        <argsstring>($str, $like=FALSE)</argsstring>
+        <name>escape_str</name>
+        <param>
+          <declname>$str</declname>
+        </param>
+        <param>
+          <declname>$like</declname>
+          <defval>FALSE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Escape String</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bool</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>whether or not the string will be used in a LIKE condition </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" line="394" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" bodystart="394" bodyend="417"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__oci8__driver_1a77248aaad33eb132c04cc4aa3f4bc8cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>affected_rows</definition>
+        <argsstring>()</argsstring>
+        <name>affected_rows</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Affected Rows</para><para>public <simplesect kind="return"><para>integer </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" line="427" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" bodystart="427" bodyend="430"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__oci8__driver_1a933f2cde8dc7f87875e257d0a4902e99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>insert_id</definition>
+        <argsstring>()</argsstring>
+        <name>insert_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Insert ID</para><para>public <simplesect kind="return"><para>integer </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" line="440" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" bodystart="440" bodyend="444"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__oci8__driver_1a66111c61856499b091af32502978d4fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>count_all</definition>
+        <argsstring>($table= &apos;&apos;)</argsstring>
+        <name>count_all</name>
+        <param>
+          <declname>$table</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>&quot;Count All&quot; query</para><para>Generates a platform-specific query string that counts all records in the specified database</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" line="458" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" bodystart="458" bodyend="475"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_c_i___d_b__oci8__driver_1ac997a462bb342f97f414910f0e033fb6" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_version</definition>
+        <argsstring>()</argsstring>
+        <name>_version</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Version number query string</para><para>protected <simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" line="151" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" bodystart="151" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__oci8__driver_1a114ab675d89bf8324a41785fb475e86d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_execute</definition>
+        <argsstring>($sql)</argsstring>
+        <name>_execute</name>
+        <param>
+          <declname>$sql</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Execute the query</para><para>protected called by the base class <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>an SQL query </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>resource </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" line="165" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" bodystart="165" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__oci8__driver_1a435c0f3ce54fe7daa178baa8532ebd54" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_list_tables</definition>
+        <argsstring>($prefix_limit=FALSE)</argsstring>
+        <name>_list_tables</name>
+        <param>
+          <declname>$prefix_limit</declname>
+          <defval>FALSE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Show table query</para><para>Generates a platform-specific query string so that the table names can be fetched</para><para>protected <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>boolean</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" line="488" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" bodystart="488" bodyend="498"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__oci8__driver_1a2a81bb476a5c76fe6f763b0557c1e4c2" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_list_columns</definition>
+        <argsstring>($table= &apos;&apos;)</argsstring>
+        <name>_list_columns</name>
+        <param>
+          <declname>$table</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Show column query</para><para>Generates a platform-specific query string so that the column names can be fetched</para><para>protected <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the table name </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" line="511" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" bodystart="511" bodyend="514"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__oci8__driver_1a95247d9671893adc3444cb184ad32ea1" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_field_data</definition>
+        <argsstring>($table)</argsstring>
+        <name>_field_data</name>
+        <param>
+          <declname>$table</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Field data query</para><para>Generates a platform-specific query so that the column data can be retrieved</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the table name </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>object </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" line="527" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" bodystart="527" bodyend="530"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__oci8__driver_1a4ca764fe1d6ad526f770f36b5f332bbb" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_error_message</definition>
+        <argsstring>()</argsstring>
+        <name>_error_message</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The error message string</para><para>protected <simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" line="540" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" bodystart="540" bodyend="545"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__oci8__driver_1a3e48199b3a946499b7e5fba0cdfa6b86" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_error_number</definition>
+        <argsstring>()</argsstring>
+        <name>_error_number</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The error message number</para><para>protected <simplesect kind="return"><para>integer </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" line="555" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" bodystart="555" bodyend="560"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__oci8__driver_1aeabfb3952399caa92a013621a98e3042" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_escape_identifiers</definition>
+        <argsstring>($item)</argsstring>
+        <name>_escape_identifiers</name>
+        <param>
+          <declname>$item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Escape the SQL Identifiers</para><para>This function escapes column and table names</para><para>protected <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" line="573" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" bodystart="573" bodyend="602"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__oci8__driver_1a885a8b4372b5c099749cefa73767a744" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_from_tables</definition>
+        <argsstring>($tables)</argsstring>
+        <name>_from_tables</name>
+        <param>
+          <declname>$tables</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>From Tables</para><para>This function implicitly groups FROM tables so there is no confusion about operator precedence in harmony with SQL standards</para><para>protected <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>type </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" line="616" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" bodystart="616" bodyend="624"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__oci8__driver_1a69ee76b136052e0a8f06097fb388e53e" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_insert</definition>
+        <argsstring>($table, $keys, $values)</argsstring>
+        <name>_insert</name>
+        <param>
+          <declname>$table</declname>
+        </param>
+        <param>
+          <declname>$keys</declname>
+        </param>
+        <param>
+          <declname>$values</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Insert statement</para><para>Generates a platform-specific insert string from the supplied data</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the table name </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the insert keys </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the insert values </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" line="639" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" bodystart="639" bodyend="642"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__oci8__driver_1a1978e1358c812587a46e242630365099" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_insert_batch</definition>
+        <argsstring>($table, $keys, $values)</argsstring>
+        <name>_insert_batch</name>
+        <param>
+          <declname>$table</declname>
+        </param>
+        <param>
+          <declname>$keys</declname>
+        </param>
+        <param>
+          <declname>$values</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Insert_batch statement</para><para>Generates a platform-specific insert string from the supplied data</para><para>protected <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the table name </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the insert keys </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the insert values </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" line="657" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" bodystart="657" bodyend="670"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__oci8__driver_1ae869ae2275175c5ffa22816a02099d96" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_update</definition>
+        <argsstring>($table, $values, $where, $orderby=array(), $limit=FALSE)</argsstring>
+        <name>_update</name>
+        <param>
+          <declname>$table</declname>
+        </param>
+        <param>
+          <declname>$values</declname>
+        </param>
+        <param>
+          <declname>$where</declname>
+        </param>
+        <param>
+          <declname>$orderby</declname>
+          <defval>array()</defval>
+        </param>
+        <param>
+          <declname>$limit</declname>
+          <defval>FALSE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Update statement</para><para>Generates a platform-specific update string from the supplied data</para><para>protected <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the table name </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the update data </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the where clause </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the orderby clause </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the limit clause </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" line="687" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" bodystart="687" bodyend="705"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__oci8__driver_1aa029600528fc1ce660a23ff4b4667f95" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_truncate</definition>
+        <argsstring>($table)</argsstring>
+        <name>_truncate</name>
+        <param>
+          <declname>$table</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Truncate statement</para><para>Generates a platform-specific truncate string from the supplied data If the database does not support the truncate() command This function maps to &quot;DELETE FROM table&quot;</para><para>protected <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the table name </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" line="720" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" bodystart="720" bodyend="723"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__oci8__driver_1ace3cbc04a520b7811fc956cdb9ae1c19" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_delete</definition>
+        <argsstring>($table, $where=array(), $like=array(), $limit=FALSE)</argsstring>
+        <name>_delete</name>
+        <param>
+          <declname>$table</declname>
+        </param>
+        <param>
+          <declname>$where</declname>
+          <defval>array()</defval>
+        </param>
+        <param>
+          <declname>$like</declname>
+          <defval>array()</defval>
+        </param>
+        <param>
+          <declname>$limit</declname>
+          <defval>FALSE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Delete statement</para><para>Generates a platform-specific delete string from the supplied data</para><para>protected <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the table name </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the where clause </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the limit clause </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" line="738" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" bodystart="738" bodyend="757"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__oci8__driver_1aeeaa5cd68dc6ace010c0b8aae89c2d15" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_limit</definition>
+        <argsstring>($sql, $limit, $offset)</argsstring>
+        <name>_limit</name>
+        <param>
+          <declname>$sql</declname>
+        </param>
+        <param>
+          <declname>$limit</declname>
+        </param>
+        <param>
+          <declname>$offset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Limit string</para><para>Generates a platform-specific LIMIT clause</para><para>protected <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the sql query string </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>integer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the number of rows to limit the query to </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>integer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the offset value </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" line="772" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" bodystart="772" bodyend="786"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__oci8__driver_1a557bd6ddde8de1f7814e10b1120efd29" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_close</definition>
+        <argsstring>($conn_id)</argsstring>
+        <name>_close</name>
+        <param>
+          <declname>$conn_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Close DB Connection</para><para>protected <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>resource</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" line="797" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" bodystart="797" bodyend="800"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_c_i___d_b__oci8__driver_1a266765febc9856083f55362268daba23" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_set_stmt_id</definition>
+        <argsstring>($sql)</argsstring>
+        <name>_set_stmt_id</name>
+        <param>
+          <declname>$sql</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generate a statement ID</para><para>private <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>an SQL query </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>none </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" line="182" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" bodystart="182" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__oci8__driver_1a86af88ef0fa6d44ab4691e3f53270339" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_prep_query</definition>
+        <argsstring>($sql)</argsstring>
+        <name>_prep_query</name>
+        <param>
+          <declname>$sql</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Prep the query</para><para>If needed, each database adapter can prep the query string</para><para>private called by execute() <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>an SQL query </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" line="201" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" bodystart="201" bodyend="204"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__oci8__driver_1a66b8b06dadf7ff16c3877d5c024f5d2b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_bind_params</definition>
+        <argsstring>($params)</argsstring>
+        <name>_bind_params</name>
+        <param>
+          <declname>$params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Bind parameters</para><para>private <simplesect kind="return"><para>none </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" line="281" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" bodystart="281" bodyend="300"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>oci8 Database Adapter Class</para><para>This is a modification of the DB_driver class to permit access to oracle databases</para><para><simplesect kind="author"><para>Kelly McArdle </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="167">
+        <label>CI_DB_oci8_driver</label>
+        <link refid="class_c_i___d_b__oci8__driver"/>
+        <childnode refid="168" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="168">
+        <label>CI_DB</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="169">
+        <label>CI_DB_oci8_driver</label>
+        <link refid="class_c_i___d_b__oci8__driver"/>
+        <childnode refid="170" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="170">
+        <label>CI_DB</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" line="42" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_driver.php" bodystart="42" bodyend="803"/>
+    <listofallmembers>
+      <member refid="class_c_i___d_b__oci8__driver_1ad068581ef6fdb05bd46df66870beef79" prot="public" virt="non-virtual"><scope>CI_DB_oci8_driver</scope><name>$_commit</name></member>
+      <member refid="class_c_i___d_b__oci8__driver_1a06c80bac2ecbd0557827e96949c23097" prot="public" virt="non-virtual"><scope>CI_DB_oci8_driver</scope><name>$_count_string</name></member>
+      <member refid="class_c_i___d_b__oci8__driver_1aaec2fb0112850159063a8e47ad3aed6e" prot="public" virt="non-virtual"><scope>CI_DB_oci8_driver</scope><name>$_escape_char</name></member>
+      <member refid="class_c_i___d_b__oci8__driver_1a668acfd923d0342389cd3a614628cf2a" prot="public" virt="non-virtual"><scope>CI_DB_oci8_driver</scope><name>$_like_escape_chr</name></member>
+      <member refid="class_c_i___d_b__oci8__driver_1adf86ecadf3d0e1ce3f5e0eaeeb3867ae" prot="public" virt="non-virtual"><scope>CI_DB_oci8_driver</scope><name>$_like_escape_str</name></member>
+      <member refid="class_c_i___d_b__oci8__driver_1a10213aa6e05f6d924d3277bb1d2fea00" prot="public" virt="non-virtual"><scope>CI_DB_oci8_driver</scope><name>$_random_keyword</name></member>
+      <member refid="class_c_i___d_b__oci8__driver_1a75e7d18ad2e68ace3813533c9da2e179" prot="public" virt="non-virtual"><scope>CI_DB_oci8_driver</scope><name>$curs_id</name></member>
+      <member refid="class_c_i___d_b__oci8__driver_1a0cde2a16322a023d040aa7f725877597" prot="public" virt="non-virtual"><scope>CI_DB_oci8_driver</scope><name>$dbdriver</name></member>
+      <member refid="class_c_i___d_b__oci8__driver_1a96df35d7e3e76bef21ebb80234fe59e8" prot="public" virt="non-virtual"><scope>CI_DB_oci8_driver</scope><name>$limit_used</name></member>
+      <member refid="class_c_i___d_b__oci8__driver_1a1a97f17fd259cd27c73b65e6c3706ec0" prot="public" virt="non-virtual"><scope>CI_DB_oci8_driver</scope><name>$stmt_id</name></member>
+      <member refid="class_c_i___d_b__oci8__driver_1a66b8b06dadf7ff16c3877d5c024f5d2b" prot="private" virt="non-virtual"><scope>CI_DB_oci8_driver</scope><name>_bind_params</name></member>
+      <member refid="class_c_i___d_b__oci8__driver_1a557bd6ddde8de1f7814e10b1120efd29" prot="protected" virt="non-virtual"><scope>CI_DB_oci8_driver</scope><name>_close</name></member>
+      <member refid="class_c_i___d_b__oci8__driver_1ace3cbc04a520b7811fc956cdb9ae1c19" prot="protected" virt="non-virtual"><scope>CI_DB_oci8_driver</scope><name>_delete</name></member>
+      <member refid="class_c_i___d_b__oci8__driver_1a4ca764fe1d6ad526f770f36b5f332bbb" prot="protected" virt="non-virtual"><scope>CI_DB_oci8_driver</scope><name>_error_message</name></member>
+      <member refid="class_c_i___d_b__oci8__driver_1a3e48199b3a946499b7e5fba0cdfa6b86" prot="protected" virt="non-virtual"><scope>CI_DB_oci8_driver</scope><name>_error_number</name></member>
+      <member refid="class_c_i___d_b__oci8__driver_1aeabfb3952399caa92a013621a98e3042" prot="protected" virt="non-virtual"><scope>CI_DB_oci8_driver</scope><name>_escape_identifiers</name></member>
+      <member refid="class_c_i___d_b__oci8__driver_1a114ab675d89bf8324a41785fb475e86d" prot="protected" virt="non-virtual"><scope>CI_DB_oci8_driver</scope><name>_execute</name></member>
+      <member refid="class_c_i___d_b__oci8__driver_1a95247d9671893adc3444cb184ad32ea1" prot="protected" virt="non-virtual"><scope>CI_DB_oci8_driver</scope><name>_field_data</name></member>
+      <member refid="class_c_i___d_b__oci8__driver_1a885a8b4372b5c099749cefa73767a744" prot="protected" virt="non-virtual"><scope>CI_DB_oci8_driver</scope><name>_from_tables</name></member>
+      <member refid="class_c_i___d_b__oci8__driver_1a69ee76b136052e0a8f06097fb388e53e" prot="protected" virt="non-virtual"><scope>CI_DB_oci8_driver</scope><name>_insert</name></member>
+      <member refid="class_c_i___d_b__oci8__driver_1a1978e1358c812587a46e242630365099" prot="protected" virt="non-virtual"><scope>CI_DB_oci8_driver</scope><name>_insert_batch</name></member>
+      <member refid="class_c_i___d_b__oci8__driver_1aeeaa5cd68dc6ace010c0b8aae89c2d15" prot="protected" virt="non-virtual"><scope>CI_DB_oci8_driver</scope><name>_limit</name></member>
+      <member refid="class_c_i___d_b__oci8__driver_1a2a81bb476a5c76fe6f763b0557c1e4c2" prot="protected" virt="non-virtual"><scope>CI_DB_oci8_driver</scope><name>_list_columns</name></member>
+      <member refid="class_c_i___d_b__oci8__driver_1a435c0f3ce54fe7daa178baa8532ebd54" prot="protected" virt="non-virtual"><scope>CI_DB_oci8_driver</scope><name>_list_tables</name></member>
+      <member refid="class_c_i___d_b__oci8__driver_1a86af88ef0fa6d44ab4691e3f53270339" prot="private" virt="non-virtual"><scope>CI_DB_oci8_driver</scope><name>_prep_query</name></member>
+      <member refid="class_c_i___d_b__oci8__driver_1a266765febc9856083f55362268daba23" prot="private" virt="non-virtual"><scope>CI_DB_oci8_driver</scope><name>_set_stmt_id</name></member>
+      <member refid="class_c_i___d_b__oci8__driver_1aa029600528fc1ce660a23ff4b4667f95" prot="protected" virt="non-virtual"><scope>CI_DB_oci8_driver</scope><name>_truncate</name></member>
+      <member refid="class_c_i___d_b__oci8__driver_1ae869ae2275175c5ffa22816a02099d96" prot="protected" virt="non-virtual"><scope>CI_DB_oci8_driver</scope><name>_update</name></member>
+      <member refid="class_c_i___d_b__oci8__driver_1ac997a462bb342f97f414910f0e033fb6" prot="protected" virt="non-virtual"><scope>CI_DB_oci8_driver</scope><name>_version</name></member>
+      <member refid="class_c_i___d_b__oci8__driver_1a77248aaad33eb132c04cc4aa3f4bc8cb" prot="public" virt="non-virtual"><scope>CI_DB_oci8_driver</scope><name>affected_rows</name></member>
+      <member refid="class_c_i___d_b__oci8__driver_1a66111c61856499b091af32502978d4fc" prot="public" virt="non-virtual"><scope>CI_DB_oci8_driver</scope><name>count_all</name></member>
+      <member refid="class_c_i___d_b__oci8__driver_1a6aa545dcb7768f0b62d37cdcf7f09adc" prot="public" virt="non-virtual"><scope>CI_DB_oci8_driver</scope><name>db_connect</name></member>
+      <member refid="class_c_i___d_b__oci8__driver_1a0f69e662bd02de5bcf98647068e7c653" prot="public" virt="non-virtual"><scope>CI_DB_oci8_driver</scope><name>db_pconnect</name></member>
+      <member refid="class_c_i___d_b__oci8__driver_1af0c7f2602586ea2050b19fb36baefb24" prot="public" virt="non-virtual"><scope>CI_DB_oci8_driver</scope><name>db_select</name></member>
+      <member refid="class_c_i___d_b__oci8__driver_1adc8cd12121dc8edda3adcadd88a97e24" prot="public" virt="non-virtual"><scope>CI_DB_oci8_driver</scope><name>db_set_charset</name></member>
+      <member refid="class_c_i___d_b__oci8__driver_1aaba16891c8c93600a87075800cc5b72b" prot="public" virt="non-virtual"><scope>CI_DB_oci8_driver</scope><name>escape_str</name></member>
+      <member refid="class_c_i___d_b__oci8__driver_1aaf8b241dc9ed2d812e965dc882ed9ea3" prot="public" virt="non-virtual"><scope>CI_DB_oci8_driver</scope><name>get_cursor</name></member>
+      <member refid="class_c_i___d_b__oci8__driver_1a933f2cde8dc7f87875e257d0a4902e99" prot="public" virt="non-virtual"><scope>CI_DB_oci8_driver</scope><name>insert_id</name></member>
+      <member refid="class_c_i___d_b__oci8__driver_1a57c19c642ab3023e28d10c50f86ff0a8" prot="public" virt="non-virtual"><scope>CI_DB_oci8_driver</scope><name>reconnect</name></member>
+      <member refid="class_c_i___d_b__oci8__driver_1a39bf84e2ee9cbd2d0e8c2d12ea72a292" prot="public" virt="non-virtual"><scope>CI_DB_oci8_driver</scope><name>stored_procedure</name></member>
+      <member refid="class_c_i___d_b__oci8__driver_1a90e153cf190d273336d77cce930587e1" prot="public" virt="non-virtual"><scope>CI_DB_oci8_driver</scope><name>trans_begin</name></member>
+      <member refid="class_c_i___d_b__oci8__driver_1af4fbdcdace4aa94a139b64877601fe9b" prot="public" virt="non-virtual"><scope>CI_DB_oci8_driver</scope><name>trans_commit</name></member>
+      <member refid="class_c_i___d_b__oci8__driver_1a53f76d4dfcd6ac04fb653982442aeef8" prot="public" virt="non-virtual"><scope>CI_DB_oci8_driver</scope><name>trans_rollback</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

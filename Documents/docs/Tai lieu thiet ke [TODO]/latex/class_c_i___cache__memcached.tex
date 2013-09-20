@@ -1,0 +1,205 @@
+\section{C\-I\-\_\-\-Cache\-\_\-memcached Class Reference}
+\label{class_c_i___cache__memcached}\index{C\-I\-\_\-\-Cache\-\_\-memcached@{C\-I\-\_\-\-Cache\-\_\-memcached}}
+Inheritance diagram for C\-I\-\_\-\-Cache\-\_\-memcached\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_c_i___cache__memcached}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf get} (\$id)
+\item 
+{\bf save} (\$id, \$data, \$ttl=60)
+\item 
+{\bf delete} (\$id)
+\item 
+{\bf clean} ()
+\item 
+{\bf cache\-\_\-info} (\${\bf type}=N\-U\-L\-L)
+\item 
+{\bf get\-\_\-metadata} (\$id)
+\item 
+{\bf is\-\_\-supported} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+{\bf \$\-\_\-memcache\-\_\-conf}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 28 of file Cache\-\_\-memcached.\-php.
+
+
+
+\subsection{Member Function Documentation}
+\index{C\-I\-\_\-\-Cache\-\_\-memcached@{C\-I\-\_\-\-Cache\-\_\-memcached}!cache\-\_\-info@{cache\-\_\-info}}
+\index{cache\-\_\-info@{cache\-\_\-info}!CI_Cache_memcached@{C\-I\-\_\-\-Cache\-\_\-memcached}}
+\subsubsection[{cache\-\_\-info}]{\setlength{\rightskip}{0pt plus 5cm}cache\-\_\-info (
+\begin{DoxyParamCaption}
+\item[{}]{\$type = {\ttfamily NULL}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___cache__memcached_aa8b9c4d9f0387156736ccd8850f0727e}
+Cache Info
+
+
+\begin{DoxyParams}{Parameters}
+{\em null} & type not supported in memcached \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed array on success, false on failure 
+\end{DoxyReturn}
+
+
+Definition at line 112 of file Cache\-\_\-memcached.\-php.
+
+\index{C\-I\-\_\-\-Cache\-\_\-memcached@{C\-I\-\_\-\-Cache\-\_\-memcached}!clean@{clean}}
+\index{clean@{clean}!CI_Cache_memcached@{C\-I\-\_\-\-Cache\-\_\-memcached}}
+\subsubsection[{clean}]{\setlength{\rightskip}{0pt plus 5cm}clean (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_c_i___cache__memcached_adb40b812890a8bc058bf6b7a0e1a54d9}
+Clean the Cache
+
+\begin{DoxyReturn}{Returns}
+boolean false on failure/true on success 
+\end{DoxyReturn}
+
+
+Definition at line 99 of file Cache\-\_\-memcached.\-php.
+
+\index{C\-I\-\_\-\-Cache\-\_\-memcached@{C\-I\-\_\-\-Cache\-\_\-memcached}!delete@{delete}}
+\index{delete@{delete}!CI_Cache_memcached@{C\-I\-\_\-\-Cache\-\_\-memcached}}
+\subsubsection[{delete}]{\setlength{\rightskip}{0pt plus 5cm}delete (
+\begin{DoxyParamCaption}
+\item[{}]{\$id}
+\end{DoxyParamCaption}
+)}\label{class_c_i___cache__memcached_a2f8258add505482d7f00ea26493a5723}
+Delete from Cache
+
+
+\begin{DoxyParams}{Parameters}
+{\em mixed} & key to be deleted. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean true on success, false on failure 
+\end{DoxyReturn}
+
+
+Definition at line 87 of file Cache\-\_\-memcached.\-php.
+
+\index{C\-I\-\_\-\-Cache\-\_\-memcached@{C\-I\-\_\-\-Cache\-\_\-memcached}!get@{get}}
+\index{get@{get}!CI_Cache_memcached@{C\-I\-\_\-\-Cache\-\_\-memcached}}
+\subsubsection[{get}]{\setlength{\rightskip}{0pt plus 5cm}get (
+\begin{DoxyParamCaption}
+\item[{}]{\$id}
+\end{DoxyParamCaption}
+)}\label{class_c_i___cache__memcached_a50e3bfb586b2f42932a6a93f3fbb0828}
+Fetch from cache
+
+
+\begin{DoxyParams}{Parameters}
+{\em mixed} & unique key id \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed data on success/false on failure 
+\end{DoxyReturn}
+
+
+Definition at line 48 of file Cache\-\_\-memcached.\-php.
+
+\index{C\-I\-\_\-\-Cache\-\_\-memcached@{C\-I\-\_\-\-Cache\-\_\-memcached}!get\-\_\-metadata@{get\-\_\-metadata}}
+\index{get\-\_\-metadata@{get\-\_\-metadata}!CI_Cache_memcached@{C\-I\-\_\-\-Cache\-\_\-memcached}}
+\subsubsection[{get\-\_\-metadata}]{\setlength{\rightskip}{0pt plus 5cm}get\-\_\-metadata (
+\begin{DoxyParamCaption}
+\item[{}]{\$id}
+\end{DoxyParamCaption}
+)}\label{class_c_i___cache__memcached_a59635cf18e997c5141bffa05ff7622e0}
+Get Cache Metadata
+
+
+\begin{DoxyParams}{Parameters}
+{\em mixed} & key to get cache metadata on \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed F\-A\-L\-S\-E on failure, array on success. 
+\end{DoxyReturn}
+
+
+Definition at line 125 of file Cache\-\_\-memcached.\-php.
+
+\index{C\-I\-\_\-\-Cache\-\_\-memcached@{C\-I\-\_\-\-Cache\-\_\-memcached}!is\-\_\-supported@{is\-\_\-supported}}
+\index{is\-\_\-supported@{is\-\_\-supported}!CI_Cache_memcached@{C\-I\-\_\-\-Cache\-\_\-memcached}}
+\subsubsection[{is\-\_\-supported}]{\setlength{\rightskip}{0pt plus 5cm}is\-\_\-supported (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_c_i___cache__memcached_a98c68fd153468bc148c4ed8c716859fc}
+Is supported
+
+Returns F\-A\-L\-S\-E if memcached is not supported on the system. If it is, we setup the memcached object \& return T\-R\-U\-E 
+
+Definition at line 199 of file Cache\-\_\-memcached.\-php.
+
+\index{C\-I\-\_\-\-Cache\-\_\-memcached@{C\-I\-\_\-\-Cache\-\_\-memcached}!save@{save}}
+\index{save@{save}!CI_Cache_memcached@{C\-I\-\_\-\-Cache\-\_\-memcached}}
+\subsubsection[{save}]{\setlength{\rightskip}{0pt plus 5cm}save (
+\begin{DoxyParamCaption}
+\item[{}]{\$id, }
+\item[{}]{\$data, }
+\item[{}]{\$ttl = {\ttfamily 60}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___cache__memcached_a747c50183a4ed7009899628fa75c562b}
+Save
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & unique identifier \\
+\hline
+{\em mixed} & data being cached \\
+\hline
+{\em int} & time to live \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean true on success, false on failure 
+\end{DoxyReturn}
+
+
+Definition at line 65 of file Cache\-\_\-memcached.\-php.
+
+
+
+\subsection{Field Documentation}
+\index{C\-I\-\_\-\-Cache\-\_\-memcached@{C\-I\-\_\-\-Cache\-\_\-memcached}!\$\-\_\-memcache\-\_\-conf@{\$\-\_\-memcache\-\_\-conf}}
+\index{\$\-\_\-memcache\-\_\-conf@{\$\-\_\-memcache\-\_\-conf}!CI_Cache_memcached@{C\-I\-\_\-\-Cache\-\_\-memcached}}
+\subsubsection[{\$\-\_\-memcache\-\_\-conf}]{\setlength{\rightskip}{0pt plus 5cm}\$\-\_\-memcache\-\_\-conf\hspace{0.3cm}{\ttfamily [protected]}}\label{class_c_i___cache__memcached_a31577b029b5c3ce5002b0d30ac01b261}
+{\bfseries Initial value\-:}
+\begin{DoxyCode}
+= array(
+                    \textcolor{stringliteral}{'default'} => array(
+                        \textcolor{stringliteral}{'default\_host'}      => \textcolor{stringliteral}{'127.0.0.1'},
+                        \textcolor{stringliteral}{'default\_port'}      => 11211,
+                        \textcolor{stringliteral}{'default\_weight'}    => 1
+                    )
+                )
+\end{DoxyCode}
+
+
+Definition at line 32 of file Cache\-\_\-memcached.\-php.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+system/libraries/\-Cache/drivers/{\bf Cache\-\_\-memcached.\-php}\end{DoxyCompactItemize}

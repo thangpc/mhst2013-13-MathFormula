@@ -1,0 +1,410 @@
+\section{C\-I\-\_\-\-Table Class Reference}
+\label{class_c_i___table}\index{C\-I\-\_\-\-Table@{C\-I\-\_\-\-Table}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf \-\_\-\-\_\-construct} ()
+\item 
+{\bf set\-\_\-template} (\$template)
+\item 
+{\bf set\-\_\-heading} ()
+\item 
+{\bf make\-\_\-columns} (\$array=array(), \$col\-\_\-limit=0)
+\item 
+{\bf set\-\_\-empty} (\$value)
+\item 
+{\bf add\-\_\-row} ()
+\item 
+{\bf \-\_\-prep\-\_\-args} (\$args)
+\item 
+{\bf set\-\_\-caption} (\$caption)
+\item 
+{\bf generate} (\$table\-\_\-data=N\-U\-L\-L)
+\item 
+{\bf clear} ()
+\item 
+{\bf \-\_\-set\-\_\-from\-\_\-object} (\$query)
+\item 
+{\bf \-\_\-set\-\_\-from\-\_\-array} (\$data, \${\bf set\-\_\-heading}=T\-R\-U\-E)
+\item 
+{\bf \-\_\-compile\-\_\-template} ()
+\item 
+{\bf \-\_\-default\-\_\-template} ()
+\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+{\bf \$rows} = array()
+\item 
+{\bf \$heading} = array()
+\item 
+{\bf \$auto\-\_\-heading} = T\-R\-U\-E
+\item 
+{\bf \$caption} = N\-U\-L\-L
+\item 
+{\bf \$template} = N\-U\-L\-L
+\item 
+{\bf \$newline} = \char`\"{}\textbackslash{}n\char`\"{}
+\item 
+{\bf \$empty\-\_\-cells} = \char`\"{}\char`\"{}
+\item 
+{\bf \$function} = F\-A\-L\-S\-E
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 29 of file Table.\-php.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{C\-I\-\_\-\-Table@{C\-I\-\_\-\-Table}!\-\_\-\-\_\-construct@{\-\_\-\-\_\-construct}}
+\index{\-\_\-\-\_\-construct@{\-\_\-\-\_\-construct}!CI_Table@{C\-I\-\_\-\-Table}}
+\subsubsection[{\-\_\-\-\_\-construct}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-\-\_\-construct (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_c_i___table_a095c5d389db211932136b53f25f39685}
+
+
+Definition at line 40 of file Table.\-php.
+
+
+
+\subsection{Member Function Documentation}
+\index{C\-I\-\_\-\-Table@{C\-I\-\_\-\-Table}!\-\_\-compile\-\_\-template@{\-\_\-compile\-\_\-template}}
+\index{\-\_\-compile\-\_\-template@{\-\_\-compile\-\_\-template}!CI_Table@{C\-I\-\_\-\-Table}}
+\subsubsection[{\-\_\-compile\-\_\-template}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-compile\-\_\-template (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_c_i___table_a7f408fd4eecadb5799d5ae004170c4d6}
+Compile Template
+
+private \begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 470 of file Table.\-php.
+
+\index{C\-I\-\_\-\-Table@{C\-I\-\_\-\-Table}!\-\_\-default\-\_\-template@{\-\_\-default\-\_\-template}}
+\index{\-\_\-default\-\_\-template@{\-\_\-default\-\_\-template}!CI_Table@{C\-I\-\_\-\-Table}}
+\subsubsection[{\-\_\-default\-\_\-template}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-default\-\_\-template (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_c_i___table_ae1990fcb9ffc455614eeac9a1091f0b0}
+Default Template
+
+private \begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 496 of file Table.\-php.
+
+\index{C\-I\-\_\-\-Table@{C\-I\-\_\-\-Table}!\-\_\-prep\-\_\-args@{\-\_\-prep\-\_\-args}}
+\index{\-\_\-prep\-\_\-args@{\-\_\-prep\-\_\-args}!CI_Table@{C\-I\-\_\-\-Table}}
+\subsubsection[{\-\_\-prep\-\_\-args}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-prep\-\_\-args (
+\begin{DoxyParamCaption}
+\item[{}]{\$args}
+\end{DoxyParamCaption}
+)}\label{class_c_i___table_aec91c20b757a8a063e4147f0aebe8b1b}
+Prep Args
+
+Ensures a standard associative array format for all cell data
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em type} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+type 
+\end{DoxyReturn}
+
+
+Definition at line 173 of file Table.\-php.
+
+\index{C\-I\-\_\-\-Table@{C\-I\-\_\-\-Table}!\-\_\-set\-\_\-from\-\_\-array@{\-\_\-set\-\_\-from\-\_\-array}}
+\index{\-\_\-set\-\_\-from\-\_\-array@{\-\_\-set\-\_\-from\-\_\-array}!CI_Table@{C\-I\-\_\-\-Table}}
+\subsubsection[{\-\_\-set\-\_\-from\-\_\-array}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-set\-\_\-from\-\_\-array (
+\begin{DoxyParamCaption}
+\item[{}]{\$data, }
+\item[{}]{\$set\-\_\-heading = {\ttfamily TRUE}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___table_a80451a71925f272d9adde0c4b465f43a}
+Set table data from an array
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em array} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 438 of file Table.\-php.
+
+\index{C\-I\-\_\-\-Table@{C\-I\-\_\-\-Table}!\-\_\-set\-\_\-from\-\_\-object@{\-\_\-set\-\_\-from\-\_\-object}}
+\index{\-\_\-set\-\_\-from\-\_\-object@{\-\_\-set\-\_\-from\-\_\-object}!CI_Table@{C\-I\-\_\-\-Table}}
+\subsubsection[{\-\_\-set\-\_\-from\-\_\-object}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-set\-\_\-from\-\_\-object (
+\begin{DoxyParamCaption}
+\item[{}]{\$query}
+\end{DoxyParamCaption}
+)}\label{class_c_i___table_a1bff13b976111abb8943490e71403259}
+Set table data from a database result object
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em object} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 400 of file Table.\-php.
+
+\index{C\-I\-\_\-\-Table@{C\-I\-\_\-\-Table}!add\-\_\-row@{add\-\_\-row}}
+\index{add\-\_\-row@{add\-\_\-row}!CI_Table@{C\-I\-\_\-\-Table}}
+\subsubsection[{add\-\_\-row}]{\setlength{\rightskip}{0pt plus 5cm}add\-\_\-row (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_c_i___table_ac9e92cea944a5dd37d713eb9d37c0b83}
+Add a table row
+
+Can be passed as an array or discreet params
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em mixed} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 156 of file Table.\-php.
+
+\index{C\-I\-\_\-\-Table@{C\-I\-\_\-\-Table}!clear@{clear}}
+\index{clear@{clear}!CI_Table@{C\-I\-\_\-\-Table}}
+\subsubsection[{clear}]{\setlength{\rightskip}{0pt plus 5cm}clear (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_c_i___table_aa821bec12eaa7e0f649397c9675ff505}
+Clears the table arrays. Useful if multiple tables are being generated
+
+public \begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 384 of file Table.\-php.
+
+\index{C\-I\-\_\-\-Table@{C\-I\-\_\-\-Table}!generate@{generate}}
+\index{generate@{generate}!CI_Table@{C\-I\-\_\-\-Table}}
+\subsubsection[{generate}]{\setlength{\rightskip}{0pt plus 5cm}generate (
+\begin{DoxyParamCaption}
+\item[{}]{\$table\-\_\-data = {\ttfamily NULL}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___table_ad46f79939e16f261c19157809d56aab8}
+Generate the table
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em mixed} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 233 of file Table.\-php.
+
+\index{C\-I\-\_\-\-Table@{C\-I\-\_\-\-Table}!make\-\_\-columns@{make\-\_\-columns}}
+\index{make\-\_\-columns@{make\-\_\-columns}!CI_Table@{C\-I\-\_\-\-Table}}
+\subsubsection[{make\-\_\-columns}]{\setlength{\rightskip}{0pt plus 5cm}make\-\_\-columns (
+\begin{DoxyParamCaption}
+\item[{}]{\$array = {\ttfamily array()}, }
+\item[{}]{\$col\-\_\-limit = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)}\label{class_c_i___table_a816eac03a6a38820918890170fd7e0d0}
+Set columns. Takes a one-\/dimensional array as input and creates a multi-\/dimensional array with a depth equal to the number of columns. This allows a single array with many elements to be displayed in a table that has a fixed column count.
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em array} & \\
+\hline
+{\em int} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 94 of file Table.\-php.
+
+\index{C\-I\-\_\-\-Table@{C\-I\-\_\-\-Table}!set\-\_\-caption@{set\-\_\-caption}}
+\index{set\-\_\-caption@{set\-\_\-caption}!CI_Table@{C\-I\-\_\-\-Table}}
+\subsubsection[{set\-\_\-caption}]{\setlength{\rightskip}{0pt plus 5cm}set\-\_\-caption (
+\begin{DoxyParamCaption}
+\item[{}]{\$caption}
+\end{DoxyParamCaption}
+)}\label{class_c_i___table_ab6146f0f242d4bc75169c8f8e622e979}
+Add a table caption
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 219 of file Table.\-php.
+
+\index{C\-I\-\_\-\-Table@{C\-I\-\_\-\-Table}!set\-\_\-empty@{set\-\_\-empty}}
+\index{set\-\_\-empty@{set\-\_\-empty}!CI_Table@{C\-I\-\_\-\-Table}}
+\subsubsection[{set\-\_\-empty}]{\setlength{\rightskip}{0pt plus 5cm}set\-\_\-empty (
+\begin{DoxyParamCaption}
+\item[{}]{\$value}
+\end{DoxyParamCaption}
+)}\label{class_c_i___table_a20b008428100a2b740c02c4bcaa45cf6}
+Set \char`\"{}empty\char`\"{} cells
+
+Can be passed as an array or discreet params
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em mixed} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 140 of file Table.\-php.
+
+\index{C\-I\-\_\-\-Table@{C\-I\-\_\-\-Table}!set\-\_\-heading@{set\-\_\-heading}}
+\index{set\-\_\-heading@{set\-\_\-heading}!CI_Table@{C\-I\-\_\-\-Table}}
+\subsubsection[{set\-\_\-heading}]{\setlength{\rightskip}{0pt plus 5cm}set\-\_\-heading (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_c_i___table_ac86a39a681164499633092b44285146e}
+Set the table heading
+
+Can be passed as an array or discreet params
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em mixed} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 75 of file Table.\-php.
+
+\index{C\-I\-\_\-\-Table@{C\-I\-\_\-\-Table}!set\-\_\-template@{set\-\_\-template}}
+\index{set\-\_\-template@{set\-\_\-template}!CI_Table@{C\-I\-\_\-\-Table}}
+\subsubsection[{set\-\_\-template}]{\setlength{\rightskip}{0pt plus 5cm}set\-\_\-template (
+\begin{DoxyParamCaption}
+\item[{}]{\$template}
+\end{DoxyParamCaption}
+)}\label{class_c_i___table_ae65d1ab2a626d4ddfda31befc2b347f6}
+Set the template
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em array} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 54 of file Table.\-php.
+
+
+
+\subsection{Field Documentation}
+\index{C\-I\-\_\-\-Table@{C\-I\-\_\-\-Table}!\$auto\-\_\-heading@{\$auto\-\_\-heading}}
+\index{\$auto\-\_\-heading@{\$auto\-\_\-heading}!CI_Table@{C\-I\-\_\-\-Table}}
+\subsubsection[{\$auto\-\_\-heading}]{\setlength{\rightskip}{0pt plus 5cm}\$auto\-\_\-heading = T\-R\-U\-E}\label{class_c_i___table_a394ea4ec17bcd63228039d7767bfb092}
+
+
+Definition at line 33 of file Table.\-php.
+
+\index{C\-I\-\_\-\-Table@{C\-I\-\_\-\-Table}!\$caption@{\$caption}}
+\index{\$caption@{\$caption}!CI_Table@{C\-I\-\_\-\-Table}}
+\subsubsection[{\$caption}]{\setlength{\rightskip}{0pt plus 5cm}\$caption = N\-U\-L\-L}\label{class_c_i___table_a4f9340ccb02c5d876a448a1d860f3812}
+
+
+Definition at line 34 of file Table.\-php.
+
+\index{C\-I\-\_\-\-Table@{C\-I\-\_\-\-Table}!\$empty\-\_\-cells@{\$empty\-\_\-cells}}
+\index{\$empty\-\_\-cells@{\$empty\-\_\-cells}!CI_Table@{C\-I\-\_\-\-Table}}
+\subsubsection[{\$empty\-\_\-cells}]{\setlength{\rightskip}{0pt plus 5cm}\$empty\-\_\-cells = \char`\"{}\char`\"{}}\label{class_c_i___table_aeba996c863f9ba0e2c9e24d0491bb976}
+
+
+Definition at line 37 of file Table.\-php.
+
+\index{C\-I\-\_\-\-Table@{C\-I\-\_\-\-Table}!\$function@{\$function}}
+\index{\$function@{\$function}!CI_Table@{C\-I\-\_\-\-Table}}
+\subsubsection[{\$function}]{\setlength{\rightskip}{0pt plus 5cm}\$function = F\-A\-L\-S\-E}\label{class_c_i___table_af3e5d0d1ff43879d493dd97bb760c479}
+
+
+Definition at line 38 of file Table.\-php.
+
+\index{C\-I\-\_\-\-Table@{C\-I\-\_\-\-Table}!\$heading@{\$heading}}
+\index{\$heading@{\$heading}!CI_Table@{C\-I\-\_\-\-Table}}
+\subsubsection[{\$heading}]{\setlength{\rightskip}{0pt plus 5cm}\$heading = array()}\label{class_c_i___table_a196169be7715d466e3310388b096598c}
+
+
+Definition at line 32 of file Table.\-php.
+
+\index{C\-I\-\_\-\-Table@{C\-I\-\_\-\-Table}!\$newline@{\$newline}}
+\index{\$newline@{\$newline}!CI_Table@{C\-I\-\_\-\-Table}}
+\subsubsection[{\$newline}]{\setlength{\rightskip}{0pt plus 5cm}\$newline = \char`\"{}\textbackslash{}n\char`\"{}}\label{class_c_i___table_a8735d5c31c4af1004825e6a28f236aeb}
+
+
+Definition at line 36 of file Table.\-php.
+
+\index{C\-I\-\_\-\-Table@{C\-I\-\_\-\-Table}!\$rows@{\$rows}}
+\index{\$rows@{\$rows}!CI_Table@{C\-I\-\_\-\-Table}}
+\subsubsection[{\$rows}]{\setlength{\rightskip}{0pt plus 5cm}\$rows = array()}\label{class_c_i___table_ace2ec39e7df3899fa8df9640ec274b03}
+
+
+Definition at line 31 of file Table.\-php.
+
+\index{C\-I\-\_\-\-Table@{C\-I\-\_\-\-Table}!\$template@{\$template}}
+\index{\$template@{\$template}!CI_Table@{C\-I\-\_\-\-Table}}
+\subsubsection[{\$template}]{\setlength{\rightskip}{0pt plus 5cm}\$template = N\-U\-L\-L}\label{class_c_i___table_aa3e9534005fd516d941f6a5569896e01}
+
+
+Definition at line 35 of file Table.\-php.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+system/libraries/{\bf Table.\-php}\end{DoxyCompactItemize}

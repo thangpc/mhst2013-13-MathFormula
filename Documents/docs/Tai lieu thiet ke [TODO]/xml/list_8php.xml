@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="list_8php" kind="file">
+    <compoundname>list.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="list_8php_1a58236cd338e9e5c3a603f5be54ed6b4b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>foreach($formulars as $key=&gt; $val)</definition>
+        <argsstring>($formulars as $key=&gt; $val)</argsstring>
+        <name>foreach</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/views/community/list.php" line="11" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/views/community/list.php" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_c_i___loader_1ae3b5045c81f69c90afc7e918ff664d37" compoundref="_loader_8php" startline="741" endline="865">CI_Loader\_ci_load</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;<ref refid="mathquill_8js_1a7faab0faa1bacc23a7ffe6f0c7c26e76" kindref="member">div</ref><sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;container<sp/>raw<sp/>clearfix<sp/>cheatsheets&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;<ref refid="mathquill_8js_1a7faab0faa1bacc23a7ffe6f0c7c26e76" kindref="member">div</ref><sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;slogan&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;h2<sp/>style=</highlight><highlight class="stringliteral">&quot;opacity:<sp/>1;<sp/>top:<sp/>0px;<sp/>&quot;</highlight><highlight class="normal">&gt;&lt;span<sp/>style=</highlight><highlight class="stringliteral">&quot;opacity:<sp/>1;<sp/>top:<sp/>0px;<sp/>&quot;</highlight><highlight class="normal">&gt;The<sp/>best&lt;/span&gt;<sp/>math<sp/>editor<sp/>online&lt;/h2&gt;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;/<ref refid="mathquill_8js_1a7faab0faa1bacc23a7ffe6f0c7c26e76" kindref="member">div</ref>&gt;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;<ref refid="mathquill_8js_1a7faab0faa1bacc23a7ffe6f0c7c26e76" kindref="member">div</ref><sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;clearfix&quot;</highlight><highlight class="normal">&gt;&lt;/<ref refid="mathquill_8js_1a7faab0faa1bacc23a7ffe6f0c7c26e76" kindref="member">div</ref>&gt;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;<ref refid="mathquill_8js_1a7faab0faa1bacc23a7ffe6f0c7c26e76" kindref="member">div</ref>&gt;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;h2<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;title&quot;</highlight><highlight class="normal">&gt;&lt;?php<sp/>echo<sp/>$title_page;<sp/>?&gt;&lt;/h2&gt;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;/<ref refid="mathquill_8js_1a7faab0faa1bacc23a7ffe6f0c7c26e76" kindref="member">div</ref>&gt;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;<ref refid="mathquill_8js_1a7faab0faa1bacc23a7ffe6f0c7c26e76" kindref="member">div</ref><sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;content<sp/>list-formular&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;?php</highlight></codeline>
+<codeline lineno="11" refid="list_8php_1a58236cd338e9e5c3a603f5be54ed6b4b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal"><sp/>($formulars<sp/>as<sp/>$key<sp/>=&gt;<sp/>$val)<sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$id<sp/>=<sp/>$val[</highlight><highlight class="stringliteral">&apos;f_id&apos;</highlight><highlight class="normal">];</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>?&gt;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;<ref refid="mathquill_8js_1a7faab0faa1bacc23a7ffe6f0c7c26e76" kindref="member">div</ref><sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;row&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;h3&gt;&lt;<ref refid="jquery_8min_8js_1aa4d4888597588a84fd5b1184d00c91f3" kindref="member">a</ref><sp/>href=</highlight><highlight class="stringliteral">&quot;&lt;?php<sp/>echo<sp/>site_url(&quot;</highlight><highlight class="normal">formular/view-$id</highlight><highlight class="stringliteral">&quot;);<sp/>?&gt;&quot;</highlight><highlight class="normal">&gt;&lt;?php<sp/>echo<sp/>$val[</highlight><highlight class="stringliteral">&apos;title&apos;</highlight><highlight class="normal">];<sp/>?&gt;&lt;/<ref refid="jquery_8min_8js_1aa4d4888597588a84fd5b1184d00c91f3" kindref="member">a</ref>&gt;&lt;/h3&gt;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;<ref refid="mathquill_8js_1a7faab0faa1bacc23a7ffe6f0c7c26e76" kindref="member">div</ref>&gt;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;img<sp/>src=</highlight><highlight class="stringliteral">&quot;http://latex.codecogs.com/gif.latex?&lt;?php<sp/>echo<sp/>$val[&apos;latex&apos;];<sp/>?&gt;&quot;</highlight><highlight class="normal"><sp/>alt=</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/<ref refid="mathquill_8js_1a7faab0faa1bacc23a7ffe6f0c7c26e76" kindref="member">div</ref>&gt;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/<ref refid="mathquill_8js_1a7faab0faa1bacc23a7ffe6f0c7c26e76" kindref="member">div</ref>&gt;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;?php</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>?&gt;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;?php<sp/>echo<sp/>$pages;<sp/>?&gt;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;/<ref refid="mathquill_8js_1a7faab0faa1bacc23a7ffe6f0c7c26e76" kindref="member">div</ref>&gt;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">&lt;/<ref refid="mathquill_8js_1a7faab0faa1bacc23a7ffe6f0c7c26e76" kindref="member">div</ref></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/views/community/list.php"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_c_i___typography" kind="class" prot="public">
+    <compoundname>CI_Typography</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_c_i___typography_1ac99f5bbe8e02dc1147e9a4205dc161eb" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$block_elements</definition>
+        <argsstring></argsstring>
+        <name>$block_elements</name>
+        <initializer>= &apos;address|blockquote|<ref refid="mathquill_8js_1a7faab0faa1bacc23a7ffe6f0c7c26e76" kindref="member">div</ref>|dl|fieldset|form|h\d|hr|noscript|object|ol|<ref refid="jquery_8min_8js_1ad1707b001240e9c8298830073364c8bf" kindref="member">p</ref>|pre|script|table|ul&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Typography.php" line="30" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Typography.php" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___typography_1a80c70a349bff88ad1ef94dea8753bc2e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$skip_elements</definition>
+        <argsstring></argsstring>
+        <name>$skip_elements</name>
+        <initializer>= &apos;<ref refid="jquery_8min_8js_1ad1707b001240e9c8298830073364c8bf" kindref="member">p</ref>|pre|ol|ul|dl|object|table|h\d&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Typography.php" line="33" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Typography.php" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___typography_1a7ee5f0598125dc7e6b17a08aa6da384f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$inline_elements</definition>
+        <argsstring></argsstring>
+        <name>$inline_elements</name>
+        <initializer>= &apos;<ref refid="jquery_8min_8js_1aa4d4888597588a84fd5b1184d00c91f3" kindref="member">a</ref>|abbr|acronym|<ref refid="jquery_8min_8js_1a323dcbd4e162ca53a2438713c53593fe" kindref="member">b</ref>|bdo|big|br|button|cite|code|del|dfn|em|<ref refid="jquery_8min_8js_1a5e25b1d1bed9ab5f3174b76d6a722180" kindref="member">i</ref>|img|ins|input|label|map|kbd|<ref refid="jquery_8min_8js_1aee3046c01d22ccd1efcb944608aec125" kindref="member">q</ref>|samp|select|small|span|strong|<ref refid="mathquill_8js_1ad9edb82c135b4606f1000cd5b6ee419e" kindref="member">sub</ref>|<ref refid="mathquill_8js_1afd57ca60d70666976316bfa9317678d6" kindref="member">sup</ref>|textarea|tt|var&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Typography.php" line="36" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Typography.php" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___typography_1a822eaf22f556c5c52bd766779d9ee22f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$inner_block_required</definition>
+        <argsstring></argsstring>
+        <name>$inner_block_required</name>
+        <initializer>= array(&apos;blockquote&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Typography.php" line="39" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Typography.php" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___typography_1a8d5c4b7f2f7b74e118c682cf95688e22" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$last_block_element</definition>
+        <argsstring></argsstring>
+        <name>$last_block_element</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Typography.php" line="42" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Typography.php" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___typography_1a6a74364571da23cc7187c864cde167ca" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$protect_braced_quotes</definition>
+        <argsstring></argsstring>
+        <name>$protect_braced_quotes</name>
+        <initializer>= FALSE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Typography.php" line="45" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Typography.php" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_i___typography_1a24c284b560f34d6c7fad07e36baaa024" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>auto_typography</definition>
+        <argsstring>($str, $reduce_linebreaks=FALSE)</argsstring>
+        <name>auto_typography</name>
+        <param>
+          <declname>$str</declname>
+        </param>
+        <param>
+          <declname>$reduce_linebreaks</declname>
+          <defval>FALSE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Auto Typography</para><para>This function converts text, making it typographically correct:<itemizedlist>
+<listitem><para>Converts double spaces into paragraphs.</para></listitem><listitem><para>Converts single line breaks into <linebreak/>
+ tags</para></listitem><listitem><para>Converts single and double quotes into correctly facing curly quote entities.</para></listitem><listitem><para>Converts three dots into ellipsis.</para></listitem><listitem><para>Converts double dashes into em-dashes.</para></listitem><listitem><para>Converts two spaces into entities</para></listitem></itemizedlist>
+</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bool</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>whether to reduce more then two consecutive newlines to two </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Typography.php" line="63" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Typography.php" bodystart="63" bodyend="241"/>
+        <references refid="class_c_i___typography_1ac3384cbfc88fcd17e40624bdd6002801" compoundref="_typography_8php" startline="320" endline="352">_format_newlines</references>
+        <references refid="class_c_i___typography_1a45df135c8811c2b27085dbdfd05a1eed" compoundref="_typography_8php" startline="256" endline="307">format_characters</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___typography_1a45df135c8811c2b27085dbdfd05a1eed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>format_characters</definition>
+        <argsstring>($str)</argsstring>
+        <name>format_characters</name>
+        <param>
+          <declname>$str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Format Characters</para><para>This function mainly converts double and single quotes to curly entities, but it also converts em-dashes, double spaces, and ampersands</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Typography.php" line="256" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Typography.php" bodystart="256" bodyend="307"/>
+        <referencedby refid="class_c_i___typography_1a24c284b560f34d6c7fad07e36baaa024" compoundref="_typography_8php" startline="63" endline="241">auto_typography</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___typography_1ac3384cbfc88fcd17e40624bdd6002801" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_format_newlines</definition>
+        <argsstring>($str)</argsstring>
+        <name>_format_newlines</name>
+        <param>
+          <declname>$str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Format Newlines</para><para>Converts newline characters into either </para><para>tags or <linebreak/>
+</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Typography.php" line="320" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Typography.php" bodystart="320" bodyend="352"/>
+        <referencedby refid="class_c_i___typography_1a24c284b560f34d6c7fad07e36baaa024" compoundref="_typography_8php" startline="63" endline="241">auto_typography</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___typography_1a03e8f97de4301e0fe0cf0e9f0bcd936c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_protect_characters</definition>
+        <argsstring>($match)</argsstring>
+        <name>_protect_characters</name>
+        <param>
+          <declname>$match</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Protect Characters</para><para>Protects special characters from being formatted later We don&apos;t want quotes converted within tags so we&apos;ll temporarily convert them to {} and {} and we don&apos;t want double dashes converted to emdash entities, so they are marked with {} likewise double spaces are converted to {} to prevent entity conversion</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Typography.php" line="368" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Typography.php" bodystart="368" bodyend="371"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___typography_1af9db9732eaa94a62b3a3ccc7f6bf860b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>nl2br_except_pre</definition>
+        <argsstring>($str)</argsstring>
+        <name>nl2br_except_pre</name>
+        <param>
+          <declname>$str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert newlines to HTML line breaks except within PRE tags</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Typography.php" line="382" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Typography.php" bodystart="382" bodyend="404"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Typography.php" line="27" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Typography.php" bodystart="27" bodyend="406"/>
+    <listofallmembers>
+      <member refid="class_c_i___typography_1ac99f5bbe8e02dc1147e9a4205dc161eb" prot="public" virt="non-virtual"><scope>CI_Typography</scope><name>$block_elements</name></member>
+      <member refid="class_c_i___typography_1a7ee5f0598125dc7e6b17a08aa6da384f" prot="public" virt="non-virtual"><scope>CI_Typography</scope><name>$inline_elements</name></member>
+      <member refid="class_c_i___typography_1a822eaf22f556c5c52bd766779d9ee22f" prot="public" virt="non-virtual"><scope>CI_Typography</scope><name>$inner_block_required</name></member>
+      <member refid="class_c_i___typography_1a8d5c4b7f2f7b74e118c682cf95688e22" prot="public" virt="non-virtual"><scope>CI_Typography</scope><name>$last_block_element</name></member>
+      <member refid="class_c_i___typography_1a6a74364571da23cc7187c864cde167ca" prot="public" virt="non-virtual"><scope>CI_Typography</scope><name>$protect_braced_quotes</name></member>
+      <member refid="class_c_i___typography_1a80c70a349bff88ad1ef94dea8753bc2e" prot="public" virt="non-virtual"><scope>CI_Typography</scope><name>$skip_elements</name></member>
+      <member refid="class_c_i___typography_1ac3384cbfc88fcd17e40624bdd6002801" prot="public" virt="non-virtual"><scope>CI_Typography</scope><name>_format_newlines</name></member>
+      <member refid="class_c_i___typography_1a03e8f97de4301e0fe0cf0e9f0bcd936c" prot="public" virt="non-virtual"><scope>CI_Typography</scope><name>_protect_characters</name></member>
+      <member refid="class_c_i___typography_1a24c284b560f34d6c7fad07e36baaa024" prot="public" virt="non-virtual"><scope>CI_Typography</scope><name>auto_typography</name></member>
+      <member refid="class_c_i___typography_1a45df135c8811c2b27085dbdfd05a1eed" prot="public" virt="non-virtual"><scope>CI_Typography</scope><name>format_characters</name></member>
+      <member refid="class_c_i___typography_1af9db9732eaa94a62b3a3ccc7f6bf860b" prot="public" virt="non-virtual"><scope>CI_Typography</scope><name>nl2br_except_pre</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

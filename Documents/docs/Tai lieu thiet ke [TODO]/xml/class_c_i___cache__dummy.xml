@@ -1,0 +1,233 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_c_i___cache__dummy" kind="class" prot="public">
+    <compoundname>CI_Cache_dummy</compoundname>
+    <basecompoundref refid="class_c_i___driver" prot="public" virt="non-virtual">CI_Driver</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_i___cache__dummy_1a50e3bfb586b2f42932a6a93f3fbb0828" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>get</definition>
+        <argsstring>($id)</argsstring>
+        <name>get</name>
+        <param>
+          <declname>$id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get</para><para>Since this is the dummy class, it&apos;s always going to return FALSE.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Boolean FALSE </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Cache/drivers/Cache_dummy.php" line="38" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Cache/drivers/Cache_dummy.php" bodystart="38" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___cache__dummy_1a747c50183a4ed7009899628fa75c562b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>save</definition>
+        <argsstring>($id, $data, $ttl=60)</argsstring>
+        <name>save</name>
+        <param>
+          <declname>$id</declname>
+        </param>
+        <param>
+          <declname>$data</declname>
+        </param>
+        <param>
+          <declname>$ttl</declname>
+          <defval>60</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Cache Save</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Unique Key </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mixed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data to store </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>int</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Length of time (in seconds) to cache the data</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>boolean TRUE, Simulating success </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Cache/drivers/Cache_dummy.php" line="54" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Cache/drivers/Cache_dummy.php" bodystart="54" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___cache__dummy_1a2f8258add505482d7f00ea26493a5723" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>delete</definition>
+        <argsstring>($id)</argsstring>
+        <name>delete</name>
+        <param>
+          <declname>$id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Delete from Cache</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mixed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>unique identifier of the item in the cache </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>boolean</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>TRUE, simulating success </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Cache/drivers/Cache_dummy.php" line="67" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Cache/drivers/Cache_dummy.php" bodystart="67" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___cache__dummy_1adb40b812890a8bc058bf6b7a0e1a54d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>clean</definition>
+        <argsstring>()</argsstring>
+        <name>clean</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Clean the cache</para><para><simplesect kind="return"><para>boolean TRUE, simulating success </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Cache/drivers/Cache_dummy.php" line="79" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Cache/drivers/Cache_dummy.php" bodystart="79" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___cache__dummy_1aa8b9c4d9f0387156736ccd8850f0727e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>cache_info</definition>
+        <argsstring>($type=NULL)</argsstring>
+        <name>cache_info</name>
+        <param>
+          <declname>$type</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Cache Info</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>user/filehits </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>boolean FALSE </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Cache/drivers/Cache_dummy.php" line="92" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Cache/drivers/Cache_dummy.php" bodystart="92" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___cache__dummy_1a59635cf18e997c5141bffa05ff7622e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>get_metadata</definition>
+        <argsstring>($id)</argsstring>
+        <name>get_metadata</name>
+        <param>
+          <declname>$id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get Cache Metadata</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mixed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>key to get cache metadata on </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>boolean FALSE </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Cache/drivers/Cache_dummy.php" line="105" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Cache/drivers/Cache_dummy.php" bodystart="105" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___cache__dummy_1a98c68fd153468bc148c4ed8c716859fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>is_supported</definition>
+        <argsstring>()</argsstring>
+        <name>is_supported</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Is this caching driver supported on the system? Of course this one is.</para><para><simplesect kind="return"><para>TRUE; </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Cache/drivers/Cache_dummy.php" line="118" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Cache/drivers/Cache_dummy.php" bodystart="118" bodyend="121"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="33">
+        <label>CI_Cache_dummy</label>
+        <link refid="class_c_i___cache__dummy"/>
+        <childnode refid="34" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>CI_Driver</label>
+        <link refid="class_c_i___driver"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="35">
+        <label>CI_Cache_dummy</label>
+        <link refid="class_c_i___cache__dummy"/>
+        <childnode refid="36" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>CI_Driver</label>
+        <link refid="class_c_i___driver"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Cache/drivers/Cache_dummy.php" line="28" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Cache/drivers/Cache_dummy.php" bodystart="28" bodyend="125"/>
+    <listofallmembers>
+      <member refid="class_c_i___driver_1a4e2313a4b35b72a06ac45fd38960f677" prot="protected" virt="non-virtual"><scope>CI_Cache_dummy</scope><name>$parent</name></member>
+      <member refid="class_c_i___driver_1a57936fde7f1adea3f3e7dfca474a1786" prot="public" virt="non-virtual"><scope>CI_Cache_dummy</scope><name>__call</name></member>
+      <member refid="class_c_i___driver_1a8fb2d9cdca17b87400e780b9f9720933" prot="public" virt="non-virtual"><scope>CI_Cache_dummy</scope><name>__get</name></member>
+      <member refid="class_c_i___driver_1a921783e9d7c3fb79479375193c9f3d1e" prot="public" virt="non-virtual"><scope>CI_Cache_dummy</scope><name>__set</name></member>
+      <member refid="class_c_i___cache__dummy_1aa8b9c4d9f0387156736ccd8850f0727e" prot="public" virt="non-virtual"><scope>CI_Cache_dummy</scope><name>cache_info</name></member>
+      <member refid="class_c_i___cache__dummy_1adb40b812890a8bc058bf6b7a0e1a54d9" prot="public" virt="non-virtual"><scope>CI_Cache_dummy</scope><name>clean</name></member>
+      <member refid="class_c_i___driver_1acf6a5ad6a84d4c7a27f463cbb618004b" prot="public" virt="non-virtual"><scope>CI_Cache_dummy</scope><name>decorate</name></member>
+      <member refid="class_c_i___cache__dummy_1a2f8258add505482d7f00ea26493a5723" prot="public" virt="non-virtual"><scope>CI_Cache_dummy</scope><name>delete</name></member>
+      <member refid="class_c_i___cache__dummy_1a50e3bfb586b2f42932a6a93f3fbb0828" prot="public" virt="non-virtual"><scope>CI_Cache_dummy</scope><name>get</name></member>
+      <member refid="class_c_i___cache__dummy_1a59635cf18e997c5141bffa05ff7622e0" prot="public" virt="non-virtual"><scope>CI_Cache_dummy</scope><name>get_metadata</name></member>
+      <member refid="class_c_i___cache__dummy_1a98c68fd153468bc148c4ed8c716859fc" prot="public" virt="non-virtual"><scope>CI_Cache_dummy</scope><name>is_supported</name></member>
+      <member refid="class_c_i___cache__dummy_1a747c50183a4ed7009899628fa75c562b" prot="public" virt="non-virtual"><scope>CI_Cache_dummy</scope><name>save</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

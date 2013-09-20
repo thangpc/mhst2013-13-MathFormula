@@ -1,0 +1,832 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="date__lang_8php" kind="file">
+    <compoundname>date_lang.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="date__lang_8php_1ad344b819f5b881c0e2d75c994b8781b7" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;date_year&apos;]</definition>
+        <argsstring>[&apos;date_year&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;Year&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" line="3" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="date__lang_8php_1ad553cabe66c6e6feff320f69fadfc561" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;date_years&apos;]</definition>
+        <argsstring>[&apos;date_years&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;Years&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" line="4" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="date__lang_8php_1a27b6a453e0ff873f09050b0882b86b43" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;date_month&apos;]</definition>
+        <argsstring>[&apos;date_month&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;Month&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" line="5" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="date__lang_8php_1af22d57f979004523c31e7252891b8ce1" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;date_months&apos;]</definition>
+        <argsstring>[&apos;date_months&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;Months&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" line="6" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="date__lang_8php_1a027a67b9a8e626d4a9b4080f8100ca53" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;date_week&apos;]</definition>
+        <argsstring>[&apos;date_week&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;Week&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" line="7" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="date__lang_8php_1af09796515b005d759204f911305a8459" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;date_weeks&apos;]</definition>
+        <argsstring>[&apos;date_weeks&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;Weeks&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" line="8" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="date__lang_8php_1ab414526293ffead872f9b90ed4fdd552" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;date_day&apos;]</definition>
+        <argsstring>[&apos;date_day&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;Day&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" line="9" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="date__lang_8php_1abb37886fce0ac3f342d17f4132740870" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;date_days&apos;]</definition>
+        <argsstring>[&apos;date_days&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;Days&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" line="10" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="date__lang_8php_1a7a4e78ef1f19291c5a7818cf08bfa3ca" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;date_hour&apos;]</definition>
+        <argsstring>[&apos;date_hour&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;Hour&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" line="11" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="date__lang_8php_1ad1fe07226d651882b9ecce9cb2011db2" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;date_hours&apos;]</definition>
+        <argsstring>[&apos;date_hours&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;Hours&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" line="12" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="date__lang_8php_1a999a95f4f9c529af571d30f9615c93f3" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;date_minute&apos;]</definition>
+        <argsstring>[&apos;date_minute&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;Minute&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" line="13" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="date__lang_8php_1ab41862e6c3ef784a6e32992cfb9a6e1c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;date_minutes&apos;]</definition>
+        <argsstring>[&apos;date_minutes&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;Minutes&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" line="14" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="date__lang_8php_1ac1b67b9034a78d631bf5302df6105136" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;date_second&apos;]</definition>
+        <argsstring>[&apos;date_second&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;Second&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" line="15" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="date__lang_8php_1a0a75c76e6e4be09a6c5f1a1727fa2c78" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;date_seconds&apos;]</definition>
+        <argsstring>[&apos;date_seconds&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;Seconds&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" line="16" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="date__lang_8php_1aa03db528f49f0bdd57489a7e057a95dc" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;UM12&apos;]</definition>
+        <argsstring>[&apos;UM12&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;(UTC -12:00) Baker/Howland Island&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" line="18" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="date__lang_8php_1a2257b69398113162bdafb48f1bab4973" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;UM11&apos;]</definition>
+        <argsstring>[&apos;UM11&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;(UTC -11:00) Samoa Time Zone, Niue&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" line="19" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="date__lang_8php_1a671d507e120e16f7e7718be0ed0aea74" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;UM10&apos;]</definition>
+        <argsstring>[&apos;UM10&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;(UTC -10:00) Hawaii-Aleutian Standard Time, Cook Islands, Tahiti&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" line="20" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="date__lang_8php_1a7cd7a4418ccf42c7daae2a098ba8f9e6" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;UM95&apos;]</definition>
+        <argsstring>[&apos;UM95&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;(UTC -9:30) Marquesas Islands&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" line="21" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="date__lang_8php_1a5509302f8ddd971cb58e1f49f012bbac" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;UM9&apos;]</definition>
+        <argsstring>[&apos;UM9&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;(UTC -9:00) Alaska Standard Time, Gambier Islands&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" line="22" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="date__lang_8php_1ab3ed4c273fcb61197ef7d8e4bae07415" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;UM8&apos;]</definition>
+        <argsstring>[&apos;UM8&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;(UTC -8:00) Pacific Standard Time, Clipperton Island&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" line="23" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="date__lang_8php_1aa642f12cf461f915682b17c0c30b2475" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;UM7&apos;]</definition>
+        <argsstring>[&apos;UM7&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;(UTC -7:00) Mountain Standard Time&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" line="24" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="date__lang_8php_1a30f39dd7748d488f4a0140751336d257" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;UM6&apos;]</definition>
+        <argsstring>[&apos;UM6&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;(UTC -6:00) Central Standard Time&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" line="25" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="date__lang_8php_1a557150a51633e11dc49e3bfd2e1c091e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;UM5&apos;]</definition>
+        <argsstring>[&apos;UM5&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;(UTC -5:00) Eastern Standard Time, Western Caribbean Standard Time&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" line="26" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="date__lang_8php_1aac9f8a1e0da4b3cee00a19fe9ac642d0" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;UM45&apos;]</definition>
+        <argsstring>[&apos;UM45&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;(UTC -4:30) Venezuelan Standard Time&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" line="27" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="date__lang_8php_1a42f66872f4a082bcb2ee004bd2716828" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;UM4&apos;]</definition>
+        <argsstring>[&apos;UM4&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;(UTC -4:00) Atlantic Standard Time, Eastern Caribbean Standard Time&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" line="28" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="date__lang_8php_1a389c4a60af83efd29503f60033f3071d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;UM35&apos;]</definition>
+        <argsstring>[&apos;UM35&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;(UTC -3:30) Newfoundland Standard Time&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" line="29" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="date__lang_8php_1abd67512895187d494bbfb18f8d8fee43" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;UM3&apos;]</definition>
+        <argsstring>[&apos;UM3&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;(UTC -3:00) Argentina, Brazil, French Guiana, Uruguay&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" line="30" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="date__lang_8php_1a8ee2f132b462bb709fc3402a592ff573" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;UM2&apos;]</definition>
+        <argsstring>[&apos;UM2&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;(UTC -2:00) South Georgia/South Sandwich Islands&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" line="31" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="date__lang_8php_1a036e0074236b996b33231b051eda2973" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;UM1&apos;]</definition>
+        <argsstring>[&apos;UM1&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;(UTC -1:00) Azores, Cape Verde Islands&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" line="32" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="date__lang_8php_1ab153b3219e74743184b7dee67e86f9fc" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;UTC&apos;]</definition>
+        <argsstring>[&apos;UTC&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;(UTC) Greenwich Mean Time, Western European Time&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" line="33" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="date__lang_8php_1a788996558e6c8cafd788a1fef6b0be4e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;UP1&apos;]</definition>
+        <argsstring>[&apos;UP1&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;(UTC +1:00) Central European Time, West Africa Time&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" line="34" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="date__lang_8php_1adfeba045961d07f8f30c0f1a7b8b4ff9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;UP2&apos;]</definition>
+        <argsstring>[&apos;UP2&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;(UTC +2:00) Central Africa Time, Eastern European Time, Kaliningrad Time&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" line="35" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="date__lang_8php_1a5eddd4b83edcbefcc883077949d40a67" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;UP3&apos;]</definition>
+        <argsstring>[&apos;UP3&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;(UTC +3:00) Moscow Time, East Africa Time&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" line="36" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="date__lang_8php_1ad669ea69fd450762d029592b6ac64395" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;UP35&apos;]</definition>
+        <argsstring>[&apos;UP35&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;(UTC +3:30) Iran Standard Time&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" line="37" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="date__lang_8php_1ad0131a14a1ede9328baf1a1827602f45" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;UP4&apos;]</definition>
+        <argsstring>[&apos;UP4&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;(UTC +4:00) Azerbaijan Standard Time, Samara Time&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" line="38" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="date__lang_8php_1a7795735f3608127d726a4fca3f87dc79" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;UP45&apos;]</definition>
+        <argsstring>[&apos;UP45&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;(UTC +4:30) Afghanistan&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" line="39" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="date__lang_8php_1a08236ffa5ff4db9f2bc023f5256fead1" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;UP5&apos;]</definition>
+        <argsstring>[&apos;UP5&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;(UTC +5:00) Pakistan Standard Time, Yekaterinburg Time&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" line="40" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="date__lang_8php_1aa55a1ebecdfbd5e0c7e40c921b90cad2" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;UP55&apos;]</definition>
+        <argsstring>[&apos;UP55&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;(UTC +5:30) Indian Standard Time, Sri Lanka Time&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" line="41" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="date__lang_8php_1abc4186fc3bc853aa036b5b11eeb52ecd" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;UP575&apos;]</definition>
+        <argsstring>[&apos;UP575&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;(UTC +5:45) Nepal Time&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" line="42" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="date__lang_8php_1aaa655de76a3be875d9cedbf4a57244fa" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;UP6&apos;]</definition>
+        <argsstring>[&apos;UP6&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;(UTC +6:00) Bangladesh Standard Time, Bhutan Time, Omsk Time&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" line="43" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="date__lang_8php_1af94f885b6e6c50abdf7672ddfa80774d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;UP65&apos;]</definition>
+        <argsstring>[&apos;UP65&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;(UTC +6:30) Cocos Islands, Myanmar&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" line="44" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="date__lang_8php_1aeedffaf1d3a16a41e881d85c420482ce" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;UP7&apos;]</definition>
+        <argsstring>[&apos;UP7&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;(UTC +7:00) Krasnoyarsk Time, Cambodia, Laos, Thailand, Vietnam&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" line="45" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="date__lang_8php_1a2a828a680158ca4cfb7fba60f35c67a3" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;UP8&apos;]</definition>
+        <argsstring>[&apos;UP8&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;(UTC +8:00) Australian Western Standard Time, Beijing Time, Irkutsk Time&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" line="46" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="date__lang_8php_1a486696d3d41c5d263a8b550903052ecb" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;UP875&apos;]</definition>
+        <argsstring>[&apos;UP875&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;(UTC +8:45) Australian Central Western Standard Time&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" line="47" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="date__lang_8php_1aa112bfd057369e5adb437c55457c9f79" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;UP9&apos;]</definition>
+        <argsstring>[&apos;UP9&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;(UTC +9:00) Japan Standard Time, Korea Standard Time, Yakutsk Time&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" line="48" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="date__lang_8php_1a96965669ac4830ab024b39a4ebb763f1" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;UP95&apos;]</definition>
+        <argsstring>[&apos;UP95&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;(UTC +9:30) Australian Central Standard Time&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" line="49" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="date__lang_8php_1ab55df5b1ac6457c16ea32f01070966f6" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;UP10&apos;]</definition>
+        <argsstring>[&apos;UP10&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;(UTC +10:00) Australian Eastern Standard Time, Vladivostok Time&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" line="50" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="date__lang_8php_1aeb674ae9d76fd6d0d9c9e77ed5a212e9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;UP105&apos;]</definition>
+        <argsstring>[&apos;UP105&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;(UTC +10:30) Lord Howe Island&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" line="51" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="date__lang_8php_1a463ad4d63523352c17685f734b4ec7cc" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;UP11&apos;]</definition>
+        <argsstring>[&apos;UP11&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;(UTC +11:00) Magadan Time, Solomon Islands, Vanuatu&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" line="52" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="date__lang_8php_1a46fa8957c8e606d1641bbcdd75cd2df0" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;UP115&apos;]</definition>
+        <argsstring>[&apos;UP115&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;(UTC +11:30) Norfolk Island&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" line="53" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="date__lang_8php_1a18a8bb072c3fe7db99091538ce5168be" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;UP12&apos;]</definition>
+        <argsstring>[&apos;UP12&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;(UTC +12:00) Fiji, Gilbert Islands, Kamchatka Time, New Zealand Standard Time&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" line="54" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="date__lang_8php_1a92e3c23bd9d963bbdfd21e39521bfdc1" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;UP1275&apos;]</definition>
+        <argsstring>[&apos;UP1275&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;(UTC +12:45) Chatham Islands Standard Time&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" line="55" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="date__lang_8php_1ac197fec09ff547ca12a7fe3ffc5908ae" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;UP13&apos;]</definition>
+        <argsstring>[&apos;UP13&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;(UTC +13:00) Phoenix Islands Time, Tonga&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" line="56" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="date__lang_8php_1a50562230c497ebdba1f540d409110fce" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;UP14&apos;]</definition>
+        <argsstring>[&apos;UP14&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &apos;(UTC +14:00) Line Islands&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" line="57" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="date__lang_8php_1ad344b819f5b881c0e2d75c994b8781b7" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;date_year&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Year&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="4" refid="date__lang_8php_1ad553cabe66c6e6feff320f69fadfc561" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;date_years&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Years&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="5" refid="date__lang_8php_1a27b6a453e0ff873f09050b0882b86b43" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;date_month&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Month&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="6" refid="date__lang_8php_1af22d57f979004523c31e7252891b8ce1" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;date_months&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Months&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="7" refid="date__lang_8php_1a027a67b9a8e626d4a9b4080f8100ca53" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;date_week&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Week&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="8" refid="date__lang_8php_1af09796515b005d759204f911305a8459" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;date_weeks&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Weeks&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="9" refid="date__lang_8php_1ab414526293ffead872f9b90ed4fdd552" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;date_day&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Day&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="10" refid="date__lang_8php_1abb37886fce0ac3f342d17f4132740870" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;date_days&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Days&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="11" refid="date__lang_8php_1a7a4e78ef1f19291c5a7818cf08bfa3ca" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;date_hour&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Hour&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="12" refid="date__lang_8php_1ad1fe07226d651882b9ecce9cb2011db2" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;date_hours&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Hours&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="13" refid="date__lang_8php_1a999a95f4f9c529af571d30f9615c93f3" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;date_minute&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Minute&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="14" refid="date__lang_8php_1ab41862e6c3ef784a6e32992cfb9a6e1c" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;date_minutes&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Minutes&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="15" refid="date__lang_8php_1ac1b67b9034a78d631bf5302df6105136" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;date_second&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Second&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="16" refid="date__lang_8php_1a0a75c76e6e4be09a6c5f1a1727fa2c78" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;date_seconds&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Seconds&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="date__lang_8php_1aa03db528f49f0bdd57489a7e057a95dc" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;UM12&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;(UTC<sp/>-12:00)<sp/>Baker/Howland<sp/>Island&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="19" refid="date__lang_8php_1a2257b69398113162bdafb48f1bab4973" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;UM11&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;(UTC<sp/>-11:00)<sp/>Samoa<sp/>Time<sp/>Zone,<sp/>Niue&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="20" refid="date__lang_8php_1a671d507e120e16f7e7718be0ed0aea74" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;UM10&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;(UTC<sp/>-10:00)<sp/>Hawaii-Aleutian<sp/>Standard<sp/>Time,<sp/>Cook<sp/>Islands,<sp/>Tahiti&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="21" refid="date__lang_8php_1a7cd7a4418ccf42c7daae2a098ba8f9e6" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;UM95&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;(UTC<sp/>-9:30)<sp/>Marquesas<sp/>Islands&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="22" refid="date__lang_8php_1a5509302f8ddd971cb58e1f49f012bbac" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;UM9&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;(UTC<sp/>-9:00)<sp/>Alaska<sp/>Standard<sp/>Time,<sp/>Gambier<sp/>Islands&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="23" refid="date__lang_8php_1ab3ed4c273fcb61197ef7d8e4bae07415" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;UM8&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;(UTC<sp/>-8:00)<sp/>Pacific<sp/>Standard<sp/>Time,<sp/>Clipperton<sp/>Island&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="24" refid="date__lang_8php_1aa642f12cf461f915682b17c0c30b2475" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;UM7&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;(UTC<sp/>-7:00)<sp/>Mountain<sp/>Standard<sp/>Time&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="25" refid="date__lang_8php_1a30f39dd7748d488f4a0140751336d257" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;UM6&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;(UTC<sp/>-6:00)<sp/>Central<sp/>Standard<sp/>Time&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="26" refid="date__lang_8php_1a557150a51633e11dc49e3bfd2e1c091e" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;UM5&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;(UTC<sp/>-5:00)<sp/>Eastern<sp/>Standard<sp/>Time,<sp/>Western<sp/>Caribbean<sp/>Standard<sp/>Time&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="27" refid="date__lang_8php_1aac9f8a1e0da4b3cee00a19fe9ac642d0" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;UM45&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;(UTC<sp/>-4:30)<sp/>Venezuelan<sp/>Standard<sp/>Time&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="28" refid="date__lang_8php_1a42f66872f4a082bcb2ee004bd2716828" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;UM4&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;(UTC<sp/>-4:00)<sp/>Atlantic<sp/>Standard<sp/>Time,<sp/>Eastern<sp/>Caribbean<sp/>Standard<sp/>Time&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="29" refid="date__lang_8php_1a389c4a60af83efd29503f60033f3071d" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;UM35&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;(UTC<sp/>-3:30)<sp/>Newfoundland<sp/>Standard<sp/>Time&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="30" refid="date__lang_8php_1abd67512895187d494bbfb18f8d8fee43" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;UM3&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;(UTC<sp/>-3:00)<sp/>Argentina,<sp/>Brazil,<sp/>French<sp/>Guiana,<sp/>Uruguay&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="31" refid="date__lang_8php_1a8ee2f132b462bb709fc3402a592ff573" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;UM2&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;(UTC<sp/>-2:00)<sp/>South<sp/>Georgia/South<sp/>Sandwich<sp/>Islands&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="32" refid="date__lang_8php_1a036e0074236b996b33231b051eda2973" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;UM1&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;(UTC<sp/>-1:00)<sp/>Azores,<sp/>Cape<sp/>Verde<sp/>Islands&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="33" refid="date__lang_8php_1ab153b3219e74743184b7dee67e86f9fc" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;UTC&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;(UTC)<sp/>Greenwich<sp/>Mean<sp/>Time,<sp/>Western<sp/>European<sp/>Time&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="34" refid="date__lang_8php_1a788996558e6c8cafd788a1fef6b0be4e" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;UP1&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;(UTC<sp/>+1:00)<sp/>Central<sp/>European<sp/>Time,<sp/>West<sp/>Africa<sp/>Time&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="35" refid="date__lang_8php_1adfeba045961d07f8f30c0f1a7b8b4ff9" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;UP2&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;(UTC<sp/>+2:00)<sp/>Central<sp/>Africa<sp/>Time,<sp/>Eastern<sp/>European<sp/>Time,<sp/>Kaliningrad<sp/>Time&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="36" refid="date__lang_8php_1a5eddd4b83edcbefcc883077949d40a67" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;UP3&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;(UTC<sp/>+3:00)<sp/>Moscow<sp/>Time,<sp/>East<sp/>Africa<sp/>Time&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="37" refid="date__lang_8php_1ad669ea69fd450762d029592b6ac64395" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;UP35&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;(UTC<sp/>+3:30)<sp/>Iran<sp/>Standard<sp/>Time&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="38" refid="date__lang_8php_1ad0131a14a1ede9328baf1a1827602f45" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;UP4&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;(UTC<sp/>+4:00)<sp/>Azerbaijan<sp/>Standard<sp/>Time,<sp/>Samara<sp/>Time&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="39" refid="date__lang_8php_1a7795735f3608127d726a4fca3f87dc79" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;UP45&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;(UTC<sp/>+4:30)<sp/>Afghanistan&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="40" refid="date__lang_8php_1a08236ffa5ff4db9f2bc023f5256fead1" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;UP5&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;(UTC<sp/>+5:00)<sp/>Pakistan<sp/>Standard<sp/>Time,<sp/>Yekaterinburg<sp/>Time&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="41" refid="date__lang_8php_1aa55a1ebecdfbd5e0c7e40c921b90cad2" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;UP55&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;(UTC<sp/>+5:30)<sp/>Indian<sp/>Standard<sp/>Time,<sp/>Sri<sp/>Lanka<sp/>Time&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="42" refid="date__lang_8php_1abc4186fc3bc853aa036b5b11eeb52ecd" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;UP575&apos;</highlight><highlight class="normal">]<sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;(UTC<sp/>+5:45)<sp/>Nepal<sp/>Time&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="43" refid="date__lang_8php_1aaa655de76a3be875d9cedbf4a57244fa" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;UP6&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;(UTC<sp/>+6:00)<sp/>Bangladesh<sp/>Standard<sp/>Time,<sp/>Bhutan<sp/>Time,<sp/>Omsk<sp/>Time&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="44" refid="date__lang_8php_1af94f885b6e6c50abdf7672ddfa80774d" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;UP65&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;(UTC<sp/>+6:30)<sp/>Cocos<sp/>Islands,<sp/>Myanmar&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="45" refid="date__lang_8php_1aeedffaf1d3a16a41e881d85c420482ce" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;UP7&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;(UTC<sp/>+7:00)<sp/>Krasnoyarsk<sp/>Time,<sp/>Cambodia,<sp/>Laos,<sp/>Thailand,<sp/>Vietnam&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="46" refid="date__lang_8php_1a2a828a680158ca4cfb7fba60f35c67a3" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;UP8&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;(UTC<sp/>+8:00)<sp/>Australian<sp/>Western<sp/>Standard<sp/>Time,<sp/>Beijing<sp/>Time,<sp/>Irkutsk<sp/>Time&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="47" refid="date__lang_8php_1a486696d3d41c5d263a8b550903052ecb" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;UP875&apos;</highlight><highlight class="normal">]<sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;(UTC<sp/>+8:45)<sp/>Australian<sp/>Central<sp/>Western<sp/>Standard<sp/>Time&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="48" refid="date__lang_8php_1aa112bfd057369e5adb437c55457c9f79" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;UP9&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;(UTC<sp/>+9:00)<sp/>Japan<sp/>Standard<sp/>Time,<sp/>Korea<sp/>Standard<sp/>Time,<sp/>Yakutsk<sp/>Time&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="49" refid="date__lang_8php_1a96965669ac4830ab024b39a4ebb763f1" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;UP95&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;(UTC<sp/>+9:30)<sp/>Australian<sp/>Central<sp/>Standard<sp/>Time&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="50" refid="date__lang_8php_1ab55df5b1ac6457c16ea32f01070966f6" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;UP10&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;(UTC<sp/>+10:00)<sp/>Australian<sp/>Eastern<sp/>Standard<sp/>Time,<sp/>Vladivostok<sp/>Time&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="51" refid="date__lang_8php_1aeb674ae9d76fd6d0d9c9e77ed5a212e9" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;UP105&apos;</highlight><highlight class="normal">]<sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;(UTC<sp/>+10:30)<sp/>Lord<sp/>Howe<sp/>Island&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="52" refid="date__lang_8php_1a463ad4d63523352c17685f734b4ec7cc" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;UP11&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;(UTC<sp/>+11:00)<sp/>Magadan<sp/>Time,<sp/>Solomon<sp/>Islands,<sp/>Vanuatu&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="53" refid="date__lang_8php_1a46fa8957c8e606d1641bbcdd75cd2df0" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;UP115&apos;</highlight><highlight class="normal">]<sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;(UTC<sp/>+11:30)<sp/>Norfolk<sp/>Island&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="54" refid="date__lang_8php_1a18a8bb072c3fe7db99091538ce5168be" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;UP12&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;(UTC<sp/>+12:00)<sp/>Fiji,<sp/>Gilbert<sp/>Islands,<sp/>Kamchatka<sp/>Time,<sp/>New<sp/>Zealand<sp/>Standard<sp/>Time&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="55" refid="date__lang_8php_1a92e3c23bd9d963bbdfd21e39521bfdc1" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;UP1275&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;(UTC<sp/>+12:45)<sp/>Chatham<sp/>Islands<sp/>Standard<sp/>Time&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="56" refid="date__lang_8php_1ac197fec09ff547ca12a7fe3ffc5908ae" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;UP13&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;(UTC<sp/>+13:00)<sp/>Phoenix<sp/>Islands<sp/>Time,<sp/>Tonga&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="57" refid="date__lang_8php_1a50562230c497ebdba1f540d409110fce" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;UP14&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;(UTC<sp/>+14:00)<sp/>Line<sp/>Islands&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>End<sp/>of<sp/>file<sp/>date_lang.php<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Location:<sp/>./system/language/english/date_lang.php<sp/>*/</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/date_lang.php"/>
+  </compounddef>
+</doxygen>

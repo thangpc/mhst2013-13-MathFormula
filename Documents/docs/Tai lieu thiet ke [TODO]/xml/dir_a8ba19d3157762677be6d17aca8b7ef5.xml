@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_a8ba19d3157762677be6d17aca8b7ef5" kind="dir">
+    <compoundname>system/core</compoundname>
+    <innerfile refid="_benchmark_8php">Benchmark.php</innerfile>
+    <innerfile refid="_code_igniter_8php">CodeIgniter.php</innerfile>
+    <innerfile refid="_common_8php">Common.php</innerfile>
+    <innerfile refid="system_2core_2config_8php">Config.php</innerfile>
+    <innerfile refid="_controller_8php">Controller.php</innerfile>
+    <innerfile refid="_exceptions_8php">Exceptions.php</innerfile>
+    <innerfile refid="system_2core_2hooks_8php">Hooks.php</innerfile>
+    <innerfile refid="_input_8php">Input.php</innerfile>
+    <innerfile refid="_lang_8php">Lang.php</innerfile>
+    <innerfile refid="_loader_8php">Loader.php</innerfile>
+    <innerfile refid="_model_8php">Model.php</innerfile>
+    <innerfile refid="_output_8php">Output.php</innerfile>
+    <innerfile refid="_router_8php">Router.php</innerfile>
+    <innerfile refid="_security_8php">Security.php</innerfile>
+    <innerfile refid="_u_r_i_8php">URI.php</innerfile>
+    <innerfile refid="_utf8_8php">Utf8.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/"/>
+  </compounddef>
+</doxygen>

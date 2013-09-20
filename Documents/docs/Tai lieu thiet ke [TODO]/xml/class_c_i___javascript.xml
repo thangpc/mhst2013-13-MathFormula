@@ -1,0 +1,1652 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_c_i___javascript" kind="class" prot="public">
+    <compoundname>CI_Javascript</compoundname>
+    <derivedcompoundref refid="class_c_i___jquery" prot="public" virt="non-virtual">CI_Jquery</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_c_i___javascript_1a1ade0f4214435ac22074136db49cc257" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$_javascript_location</definition>
+        <argsstring></argsstring>
+        <name>$_javascript_location</name>
+        <initializer>= &apos;js&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" line="29" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_i___javascript_1a568ecdb0d73d2a870f33189739922a50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>($params=array())</argsstring>
+        <name>__construct</name>
+        <param>
+          <declname>$params</declname>
+          <defval>array()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" line="31" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" bodystart="31" bodyend="53"/>
+        <references refid="_code_igniter_8php_1a185483844bd20a0e80955460d66d2199" compoundref="_code_igniter_8php" startline="231" endline="398">get_instance</references>
+        <references refid="autoload_8php_1ab562c5bbb18f14d6b6b7014d9166625d" compoundref="autoload_8php" startline="40">$autoload</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___javascript_1a6125f6eca076179902d891ede8aaa79c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>blur</definition>
+        <argsstring>($element= &apos;this&apos;, $js= &apos;&apos;)</argsstring>
+        <name>blur</name>
+        <param>
+          <declname>$element</declname>
+          <defval>&apos;this&apos;</defval>
+        </param>
+        <param>
+          <declname>$js</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Blur</para><para>Outputs a javascript library blur event</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The element to attach the event to </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The code to execute </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" line="69" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" bodystart="69" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___javascript_1aa091633b134b81e4caf9d0eee0bf3299" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>change</definition>
+        <argsstring>($element= &apos;this&apos;, $js= &apos;&apos;)</argsstring>
+        <name>change</name>
+        <param>
+          <declname>$element</declname>
+          <defval>&apos;this&apos;</defval>
+        </param>
+        <param>
+          <declname>$js</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Change</para><para>Outputs a javascript library change event</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The element to attach the event to </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The code to execute </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" line="86" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" bodystart="86" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___javascript_1a6048b9a0f28be2dc60498a7284aba2af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>click</definition>
+        <argsstring>($element= &apos;this&apos;, $js= &apos;&apos;, $ret_false=TRUE)</argsstring>
+        <name>click</name>
+        <param>
+          <declname>$element</declname>
+          <defval>&apos;this&apos;</defval>
+        </param>
+        <param>
+          <declname>$js</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$ret_false</declname>
+          <defval>TRUE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Click</para><para>Outputs a javascript library click event</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The element to attach the event to </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The code to execute </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>boolean</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>whether or not to return false </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" line="104" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" bodystart="104" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___javascript_1a83698e9e3b9996852589c39b5eb136af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>dblclick</definition>
+        <argsstring>($element= &apos;this&apos;, $js= &apos;&apos;)</argsstring>
+        <name>dblclick</name>
+        <param>
+          <declname>$element</declname>
+          <defval>&apos;this&apos;</defval>
+        </param>
+        <param>
+          <declname>$js</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Double Click</para><para>Outputs a javascript library dblclick event</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The element to attach the event to </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The code to execute </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" line="121" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" bodystart="121" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___javascript_1a1c84a9a14d971e03d13f5c4e10e6c79a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>error</definition>
+        <argsstring>($element= &apos;this&apos;, $js= &apos;&apos;)</argsstring>
+        <name>error</name>
+        <param>
+          <declname>$element</declname>
+          <defval>&apos;this&apos;</defval>
+        </param>
+        <param>
+          <declname>$js</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Error</para><para>Outputs a javascript library error event</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The element to attach the event to </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The code to execute </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" line="138" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" bodystart="138" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___javascript_1a84f8cd6221f58c5ad22bf5408f259b81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>focus</definition>
+        <argsstring>($element= &apos;this&apos;, $js= &apos;&apos;)</argsstring>
+        <name>focus</name>
+        <param>
+          <declname>$element</declname>
+          <defval>&apos;this&apos;</defval>
+        </param>
+        <param>
+          <declname>$js</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Focus</para><para>Outputs a javascript library focus event</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The element to attach the event to </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The code to execute </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" line="155" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" bodystart="155" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___javascript_1ab699260782310abba39faf37c2866c48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>hover</definition>
+        <argsstring>($element= &apos;this&apos;, $over, $out)</argsstring>
+        <name>hover</name>
+        <param>
+          <declname>$element</declname>
+          <defval>&apos;this&apos;</defval>
+        </param>
+        <param>
+          <declname>$over</declname>
+        </param>
+        <param>
+          <declname>$out</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Hover</para><para>Outputs a javascript library hover event</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- element </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Javascript code for mouse over </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Javascript code for mouse out </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" line="173" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" bodystart="173" bodyend="176"/>
+        <referencedby refid="class_c_i___jquery_1a15c7aa190a2393ebd888da2a6a612f6c" compoundref="_jquery_8php" startline="753" endline="767">CI_Jquery\_zebraTables</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___javascript_1ae1b580396f9e7b3eb3018946e37b64a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>keydown</definition>
+        <argsstring>($element= &apos;this&apos;, $js= &apos;&apos;)</argsstring>
+        <name>keydown</name>
+        <param>
+          <declname>$element</declname>
+          <defval>&apos;this&apos;</defval>
+        </param>
+        <param>
+          <declname>$js</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Keydown</para><para>Outputs a javascript library keydown event</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The element to attach the event to </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The code to execute </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" line="190" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" bodystart="190" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___javascript_1a96655359803d164f26ead21db2980f32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>keyup</definition>
+        <argsstring>($element= &apos;this&apos;, $js= &apos;&apos;)</argsstring>
+        <name>keyup</name>
+        <param>
+          <declname>$element</declname>
+          <defval>&apos;this&apos;</defval>
+        </param>
+        <param>
+          <declname>$js</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Keyup</para><para>Outputs a javascript library keydown event</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The element to attach the event to </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The code to execute </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" line="207" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" bodystart="207" bodyend="210"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___javascript_1a27f32c982522ffd8d4224131757903b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>load</definition>
+        <argsstring>($element= &apos;this&apos;, $js= &apos;&apos;)</argsstring>
+        <name>load</name>
+        <param>
+          <declname>$element</declname>
+          <defval>&apos;this&apos;</defval>
+        </param>
+        <param>
+          <declname>$js</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Load</para><para>Outputs a javascript library load event</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The element to attach the event to </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The code to execute </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" line="224" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" bodystart="224" bodyend="227"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___javascript_1aa9e323abc6f90ab1db1aad2d7eb14634" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>mousedown</definition>
+        <argsstring>($element= &apos;this&apos;, $js= &apos;&apos;)</argsstring>
+        <name>mousedown</name>
+        <param>
+          <declname>$element</declname>
+          <defval>&apos;this&apos;</defval>
+        </param>
+        <param>
+          <declname>$js</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Mousedown</para><para>Outputs a javascript library mousedown event</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The element to attach the event to </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The code to execute </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" line="241" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" bodystart="241" bodyend="244"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___javascript_1a2ad52a2253eef38cf959f3d102747e43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>mouseout</definition>
+        <argsstring>($element= &apos;this&apos;, $js= &apos;&apos;)</argsstring>
+        <name>mouseout</name>
+        <param>
+          <declname>$element</declname>
+          <defval>&apos;this&apos;</defval>
+        </param>
+        <param>
+          <declname>$js</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Mouse Out</para><para>Outputs a javascript library mouseout event</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The element to attach the event to </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The code to execute </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" line="258" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" bodystart="258" bodyend="261"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___javascript_1a9bd9c5ff9af4f84698298d1b5c7d24d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>mouseover</definition>
+        <argsstring>($element= &apos;this&apos;, $js= &apos;&apos;)</argsstring>
+        <name>mouseover</name>
+        <param>
+          <declname>$element</declname>
+          <defval>&apos;this&apos;</defval>
+        </param>
+        <param>
+          <declname>$js</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Mouse Over</para><para>Outputs a javascript library mouseover event</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The element to attach the event to </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The code to execute </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" line="275" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" bodystart="275" bodyend="278"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___javascript_1aacc570d2bf7bb4aff0201ca8cdeb6944" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>mouseup</definition>
+        <argsstring>($element= &apos;this&apos;, $js= &apos;&apos;)</argsstring>
+        <name>mouseup</name>
+        <param>
+          <declname>$element</declname>
+          <defval>&apos;this&apos;</defval>
+        </param>
+        <param>
+          <declname>$js</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Mouseup</para><para>Outputs a javascript library mouseup event</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The element to attach the event to </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The code to execute </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" line="292" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" bodystart="292" bodyend="295"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___javascript_1a95bc25e9063b14d257e97e4b205073ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>output</definition>
+        <argsstring>($js)</argsstring>
+        <name>output</name>
+        <param>
+          <declname>$js</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Output</para><para>Outputs the called javascript to the screen</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The code to output </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" line="308" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" bodystart="308" bodyend="311"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___javascript_1a00997e6137ed7dc0de0159ed143a107b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ready</definition>
+        <argsstring>($js)</argsstring>
+        <name>ready</name>
+        <param>
+          <declname>$js</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Ready</para><para>Outputs a javascript library mouseup event</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The element to attach the event to </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The code to execute </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" line="325" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" bodystart="325" bodyend="328"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___javascript_1a0469e725486d858e32cd09dc0d70e793" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>resize</definition>
+        <argsstring>($element= &apos;this&apos;, $js= &apos;&apos;)</argsstring>
+        <name>resize</name>
+        <param>
+          <declname>$element</declname>
+          <defval>&apos;this&apos;</defval>
+        </param>
+        <param>
+          <declname>$js</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resize</para><para>Outputs a javascript library resize event</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The element to attach the event to </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The code to execute </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" line="342" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" bodystart="342" bodyend="345"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___javascript_1a97e4228d9140645446f998f61e86af39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>scroll</definition>
+        <argsstring>($element= &apos;this&apos;, $js= &apos;&apos;)</argsstring>
+        <name>scroll</name>
+        <param>
+          <declname>$element</declname>
+          <defval>&apos;this&apos;</defval>
+        </param>
+        <param>
+          <declname>$js</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Scroll</para><para>Outputs a javascript library scroll event</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The element to attach the event to </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The code to execute </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" line="359" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" bodystart="359" bodyend="362"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___javascript_1ad2978e51b7105fac8b8e4d84ea8ad6b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>unload</definition>
+        <argsstring>($element= &apos;this&apos;, $js= &apos;&apos;)</argsstring>
+        <name>unload</name>
+        <param>
+          <declname>$element</declname>
+          <defval>&apos;this&apos;</defval>
+        </param>
+        <param>
+          <declname>$js</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Unload</para><para>Outputs a javascript library unload event</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The element to attach the event to </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The code to execute </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" line="376" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" bodystart="376" bodyend="379"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___javascript_1ac303e5ea1bff16e56b78e0e079c4f093" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>addClass</definition>
+        <argsstring>($element= &apos;this&apos;, $class= &apos;&apos;)</argsstring>
+        <name>addClass</name>
+        <param>
+          <declname>$element</declname>
+          <defval>&apos;this&apos;</defval>
+        </param>
+        <param>
+          <declname>$class</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add Class</para><para>Outputs a javascript library addClass event</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- element </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Class to add </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" line="396" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" bodystart="396" bodyend="399"/>
+        <references refid="_code_igniter_8php_1a252ba022809910ea710a068fc1bab657" compoundref="_code_igniter_8php" startline="264">$class</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___javascript_1a55cfc996541b0f600762709fc300c5db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>animate</definition>
+        <argsstring>($element= &apos;this&apos;, $params=array(), $speed= &apos;&apos;, $extra= &apos;&apos;)</argsstring>
+        <name>animate</name>
+        <param>
+          <declname>$element</declname>
+          <defval>&apos;this&apos;</defval>
+        </param>
+        <param>
+          <declname>$params</declname>
+          <defval>array()</defval>
+        </param>
+        <param>
+          <declname>$speed</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$extra</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Animate</para><para>Outputs a javascript library animate event</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- element </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- One of &apos;slow&apos;, &apos;normal&apos;, &apos;fast&apos;, or time in milliseconds </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Javascript callback function </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" line="414" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" bodystart="414" bodyend="417"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___javascript_1a6c5bf9d34bbf53e47650a410697a547c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>fadeIn</definition>
+        <argsstring>($element= &apos;this&apos;, $speed= &apos;&apos;, $callback= &apos;&apos;)</argsstring>
+        <name>fadeIn</name>
+        <param>
+          <declname>$element</declname>
+          <defval>&apos;this&apos;</defval>
+        </param>
+        <param>
+          <declname>$speed</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$callback</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fade In</para><para>Outputs a javascript library hide event</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- element </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- One of &apos;slow&apos;, &apos;normal&apos;, &apos;fast&apos;, or time in milliseconds </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Javascript callback function </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" line="432" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" bodystart="432" bodyend="435"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___javascript_1a4afea7e253d0005b0246c54454af8e08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>fadeOut</definition>
+        <argsstring>($element= &apos;this&apos;, $speed= &apos;&apos;, $callback= &apos;&apos;)</argsstring>
+        <name>fadeOut</name>
+        <param>
+          <declname>$element</declname>
+          <defval>&apos;this&apos;</defval>
+        </param>
+        <param>
+          <declname>$speed</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$callback</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fade Out</para><para>Outputs a javascript library hide event</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- element </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- One of &apos;slow&apos;, &apos;normal&apos;, &apos;fast&apos;, or time in milliseconds </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Javascript callback function </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" line="450" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" bodystart="450" bodyend="453"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___javascript_1a03921f68a26b4fa42ae74e9539b9f8cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>slideUp</definition>
+        <argsstring>($element= &apos;this&apos;, $speed= &apos;&apos;, $callback= &apos;&apos;)</argsstring>
+        <name>slideUp</name>
+        <param>
+          <declname>$element</declname>
+          <defval>&apos;this&apos;</defval>
+        </param>
+        <param>
+          <declname>$speed</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$callback</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Slide Up</para><para>Outputs a javascript library slideUp event</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- element </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- One of &apos;slow&apos;, &apos;normal&apos;, &apos;fast&apos;, or time in milliseconds </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Javascript callback function </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" line="467" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" bodystart="467" bodyend="471"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___javascript_1a23b05acfb5f984950d0f87dfcea02511" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>removeClass</definition>
+        <argsstring>($element= &apos;this&apos;, $class= &apos;&apos;)</argsstring>
+        <name>removeClass</name>
+        <param>
+          <declname>$element</declname>
+          <defval>&apos;this&apos;</defval>
+        </param>
+        <param>
+          <declname>$class</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Remove Class</para><para>Outputs a javascript library removeClass event</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- element </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Class to add </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" line="485" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" bodystart="485" bodyend="488"/>
+        <references refid="_code_igniter_8php_1a252ba022809910ea710a068fc1bab657" compoundref="_code_igniter_8php" startline="264">$class</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___javascript_1a77761c7dd96b9fc3ce4f747fb39bea23" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>slideDown</definition>
+        <argsstring>($element= &apos;this&apos;, $speed= &apos;&apos;, $callback= &apos;&apos;)</argsstring>
+        <name>slideDown</name>
+        <param>
+          <declname>$element</declname>
+          <defval>&apos;this&apos;</defval>
+        </param>
+        <param>
+          <declname>$speed</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$callback</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Slide Down</para><para>Outputs a javascript library slideDown event</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- element </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- One of &apos;slow&apos;, &apos;normal&apos;, &apos;fast&apos;, or time in milliseconds </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Javascript callback function </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" line="503" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" bodystart="503" bodyend="506"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___javascript_1acd13a8b79a9b4e4ed5e1b9c4f6051ca4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>slideToggle</definition>
+        <argsstring>($element= &apos;this&apos;, $speed= &apos;&apos;, $callback= &apos;&apos;)</argsstring>
+        <name>slideToggle</name>
+        <param>
+          <declname>$element</declname>
+          <defval>&apos;this&apos;</defval>
+        </param>
+        <param>
+          <declname>$speed</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$callback</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Slide Toggle</para><para>Outputs a javascript library slideToggle event</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- element </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- One of &apos;slow&apos;, &apos;normal&apos;, &apos;fast&apos;, or time in milliseconds </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Javascript callback function </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" line="521" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" bodystart="521" bodyend="525"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___javascript_1a1de0e2ddc6b45ec4dc5eafcadfcc0791" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>hide</definition>
+        <argsstring>($element= &apos;this&apos;, $speed= &apos;&apos;, $callback= &apos;&apos;)</argsstring>
+        <name>hide</name>
+        <param>
+          <declname>$element</declname>
+          <defval>&apos;this&apos;</defval>
+        </param>
+        <param>
+          <declname>$speed</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$callback</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Hide</para><para>Outputs a javascript library hide action</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- element </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- One of &apos;slow&apos;, &apos;normal&apos;, &apos;fast&apos;, or time in milliseconds </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Javascript callback function </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" line="540" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" bodystart="540" bodyend="543"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___javascript_1a43a546a5662b09af35c814f3c996a9d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>toggle</definition>
+        <argsstring>($element= &apos;this&apos;)</argsstring>
+        <name>toggle</name>
+        <param>
+          <declname>$element</declname>
+          <defval>&apos;this&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Toggle</para><para>Outputs a javascript library toggle event</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- element </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" line="556" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" bodystart="556" bodyend="560"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___javascript_1a3fb1ee904583a1b7532f54632b278e53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>toggleClass</definition>
+        <argsstring>($element= &apos;this&apos;, $class=&apos;&apos;)</argsstring>
+        <name>toggleClass</name>
+        <param>
+          <declname>$element</declname>
+          <defval>&apos;this&apos;</defval>
+        </param>
+        <param>
+          <declname>$class</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Toggle Class</para><para>Outputs a javascript library toggle class event</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- element </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" line="573" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" bodystart="573" bodyend="576"/>
+        <references refid="_code_igniter_8php_1a252ba022809910ea710a068fc1bab657" compoundref="_code_igniter_8php" startline="264">$class</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___javascript_1aa025222c28ab975bc989225f76d7d9f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>show</definition>
+        <argsstring>($element= &apos;this&apos;, $speed= &apos;&apos;, $callback= &apos;&apos;)</argsstring>
+        <name>show</name>
+        <param>
+          <declname>$element</declname>
+          <defval>&apos;this&apos;</defval>
+        </param>
+        <param>
+          <declname>$speed</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$callback</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Show</para><para>Outputs a javascript library show event</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- element </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- One of &apos;slow&apos;, &apos;normal&apos;, &apos;fast&apos;, or time in milliseconds </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Javascript callback function </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" line="591" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" bodystart="591" bodyend="594"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___javascript_1ac903bb7461504041c392c06f23fc27b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>compile</definition>
+        <argsstring>($view_var= &apos;script_foot&apos;, $script_tags=TRUE)</argsstring>
+        <name>compile</name>
+        <param>
+          <declname>$view_var</declname>
+          <defval>&apos;script_foot&apos;</defval>
+        </param>
+        <param>
+          <declname>$script_tags</declname>
+          <defval>TRUE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compile</para><para>gather together all script needing to be output</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The element to attach the event to </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" line="608" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" bodystart="608" bodyend="611"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___javascript_1a4e3a7e7ffc20e8f578a0d66f52def10d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>clear_compile</definition>
+        <argsstring>()</argsstring>
+        <name>clear_compile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Clear Compile</para><para>Clears any previous javascript collected for output</para><para>public <simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" line="621" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" bodystart="621" bodyend="624"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___javascript_1a3466ab14e2cea4f7d82050e789c2b453" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>external</definition>
+        <argsstring>($external_file= &apos;&apos;, $relative=FALSE)</argsstring>
+        <name>external</name>
+        <param>
+          <declname>$external_file</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$relative</declname>
+          <defval>FALSE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>External</para><para>Outputs a &lt;script&gt; tag with the source as an external js file</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The element to attach the event to </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" line="637" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" bodystart="637" bodyend="666"/>
+        <references refid="class_c_i___javascript_1a85bfd18764ef4d0fdbbb3443c89c58ae" compoundref="_javascript_8php" startline="700" endline="705">_open_script</references>
+        <references refid="class_c_i___javascript_1a83a39b1edd6e0ec9bd6c93de99a0d4d8" compoundref="_javascript_8php" startline="718" endline="721">_close_script</references>
+        <referencedby refid="class_c_i___jquery_1a951696f5f5092fee0d2aba1f8602b419" compoundref="_jquery_8php" startline="807" endline="810">CI_Jquery\modal</referencedby>
+        <referencedby refid="class_c_i___jquery_1a42898d255de9b25100e042825a1c4633" compoundref="_jquery_8php" startline="822" endline="825">CI_Jquery\effect</referencedby>
+        <referencedby refid="class_c_i___jquery_1a25a0d7f0c18dac193aa2c67908c85c89" compoundref="_jquery_8php" startline="837" endline="840">CI_Jquery\plugin</referencedby>
+        <referencedby refid="class_c_i___jquery_1ad2d6d964ed10597e0223f883c553cf0c" compoundref="_jquery_8php" startline="852" endline="855">CI_Jquery\ui</referencedby>
+        <referencedby refid="class_c_i___jquery_1a9ea7c49c96462a9ee8f8242c257937ac" compoundref="_jquery_8php" startline="1013" endline="1018">CI_Jquery\script</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___javascript_1aeecd5d85370a4037c00dba82960816e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>inline</definition>
+        <argsstring>($script, $cdata=TRUE)</argsstring>
+        <name>inline</name>
+        <param>
+          <declname>$script</declname>
+        </param>
+        <param>
+          <declname>$cdata</declname>
+          <defval>TRUE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inline</para><para>Outputs a &lt;script&gt; tag</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The element to attach the event to </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>boolean</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>If a CDATA section should be added </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" line="680" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" bodystart="680" bodyend="687"/>
+        <references refid="class_c_i___javascript_1a85bfd18764ef4d0fdbbb3443c89c58ae" compoundref="_javascript_8php" startline="700" endline="705">_open_script</references>
+        <references refid="class_c_i___javascript_1a83a39b1edd6e0ec9bd6c93de99a0d4d8" compoundref="_javascript_8php" startline="718" endline="721">_close_script</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___javascript_1a85bfd18764ef4d0fdbbb3443c89c58ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_open_script</definition>
+        <argsstring>($src= &apos;&apos;)</argsstring>
+        <name>_open_script</name>
+        <param>
+          <declname>$src</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Open Script</para><para>Outputs an opening &lt;script&gt;</para><para>private <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" line="700" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" bodystart="700" bodyend="705"/>
+        <referencedby refid="class_c_i___javascript_1a3466ab14e2cea4f7d82050e789c2b453" compoundref="_javascript_8php" startline="637" endline="666">external</referencedby>
+        <referencedby refid="class_c_i___javascript_1aeecd5d85370a4037c00dba82960816e1" compoundref="_javascript_8php" startline="680" endline="687">inline</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___javascript_1a83a39b1edd6e0ec9bd6c93de99a0d4d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_close_script</definition>
+        <argsstring>($extra=&quot;\n&quot;)</argsstring>
+        <name>_close_script</name>
+        <param>
+          <declname>$extra</declname>
+          <defval>&quot;\n&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Close Script</para><para>Outputs an closing &lt;/script&gt;</para><para>private <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" line="718" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" bodystart="718" bodyend="721"/>
+        <referencedby refid="class_c_i___javascript_1a3466ab14e2cea4f7d82050e789c2b453" compoundref="_javascript_8php" startline="637" endline="666">external</referencedby>
+        <referencedby refid="class_c_i___javascript_1aeecd5d85370a4037c00dba82960816e1" compoundref="_javascript_8php" startline="680" endline="687">inline</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___javascript_1af6625c6fef0852c0e89db2cef6a21d29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>update</definition>
+        <argsstring>($element= &apos;this&apos;, $speed= &apos;&apos;, $callback= &apos;&apos;)</argsstring>
+        <name>update</name>
+        <param>
+          <declname>$element</declname>
+          <defval>&apos;this&apos;</defval>
+        </param>
+        <param>
+          <declname>$speed</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$callback</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Update</para><para>Outputs a javascript library slideDown event</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- element </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- One of &apos;slow&apos;, &apos;normal&apos;, &apos;fast&apos;, or time in milliseconds </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Javascript callback function </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" line="741" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" bodystart="741" bodyend="744"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___javascript_1ae60bb50a1e4cbbce1f6c29a73fad5e07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>generate_json</definition>
+        <argsstring>($result=NULL, $match_array_type=FALSE)</argsstring>
+        <name>generate_json</name>
+        <param>
+          <declname>$result</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <declname>$match_array_type</declname>
+          <defval>FALSE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generate JSON</para><para>Can be passed a database result or associative array and returns a JSON formatted string</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mixed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>result set or array </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bool</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>match array types (defaults to objects) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string a json formatted string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" line="757" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" bodystart="757" bodyend="809"/>
+        <references refid="class_c_i___javascript_1a10b9bc25e0d84b0dacb1bd7b09f3c0be" compoundref="_javascript_8php" startline="846" endline="864">_prep_args</references>
+        <references refid="class_c_i___javascript_1aa37c9b1b7e2898fe21a0deaace09b156" compoundref="_javascript_8php" startline="822" endline="833">_is_associative_array</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___javascript_1aa37c9b1b7e2898fe21a0deaace09b156" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_is_associative_array</definition>
+        <argsstring>($arr)</argsstring>
+        <name>_is_associative_array</name>
+        <param>
+          <declname>$arr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Is associative array</para><para>Checks for an associative array</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>type </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" line="822" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" bodystart="822" bodyend="833"/>
+        <referencedby refid="class_c_i___javascript_1ae60bb50a1e4cbbce1f6c29a73fad5e07" compoundref="_javascript_8php" startline="757" endline="809">generate_json</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___javascript_1a10b9bc25e0d84b0dacb1bd7b09f3c0be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_prep_args</definition>
+        <argsstring>($result, $is_key=FALSE)</argsstring>
+        <name>_prep_args</name>
+        <param>
+          <declname>$result</declname>
+        </param>
+        <param>
+          <declname>$is_key</declname>
+          <defval>FALSE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Prep Args</para><para>Ensures a standard json value and escapes values</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>type </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" line="846" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" bodystart="846" bodyend="864"/>
+        <referencedby refid="class_c_i___javascript_1ae60bb50a1e4cbbce1f6c29a73fad5e07" compoundref="_javascript_8php" startline="757" endline="809">generate_json</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="327">
+        <label>CI_Jquery</label>
+        <link refid="class_c_i___jquery"/>
+        <childnode refid="326" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="326">
+        <label>CI_Javascript</label>
+        <link refid="class_c_i___javascript"/>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" line="27" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Javascript.php" bodystart="27" bodyend="867"/>
+    <listofallmembers>
+      <member refid="class_c_i___javascript_1a1ade0f4214435ac22074136db49cc257" prot="public" virt="non-virtual"><scope>CI_Javascript</scope><name>$_javascript_location</name></member>
+      <member refid="class_c_i___javascript_1a568ecdb0d73d2a870f33189739922a50" prot="public" virt="non-virtual"><scope>CI_Javascript</scope><name>__construct</name></member>
+      <member refid="class_c_i___javascript_1a83a39b1edd6e0ec9bd6c93de99a0d4d8" prot="public" virt="non-virtual"><scope>CI_Javascript</scope><name>_close_script</name></member>
+      <member refid="class_c_i___javascript_1aa37c9b1b7e2898fe21a0deaace09b156" prot="public" virt="non-virtual"><scope>CI_Javascript</scope><name>_is_associative_array</name></member>
+      <member refid="class_c_i___javascript_1a85bfd18764ef4d0fdbbb3443c89c58ae" prot="public" virt="non-virtual"><scope>CI_Javascript</scope><name>_open_script</name></member>
+      <member refid="class_c_i___javascript_1a10b9bc25e0d84b0dacb1bd7b09f3c0be" prot="public" virt="non-virtual"><scope>CI_Javascript</scope><name>_prep_args</name></member>
+      <member refid="class_c_i___javascript_1ac303e5ea1bff16e56b78e0e079c4f093" prot="public" virt="non-virtual"><scope>CI_Javascript</scope><name>addClass</name></member>
+      <member refid="class_c_i___javascript_1a55cfc996541b0f600762709fc300c5db" prot="public" virt="non-virtual"><scope>CI_Javascript</scope><name>animate</name></member>
+      <member refid="class_c_i___javascript_1a6125f6eca076179902d891ede8aaa79c" prot="public" virt="non-virtual"><scope>CI_Javascript</scope><name>blur</name></member>
+      <member refid="class_c_i___javascript_1aa091633b134b81e4caf9d0eee0bf3299" prot="public" virt="non-virtual"><scope>CI_Javascript</scope><name>change</name></member>
+      <member refid="class_c_i___javascript_1a4e3a7e7ffc20e8f578a0d66f52def10d" prot="public" virt="non-virtual"><scope>CI_Javascript</scope><name>clear_compile</name></member>
+      <member refid="class_c_i___javascript_1a6048b9a0f28be2dc60498a7284aba2af" prot="public" virt="non-virtual"><scope>CI_Javascript</scope><name>click</name></member>
+      <member refid="class_c_i___javascript_1ac903bb7461504041c392c06f23fc27b8" prot="public" virt="non-virtual"><scope>CI_Javascript</scope><name>compile</name></member>
+      <member refid="class_c_i___javascript_1a83698e9e3b9996852589c39b5eb136af" prot="public" virt="non-virtual"><scope>CI_Javascript</scope><name>dblclick</name></member>
+      <member refid="class_c_i___javascript_1a1c84a9a14d971e03d13f5c4e10e6c79a" prot="public" virt="non-virtual"><scope>CI_Javascript</scope><name>error</name></member>
+      <member refid="class_c_i___javascript_1a3466ab14e2cea4f7d82050e789c2b453" prot="public" virt="non-virtual"><scope>CI_Javascript</scope><name>external</name></member>
+      <member refid="class_c_i___javascript_1a6c5bf9d34bbf53e47650a410697a547c" prot="public" virt="non-virtual"><scope>CI_Javascript</scope><name>fadeIn</name></member>
+      <member refid="class_c_i___javascript_1a4afea7e253d0005b0246c54454af8e08" prot="public" virt="non-virtual"><scope>CI_Javascript</scope><name>fadeOut</name></member>
+      <member refid="class_c_i___javascript_1a84f8cd6221f58c5ad22bf5408f259b81" prot="public" virt="non-virtual"><scope>CI_Javascript</scope><name>focus</name></member>
+      <member refid="class_c_i___javascript_1ae60bb50a1e4cbbce1f6c29a73fad5e07" prot="public" virt="non-virtual"><scope>CI_Javascript</scope><name>generate_json</name></member>
+      <member refid="class_c_i___javascript_1a1de0e2ddc6b45ec4dc5eafcadfcc0791" prot="public" virt="non-virtual"><scope>CI_Javascript</scope><name>hide</name></member>
+      <member refid="class_c_i___javascript_1ab699260782310abba39faf37c2866c48" prot="public" virt="non-virtual"><scope>CI_Javascript</scope><name>hover</name></member>
+      <member refid="class_c_i___javascript_1aeecd5d85370a4037c00dba82960816e1" prot="public" virt="non-virtual"><scope>CI_Javascript</scope><name>inline</name></member>
+      <member refid="class_c_i___javascript_1ae1b580396f9e7b3eb3018946e37b64a3" prot="public" virt="non-virtual"><scope>CI_Javascript</scope><name>keydown</name></member>
+      <member refid="class_c_i___javascript_1a96655359803d164f26ead21db2980f32" prot="public" virt="non-virtual"><scope>CI_Javascript</scope><name>keyup</name></member>
+      <member refid="class_c_i___javascript_1a27f32c982522ffd8d4224131757903b8" prot="public" virt="non-virtual"><scope>CI_Javascript</scope><name>load</name></member>
+      <member refid="class_c_i___javascript_1aa9e323abc6f90ab1db1aad2d7eb14634" prot="public" virt="non-virtual"><scope>CI_Javascript</scope><name>mousedown</name></member>
+      <member refid="class_c_i___javascript_1a2ad52a2253eef38cf959f3d102747e43" prot="public" virt="non-virtual"><scope>CI_Javascript</scope><name>mouseout</name></member>
+      <member refid="class_c_i___javascript_1a9bd9c5ff9af4f84698298d1b5c7d24d7" prot="public" virt="non-virtual"><scope>CI_Javascript</scope><name>mouseover</name></member>
+      <member refid="class_c_i___javascript_1aacc570d2bf7bb4aff0201ca8cdeb6944" prot="public" virt="non-virtual"><scope>CI_Javascript</scope><name>mouseup</name></member>
+      <member refid="class_c_i___javascript_1a95bc25e9063b14d257e97e4b205073ba" prot="public" virt="non-virtual"><scope>CI_Javascript</scope><name>output</name></member>
+      <member refid="class_c_i___javascript_1a00997e6137ed7dc0de0159ed143a107b" prot="public" virt="non-virtual"><scope>CI_Javascript</scope><name>ready</name></member>
+      <member refid="class_c_i___javascript_1a23b05acfb5f984950d0f87dfcea02511" prot="public" virt="non-virtual"><scope>CI_Javascript</scope><name>removeClass</name></member>
+      <member refid="class_c_i___javascript_1a0469e725486d858e32cd09dc0d70e793" prot="public" virt="non-virtual"><scope>CI_Javascript</scope><name>resize</name></member>
+      <member refid="class_c_i___javascript_1a97e4228d9140645446f998f61e86af39" prot="public" virt="non-virtual"><scope>CI_Javascript</scope><name>scroll</name></member>
+      <member refid="class_c_i___javascript_1aa025222c28ab975bc989225f76d7d9f3" prot="public" virt="non-virtual"><scope>CI_Javascript</scope><name>show</name></member>
+      <member refid="class_c_i___javascript_1a77761c7dd96b9fc3ce4f747fb39bea23" prot="public" virt="non-virtual"><scope>CI_Javascript</scope><name>slideDown</name></member>
+      <member refid="class_c_i___javascript_1acd13a8b79a9b4e4ed5e1b9c4f6051ca4" prot="public" virt="non-virtual"><scope>CI_Javascript</scope><name>slideToggle</name></member>
+      <member refid="class_c_i___javascript_1a03921f68a26b4fa42ae74e9539b9f8cb" prot="public" virt="non-virtual"><scope>CI_Javascript</scope><name>slideUp</name></member>
+      <member refid="class_c_i___javascript_1a43a546a5662b09af35c814f3c996a9d6" prot="public" virt="non-virtual"><scope>CI_Javascript</scope><name>toggle</name></member>
+      <member refid="class_c_i___javascript_1a3fb1ee904583a1b7532f54632b278e53" prot="public" virt="non-virtual"><scope>CI_Javascript</scope><name>toggleClass</name></member>
+      <member refid="class_c_i___javascript_1ad2978e51b7105fac8b8e4d84ea8ad6b8" prot="public" virt="non-virtual"><scope>CI_Javascript</scope><name>unload</name></member>
+      <member refid="class_c_i___javascript_1af6625c6fef0852c0e89db2cef6a21d29" prot="public" virt="non-virtual"><scope>CI_Javascript</scope><name>update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

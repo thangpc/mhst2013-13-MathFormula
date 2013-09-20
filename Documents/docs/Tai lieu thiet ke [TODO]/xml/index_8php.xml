@@ -1,0 +1,365 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="index_8php" kind="file">
+    <compoundname>index.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="index_8php_1ae873e5430c828eb3081abe7050a379b6" prot="public" static="no" mutable="no">
+        <type>switch(dirname(__FILE__)) <ref refid="jquery_8min_8js_1aa05f766c001696418ba8df7de77ddfc2" kindref="member">if</ref>(defined(&apos;ENVIRONMENT&apos;))</type>
+        <definition>if (defined(&apos;STDIN&apos;)) if (realpath($system_path)!==FALSE) $system_path</definition>
+        <argsstring></argsstring>
+        <name>$system_path</name>
+        <initializer>= &apos;system&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/index.php" line="72" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/index.php" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="index_8php_1ace4309eda0b92e3260b226079bc17909" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$application_folder</definition>
+        <argsstring></argsstring>
+        <name>$application_folder</name>
+        <initializer>= &apos;application&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/index.php" line="88" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/index.php" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="index_8php_1a428c045e64680e1582ba74161e441a1c" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const SELF(!is_dir($system_path))</definition>
+        <argsstring>(!is_dir($system_path))</argsstring>
+        <name>SELF</name>
+        <initializer>pathinfo(__FILE__, PATHINFO_BASENAME)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/index.php" line="176" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/index.php" bodystart="176" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="index_8php_1ad48706cc82e010be85f1398fb34c6510" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const EXT</definition>
+        <argsstring></argsstring>
+        <name>EXT</name>
+        <initializer>&apos;.php&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/index.php" line="180" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/index.php" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="index_8php_1ad39801cabfd338dc5524466fe793fda9" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const BASEPATH</definition>
+        <argsstring></argsstring>
+        <name>BASEPATH</name>
+        <initializer>str_replace(&quot;\\&quot;, &quot;/&quot;, $system_path)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/index.php" line="183" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/index.php" bodystart="183" bodyend="-1"/>
+        <referencedby refid="class_c_i___config_1a71e857f8dd38c230f1ce11bacf177ba8" compoundref="system_2core_2config_8php" startline="330" endline="334">CI_Config\system_url</referencedby>
+        <referencedby refid="class_c_i___loader_1a095c5d389db211932136b53f25f39685" compoundref="_loader_8php" startline="124" endline="133">CI_Loader\__construct</referencedby>
+        <referencedby refid="class_c_i___loader_1a22d288c451a7ebb77c814d21a1cb0a1c" compoundref="_loader_8php" startline="323" endline="347">CI_Loader\database</referencedby>
+        <referencedby refid="class_c_i___loader_1afca757331ddb1ee832af732a2f624882" compoundref="_loader_8php" startline="356" endline="374">CI_Loader\dbutil</referencedby>
+        <referencedby refid="class_c_i___loader_1a4e719447bdbd4829418772916630949c" compoundref="_loader_8php" startline="383" endline="397">CI_Loader\dbforge</referencedby>
+        <referencedby refid="class_c_i___loader_1a2da00ff269596262b62c0c6032b2996f" compoundref="_loader_8php" startline="493" endline="541">CI_Loader\helper</referencedby>
+        <referencedby refid="class_c_i___loader_1a4490a2a9bb42a8bfb57446b831544a6c" compoundref="_loader_8php" startline="611" endline="632">CI_Loader\driver</referencedby>
+        <referencedby refid="class_c_i___loader_1a201b769bd98ad90d37521dff960a6839" compoundref="_loader_8php" startline="687" endline="727">CI_Loader\remove_package_path</referencedby>
+        <referencedby refid="class_c_i___loader_1ad5e557570063bdce07595a06643d6b12" compoundref="_loader_8php" startline="879" endline="994">CI_Loader\_ci_load_class</referencedby>
+        <referencedby refid="_d_b_8php_1a187380ea48f71add22e585213d6aa6bf" compoundref="_d_b_8php" startline="27" endline="157">DB</referencedby>
+        <referencedby refid="class_c_i___d_b__driver_1a0bd509a0088f09f4bbfbcbbe78bc3547" compoundref="_d_b__driver_8php" startline="421" endline="432">CI_DB_driver\load_rdriver</referencedby>
+        <referencedby refid="class_c_i___d_b__driver_1a3991c9b589034f12f6fed26d83ac47e4" compoundref="_d_b__driver_8php" startline="1115" endline="1132">CI_DB_driver\_cache_init</referencedby>
+        <referencedby refid="class_c_i___d_b__driver_1a3ed7f13afef7c8883ad5a025416a19e4" compoundref="_d_b__driver_8php" startline="1162" endline="1199">CI_DB_driver\display_error</referencedby>
+        <referencedby refid="class_c_i___encrypt_1a0cd7cd589a363e34549991c27584b489" compoundref="_encrypt_8php" startline="521" endline="540">CI_Encrypt\sha1</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="index_8php_1ae486546e58b2603595efedf9f95b3926" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const FCPATH</definition>
+        <argsstring></argsstring>
+        <name>FCPATH</name>
+        <initializer>str_replace(<ref refid="index_8php_1a428c045e64680e1582ba74161e441a1c" kindref="member">SELF</ref>, &apos;&apos;, __FILE__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/index.php" line="186" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/index.php" bodystart="186" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="index_8php_1ab645ae0961792b1f2b4b83f89cb95fa5" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const SYSDIR</definition>
+        <argsstring></argsstring>
+        <name>SYSDIR</name>
+        <initializer>trim(strrchr(trim(<ref refid="index_8php_1ad39801cabfd338dc5524466fe793fda9" kindref="member">BASEPATH</ref>, &apos;/&apos;), &apos;/&apos;), &apos;/&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/index.php" line="189" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/index.php" bodystart="189" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="index_8php_1a949e0a4a1cdea0279f54348f205f993b" prot="public" static="no" mutable="no">
+        <type><ref refid="jquery_8min_8js_1aa05f766c001696418ba8df7de77ddfc2" kindref="member">if</ref>(is_dir($application_folder))</type>
+        <definition>if (is_dir($application_folder)) else</definition>
+        <argsstring></argsstring>
+        <name>else</name>
+        <initializer>{
+		<ref refid="jquery_8min_8js_1aa05f766c001696418ba8df7de77ddfc2" kindref="member">if</ref> ( ! is_dir(BASEPATH.$application_folder.&apos;/&apos;))
+		{
+			exit(&quot;Your application folder path does <ref refid="mathquill_8js_1ac1e1ab538c27d68cc2cbafea74e7412c" kindref="member">not</ref> appear <ref refid="mathquill_8js_1ae3622f38202b3532cd6eae25726945f8" kindref="member">to</ref> be set correctly. Please open the following file <ref refid="mathquill_8js_1ac39c488ee3bd6d675c340966d33495a7" kindref="member">and</ref> correct this: &quot;.SELF);
+		}
+
+		define(&apos;APPPATH&apos;, BASEPATH.$application_folder.&apos;/&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/index.php" line="197" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/index.php" bodystart="198" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal">date_default_timezone_set(</highlight><highlight class="stringliteral">&apos;Europe/Amsterdam&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*---------------------------------------------------------------</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>APPLICATION<sp/>ENVIRONMENT</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*---------------------------------------------------------------</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>You<sp/>can<sp/>load<sp/>different<sp/>configurations<sp/>depending<sp/>on<sp/>your</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>current<sp/>environment.<sp/>Setting<sp/>the<sp/>environment<sp/>also<sp/>influences</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>things<sp/>like<sp/>logging<sp/>and<sp/>error<sp/>reporting.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>This<sp/>can<sp/>be<sp/>set<sp/>to<sp/>anything,<sp/>but<sp/>default<sp/>usage<sp/>is:</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/>development</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/>testing</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/>production</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>NOTE:<sp/>If<sp/>you<sp/>change<sp/>these,<sp/>also<sp/>change<sp/>the<sp/>error_reporting()<sp/>code<sp/>below</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//auto<sp/>switch<sp/>debug<sp/>mode</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(dirname(__FILE__))<sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&apos;/Volumes/Data/www/pastebyme.com&apos;</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;ENVIRONMENT&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;development&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;ENVIRONMENT&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;production&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*---------------------------------------------------------------</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*<sp/>ERROR<sp/>REPORTING</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*---------------------------------------------------------------</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="40"><highlight class="comment"><sp/>*<sp/>Different<sp/>environments<sp/>will<sp/>require<sp/>different<sp/>levels<sp/>of<sp/>error<sp/>reporting.</highlight></codeline>
+<codeline lineno="41"><highlight class="comment"><sp/>*<sp/>By<sp/>default<sp/>development<sp/>will<sp/>show<sp/>errors<sp/>but<sp/>testing<sp/>and<sp/>live<sp/>will<sp/>hide<sp/>them.</highlight></codeline>
+<codeline lineno="42"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(defined(</highlight><highlight class="stringliteral">&apos;ENVIRONMENT&apos;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(ENVIRONMENT)</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&apos;development&apos;</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>error_reporting(E_ALL);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&apos;testing&apos;</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&apos;production&apos;</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>error_reporting(0);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>exit(</highlight><highlight class="stringliteral">&apos;The<sp/>application<sp/>environment<sp/>is<sp/>not<sp/>set<sp/>correctly.&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="63"><highlight class="comment"><sp/>*---------------------------------------------------------------</highlight></codeline>
+<codeline lineno="64"><highlight class="comment"><sp/>*<sp/>SYSTEM<sp/>FOLDER<sp/>NAME</highlight></codeline>
+<codeline lineno="65"><highlight class="comment"><sp/>*---------------------------------------------------------------</highlight></codeline>
+<codeline lineno="66"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="67"><highlight class="comment"><sp/>*<sp/>This<sp/>variable<sp/>must<sp/>contain<sp/>the<sp/>name<sp/>of<sp/>your<sp/>&quot;system&quot;<sp/>folder.</highlight></codeline>
+<codeline lineno="68"><highlight class="comment"><sp/>*<sp/>Include<sp/>the<sp/>path<sp/>if<sp/>the<sp/>folder<sp/>is<sp/>not<sp/>in<sp/>the<sp/>same<sp/><sp/>directory</highlight></codeline>
+<codeline lineno="69"><highlight class="comment"><sp/>*<sp/>as<sp/>this<sp/>file.</highlight></codeline>
+<codeline lineno="70"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="71"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="index_8php_1ae873e5430c828eb3081abe7050a379b6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="index_8php_1ae873e5430c828eb3081abe7050a379b6" kindref="member">$system_path</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;system&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="75"><highlight class="comment"><sp/>*---------------------------------------------------------------</highlight></codeline>
+<codeline lineno="76"><highlight class="comment"><sp/>*<sp/>APPLICATION<sp/>FOLDER<sp/>NAME</highlight></codeline>
+<codeline lineno="77"><highlight class="comment"><sp/>*---------------------------------------------------------------</highlight></codeline>
+<codeline lineno="78"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="79"><highlight class="comment"><sp/>*<sp/>If<sp/>you<sp/>want<sp/>this<sp/>front<sp/>controller<sp/>to<sp/>use<sp/>a<sp/>different<sp/>&quot;application&quot;</highlight></codeline>
+<codeline lineno="80"><highlight class="comment"><sp/>*<sp/>folder<sp/>then<sp/>the<sp/>default<sp/>one<sp/>you<sp/>can<sp/>set<sp/>its<sp/>name<sp/>here.<sp/>The<sp/>folder</highlight></codeline>
+<codeline lineno="81"><highlight class="comment"><sp/>*<sp/>can<sp/>also<sp/>be<sp/>renamed<sp/>or<sp/>relocated<sp/>anywhere<sp/>on<sp/>your<sp/>server.<sp/><sp/>If</highlight></codeline>
+<codeline lineno="82"><highlight class="comment"><sp/>*<sp/>you<sp/>do,<sp/>use<sp/>a<sp/>full<sp/>server<sp/>path.<sp/>For<sp/>more<sp/>info<sp/>please<sp/>see<sp/>the<sp/>user<sp/>guide:</highlight></codeline>
+<codeline lineno="83"><highlight class="comment"><sp/>*<sp/>http://codeigniter.com/user_guide/general/managing_apps.html</highlight></codeline>
+<codeline lineno="84"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="85"><highlight class="comment"><sp/>*<sp/>NO<sp/>TRAILING<sp/>SLASH!</highlight></codeline>
+<codeline lineno="86"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="87"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="index_8php_1ace4309eda0b92e3260b226079bc17909" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="index_8php_1ace4309eda0b92e3260b226079bc17909" kindref="member">$application_folder</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;application&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="91"><highlight class="comment"><sp/>*<sp/>--------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="92"><highlight class="comment"><sp/>*<sp/>DEFAULT<sp/>CONTROLLER</highlight></codeline>
+<codeline lineno="93"><highlight class="comment"><sp/>*<sp/>--------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="94"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="95"><highlight class="comment"><sp/>*<sp/>Normally<sp/>you<sp/>will<sp/>set<sp/>your<sp/>default<sp/>controller<sp/>in<sp/>the<sp/>routes.php<sp/>file.</highlight></codeline>
+<codeline lineno="96"><highlight class="comment"><sp/>*<sp/>You<sp/>can,<sp/>however,<sp/>force<sp/>a<sp/>custom<sp/>routing<sp/>by<sp/>hard-coding<sp/>a</highlight></codeline>
+<codeline lineno="97"><highlight class="comment"><sp/>*<sp/>specific<sp/>controller<sp/>class/function<sp/>here.<sp/><sp/>For<sp/>most<sp/>applications,<sp/>you</highlight></codeline>
+<codeline lineno="98"><highlight class="comment"><sp/>*<sp/>WILL<sp/>NOT<sp/>set<sp/>your<sp/>routing<sp/>here,<sp/>but<sp/>it&apos;s<sp/>an<sp/>option<sp/>for<sp/>those</highlight></codeline>
+<codeline lineno="99"><highlight class="comment"><sp/>*<sp/>special<sp/>instances<sp/>where<sp/>you<sp/>might<sp/>want<sp/>to<sp/>override<sp/>the<sp/>standard</highlight></codeline>
+<codeline lineno="100"><highlight class="comment"><sp/>*<sp/>routing<sp/>in<sp/>a<sp/>specific<sp/>front<sp/>controller<sp/>that<sp/>shares<sp/>a<sp/>common<sp/>CI<sp/>installation.</highlight></codeline>
+<codeline lineno="101"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="102"><highlight class="comment"><sp/>*<sp/>IMPORTANT:<sp/><sp/>If<sp/>you<sp/>set<sp/>the<sp/>routing<sp/>here,<sp/>NO<sp/>OTHER<sp/>controller<sp/>will<sp/>be</highlight></codeline>
+<codeline lineno="103"><highlight class="comment"><sp/>*<sp/>callable.<sp/>In<sp/>essence,<sp/>this<sp/>preference<sp/>limits<sp/>your<sp/>application<sp/>to<sp/>ONE</highlight></codeline>
+<codeline lineno="104"><highlight class="comment"><sp/>*<sp/>specific<sp/>controller.<sp/><sp/>Leave<sp/>the<sp/>function<sp/>name<sp/>blank<sp/>if<sp/>you<sp/>need</highlight></codeline>
+<codeline lineno="105"><highlight class="comment"><sp/>*<sp/>to<sp/>call<sp/>functions<sp/>dynamically<sp/>via<sp/>the<sp/>URI.</highlight></codeline>
+<codeline lineno="106"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="107"><highlight class="comment"><sp/>*<sp/>Un-comment<sp/>the<sp/>$routing<sp/>array<sp/>below<sp/>to<sp/>use<sp/>this<sp/>feature</highlight></codeline>
+<codeline lineno="108"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="109"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>The<sp/>directory<sp/>name,<sp/>relative<sp/>to<sp/>the<sp/>&quot;controllers&quot;<sp/>folder.<sp/><sp/>Leave<sp/>blank</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>if<sp/>your<sp/>controller<sp/>is<sp/>not<sp/>in<sp/>a<sp/>sub-folder<sp/>within<sp/>the<sp/>&quot;controllers&quot;<sp/>folder</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>$routing[&apos;directory&apos;]<sp/>=<sp/>&apos;&apos;;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>The<sp/>controller<sp/>class<sp/>file<sp/>name.<sp/><sp/>Example:<sp/><sp/>Mycontroller</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>$routing[&apos;controller&apos;]<sp/>=<sp/>&apos;&apos;;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>The<sp/>controller<sp/>function<sp/>you<sp/>wish<sp/>to<sp/>be<sp/>called.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>$routing[&apos;function&apos;]<sp/>=<sp/>&apos;&apos;;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="122"><highlight class="comment"><sp/>*<sp/>-------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="123"><highlight class="comment"><sp/>*<sp/><sp/>CUSTOM<sp/>CONFIG<sp/>VALUES</highlight></codeline>
+<codeline lineno="124"><highlight class="comment"><sp/>*<sp/>-------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="125"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="126"><highlight class="comment"><sp/>*<sp/>The<sp/>$assign_to_config<sp/>array<sp/>below<sp/>will<sp/>be<sp/>passed<sp/>dynamically<sp/>to<sp/>the</highlight></codeline>
+<codeline lineno="127"><highlight class="comment"><sp/>*<sp/>config<sp/>class<sp/>when<sp/>initialized.<sp/>This<sp/>allows<sp/>you<sp/>to<sp/>set<sp/>custom<sp/>config</highlight></codeline>
+<codeline lineno="128"><highlight class="comment"><sp/>*<sp/>items<sp/>or<sp/>override<sp/>any<sp/>default<sp/>config<sp/>values<sp/>found<sp/>in<sp/>the<sp/>config.php<sp/>file.</highlight></codeline>
+<codeline lineno="129"><highlight class="comment"><sp/>*<sp/>This<sp/>can<sp/>be<sp/>handy<sp/>as<sp/>it<sp/>permits<sp/>you<sp/>to<sp/>share<sp/>one<sp/>application<sp/>between</highlight></codeline>
+<codeline lineno="130"><highlight class="comment"><sp/>*<sp/>multiple<sp/>front<sp/>controller<sp/>files,<sp/>with<sp/>each<sp/>file<sp/>containing<sp/>different</highlight></codeline>
+<codeline lineno="131"><highlight class="comment"><sp/>*<sp/>config<sp/>values.</highlight></codeline>
+<codeline lineno="132"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="133"><highlight class="comment"><sp/>*<sp/>Un-comment<sp/>the<sp/>$assign_to_config<sp/>array<sp/>below<sp/>to<sp/>use<sp/>this<sp/>feature</highlight></codeline>
+<codeline lineno="134"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="135"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>$assign_to_config[&apos;name_of_config_item&apos;]<sp/>=<sp/>&apos;value<sp/>of<sp/>config<sp/>item&apos;;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight><highlight class="comment">//<sp/>--------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight><highlight class="comment">//<sp/>END<sp/>OF<sp/>USER<sp/>CONFIGURABLE<sp/>SETTINGS.<sp/><sp/>DO<sp/>NOT<sp/>EDIT<sp/>BELOW<sp/>THIS<sp/>LINE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight><highlight class="comment">//<sp/>--------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="145"><highlight class="comment"><sp/>*<sp/>---------------------------------------------------------------</highlight></codeline>
+<codeline lineno="146"><highlight class="comment"><sp/>*<sp/><sp/>Resolve<sp/>the<sp/>system<sp/>path<sp/>for<sp/>increased<sp/>reliability</highlight></codeline>
+<codeline lineno="147"><highlight class="comment"><sp/>*<sp/>---------------------------------------------------------------</highlight></codeline>
+<codeline lineno="148"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Set<sp/>the<sp/>current<sp/>directory<sp/>correctly<sp/>for<sp/>CLI<sp/>requests</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(defined(</highlight><highlight class="stringliteral">&apos;STDIN&apos;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>chdir(dirname(__FILE__));</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(realpath(<ref refid="index_8php_1ae873e5430c828eb3081abe7050a379b6" kindref="member">$system_path</ref>)<sp/>!==<sp/>FALSE)</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="index_8php_1ae873e5430c828eb3081abe7050a379b6" kindref="member">$system_path</ref><sp/>=<sp/>realpath(<ref refid="index_8php_1ae873e5430c828eb3081abe7050a379b6" kindref="member">$system_path</ref>).</highlight><highlight class="charliteral">&apos;/&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>ensure<sp/>there&apos;s<sp/>a<sp/>trailing<sp/>slash</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="index_8php_1ae873e5430c828eb3081abe7050a379b6" kindref="member">$system_path</ref><sp/>=<sp/>rtrim(<ref refid="index_8php_1ae873e5430c828eb3081abe7050a379b6" kindref="member">$system_path</ref>,<sp/></highlight><highlight class="charliteral">&apos;/&apos;</highlight><highlight class="normal">).</highlight><highlight class="charliteral">&apos;/&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Is<sp/>the<sp/>system<sp/>path<sp/>correct?</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>!<sp/>is_dir(<ref refid="index_8php_1ae873e5430c828eb3081abe7050a379b6" kindref="member">$system_path</ref>))</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>exit(</highlight><highlight class="stringliteral">&quot;Your<sp/>system<sp/>folder<sp/>path<sp/>does<sp/>not<sp/>appear<sp/>to<sp/>be<sp/>set<sp/>correctly.<sp/>Please<sp/>open<sp/>the<sp/>following<sp/>file<sp/>and<sp/>correct<sp/>this:<sp/>&quot;</highlight><highlight class="normal">.pathinfo(__FILE__,<sp/>PATHINFO_BASENAME));</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="171"><highlight class="comment"><sp/>*<sp/>-------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="172"><highlight class="comment"><sp/>*<sp/><sp/>Now<sp/>that<sp/>we<sp/>know<sp/>the<sp/>path,<sp/>set<sp/>the<sp/>main<sp/>path<sp/>constants</highlight></codeline>
+<codeline lineno="173"><highlight class="comment"><sp/>*<sp/>-------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="174"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>The<sp/>name<sp/>of<sp/>THIS<sp/>file</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="176" refid="index_8php_1a428c045e64680e1582ba74161e441a1c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;SELF&apos;</highlight><highlight class="normal">,<sp/>pathinfo(__FILE__,<sp/>PATHINFO_BASENAME));</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>The<sp/>PHP<sp/>file<sp/>extension</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>this<sp/>global<sp/>constant<sp/>is<sp/>deprecated.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="180" refid="index_8php_1ad48706cc82e010be85f1398fb34c6510" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;EXT&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;.php&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Path<sp/>to<sp/>the<sp/>system<sp/>folder</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="183" refid="index_8php_1ad39801cabfd338dc5524466fe793fda9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;BASEPATH&apos;</highlight><highlight class="normal">,<sp/>str_replace(</highlight><highlight class="stringliteral">&quot;\\&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;/&quot;</highlight><highlight class="normal">,<sp/><ref refid="index_8php_1ae873e5430c828eb3081abe7050a379b6" kindref="member">$system_path</ref>));</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Path<sp/>to<sp/>the<sp/>front<sp/>controller<sp/>(this<sp/>file)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="186" refid="index_8php_1ae486546e58b2603595efedf9f95b3926" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;FCPATH&apos;</highlight><highlight class="normal">,<sp/>str_replace(<ref refid="index_8php_1a428c045e64680e1582ba74161e441a1c" kindref="member">SELF</ref>,<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">,<sp/>__FILE__));</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Name<sp/>of<sp/>the<sp/>&quot;system<sp/>folder&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="189" refid="index_8php_1ab645ae0961792b1f2b4b83f89cb95fa5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;SYSDIR&apos;</highlight><highlight class="normal">,<sp/>trim(strrchr(trim(<ref refid="index_8php_1ad39801cabfd338dc5524466fe793fda9" kindref="member">BASEPATH</ref>,<sp/></highlight><highlight class="charliteral">&apos;/&apos;</highlight><highlight class="normal">),<sp/></highlight><highlight class="charliteral">&apos;/&apos;</highlight><highlight class="normal">),<sp/></highlight><highlight class="charliteral">&apos;/&apos;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>The<sp/>path<sp/>to<sp/>the<sp/>&quot;application&quot;<sp/>folder</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(is_dir(<ref refid="index_8php_1ace4309eda0b92e3260b226079bc17909" kindref="member">$application_folder</ref>))</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;APPPATH&apos;</highlight><highlight class="normal">,<sp/><ref refid="index_8php_1ace4309eda0b92e3260b226079bc17909" kindref="member">$application_folder</ref>.</highlight><highlight class="charliteral">&apos;/&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="198" refid="index_8php_1a949e0a4a1cdea0279f54348f205f993b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>!<sp/>is_dir(<ref refid="index_8php_1ad39801cabfd338dc5524466fe793fda9" kindref="member">BASEPATH</ref>.$application_folder.</highlight><highlight class="charliteral">&apos;/&apos;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>exit(</highlight><highlight class="stringliteral">&quot;Your<sp/>application<sp/>folder<sp/>path<sp/>does<sp/>not<sp/>appear<sp/>to<sp/>be<sp/>set<sp/>correctly.<sp/>Please<sp/>open<sp/>the<sp/>following<sp/>file<sp/>and<sp/>correct<sp/>this:<sp/>&quot;</highlight><highlight class="normal">.<ref refid="index_8php_1a428c045e64680e1582ba74161e441a1c" kindref="member">SELF</ref>);</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;APPPATH&apos;</highlight><highlight class="normal">,<sp/><ref refid="index_8php_1ad39801cabfd338dc5524466fe793fda9" kindref="member">BASEPATH</ref>.$application_folder.</highlight><highlight class="charliteral">&apos;/&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="208"><highlight class="comment"><sp/>*<sp/>--------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="209"><highlight class="comment"><sp/>*<sp/>LOAD<sp/>THE<sp/>BOOTSTRAP<sp/>FILE</highlight></codeline>
+<codeline lineno="210"><highlight class="comment"><sp/>*<sp/>--------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="211"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="212"><highlight class="comment"><sp/>*<sp/>And<sp/>away<sp/>we<sp/>go...</highlight></codeline>
+<codeline lineno="213"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="214"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="215"><highlight class="normal">require_once<sp/><ref refid="index_8php_1ad39801cabfd338dc5524466fe793fda9" kindref="member">BASEPATH</ref>.</highlight><highlight class="stringliteral">&apos;core/CodeIgniter.php&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>End<sp/>of<sp/>file<sp/>index.php<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Location:<sp/>./index.php<sp/>*/</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/index.php"/>
+  </compounddef>
+</doxygen>

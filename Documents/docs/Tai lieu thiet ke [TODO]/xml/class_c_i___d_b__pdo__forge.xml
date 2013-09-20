@@ -1,0 +1,318 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_c_i___d_b__pdo__forge" kind="class" prot="public">
+    <compoundname>CI_DB_pdo_forge</compoundname>
+    <basecompoundref refid="class_c_i___d_b__forge" prot="public" virt="non-virtual">CI_DB_forge</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_i___d_b__pdo__forge_1a04a053e8e211fd6213a56d990880ce96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_create_database</definition>
+        <argsstring>()</argsstring>
+        <name>_create_database</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create database</para><para>private <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the database name </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/pdo/pdo_forge.php" line="34" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/pdo/pdo_forge.php" bodystart="34" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__pdo__forge_1a6e04d0af5e8e1e1f93f42d63f0744bfd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_drop_database</definition>
+        <argsstring>($name)</argsstring>
+        <name>_drop_database</name>
+        <param>
+          <declname>$name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Drop database</para><para>private <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the database name </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/pdo/pdo_forge.php" line="54" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/pdo/pdo_forge.php" bodystart="54" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__pdo__forge_1a99d4c17257f468337344690dd590582b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_create_table</definition>
+        <argsstring>($table, $fields, $primary_keys, $keys, $if_not_exists)</argsstring>
+        <name>_create_table</name>
+        <param>
+          <declname>$table</declname>
+        </param>
+        <param>
+          <declname>$fields</declname>
+        </param>
+        <param>
+          <declname>$primary_keys</declname>
+        </param>
+        <param>
+          <declname>$keys</declname>
+        </param>
+        <param>
+          <declname>$if_not_exists</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create Table</para><para>private <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the table name </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the fields </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mixed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>primary key(s) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mixed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>key(s) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>boolean</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>should &apos;IF NOT EXISTS&apos; be added to the SQL </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/pdo/pdo_forge.php" line="78" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/pdo/pdo_forge.php" bodystart="78" bodyend="170"/>
+        <references refid="class_c_i___d_b__forge_1ab2303c817e3b402b77b7f99627b9c319" compoundref="_d_b__forge_8php" startline="27">CI_DB_forge\$fields</references>
+        <references refid="class_c_i___d_b__forge_1a09349689030ba7198a094abf357c78bc" compoundref="_d_b__forge_8php" startline="29">CI_DB_forge\$primary_keys</references>
+        <references refid="class_c_i___d_b__forge_1af20635b6c08e03bfee9e3fc036fa80f3" compoundref="_d_b__forge_8php" startline="28">CI_DB_forge\$keys</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__pdo__forge_1a147efb0d859b7cf4148ff75642515231" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_drop_table</definition>
+        <argsstring>($table)</argsstring>
+        <name>_drop_table</name>
+        <param>
+          <declname>$table</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Drop Table</para><para>private <simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/pdo/pdo_forge.php" line="180" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/pdo/pdo_forge.php" bodystart="180" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__pdo__forge_1a34fc29f48662e18f6a4f3185a8ea206c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_alter_table</definition>
+        <argsstring>($alter_type, $table, $column_name, $column_definition= &apos;&apos;, $default_value= &apos;&apos;, $null= &apos;&apos;, $after_field= &apos;&apos;)</argsstring>
+        <name>_alter_table</name>
+        <param>
+          <declname>$alter_type</declname>
+        </param>
+        <param>
+          <declname>$table</declname>
+        </param>
+        <param>
+          <declname>$column_name</declname>
+        </param>
+        <param>
+          <declname>$column_definition</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$default_value</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$null</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$after_field</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Alter table query</para><para>Generates a platform-specific query so that a table can be altered Called by <ref refid="class_c_i___d_b__forge_1aa1c3d03fed2c534d116f2a20db66d643" kindref="member">add_column()</ref>, <ref refid="class_c_i___d_b__forge_1adb882bbb5281cf8af607730ca44b6486" kindref="member">drop_column()</ref>, and column_alter(),</para><para>private <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the ALTER type (ADD, DROP, CHANGE) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the column name </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the table name </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the column definition </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the default value </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>boolean</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>should &apos;NOT NULL&apos; be added </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the field after which we should add the new field </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>object </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/pdo/pdo_forge.php" line="208" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/pdo/pdo_forge.php" bodystart="208" bodyend="241"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__pdo__forge_1aec593ba62c6ff875cafeac16b1c54ae6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_rename_table</definition>
+        <argsstring>($table_name, $new_table_name)</argsstring>
+        <name>_rename_table</name>
+        <param>
+          <declname>$table_name</declname>
+        </param>
+        <param>
+          <declname>$new_table_name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rename a table</para><para>Generates a platform-specific query so that a table can be renamed</para><para>private <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the old table name </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the new table name </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/pdo/pdo_forge.php" line="256" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/pdo/pdo_forge.php" bodystart="256" bodyend="260"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="208">
+        <label>CI_DB_forge</label>
+        <link refid="class_c_i___d_b__forge"/>
+      </node>
+      <node id="207">
+        <label>CI_DB_pdo_forge</label>
+        <link refid="class_c_i___d_b__pdo__forge"/>
+        <childnode refid="208" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="210">
+        <label>CI_DB_forge</label>
+        <link refid="class_c_i___d_b__forge"/>
+      </node>
+      <node id="209">
+        <label>CI_DB_pdo_forge</label>
+        <link refid="class_c_i___d_b__pdo__forge"/>
+        <childnode refid="210" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/pdo/pdo_forge.php" line="25" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/pdo/pdo_forge.php" bodystart="25" bodyend="263"/>
+    <listofallmembers>
+      <member refid="class_c_i___d_b__forge_1a6e90c3633cd0984a7e8de501f7771c53" prot="public" virt="non-virtual"><scope>CI_DB_pdo_forge</scope><name>$db_char_set</name></member>
+      <member refid="class_c_i___d_b__forge_1ab2303c817e3b402b77b7f99627b9c319" prot="public" virt="non-virtual"><scope>CI_DB_pdo_forge</scope><name>$fields</name></member>
+      <member refid="class_c_i___d_b__forge_1af20635b6c08e03bfee9e3fc036fa80f3" prot="public" virt="non-virtual"><scope>CI_DB_pdo_forge</scope><name>$keys</name></member>
+      <member refid="class_c_i___d_b__forge_1a09349689030ba7198a094abf357c78bc" prot="public" virt="non-virtual"><scope>CI_DB_pdo_forge</scope><name>$primary_keys</name></member>
+      <member refid="class_c_i___d_b__forge_1a095c5d389db211932136b53f25f39685" prot="public" virt="non-virtual"><scope>CI_DB_pdo_forge</scope><name>__construct</name></member>
+      <member refid="class_c_i___d_b__pdo__forge_1a34fc29f48662e18f6a4f3185a8ea206c" prot="public" virt="non-virtual"><scope>CI_DB_pdo_forge</scope><name>_alter_table</name></member>
+      <member refid="class_c_i___d_b__pdo__forge_1a04a053e8e211fd6213a56d990880ce96" prot="public" virt="non-virtual"><scope>CI_DB_pdo_forge</scope><name>_create_database</name></member>
+      <member refid="class_c_i___d_b__pdo__forge_1a99d4c17257f468337344690dd590582b" prot="public" virt="non-virtual"><scope>CI_DB_pdo_forge</scope><name>_create_table</name></member>
+      <member refid="class_c_i___d_b__pdo__forge_1a6e04d0af5e8e1e1f93f42d63f0744bfd" prot="public" virt="non-virtual"><scope>CI_DB_pdo_forge</scope><name>_drop_database</name></member>
+      <member refid="class_c_i___d_b__pdo__forge_1a147efb0d859b7cf4148ff75642515231" prot="public" virt="non-virtual"><scope>CI_DB_pdo_forge</scope><name>_drop_table</name></member>
+      <member refid="class_c_i___d_b__pdo__forge_1aec593ba62c6ff875cafeac16b1c54ae6" prot="public" virt="non-virtual"><scope>CI_DB_pdo_forge</scope><name>_rename_table</name></member>
+      <member refid="class_c_i___d_b__forge_1ab90fa1f6f390913fed8670e6535dc180" prot="public" virt="non-virtual"><scope>CI_DB_pdo_forge</scope><name>_reset</name></member>
+      <member refid="class_c_i___d_b__forge_1aa1c3d03fed2c534d116f2a20db66d643" prot="public" virt="non-virtual"><scope>CI_DB_pdo_forge</scope><name>add_column</name></member>
+      <member refid="class_c_i___d_b__forge_1ae7fccf8d1bd6c4fb3efa1a95be18bad7" prot="public" virt="non-virtual"><scope>CI_DB_pdo_forge</scope><name>add_field</name></member>
+      <member refid="class_c_i___d_b__forge_1a0f4211b94ac209ec8b80d800234fc611" prot="public" virt="non-virtual"><scope>CI_DB_pdo_forge</scope><name>add_key</name></member>
+      <member refid="class_c_i___d_b__forge_1a902a7267babceb2ce595706f217e00ad" prot="public" virt="non-virtual"><scope>CI_DB_pdo_forge</scope><name>create_database</name></member>
+      <member refid="class_c_i___d_b__forge_1ac468f94f543da8d082ea147d8a3baa3e" prot="public" virt="non-virtual"><scope>CI_DB_pdo_forge</scope><name>create_table</name></member>
+      <member refid="class_c_i___d_b__forge_1adb882bbb5281cf8af607730ca44b6486" prot="public" virt="non-virtual"><scope>CI_DB_pdo_forge</scope><name>drop_column</name></member>
+      <member refid="class_c_i___d_b__forge_1a9612987b2d4230de2638d15857e92e67" prot="public" virt="non-virtual"><scope>CI_DB_pdo_forge</scope><name>drop_database</name></member>
+      <member refid="class_c_i___d_b__forge_1a13a0ea391ffc0359a95766ee18ddcba9" prot="public" virt="non-virtual"><scope>CI_DB_pdo_forge</scope><name>drop_table</name></member>
+      <member refid="class_c_i___d_b__forge_1adf9fa0c74698c9061709fd5eae5fbd47" prot="public" virt="non-virtual"><scope>CI_DB_pdo_forge</scope><name>modify_column</name></member>
+      <member refid="class_c_i___d_b__forge_1a0fb4802acad335ebdecd921d59de9a51" prot="public" virt="non-virtual"><scope>CI_DB_pdo_forge</scope><name>rename_table</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

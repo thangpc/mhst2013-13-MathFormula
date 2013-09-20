@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_64210b8a51975efd6934237ae7a76110" kind="dir">
+    <compoundname>system/database</compoundname>
+    <innerdir refid="dir_e9a3063a362e52a72a2c571924e6112b">system/database/drivers</innerdir>
+    <innerfile refid="_d_b_8php">DB.php</innerfile>
+    <innerfile refid="_d_b__active__rec_8php">DB_active_rec.php</innerfile>
+    <innerfile refid="_d_b__cache_8php">DB_cache.php</innerfile>
+    <innerfile refid="_d_b__driver_8php">DB_driver.php</innerfile>
+    <innerfile refid="_d_b__forge_8php">DB_forge.php</innerfile>
+    <innerfile refid="_d_b__result_8php">DB_result.php</innerfile>
+    <innerfile refid="_d_b__utility_8php">DB_utility.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/"/>
+  </compounddef>
+</doxygen>

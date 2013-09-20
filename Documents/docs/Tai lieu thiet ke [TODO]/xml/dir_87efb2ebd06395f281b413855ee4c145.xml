@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_87efb2ebd06395f281b413855ee4c145" kind="dir">
+    <compoundname>system/language/english</compoundname>
+    <innerfile refid="calendar__lang_8php">calendar_lang.php</innerfile>
+    <innerfile refid="date__lang_8php">date_lang.php</innerfile>
+    <innerfile refid="db__lang_8php">db_lang.php</innerfile>
+    <innerfile refid="email__lang_8php">email_lang.php</innerfile>
+    <innerfile refid="form__validation__lang_8php">form_validation_lang.php</innerfile>
+    <innerfile refid="ftp__lang_8php">ftp_lang.php</innerfile>
+    <innerfile refid="imglib__lang_8php">imglib_lang.php</innerfile>
+    <innerfile refid="migration__lang_8php">migration_lang.php</innerfile>
+    <innerfile refid="number__lang_8php">number_lang.php</innerfile>
+    <innerfile refid="profiler__lang_8php">profiler_lang.php</innerfile>
+    <innerfile refid="unit__test__lang_8php">unit_test_lang.php</innerfile>
+    <innerfile refid="upload__lang_8php">upload_lang.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/"/>
+  </compounddef>
+</doxygen>

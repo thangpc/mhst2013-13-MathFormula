@@ -1,0 +1,297 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_c_i___profiler" kind="class" prot="public">
+    <compoundname>CI_Profiler</compoundname>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_c_i___profiler_1ae30756727f63d3be7422d378676f667d" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$_available_sections</definition>
+        <argsstring></argsstring>
+        <name>$_available_sections</name>
+        <initializer>= array(
+										&apos;benchmarks&apos;,
+										&apos;get&apos;,
+										&apos;memory_usage&apos;,
+										&apos;post&apos;,
+										&apos;uri_string&apos;,
+										&apos;controller_info&apos;,
+										&apos;queries&apos;,
+										&apos;http_headers&apos;,
+										&apos;session_data&apos;,
+										&apos;config&apos;
+										)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Profiler.php" line="35" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Profiler.php" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___profiler_1a950aa6662ddde22ba9c05adffd6a20c9" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$_query_toggle_count</definition>
+        <argsstring></argsstring>
+        <name>$_query_toggle_count</name>
+        <initializer>= 25</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Profiler.php" line="48" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Profiler.php" bodystart="48" bodyend="-1"/>
+        <referencedby refid="class_c_i___profiler_1a5d16e69fed0307c51b9479ebbb2049b6" compoundref="system_2libraries_2profiler_8php" startline="156" endline="240">_compile_queries</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___profiler_1ae0314d046ddf7fcfaec03222977427d3" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$CI</definition>
+        <argsstring></argsstring>
+        <name>$CI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Profiler.php" line="50" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Profiler.php" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_i___profiler_1af7f9493844d2d66e924e3c1df51ce616" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>($config=array())</argsstring>
+        <name>__construct</name>
+        <param>
+          <declname>$config</declname>
+          <defval>array()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Profiler.php" line="54" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Profiler.php" bodystart="54" bodyend="75"/>
+        <references refid="_code_igniter_8php_1a185483844bd20a0e80955460d66d2199" compoundref="_code_igniter_8php" startline="231" endline="398">get_instance</references>
+        <references refid="application_2config_2config_8php_1a8063081991a9d7087e6aea78db95a524" compoundref="application_2config_2config_8php" startline="26">$config</references>
+        <references refid="mathquill_8js_1a61569f2965b7a369eb10b6d75d410d11" compoundref="mathquill_8js" startline="1661">int</references>
+        <references refid="class_c_i___profiler_1a81c587d7a2a249d05f28c96a135591f7" compoundref="system_2libraries_2profiler_8php" startline="87" endline="96">set_sections</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___profiler_1a81c587d7a2a249d05f28c96a135591f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>set_sections</definition>
+        <argsstring>($config)</argsstring>
+        <name>set_sections</name>
+        <param>
+          <declname>$config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set Sections</para><para>Sets the private <emphasis>compile</emphasis>* properties to enable/disable Profiler sections</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mixed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Profiler.php" line="87" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Profiler.php" bodystart="87" bodyend="96"/>
+        <references refid="application_2config_2config_8php_1a8063081991a9d7087e6aea78db95a524" compoundref="application_2config_2config_8php" startline="26">$config</references>
+        <references refid="_code_igniter_8php_1a12661b2fc0f57f97e30a1620889ce9c6" compoundref="_code_igniter_8php" startline="265">$method</references>
+        <referencedby refid="class_c_i___profiler_1af7f9493844d2d66e924e3c1df51ce616" compoundref="system_2libraries_2profiler_8php" startline="54" endline="75">__construct</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___profiler_1afb0fafe7e02a3ae1993c01c19fad2bae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Run the Profiler</para><para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Profiler.php" line="529" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Profiler.php" bodystart="529" bodyend="552"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_c_i___profiler_1acecf392de9d6129d3843c64fca7a4766" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_compile_benchmarks</definition>
+        <argsstring>()</argsstring>
+        <name>_compile_benchmarks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Auto Profiler</para><para>This function cycles through the entire array of mark points and matches any two points that are named identically (ending in &quot;_start&quot; and &quot;_end&quot; respectively). It then compiles the execution times for all points and returns it as an array</para><para><simplesect kind="return"><para>array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Profiler.php" line="110" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Profiler.php" bodystart="110" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___profiler_1a5d16e69fed0307c51b9479ebbb2049b6" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_compile_queries</definition>
+        <argsstring>()</argsstring>
+        <name>_compile_queries</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compile Queries</para><para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Profiler.php" line="156" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Profiler.php" bodystart="156" bodyend="240"/>
+        <references refid="development_2database_8php_1a987b8cb0ae83b9519cb7c36fe25dbdd8" compoundref="development_2database_8php" startline="51">$db</references>
+        <references refid="class_c_i___profiler_1a950aa6662ddde22ba9c05adffd6a20c9" compoundref="system_2libraries_2profiler_8php" startline="48">$_query_toggle_count</references>
+        <references refid="jquery_8min_8js_1a3691308f2a4c2f6983f2880d32e29c84" compoundref="jquery_8min_8js" startline="16">s</references>
+        <references refid="jquery_8min_8js_1a3c7365c007156a2a63223e3c9909fbf8" compoundref="jquery_8min_8js" startline="16">n</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___profiler_1a94ef351d1234fe87ee3f5cd7c855f8a5" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_compile_get</definition>
+        <argsstring>()</argsstring>
+        <name>_compile_get</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compile $_GET Data</para><para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Profiler.php" line="250" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Profiler.php" bodystart="250" bodyend="290"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___profiler_1a42ae55500668793b1cec3d79b6ea9209" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_compile_post</definition>
+        <argsstring>()</argsstring>
+        <name>_compile_post</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compile $_POST Data</para><para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Profiler.php" line="299" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Profiler.php" bodystart="299" bodyend="339"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___profiler_1a781803c49bf0c92d47187c76ebb42a1b" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_compile_uri_string</definition>
+        <argsstring>()</argsstring>
+        <name>_compile_uri_string</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Show query string</para><para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Profiler.php" line="348" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Profiler.php" bodystart="348" bodyend="368"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___profiler_1a46a079522432af283c844f043ba5a513" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_compile_controller_info</definition>
+        <argsstring>()</argsstring>
+        <name>_compile_controller_info</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Show the controller and function that were called</para><para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Profiler.php" line="377" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Profiler.php" bodystart="377" bodyend="390"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___profiler_1a409e57ba71d0463bb684925e2c6a5658" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_compile_memory_usage</definition>
+        <argsstring>()</argsstring>
+        <name>_compile_memory_usage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compile memory usage</para><para>Display total used memory</para><para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Profiler.php" line="401" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Profiler.php" bodystart="401" bodyend="421"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___profiler_1a80a22812f0243b3daaf78e3614bddadb" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_compile_http_headers</definition>
+        <argsstring>()</argsstring>
+        <name>_compile_http_headers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compile header information</para><para>Lists HTTP headers</para><para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Profiler.php" line="432" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Profiler.php" bodystart="432" bodyend="452"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___profiler_1affb7543f1c67a5b3ff24eaefcec37e6d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_compile_config</definition>
+        <argsstring>()</argsstring>
+        <name>_compile_config</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compile config information</para><para>Lists developer config variables</para><para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Profiler.php" line="463" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Profiler.php" bodystart="463" bodyend="487"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_c_i___profiler_1a65f7d92ff03632e35cd506dd500a2dd7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_compile_session_data</definition>
+        <argsstring>()</argsstring>
+        <name>_compile_session_data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compile session userdata</para><para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Profiler.php" line="496" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Profiler.php" bodystart="496" bodyend="520"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Profiler.php" line="33" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Profiler.php" bodystart="33" bodyend="553"/>
+    <listofallmembers>
+      <member refid="class_c_i___profiler_1ae30756727f63d3be7422d378676f667d" prot="protected" virt="non-virtual"><scope>CI_Profiler</scope><name>$_available_sections</name></member>
+      <member refid="class_c_i___profiler_1a950aa6662ddde22ba9c05adffd6a20c9" prot="protected" virt="non-virtual"><scope>CI_Profiler</scope><name>$_query_toggle_count</name></member>
+      <member refid="class_c_i___profiler_1ae0314d046ddf7fcfaec03222977427d3" prot="protected" virt="non-virtual"><scope>CI_Profiler</scope><name>$CI</name></member>
+      <member refid="class_c_i___profiler_1af7f9493844d2d66e924e3c1df51ce616" prot="public" virt="non-virtual"><scope>CI_Profiler</scope><name>__construct</name></member>
+      <member refid="class_c_i___profiler_1acecf392de9d6129d3843c64fca7a4766" prot="protected" virt="non-virtual"><scope>CI_Profiler</scope><name>_compile_benchmarks</name></member>
+      <member refid="class_c_i___profiler_1affb7543f1c67a5b3ff24eaefcec37e6d" prot="protected" virt="non-virtual"><scope>CI_Profiler</scope><name>_compile_config</name></member>
+      <member refid="class_c_i___profiler_1a46a079522432af283c844f043ba5a513" prot="protected" virt="non-virtual"><scope>CI_Profiler</scope><name>_compile_controller_info</name></member>
+      <member refid="class_c_i___profiler_1a94ef351d1234fe87ee3f5cd7c855f8a5" prot="protected" virt="non-virtual"><scope>CI_Profiler</scope><name>_compile_get</name></member>
+      <member refid="class_c_i___profiler_1a80a22812f0243b3daaf78e3614bddadb" prot="protected" virt="non-virtual"><scope>CI_Profiler</scope><name>_compile_http_headers</name></member>
+      <member refid="class_c_i___profiler_1a409e57ba71d0463bb684925e2c6a5658" prot="protected" virt="non-virtual"><scope>CI_Profiler</scope><name>_compile_memory_usage</name></member>
+      <member refid="class_c_i___profiler_1a42ae55500668793b1cec3d79b6ea9209" prot="protected" virt="non-virtual"><scope>CI_Profiler</scope><name>_compile_post</name></member>
+      <member refid="class_c_i___profiler_1a5d16e69fed0307c51b9479ebbb2049b6" prot="protected" virt="non-virtual"><scope>CI_Profiler</scope><name>_compile_queries</name></member>
+      <member refid="class_c_i___profiler_1a65f7d92ff03632e35cd506dd500a2dd7" prot="private" virt="non-virtual"><scope>CI_Profiler</scope><name>_compile_session_data</name></member>
+      <member refid="class_c_i___profiler_1a781803c49bf0c92d47187c76ebb42a1b" prot="protected" virt="non-virtual"><scope>CI_Profiler</scope><name>_compile_uri_string</name></member>
+      <member refid="class_c_i___profiler_1afb0fafe7e02a3ae1993c01c19fad2bae" prot="public" virt="non-virtual"><scope>CI_Profiler</scope><name>run</name></member>
+      <member refid="class_c_i___profiler_1a81c587d7a2a249d05f28c96a135591f7" prot="public" virt="non-virtual"><scope>CI_Profiler</scope><name>set_sections</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
