@@ -7,32 +7,35 @@
 		<h2 class="title"><?php echo $title_page; ?></h2>
 	</div>
 	<div class="content">
-		<table class="user-info" cellspacing="0">
-		    <tbody>
-		    	<tr class="odd-row">
-		    		<th>
-		    			<img src="<?php echo base_url().'public_html/images/avatars/geek_girl.png'; ?>" alt="">
-		    			<a href='#'><?php echo $user; ?></a></th>
-		    	</tr>
-		    	<tr>
-		    		<td><a href="<?php echo site_url('account/change-info'); ?>">change info</a></td>
-		    	</tr>
-		    	<tr>
-		    		<td><a href="<?php echo site_url('account/change-pass'); ?>">change password</a></td>
-		    	</tr>
-			</tbody>
-		</table>
-		<div class="video">
-			<?php
-			foreach ($formulars as $key => $formular) {
-			?>		
+		<?php echo $col_left; ?>
+		<div class="video list-formula">
+			<h2 style="margin-bottom: 15px">Recent posts</h2>
+			<?php	
+
+			if (count($formulas) != 0) {
+			foreach ($formulas as $key => $formula) {				
+			?>
+
 			<div class="row">
-				<h3><?php echo $formular['title']; ?></h3>
-				<div>
-					<img id="latex-image" src="http://latex.codecogs.com/gif.latex?<?php echo $formular['latex']; ?>" alt="show latex to image">
+				<h3><a href="<?php echo site_url("formula/view-".$formula['f_id']); ?>"><?php echo $formula['title']; ?></a></h3>
+				<div style="margin: 10px 0 10px 0">
+					<img id="latex-image" src="http://latex.codecogs.com/gif.latex?<?php echo $formula['latex']; ?>" alt="show latex to image">
 				</div>
-			</div>
-			<?php } ?>
+				<span class="time"><?php echo $formula['time_created']; ?></span>
+			</div>			
+		
+			<?php
+			}
+			?>
+			<?php echo $pages; ?>
+			<div class="clearfix"></div>
+			<?php
+			} else {
+			?>
+			<h4 style="color: #2C99DB">No activity</h4>
+			<?php
+			}
+			?>
 		</div>
 	</div>
 </div> 

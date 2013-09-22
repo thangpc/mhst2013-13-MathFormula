@@ -1,21 +1,23 @@
 $(document).ready(function() {
+
     initMathQuill();
+
     $('#btn-login').click(function() {
         var username = $('#username').val();
         var password = $('#password').val();
         if (username.length < 4 || username.length >25) {
-            $('.status').attr('class', 'status error').html('Username must be 4 from 25 characters.');
+            $('.status').attr('class', 'status error').html('Username must be from 4 - 25 characters.');
             $('#username').focus();
             return false;
         }
         if (password.length < 4) {
-            $('.status').attr('class', 'status error').html('Password must be 4 characters.');
+            $('.status').attr('class', 'status error').html('Password must be from 4 - 25 characters.');
             $('#password').focus();
             return false;
         }
         $.ajax({
             type: "POST",
-            url: PUBLIC_URL + 'check-login',
+            url: PUBLIC_URL + 'login-check',
             cache: false,
             dataType: 'json',
             data: $('#frm_login').serialize(),
@@ -26,7 +28,8 @@ $(document).ready(function() {
 
             success: function(msg) {            
                 if (msg.data.status == 'success') {
-                    history.back(-1);
+                    window.location.href = document.referrer;
+                    window.location.href = PUBLIC_URL;
                 } else {
                     $('.status').attr('class', 'status error').html(msg.data.message);
                 }
@@ -37,17 +40,18 @@ $(document).ready(function() {
     });
     
     $('#btn-signup').click(function() {
+
         var username = $('#username').val();
         var password = $('#password').val();
         var email = $('#email').val();
 
         if (username.length < 4 || username.length >25) {
-            $('.status').attr('class', 'status error').html('Username must be 4 from 25 characters.');
+            $('.status').attr('class', 'status error').html('Username must be from 4 - 25 characters.');
             $('#username').focus();
             return false;
         }
         if (password.length < 4) {
-            $('.status').attr('class', 'status error').html('Password must be 4 characters.');
+            $('.status').attr('class', 'status error').html('Password must be from 4 - 25 characters.');
             $('#password').focus();
             return false;
         }
@@ -64,15 +68,72 @@ $(document).ready(function() {
             data: $('#frm_signup').serialize(),
             
             beforeSend: function(msg) {
+                $('#btn-signup').attr("disabled", "disabled");
                 $('.status').attr('class', 'status success').html('Checking <img src="'+PUBLIC_URL+'public_html/images/loading.gif" />');
             },
 
             success: function(msg) {            
                 if (msg.data.status == 'success') {
-                    history.back(-1);
+                    window.location.href = document.referrer;
+                    window.location.href = PUBLIC_URL;                    
                 } else {
+                    $('#btn-signup').removeAttr("disabled");
                     $('.status').attr('class', 'status error').html(msg.data.message);
                 }
+            }
+        });
+        
+        return false;
+    });
+    
+    $('#btn-change-pass').click(function() {
+
+        var oldPassword = $('#old-password').val();
+        var password = $('#password').val();
+        var rePassword = $('#re-password').val();
+
+        if (oldPassword.length < 4 || oldPassword.length > 25) {
+            $('.status').attr('class', 'status error').html('Old password must be from 4 - 25 characters.');
+            $('#old-password').focus();
+            return false;
+        }
+        if (password.length < 4 || password.length > 25) {
+            $('.status').attr('class', 'status error').html('New password must be from 4 - 25 characters.');
+            $('#password').focus();
+            return false;
+        }
+        if (rePassword.length < 4 || rePassword.length > 25) {
+            $('.status').attr('class', 'status error').html('Re-password must be from 4 - 25 characters.');
+            $('#re-password').focus();
+            return false;
+        }
+        if (password != rePassword) {
+            $('.status').attr('class', 'status error').html('New password not matched.');
+            $('#re-password').focus();
+            return false;
+        }
+
+        $.ajax({
+            type: "POST",
+            url: PUBLIC_URL + 'account/change-pass-ajax',
+            cache: false,
+            dataType: 'json',
+            data: $('#frm_newpass').serialize(),
+            
+            beforeSend: function(msg) {
+                $('#btn-change-pass').attr("disabled", "disabled");
+                $('.status').attr('class', 'status success').html('Checking <img src="'+PUBLIC_URL+'public_html/images/loading.gif" />');
+            },
+
+            success: function(msg) {
+                if (msg.data.status == 'success') {                    
+                    $('.status').attr('class', 'status success').html('Updated.');
+                    $('#frm_newpass')[0].reset();
+                    $('#old-password').focus();                    
+                } else {                    
+                    $('.status').attr('class', 'status error').html(msg.data.message);
+                }
+                $('#btn-change-pass').removeAttr("disabled");
             }
         });
         
@@ -84,8 +145,7 @@ $(document).ready(function() {
 /* Init MathQuill */
 function initMathQuill() {
     var LatexImages = false;
-    function printTree(html)
-    {
+    function printTree(html) {
         html = html.match(/<[a-z]+|<\/[a-z]+>|./ig);
         if(!html) return '';
         var indent = '\n', tree = '';
@@ -113,7 +173,8 @@ function initMathQuill() {
         return tree.slice(1);
     }
     
-    var editingSource = false, latexSource = $('#latex-source'), htmlSource = $('#html-source'), codecogs = $('#codecogs'), latexMath = $('#editable-math').bind('keydown keypress', function()
+    // add latex source
+    var editingSource = false, latexSource = $('#latex-source'), htmlSource = $('#html-source'), latexMath = $('#editable-math').bind('keydown keypress', function()
     {
         setTimeout(function() {
             htmlSource.text(printTree(latexMath.mathquill('html')));
@@ -123,8 +184,6 @@ function initMathQuill() {
             if(!LatexImages)
                 return;
             latex = encodeURIComponent(latexSource.val());
-            //location.hash = '#'+latex; //extremely performance-crippling in Chrome for some reason
-            codecogs.attr('src','http://latex.codecogs.com/gif.latex?'+latex).parent().attr('href','http://latex.codecogs.com/gif.latex?'+latex);
         });
     }).keydown().focus();
 

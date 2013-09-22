@@ -17,7 +17,7 @@
 			<input type="text" placeholder="title for this math formular" autofocus="" id="title" value="<?php echo $title; ?>" name="title">
 
 			<button class="btn" id="preview">Preview</button>
-			<button class="btn" id="update-formular">Update</button>
+			<button class="btn" id="publish">Publish</button>
 
 			<div class="status" style="margin-left: 300px; margin-top: 30px;"></div>
 			<div class="result">

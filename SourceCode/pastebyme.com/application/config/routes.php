@@ -46,29 +46,33 @@ $route['contact-us'] = "home/contactUs";
 $route['save-image/(:any)'] = "home/saveImage/$1";
 
 $route['login'] = "account/login";
-$route['check-login'] = "auth/checkLogin";
+$route['login-check'] = "account/checkLogin";
 
 $route['sign-up'] = "account/register";
-$route['check-sign-up'] = "auth/checkSignUp";
+$route['check-sign-up'] = "account/checkSignUp";
 
-$route['logout'] = "auth/logout";
+$route['logout'] = "account/logout";
 
 $route['account/change-info'] = "account/changeInfo";
+
 $route['account/change-pass'] = "account/changePass";
-$route['account/(:any)'] = "account/info";
+$route['account/change-pass-ajax'] = "account/changePassAjax";
+
+$route['account/(:any)'] = "account/info/$1/1";
+$route['account/(:any)/(:any)'] = "account/info/$1/$2";
 
 $route['community/(:any)'] = "community/index/$1";
 
-$route['save-formular'] = "formular/save";
-$route['update-formular'] = "formular/update";
-$route['formular/view-(:any)'] = "formular/view/$1";
-$route['formular/edit-(:any)'] = "formular/edit/$1";
-$route['formular/copy-(:any)'] = "formular/copy/$1";
+$route['save-formula'] = "formula/save";
+$route['update-formula'] = "formula/update";
+$route['formula/view-(:any)'] = "formula/view/$1";
+$route['formula/edit-(:any)'] = "formula/edit/$1";
+$route['formula/copy-(:any)'] = "formula/copy/$1";
 
 /* ADMIN */
 $route['admin'] = "admin/dashboard/index";
-
 $route['admin/login'] = "admin/user/login";
+$route['admin/logout'] = "admin/user/logout";
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

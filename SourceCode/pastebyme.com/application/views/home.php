@@ -5,15 +5,15 @@
 	<p class="note" style="opacity: 1; left: 0px; color: #fff; font-size: 22px">Quick math now</p>
 	<p class="rapid" style="opacity: 1; right: 0px; "><a href="<?php echo site_url('cheat-sheets'); ?>">Rapid typing - Cheat sheets</a></p>
 	<div id="editor">
-		<?php echo form_open('save-formular', 'id="frm_formular" name="frm_formular"'); ?>	
+		<?php echo form_open('save-formula', 'id="frm_formula" name="frm_formula"'); ?>	
 		<span id="editable-math" class="mathquill-editor">
 		</span>
 		<?php
-	        echo form_input('latex-source', set_value('latex-source'), 'id="latex-source" autofocus placeholder="latex here"');
+	        echo form_input('latex-source', set_value('latex-source'), 'id="latex-source" placeholder="latex here"');
 		?>
 		<div class="clearfix"></div>
 		<?php 
-	        echo form_input('title', set_value('title'), 'id="title" autofocus placeholder="title for this math formular"');
+	        echo form_input('title', set_value('title'), 'id="title" placeholder="title for this math formula"');
 		?>
 
 		<button class="btn" id="preview">Preview</button>
@@ -28,7 +28,7 @@
 			<b>Link image:</b> <span class="linkimage"></span>
 			<br>
 			<b>Embed to forum:</b> <span class="embedtoforum"></span>
-			<pre id="html-source" style="display: none"></pre>
+			<pre id="html-source" style="display: dnone"></pre>
 
 			<div class="require">
 				<span></span>

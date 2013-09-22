@@ -38,10 +38,10 @@ class MY_Model extends CI_Model {
 		return $this->db->get($this->_table_name)->$method();
 	}
 	
-	public function getBy($where, $single = FALSE) {
+	public function getBy($where, $single = FALSE, $limit = NULL, $start=0) {
 		
 		$this->db->where($where);
-		return $this->get(NULL, $single);
+		return $this->get(NULL, $single, $limit, $start);
 	}
 	
 	public function save($data, $id = NULL) {

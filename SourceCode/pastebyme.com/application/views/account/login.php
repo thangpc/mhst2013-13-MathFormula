@@ -77,14 +77,14 @@
 	</div>
 	<div class="content">
 		<div id="admin_area">
-		    <?php echo form_open('check-login', 'id="frm_login"'); ?>
+		    <?php echo form_open('login-check', 'id="frm_login"'); ?>
 		              
 		       <?php 
 		          echo form_input('username', set_value('username'), 'id="username" autofocus placeholder="Username"');
 		       ?>
 		    <br>
 		       <?php 
-		          echo form_password('password', '', 'id="password" placeholder="Password"');
+		          echo form_password('password', set_value('username'), 'id="password" placeholder="Password"');
 		       ?>
 		    <br>
 		       <?php echo form_submit('submit', 'Login', 'id="btn-login"'); ?>

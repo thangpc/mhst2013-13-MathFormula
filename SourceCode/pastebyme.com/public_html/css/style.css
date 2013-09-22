@@ -1,6 +1,7 @@
 * {
 	padding: 0;
 	margin: 0;
+	outline: none;
 }
 
 a {
@@ -9,7 +10,6 @@ a {
 }
 a:hover {
 }
-
 ul, ol {
 	list-style: none;
 }
@@ -35,19 +35,17 @@ body {
 }
 
 header {
-	background: url('../images/bg.jpg');
-	height: 100px;
+	background: url('../images/header_back.png');
+	height: 120px;
 	margin-bottom: 50px;
 }
 header h1 {
 	float: left;
-	margin: 27px 0 18px;
+	margin: 7px 0 18px;
 }
 header h1 a {	
-	background: url("http://b.cksource.com/a/1/10th/ckeditor10years.pngs") no-repeat 0 0;
 	display: block;
-	height: 59px;
-	width: 212px;
+	height: 82px;
 }
 header nav {
 	font-family: "Maven Pro",sans-serif;
@@ -168,7 +166,9 @@ min-width: 1cm;
 .mathquill-editor {
 }
 #latex-source {
-	width: 893px;
+	width: 884px;
+	font-size: 18px;
+	padding: 5px;
 }
 .note { 
 	background: url("../images/sprites-index.png") no-repeat scroll 0 -58px transparent;
@@ -230,20 +230,28 @@ min-width: 1cm;
 	margin-bottom: 15px;
 }
 
-.list-formular {
+.list-formula {
 
 }
-.list-formular a {
+.list-formula a {
 	font-size: 16px;
 	color: #333;
 }
-.list-formular a:hover {
+.list-formula a:hover {
 	text-decoration: underline;
 }
-.list-formular .row {
+.list-formula .row {
 	padding: 10px;
 	margin-bottom: 15px;
-	border-bottom: 1px solid #ccc;
+	border-bottom: 1px dotted #ccc;
+}
+.list-formula .row h3 a {
+	color: #2C90C5;
+}
+.list-formula .author {
+	font-size: 16px;
+	color: #333;
+	font-style: italic;
 }
 
 .user-info {
@@ -251,7 +259,7 @@ min-width: 1cm;
 	width: 200px;
 }
 
-#frm_formular #title {
+#frm_formula #title {
 	margin-top: 15px;
 	font-size: 15px;
 	color: #333;
@@ -276,6 +284,13 @@ min-width: 1cm;
 	margin-bottom: 15px;
 	color: #F76A58;
 	border-bottom: 1px solid #ccc;
+}
+.result .latex-raw input {
+	font-size: 16px;
+    margin-bottom: 15px;
+    padding: 5px;
+    width: 600px;
+    margin-left: 65px;
 }
 .result #latex-image {
 	margin-bottom: 15px;
@@ -357,7 +372,7 @@ min-width: 1cm;
 	margin-right: 30px;
 }
 
-#frm_login .status {
+#frm_login .status, #frm_signup .status {
 	font-size: 14px;
 	height: 30px;
 	font-weight: bold;
@@ -493,4 +508,54 @@ min-width: 1cm;
 	font-weight:700;
 	padding:2px 6px;
 	height:28px
+	}
+
+	.pagination {
+		clear: both;
+		margin-bottom: 25px;
+	}
+	
+	.pagination-digg li{
+		border: 0;
+		margin: 0; 
+		padding: 0;
+		font-size: 15px;
+		line-height: 18px;
+		list-style: none;
+		margin-right: 10px;
+
+	}
+	.pagination-digg a{
+		border:solid 1px #c6baa4;
+		margin-right: 10px;
+	}
+	.pagination-digg .previous-off, .pagination-digg .next-off {
+		border:solid 1px #c6baa4;
+		color:#222222;
+		display:block;
+		float:left;
+		font-weight:bold;
+		margin-right: 5px;
+		padding:3px 4px;
+	}
+	.pagination-digg .next a, .pagination-digg .previous a {
+		font-weight:bold;
+	}
+	.pagination-digg .active{
+		background:#c6baa4;
+		color:#FFFFFF;
+		font-weight:bold;
+		display:block;
+		float:left;
+		padding: 6px 12px;
+	}
+	.pagination-digg a:link, .pagination-digg a:visited {
+		color: #222222;
+		display: block;
+		float: left;
+		padding: 5px 10px;
+		text-decoration: none;
+	}
+	.pagination-digg a:hover{
+		border:solid 1px #222222
 	}

@@ -22,7 +22,7 @@ class Home extends Frontend_Controller {
 	**/
 	public function cheatSheet() {
 
-		$this->data['title_page'] = "Rapid typing math formular - Cheat Sheets";
+		$this->data['title_page'] = "Rapid typing math formula - Cheat Sheets";
 		$this->data['content_view'] = 'cheatsheets';
 		$this->load->view('_layout', $this->data);
 	}
