@@ -31,14 +31,14 @@
 				<br>
 				<b>Embed to forum:</b> 
 				<span class="embedtoforum">
-					<input readonly value="[IMG]http://latex.codecogs.com/gif.latex?<?php echo $latex; ?>[/IMG]">
+					<input readonly value="[IMG]http://latex.numberempire.com/render?<?php echo $latex; ?>[/IMG]">
 				</span>
 				<pre id="html-source" style="display: none"></pre>
 				<?php
 				if ($author == 1) { ?>
-				<a class="btn" href="<?php echo site_url("formular/edit-$id"); ?>">Edit</a>
+				<a class="btn" href="<?php echo site_url("formula/edit-$id"); ?>">Edit</a>
 				<?php } ?>
-				<a class="btn" href="<?php echo site_url("formular/copy-$id"); ?>">Copy this formular</a>
+				<a class="btn" href="<?php echo site_url("formula/copy-$id"); ?>">Copy this formula</a>
 				<div class="require">
 					<span></span>
 				</div>
@@ -53,10 +53,20 @@
 				<span class='st_email_hcount' displayText='Email'></span>
 			</div>
 		</div>
-
+		<div style="margin: 0px auto; margin-top: 15px; width: 760px;">
+			<!-- facebook comment -->
+			<div class="fb-comments" data-href="http://pastebyme.com" data-width="750"></div>
+		</div>
 	</div>
 </div>
-
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <script type="text/javascript">var switchTo5x=true;</script>
 	<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
 	<script type="text/javascript">stLight.options({publisher: "298d3ee0-8e10-446c-8b51-fccffd5485f9", doNotHash: false, doNotCopy: false, hashAddressBar: true});</script>

@@ -230,25 +230,25 @@ min-width: 1cm;
 	margin-bottom: 15px;
 }
 
-.list-formular {
+.list-formula {
 
 }
-.list-formular a {
+.list-formula a {
 	font-size: 16px;
 	color: #333;
 }
-.list-formular a:hover {
+.list-formula a:hover {
 	text-decoration: underline;
 }
-.list-formular .row {
+.list-formula .row {
 	padding: 10px;
 	margin-bottom: 15px;
 	border-bottom: 1px dotted #ccc;
 }
-.list-formular .row h3 a {
+.list-formula .row h3 a {
 	color: #2C90C5;
 }
-.list-formular .author {
+.list-formula .author {
 	font-size: 16px;
 	color: #333;
 	font-style: italic;
@@ -259,7 +259,7 @@ min-width: 1cm;
 	width: 200px;
 }
 
-#frm_formular #title {
+#frm_formula #title {
 	margin-top: 15px;
 	font-size: 15px;
 	color: #333;

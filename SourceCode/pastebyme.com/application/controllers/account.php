@@ -55,7 +55,7 @@ class Account extends Frontend_Controller {
                 $data['message'] = 'Login successfully.';
             } else {
                 $data['status'] = 'failed';
-                $data['message'] = 'Username or Password not available.';
+                $data['message'] = 'Username or Password incorrect.';
             }
         } else {
             $data['status'] = 'nodata';
@@ -161,17 +161,17 @@ class Account extends Frontend_Controller {
         $this->data['user_id'] = $r->user_id;
         $this->data['joined'] = date('d-m-Y', $r->time_created);
         
-        $this->load->model('formular_model');
+        $this->load->model('formula_model');
         $this->load->library('pagination');
         $this->load->helper('pagination');  
 
         $start = ($page - 1) * 8;
         $limit = 8;
-        $total_rows = count($this->formular_model->getBy( array('user_id' => $this->data['user_id']) ));                  
-        $formulars = $this->formular_model->getBy( array('user_id' => $this->data['user_id']), FALSE, $limit, $start);
+        $total_rows = count($this->formula_model->getBy( array('user_id' => $this->data['user_id']) ));                  
+        $formulas = $this->formula_model->getBy( array('user_id' => $this->data['user_id']), FALSE, $limit, $start);
 
-        if ($formulars == null) {
-            $formulars = array();
+        if ($formulas == null) {
+            $formulas = array();
             $fors = array();
         } else {
             $config = pagination(site_url("account/$user"), $total_rows, 8, $page, 3);
@@ -179,8 +179,8 @@ class Account extends Frontend_Controller {
             $this->data['pages'] = array();
             $this->data['pages'] = $this->pagination->create_links();
 
-            foreach ($formulars as $key => $val) {
-                $t['f_id'] = alphaID($val->formular_id);
+            foreach ($formulas as $key => $val) {
+                $t['f_id'] = alphaID($val->formula_id);
                 $t['title'] = $val->title;
                 $t['latex'] = $val->latex;
                 $t['time_created'] = date('d-m-Y', $val->time_created);
@@ -188,7 +188,7 @@ class Account extends Frontend_Controller {
                 $fors[] = $t;
             }
         }        
-        $this->data['formulars'] = $fors;        
+        $this->data['formulas'] = $fors;        
         $this->data['title_page'] = "Account Information";
         $this->data['content_view'] = 'account/info';
         $this->data['col_left'] = $this->load->view('account/col_left', $this->data, TRUE);
@@ -225,4 +225,48 @@ class Account extends Frontend_Controller {
         $this->load->view('_layout', $this->data);
     }
 
+    /*
+        @author: trunghieuhf@gmail.com
+        @description: validate change password
+        @route: /change-pass-ajax
+        @return JSON
+    */
+    public function changePassAjax() {
+
+        $this->user_model->loggedin('user') == 'public' || redirect('home', 'refresh');
+
+        $rules = $this->user_model->rules_change_pass;
+        $this->form_validation->set_rules($rules);
+
+        $data = array();
+
+        if ( $this->form_validation->run() == TRUE ) {
+
+            $arr = array('password' => $this->user_model->hash($this->input->post('old-password')));
+            //if password correct
+            if ($this->user_model->checkUser($arr) == TRUE) {
+                $arr = array('password' => $this->user_model->hash($this->input->post('password')));
+                //update to db
+                $id = $this->user_model->save($arr, $this->data['user_id']);
+
+                if ($id == $this->data['user_id']) {
+                    $data['status'] = 'success';
+                    $data['message'] = 'Login successfully.';
+                } else {
+                    $data['status'] = 'failed';
+                    $data['message'] = 'Lost connection. Please try again!';
+                }
+            } else {
+                $data['status'] = 'failed';
+                $data['message'] = 'Password incorrect.';
+            }
+        } else {
+            $data['status'] = 'nodata';
+            $data['message'] = 'Username & Password must be not null.';
+        }
+
+        $this->output
+            ->set_content_type('application/json')
+            ->set_output(json_encode(array('data' => $data)));        
+    }
 }

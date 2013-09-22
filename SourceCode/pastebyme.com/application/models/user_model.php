@@ -30,6 +30,19 @@ class User_model extends MY_Model {
 			'label' => 'Password', 
 			'rules' => 'trim|xss_clean|required|min_length[4]'
 		)
+	);
+
+	public $rules_change_pass = array(
+		'password' => array(
+			'field' => 'password', 
+			'label' => 'New password', 
+			'rules' => 'trim|required|xss_clean|min_length[4]|max_length[25]'
+		), 
+		're-password' => array(
+			'field' => 're-password', 
+			'label' => 'Re-enter Password', 
+			'rules' => 'trim|required|xss_clean|min_length[4]|max_length[25]|matches[password]'
+		)
 	);	
 
 	public $rules_login_public = array(
@@ -68,9 +81,10 @@ class User_model extends MY_Model {
 		$user = $this->getBy(array(
 			'username' => $this->input->post('username'),
 			'password' => $this->hash($this->input->post('password')),
+			'is_active'=> '1'
 		), TRUE);
-		
-		if (count($user)) {			
+
+		if (count($user) > 0) {			
 			$data = array(
 				'user' => $user->username,
 				'user_id' => $user->user_id,
@@ -87,14 +101,17 @@ class User_model extends MY_Model {
         @description: check user available        
         @return Boolean: FALSE if user not register / TRUE if user registed
     */
-	public function checkUser() {
+	public function checkUser($arr = NULL) {
+		if ($arr == NULL) {
+			$user = $this->getBy(array(
+				'username' => $this->input->post('username'),
+				'email' => $this->input->post('email'),
+			), TRUE);			
+		} else {
+			$user = $this->getBy($arr, TRUE);
+		}
 
-		$user = $this->getBy(array(
-			'username' => $this->input->post('username'),
-			'email' => $this->input->post('email'),
-		), TRUE);
-		
-		if (count($user)) {
+		if (count($user) > 0) {
 			return TRUE;
 		} else
 			return FALSE;
@@ -106,7 +123,7 @@ class User_model extends MY_Model {
 			'email' => $this->input->post('email'),
 			'password' => $this->hash($this->input->post('password')),
 		), TRUE);		
-		if (count($user)) {
+		if (count($user) > 0) {
 			if ($user->role == 'user') return FALSE;
 			$data = array(
 				'admin' => $user->username,

@@ -8,20 +8,20 @@
 	</div>
 	<div class="content">
 		<?php echo $col_left; ?>
-		<div class="video list-formular">
+		<div class="video list-formula">
 			<h2 style="margin-bottom: 15px">Recent posts</h2>
 			<?php	
 
-			if (count($formulars) != 0) {
-			foreach ($formulars as $key => $formular) {				
+			if (count($formulas) != 0) {
+			foreach ($formulas as $key => $formula) {				
 			?>
 
 			<div class="row">
-				<h3><a href="<?php echo site_url("formular/view-".$formular['f_id']); ?>"><?php echo $formular['title']; ?></a></h3>
+				<h3><a href="<?php echo site_url("formula/view-".$formula['f_id']); ?>"><?php echo $formula['title']; ?></a></h3>
 				<div style="margin: 10px 0 10px 0">
-					<img id="latex-image" src="http://latex.codecogs.com/gif.latex?<?php echo $formular['latex']; ?>" alt="show latex to image">
+					<img id="latex-image" src="http://latex.codecogs.com/gif.latex?<?php echo $formula['latex']; ?>" alt="show latex to image">
 				</div>
-				<span class="time"><?php echo $formular['time_created']; ?></span>
+				<span class="time"><?php echo $formula['time_created']; ?></span>
 			</div>			
 		
 			<?php

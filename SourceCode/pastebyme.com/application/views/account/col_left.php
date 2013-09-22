@@ -1,4 +1,4 @@
-<table class="user-info" cellspacing="0">
+		<table class="user-info" cellspacing="0">
 		    <tbody>
 		    	<tr class="odd-row">
 		    		<th>
@@ -10,9 +10,11 @@
 		    	<?php
 		    	if ( ($this->user_model->loggedin('user') == 'public') && ($user == $this->session->userdata('user')) ) {
 		    	?>
+		    	<!--
 		    	<tr>
 		    		<td><a href="<?php echo site_url('account/change-info'); ?>">change info</a></td>
 		    	</tr>
+		    	-->
 		    	<tr>
 		    		<td><a href="<?php echo site_url('account/change-pass'); ?>">change password</a></td>
 		    	</tr>

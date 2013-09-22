@@ -8,21 +8,21 @@ class Community extends Frontend_Controller {
 	}
 
 	/**
-	* List formulars
+	* List formulas
 	**/
 	public function index($page = 1) {
 		
-		$this->load->model('formular_model');
+		$this->load->model('formula_model');
 		$this->load->model('user_model');
 		$this->load->library('pagination');
         $this->load->helper('pagination');
 
 		$limit = ($page - 1) * 8; 
-		$total_rows = count($this->formular_model->get());
-		$formular = $this->formular_model->get(NULL, FALSE, 8, $limit);		
+		$total_rows = count($this->formula_model->get());
+		$formula = $this->formula_model->get(NULL, FALSE, 8, $limit);		
         
-        if ($formular == null) {
-            $formulars = array();
+        if ($formula == null) {
+            $formulas = array();
         } else {
 
             $config = pagination(site_url("community"), $total_rows, 8, $page, 2);
@@ -30,8 +30,8 @@ class Community extends Frontend_Controller {
             $this->data['pages'] = array();
 			$this->data['pages'] = $this->pagination->create_links();
 
-        	foreach ($formular as $key => $val) {
-        		$t['f_id'] = alphaID($val->formular_id);
+        	foreach ($formula as $key => $val) {
+        		$t['f_id'] = alphaID($val->formula_id);
         		$t['title'] = $val->title;
         		$t['latex'] = $val->latex;
                 $t['time_created'] = date('d-m-Y',$val->time_created);
@@ -42,10 +42,10 @@ class Community extends Frontend_Controller {
 		    		$user = $this->user_model->get($user_id);
 		    		$t['user'] = $user->username;
         		}
-        		$formulars[] = $t;
+        		$formulas[] = $t;
         	}
         }
-        $this->data['formulars'] = $formulars;
+        $this->data['formulas'] = $formulas;
 		$this->data['title_page'] = "Community";
 		$this->data['content_view'] = 'community/list';
 		$this->load->view('_layout', $this->data);

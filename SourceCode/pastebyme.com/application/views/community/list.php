@@ -6,14 +6,14 @@
 	<div>
 		<h2 class="title"><?php echo $title_page; ?></h2>
 	</div>
-	<div class="content list-formular">
+	<div class="content list-formula">
 		<?php
-		if (count($formulars) != 0) {
-		foreach ($formulars as $key => $val) {
+		if (count($formulas) != 0) {
+		foreach ($formulas as $key => $val) {
 			$id = $val['f_id'];
 		?>
 		<div class="row">
-			<h3><a href="<?php echo site_url("formular/view-$id"); ?>"><?php echo $val['title']; ?></a></h3>
+			<h3><a href="<?php echo site_url("formula/view-$id"); ?>"><?php echo $val['title']; ?></a></h3>
 
 			<div style="margin: 10px 0 10px 0">
 				<img src="http://latex.numberempire.com/render?<?php echo $val['latex']; ?>" alt="">

@@ -1,11 +1,11 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Formular extends Frontend_Controller {
+class Formula extends Frontend_Controller {
 
 	public function __construct() {
 
 		parent::__construct();
-		$this->load->model('formular_model');		
+		$this->load->model('formula_model');		
 	}
 
 	public function index() {
@@ -13,14 +13,14 @@ class Formular extends Frontend_Controller {
 	
 	/*
     	@author: trunghieuhf@gmail.com
-    	@description: save formular to database	
-	    @route: /save-formular
+    	@description: save formula to database	
+	    @route: /save-formula
 	    @return JSON
     */
 	public function save() {
-		if (isset($this->session->userdata['time_post_formular'])) 
-			$time_post_formular = $this->session->userdata['time_post_formular'];
-		else $time_post_formular = 0;
+		if (isset($this->session->userdata['time_post_formula'])) 
+			$time_post_formula = $this->session->userdata['time_post_formula'];
+		else $time_post_formula = 0;
 				
 		$max_time = 15;
 		$login = 1;
@@ -28,8 +28,8 @@ class Formular extends Frontend_Controller {
 			$max_time = 60;
 			$login = 0;
 		}		
-		if ( (time() - $time_post_formular) < $max_time ) {
-			$time = $max_time - (time() - $time_post_formular);
+		if ( (time() - $time_post_formula) < $max_time ) {
+			$time = $max_time - (time() - $time_post_formula);
 			$data['status'] = 'timeout';			
 			$data['time'] = $time;
 			$data['login'] = $login;
@@ -53,17 +53,17 @@ class Formular extends Frontend_Controller {
 	            }
 	           	else $user_id = 0;
 
-	            $formular = array(
+	            $formula = array(
 	            	'user_id' => $user_id,
 					'latex'	=> $this->input->post('latex-source'),
 					'title' 		=> $title,
 					'time_created'	=> time()
 				);
 	            
-	            $id = $this->formular_model->save($formular);
+	            $id = $this->formula_model->save($formula);
 	           	
 	            if ( $id != FALSE ) {
-	            	$this->session->set_userdata('time_post_formular', time());
+	            	$this->session->set_userdata('time_post_formula', time());
 	                $data['status'] = 'success';
 	                $data['id'] = alphaID($id);
 	                $data['message'] = 'Saved.';
@@ -84,8 +84,8 @@ class Formular extends Frontend_Controller {
 
 	/*
         @author: trunghieuhf@gmail.com
-        @description: update formular to database
-        @route: /update-formular
+        @description: update formula to database
+        @route: /update-formula
         @return JSON
     */
 	public function update() {
@@ -100,13 +100,13 @@ class Formular extends Frontend_Controller {
             // then validation passed. Get from db
             $title = $this->input->post('title');
             if (strlen($title) < 1) $title = "Untitled";
-            $formular_id = alphaID($this->input->post('formular_id'), true);
-            $formular = array(
+            $formula_id = alphaID($this->input->post('formula_id'), true);
+            $formula = array(
 				'latex'	=> $this->input->post('latex-source'),
 				'title' 		=> $title,
 				'time_updated'	=> time()
 			);
-            $id = $this->formular_model->save($formular, $formular_id);
+            $id = $this->formula_model->save($formula, $formula_id);
            	
             if ( $id !== false ) {
                 $data['status'] = 'success';
@@ -128,19 +128,19 @@ class Formular extends Frontend_Controller {
 
 	/*
         @author: trunghieuhf@gmail.com
-        @description: view detail formular
-        @route: /formular/view/$1
+        @description: view detail formula
+        @route: /formula/view/$1
         @return View
     */
 	public function view($id = '') {
 
 		$this->data['id'] = $id;
 		$id = alphaID($id, true);
-		$formular = $this->formular_model->get($id);		
-		$this->data['title'] = $formular->title;
-		$this->data['latex'] = $formular->latex;	
-		$this->data['time_created'] = date('d-m-Y', $formular->time_created);
-		$user_id = $formular->user_id;
+		$formula = $this->formula_model->get($id);		
+		$this->data['title'] = $formula->title;
+		$this->data['latex'] = $formula->latex;	
+		$this->data['time_created'] = date('d-m-Y', $formula->time_created);
+		$user_id = $formula->user_id;
 		$this->data['author'] = 0;
 		if ($user_id == 0) {
 			$this->data['posted_by'] = 'Guest';
@@ -151,30 +151,30 @@ class Formular extends Frontend_Controller {
 				if ($user->username == $this->session->userdata('user'))
 					$this->data['author'] = 1;
 		}
-		$this->data['title_page'] = 'Formular detail';
-		$this->data['content_view'] = 'formular/view';
+		$this->data['title_page'] = 'Formula detail';
+		$this->data['content_view'] = 'formula/view';
 		$this->load->view('_layout', $this->data);
 	}
 
 	/*
         @author: trunghieuhf@gmail.com
-        @description: edit formular
-        @route: /formular/edit/$1
+        @description: edit formula
+        @route: /formula/edit/$1
         @return View
     */
 	public function edit($aid = '') {
 
 		$this->data['id'] = $aid;
 		$id = alphaID($aid, true);
-		$formular = $this->formular_model->get($id);
-		if ($formular == null) {
+		$formula = $this->formula_model->get($id);
+		if ($formula == null) {
 			redirect('home', 'refresh');
 			die;
 		}
-		$this->data['title'] = $formular->title;
-		$this->data['latex'] = $formular->latex;
+		$this->data['title'] = $formula->title;
+		$this->data['latex'] = $formula->latex;
 
-		$user_id = $formular->user_id;
+		$user_id = $formula->user_id;
 		$this->data['user_id'] = alphaID($user_id);
 		$this->data['author'] = 0;
 		$user = $this->user_model->get($user_id);
@@ -186,34 +186,34 @@ class Formular extends Frontend_Controller {
 
 		// not author can't edit
 		if ($this->data['author'] == 0) {			
-			redirect("formular/view-$aid", 'refresh');
+			redirect("formula/view-$aid", 'refresh');
 			die;
 		}		
 
-		$this->data['title_page'] = 'Edit formular';
-		$this->data['content_view'] = 'formular/edit';
+		$this->data['title_page'] = 'Edit formula';
+		$this->data['content_view'] = 'formula/edit';
 		$this->load->view('_layout', $this->data);
 	}
 
 	/*
         @author: trunghieuhf@gmail.com
-        @description: copy formular
-        @route: /formular/copy/$1
+        @description: copy formula
+        @route: /formula/copy/$1
         @return View
     */
 	public function copy($aid = '') {
 		$this->data['id'] = $aid;
 		$id = alphaID($aid, true);
 
-		$formular = $this->formular_model->get($id);
-		if ($formular == null) {			
+		$formula = $this->formula_model->get($id);
+		if ($formula == null) {			
 			redirect('home', 'refresh');
 			die;
 		}
-		$this->data['title'] = $formular->title;
-		$this->data['latex'] = $formular->latex;
-		$this->data['title_page'] = 'Add new formular';
-		$this->data['content_view'] = 'formular/copy';
+		$this->data['title'] = $formula->title;
+		$this->data['latex'] = $formula->latex;
+		$this->data['title_page'] = 'Add new formula';
+		$this->data['content_view'] = 'formula/copy';
 		$this->load->view('_layout', $this->data);
 	}
 
