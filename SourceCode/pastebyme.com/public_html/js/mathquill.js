@@ -294,7 +294,7 @@ function createRoot(jQ, root, textbox, editable, include_toolbar) {
   if (!editable) //if static, quit once we render the LaTeX
     return;
 
-  root.textarea = $('<span class="textarea"><textarea></textarea></span>')
+  root.textarea = $('<span class="textarea"><textarea autofocus></textarea></span>')
     .prependTo(jQ.addClass('mathquill-editable'));
   var textarea = root.textarea.children();
   if (textbox)
@@ -417,9 +417,8 @@ function addToolbar(root, jQ) {
     { name: 'Greek',
       example: '&pi;',
       button_groups: [
-        ["alpha", "beta", "gamma", "delta", "epsilon", "zeta", "eta", "theta", "iota", "kappa", "lambda", "mu", "nu", "xi", "pi", "rho", "sigma", "tau", "upsilon", "phi", "chi", "psi", "omega"],
-        ["digamma", "varepsilon", "vartheta", "varkappa", "varpi", "varrho", "varsigma", "varphi"],
-        ["Gamma", "Delta", "Theta", "Lambda", "Xi", "Pi", "Sigma", "Upsilon", "Phi", "Psi", "Omega"]
+        ["alpha", "beta", "gamma", "delta", "epsilon", "zeta", "eta", "theta", "iota", "kappa", "gamma", "lambda", "mu", "nu", "xi", "pi", "rho", "sigma", "tau", "upsilon", "phi", "chi", "psi", "omega"],
+        ["digamma", "varepsilon", "vartheta", "varkappa", "varpi", "varrho", "varsigma", "varphi"]
       ]},
     { name: 'Operators',
       example: '&oplus;',
@@ -431,7 +430,7 @@ function addToolbar(root, jQ) {
       ]},
     { name: 'Arrows',
       example: '&hArr;',
-      button_groups: [["longleftarrow", "longrightarrow", "Longleftarrow", "Longrightarrow", "longleftrightarrow", "updownarrow", "Longleftrightarrow", "Updownarrow", "mapsto", "nearrow", "hookleftarrow", "hookrightarrow", "searrow", "leftharpoonup", "rightharpoonup", "swarrow", "leftharpoondown", "rightharpoondown", "nwarrow", "downarrow", "Downarrow", "uparrow", "Uparrow", "rightarrow", "Rightarrow", "leftarrow", "lArr", "leftrightarrow", "Leftrightarrow"]
+      button_groups: [["longleftarrow", "longrightarrow", "longleftarrow", "longrightarrow", "longleftrightarrow", "updownarrow", "longleftrightarrow", "updownarrow", "mapsto", "nearrow", "hookleftarrow", "hookrightarrow", "searrow", "leftharpoonup", "rightharpoonup", "swarrow", "leftharpoondown", "rightharpoondown", "nwarrow", "downarrow", "downarrow", "uparrow", "uparrow", "rightarrow", "rightarrow", "leftarrow", "larr", "leftrightarrow", "leftrightarrow"]
       ]},
     { name: 'Delimiters',
       example: '{',

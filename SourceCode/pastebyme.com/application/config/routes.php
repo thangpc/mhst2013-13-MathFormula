@@ -46,16 +46,17 @@ $route['contact-us'] = "home/contactUs";
 $route['save-image/(:any)'] = "home/saveImage/$1";
 
 $route['login'] = "account/login";
-$route['check-login'] = "auth/checkLogin";
+$route['login-check'] = "account/checkLogin";
 
 $route['sign-up'] = "account/register";
-$route['check-sign-up'] = "auth/checkSignUp";
+$route['check-sign-up'] = "account/checkSignUp";
 
-$route['logout'] = "auth/logout";
+$route['logout'] = "account/logout";
 
 $route['account/change-info'] = "account/changeInfo";
 $route['account/change-pass'] = "account/changePass";
-$route['account/(:any)'] = "account/info";
+$route['account/(:any)'] = "account/info/$1/1";
+$route['account/(:any)/(:any)'] = "account/info/$1/$2";
 
 $route['community/(:any)'] = "community/index/$1";
 
@@ -67,8 +68,8 @@ $route['formular/copy-(:any)'] = "formular/copy/$1";
 
 /* ADMIN */
 $route['admin'] = "admin/dashboard/index";
-
 $route['admin/login'] = "admin/user/login";
+$route['admin/logout'] = "admin/user/logout";
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-if ( ! function_exists('alphaID')) {
+if ( ! function_exists('alphaid')) {
     
     function alphaID($in, $to_num = false, $pad_up = false, $passKey = null) {
 

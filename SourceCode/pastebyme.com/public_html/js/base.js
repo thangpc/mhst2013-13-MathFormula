@@ -1,5 +1,7 @@
 $(document).ready(function() {
+
     initMathQuill();
+
     $('#btn-login').click(function() {
         var username = $('#username').val();
         var password = $('#password').val();
@@ -15,7 +17,7 @@ $(document).ready(function() {
         }
         $.ajax({
             type: "POST",
-            url: PUBLIC_URL + 'check-login',
+            url: PUBLIC_URL + 'login-check',
             cache: false,
             dataType: 'json',
             data: $('#frm_login').serialize(),
@@ -26,7 +28,8 @@ $(document).ready(function() {
 
             success: function(msg) {            
                 if (msg.data.status == 'success') {
-                    history.back(-1);
+                    window.location.href = document.referrer;
+                    window.location.href = PUBLIC_URL;
                 } else {
                     $('.status').attr('class', 'status error').html(msg.data.message);
                 }
@@ -37,6 +40,7 @@ $(document).ready(function() {
     });
     
     $('#btn-signup').click(function() {
+
         var username = $('#username').val();
         var password = $('#password').val();
         var email = $('#email').val();
@@ -64,13 +68,16 @@ $(document).ready(function() {
             data: $('#frm_signup').serialize(),
             
             beforeSend: function(msg) {
+                $('#btn-signup').attr("disabled", "disabled");
                 $('.status').attr('class', 'status success').html('Checking <img src="'+PUBLIC_URL+'public_html/images/loading.gif" />');
             },
 
             success: function(msg) {            
                 if (msg.data.status == 'success') {
-                    history.back(-1);
+                    window.location.href = document.referrer;
+                    window.location.href = PUBLIC_URL;                    
                 } else {
+                    $('#btn-signup').removeAttr("disabled");
                     $('.status').attr('class', 'status error').html(msg.data.message);
                 }
             }

@@ -8,18 +8,28 @@
 	</div>
 	<div class="content list-formular">
 		<?php
+		if (count($formulars) != 0) {
 		foreach ($formulars as $key => $val) {
 			$id = $val['f_id'];
 		?>
 		<div class="row">
 			<h3><a href="<?php echo site_url("formular/view-$id"); ?>"><?php echo $val['title']; ?></a></h3>
-			<div>
-				<img src="http://latex.codecogs.com/gif.latex?<?php echo $val['latex']; ?>" alt="">
+
+			<div style="margin: 10px 0 10px 0">
+				<img src="http://latex.numberempire.com/render?<?php echo $val['latex']; ?>" alt="">
 			</div>
+			<?php if ($val['user'] != '') { ?>
+			<span class="author">by <a href="<?php echo site_url("account/".$val['user']); ?>"><?php echo $val['user']; ?></a></span>
+			<?php } ?>
+			<span class="time"><?php echo $val['time_created']; ?></span>
 		</div>
 		<?php
 		}
 		?>
 		<?php echo $pages; ?>
+		<div class="clearfix"></div>
+		<?php
+		}
+		?>
 	</div>
-</div
+</div>

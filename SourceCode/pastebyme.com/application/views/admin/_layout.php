@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="<?php echo base_url(); ?>public_html/images/favicon.ico">
         <title>Admin | <?php echo $title_page; ?></title>
         <link type="text/css" rel="stylesheet" charset="UTF-8" href="<?php echo base_url(); ?>public_html/css/style.css" />
         <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>public_html/css/bootstrap.min.css">

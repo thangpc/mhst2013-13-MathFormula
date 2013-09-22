@@ -13,15 +13,15 @@
 
 				<p>&nbsp;</p>
 				<h2>For everything please email<br>
-				<a href="mailto:dev@pastebyme.com">dev@pastebyme.com</a></h2>
+				<a href="mailto:mhst13-13-fuhn@googlegroups.com">mhst13-13-fuhn@googlegroups.com</a></h2>
 				<h3>Follow Us on: </h3>				
 					<div class="social">
-						<a target="_blank" href="#">
+						<a target="_blank" href="http://pastebyme.blogspot.com/">
 							<img src="<?php echo base_url(); ?>/public_html/images/blogger_logo.png" width="80" alt="">
 						</a>
 					</div>
 					<div class="social">
-						<a target="_blank" href="#">
+						<a target="_blank" href="https://github.com/thangpc/mhst2013-13-MathFormula">
 							<img src="<?php echo base_url(); ?>/public_html/images/github-logo.png" width="200" alt="">
 						</a>
 					</div>

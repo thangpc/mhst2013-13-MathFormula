@@ -9,9 +9,9 @@ $(function(){
 		}
 		$('.result').fadeIn(1500);
 		$('#latex-source').show();
-		$('#latex-image').html('<img id="latex-image" src="http://latex.codecogs.com/gif.latex?'+latex+'" alt="show latex to image">');
-		$('.embedtoforum').html('<input readonly value="[IMG]http://latex.codecogs.com/gif.latex?'+latex+'[/IMG]">');
-		$('.linkimage').html('<input readonly value="http://latex.codecogs.com/gif.latex?'+latex+'">');
+		$('#latex-image').html('<img id="latex-image" src="http://latex.numberempire.com/render?'+latex+'" alt="show latex to image">');
+		$('.embedtoforum').html('<input readonly value="[IMG]http://latex.numberempire.com/render?'+latex+'[/IMG]">');
+		$('.linkimage').html('<input readonly value="http://latex.numberempire.com/render?'+latex+'">');
 		$('.down').attr('href', 'http://latex.codecogs.com/gif.latex?'+latex);
 		window.scrollTo(0,document.body.scrollHeight);
 		return false;	

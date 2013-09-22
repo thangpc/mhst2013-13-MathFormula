@@ -5,27 +5,31 @@ class Formular extends Frontend_Controller {
 	public function __construct() {
 
 		parent::__construct();
-		$this->load->model('formular_model');
-		$this->load->model('user_model');
+		$this->load->model('formular_model');		
 	}
 
 	public function index() {
 	}
-
-	//save formular to database	
+	
+	/*
+    	@author: trunghieuhf@gmail.com
+    	@description: save formular to database	
+	    @route: /save-formular
+	    @return JSON
+    */
 	public function save() {
-
-		if (isset($_SESSION['time_post'])) $time_post = $_SESSION['time_post'];
-		else $time_post = 0;
-		$max_time = 60;
+		if (isset($this->session->userdata['time_post_formular'])) 
+			$time_post_formular = $this->session->userdata['time_post_formular'];
+		else $time_post_formular = 0;
+				
+		$max_time = 15;
 		$login = 1;
-		if (!isset($_SESSION['username'])) {
-			$max_time = 3 * 60;
+		if ($this->user_model->loggedin('user') != 'public') {
+			$max_time = 60;
 			$login = 0;
-		}
-
-		if ( (time() - $time_post) < $max_time ) {
-			$time = $max_time - (time() - $time_post);
+		}		
+		if ( (time() - $time_post_formular) < $max_time ) {
+			$time = $max_time - (time() - $time_post_formular);
 			$data['status'] = 'timeout';			
 			$data['time'] = $time;
 			$data['login'] = $login;
@@ -38,14 +42,14 @@ class Formular extends Frontend_Controller {
 
 	        $data = array();
 	        
-	        if ( $this->form_validation->run() !== false ) {
+	        if ( $this->form_validation->run() != FALSE ) {
 	            // then validation passed. Get from db
 	            $title = $this->input->post('title');
 	            if (strlen($title) < 1) $title = "Untitled";
 
 	            //get user_id
-	            if (isset($_SESSION['username'])) {
-	            	$user_id = $_SESSION['user_id'];
+	            if ($this->user_model->loggedin('user') == 'public') {
+	            	$user_id = $this->session->userdata['user_id'];
 	            }
 	           	else $user_id = 0;
 
@@ -58,8 +62,8 @@ class Formular extends Frontend_Controller {
 	            
 	            $id = $this->formular_model->save($formular);
 	           	
-	            if ( $id !== false ) {
-	            	$_SESSION['time_post'] = time();
+	            if ( $id != FALSE ) {
+	            	$this->session->set_userdata('time_post_formular', time());
 	                $data['status'] = 'success';
 	                $data['id'] = alphaID($id);
 	                $data['message'] = 'Saved.';
@@ -78,7 +82,12 @@ class Formular extends Frontend_Controller {
             ->set_output(json_encode(array('data' => $data)));
 	}
 
-	//update formular to database	
+	/*
+        @author: trunghieuhf@gmail.com
+        @description: update formular to database
+        @route: /update-formular
+        @return JSON
+    */
 	public function update() {
 
 		$this->load->library('form_validation');
@@ -117,21 +126,29 @@ class Formular extends Frontend_Controller {
             ->set_output(json_encode(array('data' => $data)));
 	}
 
-	//view detail formular
+	/*
+        @author: trunghieuhf@gmail.com
+        @description: view detail formular
+        @route: /formular/view/$1
+        @return View
+    */
 	public function view($id = '') {
+
 		$this->data['id'] = $id;
 		$id = alphaID($id, true);
-		$formular = $this->formular_model->get($id);
-		//var_dump($formular->formular_id);die;
+		$formular = $this->formular_model->get($id);		
 		$this->data['title'] = $formular->title;
-		$this->data['latex'] = $formular->latex;
+		$this->data['latex'] = $formular->latex;	
+		$this->data['time_created'] = date('d-m-Y', $formular->time_created);
 		$user_id = $formular->user_id;
 		$this->data['author'] = 0;
 		if ($user_id == 0) {
+			$this->data['posted_by'] = 'Guest';
 		} else {
-			$user = $this->user_model->get($user_id);		
-			if (isset($_SESSION['username']))
-				if ($user->username == $_SESSION['username'])
+			$user = $this->user_model->get($user_id);
+			$this->data['posted_by'] = $user->username;
+			if ($this->user_model->loggedin('user') == 'public')
+				if ($user->username == $this->session->userdata('user'))
 					$this->data['author'] = 1;
 		}
 		$this->data['title_page'] = 'Formular detail';
@@ -139,8 +156,14 @@ class Formular extends Frontend_Controller {
 		$this->load->view('_layout', $this->data);
 	}
 
-	//edit formular - view layer
+	/*
+        @author: trunghieuhf@gmail.com
+        @description: edit formular
+        @route: /formular/edit/$1
+        @return View
+    */
 	public function edit($aid = '') {
+
 		$this->data['id'] = $aid;
 		$id = alphaID($aid, true);
 		$formular = $this->formular_model->get($id);
@@ -157,8 +180,8 @@ class Formular extends Frontend_Controller {
 		$user = $this->user_model->get($user_id);
 
 		//check author
-		if (isset($_SESSION['username']))
-			if ($user->username == $_SESSION['username'])
+		if ($this->user_model->loggedin('user') == 'public')
+			if ($user->username == $this->session->userdata('user'))
 				$this->data['author'] = 1;
 
 		// not author can't edit
@@ -172,7 +195,12 @@ class Formular extends Frontend_Controller {
 		$this->load->view('_layout', $this->data);
 	}
 
-	//copy formular - view layer
+	/*
+        @author: trunghieuhf@gmail.com
+        @description: copy formular
+        @route: /formular/copy/$1
+        @return View
+    */
 	public function copy($aid = '') {
 		$this->data['id'] = $aid;
 		$id = alphaID($aid, true);

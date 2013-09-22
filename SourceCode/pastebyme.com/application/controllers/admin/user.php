@@ -6,15 +6,33 @@ class User extends Admin_Controller {
         parent::__construct();
     }
 
+    /*
+    * route: admin/login
+    * return: View
+    */
     public function login(){
-
-    	$rules = $this->user_model->rules;
+        
+        $this->user_model->loggedin('admin') != 'admin' || redirect('admin/dashboard');
+    	$rules = $this->user_model->rules_login_admin;
     	$this->form_validation->set_rules($rules);
+
     	if ($this->form_validation->run() == TRUE) {
-    		// We can login and redirect
+    		if ($this->user_model->loginAdmin() == TRUE) {                
+
+                redirect('admin');                
+            }
+            else {
+                $this->session->set_flashdata('error', 'Access denied!');
+                redirect('admin/login', 'refresh');
+            }
     	}
         $this->data['title_page'] = 'Login';
         $this->load->view('admin/user/login', $this->data);
+    }
+
+    public function logout(){
+        $this->user_model->logout('admin');
+        redirect('admin/user/login');
     }
 
 }

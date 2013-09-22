@@ -9,11 +9,11 @@
 		<span id="editable-math" class="mathquill-editor">
 		</span>
 		<?php
-	        echo form_input('latex-source', set_value('latex-source'), 'id="latex-source" autofocus placeholder="latex here"');
+	        echo form_input('latex-source', set_value('latex-source'), 'id="latex-source" placeholder="latex here"');
 		?>
 		<div class="clearfix"></div>
 		<?php 
-	        echo form_input('title', set_value('title'), 'id="title" autofocus placeholder="title for this math formular"');
+	        echo form_input('title', set_value('title'), 'id="title" placeholder="title for this math formular"');
 		?>
 
 		<button class="btn" id="preview">Preview</button>
@@ -28,7 +28,7 @@
 			<b>Link image:</b> <span class="linkimage"></span>
 			<br>
 			<b>Embed to forum:</b> <span class="embedtoforum"></span>
-			<pre id="html-source" style="display: none"></pre>
+			<pre id="html-source" style="display: dnone"></pre>
 
 			<div class="require">
 				<span></span>
