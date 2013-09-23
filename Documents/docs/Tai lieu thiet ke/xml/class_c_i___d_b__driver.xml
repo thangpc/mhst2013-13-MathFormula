@@ -1,0 +1,1572 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_c_i___d_b__driver" kind="class" prot="public">
+    <compoundname>CI_DB_driver</compoundname>
+    <derivedcompoundref refid="class_c_i___d_b__active__record" prot="public" virt="non-virtual">CI_DB_active_record</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_c_i___d_b__driver_1a0eb82aa5f81cf845de4b36cd653c42cf" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$username</definition>
+        <argsstring></argsstring>
+        <name>$username</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="33" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___d_b__driver_1a607686ef9f99ea7c42f4f3dd3dbb2b0d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$password</definition>
+        <argsstring></argsstring>
+        <name>$password</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="34" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___d_b__driver_1a8bf9ffb42ed554b203b55377d1fc9aa4" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$hostname</definition>
+        <argsstring></argsstring>
+        <name>$hostname</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="35" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___d_b__driver_1a7691c0162d89de0b6ba47edcd8ba8878" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$database</definition>
+        <argsstring></argsstring>
+        <name>$database</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="36" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___d_b__driver_1a0cde2a16322a023d040aa7f725877597" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$dbdriver</definition>
+        <argsstring></argsstring>
+        <name>$dbdriver</name>
+        <initializer>= &apos;mysql&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="37" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___d_b__driver_1a81398da65aef92236c2bc2e0307f1fa4" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$dbprefix</definition>
+        <argsstring></argsstring>
+        <name>$dbprefix</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="38" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___d_b__driver_1a0ea660eb249174aefdc2c35238fb1dc8" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$char_set</definition>
+        <argsstring></argsstring>
+        <name>$char_set</name>
+        <initializer>= &apos;utf8&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="39" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___d_b__driver_1a303eb205131e0266c2a57bcc6a34e80a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$dbcollat</definition>
+        <argsstring></argsstring>
+        <name>$dbcollat</name>
+        <initializer>= &apos;utf8_general_ci&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="40" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___d_b__driver_1a97d3ccf64e5b873ebca99d17a2c204d3" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$autoinit</definition>
+        <argsstring></argsstring>
+        <name>$autoinit</name>
+        <initializer>= TRUE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="41" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___d_b__driver_1a913c5a5af0c805fe64f884af6028fb73" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$swap_pre</definition>
+        <argsstring></argsstring>
+        <name>$swap_pre</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="42" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___d_b__driver_1aa0787efab4b22e8a212882f3409d4c77" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$port</definition>
+        <argsstring></argsstring>
+        <name>$port</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="43" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___d_b__driver_1a5b7c010f6dfe8dfd41ce86fdaed67ebf" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$pconnect</definition>
+        <argsstring></argsstring>
+        <name>$pconnect</name>
+        <initializer>= FALSE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="44" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___d_b__driver_1a16c23f1dcbfed2f2759f5e54f604106d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$conn_id</definition>
+        <argsstring></argsstring>
+        <name>$conn_id</name>
+        <initializer>= FALSE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="45" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___d_b__driver_1a0ebacb40e3b6f8bf33d3de0f2cc71474" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$result_id</definition>
+        <argsstring></argsstring>
+        <name>$result_id</name>
+        <initializer>= FALSE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="46" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___d_b__driver_1a2c1bc80cc98589e419a6c535e53735de" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$db_debug</definition>
+        <argsstring></argsstring>
+        <name>$db_debug</name>
+        <initializer>= FALSE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="47" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___d_b__driver_1ac75dbf878e2ceec25d2abe6730855f6b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$benchmark</definition>
+        <argsstring></argsstring>
+        <name>$benchmark</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="48" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___d_b__driver_1aa7f7fc5b08bc2c3626ea7065d50c8847" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$query_count</definition>
+        <argsstring></argsstring>
+        <name>$query_count</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="49" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___d_b__driver_1a253af4ebf23051f23690926079f4285d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$bind_marker</definition>
+        <argsstring></argsstring>
+        <name>$bind_marker</name>
+        <initializer>= &apos;?&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="50" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___d_b__driver_1a083a278ea2075824db1db85edaa8e0a8" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$save_queries</definition>
+        <argsstring></argsstring>
+        <name>$save_queries</name>
+        <initializer>= TRUE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="51" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___d_b__driver_1a576b05de2f452e4cce4e3de12667ba0f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$queries</definition>
+        <argsstring></argsstring>
+        <name>$queries</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="52" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___d_b__driver_1a060b2893433dfc037803cf6541420f5f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$query_times</definition>
+        <argsstring></argsstring>
+        <name>$query_times</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="53" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___d_b__driver_1aab3007e30adbaf71d06218aa6c90e384" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$data_cache</definition>
+        <argsstring></argsstring>
+        <name>$data_cache</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="54" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___d_b__driver_1a450683d6d87929985766484b2f6a9e7b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$trans_enabled</definition>
+        <argsstring></argsstring>
+        <name>$trans_enabled</name>
+        <initializer>= TRUE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="55" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___d_b__driver_1ae3111155f1f3ec59fe667b90dafb179f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$trans_strict</definition>
+        <argsstring></argsstring>
+        <name>$trans_strict</name>
+        <initializer>= TRUE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="56" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___d_b__driver_1a0724b7f82d62f35ef5e150146ed2a27b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$_trans_depth</definition>
+        <argsstring></argsstring>
+        <name>$_trans_depth</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="57" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___d_b__driver_1a93acf0189d34131e156c6eb4a48c2b5b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$_trans_status</definition>
+        <argsstring></argsstring>
+        <name>$_trans_status</name>
+        <initializer>= TRUE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="58" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___d_b__driver_1ab29a8930111a4f2a57987a9031982c34" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$cache_on</definition>
+        <argsstring></argsstring>
+        <name>$cache_on</name>
+        <initializer>= FALSE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="59" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___d_b__driver_1a01f61437be9e9a04ee228f5d455265db" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$cachedir</definition>
+        <argsstring></argsstring>
+        <name>$cachedir</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="60" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___d_b__driver_1a3da421c22206e24614dc73c9536ff605" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$cache_autodel</definition>
+        <argsstring></argsstring>
+        <name>$cache_autodel</name>
+        <initializer>= FALSE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="61" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___d_b__driver_1a54f3ab89da1323e5680116d8e9e94b83" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$CACHE</definition>
+        <argsstring></argsstring>
+        <name>$CACHE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="62" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___d_b__driver_1a2e8a156a3c2abda43a4f160bcb5252e9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$_protect_identifiers</definition>
+        <argsstring></argsstring>
+        <name>$_protect_identifiers</name>
+        <initializer>= TRUE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="65" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___d_b__driver_1aa3298c4c62fbee8bb09f1b75b633fb0d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$_reserved_identifiers</definition>
+        <argsstring></argsstring>
+        <name>$_reserved_identifiers</name>
+        <initializer>= array(&apos;*&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="66" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___d_b__driver_1a1a97f17fd259cd27c73b65e6c3706ec0" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$stmt_id</definition>
+        <argsstring></argsstring>
+        <name>$stmt_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="69" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___d_b__driver_1a75e7d18ad2e68ace3813533c9da2e179" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$curs_id</definition>
+        <argsstring></argsstring>
+        <name>$curs_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="70" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___d_b__driver_1a96df35d7e3e76bef21ebb80234fe59e8" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$limit_used</definition>
+        <argsstring></argsstring>
+        <name>$limit_used</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="71" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_i___d_b__driver_1a9162320adff1a1a4afd7f2372f753a3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>($params)</argsstring>
+        <name>__construct</name>
+        <param>
+          <declname>$params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor. Accepts one parameter containing the database connection settings.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="81" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="81" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__driver_1a91098fa7d1917ce4833f284bbef12627" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>initialize</definition>
+        <argsstring>()</argsstring>
+        <name>initialize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Initialize Database Settings</para><para>private Called by the constructor <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mixed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="103" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="103" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__driver_1adc8cd12121dc8edda3adcadd88a97e24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>db_set_charset</definition>
+        <argsstring>($charset, $collation)</argsstring>
+        <name>db_set_charset</name>
+        <param>
+          <declname>$charset</declname>
+        </param>
+        <param>
+          <declname>$collation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set client character set</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>resource </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="169" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="169" bodyend="184"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__driver_1ad69bddb2ba31b27415484b3da4213ba8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>platform</definition>
+        <argsstring>()</argsstring>
+        <name>platform</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The name of the platform in use (mysql, mssql, etc...)</para><para>public <simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="194" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="194" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__driver_1a6080dae0886626b9a4cedb29240708b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>version</definition>
+        <argsstring>()</argsstring>
+        <name>version</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Database Version Number. Returns a string containing the version of the database being used</para><para>public <simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="208" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="208" bodyend="232"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__driver_1af987e82e6283e31a44db93d51558710d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>query</definition>
+        <argsstring>($sql, $binds=FALSE, $return_object=TRUE)</argsstring>
+        <name>query</name>
+        <param>
+          <declname>$sql</declname>
+        </param>
+        <param>
+          <declname>$binds</declname>
+          <defval>FALSE</defval>
+        </param>
+        <param>
+          <declname>$return_object</declname>
+          <defval>TRUE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Execute the query</para><para>Accepts an SQL string as input and returns a result object upon successful execution of a &quot;read&quot; type query. Returns boolean TRUE upon successful execution of a &quot;write&quot; type query. Returns boolean FALSE upon failure, and if the $db_debug variable is set to TRUE will raise an error.</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An SQL query string </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An array of binding data </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="250" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="250" bodyend="411"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__driver_1a0bd509a0088f09f4bbfbcbbe78bc3547" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>load_rdriver</definition>
+        <argsstring>()</argsstring>
+        <name>load_rdriver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Load the result drivers</para><para>public <simplesect kind="return"><para>string the name of the result class </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="421" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="421" bodyend="432"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__driver_1a6ac4d82d7ba4e8df07e1367229084c91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>simple_query</definition>
+        <argsstring>($sql)</argsstring>
+        <name>simple_query</name>
+        <param>
+          <declname>$sql</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Simple Query This is a simplified version of the <ref refid="class_c_i___d_b__driver_1af987e82e6283e31a44db93d51558710d" kindref="member">query()</ref> function. Internally we only use it when running transaction commands since they do not require all the features of the main <ref refid="class_c_i___d_b__driver_1af987e82e6283e31a44db93d51558710d" kindref="member">query()</ref> function.</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the sql query </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="446" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="446" bodyend="454"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__driver_1ae9080ca6b0a9a258f5e87750b266e337" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>trans_off</definition>
+        <argsstring>()</argsstring>
+        <name>trans_off</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Disable Transactions This permits transactions to be disabled at run-time.</para><para>public <simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="465" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="465" bodyend="468"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__driver_1a648f8e6b3d0c53ce2afd63cfcea1fe74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>trans_strict</definition>
+        <argsstring>($mode=TRUE)</argsstring>
+        <name>trans_strict</name>
+        <param>
+          <declname>$mode</declname>
+          <defval>TRUE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Enable/disable Transaction Strict Mode When strict mode is enabled, if you are running multiple groups of transactions, if one group fails all groups will be rolled back. If strict mode is disabled, each group is treated autonomously, meaning a failure of one group will not affect any others</para><para>public <simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="482" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="482" bodyend="485"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__driver_1ab082d21c9a77398c6d6705d9e978fb20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>trans_start</definition>
+        <argsstring>($test_mode=FALSE)</argsstring>
+        <name>trans_start</name>
+        <param>
+          <declname>$test_mode</declname>
+          <defval>FALSE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Start Transaction</para><para>public <simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="495" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="495" bodyend="510"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__driver_1aa0edd209de428801ce5faa1fe740852e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>trans_complete</definition>
+        <argsstring>()</argsstring>
+        <name>trans_complete</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Complete Transaction</para><para>public <simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="520" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="520" bodyend="553"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__driver_1a7ce49452153f13afde8f9c5212028be6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>trans_status</definition>
+        <argsstring>()</argsstring>
+        <name>trans_status</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Lets you retrieve the transaction flag to determine if it has failed</para><para>public <simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="563" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="563" bodyend="566"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__driver_1a0ba381d2e9078472bd0167e75cc8033c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>compile_binds</definition>
+        <argsstring>($sql, $binds)</argsstring>
+        <name>compile_binds</name>
+        <param>
+          <declname>$sql</declname>
+        </param>
+        <param>
+          <declname>$binds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compile Bindings</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the sql statement </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>an array of bind data </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="578" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="578" bodyend="609"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__driver_1af435df5703c238769d6d16fde6d51182" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>is_write_type</definition>
+        <argsstring>($sql)</argsstring>
+        <name>is_write_type</name>
+        <param>
+          <declname>$sql</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Determines if a query is a &quot;write&quot; type.</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An SQL query string </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>boolean </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="620" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="620" bodyend="627"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__driver_1a7bcec8d3f7d72453deb78e296815711a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>elapsed_time</definition>
+        <argsstring>($decimals=6)</argsstring>
+        <name>elapsed_time</name>
+        <param>
+          <declname>$decimals</declname>
+          <defval>6</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calculate the aggregate query elapsed time</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>integer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of decimal places </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>integer </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="638" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="638" bodyend="641"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__driver_1a8fc0b6551e1ca0c68c6e3a66b27310fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>total_queries</definition>
+        <argsstring>()</argsstring>
+        <name>total_queries</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the total number of queries</para><para>public <simplesect kind="return"><para>integer </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="651" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="651" bodyend="654"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__driver_1a8117354f1fa0b2873f0ad2792dc21389" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>last_query</definition>
+        <argsstring>()</argsstring>
+        <name>last_query</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the last query that was executed</para><para>public <simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="664" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="664" bodyend="667"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__driver_1ac8f37ca5703d4558c732e692194f8cd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>escape</definition>
+        <argsstring>($str)</argsstring>
+        <name>escape</name>
+        <param>
+          <declname>$str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>&quot;Smart&quot; Escape String</para><para>Escapes data based on type Sets boolean and null types</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="681" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="681" bodyend="697"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__driver_1a1a15f371afab8d5cfb35e38fc53c620f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>escape_like_str</definition>
+        <argsstring>($str)</argsstring>
+        <name>escape_like_str</name>
+        <param>
+          <declname>$str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Escape LIKE String</para><para>Calls the individual driver for platform specific escaping for LIKE conditions</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="711" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="711" bodyend="714"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__driver_1a3d2117201e5db13e941115de079f9a21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>primary</definition>
+        <argsstring>($table= &apos;&apos;)</argsstring>
+        <name>primary</name>
+        <param>
+          <declname>$table</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Primary</para><para>Retrieves the primary key. It assumes that the row in the first position is the primary key</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the table name </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="728" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="728" bodyend="738"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__driver_1accef90659bed312aba1c3df80620b402" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>list_tables</definition>
+        <argsstring>($constrain_by_prefix=FALSE)</argsstring>
+        <name>list_tables</name>
+        <param>
+          <declname>$constrain_by_prefix</declname>
+          <defval>FALSE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns an array of table names</para><para>public <simplesect kind="return"><para>array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="748" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="748" bodyend="785"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__driver_1af148cb2cd5d490d2a480c0c741ceed03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>table_exists</definition>
+        <argsstring>($table_name)</argsstring>
+        <name>table_exists</name>
+        <param>
+          <declname>$table_name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Determine if a particular table exists  public <simplesect kind="return"><para>boolean </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="794" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="794" bodyend="797"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__driver_1a255348162714d410002f3d8486ba929d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>list_fields</definition>
+        <argsstring>($table= &apos;&apos;)</argsstring>
+        <name>list_fields</name>
+        <param>
+          <declname>$table</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fetch MySQL Field Names</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the table name </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="808" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="808" bodyend="851"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__driver_1ad349ffee1eed59a2eb8f0f1d3033764f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>field_exists</definition>
+        <argsstring>($field_name, $table_name)</argsstring>
+        <name>field_exists</name>
+        <param>
+          <declname>$field_name</declname>
+        </param>
+        <param>
+          <declname>$table_name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Determine if a particular field exists  public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>boolean </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="862" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="862" bodyend="865"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__driver_1afcd5085e45ddefbb7c0b22e50703eade" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>field_data</definition>
+        <argsstring>($table= &apos;&apos;)</argsstring>
+        <name>field_data</name>
+        <param>
+          <declname>$table</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns an object with field data</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the table name </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>object </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="876" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="876" bodyend="890"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__driver_1ad27720d886add2c9abf9ac48a9ff56d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>insert_string</definition>
+        <argsstring>($table, $data)</argsstring>
+        <name>insert_string</name>
+        <param>
+          <declname>$table</declname>
+        </param>
+        <param>
+          <declname>$data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generate an insert string</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the table upon which the query will be performed </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>an associative array data of key/values </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="902" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="902" bodyend="914"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__driver_1af9eb76a74d10fa81e44ecb0dd9bf00d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>update_string</definition>
+        <argsstring>($table, $data, $where)</argsstring>
+        <name>update_string</name>
+        <param>
+          <declname>$table</declname>
+        </param>
+        <param>
+          <declname>$data</declname>
+        </param>
+        <param>
+          <declname>$where</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generate an update string</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the table upon which the query will be performed </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>an associative array data of key/values </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mixed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the &quot;where&quot; statement </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="927" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="927" bodyend="966"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__driver_1a2e0ab20a3cd2941eaa854fe0b4a81e6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_has_operator</definition>
+        <argsstring>($str)</argsstring>
+        <name>_has_operator</name>
+        <param>
+          <declname>$str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether the string has an SQL operator</para><para>private <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="977" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="977" bodyend="986"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__driver_1af7892f758c89d0e243def92140dbe099" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>call_function</definition>
+        <argsstring>($function)</argsstring>
+        <name>call_function</name>
+        <param>
+          <declname>$function</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Enables a native PHP function to be run, using a platform agnostic wrapper.</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the function name </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mixed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>any parameters needed by the function </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="998" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="998" bodyend="1027"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__driver_1a965799367e0e6a11b084f404dc86b631" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>cache_set_path</definition>
+        <argsstring>($path= &apos;&apos;)</argsstring>
+        <name>cache_set_path</name>
+        <param>
+          <declname>$path</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set Cache Directory Path</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the path to the cache directory </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="1038" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="1038" bodyend="1041"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__driver_1a69ca9bb8bc31400922a565d5c4d64d8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>cache_on</definition>
+        <argsstring>()</argsstring>
+        <name>cache_on</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Enable Query Caching</para><para>public <simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="1051" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="1051" bodyend="1055"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__driver_1ae577e2be88cb5f0d184f76dc6fd87482" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>cache_off</definition>
+        <argsstring>()</argsstring>
+        <name>cache_off</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Disable Query Caching</para><para>public <simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="1065" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="1065" bodyend="1069"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__driver_1a0f0619e794ea34b9f763a49c032c8078" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>cache_delete</definition>
+        <argsstring>($segment_one= &apos;&apos;, $segment_two= &apos;&apos;)</argsstring>
+        <name>cache_delete</name>
+        <param>
+          <declname>$segment_one</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$segment_two</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Delete the cache files associated with a particular URI</para><para>public <simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="1080" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="1080" bodyend="1087"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__driver_1a6e74f4d3938c78892f490b4f11faf318" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>cache_delete_all</definition>
+        <argsstring>()</argsstring>
+        <name>cache_delete_all</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Delete All cache files</para><para>public <simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="1097" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="1097" bodyend="1105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__driver_1a3991c9b589034f12f6fed26d83ac47e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_cache_init</definition>
+        <argsstring>()</argsstring>
+        <name>_cache_init</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Initialize the Cache Class</para><para>private <simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="1115" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="1115" bodyend="1132"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__driver_1aa69c8bf1f1dcf4e72552efff1fe3e87e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>close</definition>
+        <argsstring>()</argsstring>
+        <name>close</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Close DB Connection</para><para>public <simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="1142" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="1142" bodyend="1149"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__driver_1a3ed7f13afef7c8883ad5a025416a19e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>display_error</definition>
+        <argsstring>($error= &apos;&apos;, $swap= &apos;&apos;, $native=FALSE)</argsstring>
+        <name>display_error</name>
+        <param>
+          <declname>$error</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$swap</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$native</declname>
+          <defval>FALSE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Display an error message</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the error message </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>any &quot;swap&quot; values </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>boolean</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>whether to localize the message </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string sends the application/error_db.php template </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="1162" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="1162" bodyend="1199"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__driver_1ad62af4b7440531bfc0c2784fc29ee53f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>protect_identifiers</definition>
+        <argsstring>($item, $prefix_single=FALSE)</argsstring>
+        <name>protect_identifiers</name>
+        <param>
+          <declname>$item</declname>
+        </param>
+        <param>
+          <declname>$prefix_single</declname>
+          <defval>FALSE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Protect Identifiers</para><para>This function adds backticks if appropriate based on db type</para><para>private <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mixed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the item to escape </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed the item with backticks </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="1212" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="1212" bodyend="1215"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__driver_1abf89408eb9f64425b139f0d846412f22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_protect_identifiers</definition>
+        <argsstring>($item, $prefix_single=FALSE, $protect_identifiers=NULL, $field_exists=TRUE)</argsstring>
+        <name>_protect_identifiers</name>
+        <param>
+          <declname>$item</declname>
+        </param>
+        <param>
+          <declname>$prefix_single</declname>
+          <defval>FALSE</defval>
+        </param>
+        <param>
+          <declname>$protect_identifiers</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <declname>$field_exists</declname>
+          <defval>TRUE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Protect Identifiers</para><para>This function is used extensively by the Active Record class, and by a couple functions in this class. It takes a column or table name (optionally with an alias) and inserts the table prefix onto it. Some logic is necessary in order to deal with column names that include the path. Consider a query like this:</para><para>SELECT * FROM hostname.database.table.column AS c FROM hostname.database.table</para><para>Or a query with aliasing:</para><para>SELECT m.member_id, m.member_name FROM members AS m</para><para>Since the column name can include up to four segments (host, DB, table, column) or also have an alias prefix, we need to do a bit of work to figure this out and insert the table prefix (if it exists) in the proper position, and escape only the correct identifiers.</para><para>private <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bool</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mixed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bool</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="1246" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="1246" bodyend="1392"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_c_i___d_b__driver_1a7c6cc16411b9c36fbfd42a9317f64317" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_reset_select</definition>
+        <argsstring>()</argsstring>
+        <name>_reset_select</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dummy method that allows Active Record class to be disabled</para><para>This function is used extensively by every db driver.</para><para><simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="1403" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="1403" bodyend="1405"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="80">
+        <label>CI_DB_driver</label>
+        <link refid="class_c_i___d_b__driver"/>
+      </node>
+      <node id="81">
+        <label>CI_DB_active_record</label>
+        <link refid="class_c_i___d_b__active__record"/>
+        <childnode refid="80" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" line="31" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_driver.php" bodystart="31" bodyend="1407"/>
+    <listofallmembers>
+      <member refid="class_c_i___d_b__driver_1a2e8a156a3c2abda43a4f160bcb5252e9" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>$_protect_identifiers</name></member>
+      <member refid="class_c_i___d_b__driver_1aa3298c4c62fbee8bb09f1b75b633fb0d" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>$_reserved_identifiers</name></member>
+      <member refid="class_c_i___d_b__driver_1a0724b7f82d62f35ef5e150146ed2a27b" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>$_trans_depth</name></member>
+      <member refid="class_c_i___d_b__driver_1a93acf0189d34131e156c6eb4a48c2b5b" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>$_trans_status</name></member>
+      <member refid="class_c_i___d_b__driver_1a97d3ccf64e5b873ebca99d17a2c204d3" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>$autoinit</name></member>
+      <member refid="class_c_i___d_b__driver_1ac75dbf878e2ceec25d2abe6730855f6b" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>$benchmark</name></member>
+      <member refid="class_c_i___d_b__driver_1a253af4ebf23051f23690926079f4285d" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>$bind_marker</name></member>
+      <member refid="class_c_i___d_b__driver_1a54f3ab89da1323e5680116d8e9e94b83" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>$CACHE</name></member>
+      <member refid="class_c_i___d_b__driver_1a3da421c22206e24614dc73c9536ff605" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>$cache_autodel</name></member>
+      <member refid="class_c_i___d_b__driver_1ab29a8930111a4f2a57987a9031982c34" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>$cache_on</name></member>
+      <member refid="class_c_i___d_b__driver_1a01f61437be9e9a04ee228f5d455265db" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>$cachedir</name></member>
+      <member refid="class_c_i___d_b__driver_1a0ea660eb249174aefdc2c35238fb1dc8" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>$char_set</name></member>
+      <member refid="class_c_i___d_b__driver_1a16c23f1dcbfed2f2759f5e54f604106d" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>$conn_id</name></member>
+      <member refid="class_c_i___d_b__driver_1a75e7d18ad2e68ace3813533c9da2e179" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>$curs_id</name></member>
+      <member refid="class_c_i___d_b__driver_1aab3007e30adbaf71d06218aa6c90e384" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>$data_cache</name></member>
+      <member refid="class_c_i___d_b__driver_1a7691c0162d89de0b6ba47edcd8ba8878" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>$database</name></member>
+      <member refid="class_c_i___d_b__driver_1a2c1bc80cc98589e419a6c535e53735de" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>$db_debug</name></member>
+      <member refid="class_c_i___d_b__driver_1a303eb205131e0266c2a57bcc6a34e80a" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>$dbcollat</name></member>
+      <member refid="class_c_i___d_b__driver_1a0cde2a16322a023d040aa7f725877597" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>$dbdriver</name></member>
+      <member refid="class_c_i___d_b__driver_1a81398da65aef92236c2bc2e0307f1fa4" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>$dbprefix</name></member>
+      <member refid="class_c_i___d_b__driver_1a8bf9ffb42ed554b203b55377d1fc9aa4" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>$hostname</name></member>
+      <member refid="class_c_i___d_b__driver_1a96df35d7e3e76bef21ebb80234fe59e8" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>$limit_used</name></member>
+      <member refid="class_c_i___d_b__driver_1a607686ef9f99ea7c42f4f3dd3dbb2b0d" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>$password</name></member>
+      <member refid="class_c_i___d_b__driver_1a5b7c010f6dfe8dfd41ce86fdaed67ebf" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>$pconnect</name></member>
+      <member refid="class_c_i___d_b__driver_1aa0787efab4b22e8a212882f3409d4c77" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>$port</name></member>
+      <member refid="class_c_i___d_b__driver_1a576b05de2f452e4cce4e3de12667ba0f" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>$queries</name></member>
+      <member refid="class_c_i___d_b__driver_1aa7f7fc5b08bc2c3626ea7065d50c8847" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>$query_count</name></member>
+      <member refid="class_c_i___d_b__driver_1a060b2893433dfc037803cf6541420f5f" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>$query_times</name></member>
+      <member refid="class_c_i___d_b__driver_1a0ebacb40e3b6f8bf33d3de0f2cc71474" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>$result_id</name></member>
+      <member refid="class_c_i___d_b__driver_1a083a278ea2075824db1db85edaa8e0a8" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>$save_queries</name></member>
+      <member refid="class_c_i___d_b__driver_1a1a97f17fd259cd27c73b65e6c3706ec0" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>$stmt_id</name></member>
+      <member refid="class_c_i___d_b__driver_1a913c5a5af0c805fe64f884af6028fb73" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>$swap_pre</name></member>
+      <member refid="class_c_i___d_b__driver_1a450683d6d87929985766484b2f6a9e7b" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>$trans_enabled</name></member>
+      <member refid="class_c_i___d_b__driver_1ae3111155f1f3ec59fe667b90dafb179f" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>$trans_strict</name></member>
+      <member refid="class_c_i___d_b__driver_1a0eb82aa5f81cf845de4b36cd653c42cf" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>$username</name></member>
+      <member refid="class_c_i___d_b__driver_1a9162320adff1a1a4afd7f2372f753a3e" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>__construct</name></member>
+      <member refid="class_c_i___d_b__driver_1a3991c9b589034f12f6fed26d83ac47e4" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>_cache_init</name></member>
+      <member refid="class_c_i___d_b__driver_1a2e0ab20a3cd2941eaa854fe0b4a81e6b" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>_has_operator</name></member>
+      <member refid="class_c_i___d_b__driver_1abf89408eb9f64425b139f0d846412f22" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>_protect_identifiers</name></member>
+      <member refid="class_c_i___d_b__driver_1a7c6cc16411b9c36fbfd42a9317f64317" prot="protected" virt="non-virtual"><scope>CI_DB_driver</scope><name>_reset_select</name></member>
+      <member refid="class_c_i___d_b__driver_1a0f0619e794ea34b9f763a49c032c8078" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>cache_delete</name></member>
+      <member refid="class_c_i___d_b__driver_1a6e74f4d3938c78892f490b4f11faf318" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>cache_delete_all</name></member>
+      <member refid="class_c_i___d_b__driver_1ae577e2be88cb5f0d184f76dc6fd87482" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>cache_off</name></member>
+      <member refid="class_c_i___d_b__driver_1a69ca9bb8bc31400922a565d5c4d64d8d" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>cache_on</name></member>
+      <member refid="class_c_i___d_b__driver_1a965799367e0e6a11b084f404dc86b631" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>cache_set_path</name></member>
+      <member refid="class_c_i___d_b__driver_1af7892f758c89d0e243def92140dbe099" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>call_function</name></member>
+      <member refid="class_c_i___d_b__driver_1aa69c8bf1f1dcf4e72552efff1fe3e87e" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>close</name></member>
+      <member refid="class_c_i___d_b__driver_1a0ba381d2e9078472bd0167e75cc8033c" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>compile_binds</name></member>
+      <member refid="class_c_i___d_b__driver_1adc8cd12121dc8edda3adcadd88a97e24" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>db_set_charset</name></member>
+      <member refid="class_c_i___d_b__driver_1a3ed7f13afef7c8883ad5a025416a19e4" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>display_error</name></member>
+      <member refid="class_c_i___d_b__driver_1a7bcec8d3f7d72453deb78e296815711a" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>elapsed_time</name></member>
+      <member refid="class_c_i___d_b__driver_1ac8f37ca5703d4558c732e692194f8cd6" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>escape</name></member>
+      <member refid="class_c_i___d_b__driver_1a1a15f371afab8d5cfb35e38fc53c620f" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>escape_like_str</name></member>
+      <member refid="class_c_i___d_b__driver_1afcd5085e45ddefbb7c0b22e50703eade" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>field_data</name></member>
+      <member refid="class_c_i___d_b__driver_1ad349ffee1eed59a2eb8f0f1d3033764f" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>field_exists</name></member>
+      <member refid="class_c_i___d_b__driver_1a91098fa7d1917ce4833f284bbef12627" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>initialize</name></member>
+      <member refid="class_c_i___d_b__driver_1ad27720d886add2c9abf9ac48a9ff56d5" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>insert_string</name></member>
+      <member refid="class_c_i___d_b__driver_1af435df5703c238769d6d16fde6d51182" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>is_write_type</name></member>
+      <member refid="class_c_i___d_b__driver_1a8117354f1fa0b2873f0ad2792dc21389" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>last_query</name></member>
+      <member refid="class_c_i___d_b__driver_1a255348162714d410002f3d8486ba929d" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>list_fields</name></member>
+      <member refid="class_c_i___d_b__driver_1accef90659bed312aba1c3df80620b402" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>list_tables</name></member>
+      <member refid="class_c_i___d_b__driver_1a0bd509a0088f09f4bbfbcbbe78bc3547" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>load_rdriver</name></member>
+      <member refid="class_c_i___d_b__driver_1ad69bddb2ba31b27415484b3da4213ba8" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>platform</name></member>
+      <member refid="class_c_i___d_b__driver_1a3d2117201e5db13e941115de079f9a21" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>primary</name></member>
+      <member refid="class_c_i___d_b__driver_1ad62af4b7440531bfc0c2784fc29ee53f" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>protect_identifiers</name></member>
+      <member refid="class_c_i___d_b__driver_1af987e82e6283e31a44db93d51558710d" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>query</name></member>
+      <member refid="class_c_i___d_b__driver_1a6ac4d82d7ba4e8df07e1367229084c91" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>simple_query</name></member>
+      <member refid="class_c_i___d_b__driver_1af148cb2cd5d490d2a480c0c741ceed03" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>table_exists</name></member>
+      <member refid="class_c_i___d_b__driver_1a8fc0b6551e1ca0c68c6e3a66b27310fc" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>total_queries</name></member>
+      <member refid="class_c_i___d_b__driver_1aa0edd209de428801ce5faa1fe740852e" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>trans_complete</name></member>
+      <member refid="class_c_i___d_b__driver_1ae9080ca6b0a9a258f5e87750b266e337" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>trans_off</name></member>
+      <member refid="class_c_i___d_b__driver_1ab082d21c9a77398c6d6705d9e978fb20" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>trans_start</name></member>
+      <member refid="class_c_i___d_b__driver_1a7ce49452153f13afde8f9c5212028be6" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>trans_status</name></member>
+      <member refid="class_c_i___d_b__driver_1a648f8e6b3d0c53ce2afd63cfcea1fe74" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>trans_strict</name></member>
+      <member refid="class_c_i___d_b__driver_1af9eb76a74d10fa81e44ecb0dd9bf00d4" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>update_string</name></member>
+      <member refid="class_c_i___d_b__driver_1a6080dae0886626b9a4cedb29240708b1" prot="public" virt="non-virtual"><scope>CI_DB_driver</scope><name>version</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

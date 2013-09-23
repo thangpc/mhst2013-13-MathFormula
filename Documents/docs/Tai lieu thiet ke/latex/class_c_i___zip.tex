@@ -1,0 +1,362 @@
+\hypertarget{class_c_i___zip}{\section{C\-I\-\_\-\-Zip Class Reference}
+\label{class_c_i___zip}\index{C\-I\-\_\-\-Zip@{C\-I\-\_\-\-Zip}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_c_i___zip_a095c5d389db211932136b53f25f39685}{\-\_\-\-\_\-construct} ()
+\item 
+\hyperlink{class_c_i___zip_a86b6a309dad105e43b446dc9f8820703}{add\-\_\-dir} (\$directory)
+\item 
+\hyperlink{class_c_i___zip_a2e4a669b246619934060ea323b99b332}{\-\_\-get\-\_\-mod\-\_\-time} (\$dir)
+\item 
+\hyperlink{class_c_i___zip_aacd1bc7175638298e01bd6c16bccfbe6}{\-\_\-add\-\_\-dir} (\$dir, \$file\-\_\-mtime, \$file\-\_\-mdate)
+\item 
+\hyperlink{class_c_i___zip_a8d541e6609a5b2634a6a2bc7731465a5}{add\-\_\-data} (\$filepath, \$data=N\-U\-L\-L)
+\item 
+\hyperlink{class_c_i___zip_a4ff8a5ea57979ec1a44cc9e443acf26d}{\-\_\-add\-\_\-data} (\$filepath, \$data, \$file\-\_\-mtime, \$file\-\_\-mdate)
+\item 
+\hyperlink{class_c_i___zip_af32859ac9a7db39f291e6316c6e943d5}{read\-\_\-file} (\$path, \$preserve\-\_\-filepath=F\-A\-L\-S\-E)
+\item 
+\hyperlink{class_c_i___zip_a296847a86d7cf0e4bba9b71a173cfffe}{read\-\_\-dir} (\$path, \$preserve\-\_\-filepath=T\-R\-U\-E, \$root\-\_\-path=N\-U\-L\-L)
+\item 
+\hyperlink{class_c_i___zip_a263fd906f99ccca15a12fe34a79656e4}{get\-\_\-zip} ()
+\item 
+\hyperlink{class_c_i___zip_a935879d7074c751a4ac886aebd66cbd4}{archive} (\$filepath)
+\item 
+\hyperlink{class_c_i___zip_a485d204dc928fd19b711cb857e44561f}{download} (\$filename= 'backup.\-zip')
+\item 
+\hyperlink{class_c_i___zip_a89d046bac0ab06a81c5c03d55b4bcae5}{clear\-\_\-data} ()
+\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_c_i___zip_a395accfd5884d9a0e6fd53470b3e85b1}{\$zipdata} = ''
+\item 
+\hyperlink{class_c_i___zip_a1b07c630eb02f770a082a013373a16d6}{\$directory} = ''
+\item 
+\hyperlink{class_c_i___zip_affb4200921149b6126d0e51b415b2c75}{\$entries} = 0
+\item 
+\hyperlink{class_c_i___zip_af1ab53ee1a849492829ce782aac0163d}{\$file\-\_\-num} = 0
+\item 
+\hyperlink{class_c_i___zip_aec4de82415d7f05cb9748d12d3a95a87}{\$offset} = 0
+\item 
+\hyperlink{class_c_i___zip_af1d5ccdee975b8f4d20aaffc5b28557c}{\$now}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 33 of file Zip.\-php.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_c_i___zip_a095c5d389db211932136b53f25f39685}{\index{C\-I\-\_\-\-Zip@{C\-I\-\_\-\-Zip}!\-\_\-\-\_\-construct@{\-\_\-\-\_\-construct}}
+\index{\-\_\-\-\_\-construct@{\-\_\-\-\_\-construct}!CI_Zip@{C\-I\-\_\-\-Zip}}
+\subsubsection[{\-\_\-\-\_\-construct}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-\-\_\-construct (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___zip_a095c5d389db211932136b53f25f39685}
+Constructor 
+
+Definition at line 45 of file Zip.\-php.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_c_i___zip_a4ff8a5ea57979ec1a44cc9e443acf26d}{\index{C\-I\-\_\-\-Zip@{C\-I\-\_\-\-Zip}!\-\_\-add\-\_\-data@{\-\_\-add\-\_\-data}}
+\index{\-\_\-add\-\_\-data@{\-\_\-add\-\_\-data}!CI_Zip@{C\-I\-\_\-\-Zip}}
+\subsubsection[{\-\_\-add\-\_\-data}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-add\-\_\-data (
+\begin{DoxyParamCaption}
+\item[{}]{\$filepath, }
+\item[{}]{\$data, }
+\item[{}]{\$file\-\_\-mtime, }
+\item[{}]{\$file\-\_\-mdate}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___zip_a4ff8a5ea57979ec1a44cc9e443acf26d}
+Add Data to Zip
+
+private 
+\begin{DoxyParams}{Parameters}
+{\em string} & the file name/path \\
+\hline
+{\em string} & the data to be encoded \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 190 of file Zip.\-php.
+
+\hypertarget{class_c_i___zip_aacd1bc7175638298e01bd6c16bccfbe6}{\index{C\-I\-\_\-\-Zip@{C\-I\-\_\-\-Zip}!\-\_\-add\-\_\-dir@{\-\_\-add\-\_\-dir}}
+\index{\-\_\-add\-\_\-dir@{\-\_\-add\-\_\-dir}!CI_Zip@{C\-I\-\_\-\-Zip}}
+\subsubsection[{\-\_\-add\-\_\-dir}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-add\-\_\-dir (
+\begin{DoxyParamCaption}
+\item[{}]{\$dir, }
+\item[{}]{\$file\-\_\-mtime, }
+\item[{}]{\$file\-\_\-mdate}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___zip_aacd1bc7175638298e01bd6c16bccfbe6}
+Add Directory
+
+private 
+\begin{DoxyParams}{Parameters}
+{\em string} & the directory name \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 108 of file Zip.\-php.
+
+\hypertarget{class_c_i___zip_a2e4a669b246619934060ea323b99b332}{\index{C\-I\-\_\-\-Zip@{C\-I\-\_\-\-Zip}!\-\_\-get\-\_\-mod\-\_\-time@{\-\_\-get\-\_\-mod\-\_\-time}}
+\index{\-\_\-get\-\_\-mod\-\_\-time@{\-\_\-get\-\_\-mod\-\_\-time}!CI_Zip@{C\-I\-\_\-\-Zip}}
+\subsubsection[{\-\_\-get\-\_\-mod\-\_\-time}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-get\-\_\-mod\-\_\-time (
+\begin{DoxyParamCaption}
+\item[{}]{\$dir}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___zip_a2e4a669b246619934060ea323b99b332}
+Get file/directory modification time
+
+If this is a newly created file/dir, we will set the time to 'now'
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & path to file \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array filemtime/filemdate 
+\end{DoxyReturn}
+
+
+Definition at line 88 of file Zip.\-php.
+
+\hypertarget{class_c_i___zip_a8d541e6609a5b2634a6a2bc7731465a5}{\index{C\-I\-\_\-\-Zip@{C\-I\-\_\-\-Zip}!add\-\_\-data@{add\-\_\-data}}
+\index{add\-\_\-data@{add\-\_\-data}!CI_Zip@{C\-I\-\_\-\-Zip}}
+\subsubsection[{add\-\_\-data}]{\setlength{\rightskip}{0pt plus 5cm}add\-\_\-data (
+\begin{DoxyParamCaption}
+\item[{}]{\$filepath, }
+\item[{}]{\$data = {\ttfamily NULL}}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___zip_a8d541e6609a5b2634a6a2bc7731465a5}
+Add Data to Zip
+
+Lets you add files to the archive. If the path is included in the filename it will be placed within a directory. Make sure you use \hyperlink{class_c_i___zip_a86b6a309dad105e43b446dc9f8820703}{add\-\_\-dir()} first to create the folder.
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em mixed} & \\
+\hline
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 161 of file Zip.\-php.
+
+\hypertarget{class_c_i___zip_a86b6a309dad105e43b446dc9f8820703}{\index{C\-I\-\_\-\-Zip@{C\-I\-\_\-\-Zip}!add\-\_\-dir@{add\-\_\-dir}}
+\index{add\-\_\-dir@{add\-\_\-dir}!CI_Zip@{C\-I\-\_\-\-Zip}}
+\subsubsection[{add\-\_\-dir}]{\setlength{\rightskip}{0pt plus 5cm}add\-\_\-dir (
+\begin{DoxyParamCaption}
+\item[{}]{\$directory}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___zip_a86b6a309dad105e43b446dc9f8820703}
+Add Directory
+
+Lets you add a virtual directory into which you can place files.
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em mixed} & the directory name. Can be string or array \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 63 of file Zip.\-php.
+
+\hypertarget{class_c_i___zip_a935879d7074c751a4ac886aebd66cbd4}{\index{C\-I\-\_\-\-Zip@{C\-I\-\_\-\-Zip}!archive@{archive}}
+\index{archive@{archive}!CI_Zip@{C\-I\-\_\-\-Zip}}
+\subsubsection[{archive}]{\setlength{\rightskip}{0pt plus 5cm}archive (
+\begin{DoxyParamCaption}
+\item[{}]{\$filepath}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___zip_a935879d7074c751a4ac886aebd66cbd4}
+Write File to the specified directory
+
+Lets you write a file
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & the file name \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 358 of file Zip.\-php.
+
+\hypertarget{class_c_i___zip_a89d046bac0ab06a81c5c03d55b4bcae5}{\index{C\-I\-\_\-\-Zip@{C\-I\-\_\-\-Zip}!clear\-\_\-data@{clear\-\_\-data}}
+\index{clear\-\_\-data@{clear\-\_\-data}!CI_Zip@{C\-I\-\_\-\-Zip}}
+\subsubsection[{clear\-\_\-data}]{\setlength{\rightskip}{0pt plus 5cm}clear\-\_\-data (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___zip_a89d046bac0ab06a81c5c03d55b4bcae5}
+Initialize Data
+
+Lets you clear current zip data. Useful if you need to create multiple zips with different data.
+
+public \begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 411 of file Zip.\-php.
+
+\hypertarget{class_c_i___zip_a485d204dc928fd19b711cb857e44561f}{\index{C\-I\-\_\-\-Zip@{C\-I\-\_\-\-Zip}!download@{download}}
+\index{download@{download}!CI_Zip@{C\-I\-\_\-\-Zip}}
+\subsubsection[{download}]{\setlength{\rightskip}{0pt plus 5cm}download (
+\begin{DoxyParamCaption}
+\item[{}]{\$filename = {\ttfamily 'backup.zip'}}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___zip_a485d204dc928fd19b711cb857e44561f}
+Download
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & the file name \\
+\hline
+{\em string} & the data to be encoded \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 383 of file Zip.\-php.
+
+\hypertarget{class_c_i___zip_a263fd906f99ccca15a12fe34a79656e4}{\index{C\-I\-\_\-\-Zip@{C\-I\-\_\-\-Zip}!get\-\_\-zip@{get\-\_\-zip}}
+\index{get\-\_\-zip@{get\-\_\-zip}!CI_Zip@{C\-I\-\_\-\-Zip}}
+\subsubsection[{get\-\_\-zip}]{\setlength{\rightskip}{0pt plus 5cm}get\-\_\-zip (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___zip_a263fd906f99ccca15a12fe34a79656e4}
+Get the Zip file
+
+public \begin{DoxyReturn}{Returns}
+binary string 
+\end{DoxyReturn}
+
+
+Definition at line 328 of file Zip.\-php.
+
+\hypertarget{class_c_i___zip_a296847a86d7cf0e4bba9b71a173cfffe}{\index{C\-I\-\_\-\-Zip@{C\-I\-\_\-\-Zip}!read\-\_\-dir@{read\-\_\-dir}}
+\index{read\-\_\-dir@{read\-\_\-dir}!CI_Zip@{C\-I\-\_\-\-Zip}}
+\subsubsection[{read\-\_\-dir}]{\setlength{\rightskip}{0pt plus 5cm}read\-\_\-dir (
+\begin{DoxyParamCaption}
+\item[{}]{\$path, }
+\item[{}]{\$preserve\-\_\-filepath = {\ttfamily TRUE}, }
+\item[{}]{\$root\-\_\-path = {\ttfamily NULL}}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___zip_a296847a86d7cf0e4bba9b71a173cfffe}
+Read a directory and add it to the zip.
+
+This function recursively reads a folder and everything it contains (including sub-\/folders) and creates a zip based on it. Whatever directory structure is in the original file path will be recreated in the zip file.
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & path to source \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 277 of file Zip.\-php.
+
+\hypertarget{class_c_i___zip_af32859ac9a7db39f291e6316c6e943d5}{\index{C\-I\-\_\-\-Zip@{C\-I\-\_\-\-Zip}!read\-\_\-file@{read\-\_\-file}}
+\index{read\-\_\-file@{read\-\_\-file}!CI_Zip@{C\-I\-\_\-\-Zip}}
+\subsubsection[{read\-\_\-file}]{\setlength{\rightskip}{0pt plus 5cm}read\-\_\-file (
+\begin{DoxyParamCaption}
+\item[{}]{\$path, }
+\item[{}]{\$preserve\-\_\-filepath = {\ttfamily FALSE}}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___zip_af32859ac9a7db39f291e6316c6e943d5}
+Read the contents of a file and add it to the zip
+
+public \begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 242 of file Zip.\-php.
+
+
+
+\subsection{Field Documentation}
+\hypertarget{class_c_i___zip_a1b07c630eb02f770a082a013373a16d6}{\index{C\-I\-\_\-\-Zip@{C\-I\-\_\-\-Zip}!\$directory@{\$directory}}
+\index{\$directory@{\$directory}!CI_Zip@{C\-I\-\_\-\-Zip}}
+\subsubsection[{\$directory}]{\setlength{\rightskip}{0pt plus 5cm}\$directory = ''}}\label{class_c_i___zip_a1b07c630eb02f770a082a013373a16d6}
+
+
+Definition at line 36 of file Zip.\-php.
+
+\hypertarget{class_c_i___zip_affb4200921149b6126d0e51b415b2c75}{\index{C\-I\-\_\-\-Zip@{C\-I\-\_\-\-Zip}!\$entries@{\$entries}}
+\index{\$entries@{\$entries}!CI_Zip@{C\-I\-\_\-\-Zip}}
+\subsubsection[{\$entries}]{\setlength{\rightskip}{0pt plus 5cm}\$entries = 0}}\label{class_c_i___zip_affb4200921149b6126d0e51b415b2c75}
+
+
+Definition at line 37 of file Zip.\-php.
+
+\hypertarget{class_c_i___zip_af1ab53ee1a849492829ce782aac0163d}{\index{C\-I\-\_\-\-Zip@{C\-I\-\_\-\-Zip}!\$file\-\_\-num@{\$file\-\_\-num}}
+\index{\$file\-\_\-num@{\$file\-\_\-num}!CI_Zip@{C\-I\-\_\-\-Zip}}
+\subsubsection[{\$file\-\_\-num}]{\setlength{\rightskip}{0pt plus 5cm}\$file\-\_\-num = 0}}\label{class_c_i___zip_af1ab53ee1a849492829ce782aac0163d}
+
+
+Definition at line 38 of file Zip.\-php.
+
+\hypertarget{class_c_i___zip_af1d5ccdee975b8f4d20aaffc5b28557c}{\index{C\-I\-\_\-\-Zip@{C\-I\-\_\-\-Zip}!\$now@{\$now}}
+\index{\$now@{\$now}!CI_Zip@{C\-I\-\_\-\-Zip}}
+\subsubsection[{\$now}]{\setlength{\rightskip}{0pt plus 5cm}\$now}}\label{class_c_i___zip_af1d5ccdee975b8f4d20aaffc5b28557c}
+
+
+Definition at line 40 of file Zip.\-php.
+
+\hypertarget{class_c_i___zip_aec4de82415d7f05cb9748d12d3a95a87}{\index{C\-I\-\_\-\-Zip@{C\-I\-\_\-\-Zip}!\$offset@{\$offset}}
+\index{\$offset@{\$offset}!CI_Zip@{C\-I\-\_\-\-Zip}}
+\subsubsection[{\$offset}]{\setlength{\rightskip}{0pt plus 5cm}\$offset = 0}}\label{class_c_i___zip_aec4de82415d7f05cb9748d12d3a95a87}
+
+
+Definition at line 39 of file Zip.\-php.
+
+\hypertarget{class_c_i___zip_a395accfd5884d9a0e6fd53470b3e85b1}{\index{C\-I\-\_\-\-Zip@{C\-I\-\_\-\-Zip}!\$zipdata@{\$zipdata}}
+\index{\$zipdata@{\$zipdata}!CI_Zip@{C\-I\-\_\-\-Zip}}
+\subsubsection[{\$zipdata}]{\setlength{\rightskip}{0pt plus 5cm}\$zipdata = ''}}\label{class_c_i___zip_a395accfd5884d9a0e6fd53470b3e85b1}
+
+
+Definition at line 35 of file Zip.\-php.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+system/libraries/\hyperlink{_zip_8php}{Zip.\-php}\end{DoxyCompactItemize}

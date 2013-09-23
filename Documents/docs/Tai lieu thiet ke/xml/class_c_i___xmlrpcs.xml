@@ -1,0 +1,495 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_c_i___xmlrpcs" kind="class" prot="public">
+    <compoundname>CI_Xmlrpcs</compoundname>
+    <basecompoundref refid="class_c_i___xmlrpc" prot="public" virt="non-virtual">CI_Xmlrpc</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_c_i___xmlrpcs_1a802753499268a04da139bd6e6ef89b35" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$methods</definition>
+        <argsstring></argsstring>
+        <name>$methods</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpcs.php" line="39" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpcs.php" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___xmlrpcs_1afed2f9c39f2e406bcdff222ce412bda8" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$debug_msg</definition>
+        <argsstring></argsstring>
+        <name>$debug_msg</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpcs.php" line="40" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpcs.php" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___xmlrpcs_1a07c837152d76c5e72b0bd7a065fa9c10" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$system_methods</definition>
+        <argsstring></argsstring>
+        <name>$system_methods</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpcs.php" line="41" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpcs.php" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___xmlrpcs_1a8055a428b1f8d9ceed3620204745a6d8" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$controller_obj</definition>
+        <argsstring></argsstring>
+        <name>$controller_obj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpcs.php" line="42" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpcs.php" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___xmlrpcs_1a52123b83a1952a68c5513e47d59ec4a6" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$object</definition>
+        <argsstring></argsstring>
+        <name>$object</name>
+        <initializer>= FALSE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpcs.php" line="44" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpcs.php" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_i___xmlrpcs_1af7f9493844d2d66e924e3c1df51ce616" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>($config=array())</argsstring>
+        <name>__construct</name>
+        <param>
+          <declname>$config</declname>
+          <defval>array()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpcs.php" line="49" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpcs.php" bodystart="49" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___xmlrpcs_1a481385e36d920f5a5005ace05c6cd016" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>initialize</definition>
+        <argsstring>($config=array())</argsstring>
+        <name>initialize</name>
+        <param>
+          <declname>$config</declname>
+          <defval>array()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Initialize Prefs and Serve</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mixed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpcs.php" line="71" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpcs.php" bodystart="71" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___xmlrpcs_1a858a05529612358b8f63c88b08b414d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>set_system_methods</definition>
+        <argsstring>()</argsstring>
+        <name>set_system_methods</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Setting of System Methods</para><para>public <simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpcs.php" line="102" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpcs.php" bodystart="102" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___xmlrpcs_1aa9e0b443b9575f62bf9f8e85b1742c96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>serve</definition>
+        <argsstring>()</argsstring>
+        <name>serve</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Main Server Function</para><para>public <simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpcs.php" line="132" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpcs.php" bodystart="132" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___xmlrpcs_1a73b29191620c55a5e2d3fda3a5c3cf44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>add_to_map</definition>
+        <argsstring>($methodname, $function, $sig, $doc)</argsstring>
+        <name>add_to_map</name>
+        <param>
+          <declname>$methodname</declname>
+        </param>
+        <param>
+          <declname>$function</declname>
+        </param>
+        <param>
+          <declname>$sig</declname>
+        </param>
+        <param>
+          <declname>$doc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add Method to Class</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>method name </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>function </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>signature </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>docstring </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpcs.php" line="156" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpcs.php" bodystart="156" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___xmlrpcs_1a8a0c34554b9238be766ab85f55519b6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>parseRequest</definition>
+        <argsstring>($data=&apos;&apos;)</argsstring>
+        <name>parseRequest</name>
+        <param>
+          <declname>$data</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Parse Server Request</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>data </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>object xmlrpc response </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpcs.php" line="174" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpcs.php" bodystart="174" bodyend="264"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___xmlrpcs_1a2f039adb8ec59c693300993c95138b46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_execute</definition>
+        <argsstring>($m)</argsstring>
+        <name>_execute</name>
+        <param>
+          <declname>$m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Executes the Method</para><para>protected <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>object</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpcs.php" line="275" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpcs.php" bodystart="275" bodyend="383"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___xmlrpcs_1ad640f0b44d1956a05cfe40bab4e4043d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>listMethods</definition>
+        <argsstring>($m)</argsstring>
+        <name>listMethods</name>
+        <param>
+          <declname>$m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Server Function: List Methods</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mixed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>object </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpcs.php" line="394" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpcs.php" bodystart="394" bodyend="411"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___xmlrpcs_1a9f96cc0bd3338094174eb22cd90d6f2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>methodSignature</definition>
+        <argsstring>($m)</argsstring>
+        <name>methodSignature</name>
+        <param>
+          <declname>$m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Server Function: Return Signature for Method</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mixed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>object </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpcs.php" line="422" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpcs.php" bodystart="422" bodyend="456"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___xmlrpcs_1a97626f30e860f4a63463f8674827dc00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>methodHelp</definition>
+        <argsstring>($m)</argsstring>
+        <name>methodHelp</name>
+        <param>
+          <declname>$m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Server Function: Doc String for Method</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mixed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>object </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpcs.php" line="467" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpcs.php" bodystart="467" bodyend="482"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___xmlrpcs_1a122ce829a1aa3f0041f922ec5feb95c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>multicall</definition>
+        <argsstring>($m)</argsstring>
+        <name>multicall</name>
+        <param>
+          <declname>$m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Server Function: Multi-call</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mixed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>object </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpcs.php" line="493" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpcs.php" bodystart="493" bodyend="526"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___xmlrpcs_1a4cf545e6c15e1487b223346b18ca017d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>multicall_error</definition>
+        <argsstring>($err)</argsstring>
+        <name>multicall_error</name>
+        <param>
+          <declname>$err</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Multi-call Function: Error Handling</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mixed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>object </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpcs.php" line="537" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpcs.php" bodystart="537" bodyend="546"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___xmlrpcs_1ab76189ac2d65f1e3ab6d65128e3748d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>do_multicall</definition>
+        <argsstring>($call)</argsstring>
+        <name>do_multicall</name>
+        <param>
+          <declname>$call</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Multi-call Function: Processes method</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mixed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>object </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpcs.php" line="557" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpcs.php" bodystart="557" bodyend="605"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="378">
+        <label>CI_Xmlrpcs</label>
+        <link refid="class_c_i___xmlrpcs"/>
+        <childnode refid="379" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="379">
+        <label>CI_Xmlrpc</label>
+        <link refid="class_c_i___xmlrpc"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="380">
+        <label>CI_Xmlrpcs</label>
+        <link refid="class_c_i___xmlrpcs"/>
+        <childnode refid="381" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="381">
+        <label>CI_Xmlrpc</label>
+        <link refid="class_c_i___xmlrpc"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpcs.php" line="38" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Xmlrpcs.php" bodystart="37" bodyend="607"/>
+    <listofallmembers>
+      <member refid="class_c_i___xmlrpc_1ad1405dc1ba2e288764378e79bff7a87d" prot="public" virt="non-virtual"><scope>CI_Xmlrpcs</scope><name>$client</name></member>
+      <member refid="class_c_i___xmlrpcs_1a8055a428b1f8d9ceed3620204745a6d8" prot="public" virt="non-virtual"><scope>CI_Xmlrpcs</scope><name>$controller_obj</name></member>
+      <member refid="class_c_i___xmlrpc_1a6efc15b5a2314dd4b5aaa556a375c6d6" prot="public" virt="non-virtual"><scope>CI_Xmlrpcs</scope><name>$data</name></member>
+      <member refid="class_c_i___xmlrpc_1a85ae3e64cd40e9564adceb010085e9dd" prot="public" virt="non-virtual"><scope>CI_Xmlrpcs</scope><name>$debug</name></member>
+      <member refid="class_c_i___xmlrpcs_1afed2f9c39f2e406bcdff222ce412bda8" prot="public" virt="non-virtual"><scope>CI_Xmlrpcs</scope><name>$debug_msg</name></member>
+      <member refid="class_c_i___xmlrpc_1aeba2ab722cedda53dbb7ec1a59f45550" prot="public" virt="non-virtual"><scope>CI_Xmlrpcs</scope><name>$error</name></member>
+      <member refid="class_c_i___xmlrpc_1abf17cb2dba2ed17cb28aa5f37deb5293" prot="public" virt="non-virtual"><scope>CI_Xmlrpcs</scope><name>$message</name></member>
+      <member refid="class_c_i___xmlrpc_1a12661b2fc0f57f97e30a1620889ce9c6" prot="public" virt="non-virtual"><scope>CI_Xmlrpcs</scope><name>$method</name></member>
+      <member refid="class_c_i___xmlrpcs_1a802753499268a04da139bd6e6ef89b35" prot="public" virt="non-virtual"><scope>CI_Xmlrpcs</scope><name>$methods</name></member>
+      <member refid="class_c_i___xmlrpcs_1a52123b83a1952a68c5513e47d59ec4a6" prot="public" virt="non-virtual"><scope>CI_Xmlrpcs</scope><name>$object</name></member>
+      <member refid="class_c_i___xmlrpc_1af4b6fb1bbc77ccc05f10da3b16935b99" prot="public" virt="non-virtual"><scope>CI_Xmlrpcs</scope><name>$response</name></member>
+      <member refid="class_c_i___xmlrpc_1a112ef069ddc0454086e3d1e6d8d55d07" prot="public" virt="non-virtual"><scope>CI_Xmlrpcs</scope><name>$result</name></member>
+      <member refid="class_c_i___xmlrpcs_1a07c837152d76c5e72b0bd7a065fa9c10" prot="public" virt="non-virtual"><scope>CI_Xmlrpcs</scope><name>$system_methods</name></member>
+      <member refid="class_c_i___xmlrpc_1a801945a338a9dee5f723c00cb71657b7" prot="public" virt="non-virtual"><scope>CI_Xmlrpcs</scope><name>$valid_parents</name></member>
+      <member refid="class_c_i___xmlrpc_1a2bfcef776e3e3cd8f7700e375c6ccaec" prot="public" virt="non-virtual"><scope>CI_Xmlrpcs</scope><name>$xmlrpc_backslash</name></member>
+      <member refid="class_c_i___xmlrpc_1a7a31af447cebbb81b1f3c5581cd90d5a" prot="public" virt="non-virtual"><scope>CI_Xmlrpcs</scope><name>$xmlrpc_defencoding</name></member>
+      <member refid="class_c_i___xmlrpc_1aedecd71f2438e9a44a8f5a1dc73f4c7a" prot="public" virt="non-virtual"><scope>CI_Xmlrpcs</scope><name>$xmlrpcArray</name></member>
+      <member refid="class_c_i___xmlrpc_1a95dc3164d1c3e1fdaf7185095fb376ae" prot="public" virt="non-virtual"><scope>CI_Xmlrpcs</scope><name>$xmlrpcBase64</name></member>
+      <member refid="class_c_i___xmlrpc_1abb241cb9cac2595c7ef28106808ec438" prot="public" virt="non-virtual"><scope>CI_Xmlrpcs</scope><name>$xmlrpcBoolean</name></member>
+      <member refid="class_c_i___xmlrpc_1ad0ef2c8353643b73afe4636a5fb84cff" prot="public" virt="non-virtual"><scope>CI_Xmlrpcs</scope><name>$xmlrpcDateTime</name></member>
+      <member refid="class_c_i___xmlrpc_1aa412c6bea7572d0e508b5ef9d2213db3" prot="public" virt="non-virtual"><scope>CI_Xmlrpcs</scope><name>$xmlrpcDouble</name></member>
+      <member refid="class_c_i___xmlrpc_1a915a90a791db11a94f665567d2f5ad01" prot="public" virt="non-virtual"><scope>CI_Xmlrpcs</scope><name>$xmlrpcerr</name></member>
+      <member refid="class_c_i___xmlrpc_1a45bf41f1e861f94e04f463a638e5abf5" prot="public" virt="non-virtual"><scope>CI_Xmlrpcs</scope><name>$xmlrpcerruser</name></member>
+      <member refid="class_c_i___xmlrpc_1af2500be600bfad88988409e6ff64c01c" prot="public" virt="non-virtual"><scope>CI_Xmlrpcs</scope><name>$xmlrpcerrxml</name></member>
+      <member refid="class_c_i___xmlrpc_1a4d41d61a02c60406c56254f0988b8141" prot="public" virt="non-virtual"><scope>CI_Xmlrpcs</scope><name>$xmlrpcI4</name></member>
+      <member refid="class_c_i___xmlrpc_1a1bf451bf41226cf1702f54fa46b041f2" prot="public" virt="non-virtual"><scope>CI_Xmlrpcs</scope><name>$xmlrpcInt</name></member>
+      <member refid="class_c_i___xmlrpc_1a1311a8891b845bf89b1bc459d54a6312" prot="public" virt="non-virtual"><scope>CI_Xmlrpcs</scope><name>$xmlrpcName</name></member>
+      <member refid="class_c_i___xmlrpc_1a89bbdd6a565dd3af2378b44fc5f156a0" prot="public" virt="non-virtual"><scope>CI_Xmlrpcs</scope><name>$xmlrpcstr</name></member>
+      <member refid="class_c_i___xmlrpc_1a69f8b2c87014597d1f5509ec934ceeea" prot="public" virt="non-virtual"><scope>CI_Xmlrpcs</scope><name>$xmlrpcString</name></member>
+      <member refid="class_c_i___xmlrpc_1a9a499285050ed5c867eec71854231f01" prot="public" virt="non-virtual"><scope>CI_Xmlrpcs</scope><name>$xmlrpcStruct</name></member>
+      <member refid="class_c_i___xmlrpc_1a2b937e1ca5ee8495f0251a74222cec64" prot="public" virt="non-virtual"><scope>CI_Xmlrpcs</scope><name>$xmlrpcTypes</name></member>
+      <member refid="class_c_i___xmlrpc_1a4130f55bb1f23dcabf9cf3ae5f5a746d" prot="public" virt="non-virtual"><scope>CI_Xmlrpcs</scope><name>$xmlrpcVersion</name></member>
+      <member refid="class_c_i___xmlrpc_1a0f2ee8861c0b3164a5c6e126dd98c0cc" prot="public" virt="non-virtual"><scope>CI_Xmlrpcs</scope><name>$xss_clean</name></member>
+      <member refid="class_c_i___xmlrpcs_1af7f9493844d2d66e924e3c1df51ce616" prot="public" virt="non-virtual"><scope>CI_Xmlrpcs</scope><name>__construct</name></member>
+      <member refid="class_c_i___xmlrpcs_1a2f039adb8ec59c693300993c95138b46" prot="public" virt="non-virtual"><scope>CI_Xmlrpcs</scope><name>_execute</name></member>
+      <member refid="class_c_i___xmlrpcs_1a73b29191620c55a5e2d3fda3a5c3cf44" prot="public" virt="non-virtual"><scope>CI_Xmlrpcs</scope><name>add_to_map</name></member>
+      <member refid="class_c_i___xmlrpc_1adf0d809d39e17bc0e08387436db31386" prot="public" virt="non-virtual"><scope>CI_Xmlrpcs</scope><name>display_error</name></member>
+      <member refid="class_c_i___xmlrpc_1a3a8aedc2a1e6a67ad248dc6078ce8614" prot="public" virt="non-virtual"><scope>CI_Xmlrpcs</scope><name>display_response</name></member>
+      <member refid="class_c_i___xmlrpcs_1ab76189ac2d65f1e3ab6d65128e3748d5" prot="public" virt="non-virtual"><scope>CI_Xmlrpcs</scope><name>do_multicall</name></member>
+      <member refid="class_c_i___xmlrpcs_1a481385e36d920f5a5005ace05c6cd016" prot="public" virt="non-virtual"><scope>CI_Xmlrpcs</scope><name>initialize</name></member>
+      <member refid="class_c_i___xmlrpcs_1ad640f0b44d1956a05cfe40bab4e4043d" prot="public" virt="non-virtual"><scope>CI_Xmlrpcs</scope><name>listMethods</name></member>
+      <member refid="class_c_i___xmlrpc_1a3d7e090549ec52eba8cf65598eefa72c" prot="public" virt="non-virtual"><scope>CI_Xmlrpcs</scope><name>method</name></member>
+      <member refid="class_c_i___xmlrpcs_1a97626f30e860f4a63463f8674827dc00" prot="public" virt="non-virtual"><scope>CI_Xmlrpcs</scope><name>methodHelp</name></member>
+      <member refid="class_c_i___xmlrpcs_1a9f96cc0bd3338094174eb22cd90d6f2a" prot="public" virt="non-virtual"><scope>CI_Xmlrpcs</scope><name>methodSignature</name></member>
+      <member refid="class_c_i___xmlrpcs_1a122ce829a1aa3f0041f922ec5feb95c8" prot="public" virt="non-virtual"><scope>CI_Xmlrpcs</scope><name>multicall</name></member>
+      <member refid="class_c_i___xmlrpcs_1a4cf545e6c15e1487b223346b18ca017d" prot="public" virt="non-virtual"><scope>CI_Xmlrpcs</scope><name>multicall_error</name></member>
+      <member refid="class_c_i___xmlrpcs_1a8a0c34554b9238be766ab85f55519b6e" prot="public" virt="non-virtual"><scope>CI_Xmlrpcs</scope><name>parseRequest</name></member>
+      <member refid="class_c_i___xmlrpc_1a10d4ec842c61f2301ecccc900500e4c8" prot="public" virt="non-virtual"><scope>CI_Xmlrpcs</scope><name>request</name></member>
+      <member refid="class_c_i___xmlrpc_1a024ae8a44e09995c6d0b6cb50d8abd9a" prot="public" virt="non-virtual"><scope>CI_Xmlrpcs</scope><name>send_error_message</name></member>
+      <member refid="class_c_i___xmlrpc_1ad6f2431aec35ca073f3bdac3f0e8c66a" prot="public" virt="non-virtual"><scope>CI_Xmlrpcs</scope><name>send_request</name></member>
+      <member refid="class_c_i___xmlrpc_1ac567feb54a4bda4cad24ff63d09267a1" prot="public" virt="non-virtual"><scope>CI_Xmlrpcs</scope><name>send_response</name></member>
+      <member refid="class_c_i___xmlrpcs_1aa9e0b443b9575f62bf9f8e85b1742c96" prot="public" virt="non-virtual"><scope>CI_Xmlrpcs</scope><name>serve</name></member>
+      <member refid="class_c_i___xmlrpc_1a73157f1025c772bfa2c8c710aea1ae1f" prot="public" virt="non-virtual"><scope>CI_Xmlrpcs</scope><name>server</name></member>
+      <member refid="class_c_i___xmlrpc_1a277e289843ab2ff13a12441e1dd5cd37" prot="public" virt="non-virtual"><scope>CI_Xmlrpcs</scope><name>set_debug</name></member>
+      <member refid="class_c_i___xmlrpcs_1a858a05529612358b8f63c88b08b414d0" prot="public" virt="non-virtual"><scope>CI_Xmlrpcs</scope><name>set_system_methods</name></member>
+      <member refid="class_c_i___xmlrpc_1ada3149e6290a7991c7dfc88c6c90f2db" prot="public" virt="non-virtual"><scope>CI_Xmlrpcs</scope><name>timeout</name></member>
+      <member refid="class_c_i___xmlrpc_1a544761a56ec064427da119066ddbc3ce" prot="public" virt="non-virtual"><scope>CI_Xmlrpcs</scope><name>values_parsing</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

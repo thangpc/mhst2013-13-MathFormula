@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="number__lang_8php" kind="file">
+    <compoundname>number_lang.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="number__lang_8php_1a72963402ca792afbae1ba34a4050fcde" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;terabyte_abbr&apos;]</definition>
+        <argsstring>[&apos;terabyte_abbr&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;TB&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/number_lang.php" line="3" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/number_lang.php" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="number__lang_8php_1a2349e7364cbc6402c44bd135b132d9d6" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;gigabyte_abbr&apos;]</definition>
+        <argsstring>[&apos;gigabyte_abbr&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;GB&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/number_lang.php" line="4" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/number_lang.php" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="number__lang_8php_1ae1fdf8fb2977ddec5fd9f2237f277edc" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;megabyte_abbr&apos;]</definition>
+        <argsstring>[&apos;megabyte_abbr&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;MB&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/number_lang.php" line="5" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/number_lang.php" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="number__lang_8php_1a78200289bbf44dce8b0d5f06072379e6" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;kilobyte_abbr&apos;]</definition>
+        <argsstring>[&apos;kilobyte_abbr&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;KB&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/number_lang.php" line="6" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/number_lang.php" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="number__lang_8php_1aeec8ade1229052ff8627a350480bba9c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;bytes&apos;]</definition>
+        <argsstring>[&apos;bytes&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;Bytes&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/number_lang.php" line="7" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/number_lang.php" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="number__lang_8php_1a72963402ca792afbae1ba34a4050fcde" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;terabyte_abbr&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;TB&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="4" refid="number__lang_8php_1a2349e7364cbc6402c44bd135b132d9d6" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;gigabyte_abbr&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;GB&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="5" refid="number__lang_8php_1ae1fdf8fb2977ddec5fd9f2237f277edc" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;megabyte_abbr&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;MB&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="6" refid="number__lang_8php_1a78200289bbf44dce8b0d5f06072379e6" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;kilobyte_abbr&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;KB&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="7" refid="number__lang_8php_1aeec8ade1229052ff8627a350480bba9c" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;bytes&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Bytes&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>End<sp/>of<sp/>file<sp/>number_lang.php<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Location:<sp/>./system/language/english/number_lang.php<sp/>*/</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/number_lang.php"/>
+  </compounddef>
+</doxygen>

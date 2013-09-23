@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="views_2admin_2dashboard_8php" kind="file">
+    <compoundname>dashboard.php</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;<ref refid="mathquill_8js_1a7faab0faa1bacc23a7ffe6f0c7c26e76" kindref="member">div</ref><sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;container&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;ol<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;breadcrumb&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;li&gt;&lt;<ref refid="bootstrap_8min_8js_1ae8f6b400ed3390908c5cdeebed3a82b9" kindref="member">a</ref><sp/>href=</highlight><highlight class="stringliteral">&quot;#&quot;</highlight><highlight class="normal">&gt;<ref refid="class_dashboard" kindref="compound">Dashboard</ref>&lt;/<ref refid="bootstrap_8min_8js_1ae8f6b400ed3390908c5cdeebed3a82b9" kindref="member">a</ref>&gt;&lt;/li&gt;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;li<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;active&quot;</highlight><highlight class="normal">&gt;Welcome<sp/><ref refid="mathquill_8js_1ae3622f38202b3532cd6eae25726945f8" kindref="member">to</ref><sp/>Administrator<sp/>System&lt;/li&gt;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;/ol&gt;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;p&gt;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;h4<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;text-info<sp/>text-center&quot;</highlight><highlight class="normal">&gt;Click<sp/>navigation<sp/>bar<sp/><ref refid="mathquill_8js_1ae3622f38202b3532cd6eae25726945f8" kindref="member">to</ref><sp/>start<sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>management<sp/>system.&lt;/h4&gt;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;/p&gt;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">&lt;/<ref refid="mathquill_8js_1a7faab0faa1bacc23a7ffe6f0c7c26e76" kindref="member">div</ref>&gt;</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/views/admin/dashboard.php"/>
+  </compounddef>
+</doxygen>

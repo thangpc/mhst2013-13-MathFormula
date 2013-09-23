@@ -1,0 +1,368 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_c_i___parser" kind="class" prot="public">
+    <compoundname>CI_Parser</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_c_i___parser_1ab957da01a735e612795fba1c5802b1fb" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$l_delim</definition>
+        <argsstring></argsstring>
+        <name>$l_delim</name>
+        <initializer>= &apos;{&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Parser.php" line="29" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Parser.php" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___parser_1a4d80dc6a622989846dbd0e39fde0f3bb" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$r_delim</definition>
+        <argsstring></argsstring>
+        <name>$r_delim</name>
+        <initializer>= &apos;}&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Parser.php" line="30" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Parser.php" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___parser_1a52123b83a1952a68c5513e47d59ec4a6" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$object</definition>
+        <argsstring></argsstring>
+        <name>$object</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Parser.php" line="31" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Parser.php" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_i___parser_1aed3a838a4afdff95c4bf2b1fb5062cbd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>parse</definition>
+        <argsstring>($template, $data, $return=FALSE)</argsstring>
+        <name>parse</name>
+        <param>
+          <declname>$template</declname>
+        </param>
+        <param>
+          <declname>$data</declname>
+        </param>
+        <param>
+          <declname>$return</declname>
+          <defval>FALSE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Parse a template</para><para>Parses pseudo-variables contained in the specified template view, replacing them with the data in the second param</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bool</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Parser.php" line="45" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Parser.php" bodystart="45" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___parser_1a5cdfa809d6f2988d2741cb26b5a51d36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>parse_string</definition>
+        <argsstring>($template, $data, $return=FALSE)</argsstring>
+        <name>parse_string</name>
+        <param>
+          <declname>$template</declname>
+        </param>
+        <param>
+          <declname>$data</declname>
+        </param>
+        <param>
+          <declname>$return</declname>
+          <defval>FALSE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Parse a String</para><para>Parses pseudo-variables contained in the specified string, replacing them with the data in the second param</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bool</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Parser.php" line="67" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Parser.php" bodystart="67" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___parser_1a6bd5ad826db82a61de1f3a13031faaf9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_parse</definition>
+        <argsstring>($template, $data, $return=FALSE)</argsstring>
+        <name>_parse</name>
+        <param>
+          <declname>$template</declname>
+        </param>
+        <param>
+          <declname>$data</declname>
+        </param>
+        <param>
+          <declname>$return</declname>
+          <defval>FALSE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Parse a template</para><para>Parses pseudo-variables contained in the specified template, replacing them with the data in the second param</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bool</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Parser.php" line="86" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Parser.php" bodystart="86" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___parser_1a1865a64fc2d5187c9898abd7239a565b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>set_delimiters</definition>
+        <argsstring>($l= &apos;{&apos;, $r= &apos;}&apos;)</argsstring>
+        <name>set_delimiters</name>
+        <param>
+          <declname>$l</declname>
+          <defval>&apos;{&apos;</defval>
+        </param>
+        <param>
+          <declname>$r</declname>
+          <defval>&apos;}&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the left/right variable delimiters</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Parser.php" line="124" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Parser.php" bodystart="124" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___parser_1a01c9bb8a5e8802a1b21acf829cc181e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_parse_single</definition>
+        <argsstring>($key, $val, $string)</argsstring>
+        <name>_parse_single</name>
+        <param>
+          <declname>$key</declname>
+        </param>
+        <param>
+          <declname>$val</declname>
+        </param>
+        <param>
+          <declname>$string</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Parse a single key/value</para><para>private <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Parser.php" line="141" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Parser.php" bodystart="141" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___parser_1a3f01fef88e49c40d679e35dedf89a128" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_parse_pair</definition>
+        <argsstring>($variable, $data, $string)</argsstring>
+        <name>_parse_pair</name>
+        <param>
+          <declname>$variable</declname>
+        </param>
+        <param>
+          <declname>$data</declname>
+        </param>
+        <param>
+          <declname>$string</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Parse a tag pair</para><para>Parses tag pairs: {some_tag} string... {/some_tag}</para><para>private <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Parser.php" line="159" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Parser.php" bodystart="159" bodyend="186"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___parser_1aa7d5901782e2377f0657d27daeb188c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_match_pair</definition>
+        <argsstring>($string, $variable)</argsstring>
+        <name>_match_pair</name>
+        <param>
+          <declname>$string</declname>
+        </param>
+        <param>
+          <declname>$variable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Matches a variable pair</para><para>private <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Parser.php" line="198" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Parser.php" bodystart="198" bodyend="206"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Parser.php" line="27" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Parser.php" bodystart="27" bodyend="208"/>
+    <listofallmembers>
+      <member refid="class_c_i___parser_1ab957da01a735e612795fba1c5802b1fb" prot="public" virt="non-virtual"><scope>CI_Parser</scope><name>$l_delim</name></member>
+      <member refid="class_c_i___parser_1a52123b83a1952a68c5513e47d59ec4a6" prot="public" virt="non-virtual"><scope>CI_Parser</scope><name>$object</name></member>
+      <member refid="class_c_i___parser_1a4d80dc6a622989846dbd0e39fde0f3bb" prot="public" virt="non-virtual"><scope>CI_Parser</scope><name>$r_delim</name></member>
+      <member refid="class_c_i___parser_1aa7d5901782e2377f0657d27daeb188c7" prot="public" virt="non-virtual"><scope>CI_Parser</scope><name>_match_pair</name></member>
+      <member refid="class_c_i___parser_1a6bd5ad826db82a61de1f3a13031faaf9" prot="public" virt="non-virtual"><scope>CI_Parser</scope><name>_parse</name></member>
+      <member refid="class_c_i___parser_1a3f01fef88e49c40d679e35dedf89a128" prot="public" virt="non-virtual"><scope>CI_Parser</scope><name>_parse_pair</name></member>
+      <member refid="class_c_i___parser_1a01c9bb8a5e8802a1b21acf829cc181e7" prot="public" virt="non-virtual"><scope>CI_Parser</scope><name>_parse_single</name></member>
+      <member refid="class_c_i___parser_1aed3a838a4afdff95c4bf2b1fb5062cbd" prot="public" virt="non-virtual"><scope>CI_Parser</scope><name>parse</name></member>
+      <member refid="class_c_i___parser_1a5cdfa809d6f2988d2741cb26b5a51d36" prot="public" virt="non-virtual"><scope>CI_Parser</scope><name>parse_string</name></member>
+      <member refid="class_c_i___parser_1a1865a64fc2d5187c9898abd7239a565b" prot="public" virt="non-virtual"><scope>CI_Parser</scope><name>set_delimiters</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1033 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_c_i___d_b__mysqli__driver" kind="class" prot="public">
+    <compoundname>CI_DB_mysqli_driver</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">CI_DB</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_c_i___d_b__mysqli__driver_1a0cde2a16322a023d040aa7f725877597" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$dbdriver</definition>
+        <argsstring></argsstring>
+        <name>$dbdriver</name>
+        <initializer>= &apos;mysqli&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" line="33" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___d_b__mysqli__driver_1aaec2fb0112850159063a8e47ad3aed6e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$_escape_char</definition>
+        <argsstring></argsstring>
+        <name>$_escape_char</name>
+        <initializer>= &apos;`&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" line="36" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___d_b__mysqli__driver_1adf86ecadf3d0e1ce3f5e0eaeeb3867ae" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$_like_escape_str</definition>
+        <argsstring></argsstring>
+        <name>$_like_escape_str</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" line="39" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___d_b__mysqli__driver_1a668acfd923d0342389cd3a614628cf2a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$_like_escape_chr</definition>
+        <argsstring></argsstring>
+        <name>$_like_escape_chr</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" line="40" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___d_b__mysqli__driver_1a06c80bac2ecbd0557827e96949c23097" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$_count_string</definition>
+        <argsstring></argsstring>
+        <name>$_count_string</name>
+        <initializer>= &quot;SELECT COUNT(*) AS &quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The syntax to count rows is slightly different across different database engines, so this string appears in each driver and is used for the <ref refid="class_c_i___d_b__mysqli__driver_1a66111c61856499b091af32502978d4fc" kindref="member">count_all()</ref> and count_all_results() functions. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" line="47" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___d_b__mysqli__driver_1a10213aa6e05f6d924d3277bb1d2fea00" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$_random_keyword</definition>
+        <argsstring></argsstring>
+        <name>$_random_keyword</name>
+        <initializer>= &apos; RAND()&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" line="48" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___d_b__mysqli__driver_1ad60008f32a478e978c7c3284f320f273" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$delete_hack</definition>
+        <argsstring></argsstring>
+        <name>$delete_hack</name>
+        <initializer>= TRUE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Whether to use the MySQL &quot;delete hack&quot; which allows the number of affected rows to be shown. Uses a preg_replace when enabled, adding a bit more processing to all queries. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" line="55" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___d_b__mysqli__driver_1ac291b90d602cce25b980208dbc52be99" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$use_set_names</definition>
+        <argsstring></argsstring>
+        <name>$use_set_names</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" line="58" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_i___d_b__mysqli__driver_1a6aa545dcb7768f0b62d37cdcf7f09adc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>db_connect</definition>
+        <argsstring>()</argsstring>
+        <name>db_connect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Non-persistent database connection</para><para>private called by the base class <simplesect kind="return"><para>resource </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" line="68" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" bodystart="68" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__mysqli__driver_1a0f69e662bd02de5bcf98647068e7c653" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>db_pconnect</definition>
+        <argsstring>()</argsstring>
+        <name>db_pconnect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Persistent database connection</para><para>private called by the base class <simplesect kind="return"><para>resource </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" line="89" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" bodystart="89" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__mysqli__driver_1a57c19c642ab3023e28d10c50f86ff0a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>reconnect</definition>
+        <argsstring>()</argsstring>
+        <name>reconnect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reconnect</para><para>Keep / reestablish the db connection if no queries have been sent for a length of time exceeding the server&apos;s idle timeout</para><para>public <simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" line="105" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" bodystart="105" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__mysqli__driver_1af0c7f2602586ea2050b19fb36baefb24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>db_select</definition>
+        <argsstring>()</argsstring>
+        <name>db_select</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Select the database</para><para>private called by the base class <simplesect kind="return"><para>resource </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" line="121" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" bodystart="121" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__mysqli__driver_1ae8accd162bbc9805ae8275d0626c6678" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_db_set_charset</definition>
+        <argsstring>($charset, $collation)</argsstring>
+        <name>_db_set_charset</name>
+        <param>
+          <declname>$charset</declname>
+        </param>
+        <param>
+          <declname>$collation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set client character set</para><para>private <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>resource </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" line="136" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" bodystart="136" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__mysqli__driver_1ac997a462bb342f97f414910f0e033fb6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_version</definition>
+        <argsstring>()</argsstring>
+        <name>_version</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Version number query string</para><para>public <simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" line="162" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" bodystart="162" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__mysqli__driver_1a114ab675d89bf8324a41785fb475e86d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_execute</definition>
+        <argsstring>($sql)</argsstring>
+        <name>_execute</name>
+        <param>
+          <declname>$sql</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Execute the query</para><para>private called by the base class <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>an SQL query </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>resource </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" line="176" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" bodystart="176" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__mysqli__driver_1a86af88ef0fa6d44ab4691e3f53270339" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_prep_query</definition>
+        <argsstring>($sql)</argsstring>
+        <name>_prep_query</name>
+        <param>
+          <declname>$sql</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Prep the query</para><para>If needed, each database adapter can prep the query string</para><para>private called by execute() <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>an SQL query </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" line="194" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" bodystart="194" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__mysqli__driver_1a90e153cf190d273336d77cce930587e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>trans_begin</definition>
+        <argsstring>($test_mode=FALSE)</argsstring>
+        <name>trans_begin</name>
+        <param>
+          <declname>$test_mode</declname>
+          <defval>FALSE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Begin Transaction</para><para>public <simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" line="217" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" bodystart="217" bodyend="238"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__mysqli__driver_1af4fbdcdace4aa94a139b64877601fe9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>trans_commit</definition>
+        <argsstring>()</argsstring>
+        <name>trans_commit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Commit Transaction</para><para>public <simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" line="248" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" bodystart="248" bodyend="264"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__mysqli__driver_1a53f76d4dfcd6ac04fb653982442aeef8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>trans_rollback</definition>
+        <argsstring>()</argsstring>
+        <name>trans_rollback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rollback Transaction</para><para>public <simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" line="274" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" bodystart="274" bodyend="290"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__mysqli__driver_1aaba16891c8c93600a87075800cc5b72b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>escape_str</definition>
+        <argsstring>($str, $like=FALSE)</argsstring>
+        <name>escape_str</name>
+        <param>
+          <declname>$str</declname>
+        </param>
+        <param>
+          <declname>$like</declname>
+          <defval>FALSE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Escape String</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bool</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>whether or not the string will be used in a LIKE condition </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" line="302" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" bodystart="302" bodyend="334"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__mysqli__driver_1a77248aaad33eb132c04cc4aa3f4bc8cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>affected_rows</definition>
+        <argsstring>()</argsstring>
+        <name>affected_rows</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Affected Rows</para><para>public <simplesect kind="return"><para>integer </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" line="344" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" bodystart="344" bodyend="347"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__mysqli__driver_1a933f2cde8dc7f87875e257d0a4902e99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>insert_id</definition>
+        <argsstring>()</argsstring>
+        <name>insert_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Insert ID</para><para>public <simplesect kind="return"><para>integer </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" line="357" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" bodystart="357" bodyend="360"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__mysqli__driver_1a66111c61856499b091af32502978d4fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>count_all</definition>
+        <argsstring>($table= &apos;&apos;)</argsstring>
+        <name>count_all</name>
+        <param>
+          <declname>$table</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>&quot;Count All&quot; query</para><para>Generates a platform-specific query string that counts all records in the specified database</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" line="374" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" bodystart="374" bodyend="391"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__mysqli__driver_1a435c0f3ce54fe7daa178baa8532ebd54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_list_tables</definition>
+        <argsstring>($prefix_limit=FALSE)</argsstring>
+        <name>_list_tables</name>
+        <param>
+          <declname>$prefix_limit</declname>
+          <defval>FALSE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>List table query</para><para>Generates a platform-specific query string so that the table names can be fetched</para><para>private <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>boolean</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" line="404" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" bodystart="404" bodyend="414"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__mysqli__driver_1a2a81bb476a5c76fe6f763b0557c1e4c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_list_columns</definition>
+        <argsstring>($table= &apos;&apos;)</argsstring>
+        <name>_list_columns</name>
+        <param>
+          <declname>$table</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Show column query</para><para>Generates a platform-specific query string so that the column names can be fetched</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the table name </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" line="427" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" bodystart="427" bodyend="430"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__mysqli__driver_1a95247d9671893adc3444cb184ad32ea1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_field_data</definition>
+        <argsstring>($table)</argsstring>
+        <name>_field_data</name>
+        <param>
+          <declname>$table</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Field data query</para><para>Generates a platform-specific query so that the column data can be retrieved</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the table name </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>object </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" line="443" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" bodystart="443" bodyend="446"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__mysqli__driver_1a4ca764fe1d6ad526f770f36b5f332bbb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_error_message</definition>
+        <argsstring>()</argsstring>
+        <name>_error_message</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The error message string</para><para>private <simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" line="456" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" bodystart="456" bodyend="459"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__mysqli__driver_1a3e48199b3a946499b7e5fba0cdfa6b86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_error_number</definition>
+        <argsstring>()</argsstring>
+        <name>_error_number</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The error message number</para><para>private <simplesect kind="return"><para>integer </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" line="469" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" bodystart="469" bodyend="472"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__mysqli__driver_1aeabfb3952399caa92a013621a98e3042" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_escape_identifiers</definition>
+        <argsstring>($item)</argsstring>
+        <name>_escape_identifiers</name>
+        <param>
+          <declname>$item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Escape the SQL Identifiers</para><para>This function escapes column and table names</para><para>private <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" line="485" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" bodystart="485" bodyend="514"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__mysqli__driver_1a885a8b4372b5c099749cefa73767a744" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_from_tables</definition>
+        <argsstring>($tables)</argsstring>
+        <name>_from_tables</name>
+        <param>
+          <declname>$tables</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>From Tables</para><para>This function implicitly groups FROM tables so there is no confusion about operator precedence in harmony with SQL standards</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>type </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" line="528" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" bodystart="528" bodyend="536"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__mysqli__driver_1a69ee76b136052e0a8f06097fb388e53e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_insert</definition>
+        <argsstring>($table, $keys, $values)</argsstring>
+        <name>_insert</name>
+        <param>
+          <declname>$table</declname>
+        </param>
+        <param>
+          <declname>$keys</declname>
+        </param>
+        <param>
+          <declname>$values</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Insert statement</para><para>Generates a platform-specific insert string from the supplied data</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the table name </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the insert keys </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the insert values </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" line="551" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" bodystart="551" bodyend="554"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__mysqli__driver_1a1978e1358c812587a46e242630365099" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_insert_batch</definition>
+        <argsstring>($table, $keys, $values)</argsstring>
+        <name>_insert_batch</name>
+        <param>
+          <declname>$table</declname>
+        </param>
+        <param>
+          <declname>$keys</declname>
+        </param>
+        <param>
+          <declname>$values</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Insert_batch statement</para><para>Generates a platform-specific insert string from the supplied data</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the table name </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the insert keys </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the insert values </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" line="569" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" bodystart="569" bodyend="572"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__mysqli__driver_1ae0adf73984daf2d42ad29b66c484c82b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_replace</definition>
+        <argsstring>($table, $keys, $values)</argsstring>
+        <name>_replace</name>
+        <param>
+          <declname>$table</declname>
+        </param>
+        <param>
+          <declname>$keys</declname>
+        </param>
+        <param>
+          <declname>$values</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Replace statement</para><para>Generates a platform-specific replace string from the supplied data</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the table name </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the insert keys </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the insert values </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" line="588" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" bodystart="588" bodyend="591"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__mysqli__driver_1ae869ae2275175c5ffa22816a02099d96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_update</definition>
+        <argsstring>($table, $values, $where, $orderby=array(), $limit=FALSE)</argsstring>
+        <name>_update</name>
+        <param>
+          <declname>$table</declname>
+        </param>
+        <param>
+          <declname>$values</declname>
+        </param>
+        <param>
+          <declname>$where</declname>
+        </param>
+        <param>
+          <declname>$orderby</declname>
+          <defval>array()</defval>
+        </param>
+        <param>
+          <declname>$limit</declname>
+          <defval>FALSE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Update statement</para><para>Generates a platform-specific update string from the supplied data</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the table name </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the update data </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the where clause </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the orderby clause </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the limit clause </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" line="608" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" bodystart="608" bodyend="626"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__mysqli__driver_1acdcbd5642090362dfe49120a222670b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_update_batch</definition>
+        <argsstring>($table, $values, $index, $where=NULL)</argsstring>
+        <name>_update_batch</name>
+        <param>
+          <declname>$table</declname>
+        </param>
+        <param>
+          <declname>$values</declname>
+        </param>
+        <param>
+          <declname>$index</declname>
+        </param>
+        <param>
+          <declname>$where</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Update_Batch statement</para><para>Generates a platform-specific batch update string from the supplied data</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the table name </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the update data </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the where clause </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" line="641" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" bodystart="641" bodyend="678"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__mysqli__driver_1aa029600528fc1ce660a23ff4b4667f95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_truncate</definition>
+        <argsstring>($table)</argsstring>
+        <name>_truncate</name>
+        <param>
+          <declname>$table</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Truncate statement</para><para>Generates a platform-specific truncate string from the supplied data If the database does not support the truncate() command This function maps to &quot;DELETE FROM table&quot;</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the table name </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" line="693" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" bodystart="693" bodyend="696"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__mysqli__driver_1ace3cbc04a520b7811fc956cdb9ae1c19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_delete</definition>
+        <argsstring>($table, $where=array(), $like=array(), $limit=FALSE)</argsstring>
+        <name>_delete</name>
+        <param>
+          <declname>$table</declname>
+        </param>
+        <param>
+          <declname>$where</declname>
+          <defval>array()</defval>
+        </param>
+        <param>
+          <declname>$like</declname>
+          <defval>array()</defval>
+        </param>
+        <param>
+          <declname>$limit</declname>
+          <defval>FALSE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Delete statement</para><para>Generates a platform-specific delete string from the supplied data</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the table name </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the where clause </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the limit clause </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" line="711" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" bodystart="711" bodyend="730"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__mysqli__driver_1aeeaa5cd68dc6ace010c0b8aae89c2d15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_limit</definition>
+        <argsstring>($sql, $limit, $offset)</argsstring>
+        <name>_limit</name>
+        <param>
+          <declname>$sql</declname>
+        </param>
+        <param>
+          <declname>$limit</declname>
+        </param>
+        <param>
+          <declname>$offset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Limit string</para><para>Generates a platform-specific LIMIT clause</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the sql query string </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>integer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the number of rows to limit the query to </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>integer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the offset value </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" line="745" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" bodystart="745" bodyend="755"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__mysqli__driver_1a557bd6ddde8de1f7814e10b1120efd29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_close</definition>
+        <argsstring>($conn_id)</argsstring>
+        <name>_close</name>
+        <param>
+          <declname>$conn_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Close DB Connection</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>resource</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" line="766" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" bodystart="766" bodyend="769"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="143">
+        <label>CI_DB</label>
+      </node>
+      <node id="142">
+        <label>CI_DB_mysqli_driver</label>
+        <link refid="class_c_i___d_b__mysqli__driver"/>
+        <childnode refid="143" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="145">
+        <label>CI_DB</label>
+      </node>
+      <node id="144">
+        <label>CI_DB_mysqli_driver</label>
+        <link refid="class_c_i___d_b__mysqli__driver"/>
+        <childnode refid="145" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" line="31" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/mysqli_driver.php" bodystart="31" bodyend="772"/>
+    <listofallmembers>
+      <member refid="class_c_i___d_b__mysqli__driver_1a06c80bac2ecbd0557827e96949c23097" prot="public" virt="non-virtual"><scope>CI_DB_mysqli_driver</scope><name>$_count_string</name></member>
+      <member refid="class_c_i___d_b__mysqli__driver_1aaec2fb0112850159063a8e47ad3aed6e" prot="public" virt="non-virtual"><scope>CI_DB_mysqli_driver</scope><name>$_escape_char</name></member>
+      <member refid="class_c_i___d_b__mysqli__driver_1a668acfd923d0342389cd3a614628cf2a" prot="public" virt="non-virtual"><scope>CI_DB_mysqli_driver</scope><name>$_like_escape_chr</name></member>
+      <member refid="class_c_i___d_b__mysqli__driver_1adf86ecadf3d0e1ce3f5e0eaeeb3867ae" prot="public" virt="non-virtual"><scope>CI_DB_mysqli_driver</scope><name>$_like_escape_str</name></member>
+      <member refid="class_c_i___d_b__mysqli__driver_1a10213aa6e05f6d924d3277bb1d2fea00" prot="public" virt="non-virtual"><scope>CI_DB_mysqli_driver</scope><name>$_random_keyword</name></member>
+      <member refid="class_c_i___d_b__mysqli__driver_1a0cde2a16322a023d040aa7f725877597" prot="public" virt="non-virtual"><scope>CI_DB_mysqli_driver</scope><name>$dbdriver</name></member>
+      <member refid="class_c_i___d_b__mysqli__driver_1ad60008f32a478e978c7c3284f320f273" prot="public" virt="non-virtual"><scope>CI_DB_mysqli_driver</scope><name>$delete_hack</name></member>
+      <member refid="class_c_i___d_b__mysqli__driver_1ac291b90d602cce25b980208dbc52be99" prot="public" virt="non-virtual"><scope>CI_DB_mysqli_driver</scope><name>$use_set_names</name></member>
+      <member refid="class_c_i___d_b__mysqli__driver_1a557bd6ddde8de1f7814e10b1120efd29" prot="public" virt="non-virtual"><scope>CI_DB_mysqli_driver</scope><name>_close</name></member>
+      <member refid="class_c_i___d_b__mysqli__driver_1ae8accd162bbc9805ae8275d0626c6678" prot="public" virt="non-virtual"><scope>CI_DB_mysqli_driver</scope><name>_db_set_charset</name></member>
+      <member refid="class_c_i___d_b__mysqli__driver_1ace3cbc04a520b7811fc956cdb9ae1c19" prot="public" virt="non-virtual"><scope>CI_DB_mysqli_driver</scope><name>_delete</name></member>
+      <member refid="class_c_i___d_b__mysqli__driver_1a4ca764fe1d6ad526f770f36b5f332bbb" prot="public" virt="non-virtual"><scope>CI_DB_mysqli_driver</scope><name>_error_message</name></member>
+      <member refid="class_c_i___d_b__mysqli__driver_1a3e48199b3a946499b7e5fba0cdfa6b86" prot="public" virt="non-virtual"><scope>CI_DB_mysqli_driver</scope><name>_error_number</name></member>
+      <member refid="class_c_i___d_b__mysqli__driver_1aeabfb3952399caa92a013621a98e3042" prot="public" virt="non-virtual"><scope>CI_DB_mysqli_driver</scope><name>_escape_identifiers</name></member>
+      <member refid="class_c_i___d_b__mysqli__driver_1a114ab675d89bf8324a41785fb475e86d" prot="public" virt="non-virtual"><scope>CI_DB_mysqli_driver</scope><name>_execute</name></member>
+      <member refid="class_c_i___d_b__mysqli__driver_1a95247d9671893adc3444cb184ad32ea1" prot="public" virt="non-virtual"><scope>CI_DB_mysqli_driver</scope><name>_field_data</name></member>
+      <member refid="class_c_i___d_b__mysqli__driver_1a885a8b4372b5c099749cefa73767a744" prot="public" virt="non-virtual"><scope>CI_DB_mysqli_driver</scope><name>_from_tables</name></member>
+      <member refid="class_c_i___d_b__mysqli__driver_1a69ee76b136052e0a8f06097fb388e53e" prot="public" virt="non-virtual"><scope>CI_DB_mysqli_driver</scope><name>_insert</name></member>
+      <member refid="class_c_i___d_b__mysqli__driver_1a1978e1358c812587a46e242630365099" prot="public" virt="non-virtual"><scope>CI_DB_mysqli_driver</scope><name>_insert_batch</name></member>
+      <member refid="class_c_i___d_b__mysqli__driver_1aeeaa5cd68dc6ace010c0b8aae89c2d15" prot="public" virt="non-virtual"><scope>CI_DB_mysqli_driver</scope><name>_limit</name></member>
+      <member refid="class_c_i___d_b__mysqli__driver_1a2a81bb476a5c76fe6f763b0557c1e4c2" prot="public" virt="non-virtual"><scope>CI_DB_mysqli_driver</scope><name>_list_columns</name></member>
+      <member refid="class_c_i___d_b__mysqli__driver_1a435c0f3ce54fe7daa178baa8532ebd54" prot="public" virt="non-virtual"><scope>CI_DB_mysqli_driver</scope><name>_list_tables</name></member>
+      <member refid="class_c_i___d_b__mysqli__driver_1a86af88ef0fa6d44ab4691e3f53270339" prot="public" virt="non-virtual"><scope>CI_DB_mysqli_driver</scope><name>_prep_query</name></member>
+      <member refid="class_c_i___d_b__mysqli__driver_1ae0adf73984daf2d42ad29b66c484c82b" prot="public" virt="non-virtual"><scope>CI_DB_mysqli_driver</scope><name>_replace</name></member>
+      <member refid="class_c_i___d_b__mysqli__driver_1aa029600528fc1ce660a23ff4b4667f95" prot="public" virt="non-virtual"><scope>CI_DB_mysqli_driver</scope><name>_truncate</name></member>
+      <member refid="class_c_i___d_b__mysqli__driver_1ae869ae2275175c5ffa22816a02099d96" prot="public" virt="non-virtual"><scope>CI_DB_mysqli_driver</scope><name>_update</name></member>
+      <member refid="class_c_i___d_b__mysqli__driver_1acdcbd5642090362dfe49120a222670b9" prot="public" virt="non-virtual"><scope>CI_DB_mysqli_driver</scope><name>_update_batch</name></member>
+      <member refid="class_c_i___d_b__mysqli__driver_1ac997a462bb342f97f414910f0e033fb6" prot="public" virt="non-virtual"><scope>CI_DB_mysqli_driver</scope><name>_version</name></member>
+      <member refid="class_c_i___d_b__mysqli__driver_1a77248aaad33eb132c04cc4aa3f4bc8cb" prot="public" virt="non-virtual"><scope>CI_DB_mysqli_driver</scope><name>affected_rows</name></member>
+      <member refid="class_c_i___d_b__mysqli__driver_1a66111c61856499b091af32502978d4fc" prot="public" virt="non-virtual"><scope>CI_DB_mysqli_driver</scope><name>count_all</name></member>
+      <member refid="class_c_i___d_b__mysqli__driver_1a6aa545dcb7768f0b62d37cdcf7f09adc" prot="public" virt="non-virtual"><scope>CI_DB_mysqli_driver</scope><name>db_connect</name></member>
+      <member refid="class_c_i___d_b__mysqli__driver_1a0f69e662bd02de5bcf98647068e7c653" prot="public" virt="non-virtual"><scope>CI_DB_mysqli_driver</scope><name>db_pconnect</name></member>
+      <member refid="class_c_i___d_b__mysqli__driver_1af0c7f2602586ea2050b19fb36baefb24" prot="public" virt="non-virtual"><scope>CI_DB_mysqli_driver</scope><name>db_select</name></member>
+      <member refid="class_c_i___d_b__mysqli__driver_1aaba16891c8c93600a87075800cc5b72b" prot="public" virt="non-virtual"><scope>CI_DB_mysqli_driver</scope><name>escape_str</name></member>
+      <member refid="class_c_i___d_b__mysqli__driver_1a933f2cde8dc7f87875e257d0a4902e99" prot="public" virt="non-virtual"><scope>CI_DB_mysqli_driver</scope><name>insert_id</name></member>
+      <member refid="class_c_i___d_b__mysqli__driver_1a57c19c642ab3023e28d10c50f86ff0a8" prot="public" virt="non-virtual"><scope>CI_DB_mysqli_driver</scope><name>reconnect</name></member>
+      <member refid="class_c_i___d_b__mysqli__driver_1a90e153cf190d273336d77cce930587e1" prot="public" virt="non-virtual"><scope>CI_DB_mysqli_driver</scope><name>trans_begin</name></member>
+      <member refid="class_c_i___d_b__mysqli__driver_1af4fbdcdace4aa94a139b64877601fe9b" prot="public" virt="non-virtual"><scope>CI_DB_mysqli_driver</scope><name>trans_commit</name></member>
+      <member refid="class_c_i___d_b__mysqli__driver_1a53f76d4dfcd6ac04fb653982442aeef8" prot="public" virt="non-virtual"><scope>CI_DB_mysqli_driver</scope><name>trans_rollback</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

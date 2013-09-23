@@ -1,0 +1,138 @@
+\hypertarget{class_c_i___hooks}{\section{C\-I\-\_\-\-Hooks Class Reference}
+\label{class_c_i___hooks}\index{C\-I\-\_\-\-Hooks@{C\-I\-\_\-\-Hooks}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_c_i___hooks_a095c5d389db211932136b53f25f39685}{\-\_\-\-\_\-construct} ()
+\item 
+\hyperlink{class_c_i___hooks_aa4239198c895a9c8c1ea86753ed49095}{\-\_\-initialize} ()
+\item 
+\hyperlink{class_c_i___hooks_a0bf8e0fb33a2ccf6e11b16d64c856d77}{\-\_\-call\-\_\-hook} (\$which= '')
+\item 
+\hyperlink{class_c_i___hooks_a2cd07b3fcfaf153a37f164d3fbc7c3d9}{\-\_\-run\-\_\-hook} (\$data)
+\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_c_i___hooks_a8d376199cc641e3e7af6e1a0d5c736d9}{\$enabled} = F\-A\-L\-S\-E
+\item 
+\hyperlink{class_c_i___hooks_a05aec88c3516c6db5da524fbcc673aff}{\$hooks} = array()
+\item 
+\hyperlink{class_c_i___hooks_a716cd4dd6525620af7e3f514582b1438}{\$in\-\_\-progress} = F\-A\-L\-S\-E
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 29 of file Hooks.\-php.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_c_i___hooks_a095c5d389db211932136b53f25f39685}{\index{C\-I\-\_\-\-Hooks@{C\-I\-\_\-\-Hooks}!\-\_\-\-\_\-construct@{\-\_\-\-\_\-construct}}
+\index{\-\_\-\-\_\-construct@{\-\_\-\-\_\-construct}!CI_Hooks@{C\-I\-\_\-\-Hooks}}
+\subsubsection[{\-\_\-\-\_\-construct}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-\-\_\-construct (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___hooks_a095c5d389db211932136b53f25f39685}
+Constructor 
+
+Definition at line 54 of file Hooks.\-php.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_c_i___hooks_a0bf8e0fb33a2ccf6e11b16d64c856d77}{\index{C\-I\-\_\-\-Hooks@{C\-I\-\_\-\-Hooks}!\-\_\-call\-\_\-hook@{\-\_\-call\-\_\-hook}}
+\index{\-\_\-call\-\_\-hook@{\-\_\-call\-\_\-hook}!CI_Hooks@{C\-I\-\_\-\-Hooks}}
+\subsubsection[{\-\_\-call\-\_\-hook}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-call\-\_\-hook (
+\begin{DoxyParamCaption}
+\item[{}]{\$which = {\ttfamily ''}}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___hooks_a0bf8e0fb33a2ccf6e11b16d64c856d77}
+Call Hook
+
+Calls a particular hook
+
+private 
+\begin{DoxyParams}{Parameters}
+{\em string} & the hook name \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+
+
+Definition at line 113 of file Hooks.\-php.
+
+\hypertarget{class_c_i___hooks_aa4239198c895a9c8c1ea86753ed49095}{\index{C\-I\-\_\-\-Hooks@{C\-I\-\_\-\-Hooks}!\-\_\-initialize@{\-\_\-initialize}}
+\index{\-\_\-initialize@{\-\_\-initialize}!CI_Hooks@{C\-I\-\_\-\-Hooks}}
+\subsubsection[{\-\_\-initialize}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-initialize (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___hooks_aa4239198c895a9c8c1ea86753ed49095}
+Initialize the Hooks Preferences
+
+private \begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 68 of file Hooks.\-php.
+
+\hypertarget{class_c_i___hooks_a2cd07b3fcfaf153a37f164d3fbc7c3d9}{\index{C\-I\-\_\-\-Hooks@{C\-I\-\_\-\-Hooks}!\-\_\-run\-\_\-hook@{\-\_\-run\-\_\-hook}}
+\index{\-\_\-run\-\_\-hook@{\-\_\-run\-\_\-hook}!CI_Hooks@{C\-I\-\_\-\-Hooks}}
+\subsubsection[{\-\_\-run\-\_\-hook}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-run\-\_\-hook (
+\begin{DoxyParamCaption}
+\item[{}]{\$data}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___hooks_a2cd07b3fcfaf153a37f164d3fbc7c3d9}
+Run Hook
+
+Runs a particular hook
+
+private 
+\begin{DoxyParams}{Parameters}
+{\em array} & the hook details \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 146 of file Hooks.\-php.
+
+
+
+\subsection{Field Documentation}
+\hypertarget{class_c_i___hooks_a8d376199cc641e3e7af6e1a0d5c736d9}{\index{C\-I\-\_\-\-Hooks@{C\-I\-\_\-\-Hooks}!\$enabled@{\$enabled}}
+\index{\$enabled@{\$enabled}!CI_Hooks@{C\-I\-\_\-\-Hooks}}
+\subsubsection[{\$enabled}]{\setlength{\rightskip}{0pt plus 5cm}\$enabled = F\-A\-L\-S\-E}}\label{class_c_i___hooks_a8d376199cc641e3e7af6e1a0d5c736d9}
+
+
+Definition at line 36 of file Hooks.\-php.
+
+\hypertarget{class_c_i___hooks_a05aec88c3516c6db5da524fbcc673aff}{\index{C\-I\-\_\-\-Hooks@{C\-I\-\_\-\-Hooks}!\$hooks@{\$hooks}}
+\index{\$hooks@{\$hooks}!CI_Hooks@{C\-I\-\_\-\-Hooks}}
+\subsubsection[{\$hooks}]{\setlength{\rightskip}{0pt plus 5cm}\$hooks = array()}}\label{class_c_i___hooks_a05aec88c3516c6db5da524fbcc673aff}
+
+
+Definition at line 42 of file Hooks.\-php.
+
+\hypertarget{class_c_i___hooks_a716cd4dd6525620af7e3f514582b1438}{\index{C\-I\-\_\-\-Hooks@{C\-I\-\_\-\-Hooks}!\$in\-\_\-progress@{\$in\-\_\-progress}}
+\index{\$in\-\_\-progress@{\$in\-\_\-progress}!CI_Hooks@{C\-I\-\_\-\-Hooks}}
+\subsubsection[{\$in\-\_\-progress}]{\setlength{\rightskip}{0pt plus 5cm}\$in\-\_\-progress = F\-A\-L\-S\-E}}\label{class_c_i___hooks_a716cd4dd6525620af7e3f514582b1438}
+
+
+Definition at line 48 of file Hooks.\-php.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+system/core/\hyperlink{system_2core_2hooks_8php}{Hooks.\-php}\end{DoxyCompactItemize}

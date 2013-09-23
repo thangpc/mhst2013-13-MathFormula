@@ -1,0 +1,112 @@
+\hypertarget{class_c_i___benchmark}{\section{C\-I\-\_\-\-Benchmark Class Reference}
+\label{class_c_i___benchmark}\index{C\-I\-\_\-\-Benchmark@{C\-I\-\_\-\-Benchmark}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_c_i___benchmark_a18c82f5dd0118d3e7c57bcd86dc32e9e}{mark} (\$name)
+\item 
+\hyperlink{class_c_i___benchmark_a7d678e741a93eb8e3ba1aa284eaf92cc}{elapsed\-\_\-time} (\$point1= '', \$point2= '', \$decimals=4)
+\item 
+\hyperlink{class_c_i___benchmark_abdb10dca75c4c15f94796af1602d5b80}{memory\-\_\-usage} ()
+\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_c_i___benchmark_aad34fbf53cda6bd8a3a9c46764d534fa}{\$marker} = array()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 30 of file Benchmark.\-php.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_c_i___benchmark_a7d678e741a93eb8e3ba1aa284eaf92cc}{\index{C\-I\-\_\-\-Benchmark@{C\-I\-\_\-\-Benchmark}!elapsed\-\_\-time@{elapsed\-\_\-time}}
+\index{elapsed\-\_\-time@{elapsed\-\_\-time}!CI_Benchmark@{C\-I\-\_\-\-Benchmark}}
+\subsubsection[{elapsed\-\_\-time}]{\setlength{\rightskip}{0pt plus 5cm}elapsed\-\_\-time (
+\begin{DoxyParamCaption}
+\item[{}]{\$point1 = {\ttfamily ''}, }
+\item[{}]{\$point2 = {\ttfamily ''}, }
+\item[{}]{\$decimals = {\ttfamily 4}}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___benchmark_a7d678e741a93eb8e3ba1aa284eaf92cc}
+Calculates the time difference between two marked points.
+
+If the first parameter is empty this function instead returns the \{elapsed\-\_\-time\} pseudo-\/variable. This permits the full system execution time to be shown in a template. The output class will swap the real value for this variable.
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & a particular marked point \\
+\hline
+{\em string} & a particular marked point \\
+\hline
+{\em integer} & the number of decimal places \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+
+
+Definition at line 72 of file Benchmark.\-php.
+
+\hypertarget{class_c_i___benchmark_a18c82f5dd0118d3e7c57bcd86dc32e9e}{\index{C\-I\-\_\-\-Benchmark@{C\-I\-\_\-\-Benchmark}!mark@{mark}}
+\index{mark@{mark}!CI_Benchmark@{C\-I\-\_\-\-Benchmark}}
+\subsubsection[{mark}]{\setlength{\rightskip}{0pt plus 5cm}mark (
+\begin{DoxyParamCaption}
+\item[{}]{\$name}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___benchmark_a18c82f5dd0118d3e7c57bcd86dc32e9e}
+Set a benchmark marker
+
+Multiple calls to this function can be made so that several execution points can be timed
+
+public 
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & name of the marker \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 51 of file Benchmark.\-php.
+
+\hypertarget{class_c_i___benchmark_abdb10dca75c4c15f94796af1602d5b80}{\index{C\-I\-\_\-\-Benchmark@{C\-I\-\_\-\-Benchmark}!memory\-\_\-usage@{memory\-\_\-usage}}
+\index{memory\-\_\-usage@{memory\-\_\-usage}!CI_Benchmark@{C\-I\-\_\-\-Benchmark}}
+\subsubsection[{memory\-\_\-usage}]{\setlength{\rightskip}{0pt plus 5cm}memory\-\_\-usage (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___benchmark_abdb10dca75c4c15f94796af1602d5b80}
+Memory Usage
+
+This function returns the \{memory\-\_\-usage\} pseudo-\/variable. This permits it to be put it anywhere in a template without the memory being calculated until the end. The output class will swap the real value for this variable.
+
+public \begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 108 of file Benchmark.\-php.
+
+
+
+\subsection{Field Documentation}
+\hypertarget{class_c_i___benchmark_aad34fbf53cda6bd8a3a9c46764d534fa}{\index{C\-I\-\_\-\-Benchmark@{C\-I\-\_\-\-Benchmark}!\$marker@{\$marker}}
+\index{\$marker@{\$marker}!CI_Benchmark@{C\-I\-\_\-\-Benchmark}}
+\subsubsection[{\$marker}]{\setlength{\rightskip}{0pt plus 5cm}\$marker = array()}}\label{class_c_i___benchmark_aad34fbf53cda6bd8a3a9c46764d534fa}
+
+
+Definition at line 37 of file Benchmark.\-php.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+system/core/\hyperlink{_benchmark_8php}{Benchmark.\-php}\end{DoxyCompactItemize}

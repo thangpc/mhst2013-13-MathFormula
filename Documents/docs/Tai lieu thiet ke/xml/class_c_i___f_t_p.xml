@@ -1,0 +1,725 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_c_i___f_t_p" kind="class" prot="public">
+    <compoundname>CI_FTP</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_c_i___f_t_p_1a8bf9ffb42ed554b203b55377d1fc9aa4" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$hostname</definition>
+        <argsstring></argsstring>
+        <name>$hostname</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Ftp.php" line="29" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Ftp.php" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___f_t_p_1a0eb82aa5f81cf845de4b36cd653c42cf" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$username</definition>
+        <argsstring></argsstring>
+        <name>$username</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Ftp.php" line="30" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Ftp.php" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___f_t_p_1a607686ef9f99ea7c42f4f3dd3dbb2b0d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$password</definition>
+        <argsstring></argsstring>
+        <name>$password</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Ftp.php" line="31" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Ftp.php" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___f_t_p_1aa0787efab4b22e8a212882f3409d4c77" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$port</definition>
+        <argsstring></argsstring>
+        <name>$port</name>
+        <initializer>= 21</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Ftp.php" line="32" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Ftp.php" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___f_t_p_1a9fb61732ea9189fa2be5574ad3576d9c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$passive</definition>
+        <argsstring></argsstring>
+        <name>$passive</name>
+        <initializer>= TRUE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Ftp.php" line="33" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Ftp.php" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___f_t_p_1a85ae3e64cd40e9564adceb010085e9dd" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$debug</definition>
+        <argsstring></argsstring>
+        <name>$debug</name>
+        <initializer>= FALSE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Ftp.php" line="34" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Ftp.php" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___f_t_p_1a16c23f1dcbfed2f2759f5e54f604106d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$conn_id</definition>
+        <argsstring></argsstring>
+        <name>$conn_id</name>
+        <initializer>= FALSE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Ftp.php" line="35" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Ftp.php" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_i___f_t_p_1af7f9493844d2d66e924e3c1df51ce616" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>($config=array())</argsstring>
+        <name>__construct</name>
+        <param>
+          <declname>$config</declname>
+          <defval>array()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor - Sets Preferences</para><para>The constructor can be passed an array of config values </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Ftp.php" line="43" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Ftp.php" bodystart="43" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___f_t_p_1a481385e36d920f5a5005ace05c6cd016" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>initialize</definition>
+        <argsstring>($config=array())</argsstring>
+        <name>initialize</name>
+        <param>
+          <declname>$config</declname>
+          <defval>array()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Initialize preferences</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Ftp.php" line="62" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Ftp.php" bodystart="62" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___f_t_p_1ab2827759611aaaf0c59e69661122c534" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>connect</definition>
+        <argsstring>($config=array())</argsstring>
+        <name>connect</name>
+        <param>
+          <declname>$config</declname>
+          <defval>array()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>FTP Connect</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the connection values </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Ftp.php" line="85" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Ftp.php" bodystart="85" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___f_t_p_1a95562e7b8a41561f4b0b525d9c7fe701" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_login</definition>
+        <argsstring>()</argsstring>
+        <name>_login</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>FTP Login</para><para>private <simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Ftp.php" line="127" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Ftp.php" bodystart="127" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___f_t_p_1af20c08e4b61fe028e032b388cd73936a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_is_conn</definition>
+        <argsstring>()</argsstring>
+        <name>_is_conn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Validates the connection ID</para><para>private <simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Ftp.php" line="140" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Ftp.php" bodystart="140" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___f_t_p_1accbaa941bfade0d8145ad367e63bbb7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>changedir</definition>
+        <argsstring>($path= &apos;&apos;, $supress_debug=FALSE)</argsstring>
+        <name>changedir</name>
+        <param>
+          <declname>$path</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$supress_debug</declname>
+          <defval>FALSE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Change directory</para><para>The second parameter lets us momentarily turn off debugging so that this function can be used to test for the existence of a folder without throwing an error. There&apos;s no FTP equivalent to is_dir() so we do it by trying to change to a particular directory. Internally, this parameter is only used by the &quot;mirror&quot; function below.</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bool</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Ftp.php" line="170" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Ftp.php" bodystart="170" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___f_t_p_1a8c8a3fc1ed28d46d3ea507e117a15e5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>mkdir</definition>
+        <argsstring>($path= &apos;&apos;, $permissions=NULL)</argsstring>
+        <name>mkdir</name>
+        <param>
+          <declname>$path</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$permissions</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a directory</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Ftp.php" line="200" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Ftp.php" bodystart="200" bodyend="225"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___f_t_p_1a4f3394c26215f6abd2b92ad311684e1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>upload</definition>
+        <argsstring>($locpath, $rempath, $mode= &apos;auto&apos;, $permissions=NULL)</argsstring>
+        <name>upload</name>
+        <param>
+          <declname>$locpath</declname>
+        </param>
+        <param>
+          <declname>$rempath</declname>
+        </param>
+        <param>
+          <declname>$mode</declname>
+          <defval>&apos;auto&apos;</defval>
+        </param>
+        <param>
+          <declname>$permissions</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Upload a file to the server</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Ftp.php" line="238" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Ftp.php" bodystart="238" bodyend="279"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___f_t_p_1af51fa642fa0d4ae454c8c1850d282f65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>download</definition>
+        <argsstring>($rempath, $locpath, $mode= &apos;auto&apos;)</argsstring>
+        <name>download</name>
+        <param>
+          <declname>$rempath</declname>
+        </param>
+        <param>
+          <declname>$locpath</declname>
+        </param>
+        <param>
+          <declname>$mode</declname>
+          <defval>&apos;auto&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Download a file from a remote server to the local server</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Ftp.php" line="292" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Ftp.php" bodystart="292" bodyend="321"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___f_t_p_1aa670f7340bb15f61d481f4b3c64bd9dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>rename</definition>
+        <argsstring>($old_file, $new_file, $move=FALSE)</argsstring>
+        <name>rename</name>
+        <param>
+          <declname>$old_file</declname>
+        </param>
+        <param>
+          <declname>$new_file</declname>
+        </param>
+        <param>
+          <declname>$move</declname>
+          <defval>FALSE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rename (or move) a file</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bool</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Ftp.php" line="334" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Ftp.php" bodystart="334" bodyend="355"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___f_t_p_1acb1443339c3058c83b79f0f503630920" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>move</definition>
+        <argsstring>($old_file, $new_file)</argsstring>
+        <name>move</name>
+        <param>
+          <declname>$old_file</declname>
+        </param>
+        <param>
+          <declname>$new_file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Move a file</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Ftp.php" line="367" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Ftp.php" bodystart="367" bodyend="370"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___f_t_p_1aad793fb503643d98b58426421718e18a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>delete_file</definition>
+        <argsstring>($filepath)</argsstring>
+        <name>delete_file</name>
+        <param>
+          <declname>$filepath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rename (or move) a file</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Ftp.php" line="381" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Ftp.php" bodystart="381" bodyend="400"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___f_t_p_1af09b3ab08984b145506dcff4f75a051c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>delete_dir</definition>
+        <argsstring>($filepath)</argsstring>
+        <name>delete_dir</name>
+        <param>
+          <declname>$filepath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Delete a folder and recursively delete everything (including sub-folders) containted within it.</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Ftp.php" line="412" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Ftp.php" bodystart="412" bodyend="449"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___f_t_p_1a9af83eefaf53c7362e7108d1f82bf1ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>chmod</definition>
+        <argsstring>($path, $perm)</argsstring>
+        <name>chmod</name>
+        <param>
+          <declname>$path</declname>
+        </param>
+        <param>
+          <declname>$perm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set file permissions</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the file path </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the permissions </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Ftp.php" line="461" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Ftp.php" bodystart="461" bodyend="490"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___f_t_p_1a4a8692d7ea935946366a916a3013652e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>list_files</definition>
+        <argsstring>($path= &apos;.&apos;)</argsstring>
+        <name>list_files</name>
+        <param>
+          <declname>$path</declname>
+          <defval>&apos;.&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>FTP List files in the specified directory</para><para>public <simplesect kind="return"><para>array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Ftp.php" line="500" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Ftp.php" bodystart="500" bodyend="508"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___f_t_p_1aea2de30bbdf050cb607bbc5a36772bf3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>mirror</definition>
+        <argsstring>($locpath, $rempath)</argsstring>
+        <name>mirror</name>
+        <param>
+          <declname>$locpath</declname>
+        </param>
+        <param>
+          <declname>$rempath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Read a directory and recreate it remotely</para><para>This function recursively reads a folder and everything it contains (including sub-folders) and creates a mirror via FTP based on it. Whatever the directory structure of the original file path will be recreated on the server.</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>path to source with trailing slash </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>path to destination - include the base folder with trailing slash </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Ftp.php" line="524" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Ftp.php" bodystart="524" bodyend="564"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___f_t_p_1ab06ef33f96f03cafbb8f2bb6d695ef1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_getext</definition>
+        <argsstring>($filename)</argsstring>
+        <name>_getext</name>
+        <param>
+          <declname>$filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Extract the file extension</para><para>private <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Ftp.php" line="576" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Ftp.php" bodystart="576" bodyend="585"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___f_t_p_1aacd9d6628615078d8df9aab1fe70e391" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_settype</definition>
+        <argsstring>($ext)</argsstring>
+        <name>_settype</name>
+        <param>
+          <declname>$ext</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the upload type</para><para>private <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Ftp.php" line="597" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Ftp.php" bodystart="597" bodyend="617"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___f_t_p_1aa69c8bf1f1dcf4e72552efff1fe3e87e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>close</definition>
+        <argsstring>()</argsstring>
+        <name>close</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Close the connection</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>path to source </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>path to destination </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Ftp.php" line="629" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Ftp.php" bodystart="629" bodyend="637"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___f_t_p_1ac618e7d56614851d2c54aa096e1bcace" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_error</definition>
+        <argsstring>($line)</argsstring>
+        <name>_error</name>
+        <param>
+          <declname>$line</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Display error message</para><para>private <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Ftp.php" line="648" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Ftp.php" bodystart="648" bodyend="653"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Ftp.php" line="27" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Ftp.php" bodystart="27" bodyend="656"/>
+    <listofallmembers>
+      <member refid="class_c_i___f_t_p_1a16c23f1dcbfed2f2759f5e54f604106d" prot="public" virt="non-virtual"><scope>CI_FTP</scope><name>$conn_id</name></member>
+      <member refid="class_c_i___f_t_p_1a85ae3e64cd40e9564adceb010085e9dd" prot="public" virt="non-virtual"><scope>CI_FTP</scope><name>$debug</name></member>
+      <member refid="class_c_i___f_t_p_1a8bf9ffb42ed554b203b55377d1fc9aa4" prot="public" virt="non-virtual"><scope>CI_FTP</scope><name>$hostname</name></member>
+      <member refid="class_c_i___f_t_p_1a9fb61732ea9189fa2be5574ad3576d9c" prot="public" virt="non-virtual"><scope>CI_FTP</scope><name>$passive</name></member>
+      <member refid="class_c_i___f_t_p_1a607686ef9f99ea7c42f4f3dd3dbb2b0d" prot="public" virt="non-virtual"><scope>CI_FTP</scope><name>$password</name></member>
+      <member refid="class_c_i___f_t_p_1aa0787efab4b22e8a212882f3409d4c77" prot="public" virt="non-virtual"><scope>CI_FTP</scope><name>$port</name></member>
+      <member refid="class_c_i___f_t_p_1a0eb82aa5f81cf845de4b36cd653c42cf" prot="public" virt="non-virtual"><scope>CI_FTP</scope><name>$username</name></member>
+      <member refid="class_c_i___f_t_p_1af7f9493844d2d66e924e3c1df51ce616" prot="public" virt="non-virtual"><scope>CI_FTP</scope><name>__construct</name></member>
+      <member refid="class_c_i___f_t_p_1ac618e7d56614851d2c54aa096e1bcace" prot="public" virt="non-virtual"><scope>CI_FTP</scope><name>_error</name></member>
+      <member refid="class_c_i___f_t_p_1ab06ef33f96f03cafbb8f2bb6d695ef1f" prot="public" virt="non-virtual"><scope>CI_FTP</scope><name>_getext</name></member>
+      <member refid="class_c_i___f_t_p_1af20c08e4b61fe028e032b388cd73936a" prot="public" virt="non-virtual"><scope>CI_FTP</scope><name>_is_conn</name></member>
+      <member refid="class_c_i___f_t_p_1a95562e7b8a41561f4b0b525d9c7fe701" prot="public" virt="non-virtual"><scope>CI_FTP</scope><name>_login</name></member>
+      <member refid="class_c_i___f_t_p_1aacd9d6628615078d8df9aab1fe70e391" prot="public" virt="non-virtual"><scope>CI_FTP</scope><name>_settype</name></member>
+      <member refid="class_c_i___f_t_p_1accbaa941bfade0d8145ad367e63bbb7f" prot="public" virt="non-virtual"><scope>CI_FTP</scope><name>changedir</name></member>
+      <member refid="class_c_i___f_t_p_1a9af83eefaf53c7362e7108d1f82bf1ab" prot="public" virt="non-virtual"><scope>CI_FTP</scope><name>chmod</name></member>
+      <member refid="class_c_i___f_t_p_1aa69c8bf1f1dcf4e72552efff1fe3e87e" prot="public" virt="non-virtual"><scope>CI_FTP</scope><name>close</name></member>
+      <member refid="class_c_i___f_t_p_1ab2827759611aaaf0c59e69661122c534" prot="public" virt="non-virtual"><scope>CI_FTP</scope><name>connect</name></member>
+      <member refid="class_c_i___f_t_p_1af09b3ab08984b145506dcff4f75a051c" prot="public" virt="non-virtual"><scope>CI_FTP</scope><name>delete_dir</name></member>
+      <member refid="class_c_i___f_t_p_1aad793fb503643d98b58426421718e18a" prot="public" virt="non-virtual"><scope>CI_FTP</scope><name>delete_file</name></member>
+      <member refid="class_c_i___f_t_p_1af51fa642fa0d4ae454c8c1850d282f65" prot="public" virt="non-virtual"><scope>CI_FTP</scope><name>download</name></member>
+      <member refid="class_c_i___f_t_p_1a481385e36d920f5a5005ace05c6cd016" prot="public" virt="non-virtual"><scope>CI_FTP</scope><name>initialize</name></member>
+      <member refid="class_c_i___f_t_p_1a4a8692d7ea935946366a916a3013652e" prot="public" virt="non-virtual"><scope>CI_FTP</scope><name>list_files</name></member>
+      <member refid="class_c_i___f_t_p_1aea2de30bbdf050cb607bbc5a36772bf3" prot="public" virt="non-virtual"><scope>CI_FTP</scope><name>mirror</name></member>
+      <member refid="class_c_i___f_t_p_1a8c8a3fc1ed28d46d3ea507e117a15e5a" prot="public" virt="non-virtual"><scope>CI_FTP</scope><name>mkdir</name></member>
+      <member refid="class_c_i___f_t_p_1acb1443339c3058c83b79f0f503630920" prot="public" virt="non-virtual"><scope>CI_FTP</scope><name>move</name></member>
+      <member refid="class_c_i___f_t_p_1aa670f7340bb15f61d481f4b3c64bd9dc" prot="public" virt="non-virtual"><scope>CI_FTP</scope><name>rename</name></member>
+      <member refid="class_c_i___f_t_p_1a4f3394c26215f6abd2b92ad311684e1f" prot="public" virt="non-virtual"><scope>CI_FTP</scope><name>upload</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

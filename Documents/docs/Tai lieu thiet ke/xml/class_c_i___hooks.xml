@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_c_i___hooks" kind="class" prot="public">
+    <compoundname>CI_Hooks</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_c_i___hooks_1a8d376199cc641e3e7af6e1a0d5c736d9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$enabled</definition>
+        <argsstring></argsstring>
+        <name>$enabled</name>
+        <initializer>= FALSE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Hooks.php" line="36" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Hooks.php" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___hooks_1a05aec88c3516c6db5da524fbcc673aff" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$hooks</definition>
+        <argsstring></argsstring>
+        <name>$hooks</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Hooks.php" line="42" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Hooks.php" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___hooks_1a716cd4dd6525620af7e3f514582b1438" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$in_progress</definition>
+        <argsstring></argsstring>
+        <name>$in_progress</name>
+        <initializer>= FALSE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Hooks.php" line="48" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Hooks.php" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_i___hooks_1a095c5d389db211932136b53f25f39685" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>()</argsstring>
+        <name>__construct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Hooks.php" line="54" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Hooks.php" bodystart="54" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___hooks_1aa4239198c895a9c8c1ea86753ed49095" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_initialize</definition>
+        <argsstring>()</argsstring>
+        <name>_initialize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Initialize the Hooks Preferences</para><para>private <simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Hooks.php" line="68" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Hooks.php" bodystart="68" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___hooks_1a0bf8e0fb33a2ccf6e11b16d64c856d77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_call_hook</definition>
+        <argsstring>($which= &apos;&apos;)</argsstring>
+        <name>_call_hook</name>
+        <param>
+          <declname>$which</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Call Hook</para><para>Calls a particular hook</para><para>private <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the hook name </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Hooks.php" line="113" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Hooks.php" bodystart="113" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___hooks_1a2cd07b3fcfaf153a37f164d3fbc7c3d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_run_hook</definition>
+        <argsstring>($data)</argsstring>
+        <name>_run_hook</name>
+        <param>
+          <declname>$data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Run Hook</para><para>Runs a particular hook</para><para>private <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the hook details </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Hooks.php" line="146" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Hooks.php" bodystart="146" bodyend="241"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Hooks.php" line="29" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Hooks.php" bodystart="29" bodyend="243"/>
+    <listofallmembers>
+      <member refid="class_c_i___hooks_1a8d376199cc641e3e7af6e1a0d5c736d9" prot="public" virt="non-virtual"><scope>CI_Hooks</scope><name>$enabled</name></member>
+      <member refid="class_c_i___hooks_1a05aec88c3516c6db5da524fbcc673aff" prot="public" virt="non-virtual"><scope>CI_Hooks</scope><name>$hooks</name></member>
+      <member refid="class_c_i___hooks_1a716cd4dd6525620af7e3f514582b1438" prot="public" virt="non-virtual"><scope>CI_Hooks</scope><name>$in_progress</name></member>
+      <member refid="class_c_i___hooks_1a095c5d389db211932136b53f25f39685" prot="public" virt="non-virtual"><scope>CI_Hooks</scope><name>__construct</name></member>
+      <member refid="class_c_i___hooks_1a0bf8e0fb33a2ccf6e11b16d64c856d77" prot="public" virt="non-virtual"><scope>CI_Hooks</scope><name>_call_hook</name></member>
+      <member refid="class_c_i___hooks_1aa4239198c895a9c8c1ea86753ed49095" prot="public" virt="non-virtual"><scope>CI_Hooks</scope><name>_initialize</name></member>
+      <member refid="class_c_i___hooks_1a2cd07b3fcfaf153a37f164d3fbc7c3d9" prot="public" virt="non-virtual"><scope>CI_Hooks</scope><name>_run_hook</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

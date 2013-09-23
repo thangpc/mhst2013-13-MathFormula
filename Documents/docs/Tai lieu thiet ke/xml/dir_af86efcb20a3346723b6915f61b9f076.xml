@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_af86efcb20a3346723b6915f61b9f076" kind="dir">
+    <compoundname>system/database/drivers/mysqli</compoundname>
+    <innerfile refid="mysqli__driver_8php">mysqli_driver.php</innerfile>
+    <innerfile refid="mysqli__forge_8php">mysqli_forge.php</innerfile>
+    <innerfile refid="mysqli__result_8php">mysqli_result.php</innerfile>
+    <innerfile refid="mysqli__utility_8php">mysqli_utility.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/mysqli/"/>
+  </compounddef>
+</doxygen>

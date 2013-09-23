@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_8a904509c1c6748ca54ae30b2ddf9569" kind="dir">
+    <compoundname>application/views/account</compoundname>
+    <innerfile refid="change_info_8php">changeInfo.php</innerfile>
+    <innerfile refid="change_pass_8php">changePass.php</innerfile>
+    <innerfile refid="col__left_8php">col_left.php</innerfile>
+    <innerfile refid="info_8php">info.php</innerfile>
+    <innerfile refid="account_2login_8php">login.php</innerfile>
+    <innerfile refid="signup_8php">signup.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/views/account/"/>
+  </compounddef>
+</doxygen>

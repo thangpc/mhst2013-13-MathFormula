@@ -1,0 +1,351 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_c_i___exceptions" kind="class" prot="public">
+    <compoundname>CI_Exceptions</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_c_i___exceptions_1aa698a3e72116e8e778be0e95d908ee30" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$action</definition>
+        <argsstring></argsstring>
+        <name>$action</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Exceptions.php" line="28" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Exceptions.php" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___exceptions_1a85759894d444d7191251479d87eaf8c6" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$severity</definition>
+        <argsstring></argsstring>
+        <name>$severity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Exceptions.php" line="29" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Exceptions.php" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___exceptions_1abf17cb2dba2ed17cb28aa5f37deb5293" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$message</definition>
+        <argsstring></argsstring>
+        <name>$message</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Exceptions.php" line="30" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Exceptions.php" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___exceptions_1a0722441477f957078ee2437054556cbc" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$filename</definition>
+        <argsstring></argsstring>
+        <name>$filename</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Exceptions.php" line="31" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Exceptions.php" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___exceptions_1a52f469b0182d9abac2d0f20548680c9c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$line</definition>
+        <argsstring></argsstring>
+        <name>$line</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Exceptions.php" line="32" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Exceptions.php" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___exceptions_1abb6b6587dbaf0238bf26829c8df05d59" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$ob_level</definition>
+        <argsstring></argsstring>
+        <name>$ob_level</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Exceptions.php" line="40" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Exceptions.php" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___exceptions_1a1035dc0448354cc79f8f9e1ca8dfd0cb" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$levels</definition>
+        <argsstring></argsstring>
+        <name>$levels</name>
+        <initializer>= array(
+						E_ERROR				=&gt;	&apos;Error&apos;,
+						E_WARNING			=&gt;	&apos;Warning&apos;,
+						E_PARSE				=&gt;	&apos;Parsing Error&apos;,
+						E_NOTICE			=&gt;	&apos;Notice&apos;,
+						E_CORE_ERROR		=&gt;	&apos;Core Error&apos;,
+						E_CORE_WARNING		=&gt;	&apos;Core Warning&apos;,
+						E_COMPILE_ERROR		=&gt;	&apos;Compile Error&apos;,
+						E_COMPILE_WARNING	=&gt;	&apos;Compile Warning&apos;,
+						E_USER_ERROR		=&gt;	&apos;<ref refid="class_user" kindref="compound">User</ref> Error&apos;,
+						E_USER_WARNING		=&gt;	&apos;<ref refid="class_user" kindref="compound">User</ref> Warning&apos;,
+						E_USER_NOTICE		=&gt;	&apos;<ref refid="class_user" kindref="compound">User</ref> Notice&apos;,
+						E_STRICT			=&gt;	&apos;Runtime Notice&apos;
+					)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Exceptions.php" line="48" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Exceptions.php" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_i___exceptions_1a095c5d389db211932136b53f25f39685" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>()</argsstring>
+        <name>__construct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Exceptions.php" line="67" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Exceptions.php" bodystart="67" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___exceptions_1a477bd3360509887aeb6e0a56bcdcad2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>log_exception</definition>
+        <argsstring>($severity, $message, $filepath, $line)</argsstring>
+        <name>log_exception</name>
+        <param>
+          <declname>$severity</declname>
+        </param>
+        <param>
+          <declname>$message</declname>
+        </param>
+        <param>
+          <declname>$filepath</declname>
+        </param>
+        <param>
+          <declname>$line</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Exception Logger</para><para>This function logs PHP generated error messages</para><para>private <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the error severity </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the error string </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the error filepath </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the error line number </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Exceptions.php" line="87" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Exceptions.php" bodystart="87" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___exceptions_1a7ec82c1b0d3bbeb9338f236a1755a2a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>show_404</definition>
+        <argsstring>($page= &apos;&apos;, $log_error=TRUE)</argsstring>
+        <name>show_404</name>
+        <param>
+          <declname>$page</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$log_error</declname>
+          <defval>TRUE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>404 Page Not Found Handler</para><para>private <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the page </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bool</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>log error yes/no </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Exceptions.php" line="104" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Exceptions.php" bodystart="104" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___exceptions_1af68ad4102f7a42f9aaf68c40afe6d02c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>show_error</definition>
+        <argsstring>($heading, $message, $template= &apos;error_general&apos;, $status_code=500)</argsstring>
+        <name>show_error</name>
+        <param>
+          <declname>$heading</declname>
+        </param>
+        <param>
+          <declname>$message</declname>
+        </param>
+        <param>
+          <declname>$template</declname>
+          <defval>&apos;error_general&apos;</defval>
+        </param>
+        <param>
+          <declname>$status_code</declname>
+          <defval>500</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>General Error Page</para><para>This function takes an error message as input (either as a string or an array) and displays it using the specified template.</para><para>private <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the heading </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the message </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the template name </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>int</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the status code </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Exceptions.php" line="135" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Exceptions.php" bodystart="135" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___exceptions_1a7962c30cacf1341dac1c44d8ab57cebe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>show_php_error</definition>
+        <argsstring>($severity, $message, $filepath, $line)</argsstring>
+        <name>show_php_error</name>
+        <param>
+          <declname>$severity</declname>
+        </param>
+        <param>
+          <declname>$message</declname>
+        </param>
+        <param>
+          <declname>$filepath</declname>
+        </param>
+        <param>
+          <declname>$line</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Native PHP error handler</para><para>private <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the error severity </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the error string </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the error filepath </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the error line number </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Exceptions.php" line="164" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Exceptions.php" bodystart="164" bodyend="186"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Exceptions.php" line="27" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Exceptions.php" bodystart="27" bodyend="189"/>
+    <listofallmembers>
+      <member refid="class_c_i___exceptions_1aa698a3e72116e8e778be0e95d908ee30" prot="public" virt="non-virtual"><scope>CI_Exceptions</scope><name>$action</name></member>
+      <member refid="class_c_i___exceptions_1a0722441477f957078ee2437054556cbc" prot="public" virt="non-virtual"><scope>CI_Exceptions</scope><name>$filename</name></member>
+      <member refid="class_c_i___exceptions_1a1035dc0448354cc79f8f9e1ca8dfd0cb" prot="public" virt="non-virtual"><scope>CI_Exceptions</scope><name>$levels</name></member>
+      <member refid="class_c_i___exceptions_1a52f469b0182d9abac2d0f20548680c9c" prot="public" virt="non-virtual"><scope>CI_Exceptions</scope><name>$line</name></member>
+      <member refid="class_c_i___exceptions_1abf17cb2dba2ed17cb28aa5f37deb5293" prot="public" virt="non-virtual"><scope>CI_Exceptions</scope><name>$message</name></member>
+      <member refid="class_c_i___exceptions_1abb6b6587dbaf0238bf26829c8df05d59" prot="public" virt="non-virtual"><scope>CI_Exceptions</scope><name>$ob_level</name></member>
+      <member refid="class_c_i___exceptions_1a85759894d444d7191251479d87eaf8c6" prot="public" virt="non-virtual"><scope>CI_Exceptions</scope><name>$severity</name></member>
+      <member refid="class_c_i___exceptions_1a095c5d389db211932136b53f25f39685" prot="public" virt="non-virtual"><scope>CI_Exceptions</scope><name>__construct</name></member>
+      <member refid="class_c_i___exceptions_1a477bd3360509887aeb6e0a56bcdcad2a" prot="public" virt="non-virtual"><scope>CI_Exceptions</scope><name>log_exception</name></member>
+      <member refid="class_c_i___exceptions_1a7ec82c1b0d3bbeb9338f236a1755a2a5" prot="public" virt="non-virtual"><scope>CI_Exceptions</scope><name>show_404</name></member>
+      <member refid="class_c_i___exceptions_1af68ad4102f7a42f9aaf68c40afe6d02c" prot="public" virt="non-virtual"><scope>CI_Exceptions</scope><name>show_error</name></member>
+      <member refid="class_c_i___exceptions_1a7962c30cacf1341dac1c44d8ab57cebe" prot="public" virt="non-virtual"><scope>CI_Exceptions</scope><name>show_php_error</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

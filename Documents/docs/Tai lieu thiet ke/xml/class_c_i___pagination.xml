@@ -1,0 +1,565 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_c_i___pagination" kind="class" prot="public">
+    <compoundname>CI_Pagination</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_c_i___pagination_1a6886427c9c643f707fcb35c018049bc7" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$base_url</definition>
+        <argsstring></argsstring>
+        <name>$base_url</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" line="29" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___pagination_1a09e8cf95b9d29955a0bfabca9b420edc" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$prefix</definition>
+        <argsstring></argsstring>
+        <name>$prefix</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" line="30" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___pagination_1a8a4ee1ac7ecdf8ef590598ad43b23e0a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$suffix</definition>
+        <argsstring></argsstring>
+        <name>$suffix</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" line="31" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___pagination_1af2c641e024ee7eeec68ae26c08ca2cf2" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$total_rows</definition>
+        <argsstring></argsstring>
+        <name>$total_rows</name>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" line="33" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___pagination_1abece0f3099457a037f8f339811dc6e20" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$per_page</definition>
+        <argsstring></argsstring>
+        <name>$per_page</name>
+        <initializer>= 10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" line="34" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___pagination_1aa04c33b46d7b63638408ac57ca3ee9e9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$num_links</definition>
+        <argsstring></argsstring>
+        <name>$num_links</name>
+        <initializer>=  2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" line="35" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___pagination_1a0114271d3cbbe963a73efe317e3512c7" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$cur_page</definition>
+        <argsstring></argsstring>
+        <name>$cur_page</name>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" line="36" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___pagination_1ac19b7d290389a9188ca6466f85d14a85" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$use_page_numbers</definition>
+        <argsstring></argsstring>
+        <name>$use_page_numbers</name>
+        <initializer>= FALSE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" line="37" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___pagination_1a0236d9345031b8c11db487560609f9a7" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$first_link</definition>
+        <argsstring></argsstring>
+        <name>$first_link</name>
+        <initializer>= &apos;&amp;lsaquo; First&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" line="38" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___pagination_1ae3962413e69384df902aedf7484ddefe" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$next_link</definition>
+        <argsstring></argsstring>
+        <name>$next_link</name>
+        <initializer>= &apos;&amp;<ref refid="mathquill_8js_1afcd9bd0e48d31b4d384b46d471e50ab4" kindref="member">gt</ref>;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" line="39" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___pagination_1afab5c29a3da82c4dce6a491f1d257831" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$prev_link</definition>
+        <argsstring></argsstring>
+        <name>$prev_link</name>
+        <initializer>= &apos;&amp;<ref refid="mathquill_8js_1ac2b9298bcc3d72ed2a56e0ba03bc909a" kindref="member">lt</ref>;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" line="40" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___pagination_1ab10d1c6de63d2bc11a210c26e450b231" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$last_link</definition>
+        <argsstring></argsstring>
+        <name>$last_link</name>
+        <initializer>= &apos;Last &amp;rsaquo;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" line="41" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___pagination_1a79fd9718cc6c432f6919c28299584d77" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$uri_segment</definition>
+        <argsstring></argsstring>
+        <name>$uri_segment</name>
+        <initializer>= 3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" line="42" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___pagination_1a75336a53727415578f78bd3d337c8559" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$full_tag_open</definition>
+        <argsstring></argsstring>
+        <name>$full_tag_open</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" line="43" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___pagination_1ad7e8fd7ace07539860b6f0b323aacbc8" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$full_tag_close</definition>
+        <argsstring></argsstring>
+        <name>$full_tag_close</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" line="44" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___pagination_1a5e352cfb5a6e9b6f850264aca68f00e0" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$first_tag_open</definition>
+        <argsstring></argsstring>
+        <name>$first_tag_open</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" line="45" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___pagination_1a1aa5f33d3f661838fa1f8482128a19c7" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$first_tag_close</definition>
+        <argsstring></argsstring>
+        <name>$first_tag_close</name>
+        <initializer>= &apos;&amp;nbsp;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" line="46" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___pagination_1ac7e807e8227dd4528c2b315424d126db" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$last_tag_open</definition>
+        <argsstring></argsstring>
+        <name>$last_tag_open</name>
+        <initializer>= &apos;&amp;nbsp;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" line="47" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___pagination_1a8e024740710598d97da42739bd231dda" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$last_tag_close</definition>
+        <argsstring></argsstring>
+        <name>$last_tag_close</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" line="48" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___pagination_1ac7fe85e2fda76364772be52656e346b8" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$first_url</definition>
+        <argsstring></argsstring>
+        <name>$first_url</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" line="49" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___pagination_1a60f0f6e2515e166fa11657186b39345d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$cur_tag_open</definition>
+        <argsstring></argsstring>
+        <name>$cur_tag_open</name>
+        <initializer>= &apos;&amp;nbsp;&lt;strong&gt;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" line="50" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___pagination_1a8f284fc318c9b1a0d20e5aa53cdbb540" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$cur_tag_close</definition>
+        <argsstring></argsstring>
+        <name>$cur_tag_close</name>
+        <initializer>= &apos;&lt;/strong&gt;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" line="51" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___pagination_1a0345e4646ae630d4d95f98de048e4572" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$next_tag_open</definition>
+        <argsstring></argsstring>
+        <name>$next_tag_open</name>
+        <initializer>= &apos;&amp;nbsp;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" line="52" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___pagination_1aa3dc112ae0edd3eb76d13eb3f5a57d02" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$next_tag_close</definition>
+        <argsstring></argsstring>
+        <name>$next_tag_close</name>
+        <initializer>= &apos;&amp;nbsp;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" line="53" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___pagination_1ab8f96d2bdfd51057db368d8ffd57ca5c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$prev_tag_open</definition>
+        <argsstring></argsstring>
+        <name>$prev_tag_open</name>
+        <initializer>= &apos;&amp;nbsp;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" line="54" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___pagination_1abb46001ebebf96f2562ea1f8ced80aa1" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$prev_tag_close</definition>
+        <argsstring></argsstring>
+        <name>$prev_tag_close</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" line="55" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___pagination_1a1227a094532251dca78e533d9b9f068f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$num_tag_open</definition>
+        <argsstring></argsstring>
+        <name>$num_tag_open</name>
+        <initializer>= &apos;&amp;nbsp;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" line="56" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___pagination_1ab84030017256e7345316413cfefd41a5" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$num_tag_close</definition>
+        <argsstring></argsstring>
+        <name>$num_tag_close</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" line="57" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___pagination_1a2721bf5c6a50b356b53f1c1bdb9d139e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$page_query_string</definition>
+        <argsstring></argsstring>
+        <name>$page_query_string</name>
+        <initializer>= FALSE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" line="58" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___pagination_1a8fe6ddd39110b4952ddcca9bba07c019" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$query_string_segment</definition>
+        <argsstring></argsstring>
+        <name>$query_string_segment</name>
+        <initializer>= &apos;per_page&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" line="59" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___pagination_1ab68f1bc9a7442f1936286f05b7ba175d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$display_pages</definition>
+        <argsstring></argsstring>
+        <name>$display_pages</name>
+        <initializer>= TRUE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" line="60" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___pagination_1a6e44d84fef9aa8b966899c447120fd3a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$anchor_class</definition>
+        <argsstring></argsstring>
+        <name>$anchor_class</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" line="61" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_i___pagination_1a568ecdb0d73d2a870f33189739922a50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>($params=array())</argsstring>
+        <name>__construct</name>
+        <param>
+          <declname>$params</declname>
+          <defval>array()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>initialization parameters </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" line="69" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" bodystart="69" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___pagination_1ae411a67cc3ac31622373c65c71b66c66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>initialize</definition>
+        <argsstring>($params=array())</argsstring>
+        <name>initialize</name>
+        <param>
+          <declname>$params</declname>
+          <defval>array()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Initialize Preferences</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>initialization parameters </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" line="93" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" bodystart="93" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___pagination_1afd580f4d296b1d416d2b4b03edef3bc5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>create_links</definition>
+        <argsstring>()</argsstring>
+        <name>create_links</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generate the pagination links</para><para>public <simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" line="115" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" bodystart="115" bodyend="335"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" line="27" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Pagination.php" bodystart="27" bodyend="336"/>
+    <listofallmembers>
+      <member refid="class_c_i___pagination_1a6e44d84fef9aa8b966899c447120fd3a" prot="public" virt="non-virtual"><scope>CI_Pagination</scope><name>$anchor_class</name></member>
+      <member refid="class_c_i___pagination_1a6886427c9c643f707fcb35c018049bc7" prot="public" virt="non-virtual"><scope>CI_Pagination</scope><name>$base_url</name></member>
+      <member refid="class_c_i___pagination_1a0114271d3cbbe963a73efe317e3512c7" prot="public" virt="non-virtual"><scope>CI_Pagination</scope><name>$cur_page</name></member>
+      <member refid="class_c_i___pagination_1a8f284fc318c9b1a0d20e5aa53cdbb540" prot="public" virt="non-virtual"><scope>CI_Pagination</scope><name>$cur_tag_close</name></member>
+      <member refid="class_c_i___pagination_1a60f0f6e2515e166fa11657186b39345d" prot="public" virt="non-virtual"><scope>CI_Pagination</scope><name>$cur_tag_open</name></member>
+      <member refid="class_c_i___pagination_1ab68f1bc9a7442f1936286f05b7ba175d" prot="public" virt="non-virtual"><scope>CI_Pagination</scope><name>$display_pages</name></member>
+      <member refid="class_c_i___pagination_1a0236d9345031b8c11db487560609f9a7" prot="public" virt="non-virtual"><scope>CI_Pagination</scope><name>$first_link</name></member>
+      <member refid="class_c_i___pagination_1a1aa5f33d3f661838fa1f8482128a19c7" prot="public" virt="non-virtual"><scope>CI_Pagination</scope><name>$first_tag_close</name></member>
+      <member refid="class_c_i___pagination_1a5e352cfb5a6e9b6f850264aca68f00e0" prot="public" virt="non-virtual"><scope>CI_Pagination</scope><name>$first_tag_open</name></member>
+      <member refid="class_c_i___pagination_1ac7fe85e2fda76364772be52656e346b8" prot="public" virt="non-virtual"><scope>CI_Pagination</scope><name>$first_url</name></member>
+      <member refid="class_c_i___pagination_1ad7e8fd7ace07539860b6f0b323aacbc8" prot="public" virt="non-virtual"><scope>CI_Pagination</scope><name>$full_tag_close</name></member>
+      <member refid="class_c_i___pagination_1a75336a53727415578f78bd3d337c8559" prot="public" virt="non-virtual"><scope>CI_Pagination</scope><name>$full_tag_open</name></member>
+      <member refid="class_c_i___pagination_1ab10d1c6de63d2bc11a210c26e450b231" prot="public" virt="non-virtual"><scope>CI_Pagination</scope><name>$last_link</name></member>
+      <member refid="class_c_i___pagination_1a8e024740710598d97da42739bd231dda" prot="public" virt="non-virtual"><scope>CI_Pagination</scope><name>$last_tag_close</name></member>
+      <member refid="class_c_i___pagination_1ac7e807e8227dd4528c2b315424d126db" prot="public" virt="non-virtual"><scope>CI_Pagination</scope><name>$last_tag_open</name></member>
+      <member refid="class_c_i___pagination_1ae3962413e69384df902aedf7484ddefe" prot="public" virt="non-virtual"><scope>CI_Pagination</scope><name>$next_link</name></member>
+      <member refid="class_c_i___pagination_1aa3dc112ae0edd3eb76d13eb3f5a57d02" prot="public" virt="non-virtual"><scope>CI_Pagination</scope><name>$next_tag_close</name></member>
+      <member refid="class_c_i___pagination_1a0345e4646ae630d4d95f98de048e4572" prot="public" virt="non-virtual"><scope>CI_Pagination</scope><name>$next_tag_open</name></member>
+      <member refid="class_c_i___pagination_1aa04c33b46d7b63638408ac57ca3ee9e9" prot="public" virt="non-virtual"><scope>CI_Pagination</scope><name>$num_links</name></member>
+      <member refid="class_c_i___pagination_1ab84030017256e7345316413cfefd41a5" prot="public" virt="non-virtual"><scope>CI_Pagination</scope><name>$num_tag_close</name></member>
+      <member refid="class_c_i___pagination_1a1227a094532251dca78e533d9b9f068f" prot="public" virt="non-virtual"><scope>CI_Pagination</scope><name>$num_tag_open</name></member>
+      <member refid="class_c_i___pagination_1a2721bf5c6a50b356b53f1c1bdb9d139e" prot="public" virt="non-virtual"><scope>CI_Pagination</scope><name>$page_query_string</name></member>
+      <member refid="class_c_i___pagination_1abece0f3099457a037f8f339811dc6e20" prot="public" virt="non-virtual"><scope>CI_Pagination</scope><name>$per_page</name></member>
+      <member refid="class_c_i___pagination_1a09e8cf95b9d29955a0bfabca9b420edc" prot="public" virt="non-virtual"><scope>CI_Pagination</scope><name>$prefix</name></member>
+      <member refid="class_c_i___pagination_1afab5c29a3da82c4dce6a491f1d257831" prot="public" virt="non-virtual"><scope>CI_Pagination</scope><name>$prev_link</name></member>
+      <member refid="class_c_i___pagination_1abb46001ebebf96f2562ea1f8ced80aa1" prot="public" virt="non-virtual"><scope>CI_Pagination</scope><name>$prev_tag_close</name></member>
+      <member refid="class_c_i___pagination_1ab8f96d2bdfd51057db368d8ffd57ca5c" prot="public" virt="non-virtual"><scope>CI_Pagination</scope><name>$prev_tag_open</name></member>
+      <member refid="class_c_i___pagination_1a8fe6ddd39110b4952ddcca9bba07c019" prot="public" virt="non-virtual"><scope>CI_Pagination</scope><name>$query_string_segment</name></member>
+      <member refid="class_c_i___pagination_1a8a4ee1ac7ecdf8ef590598ad43b23e0a" prot="public" virt="non-virtual"><scope>CI_Pagination</scope><name>$suffix</name></member>
+      <member refid="class_c_i___pagination_1af2c641e024ee7eeec68ae26c08ca2cf2" prot="public" virt="non-virtual"><scope>CI_Pagination</scope><name>$total_rows</name></member>
+      <member refid="class_c_i___pagination_1a79fd9718cc6c432f6919c28299584d77" prot="public" virt="non-virtual"><scope>CI_Pagination</scope><name>$uri_segment</name></member>
+      <member refid="class_c_i___pagination_1ac19b7d290389a9188ca6466f85d14a85" prot="public" virt="non-virtual"><scope>CI_Pagination</scope><name>$use_page_numbers</name></member>
+      <member refid="class_c_i___pagination_1a568ecdb0d73d2a870f33189739922a50" prot="public" virt="non-virtual"><scope>CI_Pagination</scope><name>__construct</name></member>
+      <member refid="class_c_i___pagination_1afd580f4d296b1d416d2b4b03edef3bc5" prot="public" virt="non-virtual"><scope>CI_Pagination</scope><name>create_links</name></member>
+      <member refid="class_c_i___pagination_1ae411a67cc3ac31622373c65c71b66c66" prot="public" virt="non-virtual"><scope>CI_Pagination</scope><name>initialize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

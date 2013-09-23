@@ -1,0 +1,568 @@
+\hypertarget{class_c_i___f_t_p}{\section{C\-I\-\_\-\-F\-T\-P Class Reference}
+\label{class_c_i___f_t_p}\index{C\-I\-\_\-\-F\-T\-P@{C\-I\-\_\-\-F\-T\-P}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_c_i___f_t_p_af7f9493844d2d66e924e3c1df51ce616}{\-\_\-\-\_\-construct} (\$config=array())
+\item 
+\hyperlink{class_c_i___f_t_p_a481385e36d920f5a5005ace05c6cd016}{initialize} (\$config=array())
+\item 
+\hyperlink{class_c_i___f_t_p_ab2827759611aaaf0c59e69661122c534}{connect} (\$config=array())
+\item 
+\hyperlink{class_c_i___f_t_p_a95562e7b8a41561f4b0b525d9c7fe701}{\-\_\-login} ()
+\item 
+\hyperlink{class_c_i___f_t_p_af20c08e4b61fe028e032b388cd73936a}{\-\_\-is\-\_\-conn} ()
+\item 
+\hyperlink{class_c_i___f_t_p_accbaa941bfade0d8145ad367e63bbb7f}{changedir} (\$path= '', \$supress\-\_\-debug=F\-A\-L\-S\-E)
+\item 
+\hyperlink{class_c_i___f_t_p_a8c8a3fc1ed28d46d3ea507e117a15e5a}{mkdir} (\$path= '', \$permissions=N\-U\-L\-L)
+\item 
+\hyperlink{class_c_i___f_t_p_a4f3394c26215f6abd2b92ad311684e1f}{upload} (\$locpath, \$rempath, \$mode= 'auto', \$permissions=N\-U\-L\-L)
+\item 
+\hyperlink{class_c_i___f_t_p_af51fa642fa0d4ae454c8c1850d282f65}{download} (\$rempath, \$locpath, \$mode= 'auto')
+\item 
+\hyperlink{class_c_i___f_t_p_aa670f7340bb15f61d481f4b3c64bd9dc}{rename} (\$old\-\_\-file, \$new\-\_\-file, \$\hyperlink{class_c_i___f_t_p_acb1443339c3058c83b79f0f503630920}{move}=F\-A\-L\-S\-E)
+\item 
+\hyperlink{class_c_i___f_t_p_acb1443339c3058c83b79f0f503630920}{move} (\$old\-\_\-file, \$new\-\_\-file)
+\item 
+\hyperlink{class_c_i___f_t_p_aad793fb503643d98b58426421718e18a}{delete\-\_\-file} (\$filepath)
+\item 
+\hyperlink{class_c_i___f_t_p_af09b3ab08984b145506dcff4f75a051c}{delete\-\_\-dir} (\$filepath)
+\item 
+\hyperlink{class_c_i___f_t_p_a9af83eefaf53c7362e7108d1f82bf1ab}{chmod} (\$path, \$perm)
+\item 
+\hyperlink{class_c_i___f_t_p_a4a8692d7ea935946366a916a3013652e}{list\-\_\-files} (\$path= '.')
+\item 
+\hyperlink{class_c_i___f_t_p_aea2de30bbdf050cb607bbc5a36772bf3}{mirror} (\$locpath, \$rempath)
+\item 
+\hyperlink{class_c_i___f_t_p_ab06ef33f96f03cafbb8f2bb6d695ef1f}{\-\_\-getext} (\$filename)
+\item 
+\hyperlink{class_c_i___f_t_p_aacd9d6628615078d8df9aab1fe70e391}{\-\_\-settype} (\$ext)
+\item 
+\hyperlink{class_c_i___f_t_p_aa69c8bf1f1dcf4e72552efff1fe3e87e}{close} ()
+\item 
+\hyperlink{class_c_i___f_t_p_ac618e7d56614851d2c54aa096e1bcace}{\-\_\-error} (\$line)
+\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_c_i___f_t_p_a8bf9ffb42ed554b203b55377d1fc9aa4}{\$hostname} = ''
+\item 
+\hyperlink{class_c_i___f_t_p_a0eb82aa5f81cf845de4b36cd653c42cf}{\$username} = ''
+\item 
+\hyperlink{class_c_i___f_t_p_a607686ef9f99ea7c42f4f3dd3dbb2b0d}{\$password} = ''
+\item 
+\hyperlink{class_c_i___f_t_p_aa0787efab4b22e8a212882f3409d4c77}{\$port} = 21
+\item 
+\hyperlink{class_c_i___f_t_p_a9fb61732ea9189fa2be5574ad3576d9c}{\$passive} = T\-R\-U\-E
+\item 
+\hyperlink{class_c_i___f_t_p_a85ae3e64cd40e9564adceb010085e9dd}{\$debug} = F\-A\-L\-S\-E
+\item 
+\hyperlink{class_c_i___f_t_p_a16c23f1dcbfed2f2759f5e54f604106d}{\$conn\-\_\-id} = F\-A\-L\-S\-E
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 27 of file Ftp.\-php.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_c_i___f_t_p_af7f9493844d2d66e924e3c1df51ce616}{\index{C\-I\-\_\-\-F\-T\-P@{C\-I\-\_\-\-F\-T\-P}!\-\_\-\-\_\-construct@{\-\_\-\-\_\-construct}}
+\index{\-\_\-\-\_\-construct@{\-\_\-\-\_\-construct}!CI_FTP@{C\-I\-\_\-\-F\-T\-P}}
+\subsubsection[{\-\_\-\-\_\-construct}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-\-\_\-construct (
+\begin{DoxyParamCaption}
+\item[{}]{\$config = {\ttfamily array()}}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___f_t_p_af7f9493844d2d66e924e3c1df51ce616}
+Constructor -\/ Sets Preferences
+
+The constructor can be passed an array of config values 
+
+Definition at line 43 of file Ftp.\-php.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_c_i___f_t_p_ac618e7d56614851d2c54aa096e1bcace}{\index{C\-I\-\_\-\-F\-T\-P@{C\-I\-\_\-\-F\-T\-P}!\-\_\-error@{\-\_\-error}}
+\index{\-\_\-error@{\-\_\-error}!CI_FTP@{C\-I\-\_\-\-F\-T\-P}}
+\subsubsection[{\-\_\-error}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-error (
+\begin{DoxyParamCaption}
+\item[{}]{\$line}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___f_t_p_ac618e7d56614851d2c54aa096e1bcace}
+Display error message
+
+private 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 648 of file Ftp.\-php.
+
+\hypertarget{class_c_i___f_t_p_ab06ef33f96f03cafbb8f2bb6d695ef1f}{\index{C\-I\-\_\-\-F\-T\-P@{C\-I\-\_\-\-F\-T\-P}!\-\_\-getext@{\-\_\-getext}}
+\index{\-\_\-getext@{\-\_\-getext}!CI_FTP@{C\-I\-\_\-\-F\-T\-P}}
+\subsubsection[{\-\_\-getext}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-getext (
+\begin{DoxyParamCaption}
+\item[{}]{\$filename}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___f_t_p_ab06ef33f96f03cafbb8f2bb6d695ef1f}
+Extract the file extension
+
+private 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 576 of file Ftp.\-php.
+
+\hypertarget{class_c_i___f_t_p_af20c08e4b61fe028e032b388cd73936a}{\index{C\-I\-\_\-\-F\-T\-P@{C\-I\-\_\-\-F\-T\-P}!\-\_\-is\-\_\-conn@{\-\_\-is\-\_\-conn}}
+\index{\-\_\-is\-\_\-conn@{\-\_\-is\-\_\-conn}!CI_FTP@{C\-I\-\_\-\-F\-T\-P}}
+\subsubsection[{\-\_\-is\-\_\-conn}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-is\-\_\-conn (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___f_t_p_af20c08e4b61fe028e032b388cd73936a}
+Validates the connection I\-D
+
+private \begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 140 of file Ftp.\-php.
+
+\hypertarget{class_c_i___f_t_p_a95562e7b8a41561f4b0b525d9c7fe701}{\index{C\-I\-\_\-\-F\-T\-P@{C\-I\-\_\-\-F\-T\-P}!\-\_\-login@{\-\_\-login}}
+\index{\-\_\-login@{\-\_\-login}!CI_FTP@{C\-I\-\_\-\-F\-T\-P}}
+\subsubsection[{\-\_\-login}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-login (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___f_t_p_a95562e7b8a41561f4b0b525d9c7fe701}
+F\-T\-P Login
+
+private \begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 127 of file Ftp.\-php.
+
+\hypertarget{class_c_i___f_t_p_aacd9d6628615078d8df9aab1fe70e391}{\index{C\-I\-\_\-\-F\-T\-P@{C\-I\-\_\-\-F\-T\-P}!\-\_\-settype@{\-\_\-settype}}
+\index{\-\_\-settype@{\-\_\-settype}!CI_FTP@{C\-I\-\_\-\-F\-T\-P}}
+\subsubsection[{\-\_\-settype}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-settype (
+\begin{DoxyParamCaption}
+\item[{}]{\$ext}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___f_t_p_aacd9d6628615078d8df9aab1fe70e391}
+Set the upload type
+
+private 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 597 of file Ftp.\-php.
+
+\hypertarget{class_c_i___f_t_p_accbaa941bfade0d8145ad367e63bbb7f}{\index{C\-I\-\_\-\-F\-T\-P@{C\-I\-\_\-\-F\-T\-P}!changedir@{changedir}}
+\index{changedir@{changedir}!CI_FTP@{C\-I\-\_\-\-F\-T\-P}}
+\subsubsection[{changedir}]{\setlength{\rightskip}{0pt plus 5cm}changedir (
+\begin{DoxyParamCaption}
+\item[{}]{\$path = {\ttfamily ''}, }
+\item[{}]{\$supress\-\_\-debug = {\ttfamily FALSE}}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___f_t_p_accbaa941bfade0d8145ad367e63bbb7f}
+Change directory
+
+The second parameter lets us momentarily turn off debugging so that this function can be used to test for the existence of a folder without throwing an error. There's no F\-T\-P equivalent to is\-\_\-dir() so we do it by trying to change to a particular directory. Internally, this parameter is only used by the \char`\"{}mirror\char`\"{} function below.
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+{\em bool} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 170 of file Ftp.\-php.
+
+\hypertarget{class_c_i___f_t_p_a9af83eefaf53c7362e7108d1f82bf1ab}{\index{C\-I\-\_\-\-F\-T\-P@{C\-I\-\_\-\-F\-T\-P}!chmod@{chmod}}
+\index{chmod@{chmod}!CI_FTP@{C\-I\-\_\-\-F\-T\-P}}
+\subsubsection[{chmod}]{\setlength{\rightskip}{0pt plus 5cm}chmod (
+\begin{DoxyParamCaption}
+\item[{}]{\$path, }
+\item[{}]{\$perm}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___f_t_p_a9af83eefaf53c7362e7108d1f82bf1ab}
+Set file permissions
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & the file path \\
+\hline
+{\em string} & the permissions \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 461 of file Ftp.\-php.
+
+\hypertarget{class_c_i___f_t_p_aa69c8bf1f1dcf4e72552efff1fe3e87e}{\index{C\-I\-\_\-\-F\-T\-P@{C\-I\-\_\-\-F\-T\-P}!close@{close}}
+\index{close@{close}!CI_FTP@{C\-I\-\_\-\-F\-T\-P}}
+\subsubsection[{close}]{\setlength{\rightskip}{0pt plus 5cm}close (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___f_t_p_aa69c8bf1f1dcf4e72552efff1fe3e87e}
+Close the connection
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & path to source \\
+\hline
+{\em string} & path to destination \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 629 of file Ftp.\-php.
+
+\hypertarget{class_c_i___f_t_p_ab2827759611aaaf0c59e69661122c534}{\index{C\-I\-\_\-\-F\-T\-P@{C\-I\-\_\-\-F\-T\-P}!connect@{connect}}
+\index{connect@{connect}!CI_FTP@{C\-I\-\_\-\-F\-T\-P}}
+\subsubsection[{connect}]{\setlength{\rightskip}{0pt plus 5cm}connect (
+\begin{DoxyParamCaption}
+\item[{}]{\$config = {\ttfamily array()}}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___f_t_p_ab2827759611aaaf0c59e69661122c534}
+F\-T\-P Connect
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em array} & the connection values \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 85 of file Ftp.\-php.
+
+\hypertarget{class_c_i___f_t_p_af09b3ab08984b145506dcff4f75a051c}{\index{C\-I\-\_\-\-F\-T\-P@{C\-I\-\_\-\-F\-T\-P}!delete\-\_\-dir@{delete\-\_\-dir}}
+\index{delete\-\_\-dir@{delete\-\_\-dir}!CI_FTP@{C\-I\-\_\-\-F\-T\-P}}
+\subsubsection[{delete\-\_\-dir}]{\setlength{\rightskip}{0pt plus 5cm}delete\-\_\-dir (
+\begin{DoxyParamCaption}
+\item[{}]{\$filepath}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___f_t_p_af09b3ab08984b145506dcff4f75a051c}
+Delete a folder and recursively delete everything (including sub-\/folders) containted within it.
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 412 of file Ftp.\-php.
+
+\hypertarget{class_c_i___f_t_p_aad793fb503643d98b58426421718e18a}{\index{C\-I\-\_\-\-F\-T\-P@{C\-I\-\_\-\-F\-T\-P}!delete\-\_\-file@{delete\-\_\-file}}
+\index{delete\-\_\-file@{delete\-\_\-file}!CI_FTP@{C\-I\-\_\-\-F\-T\-P}}
+\subsubsection[{delete\-\_\-file}]{\setlength{\rightskip}{0pt plus 5cm}delete\-\_\-file (
+\begin{DoxyParamCaption}
+\item[{}]{\$filepath}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___f_t_p_aad793fb503643d98b58426421718e18a}
+Rename (or move) a file
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 381 of file Ftp.\-php.
+
+\hypertarget{class_c_i___f_t_p_af51fa642fa0d4ae454c8c1850d282f65}{\index{C\-I\-\_\-\-F\-T\-P@{C\-I\-\_\-\-F\-T\-P}!download@{download}}
+\index{download@{download}!CI_FTP@{C\-I\-\_\-\-F\-T\-P}}
+\subsubsection[{download}]{\setlength{\rightskip}{0pt plus 5cm}download (
+\begin{DoxyParamCaption}
+\item[{}]{\$rempath, }
+\item[{}]{\$locpath, }
+\item[{}]{\$mode = {\ttfamily 'auto'}}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___f_t_p_af51fa642fa0d4ae454c8c1850d282f65}
+Download a file from a remote server to the local server
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+{\em string} & \\
+\hline
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 292 of file Ftp.\-php.
+
+\hypertarget{class_c_i___f_t_p_a481385e36d920f5a5005ace05c6cd016}{\index{C\-I\-\_\-\-F\-T\-P@{C\-I\-\_\-\-F\-T\-P}!initialize@{initialize}}
+\index{initialize@{initialize}!CI_FTP@{C\-I\-\_\-\-F\-T\-P}}
+\subsubsection[{initialize}]{\setlength{\rightskip}{0pt plus 5cm}initialize (
+\begin{DoxyParamCaption}
+\item[{}]{\$config = {\ttfamily array()}}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___f_t_p_a481385e36d920f5a5005ace05c6cd016}
+Initialize preferences
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em array} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 62 of file Ftp.\-php.
+
+\hypertarget{class_c_i___f_t_p_a4a8692d7ea935946366a916a3013652e}{\index{C\-I\-\_\-\-F\-T\-P@{C\-I\-\_\-\-F\-T\-P}!list\-\_\-files@{list\-\_\-files}}
+\index{list\-\_\-files@{list\-\_\-files}!CI_FTP@{C\-I\-\_\-\-F\-T\-P}}
+\subsubsection[{list\-\_\-files}]{\setlength{\rightskip}{0pt plus 5cm}list\-\_\-files (
+\begin{DoxyParamCaption}
+\item[{}]{\$path = {\ttfamily '.'}}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___f_t_p_a4a8692d7ea935946366a916a3013652e}
+F\-T\-P List files in the specified directory
+
+public \begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+
+
+Definition at line 500 of file Ftp.\-php.
+
+\hypertarget{class_c_i___f_t_p_aea2de30bbdf050cb607bbc5a36772bf3}{\index{C\-I\-\_\-\-F\-T\-P@{C\-I\-\_\-\-F\-T\-P}!mirror@{mirror}}
+\index{mirror@{mirror}!CI_FTP@{C\-I\-\_\-\-F\-T\-P}}
+\subsubsection[{mirror}]{\setlength{\rightskip}{0pt plus 5cm}mirror (
+\begin{DoxyParamCaption}
+\item[{}]{\$locpath, }
+\item[{}]{\$rempath}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___f_t_p_aea2de30bbdf050cb607bbc5a36772bf3}
+Read a directory and recreate it remotely
+
+This function recursively reads a folder and everything it contains (including sub-\/folders) and creates a mirror via F\-T\-P based on it. Whatever the directory structure of the original file path will be recreated on the server.
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & path to source with trailing slash \\
+\hline
+{\em string} & path to destination -\/ include the base folder with trailing slash \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 524 of file Ftp.\-php.
+
+\hypertarget{class_c_i___f_t_p_a8c8a3fc1ed28d46d3ea507e117a15e5a}{\index{C\-I\-\_\-\-F\-T\-P@{C\-I\-\_\-\-F\-T\-P}!mkdir@{mkdir}}
+\index{mkdir@{mkdir}!CI_FTP@{C\-I\-\_\-\-F\-T\-P}}
+\subsubsection[{mkdir}]{\setlength{\rightskip}{0pt plus 5cm}mkdir (
+\begin{DoxyParamCaption}
+\item[{}]{\$path = {\ttfamily ''}, }
+\item[{}]{\$permissions = {\ttfamily NULL}}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___f_t_p_a8c8a3fc1ed28d46d3ea507e117a15e5a}
+Create a directory
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 200 of file Ftp.\-php.
+
+\hypertarget{class_c_i___f_t_p_acb1443339c3058c83b79f0f503630920}{\index{C\-I\-\_\-\-F\-T\-P@{C\-I\-\_\-\-F\-T\-P}!move@{move}}
+\index{move@{move}!CI_FTP@{C\-I\-\_\-\-F\-T\-P}}
+\subsubsection[{move}]{\setlength{\rightskip}{0pt plus 5cm}move (
+\begin{DoxyParamCaption}
+\item[{}]{\$old\-\_\-file, }
+\item[{}]{\$new\-\_\-file}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___f_t_p_acb1443339c3058c83b79f0f503630920}
+Move a file
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 367 of file Ftp.\-php.
+
+\hypertarget{class_c_i___f_t_p_aa670f7340bb15f61d481f4b3c64bd9dc}{\index{C\-I\-\_\-\-F\-T\-P@{C\-I\-\_\-\-F\-T\-P}!rename@{rename}}
+\index{rename@{rename}!CI_FTP@{C\-I\-\_\-\-F\-T\-P}}
+\subsubsection[{rename}]{\setlength{\rightskip}{0pt plus 5cm}rename (
+\begin{DoxyParamCaption}
+\item[{}]{\$old\-\_\-file, }
+\item[{}]{\$new\-\_\-file, }
+\item[{}]{\$move = {\ttfamily FALSE}}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___f_t_p_aa670f7340bb15f61d481f4b3c64bd9dc}
+Rename (or move) a file
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+{\em string} & \\
+\hline
+{\em bool} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 334 of file Ftp.\-php.
+
+\hypertarget{class_c_i___f_t_p_a4f3394c26215f6abd2b92ad311684e1f}{\index{C\-I\-\_\-\-F\-T\-P@{C\-I\-\_\-\-F\-T\-P}!upload@{upload}}
+\index{upload@{upload}!CI_FTP@{C\-I\-\_\-\-F\-T\-P}}
+\subsubsection[{upload}]{\setlength{\rightskip}{0pt plus 5cm}upload (
+\begin{DoxyParamCaption}
+\item[{}]{\$locpath, }
+\item[{}]{\$rempath, }
+\item[{}]{\$mode = {\ttfamily 'auto'}, }
+\item[{}]{\$permissions = {\ttfamily NULL}}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___f_t_p_a4f3394c26215f6abd2b92ad311684e1f}
+Upload a file to the server
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+{\em string} & \\
+\hline
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 238 of file Ftp.\-php.
+
+
+
+\subsection{Field Documentation}
+\hypertarget{class_c_i___f_t_p_a16c23f1dcbfed2f2759f5e54f604106d}{\index{C\-I\-\_\-\-F\-T\-P@{C\-I\-\_\-\-F\-T\-P}!\$conn\-\_\-id@{\$conn\-\_\-id}}
+\index{\$conn\-\_\-id@{\$conn\-\_\-id}!CI_FTP@{C\-I\-\_\-\-F\-T\-P}}
+\subsubsection[{\$conn\-\_\-id}]{\setlength{\rightskip}{0pt plus 5cm}\$conn\-\_\-id = F\-A\-L\-S\-E}}\label{class_c_i___f_t_p_a16c23f1dcbfed2f2759f5e54f604106d}
+
+
+Definition at line 35 of file Ftp.\-php.
+
+\hypertarget{class_c_i___f_t_p_a85ae3e64cd40e9564adceb010085e9dd}{\index{C\-I\-\_\-\-F\-T\-P@{C\-I\-\_\-\-F\-T\-P}!\$debug@{\$debug}}
+\index{\$debug@{\$debug}!CI_FTP@{C\-I\-\_\-\-F\-T\-P}}
+\subsubsection[{\$debug}]{\setlength{\rightskip}{0pt plus 5cm}\$debug = F\-A\-L\-S\-E}}\label{class_c_i___f_t_p_a85ae3e64cd40e9564adceb010085e9dd}
+
+
+Definition at line 34 of file Ftp.\-php.
+
+\hypertarget{class_c_i___f_t_p_a8bf9ffb42ed554b203b55377d1fc9aa4}{\index{C\-I\-\_\-\-F\-T\-P@{C\-I\-\_\-\-F\-T\-P}!\$hostname@{\$hostname}}
+\index{\$hostname@{\$hostname}!CI_FTP@{C\-I\-\_\-\-F\-T\-P}}
+\subsubsection[{\$hostname}]{\setlength{\rightskip}{0pt plus 5cm}\$hostname = ''}}\label{class_c_i___f_t_p_a8bf9ffb42ed554b203b55377d1fc9aa4}
+
+
+Definition at line 29 of file Ftp.\-php.
+
+\hypertarget{class_c_i___f_t_p_a9fb61732ea9189fa2be5574ad3576d9c}{\index{C\-I\-\_\-\-F\-T\-P@{C\-I\-\_\-\-F\-T\-P}!\$passive@{\$passive}}
+\index{\$passive@{\$passive}!CI_FTP@{C\-I\-\_\-\-F\-T\-P}}
+\subsubsection[{\$passive}]{\setlength{\rightskip}{0pt plus 5cm}\$passive = T\-R\-U\-E}}\label{class_c_i___f_t_p_a9fb61732ea9189fa2be5574ad3576d9c}
+
+
+Definition at line 33 of file Ftp.\-php.
+
+\hypertarget{class_c_i___f_t_p_a607686ef9f99ea7c42f4f3dd3dbb2b0d}{\index{C\-I\-\_\-\-F\-T\-P@{C\-I\-\_\-\-F\-T\-P}!\$password@{\$password}}
+\index{\$password@{\$password}!CI_FTP@{C\-I\-\_\-\-F\-T\-P}}
+\subsubsection[{\$password}]{\setlength{\rightskip}{0pt plus 5cm}\$password = ''}}\label{class_c_i___f_t_p_a607686ef9f99ea7c42f4f3dd3dbb2b0d}
+
+
+Definition at line 31 of file Ftp.\-php.
+
+\hypertarget{class_c_i___f_t_p_aa0787efab4b22e8a212882f3409d4c77}{\index{C\-I\-\_\-\-F\-T\-P@{C\-I\-\_\-\-F\-T\-P}!\$port@{\$port}}
+\index{\$port@{\$port}!CI_FTP@{C\-I\-\_\-\-F\-T\-P}}
+\subsubsection[{\$port}]{\setlength{\rightskip}{0pt plus 5cm}\$port = 21}}\label{class_c_i___f_t_p_aa0787efab4b22e8a212882f3409d4c77}
+
+
+Definition at line 32 of file Ftp.\-php.
+
+\hypertarget{class_c_i___f_t_p_a0eb82aa5f81cf845de4b36cd653c42cf}{\index{C\-I\-\_\-\-F\-T\-P@{C\-I\-\_\-\-F\-T\-P}!\$username@{\$username}}
+\index{\$username@{\$username}!CI_FTP@{C\-I\-\_\-\-F\-T\-P}}
+\subsubsection[{\$username}]{\setlength{\rightskip}{0pt plus 5cm}\$username = ''}}\label{class_c_i___f_t_p_a0eb82aa5f81cf845de4b36cd653c42cf}
+
+
+Definition at line 30 of file Ftp.\-php.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+system/libraries/\hyperlink{_ftp_8php}{Ftp.\-php}\end{DoxyCompactItemize}

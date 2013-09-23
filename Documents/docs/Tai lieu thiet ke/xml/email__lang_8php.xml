@@ -1,0 +1,291 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="email__lang_8php" kind="file">
+    <compoundname>email_lang.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="email__lang_8php_1ac8c4b077e854bbdbb9a37b2d7f7c47fc" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;email_must_be_array&apos;]</definition>
+        <argsstring>[&apos;email_must_be_array&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;The email validation method must be passed an array.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/email_lang.php" line="3" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/email_lang.php" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="email__lang_8php_1a37759f6c728f3aaf8df6ca5bb8a3e832" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;email_invalid_address&apos;]</definition>
+        <argsstring>[&apos;email_invalid_address&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;Invalid email address: %s&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/email_lang.php" line="4" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/email_lang.php" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="email__lang_8php_1a09c0c415b48ef267bf9e36b555be67d9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;email_attachment_missing&apos;]</definition>
+        <argsstring>[&apos;email_attachment_missing&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;Unable <ref refid="mathquill_8js_1ae3622f38202b3532cd6eae25726945f8" kindref="member">to</ref> locate the following email attachment: %s&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/email_lang.php" line="5" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/email_lang.php" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="email__lang_8php_1acae2e9f7ade1ac9c6b67db0ff752414e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;email_attachment_unreadable&apos;]</definition>
+        <argsstring>[&apos;email_attachment_unreadable&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;Unable <ref refid="mathquill_8js_1ae3622f38202b3532cd6eae25726945f8" kindref="member">to</ref> open this attachment: %s&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/email_lang.php" line="6" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/email_lang.php" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="email__lang_8php_1a8f9d5a049f4dd899d4e61f6d56be5071" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;email_no_recipients&apos;]</definition>
+        <argsstring>[&apos;email_no_recipients&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;You must include recipients: To, Cc, <ref refid="mathquill_8js_1a6fdf1c439b25d95597e99492b728acaa" kindref="member">or</ref> Bcc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/email_lang.php" line="7" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/email_lang.php" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="email__lang_8php_1a99a2ce89426340b4c96a245b7874a99d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;email_send_failure_phpmail&apos;]</definition>
+        <argsstring>[&apos;email_send_failure_phpmail&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;Unable <ref refid="mathquill_8js_1ae3622f38202b3532cd6eae25726945f8" kindref="member">to</ref> send email using PHP mail().  Your server might <ref refid="mathquill_8js_1ac1e1ab538c27d68cc2cbafea74e7412c" kindref="member">not</ref> be configured <ref refid="mathquill_8js_1ae3622f38202b3532cd6eae25726945f8" kindref="member">to</ref> send mail using this method.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/email_lang.php" line="8" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/email_lang.php" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="email__lang_8php_1a0cfda188d86472ad2f3b96a67de75b4d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;email_send_failure_sendmail&apos;]</definition>
+        <argsstring>[&apos;email_send_failure_sendmail&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;Unable <ref refid="mathquill_8js_1ae3622f38202b3532cd6eae25726945f8" kindref="member">to</ref> send email using PHP Sendmail.  Your server might <ref refid="mathquill_8js_1ac1e1ab538c27d68cc2cbafea74e7412c" kindref="member">not</ref> be configured <ref refid="mathquill_8js_1ae3622f38202b3532cd6eae25726945f8" kindref="member">to</ref> send mail using this method.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/email_lang.php" line="9" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/email_lang.php" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="email__lang_8php_1a37e19fc7057ba5d5300dd3e83cefc5a2" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;email_send_failure_smtp&apos;]</definition>
+        <argsstring>[&apos;email_send_failure_smtp&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;Unable <ref refid="mathquill_8js_1ae3622f38202b3532cd6eae25726945f8" kindref="member">to</ref> send email using PHP SMTP.  Your server might <ref refid="mathquill_8js_1ac1e1ab538c27d68cc2cbafea74e7412c" kindref="member">not</ref> be configured <ref refid="mathquill_8js_1ae3622f38202b3532cd6eae25726945f8" kindref="member">to</ref> send mail using this method.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/email_lang.php" line="10" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/email_lang.php" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="email__lang_8php_1a7e5c67019fdffb596af1af5a94247ba9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;email_sent&apos;]</definition>
+        <argsstring>[&apos;email_sent&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;Your message has been successfully sent using the following protocol: %s&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/email_lang.php" line="11" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/email_lang.php" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="email__lang_8php_1a78f8be783ca93e91af775994ddc87cb7" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;email_no_socket&apos;]</definition>
+        <argsstring>[&apos;email_no_socket&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;Unable <ref refid="mathquill_8js_1ae3622f38202b3532cd6eae25726945f8" kindref="member">to</ref> open <ref refid="bootstrap_8min_8js_1a7318f59fb86a4437995ee89c780c51ac" kindref="member">a</ref> socket <ref refid="mathquill_8js_1ae3622f38202b3532cd6eae25726945f8" kindref="member">to</ref> Sendmail. Please check settings.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/email_lang.php" line="12" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/email_lang.php" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="email__lang_8php_1a03905b414e05a5d3cfd0fe88868615f5" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;email_no_hostname&apos;]</definition>
+        <argsstring>[&apos;email_no_hostname&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;You did <ref refid="mathquill_8js_1ac1e1ab538c27d68cc2cbafea74e7412c" kindref="member">not</ref> specify <ref refid="bootstrap_8min_8js_1a7318f59fb86a4437995ee89c780c51ac" kindref="member">a</ref> SMTP hostname.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/email_lang.php" line="13" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/email_lang.php" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="email__lang_8php_1a3d70a704117491053ad9c0b4065ecd3f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;email_smtp_error&apos;]</definition>
+        <argsstring>[&apos;email_smtp_error&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;The following SMTP error was encountered: %s&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/email_lang.php" line="14" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/email_lang.php" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="email__lang_8php_1a268c3e96fea16a903e7488f03960e89a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;email_no_smtp_unpw&apos;]</definition>
+        <argsstring>[&apos;email_no_smtp_unpw&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;Error: You must assign <ref refid="bootstrap_8min_8js_1a7318f59fb86a4437995ee89c780c51ac" kindref="member">a</ref> SMTP username <ref refid="mathquill_8js_1ac39c488ee3bd6d675c340966d33495a7" kindref="member">and</ref> password.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/email_lang.php" line="15" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/email_lang.php" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="email__lang_8php_1a791781c2fd1bd8ec87158be649519621" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;email_failed_smtp_login&apos;]</definition>
+        <argsstring>[&apos;email_failed_smtp_login&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;Failed <ref refid="mathquill_8js_1ae3622f38202b3532cd6eae25726945f8" kindref="member">to</ref> send AUTH LOGIN command. Error: %s&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/email_lang.php" line="16" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/email_lang.php" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="email__lang_8php_1a69f2fa5072f039936748571ea5cc9cba" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;email_smtp_auth_un&apos;]</definition>
+        <argsstring>[&apos;email_smtp_auth_un&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;Failed <ref refid="mathquill_8js_1ae3622f38202b3532cd6eae25726945f8" kindref="member">to</ref> authenticate username. Error: %s&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/email_lang.php" line="17" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/email_lang.php" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="email__lang_8php_1a09fd123f0d251a8eac845f985c6583c3" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;email_smtp_auth_pw&apos;]</definition>
+        <argsstring>[&apos;email_smtp_auth_pw&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;Failed <ref refid="mathquill_8js_1ae3622f38202b3532cd6eae25726945f8" kindref="member">to</ref> authenticate password. Error: %s&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/email_lang.php" line="18" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/email_lang.php" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="email__lang_8php_1a59801e23c2d745400384098c7bf0a6dc" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;email_smtp_data_failure&apos;]</definition>
+        <argsstring>[&apos;email_smtp_data_failure&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;Unable <ref refid="mathquill_8js_1ae3622f38202b3532cd6eae25726945f8" kindref="member">to</ref> send data: %s&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/email_lang.php" line="19" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/email_lang.php" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="email__lang_8php_1a32b0c2f50acd03defc88df937ee2877f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;email_exit_status&apos;]</definition>
+        <argsstring>[&apos;email_exit_status&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;Exit status code: %s&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/email_lang.php" line="20" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/email_lang.php" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="email__lang_8php_1ac8c4b077e854bbdbb9a37b2d7f7c47fc" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;email_must_be_array&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;The<sp/>email<sp/>validation<sp/>method<sp/>must<sp/>be<sp/>passed<sp/>an<sp/>array.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="4" refid="email__lang_8php_1a37759f6c728f3aaf8df6ca5bb8a3e832" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;email_invalid_address&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Invalid<sp/>email<sp/>address:<sp/>%s&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="5" refid="email__lang_8php_1a09c0c415b48ef267bf9e36b555be67d9" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;email_attachment_missing&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Unable<sp/>to<sp/>locate<sp/>the<sp/>following<sp/>email<sp/>attachment:<sp/>%s&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="6" refid="email__lang_8php_1acae2e9f7ade1ac9c6b67db0ff752414e" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;email_attachment_unreadable&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Unable<sp/>to<sp/>open<sp/>this<sp/>attachment:<sp/>%s&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="7" refid="email__lang_8php_1a8f9d5a049f4dd899d4e61f6d56be5071" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;email_no_recipients&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;You<sp/>must<sp/>include<sp/>recipients:<sp/>To,<sp/>Cc,<sp/>or<sp/>Bcc&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="8" refid="email__lang_8php_1a99a2ce89426340b4c96a245b7874a99d" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;email_send_failure_phpmail&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Unable<sp/>to<sp/>send<sp/>email<sp/>using<sp/>PHP<sp/>mail().<sp/><sp/>Your<sp/>server<sp/>might<sp/>not<sp/>be<sp/>configured<sp/>to<sp/>send<sp/>mail<sp/>using<sp/>this<sp/>method.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="9" refid="email__lang_8php_1a0cfda188d86472ad2f3b96a67de75b4d" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;email_send_failure_sendmail&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Unable<sp/>to<sp/>send<sp/>email<sp/>using<sp/>PHP<sp/>Sendmail.<sp/><sp/>Your<sp/>server<sp/>might<sp/>not<sp/>be<sp/>configured<sp/>to<sp/>send<sp/>mail<sp/>using<sp/>this<sp/>method.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="10" refid="email__lang_8php_1a37e19fc7057ba5d5300dd3e83cefc5a2" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;email_send_failure_smtp&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Unable<sp/>to<sp/>send<sp/>email<sp/>using<sp/>PHP<sp/>SMTP.<sp/><sp/>Your<sp/>server<sp/>might<sp/>not<sp/>be<sp/>configured<sp/>to<sp/>send<sp/>mail<sp/>using<sp/>this<sp/>method.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="11" refid="email__lang_8php_1a7e5c67019fdffb596af1af5a94247ba9" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;email_sent&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Your<sp/>message<sp/>has<sp/>been<sp/>successfully<sp/>sent<sp/>using<sp/>the<sp/>following<sp/>protocol:<sp/>%s&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="12" refid="email__lang_8php_1a78f8be783ca93e91af775994ddc87cb7" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;email_no_socket&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Unable<sp/>to<sp/>open<sp/>a<sp/>socket<sp/>to<sp/>Sendmail.<sp/>Please<sp/>check<sp/>settings.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="13" refid="email__lang_8php_1a03905b414e05a5d3cfd0fe88868615f5" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;email_no_hostname&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;You<sp/>did<sp/>not<sp/>specify<sp/>a<sp/>SMTP<sp/>hostname.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="14" refid="email__lang_8php_1a3d70a704117491053ad9c0b4065ecd3f" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;email_smtp_error&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;The<sp/>following<sp/>SMTP<sp/>error<sp/>was<sp/>encountered:<sp/>%s&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="15" refid="email__lang_8php_1a268c3e96fea16a903e7488f03960e89a" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;email_no_smtp_unpw&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Error:<sp/>You<sp/>must<sp/>assign<sp/>a<sp/>SMTP<sp/>username<sp/>and<sp/>password.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="16" refid="email__lang_8php_1a791781c2fd1bd8ec87158be649519621" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;email_failed_smtp_login&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Failed<sp/>to<sp/>send<sp/>AUTH<sp/>LOGIN<sp/>command.<sp/>Error:<sp/>%s&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="17" refid="email__lang_8php_1a69f2fa5072f039936748571ea5cc9cba" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;email_smtp_auth_un&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Failed<sp/>to<sp/>authenticate<sp/>username.<sp/>Error:<sp/>%s&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="18" refid="email__lang_8php_1a09fd123f0d251a8eac845f985c6583c3" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;email_smtp_auth_pw&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Failed<sp/>to<sp/>authenticate<sp/>password.<sp/>Error:<sp/>%s&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="19" refid="email__lang_8php_1a59801e23c2d745400384098c7bf0a6dc" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;email_smtp_data_failure&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Unable<sp/>to<sp/>send<sp/>data:<sp/>%s&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="20" refid="email__lang_8php_1a32b0c2f50acd03defc88df937ee2877f" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;email_exit_status&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Exit<sp/>status<sp/>code:<sp/>%s&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>End<sp/>of<sp/>file<sp/>email_lang.php<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Location:<sp/>./system/language/english/email_lang.php<sp/>*/</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/email_lang.php"/>
+  </compounddef>
+</doxygen>

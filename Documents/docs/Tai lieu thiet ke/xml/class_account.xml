@@ -1,0 +1,245 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_account" kind="class" prot="public">
+    <compoundname>Account</compoundname>
+    <basecompoundref refid="class_frontend___controller" prot="public" virt="non-virtual">Frontend_Controller</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_account_1a3963dc3099ff02e3c76bbdde93210dce" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$__data</definition>
+        <argsstring></argsstring>
+        <name>$__data</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/controllers/account.php" line="5" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/controllers/account.php" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_account_1a095c5d389db211932136b53f25f39685" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>()</argsstring>
+        <name>__construct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/controllers/account.php" line="7" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/controllers/account.php" bodystart="7" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_account_1a149eb92716c1084a935e04a8d95f7347" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>index</definition>
+        <argsstring>()</argsstring>
+        <name>index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/controllers/account.php" line="20" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/controllers/account.php" bodystart="20" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_account_1aa311da27ba5706f5710cea7706c8eae1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>login</definition>
+        <argsstring>()</argsstring>
+        <name>login</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/controllers/account.php" line="30" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/controllers/account.php" bodystart="30" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_account_1ab8e90adf3e4b15eea283c4ea450a4288" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>checkLogin</definition>
+        <argsstring>()</argsstring>
+        <name>checkLogin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/controllers/account.php" line="44" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/controllers/account.php" bodystart="44" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_account_1a082405d89acd6835c3a7c7a08a7adbab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>logout</definition>
+        <argsstring>()</argsstring>
+        <name>logout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/controllers/account.php" line="76" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/controllers/account.php" bodystart="76" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_account_1acc294a6cc8e69743746820e3d15e3f78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>register</definition>
+        <argsstring>()</argsstring>
+        <name>register</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/controllers/account.php" line="89" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/controllers/account.php" bodystart="89" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="class_account_1a75c5d0ba8cf46e01803fe73377c0b568" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>checkSignUp</definition>
+        <argsstring>()</argsstring>
+        <name>checkSignUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/controllers/account.php" line="103" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/controllers/account.php" bodystart="103" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="class_account_1a40cddf2c3aea991cb779c7f3fd6a7686" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>info</definition>
+        <argsstring>($user= &apos;&apos;, $page=1)</argsstring>
+        <name>info</name>
+        <param>
+          <declname>$user</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$page</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/controllers/account.php" line="157" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/controllers/account.php" bodystart="157" bodyend="196"/>
+      </memberdef>
+      <memberdef kind="function" id="class_account_1a5ade88a6ff0b0fa866339dd9fcf86d4a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>changeInfo</definition>
+        <argsstring>()</argsstring>
+        <name>changeInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/controllers/account.php" line="204" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/controllers/account.php" bodystart="204" bodyend="211"/>
+      </memberdef>
+      <memberdef kind="function" id="class_account_1a01aa29b5aadaccb912fc21772a3b0154" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>changePass</definition>
+        <argsstring>()</argsstring>
+        <name>changePass</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/controllers/account.php" line="219" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/controllers/account.php" bodystart="219" bodyend="226"/>
+      </memberdef>
+      <memberdef kind="function" id="class_account_1a47ffb5f0d2928b065a2380d697178e72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>changePassAjax</definition>
+        <argsstring>()</argsstring>
+        <name>changePassAjax</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/controllers/account.php" line="234" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/controllers/account.php" bodystart="234" bodyend="271"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>CI_Controller</label>
+        <link refid="class_c_i___controller"/>
+      </node>
+      <node id="2">
+        <label>MY_Controller</label>
+        <link refid="class_m_y___controller"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Frontend_Controller</label>
+        <link refid="class_frontend___controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="0">
+        <label>Account</label>
+        <link refid="class_account"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="7">
+        <label>CI_Controller</label>
+        <link refid="class_c_i___controller"/>
+      </node>
+      <node id="6">
+        <label>MY_Controller</label>
+        <link refid="class_m_y___controller"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Frontend_Controller</label>
+        <link refid="class_frontend___controller"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Account</label>
+        <link refid="class_account"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/controllers/account.php" line="3" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/controllers/account.php" bodystart="3" bodyend="272"/>
+    <listofallmembers>
+      <member refid="class_account_1a3963dc3099ff02e3c76bbdde93210dce" prot="private" virt="non-virtual"><scope>Account</scope><name>$__data</name></member>
+      <member refid="class_m_y___controller_1a6efc15b5a2314dd4b5aaa556a375c6d6" prot="public" virt="non-virtual"><scope>Account</scope><name>$data</name></member>
+      <member refid="class_account_1a095c5d389db211932136b53f25f39685" prot="public" virt="non-virtual"><scope>Account</scope><name>__construct</name></member>
+      <member refid="class_account_1a5ade88a6ff0b0fa866339dd9fcf86d4a" prot="public" virt="non-virtual"><scope>Account</scope><name>changeInfo</name></member>
+      <member refid="class_account_1a01aa29b5aadaccb912fc21772a3b0154" prot="public" virt="non-virtual"><scope>Account</scope><name>changePass</name></member>
+      <member refid="class_account_1a47ffb5f0d2928b065a2380d697178e72" prot="public" virt="non-virtual"><scope>Account</scope><name>changePassAjax</name></member>
+      <member refid="class_account_1ab8e90adf3e4b15eea283c4ea450a4288" prot="public" virt="non-virtual"><scope>Account</scope><name>checkLogin</name></member>
+      <member refid="class_account_1a75c5d0ba8cf46e01803fe73377c0b568" prot="public" virt="non-virtual"><scope>Account</scope><name>checkSignUp</name></member>
+      <member refid="class_c_i___controller_1a8d3cc57e7b6ec94e704712b0f277f5bb" prot="public" virt="non-virtual"><scope>Account</scope><name>get_instance</name></member>
+      <member refid="class_account_1a149eb92716c1084a935e04a8d95f7347" prot="public" virt="non-virtual"><scope>Account</scope><name>index</name></member>
+      <member refid="class_account_1a40cddf2c3aea991cb779c7f3fd6a7686" prot="public" virt="non-virtual"><scope>Account</scope><name>info</name></member>
+      <member refid="class_account_1aa311da27ba5706f5710cea7706c8eae1" prot="public" virt="non-virtual"><scope>Account</scope><name>login</name></member>
+      <member refid="class_account_1a082405d89acd6835c3a7c7a08a7adbab" prot="public" virt="non-virtual"><scope>Account</scope><name>logout</name></member>
+      <member refid="class_account_1acc294a6cc8e69743746820e3d15e3f78" prot="public" virt="non-virtual"><scope>Account</scope><name>register</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

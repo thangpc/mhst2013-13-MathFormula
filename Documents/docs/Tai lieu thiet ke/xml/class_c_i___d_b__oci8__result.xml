@@ -1,0 +1,246 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_c_i___d_b__oci8__result" kind="class" prot="public">
+    <compoundname>CI_DB_oci8_result</compoundname>
+    <basecompoundref refid="class_c_i___d_b__result" prot="public" virt="non-virtual">CI_DB_result</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_c_i___d_b__oci8__result_1a1a97f17fd259cd27c73b65e6c3706ec0" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$stmt_id</definition>
+        <argsstring></argsstring>
+        <name>$stmt_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_result.php" line="29" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_result.php" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___d_b__oci8__result_1a75e7d18ad2e68ace3813533c9da2e179" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$curs_id</definition>
+        <argsstring></argsstring>
+        <name>$curs_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_result.php" line="30" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_result.php" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___d_b__oci8__result_1a96df35d7e3e76bef21ebb80234fe59e8" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$limit_used</definition>
+        <argsstring></argsstring>
+        <name>$limit_used</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_result.php" line="31" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_result.php" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_i___d_b__oci8__result_1a218657c303ee499b97710ab0cd2f5d6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>num_rows</definition>
+        <argsstring>()</argsstring>
+        <name>num_rows</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Number of rows in the result set.</para><para>Oracle doesn&apos;t have a graceful way to retun the number of rows so we have to use what amounts to a hack.</para><para><simplesect kind="return"><para>integer </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_result.php" line="41" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_result.php" bodystart="41" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__oci8__result_1af831bf363e4d7d661a717a4932af449d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>num_fields</definition>
+        <argsstring>()</argsstring>
+        <name>num_fields</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Number of fields in the result set</para><para>public <simplesect kind="return"><para>integer </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_result.php" line="65" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_result.php" bodystart="65" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__oci8__result_1a50b54eb4ea7cfd039740f532988ea776" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>list_fields</definition>
+        <argsstring>()</argsstring>
+        <name>list_fields</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fetch Field Names</para><para>Generates an array of column names</para><para>public <simplesect kind="return"><para>array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_result.php" line="88" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_result.php" bodystart="88" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__oci8__result_1a84bffd65e53902ade1591716749a33e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>field_data</definition>
+        <argsstring>()</argsstring>
+        <name>field_data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Field data</para><para>Generates an array of objects containing field meta-data</para><para>public <simplesect kind="return"><para>array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_result.php" line="108" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_result.php" bodystart="108" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__oci8__result_1aad2d98d6beb3d6095405356c6107b473" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>free_result</definition>
+        <argsstring>()</argsstring>
+        <name>free_result</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Free the result</para><para><simplesect kind="return"><para>null </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_result.php" line="131" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_result.php" bodystart="131" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__oci8__result_1a444f7dd61bfbe3931a7188adad61feae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>result_array</definition>
+        <argsstring>()</argsstring>
+        <name>result_array</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Query result. &quot;array&quot; version.</para><para>public <simplesect kind="return"><para>array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_result.php" line="180" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_result.php" bodystart="180" bodyend="194"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_c_i___d_b__oci8__result_1a43a9a92817f1334a1c10752ec44275a0" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_fetch_assoc</definition>
+        <argsstring>()</argsstring>
+        <name>_fetch_assoc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Result - associative array</para><para>Returns the result set as an array</para><para>protected <simplesect kind="return"><para>array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_result.php" line="150" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_result.php" bodystart="150" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__oci8__result_1a236bae79bb43606aa86598719b281c1f" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_fetch_object</definition>
+        <argsstring>()</argsstring>
+        <name>_fetch_object</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Result - object</para><para>Returns the result set as an object</para><para>protected <simplesect kind="return"><para>object </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_result.php" line="166" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_result.php" bodystart="166" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__oci8__result_1aeba9dd69307793342d1c81ccb3e55ff9" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_data_seek</definition>
+        <argsstring>($n=0)</argsstring>
+        <name>_data_seek</name>
+        <param>
+          <declname>$n</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Data Seek</para><para>Moves the internal pointer to the desired offset. We call this internally before fetching results to make sure the result set starts at zero</para><para>protected <simplesect kind="return"><para>array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_result.php" line="208" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_result.php" bodystart="208" bodyend="211"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="169">
+        <label>CI_DB_result</label>
+        <link refid="class_c_i___d_b__result"/>
+      </node>
+      <node id="168">
+        <label>CI_DB_oci8_result</label>
+        <link refid="class_c_i___d_b__oci8__result"/>
+        <childnode refid="169" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="171">
+        <label>CI_DB_result</label>
+        <link refid="class_c_i___d_b__result"/>
+      </node>
+      <node id="170">
+        <label>CI_DB_oci8_result</label>
+        <link refid="class_c_i___d_b__oci8__result"/>
+        <childnode refid="171" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_result.php" line="27" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/drivers/oci8/oci8_result.php" bodystart="27" bodyend="213"/>
+    <listofallmembers>
+      <member refid="class_c_i___d_b__result_1a16c23f1dcbfed2f2759f5e54f604106d" prot="public" virt="non-virtual"><scope>CI_DB_oci8_result</scope><name>$conn_id</name></member>
+      <member refid="class_c_i___d_b__result_1a2ec3a266ee95cda75cdbb71bc9ee1b53" prot="public" virt="non-virtual"><scope>CI_DB_oci8_result</scope><name>$current_row</name></member>
+      <member refid="class_c_i___d_b__oci8__result_1a75e7d18ad2e68ace3813533c9da2e179" prot="public" virt="non-virtual"><scope>CI_DB_oci8_result</scope><name>$curs_id</name></member>
+      <member refid="class_c_i___d_b__result_1a680c2e11eeb189d9bb8ba2a552766b7b" prot="public" virt="non-virtual"><scope>CI_DB_oci8_result</scope><name>$custom_result_object</name></member>
+      <member refid="class_c_i___d_b__oci8__result_1a96df35d7e3e76bef21ebb80234fe59e8" prot="public" virt="non-virtual"><scope>CI_DB_oci8_result</scope><name>$limit_used</name></member>
+      <member refid="class_c_i___d_b__result_1ac926549b713e71c5f5fd63999cebfb8c" prot="public" virt="non-virtual"><scope>CI_DB_oci8_result</scope><name>$num_rows</name></member>
+      <member refid="class_c_i___d_b__result_1a153392b3ec395131d32c70cda855698e" prot="public" virt="non-virtual"><scope>CI_DB_oci8_result</scope><name>$result_array</name></member>
+      <member refid="class_c_i___d_b__result_1a0ebacb40e3b6f8bf33d3de0f2cc71474" prot="public" virt="non-virtual"><scope>CI_DB_oci8_result</scope><name>$result_id</name></member>
+      <member refid="class_c_i___d_b__result_1aa292cbb3dbb8c654cb4f6c61f250efd3" prot="public" virt="non-virtual"><scope>CI_DB_oci8_result</scope><name>$result_object</name></member>
+      <member refid="class_c_i___d_b__result_1a335b4c27a1529df9e484e044e470ec07" prot="public" virt="non-virtual"><scope>CI_DB_oci8_result</scope><name>$row_data</name></member>
+      <member refid="class_c_i___d_b__oci8__result_1a1a97f17fd259cd27c73b65e6c3706ec0" prot="public" virt="non-virtual"><scope>CI_DB_oci8_result</scope><name>$stmt_id</name></member>
+      <member refid="class_c_i___d_b__oci8__result_1aeba9dd69307793342d1c81ccb3e55ff9" prot="protected" virt="non-virtual"><scope>CI_DB_oci8_result</scope><name>_data_seek</name></member>
+      <member refid="class_c_i___d_b__result_1aa673adfa89de7d7b21c1f87624496f37" prot="protected" virt="non-virtual" ambiguityscope="CI_DB_result::"><scope>CI_DB_oci8_result</scope><name>_data_seek</name></member>
+      <member refid="class_c_i___d_b__oci8__result_1a43a9a92817f1334a1c10752ec44275a0" prot="protected" virt="non-virtual"><scope>CI_DB_oci8_result</scope><name>_fetch_assoc</name></member>
+      <member refid="class_c_i___d_b__oci8__result_1a236bae79bb43606aa86598719b281c1f" prot="protected" virt="non-virtual"><scope>CI_DB_oci8_result</scope><name>_fetch_object</name></member>
+      <member refid="class_c_i___d_b__result_1a5ac3523f878efb629fae30a7d9156e77" prot="public" virt="non-virtual"><scope>CI_DB_oci8_result</scope><name>custom_result_object</name></member>
+      <member refid="class_c_i___d_b__result_1a223538c34395626655fd483f3a55e653" prot="public" virt="non-virtual"><scope>CI_DB_oci8_result</scope><name>custom_row_object</name></member>
+      <member refid="class_c_i___d_b__oci8__result_1a84bffd65e53902ade1591716749a33e3" prot="public" virt="non-virtual"><scope>CI_DB_oci8_result</scope><name>field_data</name></member>
+      <member refid="class_c_i___d_b__result_1ab17d02e3b1f6d64f9cff8392b90775db" prot="public" virt="non-virtual"><scope>CI_DB_oci8_result</scope><name>first_row</name></member>
+      <member refid="class_c_i___d_b__oci8__result_1aad2d98d6beb3d6095405356c6107b473" prot="public" virt="non-virtual"><scope>CI_DB_oci8_result</scope><name>free_result</name></member>
+      <member refid="class_c_i___d_b__result_1a40968b12597461279cc2f7b3653d01fb" prot="public" virt="non-virtual"><scope>CI_DB_oci8_result</scope><name>last_row</name></member>
+      <member refid="class_c_i___d_b__oci8__result_1a50b54eb4ea7cfd039740f532988ea776" prot="public" virt="non-virtual"><scope>CI_DB_oci8_result</scope><name>list_fields</name></member>
+      <member refid="class_c_i___d_b__result_1a2f889a20a40a759eae8da377a5a7e95d" prot="public" virt="non-virtual"><scope>CI_DB_oci8_result</scope><name>next_row</name></member>
+      <member refid="class_c_i___d_b__oci8__result_1af831bf363e4d7d661a717a4932af449d" prot="public" virt="non-virtual"><scope>CI_DB_oci8_result</scope><name>num_fields</name></member>
+      <member refid="class_c_i___d_b__oci8__result_1a218657c303ee499b97710ab0cd2f5d6e" prot="public" virt="non-virtual"><scope>CI_DB_oci8_result</scope><name>num_rows</name></member>
+      <member refid="class_c_i___d_b__result_1a82714fea11fb63d96343d164f3a536b7" prot="public" virt="non-virtual"><scope>CI_DB_oci8_result</scope><name>previous_row</name></member>
+      <member refid="class_c_i___d_b__result_1a00c60026ca0f661ad05ccbea453e2a70" prot="public" virt="non-virtual"><scope>CI_DB_oci8_result</scope><name>result</name></member>
+      <member refid="class_c_i___d_b__oci8__result_1a444f7dd61bfbe3931a7188adad61feae" prot="public" virt="non-virtual"><scope>CI_DB_oci8_result</scope><name>result_array</name></member>
+      <member refid="class_c_i___d_b__result_1a266a17f340dab35b8f2858931ff772a2" prot="public" virt="non-virtual"><scope>CI_DB_oci8_result</scope><name>result_object</name></member>
+      <member refid="class_c_i___d_b__result_1ae24a9cbcd70e2e547fbb1465ad35c597" prot="public" virt="non-virtual"><scope>CI_DB_oci8_result</scope><name>row</name></member>
+      <member refid="class_c_i___d_b__result_1a8dbff471ffdaf617d49189f8636e4f81" prot="public" virt="non-virtual"><scope>CI_DB_oci8_result</scope><name>row_array</name></member>
+      <member refid="class_c_i___d_b__result_1a0bd3520c57f5cb192bdfaeed1f597c0a" prot="public" virt="non-virtual"><scope>CI_DB_oci8_result</scope><name>row_object</name></member>
+      <member refid="class_c_i___d_b__result_1a77628e90fac65184ec9f583e7c30a48a" prot="public" virt="non-virtual"><scope>CI_DB_oci8_result</scope><name>set_row</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

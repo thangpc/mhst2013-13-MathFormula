@@ -1,0 +1,822 @@
+\hypertarget{class_c_i___d_b__pdo__driver}{\section{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver Class Reference}
+\label{class_c_i___d_b__pdo__driver}\index{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}}
+}
+Inheritance diagram for C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_c_i___d_b__pdo__driver}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_c_i___d_b__pdo__driver_a9162320adff1a1a4afd7f2372f753a3e}{\-\_\-\-\_\-construct} (\$params)
+\item 
+\hyperlink{class_c_i___d_b__pdo__driver_a6aa545dcb7768f0b62d37cdcf7f09adc}{db\-\_\-connect} ()
+\item 
+\hyperlink{class_c_i___d_b__pdo__driver_a0f69e662bd02de5bcf98647068e7c653}{db\-\_\-pconnect} ()
+\item 
+\hyperlink{class_c_i___d_b__pdo__driver_a57c19c642ab3023e28d10c50f86ff0a8}{reconnect} ()
+\item 
+\hyperlink{class_c_i___d_b__pdo__driver_af0c7f2602586ea2050b19fb36baefb24}{db\-\_\-select} ()
+\item 
+\hyperlink{class_c_i___d_b__pdo__driver_adc8cd12121dc8edda3adcadd88a97e24}{db\-\_\-set\-\_\-charset} (\$charset, \$collation)
+\item 
+\hyperlink{class_c_i___d_b__pdo__driver_ac997a462bb342f97f414910f0e033fb6}{\-\_\-version} ()
+\item 
+\hyperlink{class_c_i___d_b__pdo__driver_a114ab675d89bf8324a41785fb475e86d}{\-\_\-execute} (\$sql)
+\item 
+\hyperlink{class_c_i___d_b__pdo__driver_a86af88ef0fa6d44ab4691e3f53270339}{\-\_\-prep\-\_\-query} (\$sql)
+\item 
+\hyperlink{class_c_i___d_b__pdo__driver_a90e153cf190d273336d77cce930587e1}{trans\-\_\-begin} (\$test\-\_\-mode=F\-A\-L\-S\-E)
+\item 
+\hyperlink{class_c_i___d_b__pdo__driver_af4fbdcdace4aa94a139b64877601fe9b}{trans\-\_\-commit} ()
+\item 
+\hyperlink{class_c_i___d_b__pdo__driver_a53f76d4dfcd6ac04fb653982442aeef8}{trans\-\_\-rollback} ()
+\item 
+\hyperlink{class_c_i___d_b__pdo__driver_aaba16891c8c93600a87075800cc5b72b}{escape\-\_\-str} (\$str, \$like=F\-A\-L\-S\-E)
+\item 
+\hyperlink{class_c_i___d_b__pdo__driver_a77248aaad33eb132c04cc4aa3f4bc8cb}{affected\-\_\-rows} ()
+\item 
+\hyperlink{class_c_i___d_b__pdo__driver_ae61dc2c85e5516f143f6246c686bc3fc}{insert\-\_\-id} (\$name=N\-U\-L\-L)
+\item 
+\hyperlink{class_c_i___d_b__pdo__driver_a66111c61856499b091af32502978d4fc}{count\-\_\-all} (\$table= '')
+\item 
+\hyperlink{class_c_i___d_b__pdo__driver_a435c0f3ce54fe7daa178baa8532ebd54}{\-\_\-list\-\_\-tables} (\$prefix\-\_\-limit=F\-A\-L\-S\-E)
+\item 
+\hyperlink{class_c_i___d_b__pdo__driver_a2a81bb476a5c76fe6f763b0557c1e4c2}{\-\_\-list\-\_\-columns} (\$table= '')
+\item 
+\hyperlink{class_c_i___d_b__pdo__driver_a95247d9671893adc3444cb184ad32ea1}{\-\_\-field\-\_\-data} (\$table)
+\item 
+\hyperlink{class_c_i___d_b__pdo__driver_a4ca764fe1d6ad526f770f36b5f332bbb}{\-\_\-error\-\_\-message} ()
+\item 
+\hyperlink{class_c_i___d_b__pdo__driver_a3e48199b3a946499b7e5fba0cdfa6b86}{\-\_\-error\-\_\-number} ()
+\item 
+\hyperlink{class_c_i___d_b__pdo__driver_aeabfb3952399caa92a013621a98e3042}{\-\_\-escape\-\_\-identifiers} (\$item)
+\item 
+\hyperlink{class_c_i___d_b__pdo__driver_a885a8b4372b5c099749cefa73767a744}{\-\_\-from\-\_\-tables} (\$tables)
+\item 
+\hyperlink{class_c_i___d_b__pdo__driver_a69ee76b136052e0a8f06097fb388e53e}{\-\_\-insert} (\$table, \$keys, \$values)
+\item 
+\hyperlink{class_c_i___d_b__pdo__driver_a1978e1358c812587a46e242630365099}{\-\_\-insert\-\_\-batch} (\$table, \$keys, \$values)
+\item 
+\hyperlink{class_c_i___d_b__pdo__driver_ae869ae2275175c5ffa22816a02099d96}{\-\_\-update} (\$table, \$values, \$where, \$orderby=array(), \$limit=F\-A\-L\-S\-E)
+\item 
+\hyperlink{class_c_i___d_b__pdo__driver_acdcbd5642090362dfe49120a222670b9}{\-\_\-update\-\_\-batch} (\$table, \$values, \$index, \$where=N\-U\-L\-L)
+\item 
+\hyperlink{class_c_i___d_b__pdo__driver_aa029600528fc1ce660a23ff4b4667f95}{\-\_\-truncate} (\$table)
+\item 
+\hyperlink{class_c_i___d_b__pdo__driver_ace3cbc04a520b7811fc956cdb9ae1c19}{\-\_\-delete} (\$table, \$where=array(), \$like=array(), \$limit=F\-A\-L\-S\-E)
+\item 
+\hyperlink{class_c_i___d_b__pdo__driver_aeeaa5cd68dc6ace010c0b8aae89c2d15}{\-\_\-limit} (\$sql, \$limit, \$offset)
+\item 
+\hyperlink{class_c_i___d_b__pdo__driver_a557bd6ddde8de1f7814e10b1120efd29}{\-\_\-close} (\$conn\-\_\-id)
+\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_c_i___d_b__pdo__driver_a0cde2a16322a023d040aa7f725877597}{\$dbdriver} = 'pdo'
+\item 
+\hyperlink{class_c_i___d_b__pdo__driver_aaec2fb0112850159063a8e47ad3aed6e}{\$\-\_\-escape\-\_\-char} = ''
+\item 
+\hyperlink{class_c_i___d_b__pdo__driver_adf86ecadf3d0e1ce3f5e0eaeeb3867ae}{\$\-\_\-like\-\_\-escape\-\_\-str}
+\item 
+\hyperlink{class_c_i___d_b__pdo__driver_a668acfd923d0342389cd3a614628cf2a}{\$\-\_\-like\-\_\-escape\-\_\-chr}
+\item 
+\hyperlink{class_c_i___d_b__pdo__driver_a06c80bac2ecbd0557827e96949c23097}{\$\-\_\-count\-\_\-string} = \char`\"{}S\-E\-L\-E\-C\-T C\-O\-U\-N\-T($\ast$) A\-S \char`\"{}
+\item 
+\hyperlink{class_c_i___d_b__pdo__driver_a10213aa6e05f6d924d3277bb1d2fea00}{\$\-\_\-random\-\_\-keyword}
+\item 
+\hyperlink{class_c_i___d_b__pdo__driver_a011800c63ece4cbbfa77136a20607023}{\$options} = array()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 31 of file pdo\-\_\-driver.\-php.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_c_i___d_b__pdo__driver_a9162320adff1a1a4afd7f2372f753a3e}{\index{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}!\-\_\-\-\_\-construct@{\-\_\-\-\_\-construct}}
+\index{\-\_\-\-\_\-construct@{\-\_\-\-\_\-construct}!CI_DB_pdo_driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}}
+\subsubsection[{\-\_\-\-\_\-construct}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-\-\_\-construct (
+\begin{DoxyParamCaption}
+\item[{}]{\$params}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__pdo__driver_a9162320adff1a1a4afd7f2372f753a3e}
+
+
+Definition at line 51 of file pdo\-\_\-driver.\-php.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_c_i___d_b__pdo__driver_a557bd6ddde8de1f7814e10b1120efd29}{\index{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}!\-\_\-close@{\-\_\-close}}
+\index{\-\_\-close@{\-\_\-close}!CI_DB_pdo_driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}}
+\subsubsection[{\-\_\-close}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-close (
+\begin{DoxyParamCaption}
+\item[{}]{\$conn\-\_\-id}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__pdo__driver_a557bd6ddde8de1f7814e10b1120efd29}
+Close D\-B Connection
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em resource} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 801 of file pdo\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__pdo__driver_ace3cbc04a520b7811fc956cdb9ae1c19}{\index{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}!\-\_\-delete@{\-\_\-delete}}
+\index{\-\_\-delete@{\-\_\-delete}!CI_DB_pdo_driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}}
+\subsubsection[{\-\_\-delete}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-delete (
+\begin{DoxyParamCaption}
+\item[{}]{\$table, }
+\item[{}]{\$where = {\ttfamily array()}, }
+\item[{}]{\$like = {\ttfamily array()}, }
+\item[{}]{\$limit = {\ttfamily FALSE}}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__pdo__driver_ace3cbc04a520b7811fc956cdb9ae1c19}
+Delete statement
+
+Generates a platform-\/specific delete string from the supplied data
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & the table name \\
+\hline
+{\em array} & the where clause \\
+\hline
+{\em string} & the limit clause \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 730 of file pdo\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__pdo__driver_a4ca764fe1d6ad526f770f36b5f332bbb}{\index{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}!\-\_\-error\-\_\-message@{\-\_\-error\-\_\-message}}
+\index{\-\_\-error\-\_\-message@{\-\_\-error\-\_\-message}!CI_DB_pdo_driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}}
+\subsubsection[{\-\_\-error\-\_\-message}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-error\-\_\-message (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__pdo__driver_a4ca764fe1d6ad526f770f36b5f332bbb}
+The error message string
+
+private \begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 491 of file pdo\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__pdo__driver_a3e48199b3a946499b7e5fba0cdfa6b86}{\index{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}!\-\_\-error\-\_\-number@{\-\_\-error\-\_\-number}}
+\index{\-\_\-error\-\_\-number@{\-\_\-error\-\_\-number}!CI_DB_pdo_driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}}
+\subsubsection[{\-\_\-error\-\_\-number}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-error\-\_\-number (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__pdo__driver_a3e48199b3a946499b7e5fba0cdfa6b86}
+The error message number
+
+private \begin{DoxyReturn}{Returns}
+integer 
+\end{DoxyReturn}
+
+
+Definition at line 505 of file pdo\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__pdo__driver_aeabfb3952399caa92a013621a98e3042}{\index{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}!\-\_\-escape\-\_\-identifiers@{\-\_\-escape\-\_\-identifiers}}
+\index{\-\_\-escape\-\_\-identifiers@{\-\_\-escape\-\_\-identifiers}!CI_DB_pdo_driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}}
+\subsubsection[{\-\_\-escape\-\_\-identifiers}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-escape\-\_\-identifiers (
+\begin{DoxyParamCaption}
+\item[{}]{\$item}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__pdo__driver_aeabfb3952399caa92a013621a98e3042}
+Escape the S\-Q\-L Identifiers
+
+This function escapes column and table names
+
+private 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 521 of file pdo\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__pdo__driver_a114ab675d89bf8324a41785fb475e86d}{\index{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}!\-\_\-execute@{\-\_\-execute}}
+\index{\-\_\-execute@{\-\_\-execute}!CI_DB_pdo_driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}}
+\subsubsection[{\-\_\-execute}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-execute (
+\begin{DoxyParamCaption}
+\item[{}]{\$sql}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__pdo__driver_a114ab675d89bf8324a41785fb475e86d}
+Execute the query
+
+private called by the base class 
+\begin{DoxyParams}{Parameters}
+{\em string} & an S\-Q\-L query \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+object 
+\end{DoxyReturn}
+
+
+Definition at line 189 of file pdo\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__pdo__driver_a95247d9671893adc3444cb184ad32ea1}{\index{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}!\-\_\-field\-\_\-data@{\-\_\-field\-\_\-data}}
+\index{\-\_\-field\-\_\-data@{\-\_\-field\-\_\-data}!CI_DB_pdo_driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}}
+\subsubsection[{\-\_\-field\-\_\-data}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-field\-\_\-data (
+\begin{DoxyParamCaption}
+\item[{}]{\$table}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__pdo__driver_a95247d9671893adc3444cb184ad32ea1}
+Field data query
+
+Generates a platform-\/specific query so that the column data can be retrieved
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & the table name \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+object 
+\end{DoxyReturn}
+
+
+Definition at line 478 of file pdo\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__pdo__driver_a885a8b4372b5c099749cefa73767a744}{\index{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}!\-\_\-from\-\_\-tables@{\-\_\-from\-\_\-tables}}
+\index{\-\_\-from\-\_\-tables@{\-\_\-from\-\_\-tables}!CI_DB_pdo_driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}}
+\subsubsection[{\-\_\-from\-\_\-tables}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-from\-\_\-tables (
+\begin{DoxyParamCaption}
+\item[{}]{\$tables}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__pdo__driver_a885a8b4372b5c099749cefa73767a744}
+From Tables
+
+This function implicitly groups F\-R\-O\-M tables so there is no confusion about operator precedence in harmony with S\-Q\-L standards
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em type} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+type 
+\end{DoxyReturn}
+
+
+Definition at line 565 of file pdo\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__pdo__driver_a69ee76b136052e0a8f06097fb388e53e}{\index{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}!\-\_\-insert@{\-\_\-insert}}
+\index{\-\_\-insert@{\-\_\-insert}!CI_DB_pdo_driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}}
+\subsubsection[{\-\_\-insert}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-insert (
+\begin{DoxyParamCaption}
+\item[{}]{\$table, }
+\item[{}]{\$keys, }
+\item[{}]{\$values}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__pdo__driver_a69ee76b136052e0a8f06097fb388e53e}
+Insert statement
+
+Generates a platform-\/specific insert string from the supplied data
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & the table name \\
+\hline
+{\em array} & the insert keys \\
+\hline
+{\em array} & the insert values \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 588 of file pdo\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__pdo__driver_a1978e1358c812587a46e242630365099}{\index{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}!\-\_\-insert\-\_\-batch@{\-\_\-insert\-\_\-batch}}
+\index{\-\_\-insert\-\_\-batch@{\-\_\-insert\-\_\-batch}!CI_DB_pdo_driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}}
+\subsubsection[{\-\_\-insert\-\_\-batch}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-insert\-\_\-batch (
+\begin{DoxyParamCaption}
+\item[{}]{\$table, }
+\item[{}]{\$keys, }
+\item[{}]{\$values}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__pdo__driver_a1978e1358c812587a46e242630365099}
+Insert\-\_\-batch statement
+
+Generates a platform-\/specific insert string from the supplied data
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & the table name \\
+\hline
+{\em array} & the insert keys \\
+\hline
+{\em array} & the insert values \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 606 of file pdo\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__pdo__driver_aeeaa5cd68dc6ace010c0b8aae89c2d15}{\index{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}!\-\_\-limit@{\-\_\-limit}}
+\index{\-\_\-limit@{\-\_\-limit}!CI_DB_pdo_driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}}
+\subsubsection[{\-\_\-limit}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-limit (
+\begin{DoxyParamCaption}
+\item[{}]{\$sql, }
+\item[{}]{\$limit, }
+\item[{}]{\$offset}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__pdo__driver_aeeaa5cd68dc6ace010c0b8aae89c2d15}
+Limit string
+
+Generates a platform-\/specific L\-I\-M\-I\-T clause
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & the sql query string \\
+\hline
+{\em integer} & the number of rows to limit the query to \\
+\hline
+{\em integer} & the offset value \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 764 of file pdo\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__pdo__driver_a2a81bb476a5c76fe6f763b0557c1e4c2}{\index{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}!\-\_\-list\-\_\-columns@{\-\_\-list\-\_\-columns}}
+\index{\-\_\-list\-\_\-columns@{\-\_\-list\-\_\-columns}!CI_DB_pdo_driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}}
+\subsubsection[{\-\_\-list\-\_\-columns}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-list\-\_\-columns (
+\begin{DoxyParamCaption}
+\item[{}]{\$table = {\ttfamily ''}}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__pdo__driver_a2a81bb476a5c76fe6f763b0557c1e4c2}
+Show column query
+
+Generates a platform-\/specific query string so that the column names can be fetched
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & the table name \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 462 of file pdo\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__pdo__driver_a435c0f3ce54fe7daa178baa8532ebd54}{\index{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}!\-\_\-list\-\_\-tables@{\-\_\-list\-\_\-tables}}
+\index{\-\_\-list\-\_\-tables@{\-\_\-list\-\_\-tables}!CI_DB_pdo_driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}}
+\subsubsection[{\-\_\-list\-\_\-tables}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-list\-\_\-tables (
+\begin{DoxyParamCaption}
+\item[{}]{\$prefix\-\_\-limit = {\ttfamily FALSE}}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__pdo__driver_a435c0f3ce54fe7daa178baa8532ebd54}
+Show table query
+
+Generates a platform-\/specific query string so that the table names can be fetched
+
+private 
+\begin{DoxyParams}{Parameters}
+{\em boolean} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 438 of file pdo\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__pdo__driver_a86af88ef0fa6d44ab4691e3f53270339}{\index{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}!\-\_\-prep\-\_\-query@{\-\_\-prep\-\_\-query}}
+\index{\-\_\-prep\-\_\-query@{\-\_\-prep\-\_\-query}!CI_DB_pdo_driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}}
+\subsubsection[{\-\_\-prep\-\_\-query}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-prep\-\_\-query (
+\begin{DoxyParamCaption}
+\item[{}]{\$sql}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__pdo__driver_a86af88ef0fa6d44ab4691e3f53270339}
+Prep the query
+
+If needed, each database adapter can prep the query string
+
+private called by execute() 
+\begin{DoxyParams}{Parameters}
+{\em string} & an S\-Q\-L query \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 226 of file pdo\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__pdo__driver_aa029600528fc1ce660a23ff4b4667f95}{\index{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}!\-\_\-truncate@{\-\_\-truncate}}
+\index{\-\_\-truncate@{\-\_\-truncate}!CI_DB_pdo_driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}}
+\subsubsection[{\-\_\-truncate}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-truncate (
+\begin{DoxyParamCaption}
+\item[{}]{\$table}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__pdo__driver_aa029600528fc1ce660a23ff4b4667f95}
+Truncate statement
+
+Generates a platform-\/specific truncate string from the supplied data If the database does not support the truncate() command This function maps to \char`\"{}\-D\-E\-L\-E\-T\-E F\-R\-O\-M table\char`\"{}
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & the table name \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 712 of file pdo\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__pdo__driver_ae869ae2275175c5ffa22816a02099d96}{\index{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}!\-\_\-update@{\-\_\-update}}
+\index{\-\_\-update@{\-\_\-update}!CI_DB_pdo_driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}}
+\subsubsection[{\-\_\-update}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-update (
+\begin{DoxyParamCaption}
+\item[{}]{\$table, }
+\item[{}]{\$values, }
+\item[{}]{\$where, }
+\item[{}]{\$orderby = {\ttfamily array()}, }
+\item[{}]{\$limit = {\ttfamily FALSE}}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__pdo__driver_ae869ae2275175c5ffa22816a02099d96}
+Update statement
+
+Generates a platform-\/specific update string from the supplied data
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & the table name \\
+\hline
+{\em array} & the update data \\
+\hline
+{\em array} & the where clause \\
+\hline
+{\em array} & the orderby clause \\
+\hline
+{\em array} & the limit clause \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 626 of file pdo\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__pdo__driver_acdcbd5642090362dfe49120a222670b9}{\index{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}!\-\_\-update\-\_\-batch@{\-\_\-update\-\_\-batch}}
+\index{\-\_\-update\-\_\-batch@{\-\_\-update\-\_\-batch}!CI_DB_pdo_driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}}
+\subsubsection[{\-\_\-update\-\_\-batch}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-update\-\_\-batch (
+\begin{DoxyParamCaption}
+\item[{}]{\$table, }
+\item[{}]{\$values, }
+\item[{}]{\$index, }
+\item[{}]{\$where = {\ttfamily NULL}}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__pdo__driver_acdcbd5642090362dfe49120a222670b9}
+Update\-\_\-\-Batch statement
+
+Generates a platform-\/specific batch update string from the supplied data
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & the table name \\
+\hline
+{\em array} & the update data \\
+\hline
+{\em array} & the where clause \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 659 of file pdo\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__pdo__driver_ac997a462bb342f97f414910f0e033fb6}{\index{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}!\-\_\-version@{\-\_\-version}}
+\index{\-\_\-version@{\-\_\-version}!CI_DB_pdo_driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}}
+\subsubsection[{\-\_\-version}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-version (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__pdo__driver_ac997a462bb342f97f414910f0e033fb6}
+Version number query string
+
+public \begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 175 of file pdo\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__pdo__driver_a77248aaad33eb132c04cc4aa3f4bc8cb}{\index{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}!affected\-\_\-rows@{affected\-\_\-rows}}
+\index{affected\-\_\-rows@{affected\-\_\-rows}!CI_DB_pdo_driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}}
+\subsubsection[{affected\-\_\-rows}]{\setlength{\rightskip}{0pt plus 5cm}affected\-\_\-rows (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__pdo__driver_a77248aaad33eb132c04cc4aa3f4bc8cb}
+Affected Rows
+
+public \begin{DoxyReturn}{Returns}
+integer 
+\end{DoxyReturn}
+
+
+Definition at line 360 of file pdo\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__pdo__driver_a66111c61856499b091af32502978d4fc}{\index{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}!count\-\_\-all@{count\-\_\-all}}
+\index{count\-\_\-all@{count\-\_\-all}!CI_DB_pdo_driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}}
+\subsubsection[{count\-\_\-all}]{\setlength{\rightskip}{0pt plus 5cm}count\-\_\-all (
+\begin{DoxyParamCaption}
+\item[{}]{\$table = {\ttfamily ''}}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__pdo__driver_a66111c61856499b091af32502978d4fc}
+\char`\"{}\-Count All\char`\"{} query
+
+Generates a platform-\/specific query string that counts all records in the specified database
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 408 of file pdo\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__pdo__driver_a6aa545dcb7768f0b62d37cdcf7f09adc}{\index{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}!db\-\_\-connect@{db\-\_\-connect}}
+\index{db\-\_\-connect@{db\-\_\-connect}!CI_DB_pdo_driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}}
+\subsubsection[{db\-\_\-connect}]{\setlength{\rightskip}{0pt plus 5cm}db\-\_\-connect (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__pdo__driver_a6aa545dcb7768f0b62d37cdcf7f09adc}
+Non-\/persistent database connection
+
+private called by the base class \begin{DoxyReturn}{Returns}
+resource 
+\end{DoxyReturn}
+
+
+Definition at line 94 of file pdo\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__pdo__driver_a0f69e662bd02de5bcf98647068e7c653}{\index{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}!db\-\_\-pconnect@{db\-\_\-pconnect}}
+\index{db\-\_\-pconnect@{db\-\_\-pconnect}!CI_DB_pdo_driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}}
+\subsubsection[{db\-\_\-pconnect}]{\setlength{\rightskip}{0pt plus 5cm}db\-\_\-pconnect (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__pdo__driver_a0f69e662bd02de5bcf98647068e7c653}
+Persistent database connection
+
+private called by the base class \begin{DoxyReturn}{Returns}
+resource 
+\end{DoxyReturn}
+
+
+Definition at line 109 of file pdo\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__pdo__driver_af0c7f2602586ea2050b19fb36baefb24}{\index{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}!db\-\_\-select@{db\-\_\-select}}
+\index{db\-\_\-select@{db\-\_\-select}!CI_DB_pdo_driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}}
+\subsubsection[{db\-\_\-select}]{\setlength{\rightskip}{0pt plus 5cm}db\-\_\-select (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__pdo__driver_af0c7f2602586ea2050b19fb36baefb24}
+Select the database
+
+private called by the base class \begin{DoxyReturn}{Returns}
+resource 
+\end{DoxyReturn}
+
+
+Definition at line 145 of file pdo\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__pdo__driver_adc8cd12121dc8edda3adcadd88a97e24}{\index{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}!db\-\_\-set\-\_\-charset@{db\-\_\-set\-\_\-charset}}
+\index{db\-\_\-set\-\_\-charset@{db\-\_\-set\-\_\-charset}!CI_DB_pdo_driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}}
+\subsubsection[{db\-\_\-set\-\_\-charset}]{\setlength{\rightskip}{0pt plus 5cm}db\-\_\-set\-\_\-charset (
+\begin{DoxyParamCaption}
+\item[{}]{\$charset, }
+\item[{}]{\$collation}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__pdo__driver_adc8cd12121dc8edda3adcadd88a97e24}
+Set client character set
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+resource 
+\end{DoxyReturn}
+
+
+Definition at line 161 of file pdo\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__pdo__driver_aaba16891c8c93600a87075800cc5b72b}{\index{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}!escape\-\_\-str@{escape\-\_\-str}}
+\index{escape\-\_\-str@{escape\-\_\-str}!CI_DB_pdo_driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}}
+\subsubsection[{escape\-\_\-str}]{\setlength{\rightskip}{0pt plus 5cm}escape\-\_\-str (
+\begin{DoxyParamCaption}
+\item[{}]{\$str, }
+\item[{}]{\$like = {\ttfamily FALSE}}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__pdo__driver_aaba16891c8c93600a87075800cc5b72b}
+Escape String
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+{\em bool} & whether or not the string will be used in a L\-I\-K\-E condition \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 320 of file pdo\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__pdo__driver_ae61dc2c85e5516f143f6246c686bc3fc}{\index{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}!insert\-\_\-id@{insert\-\_\-id}}
+\index{insert\-\_\-id@{insert\-\_\-id}!CI_DB_pdo_driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}}
+\subsubsection[{insert\-\_\-id}]{\setlength{\rightskip}{0pt plus 5cm}insert\-\_\-id (
+\begin{DoxyParamCaption}
+\item[{}]{\$name = {\ttfamily NULL}}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__pdo__driver_ae61dc2c85e5516f143f6246c686bc3fc}
+Insert I\-D
+
+public \begin{DoxyReturn}{Returns}
+integer 
+\end{DoxyReturn}
+
+
+Definition at line 373 of file pdo\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__pdo__driver_a57c19c642ab3023e28d10c50f86ff0a8}{\index{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}!reconnect@{reconnect}}
+\index{reconnect@{reconnect}!CI_DB_pdo_driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}}
+\subsubsection[{reconnect}]{\setlength{\rightskip}{0pt plus 5cm}reconnect (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__pdo__driver_a57c19c642ab3023e28d10c50f86ff0a8}
+Reconnect
+
+Keep / reestablish the db connection if no queries have been sent for a length of time exceeding the server's idle timeout
+
+public \begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 128 of file pdo\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__pdo__driver_a90e153cf190d273336d77cce930587e1}{\index{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}!trans\-\_\-begin@{trans\-\_\-begin}}
+\index{trans\-\_\-begin@{trans\-\_\-begin}!CI_DB_pdo_driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}}
+\subsubsection[{trans\-\_\-begin}]{\setlength{\rightskip}{0pt plus 5cm}trans\-\_\-begin (
+\begin{DoxyParamCaption}
+\item[{}]{\$test\-\_\-mode = {\ttfamily FALSE}}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__pdo__driver_a90e153cf190d273336d77cce930587e1}
+Begin Transaction
+
+public \begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 239 of file pdo\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__pdo__driver_af4fbdcdace4aa94a139b64877601fe9b}{\index{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}!trans\-\_\-commit@{trans\-\_\-commit}}
+\index{trans\-\_\-commit@{trans\-\_\-commit}!CI_DB_pdo_driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}}
+\subsubsection[{trans\-\_\-commit}]{\setlength{\rightskip}{0pt plus 5cm}trans\-\_\-commit (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__pdo__driver_af4fbdcdace4aa94a139b64877601fe9b}
+Commit Transaction
+
+public \begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 268 of file pdo\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__pdo__driver_a53f76d4dfcd6ac04fb653982442aeef8}{\index{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}!trans\-\_\-rollback@{trans\-\_\-rollback}}
+\index{trans\-\_\-rollback@{trans\-\_\-rollback}!CI_DB_pdo_driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}}
+\subsubsection[{trans\-\_\-rollback}]{\setlength{\rightskip}{0pt plus 5cm}trans\-\_\-rollback (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__pdo__driver_a53f76d4dfcd6ac04fb653982442aeef8}
+Rollback Transaction
+
+public \begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 293 of file pdo\-\_\-driver.\-php.
+
+
+
+\subsection{Field Documentation}
+\hypertarget{class_c_i___d_b__pdo__driver_a06c80bac2ecbd0557827e96949c23097}{\index{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}!\$\-\_\-count\-\_\-string@{\$\-\_\-count\-\_\-string}}
+\index{\$\-\_\-count\-\_\-string@{\$\-\_\-count\-\_\-string}!CI_DB_pdo_driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}}
+\subsubsection[{\$\-\_\-count\-\_\-string}]{\setlength{\rightskip}{0pt plus 5cm}\$\-\_\-count\-\_\-string = \char`\"{}S\-E\-L\-E\-C\-T C\-O\-U\-N\-T($\ast$) A\-S \char`\"{}}}\label{class_c_i___d_b__pdo__driver_a06c80bac2ecbd0557827e96949c23097}
+The syntax to count rows is slightly different across different database engines, so this string appears in each driver and is used for the \hyperlink{class_c_i___d_b__pdo__driver_a66111c61856499b091af32502978d4fc}{count\-\_\-all()} and count\-\_\-all\-\_\-results() functions. 
+
+Definition at line 46 of file pdo\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__pdo__driver_aaec2fb0112850159063a8e47ad3aed6e}{\index{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}!\$\-\_\-escape\-\_\-char@{\$\-\_\-escape\-\_\-char}}
+\index{\$\-\_\-escape\-\_\-char@{\$\-\_\-escape\-\_\-char}!CI_DB_pdo_driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}}
+\subsubsection[{\$\-\_\-escape\-\_\-char}]{\setlength{\rightskip}{0pt plus 5cm}\$\-\_\-escape\-\_\-char = ''}}\label{class_c_i___d_b__pdo__driver_aaec2fb0112850159063a8e47ad3aed6e}
+
+
+Definition at line 36 of file pdo\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__pdo__driver_a668acfd923d0342389cd3a614628cf2a}{\index{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}!\$\-\_\-like\-\_\-escape\-\_\-chr@{\$\-\_\-like\-\_\-escape\-\_\-chr}}
+\index{\$\-\_\-like\-\_\-escape\-\_\-chr@{\$\-\_\-like\-\_\-escape\-\_\-chr}!CI_DB_pdo_driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}}
+\subsubsection[{\$\-\_\-like\-\_\-escape\-\_\-chr}]{\setlength{\rightskip}{0pt plus 5cm}\$\-\_\-like\-\_\-escape\-\_\-chr}}\label{class_c_i___d_b__pdo__driver_a668acfd923d0342389cd3a614628cf2a}
+
+
+Definition at line 38 of file pdo\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__pdo__driver_adf86ecadf3d0e1ce3f5e0eaeeb3867ae}{\index{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}!\$\-\_\-like\-\_\-escape\-\_\-str@{\$\-\_\-like\-\_\-escape\-\_\-str}}
+\index{\$\-\_\-like\-\_\-escape\-\_\-str@{\$\-\_\-like\-\_\-escape\-\_\-str}!CI_DB_pdo_driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}}
+\subsubsection[{\$\-\_\-like\-\_\-escape\-\_\-str}]{\setlength{\rightskip}{0pt plus 5cm}\$\-\_\-like\-\_\-escape\-\_\-str}}\label{class_c_i___d_b__pdo__driver_adf86ecadf3d0e1ce3f5e0eaeeb3867ae}
+
+
+Definition at line 37 of file pdo\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__pdo__driver_a10213aa6e05f6d924d3277bb1d2fea00}{\index{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}!\$\-\_\-random\-\_\-keyword@{\$\-\_\-random\-\_\-keyword}}
+\index{\$\-\_\-random\-\_\-keyword@{\$\-\_\-random\-\_\-keyword}!CI_DB_pdo_driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}}
+\subsubsection[{\$\-\_\-random\-\_\-keyword}]{\setlength{\rightskip}{0pt plus 5cm}\$\-\_\-random\-\_\-keyword}}\label{class_c_i___d_b__pdo__driver_a10213aa6e05f6d924d3277bb1d2fea00}
+
+
+Definition at line 47 of file pdo\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__pdo__driver_a0cde2a16322a023d040aa7f725877597}{\index{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}!\$dbdriver@{\$dbdriver}}
+\index{\$dbdriver@{\$dbdriver}!CI_DB_pdo_driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}}
+\subsubsection[{\$dbdriver}]{\setlength{\rightskip}{0pt plus 5cm}\$dbdriver = 'pdo'}}\label{class_c_i___d_b__pdo__driver_a0cde2a16322a023d040aa7f725877597}
+
+
+Definition at line 33 of file pdo\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__pdo__driver_a011800c63ece4cbbfa77136a20607023}{\index{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}!\$options@{\$options}}
+\index{\$options@{\$options}!CI_DB_pdo_driver@{C\-I\-\_\-\-D\-B\-\_\-pdo\-\_\-driver}}
+\subsubsection[{\$options}]{\setlength{\rightskip}{0pt plus 5cm}\$options = array()}}\label{class_c_i___d_b__pdo__driver_a011800c63ece4cbbfa77136a20607023}
+
+
+Definition at line 49 of file pdo\-\_\-driver.\-php.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+system/database/drivers/pdo/\hyperlink{pdo__driver_8php}{pdo\-\_\-driver.\-php}\end{DoxyCompactItemize}

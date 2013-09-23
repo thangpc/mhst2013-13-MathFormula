@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="migration__lang_8php" kind="file">
+    <compoundname>migration_lang.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="migration__lang_8php_1affa6337f0973de810b3c61491deae6b1" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;migration_none_found&apos;]</definition>
+        <argsstring>[&apos;migration_none_found&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;No migrations were found.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/migration_lang.php" line="3" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/migration_lang.php" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="migration__lang_8php_1a92dd777422d70950993d43f4d0c31b1b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;migration_not_found&apos;]</definition>
+        <argsstring>[&apos;migration_not_found&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;This migration could <ref refid="mathquill_8js_1ac1e1ab538c27d68cc2cbafea74e7412c" kindref="member">not</ref> be found.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/migration_lang.php" line="4" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/migration_lang.php" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="migration__lang_8php_1a1a98130d04f280e6a5f6f509179f9e01" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;migration_multiple_version&apos;]</definition>
+        <argsstring>[&apos;migration_multiple_version&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;This are multiple migrations with the same version number: %d.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/migration_lang.php" line="5" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/migration_lang.php" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="migration__lang_8php_1a141dceda5b8294f6e4ddf7e5da6fe71d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;migration_class_doesnt_exist&apos;]</definition>
+        <argsstring>[&apos;migration_class_doesnt_exist&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;The migration class \&quot;%s\&quot; could <ref refid="mathquill_8js_1ac1e1ab538c27d68cc2cbafea74e7412c" kindref="member">not</ref> be found.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/migration_lang.php" line="6" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/migration_lang.php" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="migration__lang_8php_1a4bc9c60a4f078d1845d1d72370c363e8" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;migration_missing_up_method&apos;]</definition>
+        <argsstring>[&apos;migration_missing_up_method&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;The migration class \&quot;%s\&quot; is missing an &apos;up&apos; method.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/migration_lang.php" line="7" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/migration_lang.php" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="migration__lang_8php_1a6e835ce0b327b8ea1df42bfc7a59f1cd" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;migration_missing_down_method&apos;]</definition>
+        <argsstring>[&apos;migration_missing_down_method&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;The migration class \&quot;%s\&quot; is missing an &apos;down&apos; method.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/migration_lang.php" line="8" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/migration_lang.php" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="migration__lang_8php_1a75ef7572f25674e4dd1e36a0d61080fa" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lang[&apos;migration_invalid_filename&apos;]</definition>
+        <argsstring>[&apos;migration_invalid_filename&apos;]</argsstring>
+        <name>$lang</name>
+        <initializer>= &quot;Migration \&quot;%s\&quot; has an invalid filename.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/migration_lang.php" line="9" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/migration_lang.php" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="migration__lang_8php_1affa6337f0973de810b3c61491deae6b1" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;migration_none_found&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;No<sp/>migrations<sp/>were<sp/>found.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="4" refid="migration__lang_8php_1a92dd777422d70950993d43f4d0c31b1b" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;migration_not_found&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;This<sp/>migration<sp/>could<sp/>not<sp/>be<sp/>found.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="5" refid="migration__lang_8php_1a1a98130d04f280e6a5f6f509179f9e01" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;migration_multiple_version&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;This<sp/>are<sp/>multiple<sp/>migrations<sp/>with<sp/>the<sp/>same<sp/>version<sp/>number:<sp/>%d.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="6" refid="migration__lang_8php_1a141dceda5b8294f6e4ddf7e5da6fe71d" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;migration_class_doesnt_exist&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;The<sp/>migration<sp/>class<sp/>\&quot;%s\&quot;<sp/>could<sp/>not<sp/>be<sp/>found.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="7" refid="migration__lang_8php_1a4bc9c60a4f078d1845d1d72370c363e8" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;migration_missing_up_method&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;The<sp/>migration<sp/>class<sp/>\&quot;%s\&quot;<sp/>is<sp/>missing<sp/>an<sp/>&apos;up&apos;<sp/>method.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="8" refid="migration__lang_8php_1a6e835ce0b327b8ea1df42bfc7a59f1cd" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;migration_missing_down_method&apos;</highlight><highlight class="normal">]<sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;The<sp/>migration<sp/>class<sp/>\&quot;%s\&quot;<sp/>is<sp/>missing<sp/>an<sp/>&apos;down&apos;<sp/>method.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="9" refid="migration__lang_8php_1a75ef7572f25674e4dd1e36a0d61080fa" refkind="member"><highlight class="normal"><ref refid="calendar__lang_8php_1a120ec4cf98cb46665da894790bf9d68b" kindref="member">$lang</ref>[</highlight><highlight class="stringliteral">&apos;migration_invalid_filename&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Migration<sp/>\&quot;%s\&quot;<sp/>has<sp/>an<sp/>invalid<sp/>filename.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>End<sp/>of<sp/>file<sp/>migration_lang.php<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Location:<sp/>./system/language/english/migration_lang.php<sp/>*/</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/language/english/migration_lang.php"/>
+  </compounddef>
+</doxygen>

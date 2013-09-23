@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="col__left_8php" kind="file">
+    <compoundname>col_left.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="col__left_8php_1a8e01137c8cea5237b8bb23e82170319f" prot="public" static="no" mutable="no">
+        <type><ref refid="bootstrap_8min_8js_1afac0f023df4d3c79a9b54c1aae1fbdc3" kindref="member">if</ref>(($this-&gt;user_model-&gt;loggedin(&apos;user&apos;)== &apos;public&apos;)&amp;&amp;($user==$this-&gt;session-&gt;userdata(&apos;user&apos;)))</type>
+        <definition>if (($this-&gt;user_model-&gt;loggedin(&apos;user&apos;)== &apos;public&apos;)&amp;&amp;($user==$this-&gt;session-&gt;userdata(&apos;user&apos;))) else</definition>
+        <argsstring></argsstring>
+        <name>else</name>
+        <initializer>{</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/views/account/col_left.php" line="21" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/views/account/col_left.php" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;table<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;user-info&quot;</highlight><highlight class="normal"><sp/>cellspacing=</highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;tbody&gt;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;tr<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;odd-row&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;th&gt;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;img<sp/>src=</highlight><highlight class="stringliteral">&quot;&lt;?php<sp/>echo<sp/>base_url().&apos;public_html/images/avatars/geek_girl.png&apos;;<sp/>?&gt;&quot;</highlight><highlight class="normal"><sp/>alt=</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;br&gt;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;<ref refid="bootstrap_8min_8js_1ae8f6b400ed3390908c5cdeebed3a82b9" kindref="member">a</ref><sp/>href=</highlight><highlight class="stringliteral">&apos;&lt;?php<sp/>echo<sp/>site_url(&quot;account/$user&quot;);<sp/>?&gt;&apos;</highlight><highlight class="normal">&gt;&lt;?php<sp/>echo<sp/>$user;<sp/>?&gt;&lt;/<ref refid="bootstrap_8min_8js_1ae8f6b400ed3390908c5cdeebed3a82b9" kindref="member">a</ref>&gt;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/th&gt;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/tr&gt;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;?php</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>($this-&gt;user_model-&gt;loggedin(</highlight><highlight class="stringliteral">&apos;user&apos;</highlight><highlight class="normal">)<sp/>==<sp/></highlight><highlight class="stringliteral">&apos;public&apos;</highlight><highlight class="normal">)<sp/>&amp;&amp;<sp/>($user<sp/>==<sp/>$this-&gt;session-&gt;userdata(</highlight><highlight class="stringliteral">&apos;user&apos;</highlight><highlight class="normal">))<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>?&gt;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;!--</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;tr&gt;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;td&gt;&lt;<ref refid="bootstrap_8min_8js_1ae8f6b400ed3390908c5cdeebed3a82b9" kindref="member">a</ref><sp/>href=</highlight><highlight class="stringliteral">&quot;&lt;?php<sp/>echo<sp/>site_url(&apos;account/change-info&apos;);<sp/>?&gt;&quot;</highlight><highlight class="normal">&gt;change<sp/>info&lt;/<ref refid="bootstrap_8min_8js_1ae8f6b400ed3390908c5cdeebed3a82b9" kindref="member">a</ref>&gt;&lt;/td&gt;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/tr&gt;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>--&gt;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;tr&gt;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;td&gt;&lt;<ref refid="bootstrap_8min_8js_1ae8f6b400ed3390908c5cdeebed3a82b9" kindref="member">a</ref><sp/>href=</highlight><highlight class="stringliteral">&quot;&lt;?php<sp/>echo<sp/>site_url(&apos;account/change-pass&apos;);<sp/>?&gt;&quot;</highlight><highlight class="normal">&gt;change<sp/>password&lt;/<ref refid="bootstrap_8min_8js_1ae8f6b400ed3390908c5cdeebed3a82b9" kindref="member">a</ref>&gt;&lt;/td&gt;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/tr&gt;</highlight></codeline>
+<codeline lineno="21" refid="col__left_8php_1a8e01137c8cea5237b8bb23e82170319f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;?php<sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{<sp/>?&gt;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;tr&gt;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;td&gt;&lt;<ref refid="bootstrap_8min_8js_1ae8f6b400ed3390908c5cdeebed3a82b9" kindref="member">a</ref><sp/>href=</highlight><highlight class="stringliteral">&quot;#&quot;</highlight><highlight class="normal">&gt;Joined:<sp/>&lt;?php<sp/>echo<sp/>$joined;<sp/>?&gt;&lt;/<ref refid="bootstrap_8min_8js_1ae8f6b400ed3390908c5cdeebed3a82b9" kindref="member">a</ref>&gt;&lt;/td&gt;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/tr&gt;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;?php<sp/>}<sp/>?&gt;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/tbody&gt;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/table&gt;</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/views/account/col_left.php"/>
+  </compounddef>
+</doxygen>

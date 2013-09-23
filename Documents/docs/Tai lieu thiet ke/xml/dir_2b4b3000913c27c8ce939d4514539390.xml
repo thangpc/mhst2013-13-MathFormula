@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_2b4b3000913c27c8ce939d4514539390" kind="dir">
+    <compoundname>public_html/js</compoundname>
+    <innerfile refid="base_8js">base.js</innerfile>
+    <innerfile refid="bootstrap_8min_8js">bootstrap.min.js</innerfile>
+    <innerfile refid="math_8js">math.js</innerfile>
+    <innerfile refid="mathquill_8js">mathquill.js</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/public_html/js/"/>
+  </compounddef>
+</doxygen>

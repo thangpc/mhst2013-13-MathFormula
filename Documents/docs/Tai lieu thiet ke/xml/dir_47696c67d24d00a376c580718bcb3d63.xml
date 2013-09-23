@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_47696c67d24d00a376c580718bcb3d63" kind="dir">
+    <compoundname>application/views</compoundname>
+    <innerdir refid="dir_8a904509c1c6748ca54ae30b2ddf9569">application/views/account</innerdir>
+    <innerdir refid="dir_622475c28266e6c99e9c198777845cdb">application/views/admin</innerdir>
+    <innerdir refid="dir_cfd98c5c6eeaac3152fa57e9c2b2039c">application/views/community</innerdir>
+    <innerdir refid="dir_77ec05862448f0dcf69a4a4d79b1ea5a">application/views/formula</innerdir>
+    <innerfile refid="__footer_8php">_footer.php</innerfile>
+    <innerfile refid="__header_8php">_header.php</innerfile>
+    <innerfile refid="__layout_8php">_layout.php</innerfile>
+    <innerfile refid="cheatsheets_8php">cheatsheets.php</innerfile>
+    <innerfile refid="contact-us_8php">contact-us.php</innerfile>
+    <innerfile refid="views_2home_8php">home.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/views/"/>
+  </compounddef>
+</doxygen>

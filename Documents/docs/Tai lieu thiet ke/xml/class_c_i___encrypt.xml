@@ -1,0 +1,700 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_c_i___encrypt" kind="class" prot="public">
+    <compoundname>CI_Encrypt</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_c_i___encrypt_1ae0314d046ddf7fcfaec03222977427d3" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$CI</definition>
+        <argsstring></argsstring>
+        <name>$CI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Encrypt.php" line="31" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Encrypt.php" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___encrypt_1a35bbf76a5bcca90ca9b39368ed28121c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$encryption_key</definition>
+        <argsstring></argsstring>
+        <name>$encryption_key</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Encrypt.php" line="32" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Encrypt.php" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___encrypt_1a04e9d4ea0e45fc04c07aa1e291e17412" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$_hash_type</definition>
+        <argsstring></argsstring>
+        <name>$_hash_type</name>
+        <initializer>= &apos;<ref refid="class_c_i___encrypt_1a0cd7cd589a363e34549991c27584b489" kindref="member">sha1</ref>&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Encrypt.php" line="33" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Encrypt.php" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___encrypt_1aaf4246798dad057cc4e294706e5e4e37" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$_mcrypt_exists</definition>
+        <argsstring></argsstring>
+        <name>$_mcrypt_exists</name>
+        <initializer>= FALSE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Encrypt.php" line="34" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Encrypt.php" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___encrypt_1ab2cdedd99c4818b191c667f5e081a2db" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$_mcrypt_cipher</definition>
+        <argsstring></argsstring>
+        <name>$_mcrypt_cipher</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Encrypt.php" line="35" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Encrypt.php" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___encrypt_1ace4d98b5320c7fe75e6a38505abcdb82" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$_mcrypt_mode</definition>
+        <argsstring></argsstring>
+        <name>$_mcrypt_mode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Encrypt.php" line="36" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Encrypt.php" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_i___encrypt_1a095c5d389db211932136b53f25f39685" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>()</argsstring>
+        <name>__construct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor</para><para>Simply determines whether the mcrypt library exists. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Encrypt.php" line="44" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Encrypt.php" bodystart="44" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___encrypt_1aad3fd0de27f6a67b14751b47d2471693" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>get_key</definition>
+        <argsstring>($key= &apos;&apos;)</argsstring>
+        <name>get_key</name>
+        <param>
+          <declname>$key</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fetch the encryption key</para><para>Returns it as MD5 in order to have an exact-length 128 bit key. Mcrypt is sensitive to keys that are not the correct length</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Encrypt.php" line="63" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Encrypt.php" bodystart="63" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___encrypt_1aec193abfe69c2cb1af185b3ca5754de3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>set_key</definition>
+        <argsstring>($key= &apos;&apos;)</argsstring>
+        <name>set_key</name>
+        <param>
+          <declname>$key</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the encryption key</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Encrypt.php" line="93" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Encrypt.php" bodystart="93" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___encrypt_1a3d863b1bc39b9a7865d99df1cdf24df0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>encode</definition>
+        <argsstring>($string, $key= &apos;&apos;)</argsstring>
+        <name>encode</name>
+        <param>
+          <declname>$string</declname>
+        </param>
+        <param>
+          <declname>$key</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Encode</para><para>Encodes the message string using bitwise XOR encoding. The key is combined with a random hash, and then it too gets converted using XOR. The whole thing is then run through mcrypt (if supported) using the randomized key. The end result is a double-encrypted message string that is randomized with each call to this function, even if the supplied message and key are the same.</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the string to encode </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the key </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Encrypt.php" line="116" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Encrypt.php" bodystart="116" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___encrypt_1a60c68c6c16a6082e23386f9ac23518ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>decode</definition>
+        <argsstring>($string, $key= &apos;&apos;)</argsstring>
+        <name>decode</name>
+        <param>
+          <declname>$string</declname>
+        </param>
+        <param>
+          <declname>$key</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decode</para><para>Reverses the above process</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Encrypt.php" line="144" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Encrypt.php" bodystart="144" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___encrypt_1a2dffd202d3b3968d905d1012041e6588" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>encode_from_legacy</definition>
+        <argsstring>($string, $legacy_mode=MCRYPT_MODE_ECB, $key= &apos;&apos;)</argsstring>
+        <name>encode_from_legacy</name>
+        <param>
+          <declname>$string</declname>
+        </param>
+        <param>
+          <declname>$legacy_mode</declname>
+          <defval>MCRYPT_MODE_ECB</defval>
+        </param>
+        <param>
+          <declname>$key</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Encode from Legacy</para><para>Takes an encoded string from the original Encryption class algorithms and returns a newly encoded string using the improved method added in 2.0.0 This allows for backwards compatibility and a method to transition to the new encryption algorithms.</para><para>For more details, see <ulink url="http://codeigniter.com/user_guide/installation/upgrade_200.html#encryption">http://codeigniter.com/user_guide/installation/upgrade_200.html#encryption</ulink></para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>int</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(mcrypt mode constant) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Encrypt.php" line="188" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Encrypt.php" bodystart="188" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___encrypt_1a6e12266a879a6258c49dbc380aed35ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_xor_encode</definition>
+        <argsstring>($string, $key)</argsstring>
+        <name>_xor_encode</name>
+        <param>
+          <declname>$string</declname>
+        </param>
+        <param>
+          <declname>$key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>XOR Encode</para><para>Takes a plain-text string and key as input and generates an encoded bit-string using XOR</para><para>private <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Encrypt.php" line="238" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Encrypt.php" bodystart="238" bodyend="255"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___encrypt_1aa0cee348c5cef9a3a06c22a92c38fd4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_xor_decode</definition>
+        <argsstring>($string, $key)</argsstring>
+        <name>_xor_decode</name>
+        <param>
+          <declname>$string</declname>
+        </param>
+        <param>
+          <declname>$key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>XOR Decode</para><para>Takes an encoded string and key as input and generates the plain-text original message</para><para>private <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Encrypt.php" line="270" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Encrypt.php" bodystart="270" bodyend="281"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___encrypt_1aaf2644aeb5ec418eb4ddc2d70f372ada" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_xor_merge</definition>
+        <argsstring>($string, $key)</argsstring>
+        <name>_xor_merge</name>
+        <param>
+          <declname>$string</declname>
+        </param>
+        <param>
+          <declname>$key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>XOR key + string Combiner</para><para>Takes a string and key as input and computes the difference using XOR</para><para>private <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Encrypt.php" line="295" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Encrypt.php" bodystart="295" bodyend="305"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___encrypt_1aa1d7e40f65deb526fe4619da65c6b1ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>mcrypt_encode</definition>
+        <argsstring>($data, $key)</argsstring>
+        <name>mcrypt_encode</name>
+        <param>
+          <declname>$data</declname>
+        </param>
+        <param>
+          <declname>$key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Encrypt using Mcrypt</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Encrypt.php" line="317" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Encrypt.php" bodystart="317" bodyend="322"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___encrypt_1a85f02c928abbbc5a6bf038ea5292324d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>mcrypt_decode</definition>
+        <argsstring>($data, $key)</argsstring>
+        <name>mcrypt_decode</name>
+        <param>
+          <declname>$data</declname>
+        </param>
+        <param>
+          <declname>$key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrypt using Mcrypt</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Encrypt.php" line="334" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Encrypt.php" bodystart="334" bodyend="347"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___encrypt_1ada423e99876a54e7bc33afc9899d01a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_add_cipher_noise</definition>
+        <argsstring>($data, $key)</argsstring>
+        <name>_add_cipher_noise</name>
+        <param>
+          <declname>$data</declname>
+        </param>
+        <param>
+          <declname>$key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Adds permuted noise to the IV + encrypted data to protect against Man-in-the-middle attacks on CBC mode ciphers <ulink url="http://www.ciphersbyritter.com/GLOSSARY.HTM#IV">http://www.ciphersbyritter.com/GLOSSARY.HTM#IV</ulink></para><para>Function description</para><para>private <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Encrypt.php" line="363" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Encrypt.php" bodystart="363" bodyend="380"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___encrypt_1a35c2675b85803d42231d1f8353fa8dac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_remove_cipher_noise</definition>
+        <argsstring>($data, $key)</argsstring>
+        <name>_remove_cipher_noise</name>
+        <param>
+          <declname>$data</declname>
+        </param>
+        <param>
+          <declname>$key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes permuted noise from the IV + encrypted data, reversing <ref refid="class_c_i___encrypt_1ada423e99876a54e7bc33afc9899d01a2" kindref="member">_add_cipher_noise()</ref></para><para>Function description</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>type </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Encrypt.php" line="394" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Encrypt.php" bodystart="394" bodyend="418"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___encrypt_1a6459059d757a362410feb13d96455747" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>set_cipher</definition>
+        <argsstring>($cipher)</argsstring>
+        <name>set_cipher</name>
+        <param>
+          <declname>$cipher</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the Mcrypt Cipher</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>constant</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Encrypt.php" line="429" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Encrypt.php" bodystart="429" bodyend="432"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___encrypt_1ab32fd90a4ac2df4be1e56460d6f6daa3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>set_mode</definition>
+        <argsstring>($mode)</argsstring>
+        <name>set_mode</name>
+        <param>
+          <declname>$mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the Mcrypt Mode</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>constant</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Encrypt.php" line="443" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Encrypt.php" bodystart="443" bodyend="446"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___encrypt_1a663ee049f0b7596a0e4925a3eb2db062" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_get_cipher</definition>
+        <argsstring>()</argsstring>
+        <name>_get_cipher</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get Mcrypt cipher Value</para><para>private <simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Encrypt.php" line="456" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Encrypt.php" bodystart="456" bodyend="464"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___encrypt_1a8c6526d9458754249ee7268ead883a6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_get_mode</definition>
+        <argsstring>()</argsstring>
+        <name>_get_mode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get Mcrypt Mode Value</para><para>private <simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Encrypt.php" line="474" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Encrypt.php" bodystart="474" bodyend="482"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___encrypt_1ab14b774f9fd0cc2fd082a2c44c5f9f07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>set_hash</definition>
+        <argsstring>($type= &apos;sha1&apos;)</argsstring>
+        <name>set_hash</name>
+        <param>
+          <declname>$type</declname>
+          <defval>&apos;<ref refid="class_c_i___encrypt_1a0cd7cd589a363e34549991c27584b489" kindref="member">sha1</ref>&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the Hash type</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Encrypt.php" line="493" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Encrypt.php" bodystart="493" bodyend="496"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___encrypt_1aea8db0058c00fd2bc1351ddb2ebf3191" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>hash</definition>
+        <argsstring>($str)</argsstring>
+        <name>hash</name>
+        <param>
+          <declname>$str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Hash encode a string</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Encrypt.php" line="507" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Encrypt.php" bodystart="507" bodyend="510"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___encrypt_1a0cd7cd589a363e34549991c27584b489" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>sha1</definition>
+        <argsstring>($str)</argsstring>
+        <name>sha1</name>
+        <param>
+          <declname>$str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generate an SHA1 Hash</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Encrypt.php" line="521" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Encrypt.php" bodystart="521" bodyend="540"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Encrypt.php" line="29" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Encrypt.php" bodystart="29" bodyend="542"/>
+    <listofallmembers>
+      <member refid="class_c_i___encrypt_1a04e9d4ea0e45fc04c07aa1e291e17412" prot="public" virt="non-virtual"><scope>CI_Encrypt</scope><name>$_hash_type</name></member>
+      <member refid="class_c_i___encrypt_1ab2cdedd99c4818b191c667f5e081a2db" prot="public" virt="non-virtual"><scope>CI_Encrypt</scope><name>$_mcrypt_cipher</name></member>
+      <member refid="class_c_i___encrypt_1aaf4246798dad057cc4e294706e5e4e37" prot="public" virt="non-virtual"><scope>CI_Encrypt</scope><name>$_mcrypt_exists</name></member>
+      <member refid="class_c_i___encrypt_1ace4d98b5320c7fe75e6a38505abcdb82" prot="public" virt="non-virtual"><scope>CI_Encrypt</scope><name>$_mcrypt_mode</name></member>
+      <member refid="class_c_i___encrypt_1ae0314d046ddf7fcfaec03222977427d3" prot="public" virt="non-virtual"><scope>CI_Encrypt</scope><name>$CI</name></member>
+      <member refid="class_c_i___encrypt_1a35bbf76a5bcca90ca9b39368ed28121c" prot="public" virt="non-virtual"><scope>CI_Encrypt</scope><name>$encryption_key</name></member>
+      <member refid="class_c_i___encrypt_1a095c5d389db211932136b53f25f39685" prot="public" virt="non-virtual"><scope>CI_Encrypt</scope><name>__construct</name></member>
+      <member refid="class_c_i___encrypt_1ada423e99876a54e7bc33afc9899d01a2" prot="public" virt="non-virtual"><scope>CI_Encrypt</scope><name>_add_cipher_noise</name></member>
+      <member refid="class_c_i___encrypt_1a663ee049f0b7596a0e4925a3eb2db062" prot="public" virt="non-virtual"><scope>CI_Encrypt</scope><name>_get_cipher</name></member>
+      <member refid="class_c_i___encrypt_1a8c6526d9458754249ee7268ead883a6c" prot="public" virt="non-virtual"><scope>CI_Encrypt</scope><name>_get_mode</name></member>
+      <member refid="class_c_i___encrypt_1a35c2675b85803d42231d1f8353fa8dac" prot="public" virt="non-virtual"><scope>CI_Encrypt</scope><name>_remove_cipher_noise</name></member>
+      <member refid="class_c_i___encrypt_1aa0cee348c5cef9a3a06c22a92c38fd4f" prot="public" virt="non-virtual"><scope>CI_Encrypt</scope><name>_xor_decode</name></member>
+      <member refid="class_c_i___encrypt_1a6e12266a879a6258c49dbc380aed35ca" prot="public" virt="non-virtual"><scope>CI_Encrypt</scope><name>_xor_encode</name></member>
+      <member refid="class_c_i___encrypt_1aaf2644aeb5ec418eb4ddc2d70f372ada" prot="public" virt="non-virtual"><scope>CI_Encrypt</scope><name>_xor_merge</name></member>
+      <member refid="class_c_i___encrypt_1a60c68c6c16a6082e23386f9ac23518ef" prot="public" virt="non-virtual"><scope>CI_Encrypt</scope><name>decode</name></member>
+      <member refid="class_c_i___encrypt_1a3d863b1bc39b9a7865d99df1cdf24df0" prot="public" virt="non-virtual"><scope>CI_Encrypt</scope><name>encode</name></member>
+      <member refid="class_c_i___encrypt_1a2dffd202d3b3968d905d1012041e6588" prot="public" virt="non-virtual"><scope>CI_Encrypt</scope><name>encode_from_legacy</name></member>
+      <member refid="class_c_i___encrypt_1aad3fd0de27f6a67b14751b47d2471693" prot="public" virt="non-virtual"><scope>CI_Encrypt</scope><name>get_key</name></member>
+      <member refid="class_c_i___encrypt_1aea8db0058c00fd2bc1351ddb2ebf3191" prot="public" virt="non-virtual"><scope>CI_Encrypt</scope><name>hash</name></member>
+      <member refid="class_c_i___encrypt_1a85f02c928abbbc5a6bf038ea5292324d" prot="public" virt="non-virtual"><scope>CI_Encrypt</scope><name>mcrypt_decode</name></member>
+      <member refid="class_c_i___encrypt_1aa1d7e40f65deb526fe4619da65c6b1ec" prot="public" virt="non-virtual"><scope>CI_Encrypt</scope><name>mcrypt_encode</name></member>
+      <member refid="class_c_i___encrypt_1a6459059d757a362410feb13d96455747" prot="public" virt="non-virtual"><scope>CI_Encrypt</scope><name>set_cipher</name></member>
+      <member refid="class_c_i___encrypt_1ab14b774f9fd0cc2fd082a2c44c5f9f07" prot="public" virt="non-virtual"><scope>CI_Encrypt</scope><name>set_hash</name></member>
+      <member refid="class_c_i___encrypt_1aec193abfe69c2cb1af185b3ca5754de3" prot="public" virt="non-virtual"><scope>CI_Encrypt</scope><name>set_key</name></member>
+      <member refid="class_c_i___encrypt_1ab32fd90a4ac2df4be1e56460d6f6daa3" prot="public" virt="non-virtual"><scope>CI_Encrypt</scope><name>set_mode</name></member>
+      <member refid="class_c_i___encrypt_1a0cd7cd589a363e34549991c27584b489" prot="public" virt="non-virtual"><scope>CI_Encrypt</scope><name>sha1</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1258 @@
+\hypertarget{class_c_i___d_b__driver}{\section{C\-I\-\_\-\-D\-B\-\_\-driver Class Reference}
+\label{class_c_i___d_b__driver}\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+}
+Inheritance diagram for C\-I\-\_\-\-D\-B\-\_\-driver\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_c_i___d_b__driver}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_c_i___d_b__driver_a9162320adff1a1a4afd7f2372f753a3e}{\-\_\-\-\_\-construct} (\$params)
+\item 
+\hyperlink{class_c_i___d_b__driver_a91098fa7d1917ce4833f284bbef12627}{initialize} ()
+\item 
+\hyperlink{class_c_i___d_b__driver_adc8cd12121dc8edda3adcadd88a97e24}{db\-\_\-set\-\_\-charset} (\$charset, \$collation)
+\item 
+\hyperlink{class_c_i___d_b__driver_ad69bddb2ba31b27415484b3da4213ba8}{platform} ()
+\item 
+\hyperlink{class_c_i___d_b__driver_a6080dae0886626b9a4cedb29240708b1}{version} ()
+\item 
+\hyperlink{class_c_i___d_b__driver_af987e82e6283e31a44db93d51558710d}{query} (\$sql, \$binds=F\-A\-L\-S\-E, \$return\-\_\-object=T\-R\-U\-E)
+\item 
+\hyperlink{class_c_i___d_b__driver_a0bd509a0088f09f4bbfbcbbe78bc3547}{load\-\_\-rdriver} ()
+\item 
+\hyperlink{class_c_i___d_b__driver_a6ac4d82d7ba4e8df07e1367229084c91}{simple\-\_\-query} (\$sql)
+\item 
+\hyperlink{class_c_i___d_b__driver_ae9080ca6b0a9a258f5e87750b266e337}{trans\-\_\-off} ()
+\item 
+\hyperlink{class_c_i___d_b__driver_a648f8e6b3d0c53ce2afd63cfcea1fe74}{trans\-\_\-strict} (\$mode=T\-R\-U\-E)
+\item 
+\hyperlink{class_c_i___d_b__driver_ab082d21c9a77398c6d6705d9e978fb20}{trans\-\_\-start} (\$test\-\_\-mode=F\-A\-L\-S\-E)
+\item 
+\hyperlink{class_c_i___d_b__driver_aa0edd209de428801ce5faa1fe740852e}{trans\-\_\-complete} ()
+\item 
+\hyperlink{class_c_i___d_b__driver_a7ce49452153f13afde8f9c5212028be6}{trans\-\_\-status} ()
+\item 
+\hyperlink{class_c_i___d_b__driver_a0ba381d2e9078472bd0167e75cc8033c}{compile\-\_\-binds} (\$sql, \$binds)
+\item 
+\hyperlink{class_c_i___d_b__driver_af435df5703c238769d6d16fde6d51182}{is\-\_\-write\-\_\-type} (\$sql)
+\item 
+\hyperlink{class_c_i___d_b__driver_a7bcec8d3f7d72453deb78e296815711a}{elapsed\-\_\-time} (\$decimals=6)
+\item 
+\hyperlink{class_c_i___d_b__driver_a8fc0b6551e1ca0c68c6e3a66b27310fc}{total\-\_\-queries} ()
+\item 
+\hyperlink{class_c_i___d_b__driver_a8117354f1fa0b2873f0ad2792dc21389}{last\-\_\-query} ()
+\item 
+\hyperlink{class_c_i___d_b__driver_ac8f37ca5703d4558c732e692194f8cd6}{escape} (\$str)
+\item 
+\hyperlink{class_c_i___d_b__driver_a1a15f371afab8d5cfb35e38fc53c620f}{escape\-\_\-like\-\_\-str} (\$str)
+\item 
+\hyperlink{class_c_i___d_b__driver_a3d2117201e5db13e941115de079f9a21}{primary} (\$table= '')
+\item 
+\hyperlink{class_c_i___d_b__driver_accef90659bed312aba1c3df80620b402}{list\-\_\-tables} (\$constrain\-\_\-by\-\_\-prefix=F\-A\-L\-S\-E)
+\item 
+\hyperlink{class_c_i___d_b__driver_af148cb2cd5d490d2a480c0c741ceed03}{table\-\_\-exists} (\$table\-\_\-name)
+\item 
+\hyperlink{class_c_i___d_b__driver_a255348162714d410002f3d8486ba929d}{list\-\_\-fields} (\$table= '')
+\item 
+\hyperlink{class_c_i___d_b__driver_ad349ffee1eed59a2eb8f0f1d3033764f}{field\-\_\-exists} (\$field\-\_\-name, \$table\-\_\-name)
+\item 
+\hyperlink{class_c_i___d_b__driver_afcd5085e45ddefbb7c0b22e50703eade}{field\-\_\-data} (\$table= '')
+\item 
+\hyperlink{class_c_i___d_b__driver_ad27720d886add2c9abf9ac48a9ff56d5}{insert\-\_\-string} (\$table, \$data)
+\item 
+\hyperlink{class_c_i___d_b__driver_af9eb76a74d10fa81e44ecb0dd9bf00d4}{update\-\_\-string} (\$table, \$data, \$where)
+\item 
+\hyperlink{class_c_i___d_b__driver_a2e0ab20a3cd2941eaa854fe0b4a81e6b}{\-\_\-has\-\_\-operator} (\$str)
+\item 
+\hyperlink{class_c_i___d_b__driver_af7892f758c89d0e243def92140dbe099}{call\-\_\-function} (\$function)
+\item 
+\hyperlink{class_c_i___d_b__driver_a965799367e0e6a11b084f404dc86b631}{cache\-\_\-set\-\_\-path} (\$path= '')
+\item 
+\hyperlink{class_c_i___d_b__driver_a69ca9bb8bc31400922a565d5c4d64d8d}{cache\-\_\-on} ()
+\item 
+\hyperlink{class_c_i___d_b__driver_ae577e2be88cb5f0d184f76dc6fd87482}{cache\-\_\-off} ()
+\item 
+\hyperlink{class_c_i___d_b__driver_a0f0619e794ea34b9f763a49c032c8078}{cache\-\_\-delete} (\$segment\-\_\-one= '', \$segment\-\_\-two= '')
+\item 
+\hyperlink{class_c_i___d_b__driver_a6e74f4d3938c78892f490b4f11faf318}{cache\-\_\-delete\-\_\-all} ()
+\item 
+\hyperlink{class_c_i___d_b__driver_a3991c9b589034f12f6fed26d83ac47e4}{\-\_\-cache\-\_\-init} ()
+\item 
+\hyperlink{class_c_i___d_b__driver_aa69c8bf1f1dcf4e72552efff1fe3e87e}{close} ()
+\item 
+\hyperlink{class_c_i___d_b__driver_a3ed7f13afef7c8883ad5a025416a19e4}{display\-\_\-error} (\$error= '', \$swap= '', \$native=F\-A\-L\-S\-E)
+\item 
+\hyperlink{class_c_i___d_b__driver_ad62af4b7440531bfc0c2784fc29ee53f}{protect\-\_\-identifiers} (\$item, \$prefix\-\_\-single=F\-A\-L\-S\-E)
+\item 
+\hyperlink{class_c_i___d_b__driver_abf89408eb9f64425b139f0d846412f22}{\-\_\-protect\-\_\-identifiers} (\$item, \$prefix\-\_\-single=F\-A\-L\-S\-E, \$\hyperlink{class_c_i___d_b__driver_ad62af4b7440531bfc0c2784fc29ee53f}{protect\-\_\-identifiers}=N\-U\-L\-L, \$\hyperlink{class_c_i___d_b__driver_ad349ffee1eed59a2eb8f0f1d3033764f}{field\-\_\-exists}=T\-R\-U\-E)
+\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_c_i___d_b__driver_a0eb82aa5f81cf845de4b36cd653c42cf}{\$username}
+\item 
+\hyperlink{class_c_i___d_b__driver_a607686ef9f99ea7c42f4f3dd3dbb2b0d}{\$password}
+\item 
+\hyperlink{class_c_i___d_b__driver_a8bf9ffb42ed554b203b55377d1fc9aa4}{\$hostname}
+\item 
+\hyperlink{class_c_i___d_b__driver_a7691c0162d89de0b6ba47edcd8ba8878}{\$database}
+\item 
+\hyperlink{class_c_i___d_b__driver_a0cde2a16322a023d040aa7f725877597}{\$dbdriver} = 'mysql'
+\item 
+\hyperlink{class_c_i___d_b__driver_a81398da65aef92236c2bc2e0307f1fa4}{\$dbprefix} = ''
+\item 
+\hyperlink{class_c_i___d_b__driver_a0ea660eb249174aefdc2c35238fb1dc8}{\$char\-\_\-set} = 'utf8'
+\item 
+\hyperlink{class_c_i___d_b__driver_a303eb205131e0266c2a57bcc6a34e80a}{\$dbcollat} = 'utf8\-\_\-general\-\_\-ci'
+\item 
+\hyperlink{class_c_i___d_b__driver_a97d3ccf64e5b873ebca99d17a2c204d3}{\$autoinit} = T\-R\-U\-E
+\item 
+\hyperlink{class_c_i___d_b__driver_a913c5a5af0c805fe64f884af6028fb73}{\$swap\-\_\-pre} = ''
+\item 
+\hyperlink{class_c_i___d_b__driver_aa0787efab4b22e8a212882f3409d4c77}{\$port} = ''
+\item 
+\hyperlink{class_c_i___d_b__driver_a5b7c010f6dfe8dfd41ce86fdaed67ebf}{\$pconnect} = F\-A\-L\-S\-E
+\item 
+\hyperlink{class_c_i___d_b__driver_a16c23f1dcbfed2f2759f5e54f604106d}{\$conn\-\_\-id} = F\-A\-L\-S\-E
+\item 
+\hyperlink{class_c_i___d_b__driver_a0ebacb40e3b6f8bf33d3de0f2cc71474}{\$result\-\_\-id} = F\-A\-L\-S\-E
+\item 
+\hyperlink{class_c_i___d_b__driver_a2c1bc80cc98589e419a6c535e53735de}{\$db\-\_\-debug} = F\-A\-L\-S\-E
+\item 
+\hyperlink{class_c_i___d_b__driver_ac75dbf878e2ceec25d2abe6730855f6b}{\$benchmark} = 0
+\item 
+\hyperlink{class_c_i___d_b__driver_aa7f7fc5b08bc2c3626ea7065d50c8847}{\$query\-\_\-count} = 0
+\item 
+\hyperlink{class_c_i___d_b__driver_a253af4ebf23051f23690926079f4285d}{\$bind\-\_\-marker} = '?'
+\item 
+\hyperlink{class_c_i___d_b__driver_a083a278ea2075824db1db85edaa8e0a8}{\$save\-\_\-queries} = T\-R\-U\-E
+\item 
+\hyperlink{class_c_i___d_b__driver_a576b05de2f452e4cce4e3de12667ba0f}{\$queries} = array()
+\item 
+\hyperlink{class_c_i___d_b__driver_a060b2893433dfc037803cf6541420f5f}{\$query\-\_\-times} = array()
+\item 
+\hyperlink{class_c_i___d_b__driver_aab3007e30adbaf71d06218aa6c90e384}{\$data\-\_\-cache} = array()
+\item 
+\hyperlink{class_c_i___d_b__driver_a450683d6d87929985766484b2f6a9e7b}{\$trans\-\_\-enabled} = T\-R\-U\-E
+\item 
+\hyperlink{class_c_i___d_b__driver_ae3111155f1f3ec59fe667b90dafb179f}{\$trans\-\_\-strict} = T\-R\-U\-E
+\item 
+\hyperlink{class_c_i___d_b__driver_a0724b7f82d62f35ef5e150146ed2a27b}{\$\-\_\-trans\-\_\-depth} = 0
+\item 
+\hyperlink{class_c_i___d_b__driver_a93acf0189d34131e156c6eb4a48c2b5b}{\$\-\_\-trans\-\_\-status} = T\-R\-U\-E
+\item 
+\hyperlink{class_c_i___d_b__driver_ab29a8930111a4f2a57987a9031982c34}{\$cache\-\_\-on} = F\-A\-L\-S\-E
+\item 
+\hyperlink{class_c_i___d_b__driver_a01f61437be9e9a04ee228f5d455265db}{\$cachedir} = ''
+\item 
+\hyperlink{class_c_i___d_b__driver_a3da421c22206e24614dc73c9536ff605}{\$cache\-\_\-autodel} = F\-A\-L\-S\-E
+\item 
+\hyperlink{class_c_i___d_b__driver_a54f3ab89da1323e5680116d8e9e94b83}{\$\-C\-A\-C\-H\-E}
+\item 
+\hyperlink{class_c_i___d_b__driver_a2e8a156a3c2abda43a4f160bcb5252e9}{\$\-\_\-protect\-\_\-identifiers} = T\-R\-U\-E
+\item 
+\hyperlink{class_c_i___d_b__driver_aa3298c4c62fbee8bb09f1b75b633fb0d}{\$\-\_\-reserved\-\_\-identifiers} = array('$\ast$')
+\item 
+\hyperlink{class_c_i___d_b__driver_a1a97f17fd259cd27c73b65e6c3706ec0}{\$stmt\-\_\-id}
+\item 
+\hyperlink{class_c_i___d_b__driver_a75e7d18ad2e68ace3813533c9da2e179}{\$curs\-\_\-id}
+\item 
+\hyperlink{class_c_i___d_b__driver_a96df35d7e3e76bef21ebb80234fe59e8}{\$limit\-\_\-used}
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_c_i___d_b__driver_a7c6cc16411b9c36fbfd42a9317f64317}{\-\_\-reset\-\_\-select} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 31 of file D\-B\-\_\-driver.\-php.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_c_i___d_b__driver_a9162320adff1a1a4afd7f2372f753a3e}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!\-\_\-\-\_\-construct@{\-\_\-\-\_\-construct}}
+\index{\-\_\-\-\_\-construct@{\-\_\-\-\_\-construct}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{\-\_\-\-\_\-construct}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-\-\_\-construct (
+\begin{DoxyParamCaption}
+\item[{}]{\$params}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__driver_a9162320adff1a1a4afd7f2372f753a3e}
+Constructor. Accepts one parameter containing the database connection settings.
+
+
+\begin{DoxyParams}{Parameters}
+{\em array} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 81 of file D\-B\-\_\-driver.\-php.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_c_i___d_b__driver_a3991c9b589034f12f6fed26d83ac47e4}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!\-\_\-cache\-\_\-init@{\-\_\-cache\-\_\-init}}
+\index{\-\_\-cache\-\_\-init@{\-\_\-cache\-\_\-init}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{\-\_\-cache\-\_\-init}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-cache\-\_\-init (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__driver_a3991c9b589034f12f6fed26d83ac47e4}
+Initialize the Cache Class
+
+private \begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 1115 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_a2e0ab20a3cd2941eaa854fe0b4a81e6b}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!\-\_\-has\-\_\-operator@{\-\_\-has\-\_\-operator}}
+\index{\-\_\-has\-\_\-operator@{\-\_\-has\-\_\-operator}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{\-\_\-has\-\_\-operator}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-has\-\_\-operator (
+\begin{DoxyParamCaption}
+\item[{}]{\$str}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__driver_a2e0ab20a3cd2941eaa854fe0b4a81e6b}
+Tests whether the string has an S\-Q\-L operator
+
+private 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 977 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_abf89408eb9f64425b139f0d846412f22}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!\-\_\-protect\-\_\-identifiers@{\-\_\-protect\-\_\-identifiers}}
+\index{\-\_\-protect\-\_\-identifiers@{\-\_\-protect\-\_\-identifiers}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{\-\_\-protect\-\_\-identifiers}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-protect\-\_\-identifiers (
+\begin{DoxyParamCaption}
+\item[{}]{\$item, }
+\item[{}]{\$prefix\-\_\-single = {\ttfamily FALSE}, }
+\item[{}]{\$protect\-\_\-identifiers = {\ttfamily NULL}, }
+\item[{}]{\$field\-\_\-exists = {\ttfamily TRUE}}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__driver_abf89408eb9f64425b139f0d846412f22}
+Protect Identifiers
+
+This function is used extensively by the Active Record class, and by a couple functions in this class. It takes a column or table name (optionally with an alias) and inserts the table prefix onto it. Some logic is necessary in order to deal with column names that include the path. Consider a query like this\-:
+
+S\-E\-L\-E\-C\-T $\ast$ F\-R\-O\-M hostname.\-database.\-table.\-column A\-S c F\-R\-O\-M hostname.\-database.\-table
+
+Or a query with aliasing\-:
+
+S\-E\-L\-E\-C\-T m.\-member\-\_\-id, m.\-member\-\_\-name F\-R\-O\-M members A\-S m
+
+Since the column name can include up to four segments (host, D\-B, table, column) or also have an alias prefix, we need to do a bit of work to figure this out and insert the table prefix (if it exists) in the proper position, and escape only the correct identifiers.
+
+private 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+{\em bool} & \\
+\hline
+{\em mixed} & \\
+\hline
+{\em bool} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 1246 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_a7c6cc16411b9c36fbfd42a9317f64317}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!\-\_\-reset\-\_\-select@{\-\_\-reset\-\_\-select}}
+\index{\-\_\-reset\-\_\-select@{\-\_\-reset\-\_\-select}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{\-\_\-reset\-\_\-select}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-reset\-\_\-select (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_c_i___d_b__driver_a7c6cc16411b9c36fbfd42a9317f64317}
+Dummy method that allows Active Record class to be disabled
+
+This function is used extensively by every db driver.
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 1403 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_a0f0619e794ea34b9f763a49c032c8078}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!cache\-\_\-delete@{cache\-\_\-delete}}
+\index{cache\-\_\-delete@{cache\-\_\-delete}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{cache\-\_\-delete}]{\setlength{\rightskip}{0pt plus 5cm}cache\-\_\-delete (
+\begin{DoxyParamCaption}
+\item[{}]{\$segment\-\_\-one = {\ttfamily ''}, }
+\item[{}]{\$segment\-\_\-two = {\ttfamily ''}}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__driver_a0f0619e794ea34b9f763a49c032c8078}
+Delete the cache files associated with a particular U\-R\-I
+
+public \begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 1080 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_a6e74f4d3938c78892f490b4f11faf318}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!cache\-\_\-delete\-\_\-all@{cache\-\_\-delete\-\_\-all}}
+\index{cache\-\_\-delete\-\_\-all@{cache\-\_\-delete\-\_\-all}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{cache\-\_\-delete\-\_\-all}]{\setlength{\rightskip}{0pt plus 5cm}cache\-\_\-delete\-\_\-all (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__driver_a6e74f4d3938c78892f490b4f11faf318}
+Delete All cache files
+
+public \begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 1097 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_ae577e2be88cb5f0d184f76dc6fd87482}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!cache\-\_\-off@{cache\-\_\-off}}
+\index{cache\-\_\-off@{cache\-\_\-off}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{cache\-\_\-off}]{\setlength{\rightskip}{0pt plus 5cm}cache\-\_\-off (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__driver_ae577e2be88cb5f0d184f76dc6fd87482}
+Disable Query Caching
+
+public \begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 1065 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_a69ca9bb8bc31400922a565d5c4d64d8d}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!cache\-\_\-on@{cache\-\_\-on}}
+\index{cache\-\_\-on@{cache\-\_\-on}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{cache\-\_\-on}]{\setlength{\rightskip}{0pt plus 5cm}cache\-\_\-on (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__driver_a69ca9bb8bc31400922a565d5c4d64d8d}
+Enable Query Caching
+
+public \begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 1051 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_a965799367e0e6a11b084f404dc86b631}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!cache\-\_\-set\-\_\-path@{cache\-\_\-set\-\_\-path}}
+\index{cache\-\_\-set\-\_\-path@{cache\-\_\-set\-\_\-path}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{cache\-\_\-set\-\_\-path}]{\setlength{\rightskip}{0pt plus 5cm}cache\-\_\-set\-\_\-path (
+\begin{DoxyParamCaption}
+\item[{}]{\$path = {\ttfamily ''}}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__driver_a965799367e0e6a11b084f404dc86b631}
+Set Cache Directory Path
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & the path to the cache directory \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 1038 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_af7892f758c89d0e243def92140dbe099}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!call\-\_\-function@{call\-\_\-function}}
+\index{call\-\_\-function@{call\-\_\-function}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{call\-\_\-function}]{\setlength{\rightskip}{0pt plus 5cm}call\-\_\-function (
+\begin{DoxyParamCaption}
+\item[{}]{\$function}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__driver_af7892f758c89d0e243def92140dbe099}
+Enables a native P\-H\-P function to be run, using a platform agnostic wrapper.
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & the function name \\
+\hline
+{\em mixed} & any parameters needed by the function \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+
+
+Definition at line 998 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_aa69c8bf1f1dcf4e72552efff1fe3e87e}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!close@{close}}
+\index{close@{close}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{close}]{\setlength{\rightskip}{0pt plus 5cm}close (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__driver_aa69c8bf1f1dcf4e72552efff1fe3e87e}
+Close D\-B Connection
+
+public \begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 1142 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_a0ba381d2e9078472bd0167e75cc8033c}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!compile\-\_\-binds@{compile\-\_\-binds}}
+\index{compile\-\_\-binds@{compile\-\_\-binds}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{compile\-\_\-binds}]{\setlength{\rightskip}{0pt plus 5cm}compile\-\_\-binds (
+\begin{DoxyParamCaption}
+\item[{}]{\$sql, }
+\item[{}]{\$binds}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__driver_a0ba381d2e9078472bd0167e75cc8033c}
+Compile Bindings
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & the sql statement \\
+\hline
+{\em array} & an array of bind data \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 578 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_adc8cd12121dc8edda3adcadd88a97e24}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!db\-\_\-set\-\_\-charset@{db\-\_\-set\-\_\-charset}}
+\index{db\-\_\-set\-\_\-charset@{db\-\_\-set\-\_\-charset}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{db\-\_\-set\-\_\-charset}]{\setlength{\rightskip}{0pt plus 5cm}db\-\_\-set\-\_\-charset (
+\begin{DoxyParamCaption}
+\item[{}]{\$charset, }
+\item[{}]{\$collation}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__driver_adc8cd12121dc8edda3adcadd88a97e24}
+Set client character set
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+resource 
+\end{DoxyReturn}
+
+
+Definition at line 169 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_a3ed7f13afef7c8883ad5a025416a19e4}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!display\-\_\-error@{display\-\_\-error}}
+\index{display\-\_\-error@{display\-\_\-error}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{display\-\_\-error}]{\setlength{\rightskip}{0pt plus 5cm}display\-\_\-error (
+\begin{DoxyParamCaption}
+\item[{}]{\$error = {\ttfamily ''}, }
+\item[{}]{\$swap = {\ttfamily ''}, }
+\item[{}]{\$native = {\ttfamily FALSE}}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__driver_a3ed7f13afef7c8883ad5a025416a19e4}
+Display an error message
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & the error message \\
+\hline
+{\em string} & any \char`\"{}swap\char`\"{} values \\
+\hline
+{\em boolean} & whether to localize the message \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string sends the application/error\-\_\-db.\-php template 
+\end{DoxyReturn}
+
+
+Definition at line 1162 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_a7bcec8d3f7d72453deb78e296815711a}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!elapsed\-\_\-time@{elapsed\-\_\-time}}
+\index{elapsed\-\_\-time@{elapsed\-\_\-time}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{elapsed\-\_\-time}]{\setlength{\rightskip}{0pt plus 5cm}elapsed\-\_\-time (
+\begin{DoxyParamCaption}
+\item[{}]{\$decimals = {\ttfamily 6}}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__driver_a7bcec8d3f7d72453deb78e296815711a}
+Calculate the aggregate query elapsed time
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em integer} & The number of decimal places \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+integer 
+\end{DoxyReturn}
+
+
+Definition at line 638 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_ac8f37ca5703d4558c732e692194f8cd6}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!escape@{escape}}
+\index{escape@{escape}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{escape}]{\setlength{\rightskip}{0pt plus 5cm}escape (
+\begin{DoxyParamCaption}
+\item[{}]{\$str}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__driver_ac8f37ca5703d4558c732e692194f8cd6}
+\char`\"{}\-Smart\char`\"{} Escape String
+
+Escapes data based on type Sets boolean and null types
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+
+
+Definition at line 681 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_a1a15f371afab8d5cfb35e38fc53c620f}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!escape\-\_\-like\-\_\-str@{escape\-\_\-like\-\_\-str}}
+\index{escape\-\_\-like\-\_\-str@{escape\-\_\-like\-\_\-str}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{escape\-\_\-like\-\_\-str}]{\setlength{\rightskip}{0pt plus 5cm}escape\-\_\-like\-\_\-str (
+\begin{DoxyParamCaption}
+\item[{}]{\$str}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__driver_a1a15f371afab8d5cfb35e38fc53c620f}
+Escape L\-I\-K\-E String
+
+Calls the individual driver for platform specific escaping for L\-I\-K\-E conditions
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+
+
+Definition at line 711 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_afcd5085e45ddefbb7c0b22e50703eade}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!field\-\_\-data@{field\-\_\-data}}
+\index{field\-\_\-data@{field\-\_\-data}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{field\-\_\-data}]{\setlength{\rightskip}{0pt plus 5cm}field\-\_\-data (
+\begin{DoxyParamCaption}
+\item[{}]{\$table = {\ttfamily ''}}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__driver_afcd5085e45ddefbb7c0b22e50703eade}
+Returns an object with field data
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & the table name \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+object 
+\end{DoxyReturn}
+
+
+Definition at line 876 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_ad349ffee1eed59a2eb8f0f1d3033764f}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!field\-\_\-exists@{field\-\_\-exists}}
+\index{field\-\_\-exists@{field\-\_\-exists}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{field\-\_\-exists}]{\setlength{\rightskip}{0pt plus 5cm}field\-\_\-exists (
+\begin{DoxyParamCaption}
+\item[{}]{\$field\-\_\-name, }
+\item[{}]{\$table\-\_\-name}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__driver_ad349ffee1eed59a2eb8f0f1d3033764f}
+Determine if a particular field exists  public 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean 
+\end{DoxyReturn}
+
+
+Definition at line 862 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_a91098fa7d1917ce4833f284bbef12627}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!initialize@{initialize}}
+\index{initialize@{initialize}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{initialize}]{\setlength{\rightskip}{0pt plus 5cm}initialize (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__driver_a91098fa7d1917ce4833f284bbef12627}
+Initialize Database Settings
+
+private Called by the constructor 
+\begin{DoxyParams}{Parameters}
+{\em mixed} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 103 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_ad27720d886add2c9abf9ac48a9ff56d5}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!insert\-\_\-string@{insert\-\_\-string}}
+\index{insert\-\_\-string@{insert\-\_\-string}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{insert\-\_\-string}]{\setlength{\rightskip}{0pt plus 5cm}insert\-\_\-string (
+\begin{DoxyParamCaption}
+\item[{}]{\$table, }
+\item[{}]{\$data}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__driver_ad27720d886add2c9abf9ac48a9ff56d5}
+Generate an insert string
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & the table upon which the query will be performed \\
+\hline
+{\em array} & an associative array data of key/values \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 902 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_af435df5703c238769d6d16fde6d51182}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!is\-\_\-write\-\_\-type@{is\-\_\-write\-\_\-type}}
+\index{is\-\_\-write\-\_\-type@{is\-\_\-write\-\_\-type}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{is\-\_\-write\-\_\-type}]{\setlength{\rightskip}{0pt plus 5cm}is\-\_\-write\-\_\-type (
+\begin{DoxyParamCaption}
+\item[{}]{\$sql}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__driver_af435df5703c238769d6d16fde6d51182}
+Determines if a query is a \char`\"{}write\char`\"{} type.
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & An S\-Q\-L query string \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean 
+\end{DoxyReturn}
+
+
+Definition at line 620 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_a8117354f1fa0b2873f0ad2792dc21389}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!last\-\_\-query@{last\-\_\-query}}
+\index{last\-\_\-query@{last\-\_\-query}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{last\-\_\-query}]{\setlength{\rightskip}{0pt plus 5cm}last\-\_\-query (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__driver_a8117354f1fa0b2873f0ad2792dc21389}
+Returns the last query that was executed
+
+public \begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 664 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_a255348162714d410002f3d8486ba929d}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!list\-\_\-fields@{list\-\_\-fields}}
+\index{list\-\_\-fields@{list\-\_\-fields}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{list\-\_\-fields}]{\setlength{\rightskip}{0pt plus 5cm}list\-\_\-fields (
+\begin{DoxyParamCaption}
+\item[{}]{\$table = {\ttfamily ''}}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__driver_a255348162714d410002f3d8486ba929d}
+Fetch My\-S\-Q\-L Field Names
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & the table name \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+
+
+Definition at line 808 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_accef90659bed312aba1c3df80620b402}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!list\-\_\-tables@{list\-\_\-tables}}
+\index{list\-\_\-tables@{list\-\_\-tables}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{list\-\_\-tables}]{\setlength{\rightskip}{0pt plus 5cm}list\-\_\-tables (
+\begin{DoxyParamCaption}
+\item[{}]{\$constrain\-\_\-by\-\_\-prefix = {\ttfamily FALSE}}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__driver_accef90659bed312aba1c3df80620b402}
+Returns an array of table names
+
+public \begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+
+
+Definition at line 748 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_a0bd509a0088f09f4bbfbcbbe78bc3547}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!load\-\_\-rdriver@{load\-\_\-rdriver}}
+\index{load\-\_\-rdriver@{load\-\_\-rdriver}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{load\-\_\-rdriver}]{\setlength{\rightskip}{0pt plus 5cm}load\-\_\-rdriver (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__driver_a0bd509a0088f09f4bbfbcbbe78bc3547}
+Load the result drivers
+
+public \begin{DoxyReturn}{Returns}
+string the name of the result class 
+\end{DoxyReturn}
+
+
+Definition at line 421 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_ad69bddb2ba31b27415484b3da4213ba8}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!platform@{platform}}
+\index{platform@{platform}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{platform}]{\setlength{\rightskip}{0pt plus 5cm}platform (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__driver_ad69bddb2ba31b27415484b3da4213ba8}
+The name of the platform in use (mysql, mssql, etc...)
+
+public \begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 194 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_a3d2117201e5db13e941115de079f9a21}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!primary@{primary}}
+\index{primary@{primary}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{primary}]{\setlength{\rightskip}{0pt plus 5cm}primary (
+\begin{DoxyParamCaption}
+\item[{}]{\$table = {\ttfamily ''}}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__driver_a3d2117201e5db13e941115de079f9a21}
+Primary
+
+Retrieves the primary key. It assumes that the row in the first position is the primary key
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & the table name \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 728 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_ad62af4b7440531bfc0c2784fc29ee53f}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!protect\-\_\-identifiers@{protect\-\_\-identifiers}}
+\index{protect\-\_\-identifiers@{protect\-\_\-identifiers}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{protect\-\_\-identifiers}]{\setlength{\rightskip}{0pt plus 5cm}protect\-\_\-identifiers (
+\begin{DoxyParamCaption}
+\item[{}]{\$item, }
+\item[{}]{\$prefix\-\_\-single = {\ttfamily FALSE}}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__driver_ad62af4b7440531bfc0c2784fc29ee53f}
+Protect Identifiers
+
+This function adds backticks if appropriate based on db type
+
+private 
+\begin{DoxyParams}{Parameters}
+{\em mixed} & the item to escape \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed the item with backticks 
+\end{DoxyReturn}
+
+
+Definition at line 1212 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_af987e82e6283e31a44db93d51558710d}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!query@{query}}
+\index{query@{query}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{query}]{\setlength{\rightskip}{0pt plus 5cm}query (
+\begin{DoxyParamCaption}
+\item[{}]{\$sql, }
+\item[{}]{\$binds = {\ttfamily FALSE}, }
+\item[{}]{\$return\-\_\-object = {\ttfamily TRUE}}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__driver_af987e82e6283e31a44db93d51558710d}
+Execute the query
+
+Accepts an S\-Q\-L string as input and returns a result object upon successful execution of a \char`\"{}read\char`\"{} type query. Returns boolean T\-R\-U\-E upon successful execution of a \char`\"{}write\char`\"{} type query. Returns boolean F\-A\-L\-S\-E upon failure, and if the \$db\-\_\-debug variable is set to T\-R\-U\-E will raise an error.
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & An S\-Q\-L query string \\
+\hline
+{\em array} & An array of binding data \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+
+
+Definition at line 250 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_a6ac4d82d7ba4e8df07e1367229084c91}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!simple\-\_\-query@{simple\-\_\-query}}
+\index{simple\-\_\-query@{simple\-\_\-query}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{simple\-\_\-query}]{\setlength{\rightskip}{0pt plus 5cm}simple\-\_\-query (
+\begin{DoxyParamCaption}
+\item[{}]{\$sql}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__driver_a6ac4d82d7ba4e8df07e1367229084c91}
+Simple Query This is a simplified version of the \hyperlink{class_c_i___d_b__driver_af987e82e6283e31a44db93d51558710d}{query()} function. Internally we only use it when running transaction commands since they do not require all the features of the main \hyperlink{class_c_i___d_b__driver_af987e82e6283e31a44db93d51558710d}{query()} function.
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & the sql query \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+
+
+Definition at line 446 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_af148cb2cd5d490d2a480c0c741ceed03}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!table\-\_\-exists@{table\-\_\-exists}}
+\index{table\-\_\-exists@{table\-\_\-exists}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{table\-\_\-exists}]{\setlength{\rightskip}{0pt plus 5cm}table\-\_\-exists (
+\begin{DoxyParamCaption}
+\item[{}]{\$table\-\_\-name}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__driver_af148cb2cd5d490d2a480c0c741ceed03}
+Determine if a particular table exists  public \begin{DoxyReturn}{Returns}
+boolean 
+\end{DoxyReturn}
+
+
+Definition at line 794 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_a8fc0b6551e1ca0c68c6e3a66b27310fc}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!total\-\_\-queries@{total\-\_\-queries}}
+\index{total\-\_\-queries@{total\-\_\-queries}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{total\-\_\-queries}]{\setlength{\rightskip}{0pt plus 5cm}total\-\_\-queries (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__driver_a8fc0b6551e1ca0c68c6e3a66b27310fc}
+Returns the total number of queries
+
+public \begin{DoxyReturn}{Returns}
+integer 
+\end{DoxyReturn}
+
+
+Definition at line 651 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_aa0edd209de428801ce5faa1fe740852e}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!trans\-\_\-complete@{trans\-\_\-complete}}
+\index{trans\-\_\-complete@{trans\-\_\-complete}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{trans\-\_\-complete}]{\setlength{\rightskip}{0pt plus 5cm}trans\-\_\-complete (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__driver_aa0edd209de428801ce5faa1fe740852e}
+Complete Transaction
+
+public \begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 520 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_ae9080ca6b0a9a258f5e87750b266e337}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!trans\-\_\-off@{trans\-\_\-off}}
+\index{trans\-\_\-off@{trans\-\_\-off}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{trans\-\_\-off}]{\setlength{\rightskip}{0pt plus 5cm}trans\-\_\-off (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__driver_ae9080ca6b0a9a258f5e87750b266e337}
+Disable Transactions This permits transactions to be disabled at run-\/time.
+
+public \begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 465 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_ab082d21c9a77398c6d6705d9e978fb20}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!trans\-\_\-start@{trans\-\_\-start}}
+\index{trans\-\_\-start@{trans\-\_\-start}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{trans\-\_\-start}]{\setlength{\rightskip}{0pt plus 5cm}trans\-\_\-start (
+\begin{DoxyParamCaption}
+\item[{}]{\$test\-\_\-mode = {\ttfamily FALSE}}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__driver_ab082d21c9a77398c6d6705d9e978fb20}
+Start Transaction
+
+public \begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 495 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_a7ce49452153f13afde8f9c5212028be6}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!trans\-\_\-status@{trans\-\_\-status}}
+\index{trans\-\_\-status@{trans\-\_\-status}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{trans\-\_\-status}]{\setlength{\rightskip}{0pt plus 5cm}trans\-\_\-status (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__driver_a7ce49452153f13afde8f9c5212028be6}
+Lets you retrieve the transaction flag to determine if it has failed
+
+public \begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 563 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_a648f8e6b3d0c53ce2afd63cfcea1fe74}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!trans\-\_\-strict@{trans\-\_\-strict}}
+\index{trans\-\_\-strict@{trans\-\_\-strict}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{trans\-\_\-strict}]{\setlength{\rightskip}{0pt plus 5cm}trans\-\_\-strict (
+\begin{DoxyParamCaption}
+\item[{}]{\$mode = {\ttfamily TRUE}}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__driver_a648f8e6b3d0c53ce2afd63cfcea1fe74}
+Enable/disable Transaction Strict Mode When strict mode is enabled, if you are running multiple groups of transactions, if one group fails all groups will be rolled back. If strict mode is disabled, each group is treated autonomously, meaning a failure of one group will not affect any others
+
+public \begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 482 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_af9eb76a74d10fa81e44ecb0dd9bf00d4}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!update\-\_\-string@{update\-\_\-string}}
+\index{update\-\_\-string@{update\-\_\-string}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{update\-\_\-string}]{\setlength{\rightskip}{0pt plus 5cm}update\-\_\-string (
+\begin{DoxyParamCaption}
+\item[{}]{\$table, }
+\item[{}]{\$data, }
+\item[{}]{\$where}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__driver_af9eb76a74d10fa81e44ecb0dd9bf00d4}
+Generate an update string
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & the table upon which the query will be performed \\
+\hline
+{\em array} & an associative array data of key/values \\
+\hline
+{\em mixed} & the \char`\"{}where\char`\"{} statement \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 927 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_a6080dae0886626b9a4cedb29240708b1}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!version@{version}}
+\index{version@{version}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{version}]{\setlength{\rightskip}{0pt plus 5cm}version (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___d_b__driver_a6080dae0886626b9a4cedb29240708b1}
+Database Version Number. Returns a string containing the version of the database being used
+
+public \begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 208 of file D\-B\-\_\-driver.\-php.
+
+
+
+\subsection{Field Documentation}
+\hypertarget{class_c_i___d_b__driver_a2e8a156a3c2abda43a4f160bcb5252e9}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!\$\-\_\-protect\-\_\-identifiers@{\$\-\_\-protect\-\_\-identifiers}}
+\index{\$\-\_\-protect\-\_\-identifiers@{\$\-\_\-protect\-\_\-identifiers}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{\$\-\_\-protect\-\_\-identifiers}]{\setlength{\rightskip}{0pt plus 5cm}\${\bf \-\_\-protect\-\_\-identifiers} = T\-R\-U\-E}}\label{class_c_i___d_b__driver_a2e8a156a3c2abda43a4f160bcb5252e9}
+
+
+Definition at line 65 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_aa3298c4c62fbee8bb09f1b75b633fb0d}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!\$\-\_\-reserved\-\_\-identifiers@{\$\-\_\-reserved\-\_\-identifiers}}
+\index{\$\-\_\-reserved\-\_\-identifiers@{\$\-\_\-reserved\-\_\-identifiers}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{\$\-\_\-reserved\-\_\-identifiers}]{\setlength{\rightskip}{0pt plus 5cm}\$\-\_\-reserved\-\_\-identifiers = array('$\ast$')}}\label{class_c_i___d_b__driver_aa3298c4c62fbee8bb09f1b75b633fb0d}
+
+
+Definition at line 66 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_a0724b7f82d62f35ef5e150146ed2a27b}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!\$\-\_\-trans\-\_\-depth@{\$\-\_\-trans\-\_\-depth}}
+\index{\$\-\_\-trans\-\_\-depth@{\$\-\_\-trans\-\_\-depth}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{\$\-\_\-trans\-\_\-depth}]{\setlength{\rightskip}{0pt plus 5cm}\$\-\_\-trans\-\_\-depth = 0}}\label{class_c_i___d_b__driver_a0724b7f82d62f35ef5e150146ed2a27b}
+
+
+Definition at line 57 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_a93acf0189d34131e156c6eb4a48c2b5b}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!\$\-\_\-trans\-\_\-status@{\$\-\_\-trans\-\_\-status}}
+\index{\$\-\_\-trans\-\_\-status@{\$\-\_\-trans\-\_\-status}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{\$\-\_\-trans\-\_\-status}]{\setlength{\rightskip}{0pt plus 5cm}\$\-\_\-trans\-\_\-status = T\-R\-U\-E}}\label{class_c_i___d_b__driver_a93acf0189d34131e156c6eb4a48c2b5b}
+
+
+Definition at line 58 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_a97d3ccf64e5b873ebca99d17a2c204d3}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!\$autoinit@{\$autoinit}}
+\index{\$autoinit@{\$autoinit}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{\$autoinit}]{\setlength{\rightskip}{0pt plus 5cm}\$autoinit = T\-R\-U\-E}}\label{class_c_i___d_b__driver_a97d3ccf64e5b873ebca99d17a2c204d3}
+
+
+Definition at line 41 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_ac75dbf878e2ceec25d2abe6730855f6b}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!\$benchmark@{\$benchmark}}
+\index{\$benchmark@{\$benchmark}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{\$benchmark}]{\setlength{\rightskip}{0pt plus 5cm}\$benchmark = 0}}\label{class_c_i___d_b__driver_ac75dbf878e2ceec25d2abe6730855f6b}
+
+
+Definition at line 48 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_a253af4ebf23051f23690926079f4285d}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!\$bind\-\_\-marker@{\$bind\-\_\-marker}}
+\index{\$bind\-\_\-marker@{\$bind\-\_\-marker}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{\$bind\-\_\-marker}]{\setlength{\rightskip}{0pt plus 5cm}\$bind\-\_\-marker = '?'}}\label{class_c_i___d_b__driver_a253af4ebf23051f23690926079f4285d}
+
+
+Definition at line 50 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_a54f3ab89da1323e5680116d8e9e94b83}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!\$\-C\-A\-C\-H\-E@{\$\-C\-A\-C\-H\-E}}
+\index{\$\-C\-A\-C\-H\-E@{\$\-C\-A\-C\-H\-E}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{\$\-C\-A\-C\-H\-E}]{\setlength{\rightskip}{0pt plus 5cm}\$C\-A\-C\-H\-E}}\label{class_c_i___d_b__driver_a54f3ab89da1323e5680116d8e9e94b83}
+
+
+Definition at line 62 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_a3da421c22206e24614dc73c9536ff605}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!\$cache\-\_\-autodel@{\$cache\-\_\-autodel}}
+\index{\$cache\-\_\-autodel@{\$cache\-\_\-autodel}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{\$cache\-\_\-autodel}]{\setlength{\rightskip}{0pt plus 5cm}\$cache\-\_\-autodel = F\-A\-L\-S\-E}}\label{class_c_i___d_b__driver_a3da421c22206e24614dc73c9536ff605}
+
+
+Definition at line 61 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_ab29a8930111a4f2a57987a9031982c34}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!\$cache\-\_\-on@{\$cache\-\_\-on}}
+\index{\$cache\-\_\-on@{\$cache\-\_\-on}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{\$cache\-\_\-on}]{\setlength{\rightskip}{0pt plus 5cm}\${\bf cache\-\_\-on} = F\-A\-L\-S\-E}}\label{class_c_i___d_b__driver_ab29a8930111a4f2a57987a9031982c34}
+
+
+Definition at line 59 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_a01f61437be9e9a04ee228f5d455265db}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!\$cachedir@{\$cachedir}}
+\index{\$cachedir@{\$cachedir}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{\$cachedir}]{\setlength{\rightskip}{0pt plus 5cm}\$cachedir = ''}}\label{class_c_i___d_b__driver_a01f61437be9e9a04ee228f5d455265db}
+
+
+Definition at line 60 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_a0ea660eb249174aefdc2c35238fb1dc8}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!\$char\-\_\-set@{\$char\-\_\-set}}
+\index{\$char\-\_\-set@{\$char\-\_\-set}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{\$char\-\_\-set}]{\setlength{\rightskip}{0pt plus 5cm}\$char\-\_\-set = 'utf8'}}\label{class_c_i___d_b__driver_a0ea660eb249174aefdc2c35238fb1dc8}
+
+
+Definition at line 39 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_a16c23f1dcbfed2f2759f5e54f604106d}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!\$conn\-\_\-id@{\$conn\-\_\-id}}
+\index{\$conn\-\_\-id@{\$conn\-\_\-id}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{\$conn\-\_\-id}]{\setlength{\rightskip}{0pt plus 5cm}\$conn\-\_\-id = F\-A\-L\-S\-E}}\label{class_c_i___d_b__driver_a16c23f1dcbfed2f2759f5e54f604106d}
+
+
+Definition at line 45 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_a75e7d18ad2e68ace3813533c9da2e179}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!\$curs\-\_\-id@{\$curs\-\_\-id}}
+\index{\$curs\-\_\-id@{\$curs\-\_\-id}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{\$curs\-\_\-id}]{\setlength{\rightskip}{0pt plus 5cm}\$curs\-\_\-id}}\label{class_c_i___d_b__driver_a75e7d18ad2e68ace3813533c9da2e179}
+
+
+Definition at line 70 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_aab3007e30adbaf71d06218aa6c90e384}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!\$data\-\_\-cache@{\$data\-\_\-cache}}
+\index{\$data\-\_\-cache@{\$data\-\_\-cache}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{\$data\-\_\-cache}]{\setlength{\rightskip}{0pt plus 5cm}\$data\-\_\-cache = array()}}\label{class_c_i___d_b__driver_aab3007e30adbaf71d06218aa6c90e384}
+
+
+Definition at line 54 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_a7691c0162d89de0b6ba47edcd8ba8878}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!\$database@{\$database}}
+\index{\$database@{\$database}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{\$database}]{\setlength{\rightskip}{0pt plus 5cm}\$database}}\label{class_c_i___d_b__driver_a7691c0162d89de0b6ba47edcd8ba8878}
+
+
+Definition at line 36 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_a2c1bc80cc98589e419a6c535e53735de}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!\$db\-\_\-debug@{\$db\-\_\-debug}}
+\index{\$db\-\_\-debug@{\$db\-\_\-debug}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{\$db\-\_\-debug}]{\setlength{\rightskip}{0pt plus 5cm}\$db\-\_\-debug = F\-A\-L\-S\-E}}\label{class_c_i___d_b__driver_a2c1bc80cc98589e419a6c535e53735de}
+
+
+Definition at line 47 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_a303eb205131e0266c2a57bcc6a34e80a}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!\$dbcollat@{\$dbcollat}}
+\index{\$dbcollat@{\$dbcollat}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{\$dbcollat}]{\setlength{\rightskip}{0pt plus 5cm}\$dbcollat = 'utf8\-\_\-general\-\_\-ci'}}\label{class_c_i___d_b__driver_a303eb205131e0266c2a57bcc6a34e80a}
+
+
+Definition at line 40 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_a0cde2a16322a023d040aa7f725877597}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!\$dbdriver@{\$dbdriver}}
+\index{\$dbdriver@{\$dbdriver}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{\$dbdriver}]{\setlength{\rightskip}{0pt plus 5cm}\$dbdriver = 'mysql'}}\label{class_c_i___d_b__driver_a0cde2a16322a023d040aa7f725877597}
+
+
+Definition at line 37 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_a81398da65aef92236c2bc2e0307f1fa4}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!\$dbprefix@{\$dbprefix}}
+\index{\$dbprefix@{\$dbprefix}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{\$dbprefix}]{\setlength{\rightskip}{0pt plus 5cm}\$dbprefix = ''}}\label{class_c_i___d_b__driver_a81398da65aef92236c2bc2e0307f1fa4}
+
+
+Definition at line 38 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_a8bf9ffb42ed554b203b55377d1fc9aa4}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!\$hostname@{\$hostname}}
+\index{\$hostname@{\$hostname}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{\$hostname}]{\setlength{\rightskip}{0pt plus 5cm}\$hostname}}\label{class_c_i___d_b__driver_a8bf9ffb42ed554b203b55377d1fc9aa4}
+
+
+Definition at line 35 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_a96df35d7e3e76bef21ebb80234fe59e8}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!\$limit\-\_\-used@{\$limit\-\_\-used}}
+\index{\$limit\-\_\-used@{\$limit\-\_\-used}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{\$limit\-\_\-used}]{\setlength{\rightskip}{0pt plus 5cm}\$limit\-\_\-used}}\label{class_c_i___d_b__driver_a96df35d7e3e76bef21ebb80234fe59e8}
+
+
+Definition at line 71 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_a607686ef9f99ea7c42f4f3dd3dbb2b0d}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!\$password@{\$password}}
+\index{\$password@{\$password}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{\$password}]{\setlength{\rightskip}{0pt plus 5cm}\$password}}\label{class_c_i___d_b__driver_a607686ef9f99ea7c42f4f3dd3dbb2b0d}
+
+
+Definition at line 34 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_a5b7c010f6dfe8dfd41ce86fdaed67ebf}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!\$pconnect@{\$pconnect}}
+\index{\$pconnect@{\$pconnect}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{\$pconnect}]{\setlength{\rightskip}{0pt plus 5cm}\$pconnect = F\-A\-L\-S\-E}}\label{class_c_i___d_b__driver_a5b7c010f6dfe8dfd41ce86fdaed67ebf}
+
+
+Definition at line 44 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_aa0787efab4b22e8a212882f3409d4c77}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!\$port@{\$port}}
+\index{\$port@{\$port}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{\$port}]{\setlength{\rightskip}{0pt plus 5cm}\$port = ''}}\label{class_c_i___d_b__driver_aa0787efab4b22e8a212882f3409d4c77}
+
+
+Definition at line 43 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_a576b05de2f452e4cce4e3de12667ba0f}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!\$queries@{\$queries}}
+\index{\$queries@{\$queries}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{\$queries}]{\setlength{\rightskip}{0pt plus 5cm}\$queries = array()}}\label{class_c_i___d_b__driver_a576b05de2f452e4cce4e3de12667ba0f}
+
+
+Definition at line 52 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_aa7f7fc5b08bc2c3626ea7065d50c8847}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!\$query\-\_\-count@{\$query\-\_\-count}}
+\index{\$query\-\_\-count@{\$query\-\_\-count}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{\$query\-\_\-count}]{\setlength{\rightskip}{0pt plus 5cm}\$query\-\_\-count = 0}}\label{class_c_i___d_b__driver_aa7f7fc5b08bc2c3626ea7065d50c8847}
+
+
+Definition at line 49 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_a060b2893433dfc037803cf6541420f5f}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!\$query\-\_\-times@{\$query\-\_\-times}}
+\index{\$query\-\_\-times@{\$query\-\_\-times}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{\$query\-\_\-times}]{\setlength{\rightskip}{0pt plus 5cm}\$query\-\_\-times = array()}}\label{class_c_i___d_b__driver_a060b2893433dfc037803cf6541420f5f}
+
+
+Definition at line 53 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_a0ebacb40e3b6f8bf33d3de0f2cc71474}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!\$result\-\_\-id@{\$result\-\_\-id}}
+\index{\$result\-\_\-id@{\$result\-\_\-id}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{\$result\-\_\-id}]{\setlength{\rightskip}{0pt plus 5cm}\$result\-\_\-id = F\-A\-L\-S\-E}}\label{class_c_i___d_b__driver_a0ebacb40e3b6f8bf33d3de0f2cc71474}
+
+
+Definition at line 46 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_a083a278ea2075824db1db85edaa8e0a8}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!\$save\-\_\-queries@{\$save\-\_\-queries}}
+\index{\$save\-\_\-queries@{\$save\-\_\-queries}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{\$save\-\_\-queries}]{\setlength{\rightskip}{0pt plus 5cm}\$save\-\_\-queries = T\-R\-U\-E}}\label{class_c_i___d_b__driver_a083a278ea2075824db1db85edaa8e0a8}
+
+
+Definition at line 51 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_a1a97f17fd259cd27c73b65e6c3706ec0}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!\$stmt\-\_\-id@{\$stmt\-\_\-id}}
+\index{\$stmt\-\_\-id@{\$stmt\-\_\-id}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{\$stmt\-\_\-id}]{\setlength{\rightskip}{0pt plus 5cm}\$stmt\-\_\-id}}\label{class_c_i___d_b__driver_a1a97f17fd259cd27c73b65e6c3706ec0}
+
+
+Definition at line 69 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_a913c5a5af0c805fe64f884af6028fb73}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!\$swap\-\_\-pre@{\$swap\-\_\-pre}}
+\index{\$swap\-\_\-pre@{\$swap\-\_\-pre}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{\$swap\-\_\-pre}]{\setlength{\rightskip}{0pt plus 5cm}\$swap\-\_\-pre = ''}}\label{class_c_i___d_b__driver_a913c5a5af0c805fe64f884af6028fb73}
+
+
+Definition at line 42 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_a450683d6d87929985766484b2f6a9e7b}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!\$trans\-\_\-enabled@{\$trans\-\_\-enabled}}
+\index{\$trans\-\_\-enabled@{\$trans\-\_\-enabled}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{\$trans\-\_\-enabled}]{\setlength{\rightskip}{0pt plus 5cm}\$trans\-\_\-enabled = T\-R\-U\-E}}\label{class_c_i___d_b__driver_a450683d6d87929985766484b2f6a9e7b}
+
+
+Definition at line 55 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_ae3111155f1f3ec59fe667b90dafb179f}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!\$trans\-\_\-strict@{\$trans\-\_\-strict}}
+\index{\$trans\-\_\-strict@{\$trans\-\_\-strict}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{\$trans\-\_\-strict}]{\setlength{\rightskip}{0pt plus 5cm}\${\bf trans\-\_\-strict} = T\-R\-U\-E}}\label{class_c_i___d_b__driver_ae3111155f1f3ec59fe667b90dafb179f}
+
+
+Definition at line 56 of file D\-B\-\_\-driver.\-php.
+
+\hypertarget{class_c_i___d_b__driver_a0eb82aa5f81cf845de4b36cd653c42cf}{\index{C\-I\-\_\-\-D\-B\-\_\-driver@{C\-I\-\_\-\-D\-B\-\_\-driver}!\$username@{\$username}}
+\index{\$username@{\$username}!CI_DB_driver@{C\-I\-\_\-\-D\-B\-\_\-driver}}
+\subsubsection[{\$username}]{\setlength{\rightskip}{0pt plus 5cm}\$username}}\label{class_c_i___d_b__driver_a0eb82aa5f81cf845de4b36cd653c42cf}
+
+
+Definition at line 33 of file D\-B\-\_\-driver.\-php.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+system/database/\hyperlink{_d_b__driver_8php}{D\-B\-\_\-driver.\-php}\end{DoxyCompactItemize}

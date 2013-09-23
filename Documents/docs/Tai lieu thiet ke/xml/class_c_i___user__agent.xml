@@ -1,0 +1,624 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_c_i___user__agent" kind="class" prot="public">
+    <compoundname>CI_User_agent</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_c_i___user__agent_1a0606e5b321c8c85527efdd1c17a9a569" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$agent</definition>
+        <argsstring></argsstring>
+        <name>$agent</name>
+        <initializer>= NULL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" line="31" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___user__agent_1af9608f790bc03edf6c152d11cd879e04" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$is_browser</definition>
+        <argsstring></argsstring>
+        <name>$is_browser</name>
+        <initializer>= FALSE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" line="33" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___user__agent_1a4b3d4b92832b15f313661bc9af0323fa" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$is_robot</definition>
+        <argsstring></argsstring>
+        <name>$is_robot</name>
+        <initializer>= FALSE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" line="34" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___user__agent_1a15f8c9cdaac57894151997b80f38224d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$is_mobile</definition>
+        <argsstring></argsstring>
+        <name>$is_mobile</name>
+        <initializer>= FALSE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" line="35" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___user__agent_1a8856d0a49881ef8e0a6d205d37d4a7af" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$languages</definition>
+        <argsstring></argsstring>
+        <name>$languages</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" line="37" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___user__agent_1ae269ee30c94deb9b791c1ae5489b88f3" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$charsets</definition>
+        <argsstring></argsstring>
+        <name>$charsets</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" line="38" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___user__agent_1a1c1a0a860242698ee6b3f4ef7d6eb343" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$platforms</definition>
+        <argsstring></argsstring>
+        <name>$platforms</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" line="40" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___user__agent_1a81edf933083b5ac5b380385f59074a7d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$browsers</definition>
+        <argsstring></argsstring>
+        <name>$browsers</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" line="41" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___user__agent_1a6928dde5aa0be443766d5b2376de908a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$mobiles</definition>
+        <argsstring></argsstring>
+        <name>$mobiles</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" line="42" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___user__agent_1a5752e2a66d1c03bc34666492746037ab" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$robots</definition>
+        <argsstring></argsstring>
+        <name>$robots</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" line="43" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___user__agent_1a9cb2b1a2275f65f39415f0366139fb1c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$platform</definition>
+        <argsstring></argsstring>
+        <name>$platform</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" line="45" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___user__agent_1ada6112ba48917a0c8cc154ed90908b28" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$browser</definition>
+        <argsstring></argsstring>
+        <name>$browser</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" line="46" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___user__agent_1a17c8948c68aa44fa9961ae169b6a8961" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$version</definition>
+        <argsstring></argsstring>
+        <name>$version</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" line="47" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___user__agent_1a4144d0c9c54f204811328b221f06fc3d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$mobile</definition>
+        <argsstring></argsstring>
+        <name>$mobile</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" line="48" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___user__agent_1aaf86508e45876d0081cadac4cb8a8808" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$robot</definition>
+        <argsstring></argsstring>
+        <name>$robot</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" line="49" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_i___user__agent_1a095c5d389db211932136b53f25f39685" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>()</argsstring>
+        <name>__construct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor</para><para>Sets the <ref refid="class_user" kindref="compound">User</ref> Agent and runs the compilation routine</para><para>public <simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" line="59" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" bodystart="59" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___user__agent_1a3a0c84a9f4a781e53c7529af8a5075ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>is_browser</definition>
+        <argsstring>($key=NULL)</argsstring>
+        <name>is_browser</name>
+        <param>
+          <declname>$key</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Is Browser</para><para>public <simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" line="309" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" bodystart="309" bodyend="324"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___user__agent_1aaf9eed8184635473476a24f6a850815c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>is_robot</definition>
+        <argsstring>($key=NULL)</argsstring>
+        <name>is_robot</name>
+        <param>
+          <declname>$key</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Is Robot</para><para>public <simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" line="334" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" bodystart="334" bodyend="349"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___user__agent_1ab0ec0b7f6a5eeaf00e35743c25e68dfe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>is_mobile</definition>
+        <argsstring>($key=NULL)</argsstring>
+        <name>is_mobile</name>
+        <param>
+          <declname>$key</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Is Mobile</para><para>public <simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" line="359" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" bodystart="359" bodyend="374"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___user__agent_1ab2ec679c069f45c4265dade1e1097f17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>is_referral</definition>
+        <argsstring>()</argsstring>
+        <name>is_referral</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Is this a referral from another site?</para><para>public <simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" line="384" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" bodystart="384" bodyend="391"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___user__agent_1a2a75d1ec3cf3f59cdcae64f6afbc8a1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>agent_string</definition>
+        <argsstring>()</argsstring>
+        <name>agent_string</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Agent String</para><para>public <simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" line="401" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" bodystart="401" bodyend="404"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___user__agent_1ad69bddb2ba31b27415484b3da4213ba8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>platform</definition>
+        <argsstring>()</argsstring>
+        <name>platform</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get Platform</para><para>public <simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" line="414" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" bodystart="414" bodyend="417"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___user__agent_1a7dbfb19bfe0682921dcfad5de8dc987c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>browser</definition>
+        <argsstring>()</argsstring>
+        <name>browser</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get Browser Name</para><para>public <simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" line="427" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" bodystart="427" bodyend="430"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___user__agent_1a6080dae0886626b9a4cedb29240708b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>version</definition>
+        <argsstring>()</argsstring>
+        <name>version</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the Browser Version</para><para>public <simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" line="440" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" bodystart="440" bodyend="443"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___user__agent_1a4d6a9230d82ec6fc2fdd6bc57f4da5e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>robot</definition>
+        <argsstring>()</argsstring>
+        <name>robot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get The Robot Name</para><para>public <simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" line="453" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" bodystart="453" bodyend="456"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___user__agent_1a8e13f70e084cbb413d7b68805f3b09dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>mobile</definition>
+        <argsstring>()</argsstring>
+        <name>mobile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the Mobile Device</para><para>public <simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" line="465" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" bodystart="465" bodyend="468"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___user__agent_1a3a7bdecfe4516d7ce790734ae1449d29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>referrer</definition>
+        <argsstring>()</argsstring>
+        <name>referrer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the referrer</para><para>public <simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" line="478" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" bodystart="478" bodyend="481"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___user__agent_1adda8fc15b6fe0efc05a50d2645189c77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>languages</definition>
+        <argsstring>()</argsstring>
+        <name>languages</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the accepted languages</para><para>public <simplesect kind="return"><para>array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" line="491" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" bodystart="491" bodyend="499"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___user__agent_1a1c3819a3fa2777b0b0f2c8ab5d97d833" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>charsets</definition>
+        <argsstring>()</argsstring>
+        <name>charsets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the accepted Character Sets</para><para>public <simplesect kind="return"><para>array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" line="509" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" bodystart="509" bodyend="517"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___user__agent_1af6634c0f7064ab2530a59986e224161a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>accept_lang</definition>
+        <argsstring>($lang= &apos;en&apos;)</argsstring>
+        <name>accept_lang</name>
+        <param>
+          <declname>$lang</declname>
+          <defval>&apos;en&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="class_test" kindref="compound">Test</ref> for a particular language</para><para>public <simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" line="527" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" bodystart="527" bodyend="530"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___user__agent_1a42ef25d6a086c15f1d0b42409c9e157f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>accept_charset</definition>
+        <argsstring>($charset= &apos;utf-8&apos;)</argsstring>
+        <name>accept_charset</name>
+        <param>
+          <declname>$charset</declname>
+          <defval>&apos;utf-8&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="class_test" kindref="compound">Test</ref> for a particular character set</para><para>public <simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" line="540" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" bodystart="540" bodyend="543"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_c_i___user__agent_1a96ec01490c667b47c5faec7cb53c34b2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_load_agent_file</definition>
+        <argsstring>()</argsstring>
+        <name>_load_agent_file</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compile the <ref refid="class_user" kindref="compound">User</ref> Agent Data</para><para>private <simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" line="85" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" bodystart="85" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___user__agent_1a4ced3acbcc2ab5e599f212c676590d06" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_compile_data</definition>
+        <argsstring>()</argsstring>
+        <name>_compile_data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compile the <ref refid="class_user" kindref="compound">User</ref> Agent Data</para><para>private <simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" line="141" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" bodystart="141" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___user__agent_1a3e3af24bc0adb0483c3965765b28a25b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_set_platform</definition>
+        <argsstring>()</argsstring>
+        <name>_set_platform</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the Platform</para><para>private <simplesect kind="return"><para>mixed </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" line="162" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" bodystart="162" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___user__agent_1a6788d0353e44d81a1214fe367ebce0f5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_set_browser</definition>
+        <argsstring>()</argsstring>
+        <name>_set_browser</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the Browser</para><para>private <simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" line="186" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" bodystart="186" bodyend="203"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___user__agent_1a037f28a8a54578f57417d15fae820817" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_set_robot</definition>
+        <argsstring>()</argsstring>
+        <name>_set_robot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the Robot</para><para>private <simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" line="213" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" bodystart="213" bodyend="228"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___user__agent_1aa2b84face2c8bd1830f618bf9a57f196" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_set_mobile</definition>
+        <argsstring>()</argsstring>
+        <name>_set_mobile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the Mobile Device</para><para>private <simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" line="238" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" bodystart="238" bodyend="253"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___user__agent_1a14307e07c78ada7733b36660bce03db8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_set_languages</definition>
+        <argsstring>()</argsstring>
+        <name>_set_languages</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the accepted languages</para><para>private <simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" line="263" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" bodystart="263" bodyend="276"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___user__agent_1ae97780ac0ec104137f47641061288f3c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_set_charsets</definition>
+        <argsstring>()</argsstring>
+        <name>_set_charsets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the accepted character sets</para><para>private <simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" line="286" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" bodystart="286" bodyend="299"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" line="29" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/User_agent.php" bodystart="29" bodyend="545"/>
+    <listofallmembers>
+      <member refid="class_c_i___user__agent_1a0606e5b321c8c85527efdd1c17a9a569" prot="public" virt="non-virtual"><scope>CI_User_agent</scope><name>$agent</name></member>
+      <member refid="class_c_i___user__agent_1ada6112ba48917a0c8cc154ed90908b28" prot="public" virt="non-virtual"><scope>CI_User_agent</scope><name>$browser</name></member>
+      <member refid="class_c_i___user__agent_1a81edf933083b5ac5b380385f59074a7d" prot="public" virt="non-virtual"><scope>CI_User_agent</scope><name>$browsers</name></member>
+      <member refid="class_c_i___user__agent_1ae269ee30c94deb9b791c1ae5489b88f3" prot="public" virt="non-virtual"><scope>CI_User_agent</scope><name>$charsets</name></member>
+      <member refid="class_c_i___user__agent_1af9608f790bc03edf6c152d11cd879e04" prot="public" virt="non-virtual"><scope>CI_User_agent</scope><name>$is_browser</name></member>
+      <member refid="class_c_i___user__agent_1a15f8c9cdaac57894151997b80f38224d" prot="public" virt="non-virtual"><scope>CI_User_agent</scope><name>$is_mobile</name></member>
+      <member refid="class_c_i___user__agent_1a4b3d4b92832b15f313661bc9af0323fa" prot="public" virt="non-virtual"><scope>CI_User_agent</scope><name>$is_robot</name></member>
+      <member refid="class_c_i___user__agent_1a8856d0a49881ef8e0a6d205d37d4a7af" prot="public" virt="non-virtual"><scope>CI_User_agent</scope><name>$languages</name></member>
+      <member refid="class_c_i___user__agent_1a4144d0c9c54f204811328b221f06fc3d" prot="public" virt="non-virtual"><scope>CI_User_agent</scope><name>$mobile</name></member>
+      <member refid="class_c_i___user__agent_1a6928dde5aa0be443766d5b2376de908a" prot="public" virt="non-virtual"><scope>CI_User_agent</scope><name>$mobiles</name></member>
+      <member refid="class_c_i___user__agent_1a9cb2b1a2275f65f39415f0366139fb1c" prot="public" virt="non-virtual"><scope>CI_User_agent</scope><name>$platform</name></member>
+      <member refid="class_c_i___user__agent_1a1c1a0a860242698ee6b3f4ef7d6eb343" prot="public" virt="non-virtual"><scope>CI_User_agent</scope><name>$platforms</name></member>
+      <member refid="class_c_i___user__agent_1aaf86508e45876d0081cadac4cb8a8808" prot="public" virt="non-virtual"><scope>CI_User_agent</scope><name>$robot</name></member>
+      <member refid="class_c_i___user__agent_1a5752e2a66d1c03bc34666492746037ab" prot="public" virt="non-virtual"><scope>CI_User_agent</scope><name>$robots</name></member>
+      <member refid="class_c_i___user__agent_1a17c8948c68aa44fa9961ae169b6a8961" prot="public" virt="non-virtual"><scope>CI_User_agent</scope><name>$version</name></member>
+      <member refid="class_c_i___user__agent_1a095c5d389db211932136b53f25f39685" prot="public" virt="non-virtual"><scope>CI_User_agent</scope><name>__construct</name></member>
+      <member refid="class_c_i___user__agent_1a4ced3acbcc2ab5e599f212c676590d06" prot="private" virt="non-virtual"><scope>CI_User_agent</scope><name>_compile_data</name></member>
+      <member refid="class_c_i___user__agent_1a96ec01490c667b47c5faec7cb53c34b2" prot="private" virt="non-virtual"><scope>CI_User_agent</scope><name>_load_agent_file</name></member>
+      <member refid="class_c_i___user__agent_1a6788d0353e44d81a1214fe367ebce0f5" prot="private" virt="non-virtual"><scope>CI_User_agent</scope><name>_set_browser</name></member>
+      <member refid="class_c_i___user__agent_1ae97780ac0ec104137f47641061288f3c" prot="private" virt="non-virtual"><scope>CI_User_agent</scope><name>_set_charsets</name></member>
+      <member refid="class_c_i___user__agent_1a14307e07c78ada7733b36660bce03db8" prot="private" virt="non-virtual"><scope>CI_User_agent</scope><name>_set_languages</name></member>
+      <member refid="class_c_i___user__agent_1aa2b84face2c8bd1830f618bf9a57f196" prot="private" virt="non-virtual"><scope>CI_User_agent</scope><name>_set_mobile</name></member>
+      <member refid="class_c_i___user__agent_1a3e3af24bc0adb0483c3965765b28a25b" prot="private" virt="non-virtual"><scope>CI_User_agent</scope><name>_set_platform</name></member>
+      <member refid="class_c_i___user__agent_1a037f28a8a54578f57417d15fae820817" prot="private" virt="non-virtual"><scope>CI_User_agent</scope><name>_set_robot</name></member>
+      <member refid="class_c_i___user__agent_1a42ef25d6a086c15f1d0b42409c9e157f" prot="public" virt="non-virtual"><scope>CI_User_agent</scope><name>accept_charset</name></member>
+      <member refid="class_c_i___user__agent_1af6634c0f7064ab2530a59986e224161a" prot="public" virt="non-virtual"><scope>CI_User_agent</scope><name>accept_lang</name></member>
+      <member refid="class_c_i___user__agent_1a2a75d1ec3cf3f59cdcae64f6afbc8a1b" prot="public" virt="non-virtual"><scope>CI_User_agent</scope><name>agent_string</name></member>
+      <member refid="class_c_i___user__agent_1a7dbfb19bfe0682921dcfad5de8dc987c" prot="public" virt="non-virtual"><scope>CI_User_agent</scope><name>browser</name></member>
+      <member refid="class_c_i___user__agent_1a1c3819a3fa2777b0b0f2c8ab5d97d833" prot="public" virt="non-virtual"><scope>CI_User_agent</scope><name>charsets</name></member>
+      <member refid="class_c_i___user__agent_1a3a0c84a9f4a781e53c7529af8a5075ae" prot="public" virt="non-virtual"><scope>CI_User_agent</scope><name>is_browser</name></member>
+      <member refid="class_c_i___user__agent_1ab0ec0b7f6a5eeaf00e35743c25e68dfe" prot="public" virt="non-virtual"><scope>CI_User_agent</scope><name>is_mobile</name></member>
+      <member refid="class_c_i___user__agent_1ab2ec679c069f45c4265dade1e1097f17" prot="public" virt="non-virtual"><scope>CI_User_agent</scope><name>is_referral</name></member>
+      <member refid="class_c_i___user__agent_1aaf9eed8184635473476a24f6a850815c" prot="public" virt="non-virtual"><scope>CI_User_agent</scope><name>is_robot</name></member>
+      <member refid="class_c_i___user__agent_1adda8fc15b6fe0efc05a50d2645189c77" prot="public" virt="non-virtual"><scope>CI_User_agent</scope><name>languages</name></member>
+      <member refid="class_c_i___user__agent_1a8e13f70e084cbb413d7b68805f3b09dd" prot="public" virt="non-virtual"><scope>CI_User_agent</scope><name>mobile</name></member>
+      <member refid="class_c_i___user__agent_1ad69bddb2ba31b27415484b3da4213ba8" prot="public" virt="non-virtual"><scope>CI_User_agent</scope><name>platform</name></member>
+      <member refid="class_c_i___user__agent_1a3a7bdecfe4516d7ce790734ae1449d29" prot="public" virt="non-virtual"><scope>CI_User_agent</scope><name>referrer</name></member>
+      <member refid="class_c_i___user__agent_1a4d6a9230d82ec6fc2fdd6bc57f4da5e5" prot="public" virt="non-virtual"><scope>CI_User_agent</scope><name>robot</name></member>
+      <member refid="class_c_i___user__agent_1a6080dae0886626b9a4cedb29240708b1" prot="public" virt="non-virtual"><scope>CI_User_agent</scope><name>version</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

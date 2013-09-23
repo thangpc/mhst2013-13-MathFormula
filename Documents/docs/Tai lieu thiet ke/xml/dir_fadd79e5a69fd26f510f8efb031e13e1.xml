@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_fadd79e5a69fd26f510f8efb031e13e1" kind="dir">
+    <compoundname>application/helpers</compoundname>
+    <innerfile refid="alpha_i_d__helper_8php">alphaID_helper.php</innerfile>
+    <innerfile refid="pagination__helper_8php">pagination_helper.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/helpers/"/>
+  </compounddef>
+</doxygen>

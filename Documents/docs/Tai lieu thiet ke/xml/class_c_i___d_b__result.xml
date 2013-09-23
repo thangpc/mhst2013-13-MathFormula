@@ -1,0 +1,605 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_c_i___d_b__result" kind="class" prot="public">
+    <compoundname>CI_DB_result</compoundname>
+    <derivedcompoundref refid="class_c_i___d_b__cubrid__result" prot="public" virt="non-virtual">CI_DB_cubrid_result</derivedcompoundref>
+    <derivedcompoundref refid="class_c_i___d_b__mssql__result" prot="public" virt="non-virtual">CI_DB_mssql_result</derivedcompoundref>
+    <derivedcompoundref refid="class_c_i___d_b__mysql__result" prot="public" virt="non-virtual">CI_DB_mysql_result</derivedcompoundref>
+    <derivedcompoundref refid="class_c_i___d_b__mysqli__result" prot="public" virt="non-virtual">CI_DB_mysqli_result</derivedcompoundref>
+    <derivedcompoundref refid="class_c_i___d_b__oci8__result" prot="public" virt="non-virtual">CI_DB_oci8_result</derivedcompoundref>
+    <derivedcompoundref refid="class_c_i___d_b__odbc__result" prot="public" virt="non-virtual">CI_DB_odbc_result</derivedcompoundref>
+    <derivedcompoundref refid="class_c_i___d_b__pdo__result" prot="public" virt="non-virtual">CI_DB_pdo_result</derivedcompoundref>
+    <derivedcompoundref refid="class_c_i___d_b__postgre__result" prot="public" virt="non-virtual">CI_DB_postgre_result</derivedcompoundref>
+    <derivedcompoundref refid="class_c_i___d_b__sqlite__result" prot="public" virt="non-virtual">CI_DB_sqlite_result</derivedcompoundref>
+    <derivedcompoundref refid="class_c_i___d_b__sqlsrv__result" prot="public" virt="non-virtual">CI_DB_sqlsrv_result</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_c_i___d_b__result_1a16c23f1dcbfed2f2759f5e54f604106d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$conn_id</definition>
+        <argsstring></argsstring>
+        <name>$conn_id</name>
+        <initializer>= NULL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_result.php" line="31" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_result.php" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___d_b__result_1a0ebacb40e3b6f8bf33d3de0f2cc71474" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$result_id</definition>
+        <argsstring></argsstring>
+        <name>$result_id</name>
+        <initializer>= NULL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_result.php" line="32" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_result.php" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___d_b__result_1a153392b3ec395131d32c70cda855698e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$result_array</definition>
+        <argsstring></argsstring>
+        <name>$result_array</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_result.php" line="33" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_result.php" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___d_b__result_1aa292cbb3dbb8c654cb4f6c61f250efd3" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$result_object</definition>
+        <argsstring></argsstring>
+        <name>$result_object</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_result.php" line="34" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_result.php" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___d_b__result_1a680c2e11eeb189d9bb8ba2a552766b7b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$custom_result_object</definition>
+        <argsstring></argsstring>
+        <name>$custom_result_object</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_result.php" line="35" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_result.php" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___d_b__result_1a2ec3a266ee95cda75cdbb71bc9ee1b53" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$current_row</definition>
+        <argsstring></argsstring>
+        <name>$current_row</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_result.php" line="36" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_result.php" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___d_b__result_1ac926549b713e71c5f5fd63999cebfb8c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$num_rows</definition>
+        <argsstring></argsstring>
+        <name>$num_rows</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_result.php" line="37" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_result.php" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___d_b__result_1a335b4c27a1529df9e484e044e470ec07" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$row_data</definition>
+        <argsstring></argsstring>
+        <name>$row_data</name>
+        <initializer>= NULL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_result.php" line="38" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_result.php" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_i___d_b__result_1a00c60026ca0f661ad05ccbea453e2a70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>result</definition>
+        <argsstring>($type= &apos;object&apos;)</argsstring>
+        <name>result</name>
+        <param>
+          <declname>$type</declname>
+          <defval>&apos;object&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Query result. Acts as a wrapper function for the following functions.</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>can be &quot;object&quot; or &quot;array&quot; </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed either a result object or array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_result.php" line="48" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_result.php" bodystart="48" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__result_1a5ac3523f878efb629fae30a7d9156e77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>custom_result_object</definition>
+        <argsstring>($class_name)</argsstring>
+        <name>custom_result_object</name>
+        <param>
+          <declname>$class_name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Custom query result.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>class_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A string that represents the type of object you want back </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array of objects </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_result.php" line="63" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_result.php" bodystart="63" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__result_1a266a17f340dab35b8f2858931ff772a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>result_object</definition>
+        <argsstring>()</argsstring>
+        <name>result_object</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Query result. &quot;object&quot; version.</para><para>public <simplesect kind="return"><para>object </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_result.php" line="103" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_result.php" bodystart="103" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__result_1a444f7dd61bfbe3931a7188adad61feae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>result_array</definition>
+        <argsstring>()</argsstring>
+        <name>result_array</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Query result. &quot;array&quot; version.</para><para>public <simplesect kind="return"><para>array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_result.php" line="135" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_result.php" bodystart="135" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__result_1ae24a9cbcd70e2e547fbb1465ad35c597" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>row</definition>
+        <argsstring>($n=0, $type= &apos;object&apos;)</argsstring>
+        <name>row</name>
+        <param>
+          <declname>$n</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <declname>$type</declname>
+          <defval>&apos;object&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Query result. Acts as a wrapper function for the following functions.</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>can be &quot;object&quot; or &quot;array&quot; </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed either a result object or array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_result.php" line="169" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_result.php" bodystart="169" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__result_1a77628e90fac65184ec9f583e7c30a48a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>set_row</definition>
+        <argsstring>($key, $value=NULL)</argsstring>
+        <name>set_row</name>
+        <param>
+          <declname>$key</declname>
+        </param>
+        <param>
+          <declname>$value</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns an item into a particular column slot</para><para>public <simplesect kind="return"><para>object </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_result.php" line="201" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_result.php" bodystart="201" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__result_1a223538c34395626655fd483f3a55e653" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>custom_row_object</definition>
+        <argsstring>($n, $type)</argsstring>
+        <name>custom_row_object</name>
+        <param>
+          <declname>$n</declname>
+        </param>
+        <param>
+          <declname>$type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a single result row - custom object version</para><para>public <simplesect kind="return"><para>object </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_result.php" line="233" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_result.php" bodystart="233" bodyend="248"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__result_1a0bd3520c57f5cb192bdfaeed1f597c0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>row_object</definition>
+        <argsstring>($n=0)</argsstring>
+        <name>row_object</name>
+        <param>
+          <declname>$n</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a single result row - object version</para><para>public <simplesect kind="return"><para>object </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_result.php" line="256" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_result.php" bodystart="256" bodyend="271"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__result_1a8dbff471ffdaf617d49189f8636e4f81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>row_array</definition>
+        <argsstring>($n=0)</argsstring>
+        <name>row_array</name>
+        <param>
+          <declname>$n</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a single result row - array version</para><para>public <simplesect kind="return"><para>array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_result.php" line="281" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_result.php" bodystart="281" bodyend="296"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__result_1ab17d02e3b1f6d64f9cff8392b90775db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>first_row</definition>
+        <argsstring>($type= &apos;object&apos;)</argsstring>
+        <name>first_row</name>
+        <param>
+          <declname>$type</declname>
+          <defval>&apos;object&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the &quot;first&quot; row</para><para>public <simplesect kind="return"><para>object </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_result.php" line="307" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_result.php" bodystart="307" bodyend="316"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__result_1a40968b12597461279cc2f7b3653d01fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>last_row</definition>
+        <argsstring>($type= &apos;object&apos;)</argsstring>
+        <name>last_row</name>
+        <param>
+          <declname>$type</declname>
+          <defval>&apos;object&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the &quot;last&quot; row</para><para>public <simplesect kind="return"><para>object </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_result.php" line="326" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_result.php" bodystart="326" bodyend="335"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__result_1a2f889a20a40a759eae8da377a5a7e95d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>next_row</definition>
+        <argsstring>($type= &apos;object&apos;)</argsstring>
+        <name>next_row</name>
+        <param>
+          <declname>$type</declname>
+          <defval>&apos;object&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the &quot;next&quot; row</para><para>public <simplesect kind="return"><para>object </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_result.php" line="345" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_result.php" bodystart="345" bodyend="360"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__result_1a82714fea11fb63d96343d164f3a536b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>previous_row</definition>
+        <argsstring>($type= &apos;object&apos;)</argsstring>
+        <name>previous_row</name>
+        <param>
+          <declname>$type</declname>
+          <defval>&apos;object&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the &quot;previous&quot; row</para><para>public <simplesect kind="return"><para>object </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_result.php" line="370" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_result.php" bodystart="370" bodyend="384"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__result_1a218657c303ee499b97710ab0cd2f5d6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>num_rows</definition>
+        <argsstring>()</argsstring>
+        <name>num_rows</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The following functions are normally overloaded by the identically named methods in the platform-specific driver <ndash/> except when query caching is used. When caching is enabled we do not load the other driver. These functions are primarily here to prevent undefined function errors when a cached result object is in use. They are not otherwise fully operational due to the unavailability of the database resource IDs with cached results. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_result.php" line="397" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_result.php" bodystart="397" bodyend="397"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__result_1af831bf363e4d7d661a717a4932af449d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>num_fields</definition>
+        <argsstring>()</argsstring>
+        <name>num_fields</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_result.php" line="398" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_result.php" bodystart="398" bodyend="398"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__result_1a50b54eb4ea7cfd039740f532988ea776" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>list_fields</definition>
+        <argsstring>()</argsstring>
+        <name>list_fields</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_result.php" line="399" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_result.php" bodystart="399" bodyend="399"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__result_1a84bffd65e53902ade1591716749a33e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>field_data</definition>
+        <argsstring>()</argsstring>
+        <name>field_data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_result.php" line="400" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_result.php" bodystart="400" bodyend="400"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__result_1aad2d98d6beb3d6095405356c6107b473" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>free_result</definition>
+        <argsstring>()</argsstring>
+        <name>free_result</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_result.php" line="401" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_result.php" bodystart="401" bodyend="401"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_c_i___d_b__result_1aa673adfa89de7d7b21c1f87624496f37" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_data_seek</definition>
+        <argsstring>()</argsstring>
+        <name>_data_seek</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_result.php" line="402" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_result.php" bodystart="402" bodyend="402"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__result_1a43a9a92817f1334a1c10752ec44275a0" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_fetch_assoc</definition>
+        <argsstring>()</argsstring>
+        <name>_fetch_assoc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_result.php" line="403" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_result.php" bodystart="403" bodyend="403"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___d_b__result_1a236bae79bb43606aa86598719b281c1f" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_fetch_object</definition>
+        <argsstring>()</argsstring>
+        <name>_fetch_object</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_result.php" line="404" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_result.php" bodystart="404" bodyend="404"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="232">
+        <label>CI_DB_result</label>
+        <link refid="class_c_i___d_b__result"/>
+      </node>
+      <node id="242">
+        <label>CI_DB_sqlsrv_result</label>
+        <link refid="class_c_i___d_b__sqlsrv__result"/>
+        <childnode refid="232" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="240">
+        <label>CI_DB_postgre_result</label>
+        <link refid="class_c_i___d_b__postgre__result"/>
+        <childnode refid="232" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="234">
+        <label>CI_DB_mssql_result</label>
+        <link refid="class_c_i___d_b__mssql__result"/>
+        <childnode refid="232" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="237">
+        <label>CI_DB_oci8_result</label>
+        <link refid="class_c_i___d_b__oci8__result"/>
+        <childnode refid="232" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="241">
+        <label>CI_DB_sqlite_result</label>
+        <link refid="class_c_i___d_b__sqlite__result"/>
+        <childnode refid="232" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="239">
+        <label>CI_DB_pdo_result</label>
+        <link refid="class_c_i___d_b__pdo__result"/>
+        <childnode refid="232" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="238">
+        <label>CI_DB_odbc_result</label>
+        <link refid="class_c_i___d_b__odbc__result"/>
+        <childnode refid="232" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="233">
+        <label>CI_DB_cubrid_result</label>
+        <link refid="class_c_i___d_b__cubrid__result"/>
+        <childnode refid="232" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="236">
+        <label>CI_DB_mysqli_result</label>
+        <link refid="class_c_i___d_b__mysqli__result"/>
+        <childnode refid="232" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="235">
+        <label>CI_DB_mysql_result</label>
+        <link refid="class_c_i___d_b__mysql__result"/>
+        <childnode refid="232" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_result.php" line="29" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/database/DB_result.php" bodystart="29" bodyend="406"/>
+    <listofallmembers>
+      <member refid="class_c_i___d_b__result_1a16c23f1dcbfed2f2759f5e54f604106d" prot="public" virt="non-virtual"><scope>CI_DB_result</scope><name>$conn_id</name></member>
+      <member refid="class_c_i___d_b__result_1a2ec3a266ee95cda75cdbb71bc9ee1b53" prot="public" virt="non-virtual"><scope>CI_DB_result</scope><name>$current_row</name></member>
+      <member refid="class_c_i___d_b__result_1a680c2e11eeb189d9bb8ba2a552766b7b" prot="public" virt="non-virtual"><scope>CI_DB_result</scope><name>$custom_result_object</name></member>
+      <member refid="class_c_i___d_b__result_1ac926549b713e71c5f5fd63999cebfb8c" prot="public" virt="non-virtual"><scope>CI_DB_result</scope><name>$num_rows</name></member>
+      <member refid="class_c_i___d_b__result_1a153392b3ec395131d32c70cda855698e" prot="public" virt="non-virtual"><scope>CI_DB_result</scope><name>$result_array</name></member>
+      <member refid="class_c_i___d_b__result_1a0ebacb40e3b6f8bf33d3de0f2cc71474" prot="public" virt="non-virtual"><scope>CI_DB_result</scope><name>$result_id</name></member>
+      <member refid="class_c_i___d_b__result_1aa292cbb3dbb8c654cb4f6c61f250efd3" prot="public" virt="non-virtual"><scope>CI_DB_result</scope><name>$result_object</name></member>
+      <member refid="class_c_i___d_b__result_1a335b4c27a1529df9e484e044e470ec07" prot="public" virt="non-virtual"><scope>CI_DB_result</scope><name>$row_data</name></member>
+      <member refid="class_c_i___d_b__result_1aa673adfa89de7d7b21c1f87624496f37" prot="protected" virt="non-virtual"><scope>CI_DB_result</scope><name>_data_seek</name></member>
+      <member refid="class_c_i___d_b__result_1a43a9a92817f1334a1c10752ec44275a0" prot="protected" virt="non-virtual"><scope>CI_DB_result</scope><name>_fetch_assoc</name></member>
+      <member refid="class_c_i___d_b__result_1a236bae79bb43606aa86598719b281c1f" prot="protected" virt="non-virtual"><scope>CI_DB_result</scope><name>_fetch_object</name></member>
+      <member refid="class_c_i___d_b__result_1a5ac3523f878efb629fae30a7d9156e77" prot="public" virt="non-virtual"><scope>CI_DB_result</scope><name>custom_result_object</name></member>
+      <member refid="class_c_i___d_b__result_1a223538c34395626655fd483f3a55e653" prot="public" virt="non-virtual"><scope>CI_DB_result</scope><name>custom_row_object</name></member>
+      <member refid="class_c_i___d_b__result_1a84bffd65e53902ade1591716749a33e3" prot="public" virt="non-virtual"><scope>CI_DB_result</scope><name>field_data</name></member>
+      <member refid="class_c_i___d_b__result_1ab17d02e3b1f6d64f9cff8392b90775db" prot="public" virt="non-virtual"><scope>CI_DB_result</scope><name>first_row</name></member>
+      <member refid="class_c_i___d_b__result_1aad2d98d6beb3d6095405356c6107b473" prot="public" virt="non-virtual"><scope>CI_DB_result</scope><name>free_result</name></member>
+      <member refid="class_c_i___d_b__result_1a40968b12597461279cc2f7b3653d01fb" prot="public" virt="non-virtual"><scope>CI_DB_result</scope><name>last_row</name></member>
+      <member refid="class_c_i___d_b__result_1a50b54eb4ea7cfd039740f532988ea776" prot="public" virt="non-virtual"><scope>CI_DB_result</scope><name>list_fields</name></member>
+      <member refid="class_c_i___d_b__result_1a2f889a20a40a759eae8da377a5a7e95d" prot="public" virt="non-virtual"><scope>CI_DB_result</scope><name>next_row</name></member>
+      <member refid="class_c_i___d_b__result_1af831bf363e4d7d661a717a4932af449d" prot="public" virt="non-virtual"><scope>CI_DB_result</scope><name>num_fields</name></member>
+      <member refid="class_c_i___d_b__result_1a218657c303ee499b97710ab0cd2f5d6e" prot="public" virt="non-virtual"><scope>CI_DB_result</scope><name>num_rows</name></member>
+      <member refid="class_c_i___d_b__result_1a82714fea11fb63d96343d164f3a536b7" prot="public" virt="non-virtual"><scope>CI_DB_result</scope><name>previous_row</name></member>
+      <member refid="class_c_i___d_b__result_1a00c60026ca0f661ad05ccbea453e2a70" prot="public" virt="non-virtual"><scope>CI_DB_result</scope><name>result</name></member>
+      <member refid="class_c_i___d_b__result_1a444f7dd61bfbe3931a7188adad61feae" prot="public" virt="non-virtual"><scope>CI_DB_result</scope><name>result_array</name></member>
+      <member refid="class_c_i___d_b__result_1a266a17f340dab35b8f2858931ff772a2" prot="public" virt="non-virtual"><scope>CI_DB_result</scope><name>result_object</name></member>
+      <member refid="class_c_i___d_b__result_1ae24a9cbcd70e2e547fbb1465ad35c597" prot="public" virt="non-virtual"><scope>CI_DB_result</scope><name>row</name></member>
+      <member refid="class_c_i___d_b__result_1a8dbff471ffdaf617d49189f8636e4f81" prot="public" virt="non-virtual"><scope>CI_DB_result</scope><name>row_array</name></member>
+      <member refid="class_c_i___d_b__result_1a0bd3520c57f5cb192bdfaeed1f597c0a" prot="public" virt="non-virtual"><scope>CI_DB_result</scope><name>row_object</name></member>
+      <member refid="class_c_i___d_b__result_1a77628e90fac65184ec9f583e7c30a48a" prot="public" virt="non-virtual"><scope>CI_DB_result</scope><name>set_row</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

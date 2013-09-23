@@ -1,0 +1,488 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_c_i___output" kind="class" prot="public">
+    <compoundname>CI_Output</compoundname>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_c_i___output_1aa1b5049c03b9ef373af010aa3cda17a3" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$final_output</definition>
+        <argsstring></argsstring>
+        <name>$final_output</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Output.php" line="37" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Output.php" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___output_1a4a65b5005fdb96d5bdac5d642a022f16" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$cache_expiration</definition>
+        <argsstring></argsstring>
+        <name>$cache_expiration</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Output.php" line="44" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Output.php" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___output_1a52500036ee807241b8b4b7e2367c49ef" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$headers</definition>
+        <argsstring></argsstring>
+        <name>$headers</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Output.php" line="51" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Output.php" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___output_1a49932ececf6da03a6379ca46ca1604d4" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$mime_types</definition>
+        <argsstring></argsstring>
+        <name>$mime_types</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Output.php" line="58" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Output.php" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___output_1a85f3ab9485440090efd4e0ae9a070747" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$enable_profiler</definition>
+        <argsstring></argsstring>
+        <name>$enable_profiler</name>
+        <initializer>= FALSE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Output.php" line="65" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Output.php" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___output_1a76d91b71069ec82a31b4d12643e0ca40" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$_zlib_oc</definition>
+        <argsstring></argsstring>
+        <name>$_zlib_oc</name>
+        <initializer>= FALSE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Output.php" line="72" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Output.php" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___output_1a4d239124375bbbdb9a4f5a0260505c40" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$_profiler_sections</definition>
+        <argsstring></argsstring>
+        <name>$_profiler_sections</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Output.php" line="79" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Output.php" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___output_1a254d73d122352494697cdba0c509086d" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$parse_exec_vars</definition>
+        <argsstring></argsstring>
+        <name>$parse_exec_vars</name>
+        <initializer>= TRUE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Output.php" line="86" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Output.php" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_i___output_1a095c5d389db211932136b53f25f39685" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>()</argsstring>
+        <name>__construct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Output.php" line="92" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Output.php" bodystart="92" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___output_1aa6c3f8688f804de4f1af8a462fffb922" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>get_output</definition>
+        <argsstring>()</argsstring>
+        <name>get_output</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get Output</para><para>Returns the current output string</para><para>public <simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Output.php" line="122" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Output.php" bodystart="122" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___output_1afcff30d791a8006216f5c2fe93a95983" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>set_output</definition>
+        <argsstring>($output)</argsstring>
+        <name>set_output</name>
+        <param>
+          <declname>$output</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set Output</para><para>Sets the output string</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Output.php" line="138" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Output.php" bodystart="138" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___output_1a7c79b8239d6ecbba0c8fdd00bb619651" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>append_output</definition>
+        <argsstring>($output)</argsstring>
+        <name>append_output</name>
+        <param>
+          <declname>$output</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Append Output</para><para>Appends data onto the output string</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Output.php" line="156" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Output.php" bodystart="156" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___output_1a270389a1636faa81eda5ef3fa900ea25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>set_header</definition>
+        <argsstring>($header, $replace=TRUE)</argsstring>
+        <name>set_header</name>
+        <param>
+          <declname>$header</declname>
+        </param>
+        <param>
+          <declname>$replace</declname>
+          <defval>TRUE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set Header</para><para>Lets you set a server header which will be outputted with the final display.</para><para>Note: If a file is cached, headers will not be sent. We need to figure out how to permit header data to be saved with the cache data...</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bool</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Output.php" line="185" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Output.php" bodystart="185" bodyend="200"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___output_1a7ab03763a8ef83963392436dc416be86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>set_content_type</definition>
+        <argsstring>($mime_type)</argsstring>
+        <name>set_content_type</name>
+        <param>
+          <declname>$mime_type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set Content Type Header</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>extension of the file we&apos;re outputting </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Output.php" line="211" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Output.php" bodystart="211" bodyend="234"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___output_1ae5416517aea15ac6c9136ce83002002f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>set_status_header</definition>
+        <argsstring>($code=200, $text= &apos;&apos;)</argsstring>
+        <name>set_status_header</name>
+        <param>
+          <declname>$code</declname>
+          <defval>200</defval>
+        </param>
+        <param>
+          <declname>$text</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set HTTP Status Header moved to Common procedural functions in 1.7.2</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>int</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the status code </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Output.php" line="247" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Output.php" bodystart="247" bodyend="252"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___output_1a7bd693db25952e1b074630f52ee67500" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>enable_profiler</definition>
+        <argsstring>($val=TRUE)</argsstring>
+        <name>enable_profiler</name>
+        <param>
+          <declname>$val</declname>
+          <defval>TRUE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Enable/disable Profiler</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>bool</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Output.php" line="263" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Output.php" bodystart="263" bodyend="268"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___output_1ac5e50de443748cf3d356d29eba2caaaf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>set_profiler_sections</definition>
+        <argsstring>($sections)</argsstring>
+        <name>set_profiler_sections</name>
+        <param>
+          <declname>$sections</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set Profiler Sections</para><para>Allows override of default / config settings for Profiler section display</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Output.php" line="281" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Output.php" bodystart="281" bodyend="289"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___output_1a6eae3cd828cf30926d44f1ab6011f939" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>cache</definition>
+        <argsstring>($time)</argsstring>
+        <name>cache</name>
+        <param>
+          <declname>$time</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set Cache</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>integer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Output.php" line="300" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Output.php" bodystart="300" bodyend="305"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___output_1a16a22fa40f70c2b611fa9dd7e2a63ef1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_display</definition>
+        <argsstring>($output= &apos;&apos;)</argsstring>
+        <name>_display</name>
+        <param>
+          <declname>$output</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Display Output</para><para>All &quot;view&quot; data is automatically put into this variable by the controller class:</para><para>$this-&gt;final_output</para><para>This function sends the finalized output data to the browser along with any server headers and profile data. It also stops the benchmark timer so the page rendering speed and memory usage can be shown.</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Output.php" line="324" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Output.php" bodystart="324" bodyend="450"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___output_1a772aa9eb3f60f66fa194443ca0bdd8a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_write_cache</definition>
+        <argsstring>($output)</argsstring>
+        <name>_write_cache</name>
+        <param>
+          <declname>$output</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Write a Cache File</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Output.php" line="461" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Output.php" bodystart="461" bodyend="502"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___output_1acce78bdac02df9ab196a9c5939f6c4ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_display_cache</definition>
+        <argsstring>(&amp;$CFG, &amp;$URI)</argsstring>
+        <name>_display_cache</name>
+        <param>
+          <type>&amp;</type>
+          <declname>$CFG</declname>
+        </param>
+        <param>
+          <type>&amp;</type>
+          <declname>$URI</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Update/serve a cached file</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>object</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>config class </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>object</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>uri class </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Output.php" line="514" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Output.php" bodystart="514" bodyend="567"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Output.php" line="29" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Output.php" bodystart="29" bodyend="570"/>
+    <listofallmembers>
+      <member refid="class_c_i___output_1a4d239124375bbbdb9a4f5a0260505c40" prot="protected" virt="non-virtual"><scope>CI_Output</scope><name>$_profiler_sections</name></member>
+      <member refid="class_c_i___output_1a76d91b71069ec82a31b4d12643e0ca40" prot="protected" virt="non-virtual"><scope>CI_Output</scope><name>$_zlib_oc</name></member>
+      <member refid="class_c_i___output_1a4a65b5005fdb96d5bdac5d642a022f16" prot="protected" virt="non-virtual"><scope>CI_Output</scope><name>$cache_expiration</name></member>
+      <member refid="class_c_i___output_1a85f3ab9485440090efd4e0ae9a070747" prot="protected" virt="non-virtual"><scope>CI_Output</scope><name>$enable_profiler</name></member>
+      <member refid="class_c_i___output_1aa1b5049c03b9ef373af010aa3cda17a3" prot="protected" virt="non-virtual"><scope>CI_Output</scope><name>$final_output</name></member>
+      <member refid="class_c_i___output_1a52500036ee807241b8b4b7e2367c49ef" prot="protected" virt="non-virtual"><scope>CI_Output</scope><name>$headers</name></member>
+      <member refid="class_c_i___output_1a49932ececf6da03a6379ca46ca1604d4" prot="protected" virt="non-virtual"><scope>CI_Output</scope><name>$mime_types</name></member>
+      <member refid="class_c_i___output_1a254d73d122352494697cdba0c509086d" prot="protected" virt="non-virtual"><scope>CI_Output</scope><name>$parse_exec_vars</name></member>
+      <member refid="class_c_i___output_1a095c5d389db211932136b53f25f39685" prot="public" virt="non-virtual"><scope>CI_Output</scope><name>__construct</name></member>
+      <member refid="class_c_i___output_1a16a22fa40f70c2b611fa9dd7e2a63ef1" prot="public" virt="non-virtual"><scope>CI_Output</scope><name>_display</name></member>
+      <member refid="class_c_i___output_1acce78bdac02df9ab196a9c5939f6c4ab" prot="public" virt="non-virtual"><scope>CI_Output</scope><name>_display_cache</name></member>
+      <member refid="class_c_i___output_1a772aa9eb3f60f66fa194443ca0bdd8a4" prot="public" virt="non-virtual"><scope>CI_Output</scope><name>_write_cache</name></member>
+      <member refid="class_c_i___output_1a7c79b8239d6ecbba0c8fdd00bb619651" prot="public" virt="non-virtual"><scope>CI_Output</scope><name>append_output</name></member>
+      <member refid="class_c_i___output_1a6eae3cd828cf30926d44f1ab6011f939" prot="public" virt="non-virtual"><scope>CI_Output</scope><name>cache</name></member>
+      <member refid="class_c_i___output_1a7bd693db25952e1b074630f52ee67500" prot="public" virt="non-virtual"><scope>CI_Output</scope><name>enable_profiler</name></member>
+      <member refid="class_c_i___output_1aa6c3f8688f804de4f1af8a462fffb922" prot="public" virt="non-virtual"><scope>CI_Output</scope><name>get_output</name></member>
+      <member refid="class_c_i___output_1a7ab03763a8ef83963392436dc416be86" prot="public" virt="non-virtual"><scope>CI_Output</scope><name>set_content_type</name></member>
+      <member refid="class_c_i___output_1a270389a1636faa81eda5ef3fa900ea25" prot="public" virt="non-virtual"><scope>CI_Output</scope><name>set_header</name></member>
+      <member refid="class_c_i___output_1afcff30d791a8006216f5c2fe93a95983" prot="public" virt="non-virtual"><scope>CI_Output</scope><name>set_output</name></member>
+      <member refid="class_c_i___output_1ac5e50de443748cf3d356d29eba2caaaf" prot="public" virt="non-virtual"><scope>CI_Output</scope><name>set_profiler_sections</name></member>
+      <member refid="class_c_i___output_1ae5416517aea15ac6c9136ce83002002f" prot="public" virt="non-virtual"><scope>CI_Output</scope><name>set_status_header</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

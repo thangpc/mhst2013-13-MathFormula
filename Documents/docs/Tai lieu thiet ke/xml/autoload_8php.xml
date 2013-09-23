@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="autoload_8php" kind="file">
+    <compoundname>autoload.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="autoload_8php_1ab562c5bbb18f14d6b6b7014d9166625d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$autoload[&apos;packages&apos;]</definition>
+        <argsstring>[&apos;packages&apos;]</argsstring>
+        <name>$autoload</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/autoload.php" line="40" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/autoload.php" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="autoload_8php_1ab86d0a1a62e12b528eacaa7100bc4d93" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$autoload[&apos;libraries&apos;]</definition>
+        <argsstring>[&apos;libraries&apos;]</argsstring>
+        <name>$autoload</name>
+        <initializer>= array(&apos;database&apos;, &apos;session&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/autoload.php" line="54" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/autoload.php" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="autoload_8php_1aa98014ce8ad854ad9500e65ff159272d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$autoload[&apos;helper&apos;]</definition>
+        <argsstring>[&apos;helper&apos;]</argsstring>
+        <name>$autoload</name>
+        <initializer>= array(&apos;url&apos;, &apos;html&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/autoload.php" line="66" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/autoload.php" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="autoload_8php_1ac051887e192979c0320e05821bad8f33" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$autoload[&apos;config&apos;]</definition>
+        <argsstring>[&apos;config&apos;]</argsstring>
+        <name>$autoload</name>
+        <initializer>= array(&apos;site_config&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/autoload.php" line="82" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/autoload.php" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="autoload_8php_1addfee4f4b38a8235172cb173995a9c0b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$autoload[&apos;language&apos;]</definition>
+        <argsstring>[&apos;language&apos;]</argsstring>
+        <name>$autoload</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/autoload.php" line="98" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/autoload.php" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="autoload_8php_1a942b884082b1defda7fb10ee71bba324" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$autoload[&apos;model&apos;]</definition>
+        <argsstring>[&apos;model&apos;]</argsstring>
+        <name>$autoload</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/autoload.php" line="111" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/autoload.php" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php<sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>!<sp/>defined(</highlight><highlight class="stringliteral">&apos;BASEPATH&apos;</highlight><highlight class="normal">))<sp/>exit(</highlight><highlight class="stringliteral">&apos;No<sp/>direct<sp/>script<sp/>access<sp/>allowed&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment">|<sp/>-------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="4"><highlight class="comment">|<sp/>AUTO-LOADER</highlight></codeline>
+<codeline lineno="5"><highlight class="comment">|<sp/>-------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="6"><highlight class="comment">|<sp/>This<sp/>file<sp/>specifies<sp/>which<sp/>systems<sp/>should<sp/>be<sp/>loaded<sp/>by<sp/>default.</highlight></codeline>
+<codeline lineno="7"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="8"><highlight class="comment">|<sp/>In<sp/>order<sp/>to<sp/>keep<sp/>the<sp/>framework<sp/>as<sp/>light-weight<sp/>as<sp/>possible<sp/>only<sp/>the</highlight></codeline>
+<codeline lineno="9"><highlight class="comment">|<sp/>absolute<sp/>minimal<sp/>resources<sp/>are<sp/>loaded<sp/>by<sp/>default.<sp/>For<sp/>example,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment">|<sp/>the<sp/>database<sp/>is<sp/>not<sp/>connected<sp/>to<sp/>automatically<sp/>since<sp/>no<sp/>assumption</highlight></codeline>
+<codeline lineno="11"><highlight class="comment">|<sp/>is<sp/>made<sp/>regarding<sp/>whether<sp/>you<sp/>intend<sp/>to<sp/>use<sp/>it.<sp/><sp/>This<sp/>file<sp/>lets</highlight></codeline>
+<codeline lineno="12"><highlight class="comment">|<sp/>you<sp/>globally<sp/>define<sp/>which<sp/>systems<sp/>you<sp/>would<sp/>like<sp/>loaded<sp/>with<sp/>every</highlight></codeline>
+<codeline lineno="13"><highlight class="comment">|<sp/>request.</highlight></codeline>
+<codeline lineno="14"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="15"><highlight class="comment">|<sp/>-------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="16"><highlight class="comment">|<sp/>Instructions</highlight></codeline>
+<codeline lineno="17"><highlight class="comment">|<sp/>-------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="18"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="19"><highlight class="comment">|<sp/>These<sp/>are<sp/>the<sp/>things<sp/>you<sp/>can<sp/>load<sp/>automatically:</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">|<sp/>1.<sp/>Packages</highlight></codeline>
+<codeline lineno="22"><highlight class="comment">|<sp/>2.<sp/>Libraries</highlight></codeline>
+<codeline lineno="23"><highlight class="comment">|<sp/>3.<sp/>Helper<sp/>files</highlight></codeline>
+<codeline lineno="24"><highlight class="comment">|<sp/>4.<sp/>Custom<sp/>config<sp/>files</highlight></codeline>
+<codeline lineno="25"><highlight class="comment">|<sp/>5.<sp/>Language<sp/>files</highlight></codeline>
+<codeline lineno="26"><highlight class="comment">|<sp/>6.<sp/>Models</highlight></codeline>
+<codeline lineno="27"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="28"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="31"><highlight class="comment">|<sp/>-------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="32"><highlight class="comment">|<sp/><sp/>Auto-load<sp/>Packges</highlight></codeline>
+<codeline lineno="33"><highlight class="comment">|<sp/>-------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="34"><highlight class="comment">|<sp/>Prototype:</highlight></codeline>
+<codeline lineno="35"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="36"><highlight class="comment">|<sp/><sp/>$autoload[&apos;packages&apos;]<sp/>=<sp/>array(APPPATH.&apos;third_party&apos;,<sp/>&apos;/usr/local/shared&apos;);</highlight></codeline>
+<codeline lineno="37"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="38"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="autoload_8php_1ab562c5bbb18f14d6b6b7014d9166625d" refkind="member"><highlight class="normal"><ref refid="autoload_8php_1ab562c5bbb18f14d6b6b7014d9166625d" kindref="member">$autoload</ref>[</highlight><highlight class="stringliteral">&apos;packages&apos;</highlight><highlight class="normal">]<sp/>=<sp/>array();</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="44"><highlight class="comment">|<sp/>-------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="45"><highlight class="comment">|<sp/><sp/>Auto-load<sp/>Libraries</highlight></codeline>
+<codeline lineno="46"><highlight class="comment">|<sp/>---------------k</highlight></codeline>
+<codeline lineno="47"><highlight class="comment">|<sp/>or<sp/>in<sp/>your<sp/>application/libraries<sp/>folder.</highlight></codeline>
+<codeline lineno="48"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="49"><highlight class="comment">|<sp/>Prototype:</highlight></codeline>
+<codeline lineno="50"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="51"><highlight class="comment">|<sp/><sp/><sp/>$autoload[&apos;libraries&apos;]<sp/>=<sp/>array(&apos;database&apos;,<sp/>&apos;session&apos;,<sp/>&apos;xmlrpc&apos;);</highlight></codeline>
+<codeline lineno="52"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="autoload_8php_1ab86d0a1a62e12b528eacaa7100bc4d93" refkind="member"><highlight class="normal"><ref refid="autoload_8php_1ab562c5bbb18f14d6b6b7014d9166625d" kindref="member">$autoload</ref>[</highlight><highlight class="stringliteral">&apos;libraries&apos;</highlight><highlight class="normal">]<sp/>=<sp/>array(</highlight><highlight class="stringliteral">&apos;database&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;session&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="58"><highlight class="comment">|<sp/>-------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="59"><highlight class="comment">|<sp/><sp/>Auto-load<sp/>Helper<sp/>Files</highlight></codeline>
+<codeline lineno="60"><highlight class="comment">|<sp/>-------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="61"><highlight class="comment">|<sp/>Prototype:</highlight></codeline>
+<codeline lineno="62"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="63"><highlight class="comment">|<sp/><sp/><sp/>$autoload[&apos;helper&apos;]<sp/>=<sp/>array(&apos;url&apos;,<sp/>&apos;file&apos;);</highlight></codeline>
+<codeline lineno="64"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="autoload_8php_1aa98014ce8ad854ad9500e65ff159272d" refkind="member"><highlight class="normal"><ref refid="autoload_8php_1ab562c5bbb18f14d6b6b7014d9166625d" kindref="member">$autoload</ref>[</highlight><highlight class="stringliteral">&apos;helper&apos;</highlight><highlight class="normal">]<sp/>=<sp/>array(</highlight><highlight class="stringliteral">&apos;url&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;html&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="70"><highlight class="comment">|<sp/>-------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="71"><highlight class="comment">|<sp/><sp/>Auto-load<sp/>Config<sp/>files</highlight></codeline>
+<codeline lineno="72"><highlight class="comment">|<sp/>-------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="73"><highlight class="comment">|<sp/>Prototype:</highlight></codeline>
+<codeline lineno="74"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="75"><highlight class="comment">|<sp/><sp/><sp/>$autoload[&apos;config&apos;]<sp/>=<sp/>array(&apos;config1&apos;,<sp/>&apos;config2&apos;);</highlight></codeline>
+<codeline lineno="76"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="77"><highlight class="comment">|<sp/>NOTE:<sp/>This<sp/>item<sp/>is<sp/>intended<sp/>for<sp/>use<sp/>ONLY<sp/>if<sp/>you<sp/>have<sp/>created<sp/>custom</highlight></codeline>
+<codeline lineno="78"><highlight class="comment">|<sp/>config<sp/>files.<sp/><sp/>Otherwise,<sp/>leave<sp/>it<sp/>blank.</highlight></codeline>
+<codeline lineno="79"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="80"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="autoload_8php_1ac051887e192979c0320e05821bad8f33" refkind="member"><highlight class="normal"><ref refid="autoload_8php_1ab562c5bbb18f14d6b6b7014d9166625d" kindref="member">$autoload</ref>[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">]<sp/>=<sp/>array(</highlight><highlight class="stringliteral">&apos;site_config&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="86"><highlight class="comment">|<sp/>-------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="87"><highlight class="comment">|<sp/><sp/>Auto-load<sp/>Language<sp/>files</highlight></codeline>
+<codeline lineno="88"><highlight class="comment">|<sp/>-------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="89"><highlight class="comment">|<sp/>Prototype:</highlight></codeline>
+<codeline lineno="90"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="91"><highlight class="comment">|<sp/><sp/><sp/>$autoload[&apos;language&apos;]<sp/>=<sp/>array(&apos;lang1&apos;,<sp/>&apos;lang2&apos;);</highlight></codeline>
+<codeline lineno="92"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="93"><highlight class="comment">|<sp/>NOTE:<sp/>Do<sp/>not<sp/>include<sp/>the<sp/>&quot;_lang&quot;<sp/>part<sp/>of<sp/>your<sp/>file.<sp/><sp/>For<sp/>example</highlight></codeline>
+<codeline lineno="94"><highlight class="comment">|<sp/>&quot;codeigniter_lang.php&quot;<sp/>would<sp/>be<sp/>referenced<sp/>as<sp/>array(&apos;codeigniter&apos;);</highlight></codeline>
+<codeline lineno="95"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="96"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="autoload_8php_1addfee4f4b38a8235172cb173995a9c0b" refkind="member"><highlight class="normal"><ref refid="autoload_8php_1ab562c5bbb18f14d6b6b7014d9166625d" kindref="member">$autoload</ref>[</highlight><highlight class="stringliteral">&apos;language&apos;</highlight><highlight class="normal">]<sp/>=<sp/>array();</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="102"><highlight class="comment">|<sp/>-------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="103"><highlight class="comment">|<sp/><sp/>Auto-load<sp/>Models</highlight></codeline>
+<codeline lineno="104"><highlight class="comment">|<sp/>-------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="105"><highlight class="comment">|<sp/>Prototype:</highlight></codeline>
+<codeline lineno="106"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="107"><highlight class="comment">|<sp/><sp/><sp/>$autoload[&apos;model&apos;]<sp/>=<sp/>array(&apos;model1&apos;,<sp/>&apos;model2&apos;);</highlight></codeline>
+<codeline lineno="108"><highlight class="comment">|</highlight></codeline>
+<codeline lineno="109"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111" refid="autoload_8php_1a942b884082b1defda7fb10ee71bba324" refkind="member"><highlight class="normal"><ref refid="autoload_8php_1ab562c5bbb18f14d6b6b7014d9166625d" kindref="member">$autoload</ref>[</highlight><highlight class="stringliteral">&apos;model&apos;</highlight><highlight class="normal">]<sp/>=<sp/>array();</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>End<sp/>of<sp/>file<sp/>autoload.php<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Location:<sp/>./application/config/autoload.php<sp/>*/</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/autoload.php"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,143 @@
+\hypertarget{string__helper_8php}{\section{system/helpers/string\-\_\-helper.php File Reference}
+\label{string__helper_8php}\index{system/helpers/string\-\_\-helper.\-php@{system/helpers/string\-\_\-helper.\-php}}
+}
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{namespace_code_igniter}{Code\-Igniter}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{bootstrap_8min_8js_afac0f023df4d3c79a9b54c1aae1fbdc3}{if}(!function\-\_\-exists('trim\-\_\-slashes')) \\*
+\hyperlink{bootstrap_8min_8js_afac0f023df4d3c79a9b54c1aae1fbdc3}{if}(!function\-\_\-exists('strip\-\_\-slashes')) \\*
+\hyperlink{bootstrap_8min_8js_afac0f023df4d3c79a9b54c1aae1fbdc3}{if}(!function\-\_\-exists('strip\-\_\-quotes')) \\*
+\hyperlink{bootstrap_8min_8js_afac0f023df4d3c79a9b54c1aae1fbdc3}{if}(!function\-\_\-exists('quotes\-\_\-to\-\_\-entities')) \\*
+\hyperlink{bootstrap_8min_8js_afac0f023df4d3c79a9b54c1aae1fbdc3}{if}(!function\-\_\-exists('reduce\-\_\-double\-\_\-slashes')) \\*
+\hyperlink{bootstrap_8min_8js_afac0f023df4d3c79a9b54c1aae1fbdc3}{if}(!function\-\_\-exists('reduce\-\_\-multiples')) \\*
+\hyperlink{bootstrap_8min_8js_afac0f023df4d3c79a9b54c1aae1fbdc3}{if}(!function\-\_\-exists('random\-\_\-string')) \hyperlink{string__helper_8php_a006e718dc1169a55ffb0679350b0a4f5}{increment\-\_\-string} (\$str, \$separator= '\hyperlink{mathquill_8js_a18f05aeddc212b523b40818fa2b87b33}{\-\_\-}', \$first=1)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{string__helper_8php_a006e718dc1169a55ffb0679350b0a4f5}{\index{string\-\_\-helper.\-php@{string\-\_\-helper.\-php}!increment\-\_\-string@{increment\-\_\-string}}
+\index{increment\-\_\-string@{increment\-\_\-string}!string_helper.php@{string\-\_\-helper.\-php}}
+\subsubsection[{increment\-\_\-string}]{\setlength{\rightskip}{0pt plus 5cm}{\bf if} (!function\-\_\-exists('trim\-\_\-slashes')) {\bf if} (!function\-\_\-exists('strip\-\_\-slashes')) {\bf if} (!function\-\_\-exists('strip\-\_\-quotes')) {\bf if} (!function\-\_\-exists('quotes\-\_\-to\-\_\-entities')) {\bf if} (!function\-\_\-exists('reduce\-\_\-double\-\_\-slashes')) {\bf if} (!function\-\_\-exists('reduce\-\_\-multiples')) {\bf if} (!function\-\_\-exists('random\-\_\-string')) increment\-\_\-string (
+\begin{DoxyParamCaption}
+\item[{}]{\$str, }
+\item[{}]{\$separator = {\ttfamily '{\bf \-\_\-}'}, }
+\item[{}]{\$first = {\ttfamily 1}}
+\end{DoxyParamCaption}
+)}}\label{string__helper_8php_a006e718dc1169a55ffb0679350b0a4f5}
+Trim Slashes
+
+Removes any leading/trailing slashes from a string\-:
+
+/this/that/theother/
+
+becomes\-:
+
+this/that/theother
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string Strip Slashes
+\end{DoxyReturn}
+Removes slashes contained in a string or in an array
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em mixed} & string or array \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed string or array Strip Quotes
+\end{DoxyReturn}
+Removes single and double quotes from a string
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string Quotes to Entities
+\end{DoxyReturn}
+Converts single and double quotes to entities
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string Reduce Double Slashes
+\end{DoxyReturn}
+Converts double slashes in a string to a single slash, except those found in \href{http://}{\tt http\-://}
+
+\href{http://www.some-site.com//index.php}{\tt http\-://www.\-some-\/site.\-com//index.\-php}
+
+becomes\-:
+
+\href{http://www.some-site.com/index.php}{\tt http\-://www.\-some-\/site.\-com/index.\-php}
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string Reduce Multiples
+\end{DoxyReturn}
+Reduces multiple instances of a particular character. Example\-:
+
+Fred, Bill,, Joe, Jimmy
+
+becomes\-:
+
+Fred, Bill, Joe, Jimmy
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+{\em string} & the character you wish to reduce \\
+\hline
+{\em bool} & T\-R\-U\-E/\-F\-A\-L\-S\-E -\/ whether to trim the character from the beginning/end \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string Create a Random String
+\end{DoxyReturn}
+Useful for generating passwords or hashes.
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & type of random string. basic, alpha, alunum, numeric, nozero, unique, md5, encrypt and sha1 \\
+\hline
+{\em integer} & number of characters \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string Add's \-\_\-1 to a string or increment the ending number to allow \-\_\-2, \-\_\-3, etc
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$str} & required \\
+\hline
+string & {\em \$separator} & What should the duplicate number be appended with \\
+\hline
+string & {\em \$first} & Which number should be used for the first dupe increment \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 253 of file string\-\_\-helper.\-php.
+

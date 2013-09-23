@@ -1,0 +1,249 @@
+\hypertarget{class_c_i___migration}{\section{C\-I\-\_\-\-Migration Class Reference}
+\label{class_c_i___migration}\index{C\-I\-\_\-\-Migration@{C\-I\-\_\-\-Migration}}
+}
+Inheritance diagram for C\-I\-\_\-\-Migration\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_c_i___migration}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_c_i___migration_af7f9493844d2d66e924e3c1df51ce616}{\-\_\-\-\_\-construct} (\$config=array())
+\item 
+\hyperlink{class_c_i___migration_a9192bce789e541754ba481dfec6bb39a}{version} (\$target\-\_\-version)
+\item 
+\hyperlink{class_c_i___migration_a23502a9f08bfc74caf3914113d11db2b}{latest} ()
+\item 
+\hyperlink{class_c_i___migration_af343507d1926e6ecf964625d41db528c}{current} ()
+\item 
+\hyperlink{class_c_i___migration_aad434fa9bec99e30d6a86beb5c2607df}{error\-\_\-string} ()
+\item 
+\hyperlink{class_c_i___migration_a8fb2d9cdca17b87400e780b9f9720933}{\-\_\-\-\_\-get} (\$var)
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_c_i___migration_a6581e916a05e39e46c09fe9878b2d93a}{find\-\_\-migrations} ()
+\item 
+\hyperlink{class_c_i___migration_a1de42592aaef750bc3782e873b1b6d5f}{\-\_\-get\-\_\-version} ()
+\item 
+\hyperlink{class_c_i___migration_a1247aace04c0d103e56b7066f5212eb3}{\-\_\-update\-\_\-version} (\$migrations)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_c_i___migration_a4ab2a6819f2d038b7ad2faa0a09161d1}{\$\-\_\-migration\-\_\-enabled} = F\-A\-L\-S\-E
+\item 
+\hyperlink{class_c_i___migration_a47cd630e42ae345f6e6ebe4235612a2e}{\$\-\_\-migration\-\_\-path} = N\-U\-L\-L
+\item 
+\hyperlink{class_c_i___migration_a6bffbb1001557bd7ffb22183b51f589d}{\$\-\_\-migration\-\_\-version} = 0
+\item 
+\hyperlink{class_c_i___migration_a2574ed23c2ed6d71d6e8396f0c4fde0f}{\$\-\_\-error\-\_\-string} = ''
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 30 of file Migration.\-php.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_c_i___migration_af7f9493844d2d66e924e3c1df51ce616}{\index{C\-I\-\_\-\-Migration@{C\-I\-\_\-\-Migration}!\-\_\-\-\_\-construct@{\-\_\-\-\_\-construct}}
+\index{\-\_\-\-\_\-construct@{\-\_\-\-\_\-construct}!CI_Migration@{C\-I\-\_\-\-Migration}}
+\subsubsection[{\-\_\-\-\_\-construct}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-\-\_\-construct (
+\begin{DoxyParamCaption}
+\item[{}]{\$config = {\ttfamily array()}}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___migration_af7f9493844d2d66e924e3c1df51ce616}
+
+
+Definition at line 38 of file Migration.\-php.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_c_i___migration_a8fb2d9cdca17b87400e780b9f9720933}{\index{C\-I\-\_\-\-Migration@{C\-I\-\_\-\-Migration}!\-\_\-\-\_\-get@{\-\_\-\-\_\-get}}
+\index{\-\_\-\-\_\-get@{\-\_\-\-\_\-get}!CI_Migration@{C\-I\-\_\-\-Migration}}
+\subsubsection[{\-\_\-\-\_\-get}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-\-\_\-get (
+\begin{DoxyParamCaption}
+\item[{}]{\$var}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___migration_a8fb2d9cdca17b87400e780b9f9720933}
+Enable the use of C\-I super-\/global
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$var} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+
+
+Definition at line 321 of file Migration.\-php.
+
+\hypertarget{class_c_i___migration_a1de42592aaef750bc3782e873b1b6d5f}{\index{C\-I\-\_\-\-Migration@{C\-I\-\_\-\-Migration}!\-\_\-get\-\_\-version@{\-\_\-get\-\_\-version}}
+\index{\-\_\-get\-\_\-version@{\-\_\-get\-\_\-version}!CI_Migration@{C\-I\-\_\-\-Migration}}
+\subsubsection[{\-\_\-get\-\_\-version}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-get\-\_\-version (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_c_i___migration_a1de42592aaef750bc3782e873b1b6d5f}
+Retrieves current schema version
+
+\begin{DoxyReturn}{Returns}
+int Current Migration 
+\end{DoxyReturn}
+
+
+Definition at line 292 of file Migration.\-php.
+
+\hypertarget{class_c_i___migration_a1247aace04c0d103e56b7066f5212eb3}{\index{C\-I\-\_\-\-Migration@{C\-I\-\_\-\-Migration}!\-\_\-update\-\_\-version@{\-\_\-update\-\_\-version}}
+\index{\-\_\-update\-\_\-version@{\-\_\-update\-\_\-version}!CI_Migration@{C\-I\-\_\-\-Migration}}
+\subsubsection[{\-\_\-update\-\_\-version}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-update\-\_\-version (
+\begin{DoxyParamCaption}
+\item[{}]{\$migrations}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_c_i___migration_a1247aace04c0d103e56b7066f5212eb3}
+Stores the current schema version
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & Migration reached \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 306 of file Migration.\-php.
+
+\hypertarget{class_c_i___migration_af343507d1926e6ecf964625d41db528c}{\index{C\-I\-\_\-\-Migration@{C\-I\-\_\-\-Migration}!current@{current}}
+\index{current@{current}!CI_Migration@{C\-I\-\_\-\-Migration}}
+\subsubsection[{current}]{\setlength{\rightskip}{0pt plus 5cm}current (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___migration_af343507d1926e6ecf964625d41db528c}
+Set's the schema to the migration version set in config
+
+\begin{DoxyReturn}{Returns}
+mixed true if already current, false if failed, int if upgraded 
+\end{DoxyReturn}
+
+
+Definition at line 241 of file Migration.\-php.
+
+\hypertarget{class_c_i___migration_aad434fa9bec99e30d6a86beb5c2607df}{\index{C\-I\-\_\-\-Migration@{C\-I\-\_\-\-Migration}!error\-\_\-string@{error\-\_\-string}}
+\index{error\-\_\-string@{error\-\_\-string}!CI_Migration@{C\-I\-\_\-\-Migration}}
+\subsubsection[{error\-\_\-string}]{\setlength{\rightskip}{0pt plus 5cm}error\-\_\-string (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___migration_aad434fa9bec99e30d6a86beb5c2607df}
+Error string
+
+\begin{DoxyReturn}{Returns}
+string Error message returned as a string 
+\end{DoxyReturn}
+
+
+Definition at line 253 of file Migration.\-php.
+
+\hypertarget{class_c_i___migration_a6581e916a05e39e46c09fe9878b2d93a}{\index{C\-I\-\_\-\-Migration@{C\-I\-\_\-\-Migration}!find\-\_\-migrations@{find\-\_\-migrations}}
+\index{find\-\_\-migrations@{find\-\_\-migrations}!CI_Migration@{C\-I\-\_\-\-Migration}}
+\subsubsection[{find\-\_\-migrations}]{\setlength{\rightskip}{0pt plus 5cm}find\-\_\-migrations (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_c_i___migration_a6581e916a05e39e46c09fe9878b2d93a}
+Set's the schema to the latest migration
+
+\begin{DoxyReturn}{Returns}
+mixed true if already latest, false if failed, int if upgraded 
+\end{DoxyReturn}
+
+
+Definition at line 265 of file Migration.\-php.
+
+\hypertarget{class_c_i___migration_a23502a9f08bfc74caf3914113d11db2b}{\index{C\-I\-\_\-\-Migration@{C\-I\-\_\-\-Migration}!latest@{latest}}
+\index{latest@{latest}!CI_Migration@{C\-I\-\_\-\-Migration}}
+\subsubsection[{latest}]{\setlength{\rightskip}{0pt plus 5cm}latest (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___migration_a23502a9f08bfc74caf3914113d11db2b}
+Set's the schema to the latest migration
+
+\begin{DoxyReturn}{Returns}
+mixed true if already latest, false if failed, int if upgraded 
+\end{DoxyReturn}
+
+
+Definition at line 219 of file Migration.\-php.
+
+\hypertarget{class_c_i___migration_a9192bce789e541754ba481dfec6bb39a}{\index{C\-I\-\_\-\-Migration@{C\-I\-\_\-\-Migration}!version@{version}}
+\index{version@{version}!CI_Migration@{C\-I\-\_\-\-Migration}}
+\subsubsection[{version}]{\setlength{\rightskip}{0pt plus 5cm}version (
+\begin{DoxyParamCaption}
+\item[{}]{\$target\-\_\-version}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___migration_a9192bce789e541754ba481dfec6bb39a}
+Migrate to a schema version
+
+Calls each migration step required to get to the schema version of choice
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & Target schema version \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed T\-R\-U\-E if already latest, F\-A\-L\-S\-E if failed, int if upgraded 
+\end{DoxyReturn}
+
+
+Definition at line 95 of file Migration.\-php.
+
+
+
+\subsection{Field Documentation}
+\hypertarget{class_c_i___migration_a2574ed23c2ed6d71d6e8396f0c4fde0f}{\index{C\-I\-\_\-\-Migration@{C\-I\-\_\-\-Migration}!\$\-\_\-error\-\_\-string@{\$\-\_\-error\-\_\-string}}
+\index{\$\-\_\-error\-\_\-string@{\$\-\_\-error\-\_\-string}!CI_Migration@{C\-I\-\_\-\-Migration}}
+\subsubsection[{\$\-\_\-error\-\_\-string}]{\setlength{\rightskip}{0pt plus 5cm}\$\-\_\-error\-\_\-string = ''\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_c_i___migration_a2574ed23c2ed6d71d6e8396f0c4fde0f}
+
+
+Definition at line 36 of file Migration.\-php.
+
+\hypertarget{class_c_i___migration_a4ab2a6819f2d038b7ad2faa0a09161d1}{\index{C\-I\-\_\-\-Migration@{C\-I\-\_\-\-Migration}!\$\-\_\-migration\-\_\-enabled@{\$\-\_\-migration\-\_\-enabled}}
+\index{\$\-\_\-migration\-\_\-enabled@{\$\-\_\-migration\-\_\-enabled}!CI_Migration@{C\-I\-\_\-\-Migration}}
+\subsubsection[{\$\-\_\-migration\-\_\-enabled}]{\setlength{\rightskip}{0pt plus 5cm}\$\-\_\-migration\-\_\-enabled = F\-A\-L\-S\-E\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_c_i___migration_a4ab2a6819f2d038b7ad2faa0a09161d1}
+
+
+Definition at line 32 of file Migration.\-php.
+
+\hypertarget{class_c_i___migration_a47cd630e42ae345f6e6ebe4235612a2e}{\index{C\-I\-\_\-\-Migration@{C\-I\-\_\-\-Migration}!\$\-\_\-migration\-\_\-path@{\$\-\_\-migration\-\_\-path}}
+\index{\$\-\_\-migration\-\_\-path@{\$\-\_\-migration\-\_\-path}!CI_Migration@{C\-I\-\_\-\-Migration}}
+\subsubsection[{\$\-\_\-migration\-\_\-path}]{\setlength{\rightskip}{0pt plus 5cm}\$\-\_\-migration\-\_\-path = N\-U\-L\-L\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_c_i___migration_a47cd630e42ae345f6e6ebe4235612a2e}
+
+
+Definition at line 33 of file Migration.\-php.
+
+\hypertarget{class_c_i___migration_a6bffbb1001557bd7ffb22183b51f589d}{\index{C\-I\-\_\-\-Migration@{C\-I\-\_\-\-Migration}!\$\-\_\-migration\-\_\-version@{\$\-\_\-migration\-\_\-version}}
+\index{\$\-\_\-migration\-\_\-version@{\$\-\_\-migration\-\_\-version}!CI_Migration@{C\-I\-\_\-\-Migration}}
+\subsubsection[{\$\-\_\-migration\-\_\-version}]{\setlength{\rightskip}{0pt plus 5cm}\$\-\_\-migration\-\_\-version = 0\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_c_i___migration_a6bffbb1001557bd7ffb22183b51f589d}
+
+
+Definition at line 34 of file Migration.\-php.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+system/libraries/\hyperlink{system_2libraries_2migration_8php}{Migration.\-php}\end{DoxyCompactItemize}

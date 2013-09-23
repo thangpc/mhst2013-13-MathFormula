@@ -1,0 +1,301 @@
+\hypertarget{class_c_i___profiler}{\section{C\-I\-\_\-\-Profiler Class Reference}
+\label{class_c_i___profiler}\index{C\-I\-\_\-\-Profiler@{C\-I\-\_\-\-Profiler}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_c_i___profiler_af7f9493844d2d66e924e3c1df51ce616}{\-\_\-\-\_\-construct} (\$config=array())
+\item 
+\hyperlink{class_c_i___profiler_a81c587d7a2a249d05f28c96a135591f7}{set\-\_\-sections} (\$config)
+\item 
+\hyperlink{class_c_i___profiler_afb0fafe7e02a3ae1993c01c19fad2bae}{run} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_c_i___profiler_acecf392de9d6129d3843c64fca7a4766}{\-\_\-compile\-\_\-benchmarks} ()
+\item 
+\hyperlink{class_c_i___profiler_a5d16e69fed0307c51b9479ebbb2049b6}{\-\_\-compile\-\_\-queries} ()
+\item 
+\hyperlink{class_c_i___profiler_a94ef351d1234fe87ee3f5cd7c855f8a5}{\-\_\-compile\-\_\-get} ()
+\item 
+\hyperlink{class_c_i___profiler_a42ae55500668793b1cec3d79b6ea9209}{\-\_\-compile\-\_\-post} ()
+\item 
+\hyperlink{class_c_i___profiler_a781803c49bf0c92d47187c76ebb42a1b}{\-\_\-compile\-\_\-uri\-\_\-string} ()
+\item 
+\hyperlink{class_c_i___profiler_a46a079522432af283c844f043ba5a513}{\-\_\-compile\-\_\-controller\-\_\-info} ()
+\item 
+\hyperlink{class_c_i___profiler_a409e57ba71d0463bb684925e2c6a5658}{\-\_\-compile\-\_\-memory\-\_\-usage} ()
+\item 
+\hyperlink{class_c_i___profiler_a80a22812f0243b3daaf78e3614bddadb}{\-\_\-compile\-\_\-http\-\_\-headers} ()
+\item 
+\hyperlink{class_c_i___profiler_affb7543f1c67a5b3ff24eaefcec37e6d}{\-\_\-compile\-\_\-config} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_c_i___profiler_ae30756727f63d3be7422d378676f667d}{\$\-\_\-available\-\_\-sections}
+\item 
+\hyperlink{class_c_i___profiler_a950aa6662ddde22ba9c05adffd6a20c9}{\$\-\_\-query\-\_\-toggle\-\_\-count} = 25
+\item 
+\hyperlink{class_c_i___profiler_ae0314d046ddf7fcfaec03222977427d3}{\$\-C\-I}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 33 of file Profiler.\-php.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_c_i___profiler_af7f9493844d2d66e924e3c1df51ce616}{\index{C\-I\-\_\-\-Profiler@{C\-I\-\_\-\-Profiler}!\-\_\-\-\_\-construct@{\-\_\-\-\_\-construct}}
+\index{\-\_\-\-\_\-construct@{\-\_\-\-\_\-construct}!CI_Profiler@{C\-I\-\_\-\-Profiler}}
+\subsubsection[{\-\_\-\-\_\-construct}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-\-\_\-construct (
+\begin{DoxyParamCaption}
+\item[{}]{\$config = {\ttfamily array()}}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___profiler_af7f9493844d2d66e924e3c1df51ce616}
+
+
+Definition at line 54 of file Profiler.\-php.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_c_i___profiler_acecf392de9d6129d3843c64fca7a4766}{\index{C\-I\-\_\-\-Profiler@{C\-I\-\_\-\-Profiler}!\-\_\-compile\-\_\-benchmarks@{\-\_\-compile\-\_\-benchmarks}}
+\index{\-\_\-compile\-\_\-benchmarks@{\-\_\-compile\-\_\-benchmarks}!CI_Profiler@{C\-I\-\_\-\-Profiler}}
+\subsubsection[{\-\_\-compile\-\_\-benchmarks}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-compile\-\_\-benchmarks (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_c_i___profiler_acecf392de9d6129d3843c64fca7a4766}
+Auto Profiler
+
+This function cycles through the entire array of mark points and matches any two points that are named identically (ending in \char`\"{}\-\_\-start\char`\"{} and \char`\"{}\-\_\-end\char`\"{} respectively). It then compiles the execution times for all points and returns it as an array
+
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+
+
+Definition at line 110 of file Profiler.\-php.
+
+\hypertarget{class_c_i___profiler_affb7543f1c67a5b3ff24eaefcec37e6d}{\index{C\-I\-\_\-\-Profiler@{C\-I\-\_\-\-Profiler}!\-\_\-compile\-\_\-config@{\-\_\-compile\-\_\-config}}
+\index{\-\_\-compile\-\_\-config@{\-\_\-compile\-\_\-config}!CI_Profiler@{C\-I\-\_\-\-Profiler}}
+\subsubsection[{\-\_\-compile\-\_\-config}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-compile\-\_\-config (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_c_i___profiler_affb7543f1c67a5b3ff24eaefcec37e6d}
+Compile config information
+
+Lists developer config variables
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 463 of file Profiler.\-php.
+
+\hypertarget{class_c_i___profiler_a46a079522432af283c844f043ba5a513}{\index{C\-I\-\_\-\-Profiler@{C\-I\-\_\-\-Profiler}!\-\_\-compile\-\_\-controller\-\_\-info@{\-\_\-compile\-\_\-controller\-\_\-info}}
+\index{\-\_\-compile\-\_\-controller\-\_\-info@{\-\_\-compile\-\_\-controller\-\_\-info}!CI_Profiler@{C\-I\-\_\-\-Profiler}}
+\subsubsection[{\-\_\-compile\-\_\-controller\-\_\-info}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-compile\-\_\-controller\-\_\-info (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_c_i___profiler_a46a079522432af283c844f043ba5a513}
+Show the controller and function that were called
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 377 of file Profiler.\-php.
+
+\hypertarget{class_c_i___profiler_a94ef351d1234fe87ee3f5cd7c855f8a5}{\index{C\-I\-\_\-\-Profiler@{C\-I\-\_\-\-Profiler}!\-\_\-compile\-\_\-get@{\-\_\-compile\-\_\-get}}
+\index{\-\_\-compile\-\_\-get@{\-\_\-compile\-\_\-get}!CI_Profiler@{C\-I\-\_\-\-Profiler}}
+\subsubsection[{\-\_\-compile\-\_\-get}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-compile\-\_\-get (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_c_i___profiler_a94ef351d1234fe87ee3f5cd7c855f8a5}
+Compile \$\-\_\-\-G\-E\-T Data
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 250 of file Profiler.\-php.
+
+\hypertarget{class_c_i___profiler_a80a22812f0243b3daaf78e3614bddadb}{\index{C\-I\-\_\-\-Profiler@{C\-I\-\_\-\-Profiler}!\-\_\-compile\-\_\-http\-\_\-headers@{\-\_\-compile\-\_\-http\-\_\-headers}}
+\index{\-\_\-compile\-\_\-http\-\_\-headers@{\-\_\-compile\-\_\-http\-\_\-headers}!CI_Profiler@{C\-I\-\_\-\-Profiler}}
+\subsubsection[{\-\_\-compile\-\_\-http\-\_\-headers}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-compile\-\_\-http\-\_\-headers (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_c_i___profiler_a80a22812f0243b3daaf78e3614bddadb}
+Compile header information
+
+Lists H\-T\-T\-P headers
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 432 of file Profiler.\-php.
+
+\hypertarget{class_c_i___profiler_a409e57ba71d0463bb684925e2c6a5658}{\index{C\-I\-\_\-\-Profiler@{C\-I\-\_\-\-Profiler}!\-\_\-compile\-\_\-memory\-\_\-usage@{\-\_\-compile\-\_\-memory\-\_\-usage}}
+\index{\-\_\-compile\-\_\-memory\-\_\-usage@{\-\_\-compile\-\_\-memory\-\_\-usage}!CI_Profiler@{C\-I\-\_\-\-Profiler}}
+\subsubsection[{\-\_\-compile\-\_\-memory\-\_\-usage}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-compile\-\_\-memory\-\_\-usage (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_c_i___profiler_a409e57ba71d0463bb684925e2c6a5658}
+Compile memory usage
+
+Display total used memory
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 401 of file Profiler.\-php.
+
+\hypertarget{class_c_i___profiler_a42ae55500668793b1cec3d79b6ea9209}{\index{C\-I\-\_\-\-Profiler@{C\-I\-\_\-\-Profiler}!\-\_\-compile\-\_\-post@{\-\_\-compile\-\_\-post}}
+\index{\-\_\-compile\-\_\-post@{\-\_\-compile\-\_\-post}!CI_Profiler@{C\-I\-\_\-\-Profiler}}
+\subsubsection[{\-\_\-compile\-\_\-post}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-compile\-\_\-post (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_c_i___profiler_a42ae55500668793b1cec3d79b6ea9209}
+Compile \$\-\_\-\-P\-O\-S\-T Data
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 299 of file Profiler.\-php.
+
+\hypertarget{class_c_i___profiler_a5d16e69fed0307c51b9479ebbb2049b6}{\index{C\-I\-\_\-\-Profiler@{C\-I\-\_\-\-Profiler}!\-\_\-compile\-\_\-queries@{\-\_\-compile\-\_\-queries}}
+\index{\-\_\-compile\-\_\-queries@{\-\_\-compile\-\_\-queries}!CI_Profiler@{C\-I\-\_\-\-Profiler}}
+\subsubsection[{\-\_\-compile\-\_\-queries}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-compile\-\_\-queries (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_c_i___profiler_a5d16e69fed0307c51b9479ebbb2049b6}
+Compile Queries
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 156 of file Profiler.\-php.
+
+\hypertarget{class_c_i___profiler_a781803c49bf0c92d47187c76ebb42a1b}{\index{C\-I\-\_\-\-Profiler@{C\-I\-\_\-\-Profiler}!\-\_\-compile\-\_\-uri\-\_\-string@{\-\_\-compile\-\_\-uri\-\_\-string}}
+\index{\-\_\-compile\-\_\-uri\-\_\-string@{\-\_\-compile\-\_\-uri\-\_\-string}!CI_Profiler@{C\-I\-\_\-\-Profiler}}
+\subsubsection[{\-\_\-compile\-\_\-uri\-\_\-string}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-compile\-\_\-uri\-\_\-string (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_c_i___profiler_a781803c49bf0c92d47187c76ebb42a1b}
+Show query string
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 348 of file Profiler.\-php.
+
+\hypertarget{class_c_i___profiler_afb0fafe7e02a3ae1993c01c19fad2bae}{\index{C\-I\-\_\-\-Profiler@{C\-I\-\_\-\-Profiler}!run@{run}}
+\index{run@{run}!CI_Profiler@{C\-I\-\_\-\-Profiler}}
+\subsubsection[{run}]{\setlength{\rightskip}{0pt plus 5cm}run (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___profiler_afb0fafe7e02a3ae1993c01c19fad2bae}
+Run the Profiler
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 529 of file Profiler.\-php.
+
+\hypertarget{class_c_i___profiler_a81c587d7a2a249d05f28c96a135591f7}{\index{C\-I\-\_\-\-Profiler@{C\-I\-\_\-\-Profiler}!set\-\_\-sections@{set\-\_\-sections}}
+\index{set\-\_\-sections@{set\-\_\-sections}!CI_Profiler@{C\-I\-\_\-\-Profiler}}
+\subsubsection[{set\-\_\-sections}]{\setlength{\rightskip}{0pt plus 5cm}set\-\_\-sections (
+\begin{DoxyParamCaption}
+\item[{}]{\$config}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___profiler_a81c587d7a2a249d05f28c96a135591f7}
+Set Sections
+
+Sets the private {\itshape compile}$\ast$ properties to enable/disable Profiler sections
+
+
+\begin{DoxyParams}{Parameters}
+{\em mixed} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 87 of file Profiler.\-php.
+
+
+
+\subsection{Field Documentation}
+\hypertarget{class_c_i___profiler_ae30756727f63d3be7422d378676f667d}{\index{C\-I\-\_\-\-Profiler@{C\-I\-\_\-\-Profiler}!\$\-\_\-available\-\_\-sections@{\$\-\_\-available\-\_\-sections}}
+\index{\$\-\_\-available\-\_\-sections@{\$\-\_\-available\-\_\-sections}!CI_Profiler@{C\-I\-\_\-\-Profiler}}
+\subsubsection[{\$\-\_\-available\-\_\-sections}]{\setlength{\rightskip}{0pt plus 5cm}\$\-\_\-available\-\_\-sections\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_c_i___profiler_ae30756727f63d3be7422d378676f667d}
+{\bfseries Initial value\-:}
+\begin{DoxyCode}
+= array(
+                                        \textcolor{stringliteral}{'benchmarks'},
+                                        \textcolor{stringliteral}{'get'},
+                                        \textcolor{stringliteral}{'memory\_usage'},
+                                        \textcolor{stringliteral}{'post'},
+                                        \textcolor{stringliteral}{'uri\_string'},
+                                        \textcolor{stringliteral}{'controller\_info'},
+                                        \textcolor{stringliteral}{'queries'},
+                                        \textcolor{stringliteral}{'http\_headers'},
+                                        \textcolor{stringliteral}{'session\_data'},
+                                        \textcolor{stringliteral}{'config'}
+                                        )
+\end{DoxyCode}
+
+
+Definition at line 35 of file Profiler.\-php.
+
+\hypertarget{class_c_i___profiler_a950aa6662ddde22ba9c05adffd6a20c9}{\index{C\-I\-\_\-\-Profiler@{C\-I\-\_\-\-Profiler}!\$\-\_\-query\-\_\-toggle\-\_\-count@{\$\-\_\-query\-\_\-toggle\-\_\-count}}
+\index{\$\-\_\-query\-\_\-toggle\-\_\-count@{\$\-\_\-query\-\_\-toggle\-\_\-count}!CI_Profiler@{C\-I\-\_\-\-Profiler}}
+\subsubsection[{\$\-\_\-query\-\_\-toggle\-\_\-count}]{\setlength{\rightskip}{0pt plus 5cm}\$\-\_\-query\-\_\-toggle\-\_\-count = 25\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_c_i___profiler_a950aa6662ddde22ba9c05adffd6a20c9}
+
+
+Definition at line 48 of file Profiler.\-php.
+
+\hypertarget{class_c_i___profiler_ae0314d046ddf7fcfaec03222977427d3}{\index{C\-I\-\_\-\-Profiler@{C\-I\-\_\-\-Profiler}!\$\-C\-I@{\$\-C\-I}}
+\index{\$\-C\-I@{\$\-C\-I}!CI_Profiler@{C\-I\-\_\-\-Profiler}}
+\subsubsection[{\$\-C\-I}]{\setlength{\rightskip}{0pt plus 5cm}\$C\-I\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_c_i___profiler_ae0314d046ddf7fcfaec03222977427d3}
+
+
+Definition at line 50 of file Profiler.\-php.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+system/libraries/\hyperlink{system_2libraries_2profiler_8php}{Profiler.\-php}\end{DoxyCompactItemize}

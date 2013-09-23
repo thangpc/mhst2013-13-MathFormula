@@ -1,0 +1,92 @@
+\hypertarget{index_8php}{\section{index.\-php File Reference}
+\label{index_8php}\index{index.\-php@{index.\-php}}
+}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+switch(dirname(\-\_\-\-\_\-\-F\-I\-L\-E\-\_\-\-\_\-)) \hyperlink{bootstrap_8min_8js_afac0f023df4d3c79a9b54c1aae1fbdc3}{if}(defined('E\-N\-V\-I\-R\-O\-N\-M\-E\-N\-T')) \hyperlink{index_8php_ae873e5430c828eb3081abe7050a379b6}{\$system\-\_\-path} = 'system'
+\item 
+\hyperlink{index_8php_ace4309eda0b92e3260b226079bc17909}{\$application\-\_\-folder} = 'application'
+\item 
+const \hyperlink{index_8php_a428c045e64680e1582ba74161e441a1c}{S\-E\-L\-F} (!is\-\_\-dir(\$system\-\_\-path)) pathinfo(\-\_\-\-\_\-\-F\-I\-L\-E\-\_\-\-\_\-, P\-A\-T\-H\-I\-N\-F\-O\-\_\-\-B\-A\-S\-E\-N\-A\-M\-E)
+\item 
+const \hyperlink{index_8php_ad48706cc82e010be85f1398fb34c6510}{E\-X\-T} '.php'
+\item 
+const \hyperlink{index_8php_ad39801cabfd338dc5524466fe793fda9}{B\-A\-S\-E\-P\-A\-T\-H} str\-\_\-replace(\char`\"{}\textbackslash{}\textbackslash{}\char`\"{}, \char`\"{}/\char`\"{}, \$system\-\_\-path)
+\item 
+const \hyperlink{index_8php_ae486546e58b2603595efedf9f95b3926}{F\-C\-P\-A\-T\-H} str\-\_\-replace(\hyperlink{index_8php_a428c045e64680e1582ba74161e441a1c}{S\-E\-L\-F}, '', \-\_\-\-\_\-\-F\-I\-L\-E\-\_\-\-\_\-)
+\item 
+const \hyperlink{index_8php_ab645ae0961792b1f2b4b83f89cb95fa5}{S\-Y\-S\-D\-I\-R} trim(strrchr(trim(\hyperlink{index_8php_ad39801cabfd338dc5524466fe793fda9}{B\-A\-S\-E\-P\-A\-T\-H}, '/'), '/'), '/')
+\item 
+\hyperlink{bootstrap_8min_8js_afac0f023df4d3c79a9b54c1aae1fbdc3}{if}(is\-\_\-dir(\$application\-\_\-folder)) \hyperlink{index_8php_a949e0a4a1cdea0279f54348f205f993b}{else}
+\end{DoxyCompactItemize}
+
+
+\subsection{Variable Documentation}
+\hypertarget{index_8php_ace4309eda0b92e3260b226079bc17909}{\index{index.\-php@{index.\-php}!\$application\-\_\-folder@{\$application\-\_\-folder}}
+\index{\$application\-\_\-folder@{\$application\-\_\-folder}!index.php@{index.\-php}}
+\subsubsection[{\$application\-\_\-folder}]{\setlength{\rightskip}{0pt plus 5cm}\$application\-\_\-folder = 'application'}}\label{index_8php_ace4309eda0b92e3260b226079bc17909}
+
+
+Definition at line 88 of file index.\-php.
+
+\hypertarget{index_8php_ae873e5430c828eb3081abe7050a379b6}{\index{index.\-php@{index.\-php}!\$system\-\_\-path@{\$system\-\_\-path}}
+\index{\$system\-\_\-path@{\$system\-\_\-path}!index.php@{index.\-php}}
+\subsubsection[{\$system\-\_\-path}]{\setlength{\rightskip}{0pt plus 5cm}{\bf if} (defined('S\-T\-D\-I\-N')) {\bf if} (realpath(\$system\-\_\-path)!==F\-A\-L\-S\-E) \$system\-\_\-path = 'system'}}\label{index_8php_ae873e5430c828eb3081abe7050a379b6}
+
+
+Definition at line 72 of file index.\-php.
+
+\hypertarget{index_8php_ad39801cabfd338dc5524466fe793fda9}{\index{index.\-php@{index.\-php}!B\-A\-S\-E\-P\-A\-T\-H@{B\-A\-S\-E\-P\-A\-T\-H}}
+\index{B\-A\-S\-E\-P\-A\-T\-H@{B\-A\-S\-E\-P\-A\-T\-H}!index.php@{index.\-php}}
+\subsubsection[{B\-A\-S\-E\-P\-A\-T\-H}]{\setlength{\rightskip}{0pt plus 5cm}const B\-A\-S\-E\-P\-A\-T\-H str\-\_\-replace(\char`\"{}\textbackslash{}\textbackslash{}\char`\"{}, \char`\"{}/\char`\"{}, \$system\-\_\-path)}}\label{index_8php_ad39801cabfd338dc5524466fe793fda9}
+
+
+Definition at line 183 of file index.\-php.
+
+\hypertarget{index_8php_a949e0a4a1cdea0279f54348f205f993b}{\index{index.\-php@{index.\-php}!else@{else}}
+\index{else@{else}!index.php@{index.\-php}}
+\subsubsection[{else}]{\setlength{\rightskip}{0pt plus 5cm}{\bf if} (is\-\_\-dir(\$application\-\_\-folder)) else}}\label{index_8php_a949e0a4a1cdea0279f54348f205f993b}
+{\bfseries Initial value\-:}
+\begin{DoxyCode}
+\{
+        \textcolor{keywordflow}{if} ( ! is\_dir(\hyperlink{index_8php_ad39801cabfd338dc5524466fe793fda9}{BASEPATH}.$application\_folder.\textcolor{charliteral}{'/'}))
+        \{
+            exit(\textcolor{stringliteral}{"Your application folder path does not appear to be set correctly. Please open the
+       following file and correct this: "}.\hyperlink{index_8php_a428c045e64680e1582ba74161e441a1c}{SELF});
+        \}
+
+        define(\textcolor{stringliteral}{'APPPATH'}, \hyperlink{index_8php_ad39801cabfd338dc5524466fe793fda9}{BASEPATH}.$application\_folder.\textcolor{charliteral}{'/'})
+\end{DoxyCode}
+
+
+Definition at line 198 of file index.\-php.
+
+\hypertarget{index_8php_ad48706cc82e010be85f1398fb34c6510}{\index{index.\-php@{index.\-php}!E\-X\-T@{E\-X\-T}}
+\index{E\-X\-T@{E\-X\-T}!index.php@{index.\-php}}
+\subsubsection[{E\-X\-T}]{\setlength{\rightskip}{0pt plus 5cm}const E\-X\-T '.php'}}\label{index_8php_ad48706cc82e010be85f1398fb34c6510}
+
+
+Definition at line 180 of file index.\-php.
+
+\hypertarget{index_8php_ae486546e58b2603595efedf9f95b3926}{\index{index.\-php@{index.\-php}!F\-C\-P\-A\-T\-H@{F\-C\-P\-A\-T\-H}}
+\index{F\-C\-P\-A\-T\-H@{F\-C\-P\-A\-T\-H}!index.php@{index.\-php}}
+\subsubsection[{F\-C\-P\-A\-T\-H}]{\setlength{\rightskip}{0pt plus 5cm}const F\-C\-P\-A\-T\-H str\-\_\-replace({\bf S\-E\-L\-F}, '', \-\_\-\-\_\-\-F\-I\-L\-E\-\_\-\-\_\-)}}\label{index_8php_ae486546e58b2603595efedf9f95b3926}
+
+
+Definition at line 186 of file index.\-php.
+
+\hypertarget{index_8php_a428c045e64680e1582ba74161e441a1c}{\index{index.\-php@{index.\-php}!S\-E\-L\-F@{S\-E\-L\-F}}
+\index{S\-E\-L\-F@{S\-E\-L\-F}!index.php@{index.\-php}}
+\subsubsection[{S\-E\-L\-F}]{\setlength{\rightskip}{0pt plus 5cm}const S\-E\-L\-F(!is\-\_\-dir(\$system\-\_\-path)) pathinfo(\-\_\-\-\_\-\-F\-I\-L\-E\-\_\-\-\_\-, P\-A\-T\-H\-I\-N\-F\-O\-\_\-\-B\-A\-S\-E\-N\-A\-M\-E)}}\label{index_8php_a428c045e64680e1582ba74161e441a1c}
+
+
+Definition at line 176 of file index.\-php.
+
+\hypertarget{index_8php_ab645ae0961792b1f2b4b83f89cb95fa5}{\index{index.\-php@{index.\-php}!S\-Y\-S\-D\-I\-R@{S\-Y\-S\-D\-I\-R}}
+\index{S\-Y\-S\-D\-I\-R@{S\-Y\-S\-D\-I\-R}!index.php@{index.\-php}}
+\subsubsection[{S\-Y\-S\-D\-I\-R}]{\setlength{\rightskip}{0pt plus 5cm}const S\-Y\-S\-D\-I\-R trim(strrchr(trim({\bf B\-A\-S\-E\-P\-A\-T\-H}, '/'), '/'), '/')}}\label{index_8php_ab645ae0961792b1f2b4b83f89cb95fa5}
+
+
+Definition at line 189 of file index.\-php.
+

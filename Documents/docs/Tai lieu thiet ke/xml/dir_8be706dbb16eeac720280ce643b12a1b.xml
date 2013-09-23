@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_8be706dbb16eeac720280ce643b12a1b" kind="dir">
+    <compoundname>system/libraries</compoundname>
+    <innerdir refid="dir_d5d71091f62546e90382af567ca752a4">system/libraries/Cache</innerdir>
+    <innerdir refid="dir_5e5798f8f6d0942b01224c7b9c682be1">system/libraries/javascript</innerdir>
+    <innerfile refid="_calendar_8php">Calendar.php</innerfile>
+    <innerfile refid="_cart_8php">Cart.php</innerfile>
+    <innerfile refid="_driver_8php">Driver.php</innerfile>
+    <innerfile refid="_email_8php">Email.php</innerfile>
+    <innerfile refid="_encrypt_8php">Encrypt.php</innerfile>
+    <innerfile refid="_form__validation_8php">Form_validation.php</innerfile>
+    <innerfile refid="_ftp_8php">Ftp.php</innerfile>
+    <innerfile refid="_image__lib_8php">Image_lib.php</innerfile>
+    <innerfile refid="_javascript_8php">Javascript.php</innerfile>
+    <innerfile refid="_log_8php">Log.php</innerfile>
+    <innerfile refid="system_2libraries_2migration_8php">Migration.php</innerfile>
+    <innerfile refid="_pagination_8php">Pagination.php</innerfile>
+    <innerfile refid="_parser_8php">Parser.php</innerfile>
+    <innerfile refid="system_2libraries_2profiler_8php">Profiler.php</innerfile>
+    <innerfile refid="_session_8php">Session.php</innerfile>
+    <innerfile refid="_sha1_8php">Sha1.php</innerfile>
+    <innerfile refid="_table_8php">Table.php</innerfile>
+    <innerfile refid="_trackback_8php">Trackback.php</innerfile>
+    <innerfile refid="_typography_8php">Typography.php</innerfile>
+    <innerfile refid="_unit__test_8php">Unit_test.php</innerfile>
+    <innerfile refid="_upload_8php">Upload.php</innerfile>
+    <innerfile refid="_user__agent_8php">User_agent.php</innerfile>
+    <innerfile refid="_xmlrpc_8php">Xmlrpc.php</innerfile>
+    <innerfile refid="_xmlrpcs_8php">Xmlrpcs.php</innerfile>
+    <innerfile refid="_zip_8php">Zip.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/"/>
+  </compounddef>
+</doxygen>

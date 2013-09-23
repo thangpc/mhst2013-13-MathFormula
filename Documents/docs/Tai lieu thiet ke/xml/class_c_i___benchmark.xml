@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_c_i___benchmark" kind="class" prot="public">
+    <compoundname>CI_Benchmark</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_c_i___benchmark_1aad34fbf53cda6bd8a3a9c46764d534fa" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$marker</definition>
+        <argsstring></argsstring>
+        <name>$marker</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Benchmark.php" line="37" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Benchmark.php" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_i___benchmark_1a18c82f5dd0118d3e7c57bcd86dc32e9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>mark</definition>
+        <argsstring>($name)</argsstring>
+        <name>mark</name>
+        <param>
+          <declname>$name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set a benchmark marker</para><para>Multiple calls to this function can be made so that several execution points can be timed</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name of the marker </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Benchmark.php" line="51" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Benchmark.php" bodystart="51" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___benchmark_1a7d678e741a93eb8e3ba1aa284eaf92cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>elapsed_time</definition>
+        <argsstring>($point1= &apos;&apos;, $point2= &apos;&apos;, $decimals=4)</argsstring>
+        <name>elapsed_time</name>
+        <param>
+          <declname>$point1</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$point2</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$decimals</declname>
+          <defval>4</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calculates the time difference between two marked points.</para><para>If the first parameter is empty this function instead returns the {elapsed_time} pseudo-variable. This permits the full system execution time to be shown in a template. The output class will swap the real value for this variable.</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a particular marked point </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a particular marked point </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>integer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the number of decimal places </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Benchmark.php" line="72" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Benchmark.php" bodystart="72" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___benchmark_1abdb10dca75c4c15f94796af1602d5b80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>memory_usage</definition>
+        <argsstring>()</argsstring>
+        <name>memory_usage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Memory Usage</para><para>This function returns the {memory_usage} pseudo-variable. This permits it to be put it anywhere in a template without the memory being calculated until the end. The output class will swap the real value for this variable.</para><para>public <simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Benchmark.php" line="108" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Benchmark.php" bodystart="108" bodyend="111"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Benchmark.php" line="30" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Benchmark.php" bodystart="30" bodyend="113"/>
+    <listofallmembers>
+      <member refid="class_c_i___benchmark_1aad34fbf53cda6bd8a3a9c46764d534fa" prot="public" virt="non-virtual"><scope>CI_Benchmark</scope><name>$marker</name></member>
+      <member refid="class_c_i___benchmark_1a7d678e741a93eb8e3ba1aa284eaf92cc" prot="public" virt="non-virtual"><scope>CI_Benchmark</scope><name>elapsed_time</name></member>
+      <member refid="class_c_i___benchmark_1a18c82f5dd0118d3e7c57bcd86dc32e9e" prot="public" virt="non-virtual"><scope>CI_Benchmark</scope><name>mark</name></member>
+      <member refid="class_c_i___benchmark_1abdb10dca75c4c15f94796af1602d5b80" prot="public" virt="non-virtual"><scope>CI_Benchmark</scope><name>memory_usage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

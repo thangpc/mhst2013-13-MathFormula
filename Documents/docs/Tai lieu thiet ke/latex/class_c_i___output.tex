@@ -1,0 +1,413 @@
+\hypertarget{class_c_i___output}{\section{C\-I\-\_\-\-Output Class Reference}
+\label{class_c_i___output}\index{C\-I\-\_\-\-Output@{C\-I\-\_\-\-Output}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_c_i___output_a095c5d389db211932136b53f25f39685}{\-\_\-\-\_\-construct} ()
+\item 
+\hyperlink{class_c_i___output_aa6c3f8688f804de4f1af8a462fffb922}{get\-\_\-output} ()
+\item 
+\hyperlink{class_c_i___output_afcff30d791a8006216f5c2fe93a95983}{set\-\_\-output} (\$output)
+\item 
+\hyperlink{class_c_i___output_a7c79b8239d6ecbba0c8fdd00bb619651}{append\-\_\-output} (\$output)
+\item 
+\hyperlink{class_c_i___output_a270389a1636faa81eda5ef3fa900ea25}{set\-\_\-header} (\$header, \$replace=T\-R\-U\-E)
+\item 
+\hyperlink{class_c_i___output_a7ab03763a8ef83963392436dc416be86}{set\-\_\-content\-\_\-type} (\$mime\-\_\-type)
+\item 
+\hyperlink{class_c_i___output_ae5416517aea15ac6c9136ce83002002f}{set\-\_\-status\-\_\-header} (\$code=200, \$\hyperlink{mathquill_8js_afd670572c010bca545fd3952276dd249}{text}= '')
+\item 
+\hyperlink{class_c_i___output_a7bd693db25952e1b074630f52ee67500}{enable\-\_\-profiler} (\$val=T\-R\-U\-E)
+\item 
+\hyperlink{class_c_i___output_ac5e50de443748cf3d356d29eba2caaaf}{set\-\_\-profiler\-\_\-sections} (\$sections)
+\item 
+\hyperlink{class_c_i___output_a6eae3cd828cf30926d44f1ab6011f939}{cache} (\$time)
+\item 
+\hyperlink{class_c_i___output_a16a22fa40f70c2b611fa9dd7e2a63ef1}{\-\_\-display} (\$output= '')
+\item 
+\hyperlink{class_c_i___output_a772aa9eb3f60f66fa194443ca0bdd8a4}{\-\_\-write\-\_\-cache} (\$output)
+\item 
+\hyperlink{class_c_i___output_acce78bdac02df9ab196a9c5939f6c4ab}{\-\_\-display\-\_\-cache} (\&\$C\-F\-G, \&\$U\-R\-I)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_c_i___output_aa1b5049c03b9ef373af010aa3cda17a3}{\$final\-\_\-output}
+\item 
+\hyperlink{class_c_i___output_a4a65b5005fdb96d5bdac5d642a022f16}{\$cache\-\_\-expiration} = 0
+\item 
+\hyperlink{class_c_i___output_a52500036ee807241b8b4b7e2367c49ef}{\$headers} = array()
+\item 
+\hyperlink{class_c_i___output_a49932ececf6da03a6379ca46ca1604d4}{\$mime\-\_\-types} = array()
+\item 
+\hyperlink{class_c_i___output_a85f3ab9485440090efd4e0ae9a070747}{\$enable\-\_\-profiler} = F\-A\-L\-S\-E
+\item 
+\hyperlink{class_c_i___output_a76d91b71069ec82a31b4d12643e0ca40}{\$\-\_\-zlib\-\_\-oc} = F\-A\-L\-S\-E
+\item 
+\hyperlink{class_c_i___output_a4d239124375bbbdb9a4f5a0260505c40}{\$\-\_\-profiler\-\_\-sections} = array()
+\item 
+\hyperlink{class_c_i___output_a254d73d122352494697cdba0c509086d}{\$parse\-\_\-exec\-\_\-vars} = T\-R\-U\-E
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 29 of file Output.\-php.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_c_i___output_a095c5d389db211932136b53f25f39685}{\index{C\-I\-\_\-\-Output@{C\-I\-\_\-\-Output}!\-\_\-\-\_\-construct@{\-\_\-\-\_\-construct}}
+\index{\-\_\-\-\_\-construct@{\-\_\-\-\_\-construct}!CI_Output@{C\-I\-\_\-\-Output}}
+\subsubsection[{\-\_\-\-\_\-construct}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-\-\_\-construct (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___output_a095c5d389db211932136b53f25f39685}
+Constructor 
+
+Definition at line 92 of file Output.\-php.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_c_i___output_a16a22fa40f70c2b611fa9dd7e2a63ef1}{\index{C\-I\-\_\-\-Output@{C\-I\-\_\-\-Output}!\-\_\-display@{\-\_\-display}}
+\index{\-\_\-display@{\-\_\-display}!CI_Output@{C\-I\-\_\-\-Output}}
+\subsubsection[{\-\_\-display}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-display (
+\begin{DoxyParamCaption}
+\item[{}]{\$output = {\ttfamily ''}}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___output_a16a22fa40f70c2b611fa9dd7e2a63ef1}
+Display Output
+
+All \char`\"{}view\char`\"{} data is automatically put into this variable by the controller class\-:
+
+\$this-\/$>$final\-\_\-output
+
+This function sends the finalized output data to the browser along with any server headers and profile data. It also stops the benchmark timer so the page rendering speed and memory usage can be shown.
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+
+
+Definition at line 324 of file Output.\-php.
+
+\hypertarget{class_c_i___output_acce78bdac02df9ab196a9c5939f6c4ab}{\index{C\-I\-\_\-\-Output@{C\-I\-\_\-\-Output}!\-\_\-display\-\_\-cache@{\-\_\-display\-\_\-cache}}
+\index{\-\_\-display\-\_\-cache@{\-\_\-display\-\_\-cache}!CI_Output@{C\-I\-\_\-\-Output}}
+\subsubsection[{\-\_\-display\-\_\-cache}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-display\-\_\-cache (
+\begin{DoxyParamCaption}
+\item[{\&}]{\$\-C\-F\-G, }
+\item[{\&}]{\$\-U\-R\-I}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___output_acce78bdac02df9ab196a9c5939f6c4ab}
+Update/serve a cached file
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em object} & config class \\
+\hline
+{\em object} & uri class \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 514 of file Output.\-php.
+
+\hypertarget{class_c_i___output_a772aa9eb3f60f66fa194443ca0bdd8a4}{\index{C\-I\-\_\-\-Output@{C\-I\-\_\-\-Output}!\-\_\-write\-\_\-cache@{\-\_\-write\-\_\-cache}}
+\index{\-\_\-write\-\_\-cache@{\-\_\-write\-\_\-cache}!CI_Output@{C\-I\-\_\-\-Output}}
+\subsubsection[{\-\_\-write\-\_\-cache}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-write\-\_\-cache (
+\begin{DoxyParamCaption}
+\item[{}]{\$output}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___output_a772aa9eb3f60f66fa194443ca0bdd8a4}
+Write a Cache File
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 461 of file Output.\-php.
+
+\hypertarget{class_c_i___output_a7c79b8239d6ecbba0c8fdd00bb619651}{\index{C\-I\-\_\-\-Output@{C\-I\-\_\-\-Output}!append\-\_\-output@{append\-\_\-output}}
+\index{append\-\_\-output@{append\-\_\-output}!CI_Output@{C\-I\-\_\-\-Output}}
+\subsubsection[{append\-\_\-output}]{\setlength{\rightskip}{0pt plus 5cm}append\-\_\-output (
+\begin{DoxyParamCaption}
+\item[{}]{\$output}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___output_a7c79b8239d6ecbba0c8fdd00bb619651}
+Append Output
+
+Appends data onto the output string
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 156 of file Output.\-php.
+
+\hypertarget{class_c_i___output_a6eae3cd828cf30926d44f1ab6011f939}{\index{C\-I\-\_\-\-Output@{C\-I\-\_\-\-Output}!cache@{cache}}
+\index{cache@{cache}!CI_Output@{C\-I\-\_\-\-Output}}
+\subsubsection[{cache}]{\setlength{\rightskip}{0pt plus 5cm}cache (
+\begin{DoxyParamCaption}
+\item[{}]{\$time}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___output_a6eae3cd828cf30926d44f1ab6011f939}
+Set Cache
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em integer} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 300 of file Output.\-php.
+
+\hypertarget{class_c_i___output_a7bd693db25952e1b074630f52ee67500}{\index{C\-I\-\_\-\-Output@{C\-I\-\_\-\-Output}!enable\-\_\-profiler@{enable\-\_\-profiler}}
+\index{enable\-\_\-profiler@{enable\-\_\-profiler}!CI_Output@{C\-I\-\_\-\-Output}}
+\subsubsection[{enable\-\_\-profiler}]{\setlength{\rightskip}{0pt plus 5cm}enable\-\_\-profiler (
+\begin{DoxyParamCaption}
+\item[{}]{\$val = {\ttfamily TRUE}}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___output_a7bd693db25952e1b074630f52ee67500}
+Enable/disable Profiler
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em bool} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 263 of file Output.\-php.
+
+\hypertarget{class_c_i___output_aa6c3f8688f804de4f1af8a462fffb922}{\index{C\-I\-\_\-\-Output@{C\-I\-\_\-\-Output}!get\-\_\-output@{get\-\_\-output}}
+\index{get\-\_\-output@{get\-\_\-output}!CI_Output@{C\-I\-\_\-\-Output}}
+\subsubsection[{get\-\_\-output}]{\setlength{\rightskip}{0pt plus 5cm}get\-\_\-output (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___output_aa6c3f8688f804de4f1af8a462fffb922}
+Get Output
+
+Returns the current output string
+
+public \begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 122 of file Output.\-php.
+
+\hypertarget{class_c_i___output_a7ab03763a8ef83963392436dc416be86}{\index{C\-I\-\_\-\-Output@{C\-I\-\_\-\-Output}!set\-\_\-content\-\_\-type@{set\-\_\-content\-\_\-type}}
+\index{set\-\_\-content\-\_\-type@{set\-\_\-content\-\_\-type}!CI_Output@{C\-I\-\_\-\-Output}}
+\subsubsection[{set\-\_\-content\-\_\-type}]{\setlength{\rightskip}{0pt plus 5cm}set\-\_\-content\-\_\-type (
+\begin{DoxyParamCaption}
+\item[{}]{\$mime\-\_\-type}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___output_a7ab03763a8ef83963392436dc416be86}
+Set Content Type Header
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & extension of the file we're outputting \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 211 of file Output.\-php.
+
+\hypertarget{class_c_i___output_a270389a1636faa81eda5ef3fa900ea25}{\index{C\-I\-\_\-\-Output@{C\-I\-\_\-\-Output}!set\-\_\-header@{set\-\_\-header}}
+\index{set\-\_\-header@{set\-\_\-header}!CI_Output@{C\-I\-\_\-\-Output}}
+\subsubsection[{set\-\_\-header}]{\setlength{\rightskip}{0pt plus 5cm}set\-\_\-header (
+\begin{DoxyParamCaption}
+\item[{}]{\$header, }
+\item[{}]{\$replace = {\ttfamily TRUE}}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___output_a270389a1636faa81eda5ef3fa900ea25}
+Set Header
+
+Lets you set a server header which will be outputted with the final display.
+
+Note\-: If a file is cached, headers will not be sent. We need to figure out how to permit header data to be saved with the cache data...
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+{\em bool} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 185 of file Output.\-php.
+
+\hypertarget{class_c_i___output_afcff30d791a8006216f5c2fe93a95983}{\index{C\-I\-\_\-\-Output@{C\-I\-\_\-\-Output}!set\-\_\-output@{set\-\_\-output}}
+\index{set\-\_\-output@{set\-\_\-output}!CI_Output@{C\-I\-\_\-\-Output}}
+\subsubsection[{set\-\_\-output}]{\setlength{\rightskip}{0pt plus 5cm}set\-\_\-output (
+\begin{DoxyParamCaption}
+\item[{}]{\$output}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___output_afcff30d791a8006216f5c2fe93a95983}
+Set Output
+
+Sets the output string
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 138 of file Output.\-php.
+
+\hypertarget{class_c_i___output_ac5e50de443748cf3d356d29eba2caaaf}{\index{C\-I\-\_\-\-Output@{C\-I\-\_\-\-Output}!set\-\_\-profiler\-\_\-sections@{set\-\_\-profiler\-\_\-sections}}
+\index{set\-\_\-profiler\-\_\-sections@{set\-\_\-profiler\-\_\-sections}!CI_Output@{C\-I\-\_\-\-Output}}
+\subsubsection[{set\-\_\-profiler\-\_\-sections}]{\setlength{\rightskip}{0pt plus 5cm}set\-\_\-profiler\-\_\-sections (
+\begin{DoxyParamCaption}
+\item[{}]{\$sections}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___output_ac5e50de443748cf3d356d29eba2caaaf}
+Set Profiler Sections
+
+Allows override of default / config settings for Profiler section display
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em array} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 281 of file Output.\-php.
+
+\hypertarget{class_c_i___output_ae5416517aea15ac6c9136ce83002002f}{\index{C\-I\-\_\-\-Output@{C\-I\-\_\-\-Output}!set\-\_\-status\-\_\-header@{set\-\_\-status\-\_\-header}}
+\index{set\-\_\-status\-\_\-header@{set\-\_\-status\-\_\-header}!CI_Output@{C\-I\-\_\-\-Output}}
+\subsubsection[{set\-\_\-status\-\_\-header}]{\setlength{\rightskip}{0pt plus 5cm}set\-\_\-status\-\_\-header (
+\begin{DoxyParamCaption}
+\item[{}]{\$code = {\ttfamily 200}, }
+\item[{}]{\$text = {\ttfamily ''}}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___output_ae5416517aea15ac6c9136ce83002002f}
+Set H\-T\-T\-P Status Header moved to Common procedural functions in 1.\-7.\-2
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em int} & the status code \\
+\hline
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 247 of file Output.\-php.
+
+
+
+\subsection{Field Documentation}
+\hypertarget{class_c_i___output_a4d239124375bbbdb9a4f5a0260505c40}{\index{C\-I\-\_\-\-Output@{C\-I\-\_\-\-Output}!\$\-\_\-profiler\-\_\-sections@{\$\-\_\-profiler\-\_\-sections}}
+\index{\$\-\_\-profiler\-\_\-sections@{\$\-\_\-profiler\-\_\-sections}!CI_Output@{C\-I\-\_\-\-Output}}
+\subsubsection[{\$\-\_\-profiler\-\_\-sections}]{\setlength{\rightskip}{0pt plus 5cm}\$\-\_\-profiler\-\_\-sections = array()\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_c_i___output_a4d239124375bbbdb9a4f5a0260505c40}
+
+
+Definition at line 79 of file Output.\-php.
+
+\hypertarget{class_c_i___output_a76d91b71069ec82a31b4d12643e0ca40}{\index{C\-I\-\_\-\-Output@{C\-I\-\_\-\-Output}!\$\-\_\-zlib\-\_\-oc@{\$\-\_\-zlib\-\_\-oc}}
+\index{\$\-\_\-zlib\-\_\-oc@{\$\-\_\-zlib\-\_\-oc}!CI_Output@{C\-I\-\_\-\-Output}}
+\subsubsection[{\$\-\_\-zlib\-\_\-oc}]{\setlength{\rightskip}{0pt plus 5cm}\$\-\_\-zlib\-\_\-oc = F\-A\-L\-S\-E\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_c_i___output_a76d91b71069ec82a31b4d12643e0ca40}
+
+
+Definition at line 72 of file Output.\-php.
+
+\hypertarget{class_c_i___output_a4a65b5005fdb96d5bdac5d642a022f16}{\index{C\-I\-\_\-\-Output@{C\-I\-\_\-\-Output}!\$cache\-\_\-expiration@{\$cache\-\_\-expiration}}
+\index{\$cache\-\_\-expiration@{\$cache\-\_\-expiration}!CI_Output@{C\-I\-\_\-\-Output}}
+\subsubsection[{\$cache\-\_\-expiration}]{\setlength{\rightskip}{0pt plus 5cm}\$cache\-\_\-expiration = 0\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_c_i___output_a4a65b5005fdb96d5bdac5d642a022f16}
+
+
+Definition at line 44 of file Output.\-php.
+
+\hypertarget{class_c_i___output_a85f3ab9485440090efd4e0ae9a070747}{\index{C\-I\-\_\-\-Output@{C\-I\-\_\-\-Output}!\$enable\-\_\-profiler@{\$enable\-\_\-profiler}}
+\index{\$enable\-\_\-profiler@{\$enable\-\_\-profiler}!CI_Output@{C\-I\-\_\-\-Output}}
+\subsubsection[{\$enable\-\_\-profiler}]{\setlength{\rightskip}{0pt plus 5cm}\${\bf enable\-\_\-profiler} = F\-A\-L\-S\-E\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_c_i___output_a85f3ab9485440090efd4e0ae9a070747}
+
+
+Definition at line 65 of file Output.\-php.
+
+\hypertarget{class_c_i___output_aa1b5049c03b9ef373af010aa3cda17a3}{\index{C\-I\-\_\-\-Output@{C\-I\-\_\-\-Output}!\$final\-\_\-output@{\$final\-\_\-output}}
+\index{\$final\-\_\-output@{\$final\-\_\-output}!CI_Output@{C\-I\-\_\-\-Output}}
+\subsubsection[{\$final\-\_\-output}]{\setlength{\rightskip}{0pt plus 5cm}\$final\-\_\-output\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_c_i___output_aa1b5049c03b9ef373af010aa3cda17a3}
+
+
+Definition at line 37 of file Output.\-php.
+
+\hypertarget{class_c_i___output_a52500036ee807241b8b4b7e2367c49ef}{\index{C\-I\-\_\-\-Output@{C\-I\-\_\-\-Output}!\$headers@{\$headers}}
+\index{\$headers@{\$headers}!CI_Output@{C\-I\-\_\-\-Output}}
+\subsubsection[{\$headers}]{\setlength{\rightskip}{0pt plus 5cm}\$headers = array()\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_c_i___output_a52500036ee807241b8b4b7e2367c49ef}
+
+
+Definition at line 51 of file Output.\-php.
+
+\hypertarget{class_c_i___output_a49932ececf6da03a6379ca46ca1604d4}{\index{C\-I\-\_\-\-Output@{C\-I\-\_\-\-Output}!\$mime\-\_\-types@{\$mime\-\_\-types}}
+\index{\$mime\-\_\-types@{\$mime\-\_\-types}!CI_Output@{C\-I\-\_\-\-Output}}
+\subsubsection[{\$mime\-\_\-types}]{\setlength{\rightskip}{0pt plus 5cm}\$mime\-\_\-types = array()\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_c_i___output_a49932ececf6da03a6379ca46ca1604d4}
+
+
+Definition at line 58 of file Output.\-php.
+
+\hypertarget{class_c_i___output_a254d73d122352494697cdba0c509086d}{\index{C\-I\-\_\-\-Output@{C\-I\-\_\-\-Output}!\$parse\-\_\-exec\-\_\-vars@{\$parse\-\_\-exec\-\_\-vars}}
+\index{\$parse\-\_\-exec\-\_\-vars@{\$parse\-\_\-exec\-\_\-vars}!CI_Output@{C\-I\-\_\-\-Output}}
+\subsubsection[{\$parse\-\_\-exec\-\_\-vars}]{\setlength{\rightskip}{0pt plus 5cm}\$parse\-\_\-exec\-\_\-vars = T\-R\-U\-E\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_c_i___output_a254d73d122352494697cdba0c509086d}
+
+
+Definition at line 86 of file Output.\-php.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+system/core/\hyperlink{_output_8php}{Output.\-php}\end{DoxyCompactItemize}

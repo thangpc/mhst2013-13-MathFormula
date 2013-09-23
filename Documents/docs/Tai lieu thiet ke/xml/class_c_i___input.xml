@@ -1,0 +1,755 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_c_i___input" kind="class" prot="public">
+    <compoundname>CI_Input</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_c_i___input_1a614e10d1ab6dcf06fa7fef37af7b7eee" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$ip_address</definition>
+        <argsstring></argsstring>
+        <name>$ip_address</name>
+        <initializer>= FALSE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Input.php" line="36" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Input.php" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___input_1aeea73d2dc27fea041fbcadae59f07cd5" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$user_agent</definition>
+        <argsstring></argsstring>
+        <name>$user_agent</name>
+        <initializer>= FALSE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Input.php" line="42" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Input.php" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___input_1a359b1debb6f1d80e345d6215af6946fb" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$_allow_get_array</definition>
+        <argsstring></argsstring>
+        <name>$_allow_get_array</name>
+        <initializer>= TRUE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Input.php" line="48" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Input.php" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___input_1ad9ebdfce8f992b3a41aaf64ea8782933" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$_standardize_newlines</definition>
+        <argsstring></argsstring>
+        <name>$_standardize_newlines</name>
+        <initializer>= TRUE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Input.php" line="54" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Input.php" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___input_1a42b707bea5d9604a7460e953d9e39d7d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$_enable_xss</definition>
+        <argsstring></argsstring>
+        <name>$_enable_xss</name>
+        <initializer>= FALSE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Input.php" line="61" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Input.php" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___input_1a463c89c07e7cf7f5e4337a2a8e460d17" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$_enable_csrf</definition>
+        <argsstring></argsstring>
+        <name>$_enable_csrf</name>
+        <initializer>= FALSE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Input.php" line="68" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Input.php" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_c_i___input_1a52500036ee807241b8b4b7e2367c49ef" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$headers</definition>
+        <argsstring></argsstring>
+        <name>$headers</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Input.php" line="74" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Input.php" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_i___input_1a095c5d389db211932136b53f25f39685" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>()</argsstring>
+        <name>__construct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor</para><para>Sets whether to globally enable the XSS processing and whether to allow the $_GET array</para><para><simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Input.php" line="84" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Input.php" bodystart="84" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___input_1a206046338a68072d20b5bde395c42cd7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_fetch_from_array</definition>
+        <argsstring>(&amp;$array, $index= &apos;&apos;, $xss_clean=FALSE)</argsstring>
+        <name>_fetch_from_array</name>
+        <param>
+          <type>&amp;</type>
+          <declname>$array</declname>
+        </param>
+        <param>
+          <declname>$index</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$xss_clean</declname>
+          <defval>FALSE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fetch from array</para><para>This is a helper function to retrieve values from global arrays</para><para>private <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bool</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Input.php" line="119" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Input.php" bodystart="119" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___input_1a7f3fe35f15454cbad4f12fd8a0e195e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>get</definition>
+        <argsstring>($index=NULL, $xss_clean=FALSE)</argsstring>
+        <name>get</name>
+        <param>
+          <declname>$index</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <declname>$xss_clean</declname>
+          <defval>FALSE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fetch an item from the GET array</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bool</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Input.php" line="144" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Input.php" bodystart="144" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___input_1a50ac0e340a9da4d85cc976e78d99a7c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>post</definition>
+        <argsstring>($index=NULL, $xss_clean=FALSE)</argsstring>
+        <name>post</name>
+        <param>
+          <declname>$index</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <declname>$xss_clean</declname>
+          <defval>FALSE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fetch an item from the POST array</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bool</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Input.php" line="172" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Input.php" bodystart="172" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___input_1aec54f245bc5c3215ba81a594ed858b2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>get_post</definition>
+        <argsstring>($index= &apos;&apos;, $xss_clean=FALSE)</argsstring>
+        <name>get_post</name>
+        <param>
+          <declname>$index</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$xss_clean</declname>
+          <defval>FALSE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fetch an item from either the GET array or the POST</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index key </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bool</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>XSS cleaning </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Input.php" line="201" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Input.php" bodystart="201" bodyend="211"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___input_1a60e581edbf6507bf0702fd5212ac79a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>cookie</definition>
+        <argsstring>($index= &apos;&apos;, $xss_clean=FALSE)</argsstring>
+        <name>cookie</name>
+        <param>
+          <declname>$index</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$xss_clean</declname>
+          <defval>FALSE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fetch an item from the COOKIE array</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bool</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Input.php" line="223" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Input.php" bodystart="223" bodyend="226"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___input_1aae6a307dce00b4d06a29c6f0be9e4b59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>set_cookie</definition>
+        <argsstring>($name= &apos;&apos;, $value= &apos;&apos;, $expire= &apos;&apos;, $domain= &apos;&apos;, $path= &apos;/&apos;, $prefix= &apos;&apos;, $secure=FALSE)</argsstring>
+        <name>set_cookie</name>
+        <param>
+          <declname>$name</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$value</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$expire</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$domain</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$path</declname>
+          <defval>&apos;/&apos;</defval>
+        </param>
+        <param>
+          <declname>$prefix</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$secure</declname>
+          <defval>FALSE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set cookie</para><para>Accepts six parameter, or you can submit an associative array in the first parameter containing all the values.</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mixed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the value of the cookie </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the number of seconds until expiration </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the cookie domain. Usually: .yourdomain.com </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the cookie path </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the cookie prefix </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bool</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true makes the cookie secure </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Input.php" line="246" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Input.php" bodystart="246" bodyend="287"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___input_1ae51c4a35daae69cbec7a25a5309918d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>server</definition>
+        <argsstring>($index= &apos;&apos;, $xss_clean=FALSE)</argsstring>
+        <name>server</name>
+        <param>
+          <declname>$index</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$xss_clean</declname>
+          <defval>FALSE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fetch an item from the SERVER array</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bool</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Input.php" line="299" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Input.php" bodystart="299" bodyend="302"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___input_1aec2f772317b4fb79cc696412c2e455c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ip_address</definition>
+        <argsstring>()</argsstring>
+        <name>ip_address</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fetch the IP Address</para><para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Input.php" line="311" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Input.php" bodystart="311" bodyend="360"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___input_1a2adf8f23c98fcdafdc7588f874db4c4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>valid_ip</definition>
+        <argsstring>($ip, $which= &apos;&apos;)</argsstring>
+        <name>valid_ip</name>
+        <param>
+          <declname>$ip</declname>
+        </param>
+        <param>
+          <declname>$which</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Validate IP Address</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ipv4 or ipv6 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Input.php" line="372" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Input.php" bodystart="372" bodyend="412"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___input_1a638069c4ba0d3f4209c6936e5282f170" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>user_agent</definition>
+        <argsstring>()</argsstring>
+        <name>user_agent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="class_user" kindref="compound">User</ref> Agent</para><para>public <simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Input.php" line="536" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Input.php" bodystart="536" bodyend="546"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___input_1aadbb0e5cbf9b5783c872cb402ea6a2fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_sanitize_globals</definition>
+        <argsstring>()</argsstring>
+        <name>_sanitize_globals</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sanitize Globals</para><para>This function does the following:</para><para>Unsets $_GET data (if query strings are not enabled)</para><para>Unsets all globals if register_globals is enabled</para><para>Standardizes newline characters to <linebreak/>
+  private <simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Input.php" line="564" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Input.php" bodystart="564" bodyend="651"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___input_1a9c594152e7b189a290f6425df8712b73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_clean_input_data</definition>
+        <argsstring>($str)</argsstring>
+        <name>_clean_input_data</name>
+        <param>
+          <declname>$str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Clean Input Data</para><para>This is a helper function. It escapes data and standardizes newline characters to <linebreak/>
+  private <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Input.php" line="665" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Input.php" bodystart="665" bodyend="712"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___input_1af42e370cfe61ee5a34b72cf37b919210" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_clean_input_keys</definition>
+        <argsstring>($str)</argsstring>
+        <name>_clean_input_keys</name>
+        <param>
+          <declname>$str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Clean Keys</para><para>This is a helper function. To prevent malicious users from trying to exploit keys we make sure that keys are only named with alpha-numeric text and a few other items.</para><para>private <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Input.php" line="727" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Input.php" bodystart="727" bodyend="741"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___input_1a4bc8f8c9a9488ff359a61f1fb60e6097" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>request_headers</definition>
+        <argsstring>($xss_clean=FALSE)</argsstring>
+        <name>request_headers</name>
+        <param>
+          <declname>$xss_clean</declname>
+          <defval>FALSE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Request Headers</para><para>In Apache, you can simply call apache_request_headers(), however for people running other webservers the function is undefined.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>bool</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>XSS cleaning</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Input.php" line="755" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Input.php" bodystart="755" bodyend="785"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___input_1a099af71b54f9edbfb20576a4e8a3df41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>get_request_header</definition>
+        <argsstring>($index, $xss_clean=FALSE)</argsstring>
+        <name>get_request_header</name>
+        <param>
+          <declname>$index</declname>
+        </param>
+        <param>
+          <declname>$xss_clean</declname>
+          <defval>FALSE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get Request Header</para><para>Returns the value of a single member of the headers class member</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>array key for $this-&gt;headers </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>boolean</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>XSS Clean or not </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed FALSE on failure, string on success </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Input.php" line="798" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Input.php" bodystart="798" bodyend="816"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___input_1a4ae07120b0b2ace90eb2f7ec72b29426" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>is_ajax_request</definition>
+        <argsstring>()</argsstring>
+        <name>is_ajax_request</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Is ajax Request?</para><para><ref refid="class_test" kindref="compound">Test</ref> to see if a request contains the HTTP_X_REQUESTED_WITH header</para><para><simplesect kind="return"><para>boolean </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Input.php" line="827" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Input.php" bodystart="827" bodyend="830"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___input_1a70c1e8a081ef955c1a52164634d4f66e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>is_cli_request</definition>
+        <argsstring>()</argsstring>
+        <name>is_cli_request</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Is cli Request?</para><para><ref refid="class_test" kindref="compound">Test</ref> to see if a request was made from the command line</para><para><simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Input.php" line="841" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Input.php" bodystart="841" bodyend="844"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_c_i___input_1acc1814d63877524ba3434eca5453edf0" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_valid_ipv4</definition>
+        <argsstring>($ip)</argsstring>
+        <name>_valid_ipv4</name>
+        <param>
+          <declname>$ip</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Validate IPv4 Address</para><para>Updated version suggested by Geert De Deckere</para><para>protected <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Input.php" line="425" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Input.php" bodystart="425" bodyend="452"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___input_1a25d7802ebfe7e908ea45310013a24723" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_valid_ipv6</definition>
+        <argsstring>($str)</argsstring>
+        <name>_valid_ipv6</name>
+        <param>
+          <declname>$str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Validate IPv6 Address</para><para>protected <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Input.php" line="463" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Input.php" bodystart="463" bodyend="526"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Input.php" line="29" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/core/Input.php" bodystart="29" bodyend="846"/>
+    <listofallmembers>
+      <member refid="class_c_i___input_1a359b1debb6f1d80e345d6215af6946fb" prot="public" virt="non-virtual"><scope>CI_Input</scope><name>$_allow_get_array</name></member>
+      <member refid="class_c_i___input_1a463c89c07e7cf7f5e4337a2a8e460d17" prot="public" virt="non-virtual"><scope>CI_Input</scope><name>$_enable_csrf</name></member>
+      <member refid="class_c_i___input_1a42b707bea5d9604a7460e953d9e39d7d" prot="public" virt="non-virtual"><scope>CI_Input</scope><name>$_enable_xss</name></member>
+      <member refid="class_c_i___input_1ad9ebdfce8f992b3a41aaf64ea8782933" prot="public" virt="non-virtual"><scope>CI_Input</scope><name>$_standardize_newlines</name></member>
+      <member refid="class_c_i___input_1a52500036ee807241b8b4b7e2367c49ef" prot="protected" virt="non-virtual"><scope>CI_Input</scope><name>$headers</name></member>
+      <member refid="class_c_i___input_1a614e10d1ab6dcf06fa7fef37af7b7eee" prot="public" virt="non-virtual"><scope>CI_Input</scope><name>$ip_address</name></member>
+      <member refid="class_c_i___input_1aeea73d2dc27fea041fbcadae59f07cd5" prot="public" virt="non-virtual"><scope>CI_Input</scope><name>$user_agent</name></member>
+      <member refid="class_c_i___input_1a095c5d389db211932136b53f25f39685" prot="public" virt="non-virtual"><scope>CI_Input</scope><name>__construct</name></member>
+      <member refid="class_c_i___input_1a9c594152e7b189a290f6425df8712b73" prot="public" virt="non-virtual"><scope>CI_Input</scope><name>_clean_input_data</name></member>
+      <member refid="class_c_i___input_1af42e370cfe61ee5a34b72cf37b919210" prot="public" virt="non-virtual"><scope>CI_Input</scope><name>_clean_input_keys</name></member>
+      <member refid="class_c_i___input_1a206046338a68072d20b5bde395c42cd7" prot="public" virt="non-virtual"><scope>CI_Input</scope><name>_fetch_from_array</name></member>
+      <member refid="class_c_i___input_1aadbb0e5cbf9b5783c872cb402ea6a2fa" prot="public" virt="non-virtual"><scope>CI_Input</scope><name>_sanitize_globals</name></member>
+      <member refid="class_c_i___input_1acc1814d63877524ba3434eca5453edf0" prot="protected" virt="non-virtual"><scope>CI_Input</scope><name>_valid_ipv4</name></member>
+      <member refid="class_c_i___input_1a25d7802ebfe7e908ea45310013a24723" prot="protected" virt="non-virtual"><scope>CI_Input</scope><name>_valid_ipv6</name></member>
+      <member refid="class_c_i___input_1a60e581edbf6507bf0702fd5212ac79a4" prot="public" virt="non-virtual"><scope>CI_Input</scope><name>cookie</name></member>
+      <member refid="class_c_i___input_1a7f3fe35f15454cbad4f12fd8a0e195e1" prot="public" virt="non-virtual"><scope>CI_Input</scope><name>get</name></member>
+      <member refid="class_c_i___input_1aec54f245bc5c3215ba81a594ed858b2f" prot="public" virt="non-virtual"><scope>CI_Input</scope><name>get_post</name></member>
+      <member refid="class_c_i___input_1a099af71b54f9edbfb20576a4e8a3df41" prot="public" virt="non-virtual"><scope>CI_Input</scope><name>get_request_header</name></member>
+      <member refid="class_c_i___input_1aec2f772317b4fb79cc696412c2e455c3" prot="public" virt="non-virtual"><scope>CI_Input</scope><name>ip_address</name></member>
+      <member refid="class_c_i___input_1a4ae07120b0b2ace90eb2f7ec72b29426" prot="public" virt="non-virtual"><scope>CI_Input</scope><name>is_ajax_request</name></member>
+      <member refid="class_c_i___input_1a70c1e8a081ef955c1a52164634d4f66e" prot="public" virt="non-virtual"><scope>CI_Input</scope><name>is_cli_request</name></member>
+      <member refid="class_c_i___input_1a50ac0e340a9da4d85cc976e78d99a7c0" prot="public" virt="non-virtual"><scope>CI_Input</scope><name>post</name></member>
+      <member refid="class_c_i___input_1a4bc8f8c9a9488ff359a61f1fb60e6097" prot="public" virt="non-virtual"><scope>CI_Input</scope><name>request_headers</name></member>
+      <member refid="class_c_i___input_1ae51c4a35daae69cbec7a25a5309918d9" prot="public" virt="non-virtual"><scope>CI_Input</scope><name>server</name></member>
+      <member refid="class_c_i___input_1aae6a307dce00b4d06a29c6f0be9e4b59" prot="public" virt="non-virtual"><scope>CI_Input</scope><name>set_cookie</name></member>
+      <member refid="class_c_i___input_1a638069c4ba0d3f4209c6936e5282f170" prot="public" virt="non-virtual"><scope>CI_Input</scope><name>user_agent</name></member>
+      <member refid="class_c_i___input_1a2adf8f23c98fcdafdc7588f874db4c4d" prot="public" virt="non-virtual"><scope>CI_Input</scope><name>valid_ip</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

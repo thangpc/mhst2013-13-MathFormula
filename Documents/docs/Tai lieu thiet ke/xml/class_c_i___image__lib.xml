@@ -1,0 +1,1238 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_c_i___image__lib" kind="class" prot="public">
+    <compoundname>CI_Image_lib</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_c_i___image__lib_1ac4b224358e1169eec8db344bcb3186c0" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$image_library</definition>
+        <argsstring></argsstring>
+        <name>$image_library</name>
+        <initializer>= &apos;gd2&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="29" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___image__lib_1ac09f7fc802884aae2149f1df0e53f17a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$library_path</definition>
+        <argsstring></argsstring>
+        <name>$library_path</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="30" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___image__lib_1ad90737913d82776e7d3a7dfaef68e167" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$dynamic_output</definition>
+        <argsstring></argsstring>
+        <name>$dynamic_output</name>
+        <initializer>= FALSE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="31" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___image__lib_1a54fc395722d5e9f15d656d22ba84e382" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$source_image</definition>
+        <argsstring></argsstring>
+        <name>$source_image</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="32" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___image__lib_1a6147ac30032312f2b42a9b05618faf12" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$new_image</definition>
+        <argsstring></argsstring>
+        <name>$new_image</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="33" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___image__lib_1a5795120b4b324bc4ca83f1e6fdce7d57" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$width</definition>
+        <argsstring></argsstring>
+        <name>$width</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="34" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___image__lib_1a2c265bba1724371bb03e6901297c30b2" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$height</definition>
+        <argsstring></argsstring>
+        <name>$height</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="35" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___image__lib_1a0e342ea32cccdc2c932ad23b9796a62a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$quality</definition>
+        <argsstring></argsstring>
+        <name>$quality</name>
+        <initializer>= &apos;90&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="36" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___image__lib_1ab1250903cbadaaadb42ec188d38ab398" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$create_thumb</definition>
+        <argsstring></argsstring>
+        <name>$create_thumb</name>
+        <initializer>= FALSE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="37" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___image__lib_1a3176700c651c0c3cd8cfa186ba03302a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$thumb_marker</definition>
+        <argsstring></argsstring>
+        <name>$thumb_marker</name>
+        <initializer>= &apos;_thumb&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="38" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___image__lib_1a7fe1beb3e7d60245c97c60ee4b668d93" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$maintain_ratio</definition>
+        <argsstring></argsstring>
+        <name>$maintain_ratio</name>
+        <initializer>= TRUE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="39" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___image__lib_1ae86c3d7ce316cc0c48a8dcba8ae4130d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$master_dim</definition>
+        <argsstring></argsstring>
+        <name>$master_dim</name>
+        <initializer>= &apos;auto&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="40" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___image__lib_1a9410d2e216c0c1dd852031f2a39e7ec7" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$rotation_angle</definition>
+        <argsstring></argsstring>
+        <name>$rotation_angle</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="41" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___image__lib_1a128914b11765a500690f876962196ca6" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$x_axis</definition>
+        <argsstring></argsstring>
+        <name>$x_axis</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="42" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___image__lib_1ac60512307da37068c0821f7dc2488608" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$y_axis</definition>
+        <argsstring></argsstring>
+        <name>$y_axis</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="43" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___image__lib_1a412eac22e8d585a33f28f132f13d482b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$wm_text</definition>
+        <argsstring></argsstring>
+        <name>$wm_text</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="46" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___image__lib_1a530808b613890909a92bf6096401e9be" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$wm_type</definition>
+        <argsstring></argsstring>
+        <name>$wm_type</name>
+        <initializer>= &apos;<ref refid="mathquill_8js_1afd670572c010bca545fd3952276dd249" kindref="member">text</ref>&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="47" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___image__lib_1a720496900551e5c29b11a732fb4f35ab" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$wm_x_transp</definition>
+        <argsstring></argsstring>
+        <name>$wm_x_transp</name>
+        <initializer>= 4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="48" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___image__lib_1aa9ab81b196739723a7c38d9431c9fa11" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$wm_y_transp</definition>
+        <argsstring></argsstring>
+        <name>$wm_y_transp</name>
+        <initializer>= 4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="49" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___image__lib_1a82ec5b8a6822dc7f9c70f4b5aafdebd4" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$wm_overlay_path</definition>
+        <argsstring></argsstring>
+        <name>$wm_overlay_path</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="50" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___image__lib_1a6870985f3e6bbf1a29e5875c054598f4" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$wm_font_path</definition>
+        <argsstring></argsstring>
+        <name>$wm_font_path</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="51" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___image__lib_1a0ea2a2f73623aa0631670017a4e68419" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$wm_font_size</definition>
+        <argsstring></argsstring>
+        <name>$wm_font_size</name>
+        <initializer>= 17</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="52" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___image__lib_1a1c52f46917a30e084db07a8c8e13af86" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$wm_vrt_alignment</definition>
+        <argsstring></argsstring>
+        <name>$wm_vrt_alignment</name>
+        <initializer>= &apos;B&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="53" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___image__lib_1a74d790b77baa0c22cd0b812abc41765c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$wm_hor_alignment</definition>
+        <argsstring></argsstring>
+        <name>$wm_hor_alignment</name>
+        <initializer>= &apos;<ref refid="mathquill_8js_1a3a8aaabfd7ed4c8517175784bf8633c4" kindref="member">C</ref>&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="54" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___image__lib_1ab1f63f5ae604d060dbc39653f6440826" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$wm_padding</definition>
+        <argsstring></argsstring>
+        <name>$wm_padding</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="55" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___image__lib_1aed778e3e9ecb74e8c61d8c4894581f7f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$wm_hor_offset</definition>
+        <argsstring></argsstring>
+        <name>$wm_hor_offset</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="56" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___image__lib_1a577602650e0c67f9f4bfcdeda075fa50" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$wm_vrt_offset</definition>
+        <argsstring></argsstring>
+        <name>$wm_vrt_offset</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="57" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___image__lib_1ae9498442637ff2466d4426af45f68c6b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$wm_font_color</definition>
+        <argsstring></argsstring>
+        <name>$wm_font_color</name>
+        <initializer>= &apos;#ffffff&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="58" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___image__lib_1aca292b49514fe3238440675c4b2642ca" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$wm_shadow_color</definition>
+        <argsstring></argsstring>
+        <name>$wm_shadow_color</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="59" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___image__lib_1a3d5174ca66ce7149799b5830873aa747" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$wm_shadow_distance</definition>
+        <argsstring></argsstring>
+        <name>$wm_shadow_distance</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="60" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___image__lib_1a9cc2d95dbcbb26a2f3f0c7416fc5920b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$wm_opacity</definition>
+        <argsstring></argsstring>
+        <name>$wm_opacity</name>
+        <initializer>= 50</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="61" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___image__lib_1a8fa5462b549251df178487f869c49800" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$source_folder</definition>
+        <argsstring></argsstring>
+        <name>$source_folder</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="64" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___image__lib_1a23c580d10b1ba89c5b532f43fe2c6f59" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$dest_folder</definition>
+        <argsstring></argsstring>
+        <name>$dest_folder</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="65" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___image__lib_1a4d1985caafb49b059e3ca3dedfee257a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$mime_type</definition>
+        <argsstring></argsstring>
+        <name>$mime_type</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="66" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___image__lib_1a336a3be3539aaae0ad42aaf4c544bb41" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$orig_width</definition>
+        <argsstring></argsstring>
+        <name>$orig_width</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="67" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___image__lib_1a68713f45d7d236dfdd6aafdc9668a44d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$orig_height</definition>
+        <argsstring></argsstring>
+        <name>$orig_height</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="68" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___image__lib_1a939d6733d998cce893403d2f59f40317" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$image_type</definition>
+        <argsstring></argsstring>
+        <name>$image_type</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="69" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___image__lib_1aff68567b98390e0db61065df80af5d49" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$size_str</definition>
+        <argsstring></argsstring>
+        <name>$size_str</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="70" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___image__lib_1a7ccf54c8f559eaf70600f69554be39eb" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$full_src_path</definition>
+        <argsstring></argsstring>
+        <name>$full_src_path</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="71" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___image__lib_1aa830804dc9d15c51e0672bd4d3602e07" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$full_dst_path</definition>
+        <argsstring></argsstring>
+        <name>$full_dst_path</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="72" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___image__lib_1af70f0124d1a34ec7b7360bee16c3a3ea" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$create_fnc</definition>
+        <argsstring></argsstring>
+        <name>$create_fnc</name>
+        <initializer>= &apos;imagecreatetruecolor&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="73" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___image__lib_1a4c7eeae509bbd8ac493cafa8a5b9980e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$copy_fnc</definition>
+        <argsstring></argsstring>
+        <name>$copy_fnc</name>
+        <initializer>= &apos;imagecopyresampled&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="74" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___image__lib_1acf910733622c1fa671b9f755c69c2ec7" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$error_msg</definition>
+        <argsstring></argsstring>
+        <name>$error_msg</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="75" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___image__lib_1a49b77ed476cebe5f357705e7a9c4ccce" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$wm_use_drop_shadow</definition>
+        <argsstring></argsstring>
+        <name>$wm_use_drop_shadow</name>
+        <initializer>= FALSE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="76" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_i___image__lib_1a0415d8aa18349f21751f7a81255918ad" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$wm_use_truetype</definition>
+        <argsstring></argsstring>
+        <name>$wm_use_truetype</name>
+        <initializer>= FALSE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="77" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_i___image__lib_1a563262d396a1cef6153c9998d77bb548" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>($props=array())</argsstring>
+        <name>__construct</name>
+        <param>
+          <declname>$props</declname>
+          <defval>array()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="85" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="85" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___image__lib_1aa821bec12eaa7e0f649397c9675ff505" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Initialize image properties</para><para>Resets values in case this class is used in a loop</para><para>public <simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="105" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="105" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___image__lib_1a0bccf32e3d2d283de0521949330cb969" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>initialize</definition>
+        <argsstring>($props=array())</argsstring>
+        <name>initialize</name>
+        <param>
+          <declname>$props</declname>
+          <defval>array()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>initialize image preferences</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="127" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="127" bodyend="335"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___image__lib_1a94e38a7d478ce07200a52c51497e598e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>resize</definition>
+        <argsstring>()</argsstring>
+        <name>resize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Image Resize</para><para>This is a wrapper function that chooses the proper resize function based on the protocol specified</para><para>public <simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="348" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="348" bodyend="358"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___image__lib_1a77248c0134d1b117eb36774ecee6e04c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>crop</definition>
+        <argsstring>()</argsstring>
+        <name>crop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Image Crop</para><para>This is a wrapper function that chooses the proper cropping function based on the protocol specified</para><para>public <simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="371" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="371" bodyend="381"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___image__lib_1a74e94d71195d9cbb9c9e3bca3353d912" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>rotate</definition>
+        <argsstring>()</argsstring>
+        <name>rotate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Image Rotate</para><para>This is a wrapper function that chooses the proper rotation function based on the protocol specified</para><para>public <simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="394" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="394" bodyend="434"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___image__lib_1a3744cd1438c26d74169260e3580c18c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>image_process_gd</definition>
+        <argsstring>($action= &apos;resize&apos;)</argsstring>
+        <name>image_process_gd</name>
+        <param>
+          <declname>$action</declname>
+          <defval>&apos;<ref refid="class_c_i___image__lib_1a94e38a7d478ce07200a52c51497e598e" kindref="member">resize</ref>&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Image Process Using GD/GD2</para><para>This function will resize or crop</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="447" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="447" bodyend="546"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___image__lib_1ab92e23a2b66ec7e2a3ade452214ac3fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>image_process_imagemagick</definition>
+        <argsstring>($action= &apos;resize&apos;)</argsstring>
+        <name>image_process_imagemagick</name>
+        <param>
+          <declname>$action</declname>
+          <defval>&apos;<ref refid="class_c_i___image__lib_1a94e38a7d478ce07200a52c51497e598e" kindref="member">resize</ref>&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Image Process Using ImageMagick</para><para>This function will resize, crop or rotate</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="559" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="559" bodyend="616"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___image__lib_1a715b6f648450b393c843af9a8756f6d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>image_process_netpbm</definition>
+        <argsstring>($action= &apos;resize&apos;)</argsstring>
+        <name>image_process_netpbm</name>
+        <param>
+          <declname>$action</declname>
+          <defval>&apos;<ref refid="class_c_i___image__lib_1a94e38a7d478ce07200a52c51497e598e" kindref="member">resize</ref>&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Image Process Using NetPBM</para><para>This function will resize, crop or rotate</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="629" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="629" bodyend="702"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___image__lib_1ae0d52ef7503342a0a1c56c99da140446" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>image_rotate_gd</definition>
+        <argsstring>()</argsstring>
+        <name>image_rotate_gd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Image Rotate Using GD</para><para>public <simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="712" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="712" bodyend="753"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___image__lib_1a3f6d47ec077726da699890d4644797ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>image_mirror_gd</definition>
+        <argsstring>()</argsstring>
+        <name>image_mirror_gd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create Mirror Image using GD</para><para>This function will flip horizontal or vertical</para><para>public <simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="765" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="765" bodyend="837"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___image__lib_1a4732a76680e7c0b28f98f6634b567cc9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>watermark</definition>
+        <argsstring>()</argsstring>
+        <name>watermark</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Image Watermark</para><para>This is a wrapper function that chooses the type of watermarking based on the specified preference.</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="851" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="851" bodyend="861"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___image__lib_1a7fa0fd0aabe26803d61d7e09c1cb73de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>overlay_watermark</definition>
+        <argsstring>()</argsstring>
+        <name>overlay_watermark</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Watermark - Graphic Version</para><para>public <simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="871" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="871" bodyend="974"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___image__lib_1afb7640b6150e16b00efac0511d9fa03d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>text_watermark</definition>
+        <argsstring>()</argsstring>
+        <name>text_watermark</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Watermark - Text Version</para><para>public <simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="984" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="984" bodyend="1114"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___image__lib_1a9de08e24f6573c9d80ccf38f95c33d1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>image_create_gd</definition>
+        <argsstring>($path= &apos;&apos;, $image_type= &apos;&apos;)</argsstring>
+        <name>image_create_gd</name>
+        <param>
+          <declname>$path</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$image_type</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create Image - GD</para><para>This simply creates an image resource handle based on the type of image being processed</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>resource </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="1128" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="1128" bodyend="1171"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___image__lib_1a802a33d51249d4d31d59cbc89fbc4dd5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>image_save_gd</definition>
+        <argsstring>($resource)</argsstring>
+        <name>image_save_gd</name>
+        <param>
+          <declname>$resource</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Write image file to disk - GD</para><para>Takes an image resource as input and writes the file to the specified destination</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>resource</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="1185" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="1185" bodyend="1235"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___image__lib_1af641d1806701b178dfba3dbf7da54462" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>image_display_gd</definition>
+        <argsstring>($resource)</argsstring>
+        <name>image_display_gd</name>
+        <param>
+          <declname>$resource</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dynamically outputs an image</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>resource</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="1246" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="1246" bodyend="1264"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___image__lib_1a55ee590fb313c50e99d6c1d4cd9618d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>image_reproportion</definition>
+        <argsstring>()</argsstring>
+        <name>image_reproportion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Re-proportion Image Width/Height</para><para>When creating thumbs, the desired width/height can end up warping the image due to an incorrect ratio between the full-sized image and the thumb.</para><para>This function lets us re-proportion the width/height if users choose to maintain the aspect ratio when resizing.</para><para>public <simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="1281" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="1281" bodyend="1310"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___image__lib_1a77ab93f41bdc26b9220b69a91644d854" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>get_image_properties</definition>
+        <argsstring>($path= &apos;&apos;, $return=FALSE)</argsstring>
+        <name>get_image_properties</name>
+        <param>
+          <declname>$path</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$return</declname>
+          <defval>FALSE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get image properties</para><para>A helper function that gets info about the file</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="1323" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="1323" bodyend="1361"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___image__lib_1a827549db4de2281a8f2b35ada2ef3909" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>size_calculator</definition>
+        <argsstring>($vals)</argsstring>
+        <name>size_calculator</name>
+        <param>
+          <declname>$vals</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Size calculator</para><para>This function takes a known width x height and recalculates it to a new size. Only one new variable needs to be known</para><para>$props = array( &apos;width&apos; =&gt; $width, &apos;height&apos; =&gt; $height, &apos;new_width&apos; =&gt; 40, &apos;new_height&apos; =&gt; &apos;&apos; );</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="1383" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="1383" bodyend="1413"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___image__lib_1a32661288e0bea18ea50fbb7be6535af5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>explode_name</definition>
+        <argsstring>($source_image)</argsstring>
+        <name>explode_name</name>
+        <param>
+          <declname>$source_image</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Explode source_image</para><para>This is a helper function that extracts the extension from the source_image. This function lets us deal with source_images with multiple periods, like: my.cool.jpg It returns an associative array with two elements: $array[&apos;ext&apos;] = &apos;.jpg&apos;; $array[&apos;name&apos;] = &apos;my.cool&apos;;</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="1431" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="1431" bodyend="1437"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___image__lib_1a04376d5530f38a1a61f59c2d769284ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gd_loaded</definition>
+        <argsstring>()</argsstring>
+        <name>gd_loaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Is GD Installed?</para><para>public <simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="1447" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="1447" bodyend="1458"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___image__lib_1a7d141f85d677d5e6db12020009569fde" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gd_version</definition>
+        <argsstring>()</argsstring>
+        <name>gd_version</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get GD version</para><para>public <simplesect kind="return"><para>mixed </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="1468" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="1468" bodyend="1479"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___image__lib_1a892f1ba7cba3731a3fc68f1f64e92610" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>set_error</definition>
+        <argsstring>($msg)</argsstring>
+        <name>set_error</name>
+        <param>
+          <declname>$msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set error message</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="1490" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="1490" bodyend="1511"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_i___image__lib_1a3ed4aa1a4d480c82bb1b663efd466aee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>display_errors</definition>
+        <argsstring>($open= &apos;&lt; p &gt;&apos;, $close= &apos;&lt;/p &gt;&apos;)</argsstring>
+        <name>display_errors</name>
+        <param>
+          <declname>$open</declname>
+          <defval>&apos;&lt; p &gt;&apos;</defval>
+        </param>
+        <param>
+          <declname>$close</declname>
+          <defval>&apos;&lt;/p &gt;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Show error messages</para><para>public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="1522" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="1522" bodyend="1531"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" line="27" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/system/libraries/Image_lib.php" bodystart="27" bodyend="1533"/>
+    <listofallmembers>
+      <member refid="class_c_i___image__lib_1a4c7eeae509bbd8ac493cafa8a5b9980e" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>$copy_fnc</name></member>
+      <member refid="class_c_i___image__lib_1af70f0124d1a34ec7b7360bee16c3a3ea" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>$create_fnc</name></member>
+      <member refid="class_c_i___image__lib_1ab1250903cbadaaadb42ec188d38ab398" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>$create_thumb</name></member>
+      <member refid="class_c_i___image__lib_1a23c580d10b1ba89c5b532f43fe2c6f59" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>$dest_folder</name></member>
+      <member refid="class_c_i___image__lib_1ad90737913d82776e7d3a7dfaef68e167" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>$dynamic_output</name></member>
+      <member refid="class_c_i___image__lib_1acf910733622c1fa671b9f755c69c2ec7" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>$error_msg</name></member>
+      <member refid="class_c_i___image__lib_1aa830804dc9d15c51e0672bd4d3602e07" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>$full_dst_path</name></member>
+      <member refid="class_c_i___image__lib_1a7ccf54c8f559eaf70600f69554be39eb" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>$full_src_path</name></member>
+      <member refid="class_c_i___image__lib_1a2c265bba1724371bb03e6901297c30b2" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>$height</name></member>
+      <member refid="class_c_i___image__lib_1ac4b224358e1169eec8db344bcb3186c0" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>$image_library</name></member>
+      <member refid="class_c_i___image__lib_1a939d6733d998cce893403d2f59f40317" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>$image_type</name></member>
+      <member refid="class_c_i___image__lib_1ac09f7fc802884aae2149f1df0e53f17a" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>$library_path</name></member>
+      <member refid="class_c_i___image__lib_1a7fe1beb3e7d60245c97c60ee4b668d93" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>$maintain_ratio</name></member>
+      <member refid="class_c_i___image__lib_1ae86c3d7ce316cc0c48a8dcba8ae4130d" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>$master_dim</name></member>
+      <member refid="class_c_i___image__lib_1a4d1985caafb49b059e3ca3dedfee257a" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>$mime_type</name></member>
+      <member refid="class_c_i___image__lib_1a6147ac30032312f2b42a9b05618faf12" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>$new_image</name></member>
+      <member refid="class_c_i___image__lib_1a68713f45d7d236dfdd6aafdc9668a44d" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>$orig_height</name></member>
+      <member refid="class_c_i___image__lib_1a336a3be3539aaae0ad42aaf4c544bb41" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>$orig_width</name></member>
+      <member refid="class_c_i___image__lib_1a0e342ea32cccdc2c932ad23b9796a62a" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>$quality</name></member>
+      <member refid="class_c_i___image__lib_1a9410d2e216c0c1dd852031f2a39e7ec7" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>$rotation_angle</name></member>
+      <member refid="class_c_i___image__lib_1aff68567b98390e0db61065df80af5d49" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>$size_str</name></member>
+      <member refid="class_c_i___image__lib_1a8fa5462b549251df178487f869c49800" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>$source_folder</name></member>
+      <member refid="class_c_i___image__lib_1a54fc395722d5e9f15d656d22ba84e382" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>$source_image</name></member>
+      <member refid="class_c_i___image__lib_1a3176700c651c0c3cd8cfa186ba03302a" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>$thumb_marker</name></member>
+      <member refid="class_c_i___image__lib_1a5795120b4b324bc4ca83f1e6fdce7d57" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>$width</name></member>
+      <member refid="class_c_i___image__lib_1ae9498442637ff2466d4426af45f68c6b" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>$wm_font_color</name></member>
+      <member refid="class_c_i___image__lib_1a6870985f3e6bbf1a29e5875c054598f4" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>$wm_font_path</name></member>
+      <member refid="class_c_i___image__lib_1a0ea2a2f73623aa0631670017a4e68419" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>$wm_font_size</name></member>
+      <member refid="class_c_i___image__lib_1a74d790b77baa0c22cd0b812abc41765c" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>$wm_hor_alignment</name></member>
+      <member refid="class_c_i___image__lib_1aed778e3e9ecb74e8c61d8c4894581f7f" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>$wm_hor_offset</name></member>
+      <member refid="class_c_i___image__lib_1a9cc2d95dbcbb26a2f3f0c7416fc5920b" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>$wm_opacity</name></member>
+      <member refid="class_c_i___image__lib_1a82ec5b8a6822dc7f9c70f4b5aafdebd4" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>$wm_overlay_path</name></member>
+      <member refid="class_c_i___image__lib_1ab1f63f5ae604d060dbc39653f6440826" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>$wm_padding</name></member>
+      <member refid="class_c_i___image__lib_1aca292b49514fe3238440675c4b2642ca" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>$wm_shadow_color</name></member>
+      <member refid="class_c_i___image__lib_1a3d5174ca66ce7149799b5830873aa747" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>$wm_shadow_distance</name></member>
+      <member refid="class_c_i___image__lib_1a412eac22e8d585a33f28f132f13d482b" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>$wm_text</name></member>
+      <member refid="class_c_i___image__lib_1a530808b613890909a92bf6096401e9be" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>$wm_type</name></member>
+      <member refid="class_c_i___image__lib_1a49b77ed476cebe5f357705e7a9c4ccce" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>$wm_use_drop_shadow</name></member>
+      <member refid="class_c_i___image__lib_1a0415d8aa18349f21751f7a81255918ad" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>$wm_use_truetype</name></member>
+      <member refid="class_c_i___image__lib_1a1c52f46917a30e084db07a8c8e13af86" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>$wm_vrt_alignment</name></member>
+      <member refid="class_c_i___image__lib_1a577602650e0c67f9f4bfcdeda075fa50" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>$wm_vrt_offset</name></member>
+      <member refid="class_c_i___image__lib_1a720496900551e5c29b11a732fb4f35ab" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>$wm_x_transp</name></member>
+      <member refid="class_c_i___image__lib_1aa9ab81b196739723a7c38d9431c9fa11" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>$wm_y_transp</name></member>
+      <member refid="class_c_i___image__lib_1a128914b11765a500690f876962196ca6" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>$x_axis</name></member>
+      <member refid="class_c_i___image__lib_1ac60512307da37068c0821f7dc2488608" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>$y_axis</name></member>
+      <member refid="class_c_i___image__lib_1a563262d396a1cef6153c9998d77bb548" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>__construct</name></member>
+      <member refid="class_c_i___image__lib_1aa821bec12eaa7e0f649397c9675ff505" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>clear</name></member>
+      <member refid="class_c_i___image__lib_1a77248c0134d1b117eb36774ecee6e04c" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>crop</name></member>
+      <member refid="class_c_i___image__lib_1a3ed4aa1a4d480c82bb1b663efd466aee" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>display_errors</name></member>
+      <member refid="class_c_i___image__lib_1a32661288e0bea18ea50fbb7be6535af5" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>explode_name</name></member>
+      <member refid="class_c_i___image__lib_1a04376d5530f38a1a61f59c2d769284ba" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>gd_loaded</name></member>
+      <member refid="class_c_i___image__lib_1a7d141f85d677d5e6db12020009569fde" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>gd_version</name></member>
+      <member refid="class_c_i___image__lib_1a77ab93f41bdc26b9220b69a91644d854" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>get_image_properties</name></member>
+      <member refid="class_c_i___image__lib_1a9de08e24f6573c9d80ccf38f95c33d1f" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>image_create_gd</name></member>
+      <member refid="class_c_i___image__lib_1af641d1806701b178dfba3dbf7da54462" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>image_display_gd</name></member>
+      <member refid="class_c_i___image__lib_1a3f6d47ec077726da699890d4644797ad" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>image_mirror_gd</name></member>
+      <member refid="class_c_i___image__lib_1a3744cd1438c26d74169260e3580c18c5" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>image_process_gd</name></member>
+      <member refid="class_c_i___image__lib_1ab92e23a2b66ec7e2a3ade452214ac3fd" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>image_process_imagemagick</name></member>
+      <member refid="class_c_i___image__lib_1a715b6f648450b393c843af9a8756f6d8" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>image_process_netpbm</name></member>
+      <member refid="class_c_i___image__lib_1a55ee590fb313c50e99d6c1d4cd9618d2" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>image_reproportion</name></member>
+      <member refid="class_c_i___image__lib_1ae0d52ef7503342a0a1c56c99da140446" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>image_rotate_gd</name></member>
+      <member refid="class_c_i___image__lib_1a802a33d51249d4d31d59cbc89fbc4dd5" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>image_save_gd</name></member>
+      <member refid="class_c_i___image__lib_1a0bccf32e3d2d283de0521949330cb969" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>initialize</name></member>
+      <member refid="class_c_i___image__lib_1a7fa0fd0aabe26803d61d7e09c1cb73de" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>overlay_watermark</name></member>
+      <member refid="class_c_i___image__lib_1a94e38a7d478ce07200a52c51497e598e" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>resize</name></member>
+      <member refid="class_c_i___image__lib_1a74e94d71195d9cbb9c9e3bca3353d912" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>rotate</name></member>
+      <member refid="class_c_i___image__lib_1a892f1ba7cba3731a3fc68f1f64e92610" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>set_error</name></member>
+      <member refid="class_c_i___image__lib_1a827549db4de2281a8f2b35ada2ef3909" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>size_calculator</name></member>
+      <member refid="class_c_i___image__lib_1afb7640b6150e16b00efac0511d9fa03d" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>text_watermark</name></member>
+      <member refid="class_c_i___image__lib_1a4732a76680e7c0b28f98f6634b567cc9" prot="public" virt="non-virtual"><scope>CI_Image_lib</scope><name>watermark</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

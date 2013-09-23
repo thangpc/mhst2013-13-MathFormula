@@ -1,0 +1,225 @@
+\hypertarget{routes_8php}{\section{application/config/routes.php File Reference}
+\label{routes_8php}\index{application/config/routes.\-php@{application/config/routes.\-php}}
+}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{routes_8php_a6c2a82e4cec825eb1921141d08af834b}{\$route} \mbox{[}'default\-\_\-controller'\mbox{]} = \char`\"{}home\char`\"{}
+\item 
+\hyperlink{routes_8php_ad99ba8a90b758dbe982c621c9f27eedc}{\$route} \mbox{[}'404\-\_\-override'\mbox{]} = ''
+\item 
+\hyperlink{routes_8php_a68f9537f20c6adee48d71cd857b01410}{\$route} \mbox{[}'cheat-\/sheets'\mbox{]} = \char`\"{}home/cheat\-Sheet\char`\"{}
+\item 
+\hyperlink{routes_8php_a879b37eb8ab23f146ef5d9c1f99c4156}{\$route} \mbox{[}'contact-\/us'\mbox{]} = \char`\"{}home/contact\-Us\char`\"{}
+\item 
+\hyperlink{routes_8php_ada107d2f4f76b05d59584b97f4620e4e}{\$route} \mbox{[}'save-\/image/(\-:any)'\mbox{]} = \char`\"{}home/save\-Image/\$1\char`\"{}
+\item 
+\hyperlink{routes_8php_ae498edf30300ac629d57d6f792269b5e}{\$route} \mbox{[}'login'\mbox{]} = \char`\"{}account/login\char`\"{}
+\item 
+\hyperlink{routes_8php_a802ddf2665f072c35f9e48b2b5f7e9ce}{\$route} \mbox{[}'login-\/check'\mbox{]} = \char`\"{}account/check\-Login\char`\"{}
+\item 
+\hyperlink{routes_8php_a1a7cba54e5f132d593cd2e73f0b4aa21}{\$route} \mbox{[}'sign-\/up'\mbox{]} = \char`\"{}account/register\char`\"{}
+\item 
+\hyperlink{routes_8php_aed782d27d10fc156cc2bfd21da5f511b}{\$route} \mbox{[}'check-\/sign-\/up'\mbox{]} = \char`\"{}account/check\-Sign\-Up\char`\"{}
+\item 
+\hyperlink{routes_8php_a1d3e833786c5b494a7e64bd90543ff54}{\$route} \mbox{[}'logout'\mbox{]} = \char`\"{}account/logout\char`\"{}
+\item 
+\hyperlink{routes_8php_a456226c2c4c89e963ae1f7a39c05f664}{\$route} \mbox{[}'account/change-\/info'\mbox{]} = \char`\"{}account/change\-Info\char`\"{}
+\item 
+\hyperlink{routes_8php_a1f1cca6f261ccaa1eeae697a8e61b43f}{\$route} \mbox{[}'account/change-\/pass'\mbox{]} = \char`\"{}account/change\-Pass\char`\"{}
+\item 
+\hyperlink{routes_8php_aa49f89cc8416c60f78cb2e222776c46b}{\$route} \mbox{[}'account/change-\/pass-\/ajax'\mbox{]} = \char`\"{}account/change\-Pass\-Ajax\char`\"{}
+\item 
+\hyperlink{routes_8php_ab69c72ae7bdfb0b07485edc5eab66e93}{\$route} \mbox{[}'account/(\-:any)'\mbox{]} = \char`\"{}account/info/\$1/1\char`\"{}
+\item 
+\hyperlink{routes_8php_ae072c3bc3476a31e3cc7a4a928bccc8c}{\$route} \mbox{[}'account/(\-:any)/(\-:any)'\mbox{]} = \char`\"{}account/info/\$1/\$2\char`\"{}
+\item 
+\hyperlink{routes_8php_aa42a2acd00cabe0c949ace0144b32d17}{\$route} \mbox{[}'community/(\-:any)'\mbox{]} = \char`\"{}community/index/\$1\char`\"{}
+\item 
+\hyperlink{routes_8php_ac4025e680a101e2ed629e3c1c018a370}{\$route} \mbox{[}'save-\/formula'\mbox{]} = \char`\"{}formula/save\char`\"{}
+\item 
+\hyperlink{routes_8php_a13c9451005d16325e799982e006991b4}{\$route} \mbox{[}'update-\/formula'\mbox{]} = \char`\"{}formula/update\char`\"{}
+\item 
+\hyperlink{routes_8php_a602b5d83f6a0773216b78fecea4f64a9}{\$route} \mbox{[}'formula/view-\/(\-:any)'\mbox{]} = \char`\"{}formula/view/\$1\char`\"{}
+\item 
+\hyperlink{routes_8php_ae0cdd39125ebb94496dca4273c5e76ee}{\$route} \mbox{[}'formula/edit-\/(\-:any)'\mbox{]} = \char`\"{}formula/edit/\$1\char`\"{}
+\item 
+\hyperlink{routes_8php_aa99a1d50e0b0be556af56803c6e95925}{\$route} \mbox{[}'formula/copy-\/(\-:any)'\mbox{]} = \char`\"{}formula/copy/\$1\char`\"{}
+\item 
+\hyperlink{routes_8php_a740e1be77b5d698dffaec236d905a70f}{\$route} \mbox{[}'admin'\mbox{]} = \char`\"{}admin/dashboard/index\char`\"{}
+\item 
+\hyperlink{routes_8php_ac26b3cf61c58be1c9310292a1e1635b4}{\$route} \mbox{[}'admin/login'\mbox{]} = \char`\"{}admin/user/login\char`\"{}
+\item 
+\hyperlink{routes_8php_a7d9acf4789728cb04aa567b32c77e277}{\$route} \mbox{[}'admin/logout'\mbox{]} = \char`\"{}admin/user/logout\char`\"{}
+\end{DoxyCompactItemize}
+
+
+\subsection{Variable Documentation}
+\hypertarget{routes_8php_a6c2a82e4cec825eb1921141d08af834b}{\index{routes.\-php@{routes.\-php}!\$route@{\$route}}
+\index{\$route@{\$route}!routes.php@{routes.\-php}}
+\subsubsection[{\$route}]{\setlength{\rightskip}{0pt plus 5cm}\$route\mbox{[}'default\-\_\-controller'\mbox{]} = \char`\"{}home\char`\"{}}}\label{routes_8php_a6c2a82e4cec825eb1921141d08af834b}
+
+
+Definition at line 41 of file routes.\-php.
+
+\hypertarget{routes_8php_ad99ba8a90b758dbe982c621c9f27eedc}{\index{routes.\-php@{routes.\-php}!\$route@{\$route}}
+\index{\$route@{\$route}!routes.php@{routes.\-php}}
+\subsubsection[{\$route}]{\setlength{\rightskip}{0pt plus 5cm}\$route\mbox{[}'404\-\_\-override'\mbox{]} = ''}}\label{routes_8php_ad99ba8a90b758dbe982c621c9f27eedc}
+
+
+Definition at line 42 of file routes.\-php.
+
+\hypertarget{routes_8php_a68f9537f20c6adee48d71cd857b01410}{\index{routes.\-php@{routes.\-php}!\$route@{\$route}}
+\index{\$route@{\$route}!routes.php@{routes.\-php}}
+\subsubsection[{\$route}]{\setlength{\rightskip}{0pt plus 5cm}\$route\mbox{[}'cheat-\/sheets'\mbox{]} = \char`\"{}home/cheat\-Sheet\char`\"{}}}\label{routes_8php_a68f9537f20c6adee48d71cd857b01410}
+
+
+Definition at line 44 of file routes.\-php.
+
+\hypertarget{routes_8php_a879b37eb8ab23f146ef5d9c1f99c4156}{\index{routes.\-php@{routes.\-php}!\$route@{\$route}}
+\index{\$route@{\$route}!routes.php@{routes.\-php}}
+\subsubsection[{\$route}]{\setlength{\rightskip}{0pt plus 5cm}\$route\mbox{[}'contact-\/us'\mbox{]} = \char`\"{}home/contact\-Us\char`\"{}}}\label{routes_8php_a879b37eb8ab23f146ef5d9c1f99c4156}
+
+
+Definition at line 45 of file routes.\-php.
+
+\hypertarget{routes_8php_ada107d2f4f76b05d59584b97f4620e4e}{\index{routes.\-php@{routes.\-php}!\$route@{\$route}}
+\index{\$route@{\$route}!routes.php@{routes.\-php}}
+\subsubsection[{\$route}]{\setlength{\rightskip}{0pt plus 5cm}\$route\mbox{[}'save-\/image/(\-:any)'\mbox{]} = \char`\"{}home/save\-Image/\$1\char`\"{}}}\label{routes_8php_ada107d2f4f76b05d59584b97f4620e4e}
+
+
+Definition at line 46 of file routes.\-php.
+
+\hypertarget{routes_8php_ae498edf30300ac629d57d6f792269b5e}{\index{routes.\-php@{routes.\-php}!\$route@{\$route}}
+\index{\$route@{\$route}!routes.php@{routes.\-php}}
+\subsubsection[{\$route}]{\setlength{\rightskip}{0pt plus 5cm}\$route\mbox{[}'login'\mbox{]} = \char`\"{}account/login\char`\"{}}}\label{routes_8php_ae498edf30300ac629d57d6f792269b5e}
+
+
+Definition at line 48 of file routes.\-php.
+
+\hypertarget{routes_8php_a802ddf2665f072c35f9e48b2b5f7e9ce}{\index{routes.\-php@{routes.\-php}!\$route@{\$route}}
+\index{\$route@{\$route}!routes.php@{routes.\-php}}
+\subsubsection[{\$route}]{\setlength{\rightskip}{0pt plus 5cm}\$route\mbox{[}'login-\/check'\mbox{]} = \char`\"{}account/check\-Login\char`\"{}}}\label{routes_8php_a802ddf2665f072c35f9e48b2b5f7e9ce}
+
+
+Definition at line 49 of file routes.\-php.
+
+\hypertarget{routes_8php_a1a7cba54e5f132d593cd2e73f0b4aa21}{\index{routes.\-php@{routes.\-php}!\$route@{\$route}}
+\index{\$route@{\$route}!routes.php@{routes.\-php}}
+\subsubsection[{\$route}]{\setlength{\rightskip}{0pt plus 5cm}\$route\mbox{[}'sign-\/up'\mbox{]} = \char`\"{}account/register\char`\"{}}}\label{routes_8php_a1a7cba54e5f132d593cd2e73f0b4aa21}
+
+
+Definition at line 51 of file routes.\-php.
+
+\hypertarget{routes_8php_aed782d27d10fc156cc2bfd21da5f511b}{\index{routes.\-php@{routes.\-php}!\$route@{\$route}}
+\index{\$route@{\$route}!routes.php@{routes.\-php}}
+\subsubsection[{\$route}]{\setlength{\rightskip}{0pt plus 5cm}\$route\mbox{[}'check-\/sign-\/up'\mbox{]} = \char`\"{}account/check\-Sign\-Up\char`\"{}}}\label{routes_8php_aed782d27d10fc156cc2bfd21da5f511b}
+
+
+Definition at line 52 of file routes.\-php.
+
+\hypertarget{routes_8php_a1d3e833786c5b494a7e64bd90543ff54}{\index{routes.\-php@{routes.\-php}!\$route@{\$route}}
+\index{\$route@{\$route}!routes.php@{routes.\-php}}
+\subsubsection[{\$route}]{\setlength{\rightskip}{0pt plus 5cm}\$route\mbox{[}'logout'\mbox{]} = \char`\"{}account/logout\char`\"{}}}\label{routes_8php_a1d3e833786c5b494a7e64bd90543ff54}
+
+
+Definition at line 54 of file routes.\-php.
+
+\hypertarget{routes_8php_a456226c2c4c89e963ae1f7a39c05f664}{\index{routes.\-php@{routes.\-php}!\$route@{\$route}}
+\index{\$route@{\$route}!routes.php@{routes.\-php}}
+\subsubsection[{\$route}]{\setlength{\rightskip}{0pt plus 5cm}\$route\mbox{[}'account/change-\/info'\mbox{]} = \char`\"{}account/change\-Info\char`\"{}}}\label{routes_8php_a456226c2c4c89e963ae1f7a39c05f664}
+
+
+Definition at line 56 of file routes.\-php.
+
+\hypertarget{routes_8php_a1f1cca6f261ccaa1eeae697a8e61b43f}{\index{routes.\-php@{routes.\-php}!\$route@{\$route}}
+\index{\$route@{\$route}!routes.php@{routes.\-php}}
+\subsubsection[{\$route}]{\setlength{\rightskip}{0pt plus 5cm}\$route\mbox{[}'account/change-\/pass'\mbox{]} = \char`\"{}account/change\-Pass\char`\"{}}}\label{routes_8php_a1f1cca6f261ccaa1eeae697a8e61b43f}
+
+
+Definition at line 58 of file routes.\-php.
+
+\hypertarget{routes_8php_aa49f89cc8416c60f78cb2e222776c46b}{\index{routes.\-php@{routes.\-php}!\$route@{\$route}}
+\index{\$route@{\$route}!routes.php@{routes.\-php}}
+\subsubsection[{\$route}]{\setlength{\rightskip}{0pt plus 5cm}\$route\mbox{[}'account/change-\/pass-\/ajax'\mbox{]} = \char`\"{}account/change\-Pass\-Ajax\char`\"{}}}\label{routes_8php_aa49f89cc8416c60f78cb2e222776c46b}
+
+
+Definition at line 59 of file routes.\-php.
+
+\hypertarget{routes_8php_ab69c72ae7bdfb0b07485edc5eab66e93}{\index{routes.\-php@{routes.\-php}!\$route@{\$route}}
+\index{\$route@{\$route}!routes.php@{routes.\-php}}
+\subsubsection[{\$route}]{\setlength{\rightskip}{0pt plus 5cm}\$route\mbox{[}'account/(\-:any)'\mbox{]} = \char`\"{}account/info/\$1/1\char`\"{}}}\label{routes_8php_ab69c72ae7bdfb0b07485edc5eab66e93}
+
+
+Definition at line 61 of file routes.\-php.
+
+\hypertarget{routes_8php_ae072c3bc3476a31e3cc7a4a928bccc8c}{\index{routes.\-php@{routes.\-php}!\$route@{\$route}}
+\index{\$route@{\$route}!routes.php@{routes.\-php}}
+\subsubsection[{\$route}]{\setlength{\rightskip}{0pt plus 5cm}\$route\mbox{[}'account/(\-:any)/(\-:any)'\mbox{]} = \char`\"{}account/info/\$1/\$2\char`\"{}}}\label{routes_8php_ae072c3bc3476a31e3cc7a4a928bccc8c}
+
+
+Definition at line 62 of file routes.\-php.
+
+\hypertarget{routes_8php_aa42a2acd00cabe0c949ace0144b32d17}{\index{routes.\-php@{routes.\-php}!\$route@{\$route}}
+\index{\$route@{\$route}!routes.php@{routes.\-php}}
+\subsubsection[{\$route}]{\setlength{\rightskip}{0pt plus 5cm}\$route\mbox{[}'community/(\-:any)'\mbox{]} = \char`\"{}community/index/\$1\char`\"{}}}\label{routes_8php_aa42a2acd00cabe0c949ace0144b32d17}
+
+
+Definition at line 64 of file routes.\-php.
+
+\hypertarget{routes_8php_ac4025e680a101e2ed629e3c1c018a370}{\index{routes.\-php@{routes.\-php}!\$route@{\$route}}
+\index{\$route@{\$route}!routes.php@{routes.\-php}}
+\subsubsection[{\$route}]{\setlength{\rightskip}{0pt plus 5cm}\$route\mbox{[}'save-\/formula'\mbox{]} = \char`\"{}formula/save\char`\"{}}}\label{routes_8php_ac4025e680a101e2ed629e3c1c018a370}
+
+
+Definition at line 66 of file routes.\-php.
+
+\hypertarget{routes_8php_a13c9451005d16325e799982e006991b4}{\index{routes.\-php@{routes.\-php}!\$route@{\$route}}
+\index{\$route@{\$route}!routes.php@{routes.\-php}}
+\subsubsection[{\$route}]{\setlength{\rightskip}{0pt plus 5cm}\$route\mbox{[}'update-\/formula'\mbox{]} = \char`\"{}formula/update\char`\"{}}}\label{routes_8php_a13c9451005d16325e799982e006991b4}
+
+
+Definition at line 67 of file routes.\-php.
+
+\hypertarget{routes_8php_a602b5d83f6a0773216b78fecea4f64a9}{\index{routes.\-php@{routes.\-php}!\$route@{\$route}}
+\index{\$route@{\$route}!routes.php@{routes.\-php}}
+\subsubsection[{\$route}]{\setlength{\rightskip}{0pt plus 5cm}\$route\mbox{[}'formula/view-\/(\-:any)'\mbox{]} = \char`\"{}formula/view/\$1\char`\"{}}}\label{routes_8php_a602b5d83f6a0773216b78fecea4f64a9}
+
+
+Definition at line 68 of file routes.\-php.
+
+\hypertarget{routes_8php_ae0cdd39125ebb94496dca4273c5e76ee}{\index{routes.\-php@{routes.\-php}!\$route@{\$route}}
+\index{\$route@{\$route}!routes.php@{routes.\-php}}
+\subsubsection[{\$route}]{\setlength{\rightskip}{0pt plus 5cm}\$route\mbox{[}'formula/edit-\/(\-:any)'\mbox{]} = \char`\"{}formula/edit/\$1\char`\"{}}}\label{routes_8php_ae0cdd39125ebb94496dca4273c5e76ee}
+
+
+Definition at line 69 of file routes.\-php.
+
+\hypertarget{routes_8php_aa99a1d50e0b0be556af56803c6e95925}{\index{routes.\-php@{routes.\-php}!\$route@{\$route}}
+\index{\$route@{\$route}!routes.php@{routes.\-php}}
+\subsubsection[{\$route}]{\setlength{\rightskip}{0pt plus 5cm}\$route\mbox{[}'formula/copy-\/(\-:any)'\mbox{]} = \char`\"{}formula/copy/\$1\char`\"{}}}\label{routes_8php_aa99a1d50e0b0be556af56803c6e95925}
+
+
+Definition at line 70 of file routes.\-php.
+
+\hypertarget{routes_8php_a740e1be77b5d698dffaec236d905a70f}{\index{routes.\-php@{routes.\-php}!\$route@{\$route}}
+\index{\$route@{\$route}!routes.php@{routes.\-php}}
+\subsubsection[{\$route}]{\setlength{\rightskip}{0pt plus 5cm}\$route\mbox{[}'admin'\mbox{]} = \char`\"{}admin/dashboard/index\char`\"{}}}\label{routes_8php_a740e1be77b5d698dffaec236d905a70f}
+
+
+Definition at line 73 of file routes.\-php.
+
+\hypertarget{routes_8php_ac26b3cf61c58be1c9310292a1e1635b4}{\index{routes.\-php@{routes.\-php}!\$route@{\$route}}
+\index{\$route@{\$route}!routes.php@{routes.\-php}}
+\subsubsection[{\$route}]{\setlength{\rightskip}{0pt plus 5cm}\$route\mbox{[}'admin/login'\mbox{]} = \char`\"{}admin/user/login\char`\"{}}}\label{routes_8php_ac26b3cf61c58be1c9310292a1e1635b4}
+
+
+Definition at line 74 of file routes.\-php.
+
+\hypertarget{routes_8php_a7d9acf4789728cb04aa567b32c77e277}{\index{routes.\-php@{routes.\-php}!\$route@{\$route}}
+\index{\$route@{\$route}!routes.php@{routes.\-php}}
+\subsubsection[{\$route}]{\setlength{\rightskip}{0pt plus 5cm}\$route\mbox{[}'admin/logout'\mbox{]} = \char`\"{}admin/user/logout\char`\"{}}}\label{routes_8php_a7d9acf4789728cb04aa567b32c77e277}
+
+
+Definition at line 75 of file routes.\-php.
+

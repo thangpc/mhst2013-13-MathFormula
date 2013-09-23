@@ -1,0 +1,259 @@
+\hypertarget{class_c_i___parser}{\section{C\-I\-\_\-\-Parser Class Reference}
+\label{class_c_i___parser}\index{C\-I\-\_\-\-Parser@{C\-I\-\_\-\-Parser}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_c_i___parser_aed3a838a4afdff95c4bf2b1fb5062cbd}{parse} (\$template, \$data, \$return=F\-A\-L\-S\-E)
+\item 
+\hyperlink{class_c_i___parser_a5cdfa809d6f2988d2741cb26b5a51d36}{parse\-\_\-string} (\$template, \$data, \$return=F\-A\-L\-S\-E)
+\item 
+\hyperlink{class_c_i___parser_a6bd5ad826db82a61de1f3a13031faaf9}{\-\_\-parse} (\$template, \$data, \$return=F\-A\-L\-S\-E)
+\item 
+\hyperlink{class_c_i___parser_a1865a64fc2d5187c9898abd7239a565b}{set\-\_\-delimiters} (\$l= '\{', \$r= '\}')
+\item 
+\hyperlink{class_c_i___parser_a01c9bb8a5e8802a1b21acf829cc181e7}{\-\_\-parse\-\_\-single} (\$key, \$val, \$string)
+\item 
+\hyperlink{class_c_i___parser_a3f01fef88e49c40d679e35dedf89a128}{\-\_\-parse\-\_\-pair} (\$variable, \$data, \$string)
+\item 
+\hyperlink{class_c_i___parser_aa7d5901782e2377f0657d27daeb188c7}{\-\_\-match\-\_\-pair} (\$string, \$variable)
+\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_c_i___parser_ab957da01a735e612795fba1c5802b1fb}{\$l\-\_\-delim} = '\{'
+\item 
+\hyperlink{class_c_i___parser_a4d80dc6a622989846dbd0e39fde0f3bb}{\$r\-\_\-delim} = '\}'
+\item 
+\hyperlink{class_c_i___parser_a52123b83a1952a68c5513e47d59ec4a6}{\$object}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 27 of file Parser.\-php.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_c_i___parser_aa7d5901782e2377f0657d27daeb188c7}{\index{C\-I\-\_\-\-Parser@{C\-I\-\_\-\-Parser}!\-\_\-match\-\_\-pair@{\-\_\-match\-\_\-pair}}
+\index{\-\_\-match\-\_\-pair@{\-\_\-match\-\_\-pair}!CI_Parser@{C\-I\-\_\-\-Parser}}
+\subsubsection[{\-\_\-match\-\_\-pair}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-match\-\_\-pair (
+\begin{DoxyParamCaption}
+\item[{}]{\$string, }
+\item[{}]{\$variable}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___parser_aa7d5901782e2377f0657d27daeb188c7}
+Matches a variable pair
+
+private 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+
+
+Definition at line 198 of file Parser.\-php.
+
+\hypertarget{class_c_i___parser_a6bd5ad826db82a61de1f3a13031faaf9}{\index{C\-I\-\_\-\-Parser@{C\-I\-\_\-\-Parser}!\-\_\-parse@{\-\_\-parse}}
+\index{\-\_\-parse@{\-\_\-parse}!CI_Parser@{C\-I\-\_\-\-Parser}}
+\subsubsection[{\-\_\-parse}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-parse (
+\begin{DoxyParamCaption}
+\item[{}]{\$template, }
+\item[{}]{\$data, }
+\item[{}]{\$return = {\ttfamily FALSE}}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___parser_a6bd5ad826db82a61de1f3a13031faaf9}
+Parse a template
+
+Parses pseudo-\/variables contained in the specified template, replacing them with the data in the second param
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+{\em array} & \\
+\hline
+{\em bool} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 86 of file Parser.\-php.
+
+\hypertarget{class_c_i___parser_a3f01fef88e49c40d679e35dedf89a128}{\index{C\-I\-\_\-\-Parser@{C\-I\-\_\-\-Parser}!\-\_\-parse\-\_\-pair@{\-\_\-parse\-\_\-pair}}
+\index{\-\_\-parse\-\_\-pair@{\-\_\-parse\-\_\-pair}!CI_Parser@{C\-I\-\_\-\-Parser}}
+\subsubsection[{\-\_\-parse\-\_\-pair}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-parse\-\_\-pair (
+\begin{DoxyParamCaption}
+\item[{}]{\$variable, }
+\item[{}]{\$data, }
+\item[{}]{\$string}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___parser_a3f01fef88e49c40d679e35dedf89a128}
+Parse a tag pair
+
+Parses tag pairs\-: \{some\-\_\-tag\} string... \{/some\-\_\-tag\}
+
+private 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+{\em array} & \\
+\hline
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 159 of file Parser.\-php.
+
+\hypertarget{class_c_i___parser_a01c9bb8a5e8802a1b21acf829cc181e7}{\index{C\-I\-\_\-\-Parser@{C\-I\-\_\-\-Parser}!\-\_\-parse\-\_\-single@{\-\_\-parse\-\_\-single}}
+\index{\-\_\-parse\-\_\-single@{\-\_\-parse\-\_\-single}!CI_Parser@{C\-I\-\_\-\-Parser}}
+\subsubsection[{\-\_\-parse\-\_\-single}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-parse\-\_\-single (
+\begin{DoxyParamCaption}
+\item[{}]{\$key, }
+\item[{}]{\$val, }
+\item[{}]{\$string}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___parser_a01c9bb8a5e8802a1b21acf829cc181e7}
+Parse a single key/value
+
+private 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+{\em string} & \\
+\hline
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 141 of file Parser.\-php.
+
+\hypertarget{class_c_i___parser_aed3a838a4afdff95c4bf2b1fb5062cbd}{\index{C\-I\-\_\-\-Parser@{C\-I\-\_\-\-Parser}!parse@{parse}}
+\index{parse@{parse}!CI_Parser@{C\-I\-\_\-\-Parser}}
+\subsubsection[{parse}]{\setlength{\rightskip}{0pt plus 5cm}parse (
+\begin{DoxyParamCaption}
+\item[{}]{\$template, }
+\item[{}]{\$data, }
+\item[{}]{\$return = {\ttfamily FALSE}}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___parser_aed3a838a4afdff95c4bf2b1fb5062cbd}
+Parse a template
+
+Parses pseudo-\/variables contained in the specified template view, replacing them with the data in the second param
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+{\em array} & \\
+\hline
+{\em bool} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 45 of file Parser.\-php.
+
+\hypertarget{class_c_i___parser_a5cdfa809d6f2988d2741cb26b5a51d36}{\index{C\-I\-\_\-\-Parser@{C\-I\-\_\-\-Parser}!parse\-\_\-string@{parse\-\_\-string}}
+\index{parse\-\_\-string@{parse\-\_\-string}!CI_Parser@{C\-I\-\_\-\-Parser}}
+\subsubsection[{parse\-\_\-string}]{\setlength{\rightskip}{0pt plus 5cm}parse\-\_\-string (
+\begin{DoxyParamCaption}
+\item[{}]{\$template, }
+\item[{}]{\$data, }
+\item[{}]{\$return = {\ttfamily FALSE}}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___parser_a5cdfa809d6f2988d2741cb26b5a51d36}
+Parse a String
+
+Parses pseudo-\/variables contained in the specified string, replacing them with the data in the second param
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+{\em array} & \\
+\hline
+{\em bool} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 67 of file Parser.\-php.
+
+\hypertarget{class_c_i___parser_a1865a64fc2d5187c9898abd7239a565b}{\index{C\-I\-\_\-\-Parser@{C\-I\-\_\-\-Parser}!set\-\_\-delimiters@{set\-\_\-delimiters}}
+\index{set\-\_\-delimiters@{set\-\_\-delimiters}!CI_Parser@{C\-I\-\_\-\-Parser}}
+\subsubsection[{set\-\_\-delimiters}]{\setlength{\rightskip}{0pt plus 5cm}set\-\_\-delimiters (
+\begin{DoxyParamCaption}
+\item[{}]{\$l = {\ttfamily '\{'}, }
+\item[{}]{\$r = {\ttfamily '\}'}}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___parser_a1865a64fc2d5187c9898abd7239a565b}
+Set the left/right variable delimiters
+
+public 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 124 of file Parser.\-php.
+
+
+
+\subsection{Field Documentation}
+\hypertarget{class_c_i___parser_ab957da01a735e612795fba1c5802b1fb}{\index{C\-I\-\_\-\-Parser@{C\-I\-\_\-\-Parser}!\$l\-\_\-delim@{\$l\-\_\-delim}}
+\index{\$l\-\_\-delim@{\$l\-\_\-delim}!CI_Parser@{C\-I\-\_\-\-Parser}}
+\subsubsection[{\$l\-\_\-delim}]{\setlength{\rightskip}{0pt plus 5cm}\$l\-\_\-delim = '\{'}}\label{class_c_i___parser_ab957da01a735e612795fba1c5802b1fb}
+
+
+Definition at line 29 of file Parser.\-php.
+
+\hypertarget{class_c_i___parser_a52123b83a1952a68c5513e47d59ec4a6}{\index{C\-I\-\_\-\-Parser@{C\-I\-\_\-\-Parser}!\$object@{\$object}}
+\index{\$object@{\$object}!CI_Parser@{C\-I\-\_\-\-Parser}}
+\subsubsection[{\$object}]{\setlength{\rightskip}{0pt plus 5cm}\$object}}\label{class_c_i___parser_a52123b83a1952a68c5513e47d59ec4a6}
+
+
+Definition at line 31 of file Parser.\-php.
+
+\hypertarget{class_c_i___parser_a4d80dc6a622989846dbd0e39fde0f3bb}{\index{C\-I\-\_\-\-Parser@{C\-I\-\_\-\-Parser}!\$r\-\_\-delim@{\$r\-\_\-delim}}
+\index{\$r\-\_\-delim@{\$r\-\_\-delim}!CI_Parser@{C\-I\-\_\-\-Parser}}
+\subsubsection[{\$r\-\_\-delim}]{\setlength{\rightskip}{0pt plus 5cm}\$r\-\_\-delim = '\}'}}\label{class_c_i___parser_a4d80dc6a622989846dbd0e39fde0f3bb}
+
+
+Definition at line 30 of file Parser.\-php.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+system/libraries/\hyperlink{_parser_8php}{Parser.\-php}\end{DoxyCompactItemize}

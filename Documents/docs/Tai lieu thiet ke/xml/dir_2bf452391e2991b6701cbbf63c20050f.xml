@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_2bf452391e2991b6701cbbf63c20050f" kind="dir">
+    <compoundname>application/config</compoundname>
+    <innerdir refid="dir_aa3d03e39da9afc6d336ea3a1521fd4f">application/config/development</innerdir>
+    <innerdir refid="dir_06d49afa9885f32f45fc52b5b8f8a0e1">application/config/production</innerdir>
+    <innerfile refid="autoload_8php">autoload.php</innerfile>
+    <innerfile refid="application_2config_2config_8php">config.php</innerfile>
+    <innerfile refid="constants_8php">constants.php</innerfile>
+    <innerfile refid="doctypes_8php">doctypes.php</innerfile>
+    <innerfile refid="foreign__chars_8php">foreign_chars.php</innerfile>
+    <innerfile refid="application_2config_2hooks_8php">hooks.php</innerfile>
+    <innerfile refid="application_2config_2migration_8php">migration.php</innerfile>
+    <innerfile refid="mimes_8php">mimes.php</innerfile>
+    <innerfile refid="application_2config_2profiler_8php">profiler.php</innerfile>
+    <innerfile refid="routes_8php">routes.php</innerfile>
+    <innerfile refid="site__config_8php">site_config.php</innerfile>
+    <innerfile refid="smileys_8php">smileys.php</innerfile>
+    <innerfile refid="user__agents_8php">user_agents.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/config/"/>
+  </compounddef>
+</doxygen>

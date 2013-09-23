@@ -1,0 +1,249 @@
+\hypertarget{class_c_i___exceptions}{\section{C\-I\-\_\-\-Exceptions Class Reference}
+\label{class_c_i___exceptions}\index{C\-I\-\_\-\-Exceptions@{C\-I\-\_\-\-Exceptions}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_c_i___exceptions_a095c5d389db211932136b53f25f39685}{\-\_\-\-\_\-construct} ()
+\item 
+\hyperlink{class_c_i___exceptions_a477bd3360509887aeb6e0a56bcdcad2a}{log\-\_\-exception} (\$severity, \$message, \$filepath, \$line)
+\item 
+\hyperlink{class_c_i___exceptions_a7ec82c1b0d3bbeb9338f236a1755a2a5}{show\-\_\-404} (\$page= '', \$log\-\_\-error=T\-R\-U\-E)
+\item 
+\hyperlink{class_c_i___exceptions_af68ad4102f7a42f9aaf68c40afe6d02c}{show\-\_\-error} (\$heading, \$message, \$template= 'error\-\_\-general', \$status\-\_\-code=500)
+\item 
+\hyperlink{class_c_i___exceptions_a7962c30cacf1341dac1c44d8ab57cebe}{show\-\_\-php\-\_\-error} (\$severity, \$message, \$filepath, \$line)
+\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_c_i___exceptions_aa698a3e72116e8e778be0e95d908ee30}{\$action}
+\item 
+\hyperlink{class_c_i___exceptions_a85759894d444d7191251479d87eaf8c6}{\$severity}
+\item 
+\hyperlink{class_c_i___exceptions_abf17cb2dba2ed17cb28aa5f37deb5293}{\$message}
+\item 
+\hyperlink{class_c_i___exceptions_a0722441477f957078ee2437054556cbc}{\$filename}
+\item 
+\hyperlink{class_c_i___exceptions_a52f469b0182d9abac2d0f20548680c9c}{\$line}
+\item 
+\hyperlink{class_c_i___exceptions_abb6b6587dbaf0238bf26829c8df05d59}{\$ob\-\_\-level}
+\item 
+\hyperlink{class_c_i___exceptions_a1035dc0448354cc79f8f9e1ca8dfd0cb}{\$levels}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 27 of file Exceptions.\-php.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_c_i___exceptions_a095c5d389db211932136b53f25f39685}{\index{C\-I\-\_\-\-Exceptions@{C\-I\-\_\-\-Exceptions}!\-\_\-\-\_\-construct@{\-\_\-\-\_\-construct}}
+\index{\-\_\-\-\_\-construct@{\-\_\-\-\_\-construct}!CI_Exceptions@{C\-I\-\_\-\-Exceptions}}
+\subsubsection[{\-\_\-\-\_\-construct}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-\-\_\-construct (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___exceptions_a095c5d389db211932136b53f25f39685}
+Constructor 
+
+Definition at line 67 of file Exceptions.\-php.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_c_i___exceptions_a477bd3360509887aeb6e0a56bcdcad2a}{\index{C\-I\-\_\-\-Exceptions@{C\-I\-\_\-\-Exceptions}!log\-\_\-exception@{log\-\_\-exception}}
+\index{log\-\_\-exception@{log\-\_\-exception}!CI_Exceptions@{C\-I\-\_\-\-Exceptions}}
+\subsubsection[{log\-\_\-exception}]{\setlength{\rightskip}{0pt plus 5cm}log\-\_\-exception (
+\begin{DoxyParamCaption}
+\item[{}]{\$severity, }
+\item[{}]{\$message, }
+\item[{}]{\$filepath, }
+\item[{}]{\$line}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___exceptions_a477bd3360509887aeb6e0a56bcdcad2a}
+Exception Logger
+
+This function logs P\-H\-P generated error messages
+
+private 
+\begin{DoxyParams}{Parameters}
+{\em string} & the error severity \\
+\hline
+{\em string} & the error string \\
+\hline
+{\em string} & the error filepath \\
+\hline
+{\em string} & the error line number \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 87 of file Exceptions.\-php.
+
+\hypertarget{class_c_i___exceptions_a7ec82c1b0d3bbeb9338f236a1755a2a5}{\index{C\-I\-\_\-\-Exceptions@{C\-I\-\_\-\-Exceptions}!show\-\_\-404@{show\-\_\-404}}
+\index{show\-\_\-404@{show\-\_\-404}!CI_Exceptions@{C\-I\-\_\-\-Exceptions}}
+\subsubsection[{show\-\_\-404}]{\setlength{\rightskip}{0pt plus 5cm}show\-\_\-404 (
+\begin{DoxyParamCaption}
+\item[{}]{\$page = {\ttfamily ''}, }
+\item[{}]{\$log\-\_\-error = {\ttfamily TRUE}}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___exceptions_a7ec82c1b0d3bbeb9338f236a1755a2a5}
+404 Page Not Found Handler
+
+private 
+\begin{DoxyParams}{Parameters}
+{\em string} & the page \\
+\hline
+{\em bool} & log error yes/no \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 104 of file Exceptions.\-php.
+
+\hypertarget{class_c_i___exceptions_af68ad4102f7a42f9aaf68c40afe6d02c}{\index{C\-I\-\_\-\-Exceptions@{C\-I\-\_\-\-Exceptions}!show\-\_\-error@{show\-\_\-error}}
+\index{show\-\_\-error@{show\-\_\-error}!CI_Exceptions@{C\-I\-\_\-\-Exceptions}}
+\subsubsection[{show\-\_\-error}]{\setlength{\rightskip}{0pt plus 5cm}show\-\_\-error (
+\begin{DoxyParamCaption}
+\item[{}]{\$heading, }
+\item[{}]{\$message, }
+\item[{}]{\$template = {\ttfamily 'error\-\_\-general'}, }
+\item[{}]{\$status\-\_\-code = {\ttfamily 500}}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___exceptions_af68ad4102f7a42f9aaf68c40afe6d02c}
+General Error Page
+
+This function takes an error message as input (either as a string or an array) and displays it using the specified template.
+
+private 
+\begin{DoxyParams}{Parameters}
+{\em string} & the heading \\
+\hline
+{\em string} & the message \\
+\hline
+{\em string} & the template name \\
+\hline
+{\em int} & the status code \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 135 of file Exceptions.\-php.
+
+\hypertarget{class_c_i___exceptions_a7962c30cacf1341dac1c44d8ab57cebe}{\index{C\-I\-\_\-\-Exceptions@{C\-I\-\_\-\-Exceptions}!show\-\_\-php\-\_\-error@{show\-\_\-php\-\_\-error}}
+\index{show\-\_\-php\-\_\-error@{show\-\_\-php\-\_\-error}!CI_Exceptions@{C\-I\-\_\-\-Exceptions}}
+\subsubsection[{show\-\_\-php\-\_\-error}]{\setlength{\rightskip}{0pt plus 5cm}show\-\_\-php\-\_\-error (
+\begin{DoxyParamCaption}
+\item[{}]{\$severity, }
+\item[{}]{\$message, }
+\item[{}]{\$filepath, }
+\item[{}]{\$line}
+\end{DoxyParamCaption}
+)}}\label{class_c_i___exceptions_a7962c30cacf1341dac1c44d8ab57cebe}
+Native P\-H\-P error handler
+
+private 
+\begin{DoxyParams}{Parameters}
+{\em string} & the error severity \\
+\hline
+{\em string} & the error string \\
+\hline
+{\em string} & the error filepath \\
+\hline
+{\em string} & the error line number \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 164 of file Exceptions.\-php.
+
+
+
+\subsection{Field Documentation}
+\hypertarget{class_c_i___exceptions_aa698a3e72116e8e778be0e95d908ee30}{\index{C\-I\-\_\-\-Exceptions@{C\-I\-\_\-\-Exceptions}!\$action@{\$action}}
+\index{\$action@{\$action}!CI_Exceptions@{C\-I\-\_\-\-Exceptions}}
+\subsubsection[{\$action}]{\setlength{\rightskip}{0pt plus 5cm}\$action}}\label{class_c_i___exceptions_aa698a3e72116e8e778be0e95d908ee30}
+
+
+Definition at line 28 of file Exceptions.\-php.
+
+\hypertarget{class_c_i___exceptions_a0722441477f957078ee2437054556cbc}{\index{C\-I\-\_\-\-Exceptions@{C\-I\-\_\-\-Exceptions}!\$filename@{\$filename}}
+\index{\$filename@{\$filename}!CI_Exceptions@{C\-I\-\_\-\-Exceptions}}
+\subsubsection[{\$filename}]{\setlength{\rightskip}{0pt plus 5cm}\$filename}}\label{class_c_i___exceptions_a0722441477f957078ee2437054556cbc}
+
+
+Definition at line 31 of file Exceptions.\-php.
+
+\hypertarget{class_c_i___exceptions_a1035dc0448354cc79f8f9e1ca8dfd0cb}{\index{C\-I\-\_\-\-Exceptions@{C\-I\-\_\-\-Exceptions}!\$levels@{\$levels}}
+\index{\$levels@{\$levels}!CI_Exceptions@{C\-I\-\_\-\-Exceptions}}
+\subsubsection[{\$levels}]{\setlength{\rightskip}{0pt plus 5cm}\$levels}}\label{class_c_i___exceptions_a1035dc0448354cc79f8f9e1ca8dfd0cb}
+{\bfseries Initial value\-:}
+\begin{DoxyCode}
+= array(
+                        E\_ERROR             =>  \textcolor{stringliteral}{'Error'},
+                        E\_WARNING           =>  \textcolor{stringliteral}{'Warning'},
+                        E\_PARSE             =>  \textcolor{stringliteral}{'Parsing Error'},
+                        E\_NOTICE            =>  \textcolor{stringliteral}{'Notice'},
+                        E\_CORE\_ERROR        =>  \textcolor{stringliteral}{'Core Error'},
+                        E\_CORE\_WARNING      =>  \textcolor{stringliteral}{'Core Warning'},
+                        E\_COMPILE\_ERROR     =>  \textcolor{stringliteral}{'Compile Error'},
+                        E\_COMPILE\_WARNING   =>  \textcolor{stringliteral}{'Compile Warning'},
+                        E\_USER\_ERROR        =>  \textcolor{stringliteral}{'User Error'},
+                        E\_USER\_WARNING      =>  \textcolor{stringliteral}{'User Warning'},
+                        E\_USER\_NOTICE       =>  \textcolor{stringliteral}{'User Notice'},
+                        E\_STRICT            =>  \textcolor{stringliteral}{'Runtime Notice'}
+                    )
+\end{DoxyCode}
+
+
+Definition at line 48 of file Exceptions.\-php.
+
+\hypertarget{class_c_i___exceptions_a52f469b0182d9abac2d0f20548680c9c}{\index{C\-I\-\_\-\-Exceptions@{C\-I\-\_\-\-Exceptions}!\$line@{\$line}}
+\index{\$line@{\$line}!CI_Exceptions@{C\-I\-\_\-\-Exceptions}}
+\subsubsection[{\$line}]{\setlength{\rightskip}{0pt plus 5cm}\$line}}\label{class_c_i___exceptions_a52f469b0182d9abac2d0f20548680c9c}
+
+
+Definition at line 32 of file Exceptions.\-php.
+
+\hypertarget{class_c_i___exceptions_abf17cb2dba2ed17cb28aa5f37deb5293}{\index{C\-I\-\_\-\-Exceptions@{C\-I\-\_\-\-Exceptions}!\$message@{\$message}}
+\index{\$message@{\$message}!CI_Exceptions@{C\-I\-\_\-\-Exceptions}}
+\subsubsection[{\$message}]{\setlength{\rightskip}{0pt plus 5cm}\$message}}\label{class_c_i___exceptions_abf17cb2dba2ed17cb28aa5f37deb5293}
+
+
+Definition at line 30 of file Exceptions.\-php.
+
+\hypertarget{class_c_i___exceptions_abb6b6587dbaf0238bf26829c8df05d59}{\index{C\-I\-\_\-\-Exceptions@{C\-I\-\_\-\-Exceptions}!\$ob\-\_\-level@{\$ob\-\_\-level}}
+\index{\$ob\-\_\-level@{\$ob\-\_\-level}!CI_Exceptions@{C\-I\-\_\-\-Exceptions}}
+\subsubsection[{\$ob\-\_\-level}]{\setlength{\rightskip}{0pt plus 5cm}\$ob\-\_\-level}}\label{class_c_i___exceptions_abb6b6587dbaf0238bf26829c8df05d59}
+
+
+Definition at line 40 of file Exceptions.\-php.
+
+\hypertarget{class_c_i___exceptions_a85759894d444d7191251479d87eaf8c6}{\index{C\-I\-\_\-\-Exceptions@{C\-I\-\_\-\-Exceptions}!\$severity@{\$severity}}
+\index{\$severity@{\$severity}!CI_Exceptions@{C\-I\-\_\-\-Exceptions}}
+\subsubsection[{\$severity}]{\setlength{\rightskip}{0pt plus 5cm}\$severity}}\label{class_c_i___exceptions_a85759894d444d7191251479d87eaf8c6}
+
+
+Definition at line 29 of file Exceptions.\-php.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+system/core/\hyperlink{_exceptions_8php}{Exceptions.\-php}\end{DoxyCompactItemize}

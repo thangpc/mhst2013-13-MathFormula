@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_migration___create__users" kind="class" prot="public">
+    <compoundname>Migration_Create_users</compoundname>
+    <basecompoundref refid="class_c_i___migration" prot="public" virt="non-virtual">CI_Migration</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_migration___create__users_1a4edef5efd5ab94ce9d17295898ead93a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>up</definition>
+        <argsstring>()</argsstring>
+        <name>up</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/migrations/001_create_users.php" line="5" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/migrations/001_create_users.php" bodystart="5" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_migration___create__users_1af5fda92f47a449c7a33f9dd5ef5aa6c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>down</definition>
+        <argsstring>()</argsstring>
+        <name>down</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/migrations/001_create_users.php" line="51" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/migrations/001_create_users.php" bodystart="51" bodyend="54"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="433">
+        <label>Migration_Create_users</label>
+        <link refid="class_migration___create__users"/>
+        <childnode refid="434" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="434">
+        <label>CI_Migration</label>
+        <link refid="class_c_i___migration"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="435">
+        <label>Migration_Create_users</label>
+        <link refid="class_migration___create__users"/>
+        <childnode refid="436" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="436">
+        <label>CI_Migration</label>
+        <link refid="class_c_i___migration"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/migrations/001_create_users.php" line="3" column="1" bodyfile="C:/Users/Pham Chien Thang/Downloads/mhst2013-13-MathFormula-master (1)/mhst2013-13-MathFormula-master/SourceCode/pastebyme.com/application/migrations/001_create_users.php" bodystart="3" bodyend="55"/>
+    <listofallmembers>
+      <member refid="class_c_i___migration_1a2574ed23c2ed6d71d6e8396f0c4fde0f" prot="protected" virt="non-virtual"><scope>Migration_Create_users</scope><name>$_error_string</name></member>
+      <member refid="class_c_i___migration_1a4ab2a6819f2d038b7ad2faa0a09161d1" prot="protected" virt="non-virtual"><scope>Migration_Create_users</scope><name>$_migration_enabled</name></member>
+      <member refid="class_c_i___migration_1a47cd630e42ae345f6e6ebe4235612a2e" prot="protected" virt="non-virtual"><scope>Migration_Create_users</scope><name>$_migration_path</name></member>
+      <member refid="class_c_i___migration_1a6bffbb1001557bd7ffb22183b51f589d" prot="protected" virt="non-virtual"><scope>Migration_Create_users</scope><name>$_migration_version</name></member>
+      <member refid="class_c_i___migration_1af7f9493844d2d66e924e3c1df51ce616" prot="public" virt="non-virtual"><scope>Migration_Create_users</scope><name>__construct</name></member>
+      <member refid="class_c_i___migration_1a8fb2d9cdca17b87400e780b9f9720933" prot="public" virt="non-virtual"><scope>Migration_Create_users</scope><name>__get</name></member>
+      <member refid="class_c_i___migration_1a1de42592aaef750bc3782e873b1b6d5f" prot="protected" virt="non-virtual"><scope>Migration_Create_users</scope><name>_get_version</name></member>
+      <member refid="class_c_i___migration_1a1247aace04c0d103e56b7066f5212eb3" prot="protected" virt="non-virtual"><scope>Migration_Create_users</scope><name>_update_version</name></member>
+      <member refid="class_c_i___migration_1af343507d1926e6ecf964625d41db528c" prot="public" virt="non-virtual"><scope>Migration_Create_users</scope><name>current</name></member>
+      <member refid="class_migration___create__users_1af5fda92f47a449c7a33f9dd5ef5aa6c3" prot="public" virt="non-virtual"><scope>Migration_Create_users</scope><name>down</name></member>
+      <member refid="class_c_i___migration_1aad434fa9bec99e30d6a86beb5c2607df" prot="public" virt="non-virtual"><scope>Migration_Create_users</scope><name>error_string</name></member>
+      <member refid="class_c_i___migration_1a6581e916a05e39e46c09fe9878b2d93a" prot="protected" virt="non-virtual"><scope>Migration_Create_users</scope><name>find_migrations</name></member>
+      <member refid="class_c_i___migration_1a23502a9f08bfc74caf3914113d11db2b" prot="public" virt="non-virtual"><scope>Migration_Create_users</scope><name>latest</name></member>
+      <member refid="class_migration___create__users_1a4edef5efd5ab94ce9d17295898ead93a" prot="public" virt="non-virtual"><scope>Migration_Create_users</scope><name>up</name></member>
+      <member refid="class_c_i___migration_1a9192bce789e541754ba481dfec6bb39a" prot="public" virt="non-virtual"><scope>Migration_Create_users</scope><name>version</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
