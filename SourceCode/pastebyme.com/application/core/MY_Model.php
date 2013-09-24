@@ -83,5 +83,6 @@ class MY_Model extends CI_Model {
 		$this->db->where($this->_primary_key, $id);
 		$this->db->limit(1);
 		$this->db->delete($this->_table_name);
+		return TRUE;
 	}
 }

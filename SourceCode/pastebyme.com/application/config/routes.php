@@ -74,5 +74,8 @@ $route['admin'] = "admin/dashboard/index";
 $route['admin/login'] = "admin/user/login";
 $route['admin/logout'] = "admin/user/logout";
 
+$route['admin/formula'] = "admin/formula/index/1";
+$route['admin/formula/(:any)'] = "admin/formula/index/$1";
+$route['admin/formula/delete'] = "admin/formula/delete";
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

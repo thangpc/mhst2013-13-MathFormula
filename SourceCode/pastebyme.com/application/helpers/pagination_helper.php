@@ -10,7 +10,7 @@ if ( ! function_exists('pagination')) {
     	$config['per_page'] = $per_page;
     	$config['uri_segment'] = $uri_segment;
     	$config['num_links'] = round($total_rows / $per_page);
-		$config['full_tag_open'] = '<div class="pagination"><ul class="pagination-digg">';
+		$config['full_tag_open'] = '<div class="paginations"><ul class="pagination">';
 		$config['full_tag_close'] = '</ul></div><!--pagination-->';
 		$config['use_page_numbers'] = TRUE;
 		$config['first_link'] = 'First';
@@ -33,8 +33,8 @@ if ( ! function_exists('pagination')) {
 		$config['prev_tag_close'] = '</li>';
 
 		// Current Link
-		$config['cur_tag_open'] = '<li class="active">';
-		$config['cur_tag_close'] = '</li>';
+		$config['cur_tag_open'] = '<li class="active"><span>';
+		$config['cur_tag_close'] = '</span></li>';
 
 		// Digit Link
 		$config['num_tag_open'] = '<li>';

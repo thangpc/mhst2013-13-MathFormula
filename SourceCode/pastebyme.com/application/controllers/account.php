@@ -29,7 +29,7 @@ class Account extends Frontend_Controller {
     */
 	public function login() {
 
-    	$this->user_model->loggedin('user') != 'public' || redirect('home', 'refresh');      
+    	$this->user_model->loggedin('user') != 'public' || redirect('home', 'refresh');
         $this->data['title_page'] = "Login account";
 		$this->data['content_view'] = 'account/login';
 		$this->load->view('_layout', $this->data);

@@ -510,12 +510,12 @@ min-width: 1cm;
 	height:28px
 	}
 
-	.pagination {
+	.paginations {
 		clear: both;
 		margin-bottom: 25px;
 	}
 	
-	.pagination-digg li{
+	.pagination li{
 		border: 0;
 		margin: 0; 
 		padding: 0;
@@ -525,11 +525,11 @@ min-width: 1cm;
 		margin-right: 10px;
 
 	}
-	.pagination-digg a{
+	.pagination a{
 		border:solid 1px #c6baa4;
 		margin-right: 10px;
 	}
-	.pagination-digg .previous-off, .pagination-digg .next-off {
+	.pagination .previous-off, .pagination .next-off {
 		border:solid 1px #c6baa4;
 		color:#222222;
 		display:block;
@@ -538,10 +538,10 @@ min-width: 1cm;
 		margin-right: 5px;
 		padding:3px 4px;
 	}
-	.pagination-digg .next a, .pagination-digg .previous a {
+	.pagination .next a, .pagination .previous a {
 		font-weight:bold;
 	}
-	.pagination-digg .active{
+	.pagination .active{
 		background:#c6baa4;
 		color:#FFFFFF;
 		font-weight:bold;
@@ -549,13 +549,13 @@ min-width: 1cm;
 		float:left;
 		padding: 6px 12px;
 	}
-	.pagination-digg a:link, .pagination-digg a:visited {
+	.pagination a:link, .pagination a:visited {
 		color: #222222;
 		display: block;
 		float: left;
 		padding: 5px 10px;
 		text-decoration: none;
 	}
-	.pagination-digg a:hover{
+	.pagination a:hover{
 		border:solid 1px #222222
 	}
