@@ -77,5 +77,13 @@ $route['admin/logout'] = "admin/user/logout";
 $route['admin/formula'] = "admin/formula/index/1";
 $route['admin/formula/(:any)'] = "admin/formula/index/$1";
 $route['admin/formula/delete'] = "admin/formula/delete";
+
+$route['admin/user/'] = "admin/user/index/all/1/";
+$route['admin/user/(:any)'] = "admin/user/index/$1/1/";
+$route['admin/user/(:any)/(:any)'] = "admin/user/index/$1/$2";
+$route['admin/user/delete'] = "admin/user/delete";
+$route['admin/user/block'] = "admin/user/block";
+$route['admin/user/set-admin'] = "admin/user/setAdmin";
+$route['admin/user/change-passs'] = "admin/user/changePass";
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

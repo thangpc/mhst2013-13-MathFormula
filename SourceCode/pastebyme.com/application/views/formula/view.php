@@ -21,17 +21,17 @@
 				<a class="down" target="_blank" href="http://latex.numberempire.com/render?<?php echo $latex; ?>">Download this image</a><br>
 				<b>Latex raw :</b> 
 				<span class="latex-raw">
-					<input readonly value="<?php echo $latex; ?>">
+					<input onclick="this.select()" readonly value="<?php echo $latex; ?>">
 				</span>
 				<br>
 				<b>Link image:</b> 
 				<span class="linkimage">
-					<input readonly value="http://latex.numberempire.com/render?<?php echo $latex; ?>">
+					<input onclick="this.select()" readonly value="http://latex.numberempire.com/render?<?php echo $latex; ?>">
 				</span>
 				<br>
 				<b>Embed to forum:</b> 
 				<span class="embedtoforum">
-					<input readonly value="[IMG]http://latex.numberempire.com/render?<?php echo $latex; ?>[/IMG]">
+					<input onclick="this.select()" readonly value="[IMG]http://latex.numberempire.com/render?<?php echo $latex; ?>[/IMG]">
 				</span>
 				<pre id="html-source" style="display: none"></pre>
 				<?php
@@ -55,7 +55,7 @@
 		</div>
 		<div style="margin: 0px auto; margin-top: 15px; width: 760px;">
 			<!-- facebook comment -->
-			<div class="fb-comments" data-href="http://pastebyme.com" data-width="750"></div>
+			<div class="fb-comments" data-href="<?php echo site_url(uri_string()) ?>" data-width="750"></div>
 		</div>
 	</div>
 </div>

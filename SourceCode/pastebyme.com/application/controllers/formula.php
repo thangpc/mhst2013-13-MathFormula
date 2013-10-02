@@ -22,7 +22,7 @@ class Formula extends Frontend_Controller {
 			$time_post_formula = $this->session->userdata['time_post_formula'];
 		else $time_post_formula = 0;
 				
-		$max_time = 15;
+		$max_time = 30;
 		$login = 1;
 		if ($this->user_model->loggedin('user') != 'public') {
 			$max_time = 60;

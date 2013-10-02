@@ -9,7 +9,7 @@
         <link type="text/css" rel="stylesheet" charset="UTF-8" href="<?php echo base_url(); ?>public_html/css/admin.css" />
         <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>public_html/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>public_html/css/bootstrap-theme.min.css">
-		<script type="text/javascript" src="<?php echo base_url(); ?>public_html/js/jquery.min.js"></script>
+		<script type="text/javascript" src="<?php echo base_url(); ?>public_html/js/jquery-1.10.min.js"></script>
 		<script type="text/javascript" src="<?php echo base_url(); ?>public_html/js/bootstrap.min.js"></script>		
 		<script type="text/javascript">
 			PUBLIC_URL = '<?php echo base_url(); ?>';

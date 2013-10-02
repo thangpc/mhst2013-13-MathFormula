@@ -8,9 +8,12 @@ class Formula extends Admin_Controller {
 		$this->load->model('formula_model');
 	}
 
-	/**
-	* list all formula
-	**/
+	/*
+        @author: trunghieuhf@gmail.com
+        @description: list all formulas
+        @route: admin/formula/
+        @return View
+    */
 	public function index($page = 1) {
 		
 		$this->load->library('pagination');
@@ -50,6 +53,12 @@ class Formula extends Admin_Controller {
 		$this->load->view('admin/_layout', $this->data);
 	}
 
+	/*
+        @author: trunghieuhf@gmail.com
+        @description: delete formula
+        @route: admin/formula/delete
+        @return JSON
+    */
 	public function delete() {		
 		$this->user_model->loggedin('user') != 'admin' || redirect('home', 'refresh');
 		$aid = $this->input->post('aid');
